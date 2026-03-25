@@ -6,8 +6,12 @@
 
 ## Referências importadas
 
-### Cantors 1891 Diagonal Proof
-- **URL:** https://jamesrmeyer.com/infinite/cantors-original-1891-proof
+### Computational Complexity - Papadimitriou.pdf
+- **URL:** http://103.203.175.90:81/fdScript/RootOfEBooks/E%20Book%20collection%20-%202023%20-%20E/CSE%20ITAIDSML/Computational%20Complexity%20-%20Papadimitriou.pdf
+- **Incluir no bundle:** sim
+
+### SEL4 Systems
+- **URL:** https://sel4.systems/
 - **Incluir no bundle:** sim
 
 ## Mapa de relevância por tópico

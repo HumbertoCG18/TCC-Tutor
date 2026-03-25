@@ -936,7 +936,17 @@
       "entry": "cantors-1891-diagonal-proof-b67952",
       "step": "curator_reject",
       "status": "ok"
+    },
+    {
+      "entry": "computational-complexity-papadimitrioupdf-16063a",
+      "step": "url_fetch",
+      "status": "ok"
+    },
+    {
+      "entry": "sel4-systems-7d70e6",
+      "step": "url_fetch",
+      "status": "ok"
     }
   ],
-  "updated_at": "2026-03-25T10:28:43"
+  "updated_at": "2026-03-25T16:21:59"
 }
