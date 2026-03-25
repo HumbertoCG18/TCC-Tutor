@@ -1,0 +1,942 @@
+{
+  "app": "Academic Tutor Repo Builder V3",
+  "generated_at": "2026-03-25T00:37:32",
+  "course": {
+    "course_name": "Teoria da Computabilidade e Complexidade",
+    "course_slug": "teoria-da-computabilidade-e-complexidade",
+    "semester": "6",
+    "professor": "Anderson Roberto Pinheiro",
+    "institution": "PUCRS"
+  },
+  "options": {
+    "default_processing_mode": "auto",
+    "default_ocr_language": "por,eng",
+    "image_format": "png",
+    "stall_timeout": 600
+  },
+  "environment": {
+    "python": "3.11.9",
+    "pymupdf": true,
+    "pymupdf4llm": true,
+    "pdfplumber": true,
+    "docling_cli": true,
+    "marker_cli": true
+  },
+  "entries": [
+    {
+      "id": "revisão-alfabeto-cadeia-linguagem-hierarquia-de-chomsky-lemas-e-propriedades-de-autômatos",
+      "title": "Revisão Alfabeto, Cadeia, Linguagem, Hierarquia De Chomsky, Lemas E Propriedades De Autômatos",
+      "category": "material-de-aula",
+      "file_type": "pdf",
+      "source_path": "C:/Users/Humberto/Downloads/TCC/Revisão Alfabeto, Cadeia, Linguagem, Hierarquia de Chomsky, Lemas e Propriedades de Autômatos.pdf",
+      "tags": "",
+      "notes": "",
+      "professor_signal": "",
+      "include_in_bundle": true,
+      "relevant_for_exam": true,
+      "processing_mode": "high_fidelity",
+      "document_profile": "math_heavy",
+      "preferred_backend": "marker",
+      "raw_target": "raw/pdfs/material-de-aula/revisão-alfabeto-cadeia-linguagem-hierarquia-de-chomsky-lemas-e-propriedades-de-autômatos.pdf",
+      "document_report": {
+        "page_count": 47,
+        "text_chars": 24711,
+        "images_count": 48,
+        "table_candidates": 2,
+        "text_density": 525.77,
+        "suspected_scan": false,
+        "suggested_profile": "math_heavy",
+        "notes": [
+          "Perfil definido manualmente pelo usuário."
+        ]
+      },
+      "pipeline_decision": {
+        "entry_id": "revisão-alfabeto-cadeia-linguagem-hierarquia-de-chomsky-lemas-e-propriedades-de-autômatos",
+        "processing_mode": "high_fidelity",
+        "effective_profile": "math_heavy",
+        "base_backend": "pymupdf4llm",
+        "advanced_backend": "marker",
+        "reasons": [
+          "Backend preferido manualmente: marker.",
+          "Documento math_heavy pede backend avançado com enrich-formula."
+        ]
+      },
+      "base_markdown": null,
+      "advanced_markdown": null,
+      "advanced_backend": "marker",
+      "base_backend": "pymupdf4llm",
+      "images_dir": "staging/assets/images/revisão-alfabeto-cadeia-linguagem-hierarquia-de-chomsky-lemas-e-propriedades-de-autômatos",
+      "tables_dir": "staging/assets/tables/revisão-alfabeto-cadeia-linguagem-hierarquia-de-chomsky-lemas-e-propriedades-de-autômatos",
+      "table_detection_dir": "staging/assets/table-detections/revisão-alfabeto-cadeia-linguagem-hierarquia-de-chomsky-lemas-e-propriedades-de-autômatos",
+      "manual_review": null,
+      "effective_profile": "math_heavy",
+      "advanced_asset_dir": "staging/markdown-auto/marker/revisão-alfabeto-cadeia-linguagem-hierarquia-de-chomsky-lemas-e-propriedades-de-autômatos",
+      "advanced_metadata_path": "staging/markdown-auto/marker/revisão-alfabeto-cadeia-linguagem-hierarquia-de-chomsky-lemas-e-propriedades-de-autômatos/marker-run.json",
+      "approved_markdown": "content/curated/revisão-alfabeto-cadeia-linguagem-hierarquia-de-chomsky-lemas-e-propriedades-de-autômatos.md",
+      "curated_markdown": "content/curated/revisão-alfabeto-cadeia-linguagem-hierarquia-de-chomsky-lemas-e-propriedades-de-autômatos.md",
+      "approved_source_markdown": "staging/markdown-auto/marker/revisão-alfabeto-cadeia-linguagem-hierarquia-de-chomsky-lemas-e-propriedades-de-autômatos/revisão-alfabeto-cadeia-linguagem-hierarquia-de-chomsky-lemas-e-propriedades-de-autômatos/revisão-alfabeto-cadeia-linguagem-hierarquia-de-chomsky-lemas-e-propriedades-de-autômatos.md",
+      "approved_at": "2026-03-25T10:27:46",
+      "review_status": "approved"
+    },
+    {
+      "id": "enunciado-t1",
+      "title": "Enunciado T1[",
+      "category": "trabalhos",
+      "file_type": "pdf",
+      "source_path": "C:/Users/Humberto/Downloads/TCC/Enunciado T1[.pdf",
+      "tags": "",
+      "notes": "",
+      "professor_signal": "",
+      "include_in_bundle": true,
+      "relevant_for_exam": true,
+      "processing_mode": "high_fidelity",
+      "document_profile": "math_heavy",
+      "preferred_backend": "marker",
+      "raw_target": "raw/pdfs/trabalhos/enunciado-t1.pdf",
+      "document_report": {
+        "page_count": 1,
+        "text_chars": 1811,
+        "images_count": 0,
+        "table_candidates": 0,
+        "text_density": 1811.0,
+        "suspected_scan": false,
+        "suggested_profile": "math_heavy",
+        "notes": [
+          "Perfil definido manualmente pelo usuário."
+        ]
+      },
+      "pipeline_decision": {
+        "entry_id": "enunciado-t1",
+        "processing_mode": "high_fidelity",
+        "effective_profile": "math_heavy",
+        "base_backend": "pymupdf4llm",
+        "advanced_backend": "marker",
+        "reasons": [
+          "Backend preferido manualmente: marker.",
+          "Documento math_heavy pede backend avançado com enrich-formula."
+        ]
+      },
+      "base_markdown": null,
+      "advanced_markdown": null,
+      "advanced_backend": "marker",
+      "base_backend": "pymupdf4llm",
+      "images_dir": "staging/assets/images/enunciado-t1",
+      "tables_dir": "staging/assets/tables/enunciado-t1",
+      "table_detection_dir": "staging/assets/table-detections/enunciado-t1",
+      "manual_review": null,
+      "effective_profile": "math_heavy",
+      "advanced_asset_dir": "staging/markdown-auto/marker/enunciado-t1",
+      "advanced_metadata_path": "staging/markdown-auto/marker/enunciado-t1/marker-run.json",
+      "approved_markdown": "content/curated/enunciado-t1.md",
+      "curated_markdown": "content/curated/enunciado-t1.md",
+      "approved_source_markdown": "staging/markdown-auto/marker/enunciado-t1/enunciado-t1/enunciado-t1.md",
+      "approved_at": "2026-03-25T10:27:36",
+      "review_status": "approved"
+    },
+    {
+      "id": "aula-05-minimização-de-funções-recursivas-parciais",
+      "title": "Aula 05 Minimização De Funções Recursivas Parciais",
+      "category": "material-de-aula",
+      "file_type": "pdf",
+      "source_path": "C:/Users/Humberto/Downloads/TCC/Aula 05 - Minimização de Funções Recursivas Parciais.pdf",
+      "tags": "",
+      "notes": "",
+      "professor_signal": "",
+      "include_in_bundle": true,
+      "relevant_for_exam": true,
+      "processing_mode": "high_fidelity",
+      "document_profile": "math_heavy",
+      "preferred_backend": "marker",
+      "raw_target": "raw/pdfs/material-de-aula/aula-05-minimização-de-funções-recursivas-parciais.pdf",
+      "document_report": {
+        "page_count": 30,
+        "text_chars": 16993,
+        "images_count": 31,
+        "table_candidates": 0,
+        "text_density": 566.43,
+        "suspected_scan": false,
+        "suggested_profile": "math_heavy",
+        "notes": [
+          "Perfil definido manualmente pelo usuário."
+        ]
+      },
+      "pipeline_decision": {
+        "entry_id": "aula-05-minimização-de-funções-recursivas-parciais",
+        "processing_mode": "high_fidelity",
+        "effective_profile": "math_heavy",
+        "base_backend": "pymupdf4llm",
+        "advanced_backend": "marker",
+        "reasons": [
+          "Backend preferido manualmente: marker.",
+          "Documento math_heavy pede backend avançado com enrich-formula."
+        ]
+      },
+      "base_markdown": null,
+      "advanced_markdown": null,
+      "advanced_backend": "marker",
+      "base_backend": "pymupdf4llm",
+      "images_dir": "staging/assets/images/aula-05-minimização-de-funções-recursivas-parciais",
+      "tables_dir": "staging/assets/tables/aula-05-minimização-de-funções-recursivas-parciais",
+      "table_detection_dir": "staging/assets/table-detections/aula-05-minimização-de-funções-recursivas-parciais",
+      "manual_review": null,
+      "effective_profile": "math_heavy",
+      "advanced_asset_dir": "staging/markdown-auto/marker/aula-05-minimização-de-funções-recursivas-parciais",
+      "advanced_metadata_path": "staging/markdown-auto/marker/aula-05-minimização-de-funções-recursivas-parciais/marker-run.json",
+      "approved_markdown": "content/curated/aula-05-minimização-de-funções-recursivas-parciais.md",
+      "curated_markdown": "content/curated/aula-05-minimização-de-funções-recursivas-parciais.md",
+      "approved_source_markdown": "staging/markdown-auto/marker/aula-05-minimização-de-funções-recursivas-parciais/aula-05-minimização-de-funções-recursivas-parciais/aula-05-minimização-de-funções-recursivas-parciais.md",
+      "approved_at": "2026-03-25T10:26:51",
+      "review_status": "approved"
+    },
+    {
+      "id": "aula-04-funções-computáveis-funções-recursivas-parciais",
+      "title": "Aula 04 Funções Computáveis Funções Recursivas Parciais",
+      "category": "material-de-aula",
+      "file_type": "pdf",
+      "source_path": "C:/Users/Humberto/Downloads/TCC/Aula 04  Funções Computáveis Funções Recursivas Parciais .pdf",
+      "tags": "",
+      "notes": "",
+      "professor_signal": "",
+      "include_in_bundle": true,
+      "relevant_for_exam": true,
+      "processing_mode": "high_fidelity",
+      "document_profile": "math_heavy",
+      "preferred_backend": "marker",
+      "raw_target": "raw/pdfs/material-de-aula/aula-04-funções-computáveis-funções-recursivas-parciais.pdf",
+      "document_report": {
+        "page_count": 32,
+        "text_chars": 19837,
+        "images_count": 33,
+        "table_candidates": 0,
+        "text_density": 619.91,
+        "suspected_scan": false,
+        "suggested_profile": "math_heavy",
+        "notes": [
+          "Perfil definido manualmente pelo usuário."
+        ]
+      },
+      "pipeline_decision": {
+        "entry_id": "aula-04-funções-computáveis-funções-recursivas-parciais",
+        "processing_mode": "high_fidelity",
+        "effective_profile": "math_heavy",
+        "base_backend": "pymupdf4llm",
+        "advanced_backend": "marker",
+        "reasons": [
+          "Backend preferido manualmente: marker.",
+          "Documento math_heavy pede backend avançado com enrich-formula."
+        ]
+      },
+      "base_markdown": null,
+      "advanced_markdown": null,
+      "advanced_backend": "marker",
+      "base_backend": "pymupdf4llm",
+      "images_dir": "staging/assets/images/aula-04-funções-computáveis-funções-recursivas-parciais",
+      "tables_dir": "staging/assets/tables/aula-04-funções-computáveis-funções-recursivas-parciais",
+      "table_detection_dir": "staging/assets/table-detections/aula-04-funções-computáveis-funções-recursivas-parciais",
+      "manual_review": null,
+      "effective_profile": "math_heavy",
+      "advanced_asset_dir": "staging/markdown-auto/marker/aula-04-funções-computáveis-funções-recursivas-parciais",
+      "advanced_metadata_path": "staging/markdown-auto/marker/aula-04-funções-computáveis-funções-recursivas-parciais/marker-run.json",
+      "approved_markdown": "content/curated/aula-04-funções-computáveis-funções-recursivas-parciais.md",
+      "curated_markdown": "content/curated/aula-04-funções-computáveis-funções-recursivas-parciais.md",
+      "approved_source_markdown": "staging/markdown-auto/marker/aula-04-funções-computáveis-funções-recursivas-parciais/aula-04-funções-computáveis-funções-recursivas-parciais/aula-04-funções-computáveis-funções-recursivas-parciais.md",
+      "approved_at": "2026-03-25T10:26:44",
+      "review_status": "approved"
+    },
+    {
+      "id": "aula-03-funções-recursivas-primitivas-e-composição-de-funções",
+      "title": "Aula 03 Funções Recursivas Primitivas E Composição De Funções",
+      "category": "material-de-aula",
+      "file_type": "pdf",
+      "source_path": "C:/Users/Humberto/Downloads/TCC/Aula 03 - Funções Recursivas Primitivas e Composição de Funções.pdf",
+      "tags": "",
+      "notes": "",
+      "professor_signal": "",
+      "include_in_bundle": true,
+      "relevant_for_exam": true,
+      "processing_mode": "high_fidelity",
+      "document_profile": "math_heavy",
+      "preferred_backend": "marker",
+      "raw_target": "raw/pdfs/material-de-aula/aula-03-funções-recursivas-primitivas-e-composição-de-funções.pdf",
+      "document_report": {
+        "page_count": 36,
+        "text_chars": 20707,
+        "images_count": 37,
+        "table_candidates": 0,
+        "text_density": 575.19,
+        "suspected_scan": false,
+        "suggested_profile": "math_heavy",
+        "notes": [
+          "Perfil definido manualmente pelo usuário."
+        ]
+      },
+      "pipeline_decision": {
+        "entry_id": "aula-03-funções-recursivas-primitivas-e-composição-de-funções",
+        "processing_mode": "high_fidelity",
+        "effective_profile": "math_heavy",
+        "base_backend": "pymupdf4llm",
+        "advanced_backend": "marker",
+        "reasons": [
+          "Backend preferido manualmente: marker.",
+          "Documento math_heavy pede backend avançado com enrich-formula."
+        ]
+      },
+      "base_markdown": null,
+      "advanced_markdown": null,
+      "advanced_backend": "marker",
+      "base_backend": "pymupdf4llm",
+      "images_dir": "staging/assets/images/aula-03-funções-recursivas-primitivas-e-composição-de-funções",
+      "tables_dir": "staging/assets/tables/aula-03-funções-recursivas-primitivas-e-composição-de-funções",
+      "table_detection_dir": "staging/assets/table-detections/aula-03-funções-recursivas-primitivas-e-composição-de-funções",
+      "manual_review": null,
+      "effective_profile": "math_heavy",
+      "advanced_asset_dir": "staging/markdown-auto/marker/aula-03-funções-recursivas-primitivas-e-composição-de-funções",
+      "advanced_metadata_path": "staging/markdown-auto/marker/aula-03-funções-recursivas-primitivas-e-composição-de-funções/marker-run.json",
+      "approved_markdown": "content/curated/aula-03-funções-recursivas-primitivas-e-composição-de-funções.md",
+      "curated_markdown": "content/curated/aula-03-funções-recursivas-primitivas-e-composição-de-funções.md",
+      "approved_source_markdown": "staging/markdown-auto/marker/aula-03-funções-recursivas-primitivas-e-composição-de-funções/aula-03-funções-recursivas-primitivas-e-composição-de-funções/aula-03-funções-recursivas-primitivas-e-composição-de-funções.md",
+      "approved_at": "2026-03-25T10:26:27",
+      "review_status": "approved"
+    },
+    {
+      "id": "aula-02-conjuntos-enumeráveis-e-não-enumeráveis-argumento-da-diagonalização-de-cantor",
+      "title": "Aula 02 Conjuntos Enumeráveis E Não Enumeráveis; Argumento Da Diagonalização De Cantor",
+      "category": "material-de-aula",
+      "file_type": "pdf",
+      "source_path": "C:/Users/Humberto/Downloads/TCC/Aula 02 - Conjuntos Enumeráveis e Não-Enumeráveis; Argumento da Diagonalização de Cantor.pdf",
+      "tags": "",
+      "notes": "",
+      "professor_signal": "",
+      "include_in_bundle": true,
+      "relevant_for_exam": true,
+      "processing_mode": "high_fidelity",
+      "document_profile": "math_heavy",
+      "preferred_backend": "marker",
+      "raw_target": "raw/pdfs/material-de-aula/aula-02-conjuntos-enumeráveis-e-não-enumeráveis-argumento-da-diagonalização-de-cantor.pdf",
+      "document_report": {
+        "page_count": 26,
+        "text_chars": 14638,
+        "images_count": 27,
+        "table_candidates": 1,
+        "text_density": 563.0,
+        "suspected_scan": false,
+        "suggested_profile": "math_heavy",
+        "notes": [
+          "Perfil definido manualmente pelo usuário."
+        ]
+      },
+      "pipeline_decision": {
+        "entry_id": "aula-02-conjuntos-enumeráveis-e-não-enumeráveis-argumento-da-diagonalização-de-cantor",
+        "processing_mode": "high_fidelity",
+        "effective_profile": "math_heavy",
+        "base_backend": "pymupdf4llm",
+        "advanced_backend": "marker",
+        "reasons": [
+          "Backend preferido manualmente: marker.",
+          "Documento math_heavy pede backend avançado com enrich-formula."
+        ]
+      },
+      "base_markdown": null,
+      "advanced_markdown": null,
+      "advanced_backend": "marker",
+      "base_backend": "pymupdf4llm",
+      "images_dir": "staging/assets/images/aula-02-conjuntos-enumeráveis-e-não-enumeráveis-argumento-da-diagonalização-de-cantor",
+      "tables_dir": "staging/assets/tables/aula-02-conjuntos-enumeráveis-e-não-enumeráveis-argumento-da-diagonalização-de-cantor",
+      "table_detection_dir": "staging/assets/table-detections/aula-02-conjuntos-enumeráveis-e-não-enumeráveis-argumento-da-diagonalização-de-cantor",
+      "manual_review": null,
+      "effective_profile": "math_heavy",
+      "advanced_asset_dir": "staging/markdown-auto/marker/aula-02-conjuntos-enumeráveis-e-não-enumeráveis-argumento-da-diagonalização-de-cantor",
+      "advanced_metadata_path": "staging/markdown-auto/marker/aula-02-conjuntos-enumeráveis-e-não-enumeráveis-argumento-da-diagonalização-de-cantor/marker-run.json",
+      "approved_markdown": "content/curated/aula-02-conjuntos-enumeráveis-e-não-enumeráveis-argumento-da-diagonalização-de-cantor.md",
+      "curated_markdown": "content/curated/aula-02-conjuntos-enumeráveis-e-não-enumeráveis-argumento-da-diagonalização-de-cantor.md",
+      "approved_source_markdown": "staging/markdown-auto/marker/aula-02-conjuntos-enumeráveis-e-não-enumeráveis-argumento-da-diagonalização-de-cantor/aula-02-conjuntos-enumeráveis-e-não-enumeráveis-argumento-da-diagonalização-de-cantor/aula-02-conjuntos-enumeráveis-e-não-enumeráveis-argumento-da-diagonalização-de-cantor.md",
+      "approved_at": "2026-03-25T10:26:08",
+      "review_status": "approved"
+    },
+    {
+      "id": "aula-01-apresentação-da-disciplina-revisão-de-teoria-de-conjuntos-e-enumerabilidade",
+      "title": "Aula 01 Apresentação Da Disciplina, Revisão De Teoria De Conjuntos E Enumerabilidade",
+      "category": "material-de-aula",
+      "file_type": "pdf",
+      "source_path": "C:/Users/Humberto/Downloads/TCC/Aula 01 - Apresentação da Disciplina, Revisão de Teoria de Conjuntos e Enumerabilidade.pdf",
+      "tags": "",
+      "notes": "",
+      "professor_signal": "",
+      "include_in_bundle": true,
+      "relevant_for_exam": true,
+      "processing_mode": "high_fidelity",
+      "document_profile": "math_heavy",
+      "preferred_backend": "marker",
+      "raw_target": "raw/pdfs/material-de-aula/aula-01-apresentação-da-disciplina-revisão-de-teoria-de-conjuntos-e-enumerabilidade.pdf",
+      "document_report": {
+        "page_count": 26,
+        "text_chars": 13251,
+        "images_count": 27,
+        "table_candidates": 0,
+        "text_density": 509.65,
+        "suspected_scan": false,
+        "suggested_profile": "math_heavy",
+        "notes": [
+          "Perfil definido manualmente pelo usuário."
+        ]
+      },
+      "pipeline_decision": {
+        "entry_id": "aula-01-apresentação-da-disciplina-revisão-de-teoria-de-conjuntos-e-enumerabilidade",
+        "processing_mode": "high_fidelity",
+        "effective_profile": "math_heavy",
+        "base_backend": "pymupdf4llm",
+        "advanced_backend": "marker",
+        "reasons": [
+          "Backend preferido manualmente: marker.",
+          "Documento math_heavy pede backend avançado com enrich-formula."
+        ]
+      },
+      "base_markdown": null,
+      "advanced_markdown": null,
+      "advanced_backend": "marker",
+      "base_backend": "pymupdf4llm",
+      "images_dir": "staging/assets/images/aula-01-apresentação-da-disciplina-revisão-de-teoria-de-conjuntos-e-enumerabilidade",
+      "tables_dir": "staging/assets/tables/aula-01-apresentação-da-disciplina-revisão-de-teoria-de-conjuntos-e-enumerabilidade",
+      "table_detection_dir": "staging/assets/table-detections/aula-01-apresentação-da-disciplina-revisão-de-teoria-de-conjuntos-e-enumerabilidade",
+      "manual_review": null,
+      "effective_profile": "math_heavy",
+      "advanced_asset_dir": "staging/markdown-auto/marker/aula-01-apresentação-da-disciplina-revisão-de-teoria-de-conjuntos-e-enumerabilidade",
+      "advanced_metadata_path": "staging/markdown-auto/marker/aula-01-apresentação-da-disciplina-revisão-de-teoria-de-conjuntos-e-enumerabilidade/marker-run.json",
+      "approved_markdown": "content/curated/aula-01-apresentação-da-disciplina-revisão-de-teoria-de-conjuntos-e-enumerabilidade.md",
+      "curated_markdown": "content/curated/aula-01-apresentação-da-disciplina-revisão-de-teoria-de-conjuntos-e-enumerabilidade.md",
+      "approved_source_markdown": "staging/markdown-auto/marker/aula-01-apresentação-da-disciplina-revisão-de-teoria-de-conjuntos-e-enumerabilidade/aula-01-apresentação-da-disciplina-revisão-de-teoria-de-conjuntos-e-enumerabilidade/aula-01-apresentação-da-disciplina-revisão-de-teoria-de-conjuntos-e-enumerabilidade.md",
+      "approved_at": "2026-03-25T10:25:50",
+      "review_status": "approved"
+    },
+    {
+      "id": "trabalho-tcc",
+      "title": "Trabalho Tcc",
+      "category": "trabalhos",
+      "file_type": "pdf",
+      "source_path": "C:/Users/Humberto/Downloads/Trabalho-TCC.pdf",
+      "tags": "",
+      "notes": "",
+      "professor_signal": "",
+      "include_in_bundle": true,
+      "relevant_for_exam": true,
+      "processing_mode": "auto",
+      "document_profile": "auto",
+      "preferred_backend": "auto",
+      "raw_target": "raw/pdfs/trabalhos/trabalho-tcc.pdf",
+      "document_report": {
+        "page_count": 5,
+        "text_chars": 4398,
+        "images_count": 1,
+        "table_candidates": 0,
+        "text_density": 879.6,
+        "suspected_scan": false,
+        "suggested_profile": "general",
+        "notes": [
+          "Documento geral detectado."
+        ]
+      },
+      "pipeline_decision": {
+        "entry_id": "trabalho-tcc",
+        "processing_mode": "auto",
+        "effective_profile": "general",
+        "base_backend": "pymupdf4llm",
+        "advanced_backend": null,
+        "reasons": [
+          "Modo auto detectou documento geral; saída base é suficiente."
+        ]
+      },
+      "base_markdown": null,
+      "advanced_markdown": null,
+      "advanced_backend": null,
+      "base_backend": "pymupdf4llm",
+      "images_dir": "staging/assets/images/trabalho-tcc",
+      "tables_dir": "staging/assets/tables/trabalho-tcc",
+      "table_detection_dir": "staging/assets/table-detections/trabalho-tcc",
+      "manual_review": null,
+      "effective_profile": "general",
+      "approved_markdown": "content/curated/trabalho-tcc.md",
+      "curated_markdown": "content/curated/trabalho-tcc.md",
+      "approved_source_markdown": "staging/markdown-auto/pymupdf4llm/trabalho-tcc.md",
+      "approved_at": "2026-03-25T10:28:16",
+      "review_status": "approved"
+    }
+  ],
+  "logs": [
+    {
+      "entry": "cantors-1891-diagonal-proof-b67952",
+      "step": "url_fetch",
+      "status": "ok"
+    },
+    {
+      "entry": "revisão-alfabeto-cadeia-linguagem-hierarquia-de-chomsky-lemas-e-propriedades-de-autômatos",
+      "step": "pymupdf4llm",
+      "layer": "base",
+      "status": "ok",
+      "markdown_path": "staging/markdown-auto/pymupdf4llm/revisão-alfabeto-cadeia-linguagem-hierarquia-de-chomsky-lemas-e-propriedades-de-autômatos.md",
+      "asset_dir": "staging/assets/inline-images/revisão-alfabeto-cadeia-linguagem-hierarquia-de-chomsky-lemas-e-propriedades-de-autômatos",
+      "metadata_path": null,
+      "notes": [
+        "Markdown gerado com PyMuPDF4LLM."
+      ]
+    },
+    {
+      "entry": "revisão-alfabeto-cadeia-linguagem-hierarquia-de-chomsky-lemas-e-propriedades-de-autômatos",
+      "step": "marker",
+      "layer": "advanced",
+      "status": "ok",
+      "markdown_path": "staging/markdown-auto/marker/revisão-alfabeto-cadeia-linguagem-hierarquia-de-chomsky-lemas-e-propriedades-de-autômatos/revisão-alfabeto-cadeia-linguagem-hierarquia-de-chomsky-lemas-e-propriedades-de-autômatos/revisão-alfabeto-cadeia-linguagem-hierarquia-de-chomsky-lemas-e-propriedades-de-autômatos.md",
+      "asset_dir": "staging/markdown-auto/marker/revisão-alfabeto-cadeia-linguagem-hierarquia-de-chomsky-lemas-e-propriedades-de-autômatos",
+      "metadata_path": "staging/markdown-auto/marker/revisão-alfabeto-cadeia-linguagem-hierarquia-de-chomsky-lemas-e-propriedades-de-autômatos/marker-run.json",
+      "notes": [
+        "Saída avançada gerada com Marker CLI."
+      ],
+      "command": [
+        "C:\\Users\\Humberto\\Documents\\GitHub\\GPT-Tutor-Generator\\.venv\\Scripts\\marker_single.EXE",
+        "C:\\Users\\Humberto\\Documents\\GitHub\\TCC-Tutor\\raw\\pdfs\\material-de-aula\\revisão-alfabeto-cadeia-linguagem-hierarquia-de-chomsky-lemas-e-propriedades-de-autômatos.pdf",
+        "--output_format",
+        "markdown",
+        "--output_dir",
+        "C:\\Users\\Humberto\\Documents\\GitHub\\TCC-Tutor\\staging\\markdown-auto\\marker\\revisão-alfabeto-cadeia-linguagem-hierarquia-de-chomsky-lemas-e-propriedades-de-autômatos",
+        "--page_range",
+        "0-46",
+        "--force_ocr"
+      ]
+    },
+    {
+      "entry": "revisão-alfabeto-cadeia-linguagem-hierarquia-de-chomsky-lemas-e-propriedades-de-autômatos",
+      "step": "extract_images",
+      "status": "ok",
+      "count": 2
+    },
+    {
+      "entry": "revisão-alfabeto-cadeia-linguagem-hierarquia-de-chomsky-lemas-e-propriedades-de-autômatos",
+      "step": "extract_tables_pdfplumber",
+      "status": "ok",
+      "count": 86
+    },
+    {
+      "entry": "revisão-alfabeto-cadeia-linguagem-hierarquia-de-chomsky-lemas-e-propriedades-de-autômatos",
+      "step": "detect_tables_pymupdf",
+      "status": "ok",
+      "count": 2
+    },
+    {
+      "entry": "enunciado-t1",
+      "step": "pymupdf4llm",
+      "layer": "base",
+      "status": "ok",
+      "markdown_path": "staging/markdown-auto/pymupdf4llm/enunciado-t1.md",
+      "asset_dir": "staging/assets/inline-images/enunciado-t1",
+      "metadata_path": null,
+      "notes": [
+        "Markdown gerado com PyMuPDF4LLM."
+      ]
+    },
+    {
+      "entry": "enunciado-t1",
+      "step": "marker",
+      "layer": "advanced",
+      "status": "ok",
+      "markdown_path": "staging/markdown-auto/marker/enunciado-t1/enunciado-t1/enunciado-t1.md",
+      "asset_dir": "staging/markdown-auto/marker/enunciado-t1",
+      "metadata_path": "staging/markdown-auto/marker/enunciado-t1/marker-run.json",
+      "notes": [
+        "Saída avançada gerada com Marker CLI."
+      ],
+      "command": [
+        "C:\\Users\\Humberto\\Documents\\GitHub\\GPT-Tutor-Generator\\.venv\\Scripts\\marker_single.EXE",
+        "C:\\Users\\Humberto\\Documents\\GitHub\\TCC-Tutor\\raw\\pdfs\\trabalhos\\enunciado-t1.pdf",
+        "--output_format",
+        "markdown",
+        "--output_dir",
+        "C:\\Users\\Humberto\\Documents\\GitHub\\TCC-Tutor\\staging\\markdown-auto\\marker\\enunciado-t1",
+        "--page_range",
+        "0",
+        "--force_ocr"
+      ]
+    },
+    {
+      "entry": "enunciado-t1",
+      "step": "extract_images",
+      "status": "ok",
+      "count": 0
+    },
+    {
+      "entry": "enunciado-t1",
+      "step": "extract_tables_pdfplumber",
+      "status": "ok",
+      "count": 0
+    },
+    {
+      "entry": "enunciado-t1",
+      "step": "detect_tables_pymupdf",
+      "status": "ok",
+      "count": 0
+    },
+    {
+      "entry": "aula-05-minimização-de-funções-recursivas-parciais",
+      "step": "pymupdf4llm",
+      "layer": "base",
+      "status": "ok",
+      "markdown_path": "staging/markdown-auto/pymupdf4llm/aula-05-minimização-de-funções-recursivas-parciais.md",
+      "asset_dir": "staging/assets/inline-images/aula-05-minimização-de-funções-recursivas-parciais",
+      "metadata_path": null,
+      "notes": [
+        "Markdown gerado com PyMuPDF4LLM."
+      ]
+    },
+    {
+      "entry": "aula-05-minimização-de-funções-recursivas-parciais",
+      "step": "marker",
+      "layer": "advanced",
+      "status": "ok",
+      "markdown_path": "staging/markdown-auto/marker/aula-05-minimização-de-funções-recursivas-parciais/aula-05-minimização-de-funções-recursivas-parciais/aula-05-minimização-de-funções-recursivas-parciais.md",
+      "asset_dir": "staging/markdown-auto/marker/aula-05-minimização-de-funções-recursivas-parciais",
+      "metadata_path": "staging/markdown-auto/marker/aula-05-minimização-de-funções-recursivas-parciais/marker-run.json",
+      "notes": [
+        "Saída avançada gerada com Marker CLI."
+      ],
+      "command": [
+        "C:\\Users\\Humberto\\Documents\\GitHub\\GPT-Tutor-Generator\\.venv\\Scripts\\marker_single.EXE",
+        "C:\\Users\\Humberto\\Documents\\GitHub\\TCC-Tutor\\raw\\pdfs\\material-de-aula\\aula-05-minimização-de-funções-recursivas-parciais.pdf",
+        "--output_format",
+        "markdown",
+        "--output_dir",
+        "C:\\Users\\Humberto\\Documents\\GitHub\\TCC-Tutor\\staging\\markdown-auto\\marker\\aula-05-minimização-de-funções-recursivas-parciais",
+        "--page_range",
+        "0-29",
+        "--force_ocr"
+      ]
+    },
+    {
+      "entry": "aula-05-minimização-de-funções-recursivas-parciais",
+      "step": "extract_images",
+      "status": "ok",
+      "count": 2
+    },
+    {
+      "entry": "aula-05-minimização-de-funções-recursivas-parciais",
+      "step": "extract_tables_pdfplumber",
+      "status": "ok",
+      "count": 67
+    },
+    {
+      "entry": "aula-05-minimização-de-funções-recursivas-parciais",
+      "step": "detect_tables_pymupdf",
+      "status": "ok",
+      "count": 0
+    },
+    {
+      "entry": "aula-04-funções-computáveis-funções-recursivas-parciais",
+      "step": "pymupdf4llm",
+      "layer": "base",
+      "status": "ok",
+      "markdown_path": "staging/markdown-auto/pymupdf4llm/aula-04-funções-computáveis-funções-recursivas-parciais.md",
+      "asset_dir": "staging/assets/inline-images/aula-04-funções-computáveis-funções-recursivas-parciais",
+      "metadata_path": null,
+      "notes": [
+        "Markdown gerado com PyMuPDF4LLM."
+      ]
+    },
+    {
+      "entry": "aula-04-funções-computáveis-funções-recursivas-parciais",
+      "step": "marker",
+      "layer": "advanced",
+      "status": "ok",
+      "markdown_path": "staging/markdown-auto/marker/aula-04-funções-computáveis-funções-recursivas-parciais/aula-04-funções-computáveis-funções-recursivas-parciais/aula-04-funções-computáveis-funções-recursivas-parciais.md",
+      "asset_dir": "staging/markdown-auto/marker/aula-04-funções-computáveis-funções-recursivas-parciais",
+      "metadata_path": "staging/markdown-auto/marker/aula-04-funções-computáveis-funções-recursivas-parciais/marker-run.json",
+      "notes": [
+        "Saída avançada gerada com Marker CLI."
+      ],
+      "command": [
+        "C:\\Users\\Humberto\\Documents\\GitHub\\GPT-Tutor-Generator\\.venv\\Scripts\\marker_single.EXE",
+        "C:\\Users\\Humberto\\Documents\\GitHub\\TCC-Tutor\\raw\\pdfs\\material-de-aula\\aula-04-funções-computáveis-funções-recursivas-parciais.pdf",
+        "--output_format",
+        "markdown",
+        "--output_dir",
+        "C:\\Users\\Humberto\\Documents\\GitHub\\TCC-Tutor\\staging\\markdown-auto\\marker\\aula-04-funções-computáveis-funções-recursivas-parciais",
+        "--page_range",
+        "0-31",
+        "--force_ocr"
+      ]
+    },
+    {
+      "entry": "aula-04-funções-computáveis-funções-recursivas-parciais",
+      "step": "extract_images",
+      "status": "ok",
+      "count": 2
+    },
+    {
+      "entry": "aula-04-funções-computáveis-funções-recursivas-parciais",
+      "step": "extract_tables_pdfplumber",
+      "status": "ok",
+      "count": 68
+    },
+    {
+      "entry": "aula-04-funções-computáveis-funções-recursivas-parciais",
+      "step": "detect_tables_pymupdf",
+      "status": "ok",
+      "count": 0
+    },
+    {
+      "entry": "aula-03-funções-recursivas-primitivas-e-composição-de-funções",
+      "step": "pymupdf4llm",
+      "layer": "base",
+      "status": "ok",
+      "markdown_path": "staging/markdown-auto/pymupdf4llm/aula-03-funções-recursivas-primitivas-e-composição-de-funções.md",
+      "asset_dir": "staging/assets/inline-images/aula-03-funções-recursivas-primitivas-e-composição-de-funções",
+      "metadata_path": null,
+      "notes": [
+        "Markdown gerado com PyMuPDF4LLM."
+      ]
+    },
+    {
+      "entry": "aula-03-funções-recursivas-primitivas-e-composição-de-funções",
+      "step": "marker",
+      "layer": "advanced",
+      "status": "ok",
+      "markdown_path": "staging/markdown-auto/marker/aula-03-funções-recursivas-primitivas-e-composição-de-funções/aula-03-funções-recursivas-primitivas-e-composição-de-funções/aula-03-funções-recursivas-primitivas-e-composição-de-funções.md",
+      "asset_dir": "staging/markdown-auto/marker/aula-03-funções-recursivas-primitivas-e-composição-de-funções",
+      "metadata_path": "staging/markdown-auto/marker/aula-03-funções-recursivas-primitivas-e-composição-de-funções/marker-run.json",
+      "notes": [
+        "Saída avançada gerada com Marker CLI."
+      ],
+      "command": [
+        "C:\\Users\\Humberto\\Documents\\GitHub\\GPT-Tutor-Generator\\.venv\\Scripts\\marker_single.EXE",
+        "C:\\Users\\Humberto\\Documents\\GitHub\\TCC-Tutor\\raw\\pdfs\\material-de-aula\\aula-03-funções-recursivas-primitivas-e-composição-de-funções.pdf",
+        "--output_format",
+        "markdown",
+        "--output_dir",
+        "C:\\Users\\Humberto\\Documents\\GitHub\\TCC-Tutor\\staging\\markdown-auto\\marker\\aula-03-funções-recursivas-primitivas-e-composição-de-funções",
+        "--page_range",
+        "0-35",
+        "--force_ocr"
+      ]
+    },
+    {
+      "entry": "aula-03-funções-recursivas-primitivas-e-composição-de-funções",
+      "step": "extract_images",
+      "status": "ok",
+      "count": 2
+    },
+    {
+      "entry": "aula-03-funções-recursivas-primitivas-e-composição-de-funções",
+      "step": "extract_tables_pdfplumber",
+      "status": "ok",
+      "count": 64
+    },
+    {
+      "entry": "aula-03-funções-recursivas-primitivas-e-composição-de-funções",
+      "step": "detect_tables_pymupdf",
+      "status": "ok",
+      "count": 0
+    },
+    {
+      "entry": "aula-02-conjuntos-enumeráveis-e-não-enumeráveis-argumento-da-diagonalização-de-cantor",
+      "step": "pymupdf4llm",
+      "layer": "base",
+      "status": "ok",
+      "markdown_path": "staging/markdown-auto/pymupdf4llm/aula-02-conjuntos-enumeráveis-e-não-enumeráveis-argumento-da-diagonalização-de-cantor.md",
+      "asset_dir": "staging/assets/inline-images/aula-02-conjuntos-enumeráveis-e-não-enumeráveis-argumento-da-diagonalização-de-cantor",
+      "metadata_path": null,
+      "notes": [
+        "Markdown gerado com PyMuPDF4LLM."
+      ]
+    },
+    {
+      "entry": "aula-02-conjuntos-enumeráveis-e-não-enumeráveis-argumento-da-diagonalização-de-cantor",
+      "step": "marker",
+      "layer": "advanced",
+      "status": "ok",
+      "markdown_path": "staging/markdown-auto/marker/aula-02-conjuntos-enumeráveis-e-não-enumeráveis-argumento-da-diagonalização-de-cantor/aula-02-conjuntos-enumeráveis-e-não-enumeráveis-argumento-da-diagonalização-de-cantor/aula-02-conjuntos-enumeráveis-e-não-enumeráveis-argumento-da-diagonalização-de-cantor.md",
+      "asset_dir": "staging/markdown-auto/marker/aula-02-conjuntos-enumeráveis-e-não-enumeráveis-argumento-da-diagonalização-de-cantor",
+      "metadata_path": "staging/markdown-auto/marker/aula-02-conjuntos-enumeráveis-e-não-enumeráveis-argumento-da-diagonalização-de-cantor/marker-run.json",
+      "notes": [
+        "Saída avançada gerada com Marker CLI."
+      ],
+      "command": [
+        "C:\\Users\\Humberto\\Documents\\GitHub\\GPT-Tutor-Generator\\.venv\\Scripts\\marker_single.EXE",
+        "C:\\Users\\Humberto\\Documents\\GitHub\\TCC-Tutor\\raw\\pdfs\\material-de-aula\\aula-02-conjuntos-enumeráveis-e-não-enumeráveis-argumento-da-diagonalização-de-cantor.pdf",
+        "--output_format",
+        "markdown",
+        "--output_dir",
+        "C:\\Users\\Humberto\\Documents\\GitHub\\TCC-Tutor\\staging\\markdown-auto\\marker\\aula-02-conjuntos-enumeráveis-e-não-enumeráveis-argumento-da-diagonalização-de-cantor",
+        "--page_range",
+        "0-25",
+        "--force_ocr"
+      ]
+    },
+    {
+      "entry": "aula-02-conjuntos-enumeráveis-e-não-enumeráveis-argumento-da-diagonalização-de-cantor",
+      "step": "extract_images",
+      "status": "ok",
+      "count": 2
+    },
+    {
+      "entry": "aula-02-conjuntos-enumeráveis-e-não-enumeráveis-argumento-da-diagonalização-de-cantor",
+      "step": "extract_tables_pdfplumber",
+      "status": "ok",
+      "count": 66
+    },
+    {
+      "entry": "aula-02-conjuntos-enumeráveis-e-não-enumeráveis-argumento-da-diagonalização-de-cantor",
+      "step": "detect_tables_pymupdf",
+      "status": "ok",
+      "count": 1
+    },
+    {
+      "entry": "aula-01-apresentação-da-disciplina-revisão-de-teoria-de-conjuntos-e-enumerabilidade",
+      "step": "pymupdf4llm",
+      "layer": "base",
+      "status": "ok",
+      "markdown_path": "staging/markdown-auto/pymupdf4llm/aula-01-apresentação-da-disciplina-revisão-de-teoria-de-conjuntos-e-enumerabilidade.md",
+      "asset_dir": "staging/assets/inline-images/aula-01-apresentação-da-disciplina-revisão-de-teoria-de-conjuntos-e-enumerabilidade",
+      "metadata_path": null,
+      "notes": [
+        "Markdown gerado com PyMuPDF4LLM."
+      ]
+    },
+    {
+      "entry": "aula-01-apresentação-da-disciplina-revisão-de-teoria-de-conjuntos-e-enumerabilidade",
+      "step": "marker",
+      "layer": "advanced",
+      "status": "ok",
+      "markdown_path": "staging/markdown-auto/marker/aula-01-apresentação-da-disciplina-revisão-de-teoria-de-conjuntos-e-enumerabilidade/aula-01-apresentação-da-disciplina-revisão-de-teoria-de-conjuntos-e-enumerabilidade/aula-01-apresentação-da-disciplina-revisão-de-teoria-de-conjuntos-e-enumerabilidade.md",
+      "asset_dir": "staging/markdown-auto/marker/aula-01-apresentação-da-disciplina-revisão-de-teoria-de-conjuntos-e-enumerabilidade",
+      "metadata_path": "staging/markdown-auto/marker/aula-01-apresentação-da-disciplina-revisão-de-teoria-de-conjuntos-e-enumerabilidade/marker-run.json",
+      "notes": [
+        "Saída avançada gerada com Marker CLI."
+      ],
+      "command": [
+        "C:\\Users\\Humberto\\Documents\\GitHub\\GPT-Tutor-Generator\\.venv\\Scripts\\marker_single.EXE",
+        "C:\\Users\\Humberto\\Documents\\GitHub\\TCC-Tutor\\raw\\pdfs\\material-de-aula\\aula-01-apresentação-da-disciplina-revisão-de-teoria-de-conjuntos-e-enumerabilidade.pdf",
+        "--output_format",
+        "markdown",
+        "--output_dir",
+        "C:\\Users\\Humberto\\Documents\\GitHub\\TCC-Tutor\\staging\\markdown-auto\\marker\\aula-01-apresentação-da-disciplina-revisão-de-teoria-de-conjuntos-e-enumerabilidade",
+        "--page_range",
+        "0-25",
+        "--force_ocr"
+      ]
+    },
+    {
+      "entry": "aula-01-apresentação-da-disciplina-revisão-de-teoria-de-conjuntos-e-enumerabilidade",
+      "step": "extract_images",
+      "status": "ok",
+      "count": 2
+    },
+    {
+      "entry": "aula-01-apresentação-da-disciplina-revisão-de-teoria-de-conjuntos-e-enumerabilidade",
+      "step": "extract_tables_pdfplumber",
+      "status": "ok",
+      "count": 54
+    },
+    {
+      "entry": "aula-01-apresentação-da-disciplina-revisão-de-teoria-de-conjuntos-e-enumerabilidade",
+      "step": "detect_tables_pymupdf",
+      "status": "ok",
+      "count": 0
+    },
+    {
+      "entry": "trabalho-tcc",
+      "step": "pymupdf4llm",
+      "layer": "base",
+      "status": "ok",
+      "markdown_path": "staging/markdown-auto/pymupdf4llm/trabalho-tcc.md",
+      "asset_dir": "staging/assets/inline-images/trabalho-tcc",
+      "metadata_path": null,
+      "notes": [
+        "Markdown gerado com PyMuPDF4LLM."
+      ]
+    },
+    {
+      "entry": "trabalho-tcc",
+      "step": "extract_images",
+      "status": "ok",
+      "count": 0
+    },
+    {
+      "entry": "trabalho-tcc",
+      "step": "extract_tables_pdfplumber",
+      "status": "ok",
+      "count": 0
+    },
+    {
+      "entry": "trabalho-tcc",
+      "step": "detect_tables_pymupdf",
+      "status": "ok",
+      "count": 0
+    },
+    {
+      "entry": "aula-01-apresentação-da-disciplina-revisão-de-teoria-de-conjuntos-e-enumerabilidade",
+      "step": "curator_approve",
+      "status": "ok",
+      "approved_markdown": "content/curated/aula-01-apresentação-da-disciplina-revisão-de-teoria-de-conjuntos-e-enumerabilidade.md",
+      "approved_source_markdown": "staging/markdown-auto/marker/aula-01-apresentação-da-disciplina-revisão-de-teoria-de-conjuntos-e-enumerabilidade/aula-01-apresentação-da-disciplina-revisão-de-teoria-de-conjuntos-e-enumerabilidade/aula-01-apresentação-da-disciplina-revisão-de-teoria-de-conjuntos-e-enumerabilidade.md",
+      "category": "material-de-aula"
+    },
+    {
+      "entry": "aula-02-conjuntos-enumeráveis-e-não-enumeráveis-argumento-da-diagonalização-de-cantor",
+      "step": "curator_approve",
+      "status": "ok",
+      "approved_markdown": "content/curated/aula-02-conjuntos-enumeráveis-e-não-enumeráveis-argumento-da-diagonalização-de-cantor.md",
+      "approved_source_markdown": "staging/markdown-auto/marker/aula-02-conjuntos-enumeráveis-e-não-enumeráveis-argumento-da-diagonalização-de-cantor/aula-02-conjuntos-enumeráveis-e-não-enumeráveis-argumento-da-diagonalização-de-cantor/aula-02-conjuntos-enumeráveis-e-não-enumeráveis-argumento-da-diagonalização-de-cantor.md",
+      "category": "material-de-aula"
+    },
+    {
+      "entry": "aula-03-funções-recursivas-primitivas-e-composição-de-funções",
+      "step": "curator_approve",
+      "status": "ok",
+      "approved_markdown": "content/curated/aula-03-funções-recursivas-primitivas-e-composição-de-funções.md",
+      "approved_source_markdown": "staging/markdown-auto/marker/aula-03-funções-recursivas-primitivas-e-composição-de-funções/aula-03-funções-recursivas-primitivas-e-composição-de-funções/aula-03-funções-recursivas-primitivas-e-composição-de-funções.md",
+      "category": "material-de-aula"
+    },
+    {
+      "entry": "aula-04-funções-computáveis-funções-recursivas-parciais",
+      "step": "curator_approve",
+      "status": "ok",
+      "approved_markdown": "content/curated/aula-04-funções-computáveis-funções-recursivas-parciais.md",
+      "approved_source_markdown": "staging/markdown-auto/marker/aula-04-funções-computáveis-funções-recursivas-parciais/aula-04-funções-computáveis-funções-recursivas-parciais/aula-04-funções-computáveis-funções-recursivas-parciais.md",
+      "category": "material-de-aula"
+    },
+    {
+      "entry": "aula-05-minimização-de-funções-recursivas-parciais",
+      "step": "curator_approve",
+      "status": "ok",
+      "approved_markdown": "content/curated/aula-05-minimização-de-funções-recursivas-parciais.md",
+      "approved_source_markdown": "staging/markdown-auto/marker/aula-05-minimização-de-funções-recursivas-parciais/aula-05-minimização-de-funções-recursivas-parciais/aula-05-minimização-de-funções-recursivas-parciais.md",
+      "category": "material-de-aula"
+    },
+    {
+      "entry": "enunciado-t1",
+      "step": "curator_approve",
+      "status": "ok",
+      "approved_markdown": "content/curated/enunciado-t1.md",
+      "approved_source_markdown": "staging/markdown-auto/marker/enunciado-t1/enunciado-t1/enunciado-t1.md",
+      "category": "trabalhos"
+    },
+    {
+      "entry": "revisão-alfabeto-cadeia-linguagem-hierarquia-de-chomsky-lemas-e-propriedades-de-autômatos",
+      "step": "curator_approve",
+      "status": "ok",
+      "approved_markdown": "content/curated/revisão-alfabeto-cadeia-linguagem-hierarquia-de-chomsky-lemas-e-propriedades-de-autômatos.md",
+      "approved_source_markdown": "staging/markdown-auto/marker/revisão-alfabeto-cadeia-linguagem-hierarquia-de-chomsky-lemas-e-propriedades-de-autômatos/revisão-alfabeto-cadeia-linguagem-hierarquia-de-chomsky-lemas-e-propriedades-de-autômatos/revisão-alfabeto-cadeia-linguagem-hierarquia-de-chomsky-lemas-e-propriedades-de-autômatos.md",
+      "category": "material-de-aula"
+    },
+    {
+      "entry": "trabalho-tcc",
+      "step": "curator_approve",
+      "status": "ok",
+      "approved_markdown": "content/curated/trabalho-tcc.md",
+      "approved_source_markdown": "staging/markdown-auto/pymupdf4llm/trabalho-tcc.md",
+      "category": "trabalhos"
+    },
+    {
+      "entry": "cantors-1891-diagonal-proof-b67952",
+      "step": "curator_reject",
+      "status": "ok"
+    }
+  ],
+  "updated_at": "2026-03-25T10:28:43"
+}

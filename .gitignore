@@ -1,0 +1,17 @@
+# === Não essencial para o Tutor ===
+# Cache de build (assets, markdowns intermediários)
+staging/
+# Fontes originais (tutor lê os markdowns convertidos)
+raw/
+# Artefatos de build
+build/
+# Workspace de revisão manual
+manual-review/
+# Scripts utilitários locais
+scripts/
+
+# === Sistema ===
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
