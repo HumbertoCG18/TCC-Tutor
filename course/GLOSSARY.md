@@ -18,4 +18,113 @@
 
 ## Termos
 
-> ⏳ **Termos serão adicionados pelo tutor na primeira sessão.**
+> Termos extraídos automaticamente do plano de ensino.
+> Definições iniciais curtas são geradas no build para reduzir custo de contexto no tutor web.
+
+## 1.1. Conjuntos Enumeráveis
+**Definição:** Conceito central de esta unidade que deve ser reconhecido e usado corretamente nas respostas e revisões.
+**Sinônimos aceitos:** —
+**Não confundir com:** —
+**Aparece em:** UNIDADE 01 — Conjuntos Enumeráveis e Funções Recursivas
+
+## 1.2. Argumento Diagonal de Cantor e Conjuntos Incontáveis 1.3. Funções Recursivas Primitivas e Funções Recursivas Parciais
+**Definição:** Parte 1 - Teoria de Conjuntos Parte 2 - Enumerabilidade Parte 3 - Funções Recursivas Primitivas Parte 4 - Funções Parciais e Minimização.
+**Sinônimos aceitos:** —
+**Não confundir com:** —
+**Aparece em:** UNIDADE 01 — Conjuntos Enumeráveis e Funções Recursivas
+
+## 2.1. Máquinas de Turing
+**Definição:** Conceito central de esta unidade que deve ser reconhecido e usado corretamente nas respostas e revisões.
+**Sinônimos aceitos:** —
+**Não confundir com:** —
+**Aparece em:** UNIDADE 02 — Turing-Computabilidade​
+
+## 2.2. Linguagens Reconhecíveis e Decidíveis
+**Definição:** Conceito central de esta unidade que deve ser reconhecido e usado corretamente nas respostas e revisões.
+**Sinônimos aceitos:** —
+**Não confundir com:** —
+**Aparece em:** UNIDADE 02 — Turing-Computabilidade​
+
+## 2.3. Variações de Máquinas de Turing
+**Definição:** Conceito central de esta unidade que deve ser reconhecido e usado corretamente nas respostas e revisões.
+**Sinônimos aceitos:** —
+**Não confundir com:** —
+**Aparece em:** UNIDADE 02 — Turing-Computabilidade​
+
+## 2.4. Conjectura de Church-Turing
+**Definição:** Conceito central de esta unidade que deve ser reconhecido e usado corretamente nas respostas e revisões.
+**Sinônimos aceitos:** —
+**Não confundir com:** —
+**Aparece em:** UNIDADE 02 — Turing-Computabilidade​
+
+## 2.5. Máquinas de Turing Universais
+**Definição:** Conceito central de esta unidade que deve ser reconhecido e usado corretamente nas respostas e revisões.
+**Sinônimos aceitos:** —
+**Não confundir com:** —
+**Aparece em:** UNIDADE 02 — Turing-Computabilidade​
+
+## 3.1. Prova da Indecidibilidade do Problema da Parada
+**Definição:** Conceito central de solução de problemas que deve ser reconhecido e usado corretamente nas respostas e revisões.
+**Sinônimos aceitos:** —
+**Não confundir com:** —
+**Aparece em:** UNIDADE 03 — Problemas Indecidíveis
+
+## Entscheidungsproblem e Introdução à Reducibilidade de Problemas
+**Definição:** Conceito central de solução de problemas que deve ser reconhecido e usado corretamente nas respostas e revisões.
+**Sinônimos aceitos:** —
+**Não confundir com:** —
+**Aparece em:** UNIDADE 03 — Problemas Indecidíveis
+
+## Decidibilidade de Teorias Lógicas
+**Definição:** Conceito central de solução de problemas que deve ser reconhecido e usado corretamente nas respostas e revisões.
+**Sinônimos aceitos:** —
+**Não confundir com:** —
+**Aparece em:** UNIDADE 03 — Problemas Indecidíveis
+
+## 3.4. Teoremas de Gödel​
+**Definição:** Conceito central de solução de problemas que deve ser reconhecido e usado corretamente nas respostas e revisões.
+**Sinônimos aceitos:** —
+**Não confundir com:** —
+**Aparece em:** UNIDADE 03 — Problemas Indecidíveis
+
+## Tipos de Problemas Computacionais
+**Definição:** Conceito central de solução de problemas que deve ser reconhecido e usado corretamente nas respostas e revisões.
+**Sinônimos aceitos:** —
+**Não confundir com:** —
+**Aparece em:** UNIDADE 04 — Hierarquia de Classes de Complexidade de Problemas Computacionais
+
+## Complexidade de Tempo e de Espaço
+**Definição:** Conceito central de solução de problemas que deve ser reconhecido e usado corretamente nas respostas e revisões.
+**Sinônimos aceitos:** —
+**Não confundir com:** —
+**Aparece em:** UNIDADE 04 — Hierarquia de Classes de Complexidade de Problemas Computacionais
+
+## Hierarquia de Classes de Complexidade de Problemas
+**Definição:** Conceito central de solução de problemas que deve ser reconhecido e usado corretamente nas respostas e revisões.
+**Sinônimos aceitos:** —
+**Não confundir com:** —
+**Aparece em:** UNIDADE 04 — Hierarquia de Classes de Complexidade de Problemas Computacionais
+
+## Classe P e exemplos de Problemas em P
+**Definição:** Conceito central de solução de problemas que deve ser reconhecido e usado corretamente nas respostas e revisões.
+**Sinônimos aceitos:** —
+**Não confundir com:** —
+**Aparece em:** UNIDADE 04 — Hierarquia de Classes de Complexidade de Problemas Computacionais
+
+## Classe NP
+**Definição:** Conceito central de solução de problemas que deve ser reconhecido e usado corretamente nas respostas e revisões.
+**Sinônimos aceitos:** —
+**Não confundir com:** —
+**Aparece em:** UNIDADE 04 — Hierarquia de Classes de Complexidade de Problemas Computacionais
+
+## Definição da Classe
+**Definição:** Conceito central de solução de problemas que deve ser reconhecido e usado corretamente nas respostas e revisões.
+**Sinônimos aceitos:** —
+**Não confundir com:** —
+**Aparece em:** UNIDADE 04 — Hierarquia de Classes de Complexidade de Problemas Computacionais
+
+## Exemplos de Problemas Importantes em NP e suas aplicações industriais 4.5.3 Teorema de Cook-Levin
+**Definição:** Conceito central de solução de problemas que deve ser reconhecido e usado corretamente nas respostas e revisões.
+**Sinônimos aceitos:** —
+**Não confundir com:** —
+**Aparece em:** UNIDADE 04 — Hierarquia de Classes de Complexidade de Problemas Computacionais

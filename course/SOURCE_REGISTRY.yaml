@@ -1,15 +1,5 @@
 generated_at: 2026-03-25T00:37:32
 sources:
-  - id: revisão-alfabeto-cadeia-linguagem-hierarquia-de-chomsky-lemas-e-propriedades-de-autômatos
-    title: "Aula 06 Alfabeto, Cadeia, Linguagem, Hierarquia De Chomsky, Lemas E Propriedades De Autômatos"
-    category: material-de-aula
-    file_type: pdf
-    source_path: "C:/Users/Humberto/Downloads/TCC/Revisão Alfabeto, Cadeia, Linguagem, Hierarquia de Chomsky, Lemas e Propriedades de Autômatos.pdf"
-    raw_target: "raw/pdfs/material-de-aula/revisão-alfabeto-cadeia-linguagem-hierarquia-de-chomsky-lemas-e-propriedades-de-autômatos.pdf"
-    processing_mode: high_fidelity
-    effective_profile: math_heavy
-    include_in_bundle: true
-    professor_signal: ""
   - id: enunciado-t1
     title: "Enunciado T1"
     category: trabalhos
@@ -20,63 +10,173 @@ sources:
     effective_profile: math_heavy
     include_in_bundle: true
     professor_signal: ""
-  - id: aula-05-minimização-de-funções-recursivas-parciais
-    title: "Aula 05 Minimização De Funções Recursivas Parciais"
+  - id: aula-16-exemplo-de-prova-para-revisao
+    title: "Aula 16 - Exemplo de Prova para Revisão"
+    category: material-de-aula
+    file_type: pdf
+    source_path: "C:/Users/Humberto/Downloads/TCC/Aula 16 - Exemplo de Prova para Revisão.pdf"
+    raw_target: "raw/pdfs/material-de-aula/aula-16-exemplo-de-prova-para-revisao.pdf"
+    processing_mode: high_fidelity
+    effective_profile: math_heavy
+    include_in_bundle: true
+    professor_signal: ""
+  - id: aula-15-teoremas-de-incompletude-de-godel
+    title: "Aula 15 - Teoremas de Incompletude de Gödel"
+    category: material-de-aula
+    file_type: pdf
+    source_path: "C:/Users/Humberto/Downloads/TCC/Aula 15 - Teoremas de Incompletude de Gödel.pdf"
+    raw_target: "raw/pdfs/material-de-aula/aula-15-teoremas-de-incompletude-de-godel.pdf"
+    processing_mode: high_fidelity
+    effective_profile: math_heavy
+    include_in_bundle: true
+    professor_signal: ""
+  - id: aula-14-problema-da-correspondencia-de-post
+    title: "Aula 14 - Problema da Correspondência de Post"
+    category: material-de-aula
+    file_type: pdf
+    source_path: "C:/Users/Humberto/Downloads/TCC/Aula 14 - Problema da Correspondência de Post.pdf"
+    raw_target: "raw/pdfs/material-de-aula/aula-14-problema-da-correspondencia-de-post.pdf"
+    processing_mode: high_fidelity
+    effective_profile: math_heavy
+    include_in_bundle: true
+    professor_signal: ""
+  - id: aula-13-teorema-de-rice
+    title: "Aula 13 - Teorema de Rice"
+    category: material-de-aula
+    file_type: pdf
+    source_path: "C:/Users/Humberto/Downloads/TCC/Aula 13 - Teorema de Rice .pdf"
+    raw_target: "raw/pdfs/material-de-aula/aula-13-teorema-de-rice.pdf"
+    processing_mode: high_fidelity
+    effective_profile: math_heavy
+    include_in_bundle: true
+    professor_signal: ""
+  - id: aula-12-entscheidungsproblem
+    title: "Aula 12 - Entscheidungsproblem"
+    category: material-de-aula
+    file_type: pdf
+    source_path: "C:/Users/Humberto/Downloads/TCC/Aula 12 - Entscheidungsproblem .pdf"
+    raw_target: "raw/pdfs/material-de-aula/aula-12-entscheidungsproblem.pdf"
+    processing_mode: high_fidelity
+    effective_profile: math_heavy
+    include_in_bundle: true
+    professor_signal: ""
+  - id: aula-11-o-problema-da-parada-halting-problem-halteproblem
+    title: "Aula 11 - O Problema da Parada (Halting Problem, Halteproblem)"
+    category: material-de-aula
+    file_type: pdf
+    source_path: "C:/Users/Humberto/Downloads/TCC/Aula 11 - O Problema da Parada (Halting Problem, Halteproblem) .pdf"
+    raw_target: "raw/pdfs/material-de-aula/aula-11-o-problema-da-parada-halting-problem-halteproblem.pdf"
+    processing_mode: high_fidelity
+    effective_profile: math_heavy
+    include_in_bundle: true
+    professor_signal: ""
+  - id: aula-10-linguagens-reconhecıveis-e-linguagens-decidıveis
+    title: "Aula 10 - Linguagens Reconhecı́veis e Linguagens Decidı́veis"
+    category: material-de-aula
+    file_type: pdf
+    source_path: "C:/Users/Humberto/Downloads/TCC/Aula 10 - Linguagens Reconhecı́veis e Linguagens Decidı́veis .pdf"
+    raw_target: "raw/pdfs/material-de-aula/aula-10-linguagens-reconhecıveis-e-linguagens-decidıveis.pdf"
+    processing_mode: high_fidelity
+    effective_profile: math_heavy
+    include_in_bundle: true
+    professor_signal: ""
+  - id: aula-09-variacoes-de-maquinas-de-turing
+    title: "Aula 09 - Variações de Máquinas de Turing"
+    category: material-de-aula
+    file_type: pdf
+    source_path: "C:/Users/Humberto/Downloads/TCC/Aula 09 - Variações de Máquinas de Turing.pdf"
+    raw_target: "raw/pdfs/material-de-aula/aula-09-variacoes-de-maquinas-de-turing.pdf"
+    processing_mode: high_fidelity
+    effective_profile: math_heavy
+    include_in_bundle: true
+    professor_signal: ""
+  - id: aula-08-maquinas-de-turing-como-processadores-de-funcoes
+    title: "Aula 08 Maquinas de Turing como Processadores de Funções"
+    category: material-de-aula
+    file_type: pdf
+    source_path: "C:/Users/Humberto/Downloads/TCC/Aula 08 Maquinas de Turing como Processadores de Funções.pdf"
+    raw_target: "raw/pdfs/material-de-aula/aula-08-maquinas-de-turing-como-processadores-de-funcoes.pdf"
+    processing_mode: high_fidelity
+    effective_profile: math_heavy
+    include_in_bundle: true
+    professor_signal: ""
+  - id: aula07-maquinas-de-turing-e-linguagens-recursivamente-enumeraveis
+    title: "Aula07 Máquinas de Turing e Linguagens Recursivamente Enumeráveis"
+    category: material-de-aula
+    file_type: pdf
+    source_path: "C:/Users/Humberto/Downloads/TCC/Aula07 Máquinas de Turing e Linguagens Recursivamente Enumeráveis.pdf"
+    raw_target: "raw/pdfs/material-de-aula/aula07-maquinas-de-turing-e-linguagens-recursivamente-enumeraveis.pdf"
+    processing_mode: high_fidelity
+    effective_profile: math_heavy
+    include_in_bundle: true
+    professor_signal: ""
+  - id: aula-06-revisao-alfabeto-cadeia-linguagem-hierarquia-de-chomsky-lemas-e-propriedades-de-automatos
+    title: "Aula 06 - Revisão Alfabeto, Cadeia, Linguagem, Hierarquia de Chomsky, Lemas e Propriedades de Autômatos"
+    category: material-de-aula
+    file_type: pdf
+    source_path: "C:/Users/Humberto/Downloads/TCC/Aula 06 - Revisão Alfabeto, Cadeia, Linguagem, Hierarquia de Chomsky, Lemas e Propriedades de Autômatos .pdf"
+    raw_target: "raw/pdfs/material-de-aula/aula-06-revisao-alfabeto-cadeia-linguagem-hierarquia-de-chomsky-lemas-e-propriedades-de-automatos.pdf"
+    processing_mode: high_fidelity
+    effective_profile: math_heavy
+    include_in_bundle: true
+    professor_signal: ""
+  - id: revisao-alfabeto-cadeia-linguagem-hierarquia-de-chomsky-lemas-e-propriedades-de-automatos
+    title: "Revisão Alfabeto, Cadeia, Linguagem, Hierarquia de Chomsky, Lemas e Propriedades de Autômatos"
+    category: material-de-aula
+    file_type: pdf
+    source_path: "C:/Users/Humberto/Downloads/TCC/Revisão Alfabeto, Cadeia, Linguagem, Hierarquia de Chomsky, Lemas e Propriedades de Autômatos.pdf"
+    raw_target: "raw/pdfs/material-de-aula/revisao-alfabeto-cadeia-linguagem-hierarquia-de-chomsky-lemas-e-propriedades-de-automatos.pdf"
+    processing_mode: high_fidelity
+    effective_profile: math_heavy
+    include_in_bundle: true
+    professor_signal: ""
+  - id: aula-05-minimizacao-de-funcoes-recursivas-parciais
+    title: "Aula 05 - Minimização de Funções Recursivas Parciais"
     category: material-de-aula
     file_type: pdf
     source_path: "C:/Users/Humberto/Downloads/TCC/Aula 05 - Minimização de Funções Recursivas Parciais.pdf"
-    raw_target: "raw/pdfs/material-de-aula/aula-05-minimização-de-funções-recursivas-parciais.pdf"
+    raw_target: "raw/pdfs/material-de-aula/aula-05-minimizacao-de-funcoes-recursivas-parciais.pdf"
     processing_mode: high_fidelity
     effective_profile: math_heavy
     include_in_bundle: true
     professor_signal: ""
-  - id: aula-04-funções-computáveis-funções-recursivas-parciais
-    title: "Aula 04 Funções Computáveis Funções Recursivas Parciais"
+  - id: aula-04-funcoes-computaveis-funcoes-recursivas-parciais
+    title: "Aula 04  Funções Computáveis Funções Recursivas Parciais"
     category: material-de-aula
     file_type: pdf
     source_path: "C:/Users/Humberto/Downloads/TCC/Aula 04  Funções Computáveis Funções Recursivas Parciais .pdf"
-    raw_target: "raw/pdfs/material-de-aula/aula-04-funções-computáveis-funções-recursivas-parciais.pdf"
+    raw_target: "raw/pdfs/material-de-aula/aula-04-funcoes-computaveis-funcoes-recursivas-parciais.pdf"
     processing_mode: high_fidelity
     effective_profile: math_heavy
     include_in_bundle: true
     professor_signal: ""
-  - id: aula-03-funções-recursivas-primitivas-e-composição-de-funções
-    title: "Aula 03 Funções Recursivas Primitivas E Composição De Funções"
+  - id: aula-03-funcoes-recursivas-primitivas-e-composicao-de-funcoes
+    title: "Aula 03 - Funções Recursivas Primitivas e Composição de Funções"
     category: material-de-aula
     file_type: pdf
     source_path: "C:/Users/Humberto/Downloads/TCC/Aula 03 - Funções Recursivas Primitivas e Composição de Funções.pdf"
-    raw_target: "raw/pdfs/material-de-aula/aula-03-funções-recursivas-primitivas-e-composição-de-funções.pdf"
+    raw_target: "raw/pdfs/material-de-aula/aula-03-funcoes-recursivas-primitivas-e-composicao-de-funcoes.pdf"
     processing_mode: high_fidelity
     effective_profile: math_heavy
     include_in_bundle: true
     professor_signal: ""
-  - id: aula-02-conjuntos-enumeráveis-e-não-enumeráveis-argumento-da-diagonalização-de-cantor
-    title: "Aula 02 Conjuntos Enumeráveis E Não Enumeráveis; Argumento Da Diagonalização De Cantor"
+  - id: aula-02-conjuntos-enumeraveis-e-nao-enumeraveis-argumento-da-diagonalizacao-de-cantor
+    title: "Aula 02 - Conjuntos Enumeráveis e Não-Enumeráveis; Argumento da Diagonalização de Cantor"
     category: material-de-aula
     file_type: pdf
     source_path: "C:/Users/Humberto/Downloads/TCC/Aula 02 - Conjuntos Enumeráveis e Não-Enumeráveis; Argumento da Diagonalização de Cantor.pdf"
-    raw_target: "raw/pdfs/material-de-aula/aula-02-conjuntos-enumeráveis-e-não-enumeráveis-argumento-da-diagonalização-de-cantor.pdf"
+    raw_target: "raw/pdfs/material-de-aula/aula-02-conjuntos-enumeraveis-e-nao-enumeraveis-argumento-da-diagonalizacao-de-cantor.pdf"
     processing_mode: high_fidelity
     effective_profile: math_heavy
     include_in_bundle: true
     professor_signal: ""
-  - id: aula-01-apresentação-da-disciplina-revisão-de-teoria-de-conjuntos-e-enumerabilidade
-    title: "Aula 01 Apresentação Da Disciplina, Revisão De Teoria De Conjuntos E Enumerabilidade"
+  - id: aula-01-apresentacao-da-disciplina-revisao-de-teoria-de-conjuntos-e-enumerabilidade
+    title: "Aula 01 - Apresentação da Disciplina, Revisão de Teoria de Conjuntos e Enumerabilidade"
     category: material-de-aula
     file_type: pdf
     source_path: "C:/Users/Humberto/Downloads/TCC/Aula 01 - Apresentação da Disciplina, Revisão de Teoria de Conjuntos e Enumerabilidade.pdf"
-    raw_target: "raw/pdfs/material-de-aula/aula-01-apresentação-da-disciplina-revisão-de-teoria-de-conjuntos-e-enumerabilidade.pdf"
+    raw_target: "raw/pdfs/material-de-aula/aula-01-apresentacao-da-disciplina-revisao-de-teoria-de-conjuntos-e-enumerabilidade.pdf"
     processing_mode: high_fidelity
     effective_profile: math_heavy
-    include_in_bundle: true
-    professor_signal: ""
-  - id: trabalho-tcc
-    title: "Trabalho Tcc"
-    category: trabalhos
-    file_type: pdf
-    source_path: "C:/Users/Humberto/Downloads/Trabalho-TCC.pdf"
-    raw_target: "raw/pdfs/trabalhos/trabalho-tcc.pdf"
-    processing_mode: auto
-    effective_profile: general
     include_in_bundle: true
     professor_signal: ""

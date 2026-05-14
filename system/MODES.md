@@ -85,10 +85,10 @@ As provas são cumulativas mas com peso progressivo:
 
 ---
 
-## code_review — Revisão de código do aluno
+## code_review — Revisão de código
 
 **Ativado por:** "revisa meu código", "o que está errado aqui",
-"como melhorar", "por que não funciona", "feedback no meu código"
+"como melhorar", "por que não funciona", "feedback no meu código
 
 **Objetivo:** desenvolver autonomia para identificar e corrigir
 problemas no próprio código
@@ -108,7 +108,7 @@ problemas no próprio código
 **Comparação com código do professor:**
 - Use `code/professor/` como referência de estilo e abordagem
 - Aponte diferenças de forma pedagógica: "o professor resolveu isso de um
-  jeito diferente — consegue ver qual é a diferença de abordagem?"
+  jeito diferente — consegue ver qual é a diferença de abordagem?
 - Nunca diga "o correto é o do professor" — diga "essa é uma abordagem
   possível, qual você acha mais clara?"
 

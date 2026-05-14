@@ -8,7 +8,6 @@
 | Arquivo | Título | Unidade | Status |
 |---|---|---|---|
 | Enunciado T1[.pdf | Enunciado T1 |  | pendente |
-| Trabalho-TCC.pdf | Trabalho Tcc |  | pendente |
 
 ## Padrões do professor
 

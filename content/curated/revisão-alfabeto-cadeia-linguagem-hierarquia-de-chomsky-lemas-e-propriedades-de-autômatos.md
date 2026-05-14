@@ -1,3 +1,51 @@
+<!-- EXEC_SUMMARY_START -->
+## Sumário
+> *Leia antes de varrer o arquivo. Vá direto à seção relevante para a pergunta do aluno.*
+
+  - Teoria de Autômatos e Linguagens Formais
+  - Alfabeto
+  - Definição
+  - Notações
+  - Exemplos com $\Sigma = \{0,1\}$
+  - Concatenação
+  - Subcadeia (substring)
+  - Exemplo: w = abcde
+  - Exemplo: $\Sigma = \{a, b\}$
+  - **Importância**
+  - Definição
+  - Exemplos
+  - Operações de Conjunto
+  - Operações Específicas de Linguagens
+  - Quantidade de Linguagens
+  - Consequência
+  - Hierarquia
+  - **Exemplos**
+  - Definição
+  - Linguagem: cadeias que terminam em 01
+  - Autômato Finito Não-Determinístico (NDFA)
+  - Linguagens Regulares
+  - Lema (Pumping Lemma)
+  - Exemplo de Uso (estrutura de prova)
+  - Autômatos de Pilha (PDA)
+  - Limitação
+  - Estratégia
+  - Transições principais
+  - Exemplo de execução
+  - Linguagem Gerada
+  - Classificação por Restrições nas Regras
+  - Tipo 3: Regulares
+  - Ideia da prova
+  - Definicões
+  - Relação
+  - Exemplo
+  - Resumo: Poderes Computacionais
+  - Exercício 4: Autômatos Finitos
+  - Exercício 8: PDAs
+  - Exercício 10: Reconhecível vs. Decidível
+  - Exercício 11: Propriedades de Fechamento
+  - Referências I
+
+<!-- EXEC_SUMMARY_END -->
 # Revisão: Alfabeto, Cadeia, Linguagem, Hierarquia de Chomsky, Lemas e Propriedades de **Autômatos**
 
 Prof. Anderson Roberto Pinheiro Domingues

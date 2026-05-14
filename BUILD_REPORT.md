@@ -5,18 +5,20 @@
 - pymupdf: True
 - pymupdf4llm: True
 - pdfplumber: True
+- datalab_api: True
 - docling_cli: True
+- docling_python: True
 - marker_cli: True
 
 ## Plataforma principal: CLAUDE
 
-> Copie o conteúdo de `INSTRUCOES_CLAUDE_PROJETO.md`
-> Cole no campo 'Instructions' do Projeto Claude
+> Copie o conteúdo de `setup/INSTRUCOES_CLAUDE_PROJETO.md`
+> Cole no campo 'Instructions' do Claude Project
 
 Os três arquivos de instruções foram gerados:
-- `INSTRUCOES_CLAUDE_PROJETO.md` **<< atual**
-- `INSTRUCOES_GPT_PROJETO.md`
-- `INSTRUCOES_GEMINI_PROJETO.md`
+- `setup/INSTRUCOES_CLAUDE_PROJETO.md` **<< atual**
+- `setup/INSTRUCOES_GPT_PROJETO.md`
+- `setup/INSTRUCOES_GEMINI_PROJETO.md`
 
 ## Regras práticas de curadoria
 - PDFs simples: camada base costuma bastar.

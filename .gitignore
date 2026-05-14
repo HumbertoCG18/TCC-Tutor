@@ -5,13 +5,27 @@ staging/
 raw/
 # Artefatos de build
 build/
+# Backups de consolidação e migração
+build/consolidation-backup/
+build/migration-v1-backup/
 # Workspace de revisão manual
 manual-review/
 # Scripts utilitários locais
 scripts/
+# Índices internos derivados do app (regeneráveis)
+course/.content_taxonomy.json
+course/.timeline_index.json
+course/.assessment_context.json
+course/.tag_catalog.json
+course/.semantic_profile.generated.json
+# Assets de imagem usados localmente pelo app (o tutor consome as descrições injetadas)
+content/images/
+# Exportações operacionais de prompt (copiadas para a plataforma, não lidas pelo tutor)
+setup/
 
 # === Sistema ===
 __pycache__/
 *.pyc
 .DS_Store
-Thumbs.db
+# Exportação local para DeepTutor (não commitada)
+.deeptutor/
