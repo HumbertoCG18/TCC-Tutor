@@ -164,14 +164,14 @@
           "Documento math_heavy pede backend avançado com enrich-formula."
         ]
       },
-      "base_markdown": "staging/markdown-auto/pymupdf4llm/aula-16-exemplo-de-prova-para-revisao.md",
-      "advanced_markdown": "staging/markdown-auto/datalab/aula-16-exemplo-de-prova-para-revisao/aula-16-exemplo-de-prova-para-revisao.md",
+      "base_markdown": null,
+      "advanced_markdown": null,
       "advanced_backend": "datalab",
       "base_backend": "pymupdf4llm",
       "images_dir": "staging/assets/images/aula-16-exemplo-de-prova-para-revisao",
       "tables_dir": "staging/assets/tables/aula-16-exemplo-de-prova-para-revisao",
       "table_detection_dir": "staging/assets/table-detections/aula-16-exemplo-de-prova-para-revisao",
-      "manual_review": "manual-review/pdfs/aula-16-exemplo-de-prova-para-revisao.md",
+      "manual_review": null,
       "effective_profile": "math_heavy",
       "advanced_asset_dir": "staging/markdown-auto/datalab/aula-16-exemplo-de-prova-para-revisao",
       "advanced_metadata_path": "staging/markdown-auto/datalab/aula-16-exemplo-de-prova-para-revisao/datalab-run.json",
@@ -194,7 +194,12 @@
       "subunit_match_reasons": [
         "winner_score=7.87"
       ],
-      "subunit_match_confidence": 0.7915428571428571
+      "subunit_match_confidence": 0.7915428571428571,
+      "approved_markdown": "content/curated/aula-16-exemplo-de-prova-para-revisao.md",
+      "curated_markdown": "content/curated/aula-16-exemplo-de-prova-para-revisao.md",
+      "approved_source_markdown": "staging/markdown-auto/datalab/aula-16-exemplo-de-prova-para-revisao/aula-16-exemplo-de-prova-para-revisao.md",
+      "approved_at": "2026-05-14T16:54:10",
+      "review_status": "approved"
     },
     {
       "id": "aula-15-teoremas-de-incompletude-de-godel",
@@ -251,14 +256,14 @@
           "Documento math_heavy pede backend avançado com enrich-formula."
         ]
       },
-      "base_markdown": "staging/markdown-auto/pymupdf4llm/aula-15-teoremas-de-incompletude-de-godel.md",
-      "advanced_markdown": "staging/markdown-auto/datalab/aula-15-teoremas-de-incompletude-de-godel/aula-15-teoremas-de-incompletude-de-godel.md",
+      "base_markdown": null,
+      "advanced_markdown": null,
       "advanced_backend": "datalab",
       "base_backend": "pymupdf4llm",
       "images_dir": "staging/assets/images/aula-15-teoremas-de-incompletude-de-godel",
       "tables_dir": "staging/assets/tables/aula-15-teoremas-de-incompletude-de-godel",
       "table_detection_dir": "staging/assets/table-detections/aula-15-teoremas-de-incompletude-de-godel",
-      "manual_review": "manual-review/pdfs/aula-15-teoremas-de-incompletude-de-godel.md",
+      "manual_review": null,
       "effective_profile": "math_heavy",
       "advanced_asset_dir": "staging/markdown-auto/datalab/aula-15-teoremas-de-incompletude-de-godel",
       "advanced_metadata_path": "staging/markdown-auto/datalab/aula-15-teoremas-de-incompletude-de-godel/datalab-run.json",
@@ -360,7 +365,12 @@
       "subunit_match_reasons": [
         "winner_score=4.09"
       ],
-      "subunit_match_confidence": 0.46202686202686205
+      "subunit_match_confidence": 0.46202686202686205,
+      "approved_markdown": "content/curated/aula-15-teoremas-de-incompletude-de-godel.md",
+      "curated_markdown": "content/curated/aula-15-teoremas-de-incompletude-de-godel.md",
+      "approved_source_markdown": "staging/markdown-auto/datalab/aula-15-teoremas-de-incompletude-de-godel/aula-15-teoremas-de-incompletude-de-godel.md",
+      "approved_at": "2026-05-14T16:54:18",
+      "review_status": "approved"
     },
     {
       "id": "aula-14-problema-da-correspondencia-de-post",
@@ -417,14 +427,14 @@
           "Documento math_heavy pede backend avançado com enrich-formula."
         ]
       },
-      "base_markdown": "staging/markdown-auto/pymupdf4llm/aula-14-problema-da-correspondencia-de-post.md",
-      "advanced_markdown": "staging/markdown-auto/datalab/aula-14-problema-da-correspondencia-de-post/aula-14-problema-da-correspondencia-de-post.md",
+      "base_markdown": null,
+      "advanced_markdown": null,
       "advanced_backend": "datalab",
       "base_backend": "pymupdf4llm",
       "images_dir": "staging/assets/images/aula-14-problema-da-correspondencia-de-post",
       "tables_dir": "staging/assets/tables/aula-14-problema-da-correspondencia-de-post",
       "table_detection_dir": "staging/assets/table-detections/aula-14-problema-da-correspondencia-de-post",
-      "manual_review": "manual-review/pdfs/aula-14-problema-da-correspondencia-de-post.md",
+      "manual_review": null,
       "effective_profile": "math_heavy",
       "advanced_asset_dir": "staging/markdown-auto/datalab/aula-14-problema-da-correspondencia-de-post",
       "advanced_metadata_path": "staging/markdown-auto/datalab/aula-14-problema-da-correspondencia-de-post/datalab-run.json",
@@ -519,7 +529,12 @@
       "subunit_match_reasons": [
         "winner_score=1.04"
       ],
-      "subunit_match_confidence": 0.8961111111111111
+      "subunit_match_confidence": 0.8961111111111111,
+      "approved_markdown": "content/curated/aula-14-problema-da-correspondencia-de-post.md",
+      "curated_markdown": "content/curated/aula-14-problema-da-correspondencia-de-post.md",
+      "approved_source_markdown": "staging/markdown-auto/datalab/aula-14-problema-da-correspondencia-de-post/aula-14-problema-da-correspondencia-de-post.md",
+      "approved_at": "2026-05-14T16:54:23",
+      "review_status": "approved"
     },
     {
       "id": "aula-13-teorema-de-rice",
@@ -574,14 +589,14 @@
           "Documento math_heavy pede backend avançado com enrich-formula."
         ]
       },
-      "base_markdown": "staging/markdown-auto/pymupdf4llm/aula-13-teorema-de-rice.md",
-      "advanced_markdown": "staging/markdown-auto/datalab/aula-13-teorema-de-rice/aula-13-teorema-de-rice.md",
+      "base_markdown": null,
+      "advanced_markdown": null,
       "advanced_backend": "datalab",
       "base_backend": "pymupdf4llm",
       "images_dir": "staging/assets/images/aula-13-teorema-de-rice",
       "tables_dir": "staging/assets/tables/aula-13-teorema-de-rice",
       "table_detection_dir": "staging/assets/table-detections/aula-13-teorema-de-rice",
-      "manual_review": "manual-review/pdfs/aula-13-teorema-de-rice.md",
+      "manual_review": null,
       "effective_profile": "math_heavy",
       "advanced_asset_dir": "staging/markdown-auto/datalab/aula-13-teorema-de-rice",
       "advanced_metadata_path": "staging/markdown-auto/datalab/aula-13-teorema-de-rice/datalab-run.json",
@@ -641,7 +656,12 @@
       "subunit_match_reasons": [
         "winner_score=1.64"
       ],
-      "subunit_match_confidence": 0.7637894736842105
+      "subunit_match_confidence": 0.7637894736842105,
+      "approved_markdown": "content/curated/aula-13-teorema-de-rice.md",
+      "curated_markdown": "content/curated/aula-13-teorema-de-rice.md",
+      "approved_source_markdown": "staging/markdown-auto/datalab/aula-13-teorema-de-rice/aula-13-teorema-de-rice.md",
+      "approved_at": "2026-05-14T16:54:29",
+      "review_status": "approved"
     },
     {
       "id": "aula-12-entscheidungsproblem",
@@ -695,14 +715,14 @@
           "Documento math_heavy pede backend avançado com enrich-formula."
         ]
       },
-      "base_markdown": "staging/markdown-auto/pymupdf4llm/aula-12-entscheidungsproblem.md",
-      "advanced_markdown": "staging/markdown-auto/datalab/aula-12-entscheidungsproblem/aula-12-entscheidungsproblem.md",
+      "base_markdown": null,
+      "advanced_markdown": null,
       "advanced_backend": "datalab",
       "base_backend": "pymupdf4llm",
       "images_dir": "staging/assets/images/aula-12-entscheidungsproblem",
       "tables_dir": "staging/assets/tables/aula-12-entscheidungsproblem",
       "table_detection_dir": "staging/assets/table-detections/aula-12-entscheidungsproblem",
-      "manual_review": "manual-review/pdfs/aula-12-entscheidungsproblem.md",
+      "manual_review": null,
       "effective_profile": "math_heavy",
       "advanced_asset_dir": "staging/markdown-auto/datalab/aula-12-entscheidungsproblem",
       "advanced_metadata_path": "staging/markdown-auto/datalab/aula-12-entscheidungsproblem/datalab-run.json",
@@ -818,7 +838,12 @@
       "subunit_match_reasons": [
         "winner_score=1.64"
       ],
-      "subunit_match_confidence": 0.36842105263157887
+      "subunit_match_confidence": 0.36842105263157887,
+      "approved_markdown": "content/curated/aula-12-entscheidungsproblem.md",
+      "curated_markdown": "content/curated/aula-12-entscheidungsproblem.md",
+      "approved_source_markdown": "staging/markdown-auto/datalab/aula-12-entscheidungsproblem/aula-12-entscheidungsproblem.md",
+      "approved_at": "2026-05-14T16:54:35",
+      "review_status": "approved"
     },
     {
       "id": "aula-11-o-problema-da-parada-halting-problem-halteproblem",
@@ -872,14 +897,14 @@
           "Documento math_heavy pede backend avançado com enrich-formula."
         ]
       },
-      "base_markdown": "staging/markdown-auto/pymupdf4llm/aula-11-o-problema-da-parada-halting-problem-halteproblem.md",
-      "advanced_markdown": "staging/markdown-auto/datalab/aula-11-o-problema-da-parada-halting-problem-halteproblem/aula-11-o-problema-da-parada-halting-problem-halteproblem.md",
+      "base_markdown": null,
+      "advanced_markdown": null,
       "advanced_backend": "datalab",
       "base_backend": "pymupdf4llm",
       "images_dir": "staging/assets/images/aula-11-o-problema-da-parada-halting-problem-halteproblem",
       "tables_dir": "staging/assets/tables/aula-11-o-problema-da-parada-halting-problem-halteproblem",
       "table_detection_dir": "staging/assets/table-detections/aula-11-o-problema-da-parada-halting-problem-halteproblem",
-      "manual_review": "manual-review/pdfs/aula-11-o-problema-da-parada-halting-problem-halteproblem.md",
+      "manual_review": null,
       "effective_profile": "math_heavy",
       "advanced_asset_dir": "staging/markdown-auto/datalab/aula-11-o-problema-da-parada-halting-problem-halteproblem",
       "advanced_metadata_path": "staging/markdown-auto/datalab/aula-11-o-problema-da-parada-halting-problem-halteproblem/datalab-run.json",
@@ -1017,7 +1042,12 @@
         "winner_score=1.64",
         "ambiguous"
       ],
-      "subunit_match_confidence": 0.09649122807017524
+      "subunit_match_confidence": 0.09649122807017524,
+      "approved_markdown": "content/curated/aula-11-o-problema-da-parada-halting-problem-halteproblem.md",
+      "curated_markdown": "content/curated/aula-11-o-problema-da-parada-halting-problem-halteproblem.md",
+      "approved_source_markdown": "staging/markdown-auto/datalab/aula-11-o-problema-da-parada-halting-problem-halteproblem/aula-11-o-problema-da-parada-halting-problem-halteproblem.md",
+      "approved_at": "2026-05-14T16:54:40",
+      "review_status": "approved"
     },
     {
       "id": "aula-10-linguagens-reconhecıveis-e-linguagens-decidıveis",
@@ -1071,14 +1101,14 @@
           "Documento math_heavy pede backend avançado com enrich-formula."
         ]
       },
-      "base_markdown": "staging/markdown-auto/pymupdf4llm/aula-10-linguagens-reconhecıveis-e-linguagens-decidıveis.md",
-      "advanced_markdown": "staging/markdown-auto/datalab/aula-10-linguagens-reconhecıveis-e-linguagens-decidıveis/aula-10-linguagens-reconhecıveis-e-linguagens-decidıveis.md",
+      "base_markdown": null,
+      "advanced_markdown": null,
       "advanced_backend": "datalab",
       "base_backend": "pymupdf4llm",
       "images_dir": "staging/assets/images/aula-10-linguagens-reconhecıveis-e-linguagens-decidıveis",
       "tables_dir": "staging/assets/tables/aula-10-linguagens-reconhecıveis-e-linguagens-decidıveis",
       "table_detection_dir": "staging/assets/table-detections/aula-10-linguagens-reconhecıveis-e-linguagens-decidıveis",
-      "manual_review": "manual-review/pdfs/aula-10-linguagens-reconhecıveis-e-linguagens-decidıveis.md",
+      "manual_review": null,
       "effective_profile": "math_heavy",
       "advanced_asset_dir": "staging/markdown-auto/datalab/aula-10-linguagens-reconhecıveis-e-linguagens-decidıveis",
       "advanced_metadata_path": "staging/markdown-auto/datalab/aula-10-linguagens-reconhecıveis-e-linguagens-decidıveis/datalab-run.json",
@@ -1194,7 +1224,12 @@
       "subunit_match_reasons": [
         "winner_score=1.64"
       ],
-      "subunit_match_confidence": 0.44736842105263147
+      "subunit_match_confidence": 0.44736842105263147,
+      "approved_markdown": "content/curated/aula-10-linguagens-reconhecıveis-e-linguagens-decidıveis.md",
+      "curated_markdown": "content/curated/aula-10-linguagens-reconhecıveis-e-linguagens-decidıveis.md",
+      "approved_source_markdown": "staging/markdown-auto/datalab/aula-10-linguagens-reconhecıveis-e-linguagens-decidıveis/aula-10-linguagens-reconhecıveis-e-linguagens-decidıveis.md",
+      "approved_at": "2026-05-14T16:54:46",
+      "review_status": "approved"
     },
     {
       "id": "aula-09-variacoes-de-maquinas-de-turing",
@@ -1252,14 +1287,14 @@
           "Documento math_heavy pede backend avançado com enrich-formula."
         ]
       },
-      "base_markdown": "staging/markdown-auto/pymupdf4llm/aula-09-variacoes-de-maquinas-de-turing.md",
-      "advanced_markdown": "staging/markdown-auto/datalab/aula-09-variacoes-de-maquinas-de-turing/aula-09-variacoes-de-maquinas-de-turing.md",
+      "base_markdown": null,
+      "advanced_markdown": null,
       "advanced_backend": "datalab",
       "base_backend": "pymupdf4llm",
       "images_dir": "staging/assets/images/aula-09-variacoes-de-maquinas-de-turing",
       "tables_dir": "staging/assets/tables/aula-09-variacoes-de-maquinas-de-turing",
       "table_detection_dir": "staging/assets/table-detections/aula-09-variacoes-de-maquinas-de-turing",
-      "manual_review": "manual-review/pdfs/aula-09-variacoes-de-maquinas-de-turing.md",
+      "manual_review": null,
       "effective_profile": "math_heavy",
       "advanced_asset_dir": "staging/markdown-auto/datalab/aula-09-variacoes-de-maquinas-de-turing",
       "advanced_metadata_path": "staging/markdown-auto/datalab/aula-09-variacoes-de-maquinas-de-turing/datalab-run.json",
@@ -1369,7 +1404,12 @@
         "winner_score=16.83",
         "ambiguous"
       ],
-      "subunit_match_confidence": 0.013069565733974862
+      "subunit_match_confidence": 0.013069565733974862,
+      "approved_markdown": "content/curated/aula-09-variacoes-de-maquinas-de-turing.md",
+      "curated_markdown": "content/curated/aula-09-variacoes-de-maquinas-de-turing.md",
+      "approved_source_markdown": "staging/markdown-auto/datalab/aula-09-variacoes-de-maquinas-de-turing/aula-09-variacoes-de-maquinas-de-turing.md",
+      "approved_at": "2026-05-14T16:54:52",
+      "review_status": "approved"
     },
     {
       "id": "aula-08-maquinas-de-turing-como-processadores-de-funcoes",
@@ -1427,14 +1467,14 @@
           "Documento math_heavy pede backend avançado com enrich-formula."
         ]
       },
-      "base_markdown": "staging/markdown-auto/pymupdf4llm/aula-08-maquinas-de-turing-como-processadores-de-funcoes.md",
-      "advanced_markdown": "staging/markdown-auto/datalab/aula-08-maquinas-de-turing-como-processadores-de-funcoes/aula-08-maquinas-de-turing-como-processadores-de-funcoes.md",
+      "base_markdown": null,
+      "advanced_markdown": null,
       "advanced_backend": "datalab",
       "base_backend": "pymupdf4llm",
       "images_dir": "staging/assets/images/aula-08-maquinas-de-turing-como-processadores-de-funcoes",
       "tables_dir": "staging/assets/tables/aula-08-maquinas-de-turing-como-processadores-de-funcoes",
       "table_detection_dir": "staging/assets/table-detections/aula-08-maquinas-de-turing-como-processadores-de-funcoes",
-      "manual_review": "manual-review/pdfs/aula-08-maquinas-de-turing-como-processadores-de-funcoes.md",
+      "manual_review": null,
       "effective_profile": "math_heavy",
       "advanced_asset_dir": "staging/markdown-auto/datalab/aula-08-maquinas-de-turing-como-processadores-de-funcoes",
       "advanced_metadata_path": "staging/markdown-auto/datalab/aula-08-maquinas-de-turing-como-processadores-de-funcoes/datalab-run.json",
@@ -1508,7 +1548,12 @@
       "subunit_match_reasons": [
         "winner_score=15.81"
       ],
-      "subunit_match_confidence": 0.8961866818440524
+      "subunit_match_confidence": 0.8961866818440524,
+      "approved_markdown": "content/curated/aula-08-maquinas-de-turing-como-processadores-de-funcoes.md",
+      "curated_markdown": "content/curated/aula-08-maquinas-de-turing-como-processadores-de-funcoes.md",
+      "approved_source_markdown": "staging/markdown-auto/datalab/aula-08-maquinas-de-turing-como-processadores-de-funcoes/aula-08-maquinas-de-turing-como-processadores-de-funcoes.md",
+      "approved_at": "2026-05-14T16:54:57",
+      "review_status": "approved"
     },
     {
       "id": "aula07-maquinas-de-turing-e-linguagens-recursivamente-enumeraveis",
@@ -1566,14 +1611,14 @@
           "Documento math_heavy pede backend avançado com enrich-formula."
         ]
       },
-      "base_markdown": "staging/markdown-auto/pymupdf4llm/aula07-maquinas-de-turing-e-linguagens-recursivamente-enumeraveis.md",
-      "advanced_markdown": "staging/markdown-auto/datalab/aula07-maquinas-de-turing-e-linguagens-recursivamente-enumeraveis/aula07-maquinas-de-turing-e-linguagens-recursivamente-enumeraveis.md",
+      "base_markdown": null,
+      "advanced_markdown": null,
       "advanced_backend": "datalab",
       "base_backend": "pymupdf4llm",
       "images_dir": "staging/assets/images/aula07-maquinas-de-turing-e-linguagens-recursivamente-enumeraveis",
       "tables_dir": "staging/assets/tables/aula07-maquinas-de-turing-e-linguagens-recursivamente-enumeraveis",
       "table_detection_dir": "staging/assets/table-detections/aula07-maquinas-de-turing-e-linguagens-recursivamente-enumeraveis",
-      "manual_review": "manual-review/pdfs/aula07-maquinas-de-turing-e-linguagens-recursivamente-enumeraveis.md",
+      "manual_review": null,
       "effective_profile": "math_heavy",
       "advanced_asset_dir": "staging/markdown-auto/datalab/aula07-maquinas-de-turing-e-linguagens-recursivamente-enumeraveis",
       "advanced_metadata_path": "staging/markdown-auto/datalab/aula07-maquinas-de-turing-e-linguagens-recursivamente-enumeraveis/datalab-run.json",
@@ -1696,7 +1741,12 @@
       "subunit_match_reasons": [
         "winner_score=15.81"
       ],
-      "subunit_match_confidence": 0.9344336937962436
+      "subunit_match_confidence": 0.9344336937962436,
+      "approved_markdown": "content/curated/aula07-maquinas-de-turing-e-linguagens-recursivamente-enumeraveis.md",
+      "curated_markdown": "content/curated/aula07-maquinas-de-turing-e-linguagens-recursivamente-enumeraveis.md",
+      "approved_source_markdown": "staging/markdown-auto/datalab/aula07-maquinas-de-turing-e-linguagens-recursivamente-enumeraveis/aula07-maquinas-de-turing-e-linguagens-recursivamente-enumeraveis.md",
+      "approved_at": "2026-05-14T16:53:48",
+      "review_status": "approved"
     },
     {
       "id": "aula-06-revisao-alfabeto-cadeia-linguagem-hierarquia-de-chomsky-lemas-e-propriedades-de-automatos",
@@ -1750,14 +1800,14 @@
           "Documento math_heavy pede backend avançado com enrich-formula."
         ]
       },
-      "base_markdown": "staging/markdown-auto/pymupdf4llm/aula-06-revisao-alfabeto-cadeia-linguagem-hierarquia-de-chomsky-lemas-e-propriedades-de-automatos.md",
-      "advanced_markdown": "staging/markdown-auto/datalab/aula-06-revisao-alfabeto-cadeia-linguagem-hierarquia-de-chomsky-lemas-e-propriedades-de-automatos/aula-06-revisao-alfabeto-cadeia-linguagem-hierarquia-de-chomsky-lemas-e-propriedades-de-automatos.md",
+      "base_markdown": null,
+      "advanced_markdown": null,
       "advanced_backend": "datalab",
       "base_backend": "pymupdf4llm",
       "images_dir": "staging/assets/images/aula-06-revisao-alfabeto-cadeia-linguagem-hierarquia-de-chomsky-lemas-e-propriedades-de-automatos",
       "tables_dir": "staging/assets/tables/aula-06-revisao-alfabeto-cadeia-linguagem-hierarquia-de-chomsky-lemas-e-propriedades-de-automatos",
       "table_detection_dir": "staging/assets/table-detections/aula-06-revisao-alfabeto-cadeia-linguagem-hierarquia-de-chomsky-lemas-e-propriedades-de-automatos",
-      "manual_review": "manual-review/pdfs/aula-06-revisao-alfabeto-cadeia-linguagem-hierarquia-de-chomsky-lemas-e-propriedades-de-automatos.md",
+      "manual_review": null,
       "effective_profile": "math_heavy",
       "advanced_asset_dir": "staging/markdown-auto/datalab/aula-06-revisao-alfabeto-cadeia-linguagem-hierarquia-de-chomsky-lemas-e-propriedades-de-automatos",
       "advanced_metadata_path": "staging/markdown-auto/datalab/aula-06-revisao-alfabeto-cadeia-linguagem-hierarquia-de-chomsky-lemas-e-propriedades-de-automatos/datalab-run.json",
@@ -1902,7 +1952,12 @@
         "winner_score=1.04",
         "ambiguous"
       ],
-      "subunit_match_confidence": 0.12499999999999994
+      "subunit_match_confidence": 0.12499999999999994,
+      "approved_markdown": "content/curated/aula-06-revisao-alfabeto-cadeia-linguagem-hierarquia-de-chomsky-lemas-e-propriedades-de-automatos.md",
+      "curated_markdown": "content/curated/aula-06-revisao-alfabeto-cadeia-linguagem-hierarquia-de-chomsky-lemas-e-propriedades-de-automatos.md",
+      "approved_source_markdown": "staging/markdown-auto/datalab/aula-06-revisao-alfabeto-cadeia-linguagem-hierarquia-de-chomsky-lemas-e-propriedades-de-automatos/aula-06-revisao-alfabeto-cadeia-linguagem-hierarquia-de-chomsky-lemas-e-propriedades-de-automatos.md",
+      "approved_at": "2026-05-14T16:55:03",
+      "review_status": "approved"
     },
     {
       "id": "revisao-alfabeto-cadeia-linguagem-hierarquia-de-chomsky-lemas-e-propriedades-de-automatos",
@@ -1956,14 +2011,14 @@
           "Documento math_heavy pede backend avançado com enrich-formula."
         ]
       },
-      "base_markdown": "staging/markdown-auto/pymupdf4llm/revisao-alfabeto-cadeia-linguagem-hierarquia-de-chomsky-lemas-e-propriedades-de-automatos.md",
-      "advanced_markdown": "staging/markdown-auto/datalab/revisao-alfabeto-cadeia-linguagem-hierarquia-de-chomsky-lemas-e-propriedades-de-automatos/revisao-alfabeto-cadeia-linguagem-hierarquia-de-chomsky-lemas-e-propriedades-de-automatos.md",
+      "base_markdown": null,
+      "advanced_markdown": null,
       "advanced_backend": "datalab",
       "base_backend": "pymupdf4llm",
       "images_dir": "staging/assets/images/revisao-alfabeto-cadeia-linguagem-hierarquia-de-chomsky-lemas-e-propriedades-de-automatos",
       "tables_dir": "staging/assets/tables/revisao-alfabeto-cadeia-linguagem-hierarquia-de-chomsky-lemas-e-propriedades-de-automatos",
       "table_detection_dir": "staging/assets/table-detections/revisao-alfabeto-cadeia-linguagem-hierarquia-de-chomsky-lemas-e-propriedades-de-automatos",
-      "manual_review": "manual-review/pdfs/revisao-alfabeto-cadeia-linguagem-hierarquia-de-chomsky-lemas-e-propriedades-de-automatos.md",
+      "manual_review": null,
       "effective_profile": "math_heavy",
       "advanced_asset_dir": "staging/markdown-auto/datalab/revisao-alfabeto-cadeia-linguagem-hierarquia-de-chomsky-lemas-e-propriedades-de-automatos",
       "advanced_metadata_path": "staging/markdown-auto/datalab/revisao-alfabeto-cadeia-linguagem-hierarquia-de-chomsky-lemas-e-propriedades-de-automatos/datalab-run.json",
@@ -2108,7 +2163,12 @@
         "winner_score=1.04",
         "ambiguous"
       ],
-      "subunit_match_confidence": 0.12499999999999994
+      "subunit_match_confidence": 0.12499999999999994,
+      "approved_markdown": "content/curated/revisao-alfabeto-cadeia-linguagem-hierarquia-de-chomsky-lemas-e-propriedades-de-automatos.md",
+      "curated_markdown": "content/curated/revisao-alfabeto-cadeia-linguagem-hierarquia-de-chomsky-lemas-e-propriedades-de-automatos.md",
+      "approved_source_markdown": "staging/markdown-auto/datalab/revisao-alfabeto-cadeia-linguagem-hierarquia-de-chomsky-lemas-e-propriedades-de-automatos/revisao-alfabeto-cadeia-linguagem-hierarquia-de-chomsky-lemas-e-propriedades-de-automatos.md",
+      "approved_at": "2026-05-14T16:53:40",
+      "review_status": "approved"
     },
     {
       "id": "aula-05-minimizacao-de-funcoes-recursivas-parciais",
@@ -2164,14 +2224,14 @@
           "Documento math_heavy pede backend avançado com enrich-formula."
         ]
       },
-      "base_markdown": "staging/markdown-auto/pymupdf4llm/aula-05-minimizacao-de-funcoes-recursivas-parciais.md",
-      "advanced_markdown": "staging/markdown-auto/datalab/aula-05-minimizacao-de-funcoes-recursivas-parciais/aula-05-minimizacao-de-funcoes-recursivas-parciais.md",
+      "base_markdown": null,
+      "advanced_markdown": null,
       "advanced_backend": "datalab",
       "base_backend": "pymupdf4llm",
       "images_dir": "staging/assets/images/aula-05-minimizacao-de-funcoes-recursivas-parciais",
       "tables_dir": "staging/assets/tables/aula-05-minimizacao-de-funcoes-recursivas-parciais",
       "table_detection_dir": "staging/assets/table-detections/aula-05-minimizacao-de-funcoes-recursivas-parciais",
-      "manual_review": "manual-review/pdfs/aula-05-minimizacao-de-funcoes-recursivas-parciais.md",
+      "manual_review": null,
       "effective_profile": "math_heavy",
       "advanced_asset_dir": "staging/markdown-auto/datalab/aula-05-minimizacao-de-funcoes-recursivas-parciais",
       "advanced_metadata_path": "staging/markdown-auto/datalab/aula-05-minimizacao-de-funcoes-recursivas-parciais/datalab-run.json",
@@ -2253,7 +2313,12 @@
         "winner_score=1.64",
         "ambiguous"
       ],
-      "subunit_match_confidence": 0.13157894736842093
+      "subunit_match_confidence": 0.13157894736842093,
+      "approved_markdown": "content/curated/aula-05-minimizacao-de-funcoes-recursivas-parciais.md",
+      "curated_markdown": "content/curated/aula-05-minimizacao-de-funcoes-recursivas-parciais.md",
+      "approved_source_markdown": "staging/markdown-auto/datalab/aula-05-minimizacao-de-funcoes-recursivas-parciais/aula-05-minimizacao-de-funcoes-recursivas-parciais.md",
+      "approved_at": "2026-05-14T16:53:34",
+      "review_status": "approved"
     },
     {
       "id": "aula-04-funcoes-computaveis-funcoes-recursivas-parciais",
@@ -2309,14 +2374,14 @@
           "Documento math_heavy pede backend avançado com enrich-formula."
         ]
       },
-      "base_markdown": "staging/markdown-auto/pymupdf4llm/aula-04-funcoes-computaveis-funcoes-recursivas-parciais.md",
-      "advanced_markdown": "staging/markdown-auto/datalab/aula-04-funcoes-computaveis-funcoes-recursivas-parciais/aula-04-funcoes-computaveis-funcoes-recursivas-parciais.md",
+      "base_markdown": null,
+      "advanced_markdown": null,
       "advanced_backend": "datalab",
       "base_backend": "pymupdf4llm",
       "images_dir": "staging/assets/images/aula-04-funcoes-computaveis-funcoes-recursivas-parciais",
       "tables_dir": "staging/assets/tables/aula-04-funcoes-computaveis-funcoes-recursivas-parciais",
       "table_detection_dir": "staging/assets/table-detections/aula-04-funcoes-computaveis-funcoes-recursivas-parciais",
-      "manual_review": "manual-review/pdfs/aula-04-funcoes-computaveis-funcoes-recursivas-parciais.md",
+      "manual_review": null,
       "effective_profile": "math_heavy",
       "advanced_asset_dir": "staging/markdown-auto/datalab/aula-04-funcoes-computaveis-funcoes-recursivas-parciais",
       "advanced_metadata_path": "staging/markdown-auto/datalab/aula-04-funcoes-computaveis-funcoes-recursivas-parciais/datalab-run.json",
@@ -2397,7 +2462,12 @@
       "subunit_match_reasons": [
         "winner_score=1.56"
       ],
-      "subunit_match_confidence": 0.3333333333333334
+      "subunit_match_confidence": 0.3333333333333334,
+      "approved_markdown": "content/curated/aula-04-funcoes-computaveis-funcoes-recursivas-parciais.md",
+      "curated_markdown": "content/curated/aula-04-funcoes-computaveis-funcoes-recursivas-parciais.md",
+      "approved_source_markdown": "staging/markdown-auto/datalab/aula-04-funcoes-computaveis-funcoes-recursivas-parciais/aula-04-funcoes-computaveis-funcoes-recursivas-parciais.md",
+      "approved_at": "2026-05-14T16:53:28",
+      "review_status": "approved"
     },
     {
       "id": "aula-03-funcoes-recursivas-primitivas-e-composicao-de-funcoes",
@@ -2453,14 +2523,14 @@
           "Documento math_heavy pede backend avançado com enrich-formula."
         ]
       },
-      "base_markdown": "staging/markdown-auto/pymupdf4llm/aula-03-funcoes-recursivas-primitivas-e-composicao-de-funcoes.md",
-      "advanced_markdown": "staging/markdown-auto/datalab/aula-03-funcoes-recursivas-primitivas-e-composicao-de-funcoes/aula-03-funcoes-recursivas-primitivas-e-composicao-de-funcoes.md",
+      "base_markdown": null,
+      "advanced_markdown": null,
       "advanced_backend": "datalab",
       "base_backend": "pymupdf4llm",
       "images_dir": "staging/assets/images/aula-03-funcoes-recursivas-primitivas-e-composicao-de-funcoes",
       "tables_dir": "staging/assets/tables/aula-03-funcoes-recursivas-primitivas-e-composicao-de-funcoes",
       "table_detection_dir": "staging/assets/table-detections/aula-03-funcoes-recursivas-primitivas-e-composicao-de-funcoes",
-      "manual_review": "manual-review/pdfs/aula-03-funcoes-recursivas-primitivas-e-composicao-de-funcoes.md",
+      "manual_review": null,
       "effective_profile": "math_heavy",
       "advanced_asset_dir": "staging/markdown-auto/datalab/aula-03-funcoes-recursivas-primitivas-e-composicao-de-funcoes",
       "advanced_metadata_path": "staging/markdown-auto/datalab/aula-03-funcoes-recursivas-primitivas-e-composicao-de-funcoes/datalab-run.json",
@@ -2576,7 +2646,12 @@
       "subunit_match_reasons": [
         "winner_score=1.43"
       ],
-      "subunit_match_confidence": 0.36363636363636365
+      "subunit_match_confidence": 0.36363636363636365,
+      "approved_markdown": "content/curated/aula-03-funcoes-recursivas-primitivas-e-composicao-de-funcoes.md",
+      "curated_markdown": "content/curated/aula-03-funcoes-recursivas-primitivas-e-composicao-de-funcoes.md",
+      "approved_source_markdown": "staging/markdown-auto/datalab/aula-03-funcoes-recursivas-primitivas-e-composicao-de-funcoes/aula-03-funcoes-recursivas-primitivas-e-composicao-de-funcoes.md",
+      "approved_at": "2026-05-14T16:53:17",
+      "review_status": "approved"
     },
     {
       "id": "aula-02-conjuntos-enumeraveis-e-nao-enumeraveis-argumento-da-diagonalizacao-de-cantor",
@@ -2634,14 +2709,14 @@
           "Documento math_heavy pede backend avançado com enrich-formula."
         ]
       },
-      "base_markdown": "staging/markdown-auto/pymupdf4llm/aula-02-conjuntos-enumeraveis-e-nao-enumeraveis-argumento-da-diagonalizacao-de-cantor.md",
-      "advanced_markdown": "staging/markdown-auto/datalab/aula-02-conjuntos-enumeraveis-e-nao-enumeraveis-argumento-da-diagonalizacao-de-cantor/aula-02-conjuntos-enumeraveis-e-nao-enumeraveis-argumento-da-diagonalizacao-de-cantor.md",
+      "base_markdown": null,
+      "advanced_markdown": null,
       "advanced_backend": "datalab",
       "base_backend": "pymupdf4llm",
       "images_dir": "staging/assets/images/aula-02-conjuntos-enumeraveis-e-nao-enumeraveis-argumento-da-diagonalizacao-de-cantor",
       "tables_dir": "staging/assets/tables/aula-02-conjuntos-enumeraveis-e-nao-enumeraveis-argumento-da-diagonalizacao-de-cantor",
       "table_detection_dir": "staging/assets/table-detections/aula-02-conjuntos-enumeraveis-e-nao-enumeraveis-argumento-da-diagonalizacao-de-cantor",
-      "manual_review": "manual-review/pdfs/aula-02-conjuntos-enumeraveis-e-nao-enumeraveis-argumento-da-diagonalizacao-de-cantor.md",
+      "manual_review": null,
       "effective_profile": "math_heavy",
       "advanced_asset_dir": "staging/markdown-auto/datalab/aula-02-conjuntos-enumeraveis-e-nao-enumeraveis-argumento-da-diagonalizacao-de-cantor",
       "advanced_metadata_path": "staging/markdown-auto/datalab/aula-02-conjuntos-enumeraveis-e-nao-enumeraveis-argumento-da-diagonalizacao-de-cantor/datalab-run.json",
@@ -2750,7 +2825,12 @@
       "subunit_match_reasons": [
         "winner_score=16.83"
       ],
-      "subunit_match_confidence": 0.9230083764034932
+      "subunit_match_confidence": 0.9230083764034932,
+      "approved_markdown": "content/curated/aula-02-conjuntos-enumeraveis-e-nao-enumeraveis-argumento-da-diagonalizacao-de-cantor.md",
+      "curated_markdown": "content/curated/aula-02-conjuntos-enumeraveis-e-nao-enumeraveis-argumento-da-diagonalizacao-de-cantor.md",
+      "approved_source_markdown": "staging/markdown-auto/datalab/aula-02-conjuntos-enumeraveis-e-nao-enumeraveis-argumento-da-diagonalizacao-de-cantor/aula-02-conjuntos-enumeraveis-e-nao-enumeraveis-argumento-da-diagonalizacao-de-cantor.md",
+      "approved_at": "2026-05-14T16:53:10",
+      "review_status": "approved"
     },
     {
       "id": "aula-01-apresentacao-da-disciplina-revisao-de-teoria-de-conjuntos-e-enumerabilidade",
@@ -2805,14 +2885,14 @@
           "Documento math_heavy pede backend avançado com enrich-formula."
         ]
       },
-      "base_markdown": "staging/markdown-auto/pymupdf4llm/aula-01-apresentacao-da-disciplina-revisao-de-teoria-de-conjuntos-e-enumerabilidade.md",
-      "advanced_markdown": "staging/markdown-auto/datalab/aula-01-apresentacao-da-disciplina-revisao-de-teoria-de-conjuntos-e-enumerabilidade/aula-01-apresentacao-da-disciplina-revisao-de-teoria-de-conjuntos-e-enumerabilidade.md",
+      "base_markdown": null,
+      "advanced_markdown": null,
       "advanced_backend": "datalab",
       "base_backend": "pymupdf4llm",
       "images_dir": "staging/assets/images/aula-01-apresentacao-da-disciplina-revisao-de-teoria-de-conjuntos-e-enumerabilidade",
       "tables_dir": "staging/assets/tables/aula-01-apresentacao-da-disciplina-revisao-de-teoria-de-conjuntos-e-enumerabilidade",
       "table_detection_dir": "staging/assets/table-detections/aula-01-apresentacao-da-disciplina-revisao-de-teoria-de-conjuntos-e-enumerabilidade",
-      "manual_review": "manual-review/pdfs/aula-01-apresentacao-da-disciplina-revisao-de-teoria-de-conjuntos-e-enumerabilidade.md",
+      "manual_review": null,
       "effective_profile": "math_heavy",
       "advanced_asset_dir": "staging/markdown-auto/datalab/aula-01-apresentacao-da-disciplina-revisao-de-teoria-de-conjuntos-e-enumerabilidade",
       "advanced_metadata_path": "staging/markdown-auto/datalab/aula-01-apresentacao-da-disciplina-revisao-de-teoria-de-conjuntos-e-enumerabilidade/datalab-run.json",
@@ -2921,7 +3001,12 @@
       "subunit_match_reasons": [
         "winner_score=1.43"
       ],
-      "subunit_match_confidence": 0.27272727272727276
+      "subunit_match_confidence": 0.27272727272727276,
+      "approved_markdown": "content/curated/aula-01-apresentacao-da-disciplina-revisao-de-teoria-de-conjuntos-e-enumerabilidade.md",
+      "curated_markdown": "content/curated/aula-01-apresentacao-da-disciplina-revisao-de-teoria-de-conjuntos-e-enumerabilidade.md",
+      "approved_source_markdown": "staging/markdown-auto/datalab/aula-01-apresentacao-da-disciplina-revisao-de-teoria-de-conjuntos-e-enumerabilidade/aula-01-apresentacao-da-disciplina-revisao-de-teoria-de-conjuntos-e-enumerabilidade.md",
+      "approved_at": "2026-05-14T16:53:04",
+      "review_status": "approved"
     }
   ],
   "logs": [
@@ -4801,8 +4886,144 @@
       "step": "detect_tables_pymupdf",
       "status": "ok",
       "count": 0
+    },
+    {
+      "entry": "aula-01-apresentacao-da-disciplina-revisao-de-teoria-de-conjuntos-e-enumerabilidade",
+      "step": "curator_approve",
+      "status": "ok",
+      "approved_markdown": "content/curated/aula-01-apresentacao-da-disciplina-revisao-de-teoria-de-conjuntos-e-enumerabilidade.md",
+      "approved_source_markdown": "staging/markdown-auto/datalab/aula-01-apresentacao-da-disciplina-revisao-de-teoria-de-conjuntos-e-enumerabilidade/aula-01-apresentacao-da-disciplina-revisao-de-teoria-de-conjuntos-e-enumerabilidade.md",
+      "category": "material-de-aula"
+    },
+    {
+      "entry": "aula-02-conjuntos-enumeraveis-e-nao-enumeraveis-argumento-da-diagonalizacao-de-cantor",
+      "step": "curator_approve",
+      "status": "ok",
+      "approved_markdown": "content/curated/aula-02-conjuntos-enumeraveis-e-nao-enumeraveis-argumento-da-diagonalizacao-de-cantor.md",
+      "approved_source_markdown": "staging/markdown-auto/datalab/aula-02-conjuntos-enumeraveis-e-nao-enumeraveis-argumento-da-diagonalizacao-de-cantor/aula-02-conjuntos-enumeraveis-e-nao-enumeraveis-argumento-da-diagonalizacao-de-cantor.md",
+      "category": "material-de-aula"
+    },
+    {
+      "entry": "aula-03-funcoes-recursivas-primitivas-e-composicao-de-funcoes",
+      "step": "curator_approve",
+      "status": "ok",
+      "approved_markdown": "content/curated/aula-03-funcoes-recursivas-primitivas-e-composicao-de-funcoes.md",
+      "approved_source_markdown": "staging/markdown-auto/datalab/aula-03-funcoes-recursivas-primitivas-e-composicao-de-funcoes/aula-03-funcoes-recursivas-primitivas-e-composicao-de-funcoes.md",
+      "category": "material-de-aula"
+    },
+    {
+      "entry": "aula-04-funcoes-computaveis-funcoes-recursivas-parciais",
+      "step": "curator_approve",
+      "status": "ok",
+      "approved_markdown": "content/curated/aula-04-funcoes-computaveis-funcoes-recursivas-parciais.md",
+      "approved_source_markdown": "staging/markdown-auto/datalab/aula-04-funcoes-computaveis-funcoes-recursivas-parciais/aula-04-funcoes-computaveis-funcoes-recursivas-parciais.md",
+      "category": "material-de-aula"
+    },
+    {
+      "entry": "aula-05-minimizacao-de-funcoes-recursivas-parciais",
+      "step": "curator_approve",
+      "status": "ok",
+      "approved_markdown": "content/curated/aula-05-minimizacao-de-funcoes-recursivas-parciais.md",
+      "approved_source_markdown": "staging/markdown-auto/datalab/aula-05-minimizacao-de-funcoes-recursivas-parciais/aula-05-minimizacao-de-funcoes-recursivas-parciais.md",
+      "category": "material-de-aula"
+    },
+    {
+      "entry": "revisao-alfabeto-cadeia-linguagem-hierarquia-de-chomsky-lemas-e-propriedades-de-automatos",
+      "step": "curator_approve",
+      "status": "ok",
+      "approved_markdown": "content/curated/revisao-alfabeto-cadeia-linguagem-hierarquia-de-chomsky-lemas-e-propriedades-de-automatos.md",
+      "approved_source_markdown": "staging/markdown-auto/datalab/revisao-alfabeto-cadeia-linguagem-hierarquia-de-chomsky-lemas-e-propriedades-de-automatos/revisao-alfabeto-cadeia-linguagem-hierarquia-de-chomsky-lemas-e-propriedades-de-automatos.md",
+      "category": "material-de-aula"
+    },
+    {
+      "entry": "aula07-maquinas-de-turing-e-linguagens-recursivamente-enumeraveis",
+      "step": "curator_approve",
+      "status": "ok",
+      "approved_markdown": "content/curated/aula07-maquinas-de-turing-e-linguagens-recursivamente-enumeraveis.md",
+      "approved_source_markdown": "staging/markdown-auto/datalab/aula07-maquinas-de-turing-e-linguagens-recursivamente-enumeraveis/aula07-maquinas-de-turing-e-linguagens-recursivamente-enumeraveis.md",
+      "category": "material-de-aula"
+    },
+    {
+      "entry": "aula-16-exemplo-de-prova-para-revisao",
+      "step": "curator_approve",
+      "status": "ok",
+      "approved_markdown": "content/curated/aula-16-exemplo-de-prova-para-revisao.md",
+      "approved_source_markdown": "staging/markdown-auto/datalab/aula-16-exemplo-de-prova-para-revisao/aula-16-exemplo-de-prova-para-revisao.md",
+      "category": "material-de-aula"
+    },
+    {
+      "entry": "aula-15-teoremas-de-incompletude-de-godel",
+      "step": "curator_approve",
+      "status": "ok",
+      "approved_markdown": "content/curated/aula-15-teoremas-de-incompletude-de-godel.md",
+      "approved_source_markdown": "staging/markdown-auto/datalab/aula-15-teoremas-de-incompletude-de-godel/aula-15-teoremas-de-incompletude-de-godel.md",
+      "category": "material-de-aula"
+    },
+    {
+      "entry": "aula-14-problema-da-correspondencia-de-post",
+      "step": "curator_approve",
+      "status": "ok",
+      "approved_markdown": "content/curated/aula-14-problema-da-correspondencia-de-post.md",
+      "approved_source_markdown": "staging/markdown-auto/datalab/aula-14-problema-da-correspondencia-de-post/aula-14-problema-da-correspondencia-de-post.md",
+      "category": "material-de-aula"
+    },
+    {
+      "entry": "aula-13-teorema-de-rice",
+      "step": "curator_approve",
+      "status": "ok",
+      "approved_markdown": "content/curated/aula-13-teorema-de-rice.md",
+      "approved_source_markdown": "staging/markdown-auto/datalab/aula-13-teorema-de-rice/aula-13-teorema-de-rice.md",
+      "category": "material-de-aula"
+    },
+    {
+      "entry": "aula-12-entscheidungsproblem",
+      "step": "curator_approve",
+      "status": "ok",
+      "approved_markdown": "content/curated/aula-12-entscheidungsproblem.md",
+      "approved_source_markdown": "staging/markdown-auto/datalab/aula-12-entscheidungsproblem/aula-12-entscheidungsproblem.md",
+      "category": "material-de-aula"
+    },
+    {
+      "entry": "aula-11-o-problema-da-parada-halting-problem-halteproblem",
+      "step": "curator_approve",
+      "status": "ok",
+      "approved_markdown": "content/curated/aula-11-o-problema-da-parada-halting-problem-halteproblem.md",
+      "approved_source_markdown": "staging/markdown-auto/datalab/aula-11-o-problema-da-parada-halting-problem-halteproblem/aula-11-o-problema-da-parada-halting-problem-halteproblem.md",
+      "category": "material-de-aula"
+    },
+    {
+      "entry": "aula-10-linguagens-reconhecıveis-e-linguagens-decidıveis",
+      "step": "curator_approve",
+      "status": "ok",
+      "approved_markdown": "content/curated/aula-10-linguagens-reconhecıveis-e-linguagens-decidıveis.md",
+      "approved_source_markdown": "staging/markdown-auto/datalab/aula-10-linguagens-reconhecıveis-e-linguagens-decidıveis/aula-10-linguagens-reconhecıveis-e-linguagens-decidıveis.md",
+      "category": "material-de-aula"
+    },
+    {
+      "entry": "aula-09-variacoes-de-maquinas-de-turing",
+      "step": "curator_approve",
+      "status": "ok",
+      "approved_markdown": "content/curated/aula-09-variacoes-de-maquinas-de-turing.md",
+      "approved_source_markdown": "staging/markdown-auto/datalab/aula-09-variacoes-de-maquinas-de-turing/aula-09-variacoes-de-maquinas-de-turing.md",
+      "category": "material-de-aula"
+    },
+    {
+      "entry": "aula-08-maquinas-de-turing-como-processadores-de-funcoes",
+      "step": "curator_approve",
+      "status": "ok",
+      "approved_markdown": "content/curated/aula-08-maquinas-de-turing-como-processadores-de-funcoes.md",
+      "approved_source_markdown": "staging/markdown-auto/datalab/aula-08-maquinas-de-turing-como-processadores-de-funcoes/aula-08-maquinas-de-turing-como-processadores-de-funcoes.md",
+      "category": "material-de-aula"
+    },
+    {
+      "entry": "aula-06-revisao-alfabeto-cadeia-linguagem-hierarquia-de-chomsky-lemas-e-propriedades-de-automatos",
+      "step": "curator_approve",
+      "status": "ok",
+      "approved_markdown": "content/curated/aula-06-revisao-alfabeto-cadeia-linguagem-hierarquia-de-chomsky-lemas-e-propriedades-de-automatos.md",
+      "approved_source_markdown": "staging/markdown-auto/datalab/aula-06-revisao-alfabeto-cadeia-linguagem-hierarquia-de-chomsky-lemas-e-propriedades-de-automatos/aula-06-revisao-alfabeto-cadeia-linguagem-hierarquia-de-chomsky-lemas-e-propriedades-de-automatos.md",
+      "category": "material-de-aula"
     }
   ],
-  "updated_at": "2026-05-14T16:46:56",
+  "updated_at": "2026-05-14T16:55:03",
   "failed_entries": []
 }
