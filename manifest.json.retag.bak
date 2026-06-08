@@ -169,7 +169,7 @@
         "ferramenta:max-cut"
       ],
       "manual_unit_slug": "",
-      "manual_timeline_block_id": "bloco-22",
+      "manual_timeline_block_id": "",
       "notes": "",
       "professor_signal": "",
       "include_in_bundle": true,
@@ -272,7 +272,7 @@
       "auto_tags": [
         "ferramenta:trabalho",
         "unit:unidade-04-hierarquia-de-classes-de-complexidade-de-problemas-computacionais",
-        "bloco:bloco-23"
+        "bloco:bloco-25"
       ],
       "manual_unit_slug": "",
       "manual_timeline_block_id": "",
@@ -338,8 +338,8 @@
         "markdown_path": "staging/markdown-auto/datalab/enunciado-t2/enunciado-t2.md"
       },
       "computed_unit_slug": "unidade-04-hierarquia-de-classes-de-complexidade-de-problemas-computacionais",
-      "computed_block_id": "bloco-23",
-      "computed_block_confidence": 0.85,
+      "computed_block_id": "bloco-25",
+      "computed_block_confidence": 1.0,
       "computed_block_band": "alta",
       "unit_match_reasons": [
         "winner_score=22.91"
@@ -368,7 +368,7 @@
         "ferramenta:exemplo",
         "tipo:material-base",
         "uso:revisao-prova",
-        "bloco:bloco-16"
+        "bloco:bloco-06"
       ],
       "manual_unit_slug": "",
       "manual_timeline_block_id": "",
@@ -434,8 +434,8 @@
         "markdown_path": "staging/markdown-auto/datalab/aula-16-exemplo-de-prova-para-revisao/aula-16-exemplo-de-prova-para-revisao.md"
       },
       "computed_unit_slug": "",
-      "computed_block_id": "bloco-16",
-      "computed_block_confidence": 0.85,
+      "computed_block_id": "bloco-06",
+      "computed_block_confidence": 1.0,
       "computed_block_band": "alta",
       "unit_match_reasons": [
         "winner_score=61.21",
@@ -831,7 +831,7 @@
       "auto_tags": [
         "tipo:material-base",
         "unit:unidade-02-turing-computabilidade",
-        "bloco:bloco-10"
+        "bloco:bloco-06"
       ],
       "manual_unit_slug": "",
       "manual_timeline_block_id": "",
@@ -920,7 +920,7 @@
         "markdown_path": "staging/markdown-auto/datalab/aula-12-entscheidungsproblem/aula-12-entscheidungsproblem.md"
       },
       "computed_unit_slug": "unidade-02-turing-computabilidade",
-      "computed_block_id": "bloco-10",
+      "computed_block_id": "bloco-06",
       "computed_block_confidence": 1.0,
       "computed_block_band": "alta",
       "unit_match_reasons": [
@@ -949,7 +949,7 @@
       "auto_tags": [
         "tipo:material-base",
         "unit:unidade-02-turing-computabilidade",
-        "bloco:bloco-10"
+        "bloco:bloco-16"
       ],
       "manual_unit_slug": "",
       "manual_timeline_block_id": "",
@@ -1115,7 +1115,7 @@
         "markdown_path": "staging/markdown-auto/datalab/aula-11-o-problema-da-parada-halting-problem-halteproblem/aula-11-o-problema-da-parada-halting-problem-halteproblem.md"
       },
       "computed_unit_slug": "unidade-02-turing-computabilidade",
-      "computed_block_id": "bloco-10",
+      "computed_block_id": "bloco-16",
       "computed_block_confidence": 1.0,
       "computed_block_band": "alta",
       "unit_match_reasons": [
@@ -3203,7 +3203,7 @@
       "manual_tags": [],
       "auto_tags": [],
       "manual_unit_slug": "",
-      "manual_timeline_block_id": "bloco-22",
+      "manual_timeline_block_id": "",
       "notes": "",
       "professor_signal": "",
       "include_in_bundle": true,
