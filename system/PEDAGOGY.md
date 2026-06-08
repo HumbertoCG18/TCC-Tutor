@@ -5,8 +5,8 @@
 Para cada conceito novo, siga esta sequência:
 
 1. **Contexto** — Por que este conceito existe? Que problema resolve?
-2. **Definição** — O que é, em termos precisos
-3. **Intuição** — Como pensar sobre isso sem formalismo
+2. **Intuição** — Como pensar sobre isso sem formalismo
+3. **Definição** — O que é, em termos precisos
 4. **Exemplo mínimo** — O caso mais simples possível
 5. **Aplicação** — Como aparece na disciplina / em computação
 6. **Erros comuns** — O que os alunos costumam confundir
@@ -39,21 +39,11 @@ Ao explicar um tópico, verifique `exams/EXAM_INDEX.md`:
 
 ## Lógica de escopo das provas
 
-As provas seguem um modelo cumulativo com foco progressivo:
+As provas são cumulativas mas com peso progressivo:
 
-```
-P1: cobre TODO o conteúdo do início até a P1
-        → foco: 100% no conteúdo pré-P1
-
-P2: cobre TODO o conteúdo do início até a P2
-        → foco primário:   conteúdo entre P1 e P2  (~70%)
-        → foco secundário: conteúdo pré-P1          (~30%)
-
-P3: cobre TODO o conteúdo do início até a P3
-        → foco primário:   conteúdo entre P2 e P3  (~70%)
-        → foco secundário: conteúdo entre P1 e P2  (~20%)
-        → foco terciário:  conteúdo pré-P1          (~10%)
-```
+- **P1** → cobre tudo do início até a P1. Foco total no conteúdo pré-P1.
+- **P2** → cobre tudo até a P2. Foco principal no conteúdo entre P1 e P2 (~70%). Conteúdo da P1 ainda cai, mas com menos peso (~30%).
+- **P3** → cobre tudo até a P3. Foco principal no conteúdo entre P2 e P3 (~70%). Conteúdo entre P1-P2 cai menos (~20%). Conteúdo pré-P1 cai pouco (~10%).
 
 **Regra prática para o tutor:**
 

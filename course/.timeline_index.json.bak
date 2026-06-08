@@ -1,0 +1,2163 @@
+{
+  "version": 4,
+  "blocks": [
+    {
+      "id": "bloco-01",
+      "period_start": "2026-03-04",
+      "period_end": "2026-03-04",
+      "period_label": "1 dia · 04/03/2026",
+      "kind": "class",
+      "unit_slug": "unidade-01-conjuntos-enumeraveis-e-funcoes-recursivas",
+      "unit_confidence": 1.0,
+      "primary_topic_slug": "",
+      "primary_topic_label": "Teoria conjuntos",
+      "primary_topic_confidence": 0.0,
+      "topic_ambiguous": true,
+      "topic_candidates": [],
+      "topic_text": "sobre teoria conjuntos",
+      "topics": [
+        "sobre teoria conjuntos"
+      ],
+      "aliases": [
+        "sobre",
+        "teoria",
+        "conjuntos"
+      ],
+      "card_evidence": [],
+      "sessions": [
+        {
+          "id": "bloco-01-sessao-2026-03-04",
+          "date": "2026-03-04",
+          "kind": "class",
+          "label": "apresentacao",
+          "signals": [
+            "2026-03-04",
+            "04 03 2026",
+            "04",
+            "03",
+            "2026",
+            "04 03",
+            "03 2026",
+            "apresentacao"
+          ]
+        }
+      ],
+      "source_rows": [
+        0
+      ],
+      "topic_source": "topic_text_fallback",
+      "manual_unit_slug": "unidade-01-conjuntos-enumeraveis-e-funcoes-recursivas"
+    },
+    {
+      "id": "bloco-02",
+      "period_start": "2026-03-06",
+      "period_end": "2026-03-06",
+      "period_label": "1 dia · 06/03/2026",
+      "kind": "class",
+      "unit_slug": "unidade-01-conjuntos-enumeraveis-e-funcoes-recursivas",
+      "unit_confidence": 1.0,
+      "primary_topic_slug": "conjuntos-enumeraveis",
+      "primary_topic_label": "Conjuntos Enumeráveis",
+      "primary_topic_confidence": 1.0,
+      "topic_ambiguous": false,
+      "topic_candidates": [
+        {
+          "topic_slug": "conjuntos-enumeraveis",
+          "topic_label": "Conjuntos Enumeráveis",
+          "unit_slug": "unidade-01-conjuntos-enumeraveis-e-funcoes-recursivas",
+          "kind": "topic",
+          "aliases": [
+            "1.1. Conjuntos Enumeráveis",
+            "—"
+          ],
+          "score": 11.41,
+          "confidence": 1.0
+        },
+        {
+          "topic_slug": "argumento-diagonal-de-cantor-e-conjuntos-incontaveis-13-funcoes-recursivas-primitivas-e-funcoes-recursivas-parciais",
+          "topic_label": "Argumento Diagonal de Cantor e Conjuntos Incontáveis 1.3. Funções Recursivas Primitivas e Funções Recursivas Parciais",
+          "unit_slug": "unidade-01-conjuntos-enumeraveis-e-funcoes-recursivas",
+          "kind": "topic",
+          "aliases": [
+            "1.2. Argumento Diagonal de Cantor e Conjuntos Incontáveis 1.3. Funções Recursivas Primitivas e Funções Recursivas Parciais",
+            "—"
+          ],
+          "score": 1.037,
+          "confidence": 0.091
+        }
+      ],
+      "topic_text": "conjuntos enumeraveis argumento diagonalizacao cantor",
+      "topics": [
+        "conjuntos enumeraveis enumeraveis argumento diagonalizacao cantor"
+      ],
+      "aliases": [
+        "conjuntos",
+        "enumeraveis",
+        "argumento",
+        "diagonalizacao",
+        "cantor"
+      ],
+      "card_evidence": [],
+      "sessions": [
+        {
+          "id": "bloco-02-sessao-2026-03-06",
+          "date": "2026-03-06",
+          "kind": "class",
+          "label": "conjuntos enumeraveis e nao enumeraveis",
+          "signals": [
+            "2026-03-06",
+            "06 03 2026",
+            "06",
+            "03",
+            "2026",
+            "06 03",
+            "03 2026",
+            "conjuntos enumeraveis e nao enumeraveis",
+            "conjuntos",
+            "enumeraveis",
+            "e",
+            "nao",
+            "conjuntos enumeraveis",
+            "enumeraveis e",
+            "e nao",
+            "nao enumeraveis",
+            "conjuntos enumeraveis e",
+            "enumeraveis e nao",
+            "e nao enumeraveis",
+            "conjuntos enumeraveis e nao",
+            "enumeraveis e nao enumeraveis"
+          ]
+        }
+      ],
+      "source_rows": [
+        1
+      ],
+      "topic_source": "taxonomy"
+    },
+    {
+      "id": "bloco-03",
+      "period_start": "2026-03-11",
+      "period_end": "2026-03-18",
+      "period_label": "3 dias · 11/03/2026 a 18/03/2026",
+      "kind": "class",
+      "unit_slug": "unidade-02-turing-computabilidade",
+      "unit_confidence": 1.0,
+      "primary_topic_slug": "",
+      "primary_topic_label": "Funcoes recursivas primitivas composicao parciais computavei…",
+      "primary_topic_confidence": 0.45,
+      "topic_ambiguous": true,
+      "topic_candidates": [
+        {
+          "topic_slug": "argumento-diagonal-de-cantor-e-conjuntos-incontaveis-13-funcoes-recursivas-primitivas-e-funcoes-recursivas-parciais",
+          "topic_label": "Argumento Diagonal de Cantor e Conjuntos Incontáveis 1.3. Funções Recursivas Primitivas e Funções Recursivas Parciais",
+          "unit_slug": "unidade-01-conjuntos-enumeraveis-e-funcoes-recursivas",
+          "kind": "topic",
+          "aliases": [
+            "1.2. Argumento Diagonal de Cantor e Conjuntos Incontáveis 1.3. Funções Recursivas Primitivas e Funções Recursivas Parciais",
+            "—"
+          ],
+          "score": 1.166,
+          "confidence": 1.0
+        }
+      ],
+      "topic_text": "funcoes recursivas primitivas composicao parciais computaveis minimizacao",
+      "topics": [
+        "funcoes recursivas primitivas composicao funcoes",
+        "funcoes recursivas parciais funcoes computaveis",
+        "minimizacao funcoes recursivas parciais"
+      ],
+      "aliases": [
+        "funcoes",
+        "recursivas",
+        "primitivas",
+        "composicao",
+        "parciais",
+        "computaveis"
+      ],
+      "card_evidence": [],
+      "sessions": [
+        {
+          "id": "bloco-03-sessao-2026-03-11",
+          "date": "2026-03-11",
+          "kind": "class",
+          "label": "funcoes recursivas primitivas",
+          "signals": [
+            "2026-03-11",
+            "11 03 2026",
+            "11",
+            "03",
+            "2026",
+            "11 03",
+            "03 2026",
+            "funcoes recursivas primitivas",
+            "funcoes",
+            "recursivas",
+            "primitivas",
+            "funcoes recursivas",
+            "recursivas primitivas"
+          ]
+        },
+        {
+          "id": "bloco-03-sessao-2026-03-13",
+          "date": "2026-03-13",
+          "kind": "class",
+          "label": "funcoes recursivas parciais",
+          "signals": [
+            "2026-03-13",
+            "13 03 2026",
+            "13",
+            "03",
+            "2026",
+            "13 03",
+            "03 2026",
+            "funcoes recursivas parciais",
+            "funcoes",
+            "recursivas",
+            "parciais",
+            "funcoes recursivas",
+            "recursivas parciais"
+          ]
+        },
+        {
+          "id": "bloco-03-sessao-2026-03-18",
+          "date": "2026-03-18",
+          "kind": "class",
+          "label": "minimizacao de funcoes recursivas parciais aula",
+          "signals": [
+            "2026-03-18",
+            "18 03 2026",
+            "18",
+            "03",
+            "2026",
+            "18 03",
+            "03 2026",
+            "minimizacao de funcoes recursivas parciais aula",
+            "minimizacao",
+            "de",
+            "funcoes",
+            "recursivas",
+            "parciais",
+            "aula",
+            "minimizacao de",
+            "de funcoes",
+            "funcoes recursivas",
+            "recursivas parciais",
+            "parciais aula",
+            "minimizacao de funcoes",
+            "de funcoes recursivas",
+            "funcoes recursivas parciais",
+            "recursivas parciais aula",
+            "minimizacao de funcoes recursivas",
+            "de funcoes recursivas parciais",
+            "funcoes recursivas parciais aula"
+          ]
+        }
+      ],
+      "source_rows": [
+        2,
+        3,
+        4
+      ],
+      "topic_source": "topic_text_fallback"
+    },
+    {
+      "id": "bloco-04",
+      "period_start": "2026-03-20",
+      "period_end": "2026-03-20",
+      "period_label": "1 dia · 20/03/2026",
+      "kind": "deliverable",
+      "unit_slug": "",
+      "unit_confidence": 0.0,
+      "primary_topic_slug": "",
+      "primary_topic_label": "Trabalho",
+      "primary_topic_confidence": 0.0,
+      "topic_ambiguous": true,
+      "topic_candidates": [],
+      "topic_text": "trabalho",
+      "topics": [
+        "trabalho"
+      ],
+      "aliases": [
+        "trabalho"
+      ],
+      "card_evidence": [],
+      "sessions": [
+        {
+          "id": "bloco-04-sessao-2026-03-20",
+          "date": "2026-03-20",
+          "kind": "class",
+          "label": "t1 em aula trabalho",
+          "signals": [
+            "2026-03-20",
+            "20 03 2026",
+            "20",
+            "03",
+            "2026",
+            "20 03",
+            "03 2026",
+            "t1 em aula trabalho",
+            "t1",
+            "em",
+            "aula",
+            "trabalho",
+            "t1 em",
+            "em aula",
+            "aula trabalho",
+            "t1 em aula",
+            "em aula trabalho"
+          ]
+        }
+      ],
+      "source_rows": [
+        5
+      ],
+      "topic_source": "topic_text_fallback"
+    },
+    {
+      "id": "bloco-05",
+      "period_start": "2026-03-25",
+      "period_end": "2026-03-25",
+      "period_label": "1 dia · 25/03/2026",
+      "kind": "review",
+      "unit_slug": "",
+      "unit_confidence": 0.0,
+      "primary_topic_slug": "",
+      "primary_topic_label": "Alfabeto cadeia linguagem hierarquia chomsky lemas proprieda…",
+      "primary_topic_confidence": 0.0,
+      "topic_ambiguous": true,
+      "topic_candidates": [],
+      "topic_text": "alfabeto cadeia linguagem hierarquia chomsky lemas propriedades automatos",
+      "topics": [
+        "alfabeto cadeia linguagem hierarquia chomsky lemas propriedades automatos"
+      ],
+      "aliases": [
+        "alfabeto",
+        "cadeia",
+        "linguagem",
+        "hierarquia",
+        "chomsky",
+        "lemas"
+      ],
+      "card_evidence": [],
+      "sessions": [
+        {
+          "id": "bloco-05-sessao-2026-03-25",
+          "date": "2026-03-25",
+          "kind": "class",
+          "label": "revisao alfabeto cadeia linguagem hierarquia de chomsky lemas e propriedades de automatos aula",
+          "signals": [
+            "2026-03-25",
+            "25 03 2026",
+            "25",
+            "03",
+            "2026",
+            "25 03",
+            "03 2026",
+            "revisao alfabeto cadeia linguagem hierarquia de chomsky lemas e propriedades de automatos aula",
+            "revisao",
+            "alfabeto",
+            "cadeia",
+            "linguagem",
+            "hierarquia",
+            "de",
+            "chomsky",
+            "lemas",
+            "e",
+            "propriedades",
+            "automatos",
+            "aula",
+            "revisao alfabeto",
+            "alfabeto cadeia",
+            "cadeia linguagem",
+            "linguagem hierarquia",
+            "hierarquia de",
+            "de chomsky",
+            "chomsky lemas",
+            "lemas e",
+            "e propriedades",
+            "propriedades de",
+            "de automatos",
+            "automatos aula",
+            "revisao alfabeto cadeia",
+            "alfabeto cadeia linguagem",
+            "cadeia linguagem hierarquia",
+            "linguagem hierarquia de",
+            "hierarquia de chomsky",
+            "de chomsky lemas",
+            "chomsky lemas e",
+            "lemas e propriedades",
+            "e propriedades de",
+            "propriedades de automatos",
+            "de automatos aula",
+            "revisao alfabeto cadeia linguagem",
+            "alfabeto cadeia linguagem hierarquia",
+            "cadeia linguagem hierarquia de",
+            "linguagem hierarquia de chomsky",
+            "hierarquia de chomsky lemas",
+            "de chomsky lemas e",
+            "chomsky lemas e propriedades",
+            "lemas e propriedades de",
+            "e propriedades de automatos",
+            "propriedades de automatos aula"
+          ]
+        }
+      ],
+      "source_rows": [
+        6
+      ],
+      "manual_kind_override": "review",
+      "topic_source": "topic_text_fallback"
+    },
+    {
+      "id": "bloco-06",
+      "period_start": "2026-03-27",
+      "period_end": "2026-04-01",
+      "period_label": "2 dias · 27/03/2026 a 01/04/2026",
+      "kind": "class",
+      "unit_slug": "unidade-02-turing-computabilidade",
+      "unit_confidence": 1.0,
+      "primary_topic_slug": "maquinas-de-turing",
+      "primary_topic_label": "Máquinas de Turing",
+      "primary_topic_confidence": 1.0,
+      "topic_ambiguous": false,
+      "topic_candidates": [
+        {
+          "topic_slug": "maquinas-de-turing",
+          "topic_label": "Máquinas de Turing",
+          "unit_slug": "unidade-02-turing-computabilidade",
+          "kind": "topic",
+          "aliases": [
+            "2.1. Máquinas de Turing",
+            "2.3. Variações de Máquinas de Turing",
+            "2.5. Máquinas de Turing Universais",
+            "—"
+          ],
+          "score": 4.56,
+          "confidence": 1.0
+        },
+        {
+          "topic_slug": "variacoes-de-maquinas-de-turing",
+          "topic_label": "Variações de Máquinas de Turing",
+          "unit_slug": "unidade-02-turing-computabilidade",
+          "kind": "topic",
+          "aliases": [
+            "2.3. Variações de Máquinas de Turing",
+            "—"
+          ],
+          "score": 0.907,
+          "confidence": 0.199
+        },
+        {
+          "topic_slug": "maquinas-de-turing-universais",
+          "topic_label": "Máquinas de Turing Universais",
+          "unit_slug": "unidade-02-turing-computabilidade",
+          "kind": "topic",
+          "aliases": [
+            "2.5. Máquinas de Turing Universais",
+            "—"
+          ],
+          "score": 0.907,
+          "confidence": 0.199
+        },
+        {
+          "topic_slug": "conjuntos-enumeraveis",
+          "topic_label": "Conjuntos Enumeráveis",
+          "unit_slug": "unidade-01-conjuntos-enumeraveis-e-funcoes-recursivas",
+          "kind": "topic",
+          "aliases": [
+            "1.1. Conjuntos Enumeráveis",
+            "—"
+          ],
+          "score": 0.122,
+          "confidence": 0.027
+        },
+        {
+          "topic_slug": "argumento-diagonal-de-cantor-e-conjuntos-incontaveis-13-funcoes-recursivas-primitivas-e-funcoes-recursivas-parciais",
+          "topic_label": "Argumento Diagonal de Cantor e Conjuntos Incontáveis 1.3. Funções Recursivas Primitivas e Funções Recursivas Parciais",
+          "unit_slug": "unidade-01-conjuntos-enumeraveis-e-funcoes-recursivas",
+          "kind": "topic",
+          "aliases": [
+            "1.2. Argumento Diagonal de Cantor e Conjuntos Incontáveis 1.3. Funções Recursivas Primitivas e Funções Recursivas Parciais",
+            "—"
+          ],
+          "score": 0.122,
+          "confidence": 0.027
+        }
+      ],
+      "topic_text": "maquinas turing linguagens recursivamente enumeraveis como processadoras funcoes",
+      "topics": [
+        "maquinas turing linguagens recursivamente enumeraveis",
+        "maquinas turing como processadoras funcoes"
+      ],
+      "aliases": [
+        "maquinas",
+        "turing",
+        "linguagens",
+        "recursivamente",
+        "enumeraveis",
+        "processadoras"
+      ],
+      "card_evidence": [],
+      "sessions": [
+        {
+          "id": "bloco-06-sessao-2026-03-27",
+          "date": "2026-03-27",
+          "kind": "class",
+          "label": "maquinas de turing e linguagens recursivamente enumeraveis aula",
+          "signals": [
+            "2026-03-27",
+            "27 03 2026",
+            "27",
+            "03",
+            "2026",
+            "27 03",
+            "03 2026",
+            "maquinas de turing e linguagens recursivamente enumeraveis aula",
+            "maquinas",
+            "de",
+            "turing",
+            "e",
+            "linguagens",
+            "recursivamente",
+            "enumeraveis",
+            "aula",
+            "maquinas de",
+            "de turing",
+            "turing e",
+            "e linguagens",
+            "linguagens recursivamente",
+            "recursivamente enumeraveis",
+            "enumeraveis aula",
+            "maquinas de turing",
+            "de turing e",
+            "turing e linguagens",
+            "e linguagens recursivamente",
+            "linguagens recursivamente enumeraveis",
+            "recursivamente enumeraveis aula",
+            "maquinas de turing e",
+            "de turing e linguagens",
+            "turing e linguagens recursivamente",
+            "e linguagens recursivamente enumeraveis",
+            "linguagens recursivamente enumeraveis aula"
+          ]
+        },
+        {
+          "id": "bloco-06-sessao-2026-04-01",
+          "date": "2026-04-01",
+          "kind": "class",
+          "label": "maquinas de turing como processadoras de funcoes aula",
+          "signals": [
+            "2026-04-01",
+            "01 04 2026",
+            "01",
+            "04",
+            "2026",
+            "01 04",
+            "04 2026",
+            "maquinas de turing como processadoras de funcoes aula",
+            "maquinas",
+            "de",
+            "turing",
+            "como",
+            "processadoras",
+            "funcoes",
+            "aula",
+            "maquinas de",
+            "de turing",
+            "turing como",
+            "como processadoras",
+            "processadoras de",
+            "de funcoes",
+            "funcoes aula",
+            "maquinas de turing",
+            "de turing como",
+            "turing como processadoras",
+            "como processadoras de",
+            "processadoras de funcoes",
+            "de funcoes aula",
+            "maquinas de turing como",
+            "de turing como processadoras",
+            "turing como processadoras de",
+            "como processadoras de funcoes",
+            "processadoras de funcoes aula"
+          ]
+        }
+      ],
+      "source_rows": [
+        7,
+        8
+      ],
+      "topic_source": "taxonomy"
+    },
+    {
+      "id": "bloco-08",
+      "period_start": "2026-04-08",
+      "period_end": "2026-04-08",
+      "period_label": "1 dia · 08/04/2026",
+      "kind": "class",
+      "unit_slug": "unidade-02-turing-computabilidade",
+      "unit_confidence": 1.0,
+      "primary_topic_slug": "",
+      "primary_topic_label": "Variacoes maquias turing",
+      "primary_topic_confidence": 0.18144000000000002,
+      "topic_ambiguous": true,
+      "topic_candidates": [
+        {
+          "topic_slug": "maquinas-de-turing",
+          "topic_label": "Máquinas de Turing",
+          "unit_slug": "unidade-02-turing-computabilidade",
+          "kind": "topic",
+          "aliases": [
+            "2.1. Máquinas de Turing",
+            "2.3. Variações de Máquinas de Turing",
+            "2.5. Máquinas de Turing Universais",
+            "—"
+          ],
+          "score": 0.907,
+          "confidence": 1.0
+        },
+        {
+          "topic_slug": "variacoes-de-maquinas-de-turing",
+          "topic_label": "Variações de Máquinas de Turing",
+          "unit_slug": "unidade-02-turing-computabilidade",
+          "kind": "topic",
+          "aliases": [
+            "2.3. Variações de Máquinas de Turing",
+            "—"
+          ],
+          "score": 0.907,
+          "confidence": 1.0
+        },
+        {
+          "topic_slug": "conjectura-de-church-turing",
+          "topic_label": "Conjectura de Church-Turing",
+          "unit_slug": "unidade-02-turing-computabilidade",
+          "kind": "topic",
+          "aliases": [
+            "2.4. Conjectura de Church-Turing",
+            "—"
+          ],
+          "score": 0.122,
+          "confidence": 0.135
+        },
+        {
+          "topic_slug": "maquinas-de-turing-universais",
+          "topic_label": "Máquinas de Turing Universais",
+          "unit_slug": "unidade-02-turing-computabilidade",
+          "kind": "topic",
+          "aliases": [
+            "2.5. Máquinas de Turing Universais",
+            "—"
+          ],
+          "score": 0.122,
+          "confidence": 0.135
+        }
+      ],
+      "topic_text": "variacoes maquias turing",
+      "topics": [
+        "variacoes maquias turing"
+      ],
+      "aliases": [
+        "variacoes",
+        "maquias",
+        "turing"
+      ],
+      "card_evidence": [],
+      "sessions": [
+        {
+          "id": "bloco-08-sessao-2026-04-08",
+          "date": "2026-04-08",
+          "kind": "class",
+          "label": "variacoes de maquias de turing aula",
+          "signals": [
+            "2026-04-08",
+            "08 04 2026",
+            "08",
+            "04",
+            "2026",
+            "08 04",
+            "04 2026",
+            "variacoes de maquias de turing aula",
+            "variacoes",
+            "de",
+            "maquias",
+            "turing",
+            "aula",
+            "variacoes de",
+            "de maquias",
+            "maquias de",
+            "de turing",
+            "turing aula",
+            "variacoes de maquias",
+            "de maquias de",
+            "maquias de turing",
+            "de turing aula",
+            "variacoes de maquias de",
+            "de maquias de turing",
+            "maquias de turing aula"
+          ]
+        }
+      ],
+      "source_rows": [
+        10
+      ],
+      "topic_source": "topic_text_fallback"
+    },
+    {
+      "id": "bloco-09",
+      "period_start": "2026-04-10",
+      "period_end": "2026-04-10",
+      "period_label": "1 dia · 10/04/2026",
+      "kind": "class",
+      "unit_slug": "unidade-02-turing-computabilidade",
+      "unit_confidence": 1.0,
+      "primary_topic_slug": "maquinas-de-turing-universais",
+      "primary_topic_label": "Máquinas de Turing Universais",
+      "primary_topic_confidence": 0.45,
+      "topic_ambiguous": true,
+      "topic_candidates": [
+        {
+          "topic_slug": "maquinas-de-turing-universais",
+          "topic_label": "Máquinas de Turing Universais",
+          "unit_slug": "unidade-02-turing-computabilidade",
+          "kind": "topic",
+          "aliases": [
+            "2.5. Máquinas de Turing Universais",
+            "—"
+          ],
+          "score": 5.36,
+          "confidence": 1.0
+        },
+        {
+          "topic_slug": "maquinas-de-turing",
+          "topic_label": "Máquinas de Turing",
+          "unit_slug": "unidade-02-turing-computabilidade",
+          "kind": "topic",
+          "aliases": [
+            "2.1. Máquinas de Turing",
+            "2.3. Variações de Máquinas de Turing",
+            "2.5. Máquinas de Turing Universais",
+            "—"
+          ],
+          "score": 4.74,
+          "confidence": 0.884
+        },
+        {
+          "topic_slug": "linguagens-reconheciveis-e-decidiveis",
+          "topic_label": "Linguagens Reconhecíveis e Decidíveis",
+          "unit_slug": "unidade-02-turing-computabilidade",
+          "kind": "topic",
+          "aliases": [
+            "2.2. Linguagens Reconhecíveis e Decidíveis",
+            "—"
+          ],
+          "score": 1.325,
+          "confidence": 0.247
+        },
+        {
+          "topic_slug": "variacoes-de-maquinas-de-turing",
+          "topic_label": "Variações de Máquinas de Turing",
+          "unit_slug": "unidade-02-turing-computabilidade",
+          "kind": "topic",
+          "aliases": [
+            "2.3. Variações de Máquinas de Turing",
+            "—"
+          ],
+          "score": 0.907,
+          "confidence": 0.169
+        },
+        {
+          "topic_slug": "conjectura-de-church-turing",
+          "topic_label": "Conjectura de Church-Turing",
+          "unit_slug": "unidade-02-turing-computabilidade",
+          "kind": "topic",
+          "aliases": [
+            "2.4. Conjectura de Church-Turing",
+            "—"
+          ],
+          "score": 0.122,
+          "confidence": 0.023
+        }
+      ],
+      "topic_text": "linguagens reconheciveis decidiveis maquinas turing universais",
+      "topics": [
+        "linguagens reconheciveis linguagens decidiveis maquinas turing universais"
+      ],
+      "aliases": [
+        "linguagens",
+        "reconheciveis",
+        "decidiveis",
+        "maquinas",
+        "turing",
+        "universais"
+      ],
+      "card_evidence": [],
+      "sessions": [
+        {
+          "id": "bloco-09-sessao-2026-04-10",
+          "date": "2026-04-10",
+          "kind": "class",
+          "label": "linguagens reconheciveis e linguagens decidiveis",
+          "signals": [
+            "2026-04-10",
+            "10 04 2026",
+            "10",
+            "04",
+            "2026",
+            "10 04",
+            "04 2026",
+            "linguagens reconheciveis e linguagens decidiveis",
+            "linguagens",
+            "reconheciveis",
+            "e",
+            "decidiveis",
+            "linguagens reconheciveis",
+            "reconheciveis e",
+            "e linguagens",
+            "linguagens decidiveis",
+            "linguagens reconheciveis e",
+            "reconheciveis e linguagens",
+            "e linguagens decidiveis",
+            "linguagens reconheciveis e linguagens",
+            "reconheciveis e linguagens decidiveis"
+          ]
+        }
+      ],
+      "source_rows": [
+        11
+      ],
+      "topic_source": "taxonomy"
+    },
+    {
+      "id": "bloco-10",
+      "period_start": "2026-04-15",
+      "period_end": "2026-04-15",
+      "period_label": "1 dia · 15/04/2026",
+      "kind": "class",
+      "unit_slug": "unidade-03-problemas-indecidiveis",
+      "unit_confidence": 1.0,
+      "primary_topic_slug": "",
+      "primary_topic_label": "Halting problem",
+      "primary_topic_confidence": 0.0,
+      "topic_ambiguous": true,
+      "topic_candidates": [],
+      "topic_text": "halting problem",
+      "topics": [
+        "halting problem"
+      ],
+      "aliases": [
+        "halting",
+        "problem"
+      ],
+      "card_evidence": [],
+      "sessions": [
+        {
+          "id": "bloco-10-sessao-2026-04-15",
+          "date": "2026-04-15",
+          "kind": "class",
+          "label": "halting problem aula",
+          "signals": [
+            "2026-04-15",
+            "15 04 2026",
+            "15",
+            "04",
+            "2026",
+            "15 04",
+            "04 2026",
+            "halting problem aula",
+            "halting",
+            "problem",
+            "aula",
+            "halting problem",
+            "problem aula"
+          ]
+        }
+      ],
+      "source_rows": [
+        12
+      ],
+      "topic_source": "topic_text_fallback",
+      "manual_unit_slug": "unidade-03-problemas-indecidiveis"
+    },
+    {
+      "id": "bloco-11",
+      "period_start": "2026-04-17",
+      "period_end": "2026-04-17",
+      "period_label": "1 dia · 17/04/2026",
+      "kind": "class",
+      "unit_slug": "unidade-03-problemas-indecidiveis",
+      "unit_confidence": 1.0,
+      "primary_topic_slug": "",
+      "primary_topic_label": "Entscheidungsproblem",
+      "primary_topic_confidence": 0.0,
+      "topic_ambiguous": true,
+      "topic_candidates": [],
+      "topic_text": "entscheidungsproblem",
+      "topics": [
+        "entscheidungsproblem"
+      ],
+      "aliases": [
+        "entscheidungsproblem"
+      ],
+      "card_evidence": [],
+      "sessions": [
+        {
+          "id": "bloco-11-sessao-2026-04-17",
+          "date": "2026-04-17",
+          "kind": "class",
+          "label": "entscheidungsproblem aula",
+          "signals": [
+            "2026-04-17",
+            "17 04 2026",
+            "17",
+            "04",
+            "2026",
+            "17 04",
+            "04 2026",
+            "entscheidungsproblem aula",
+            "entscheidungsproblem",
+            "aula"
+          ]
+        }
+      ],
+      "source_rows": [
+        13
+      ],
+      "topic_source": "topic_text_fallback",
+      "manual_unit_slug": "unidade-03-problemas-indecidiveis"
+    },
+    {
+      "id": "bloco-12",
+      "period_start": "2026-04-22",
+      "period_end": "2026-04-22",
+      "period_label": "1 dia · 22/04/2026",
+      "kind": "class",
+      "unit_slug": "unidade-03-problemas-indecidiveis",
+      "unit_confidence": 1.0,
+      "primary_topic_slug": "",
+      "primary_topic_label": "Theorema rice",
+      "primary_topic_confidence": 0.0,
+      "topic_ambiguous": true,
+      "topic_candidates": [],
+      "topic_text": "theorema rice",
+      "topics": [
+        "theorema rice"
+      ],
+      "aliases": [
+        "theorema"
+      ],
+      "card_evidence": [],
+      "sessions": [
+        {
+          "id": "bloco-12-sessao-2026-04-22",
+          "date": "2026-04-22",
+          "kind": "class",
+          "label": "theorema de rice aula",
+          "signals": [
+            "2026-04-22",
+            "22 04 2026",
+            "22",
+            "04",
+            "2026",
+            "22 04",
+            "04 2026",
+            "theorema de rice aula",
+            "theorema",
+            "de",
+            "rice",
+            "aula",
+            "theorema de",
+            "de rice",
+            "rice aula",
+            "theorema de rice",
+            "de rice aula"
+          ]
+        }
+      ],
+      "source_rows": [
+        14
+      ],
+      "topic_source": "topic_text_fallback",
+      "manual_unit_slug": "unidade-03-problemas-indecidiveis"
+    },
+    {
+      "id": "bloco-13",
+      "period_start": "2026-04-24",
+      "period_end": "2026-04-24",
+      "period_label": "1 dia · 24/04/2026",
+      "kind": "class",
+      "unit_slug": "unidade-03-problemas-indecidiveis",
+      "unit_confidence": 0.55,
+      "primary_topic_slug": "",
+      "primary_topic_label": "Problema correspondencia post",
+      "primary_topic_confidence": 0.45,
+      "topic_ambiguous": true,
+      "topic_candidates": [
+        {
+          "topic_slug": "prova-da-indecidibilidade-do-problema-da-parada",
+          "topic_label": "Prova da Indecidibilidade do Problema da Parada",
+          "unit_slug": "unidade-03-problemas-indecidiveis",
+          "kind": "topic",
+          "aliases": [
+            "3.1. Prova da Indecidibilidade do Problema da Parada",
+            "—"
+          ],
+          "score": 0.122,
+          "confidence": 1.0
+        }
+      ],
+      "topic_text": "problema correspondencia post",
+      "topics": [
+        "problema correspondencia post"
+      ],
+      "aliases": [
+        "problema",
+        "correspondencia"
+      ],
+      "card_evidence": [],
+      "sessions": [
+        {
+          "id": "bloco-13-sessao-2026-04-24",
+          "date": "2026-04-24",
+          "kind": "class",
+          "label": "problema da correspondencia de post aula",
+          "signals": [
+            "2026-04-24",
+            "24 04 2026",
+            "24",
+            "04",
+            "2026",
+            "24 04",
+            "04 2026",
+            "problema da correspondencia de post aula",
+            "problema",
+            "da",
+            "correspondencia",
+            "de",
+            "post",
+            "aula",
+            "problema da",
+            "da correspondencia",
+            "correspondencia de",
+            "de post",
+            "post aula",
+            "problema da correspondencia",
+            "da correspondencia de",
+            "correspondencia de post",
+            "de post aula",
+            "problema da correspondencia de",
+            "da correspondencia de post",
+            "correspondencia de post aula"
+          ]
+        }
+      ],
+      "source_rows": [
+        15
+      ],
+      "topic_source": "topic_text_fallback"
+    },
+    {
+      "id": "bloco-14",
+      "period_start": "2026-04-29",
+      "period_end": "2026-04-29",
+      "period_label": "1 dia · 29/04/2026",
+      "kind": "class",
+      "unit_slug": "unidade-03-problemas-indecidiveis",
+      "unit_confidence": 1.0,
+      "primary_topic_slug": "teoremas-de-godel",
+      "primary_topic_label": "Teoremas de Gödel​",
+      "primary_topic_confidence": 1.0,
+      "topic_ambiguous": false,
+      "topic_candidates": [
+        {
+          "topic_slug": "teoremas-de-godel",
+          "topic_label": "Teoremas de Gödel​",
+          "unit_slug": "unidade-03-problemas-indecidiveis",
+          "kind": "topic",
+          "aliases": [
+            "3.4. Teoremas de Gödel​",
+            "—"
+          ],
+          "score": 5.14,
+          "confidence": 1.0
+        }
+      ],
+      "topic_text": "teoremas godel",
+      "topics": [
+        "teoremas godel"
+      ],
+      "aliases": [
+        "teoremas",
+        "godel"
+      ],
+      "card_evidence": [],
+      "sessions": [
+        {
+          "id": "bloco-14-sessao-2026-04-29",
+          "date": "2026-04-29",
+          "kind": "class",
+          "label": "teoremas de godel aula",
+          "signals": [
+            "2026-04-29",
+            "29 04 2026",
+            "29",
+            "04",
+            "2026",
+            "29 04",
+            "04 2026",
+            "teoremas de godel aula",
+            "teoremas",
+            "de",
+            "godel",
+            "aula",
+            "teoremas de",
+            "de godel",
+            "godel aula",
+            "teoremas de godel",
+            "de godel aula"
+          ]
+        }
+      ],
+      "source_rows": [
+        16
+      ],
+      "topic_source": "taxonomy"
+    },
+    {
+      "id": "bloco-16",
+      "period_start": "2026-05-06",
+      "period_end": "2026-05-08",
+      "period_label": "2 dias · 06/05/2026 a 08/05/2026",
+      "kind": "class",
+      "unit_slug": "unidade-03-problemas-indecidiveis",
+      "unit_confidence": 0.55,
+      "primary_topic_slug": "",
+      "primary_topic_label": "Para",
+      "primary_topic_confidence": 0.45,
+      "topic_ambiguous": true,
+      "topic_candidates": [
+        {
+          "topic_slug": "prova-da-indecidibilidade-do-problema-da-parada",
+          "topic_label": "Prova da Indecidibilidade do Problema da Parada",
+          "unit_slug": "unidade-03-problemas-indecidiveis",
+          "kind": "topic",
+          "aliases": [
+            "3.1. Prova da Indecidibilidade do Problema da Parada",
+            "—"
+          ],
+          "score": 0.122,
+          "confidence": 1.0
+        }
+      ],
+      "topic_text": "para",
+      "topics": [
+        "para"
+      ],
+      "aliases": [],
+      "card_evidence": [],
+      "sessions": [
+        {
+          "id": "bloco-16-sessao-2026-05-06",
+          "date": "2026-05-06",
+          "kind": "class",
+          "label": "revisao para prova p1 aula",
+          "signals": [
+            "2026-05-06",
+            "06 05 2026",
+            "06",
+            "05",
+            "2026",
+            "06 05",
+            "05 2026",
+            "revisao para prova p1 aula",
+            "revisao",
+            "para",
+            "prova",
+            "p1",
+            "aula",
+            "revisao para",
+            "para prova",
+            "prova p1",
+            "p1 aula",
+            "revisao para prova",
+            "para prova p1",
+            "prova p1 aula",
+            "revisao para prova p1",
+            "para prova p1 aula"
+          ]
+        },
+        {
+          "id": "bloco-16-sessao-2026-05-08",
+          "date": "2026-05-08",
+          "kind": "class",
+          "label": "prova p1 prova",
+          "signals": [
+            "2026-05-08",
+            "08 05 2026",
+            "08",
+            "05",
+            "2026",
+            "08 05",
+            "05 2026",
+            "prova p1 prova",
+            "prova",
+            "p1",
+            "prova p1",
+            "p1 prova"
+          ]
+        }
+      ],
+      "source_rows": [
+        18,
+        19
+      ],
+      "topic_source": "topic_text_fallback"
+    },
+    {
+      "id": "bloco-17",
+      "period_start": "2026-05-13",
+      "period_end": "2026-05-13",
+      "period_label": "1 dia · 13/05/2026",
+      "kind": "class",
+      "unit_slug": "unidade-03-problemas-indecidiveis",
+      "unit_confidence": 0.55,
+      "primary_topic_slug": "",
+      "primary_topic_label": "Correcao",
+      "primary_topic_confidence": 0.45,
+      "topic_ambiguous": true,
+      "topic_candidates": [
+        {
+          "topic_slug": "prova-da-indecidibilidade-do-problema-da-parada",
+          "topic_label": "Prova da Indecidibilidade do Problema da Parada",
+          "unit_slug": "unidade-03-problemas-indecidiveis",
+          "kind": "topic",
+          "aliases": [
+            "3.1. Prova da Indecidibilidade do Problema da Parada",
+            "—"
+          ],
+          "score": 0.122,
+          "confidence": 1.0
+        }
+      ],
+      "topic_text": "correcao",
+      "topics": [
+        "correcao"
+      ],
+      "aliases": [
+        "correcao"
+      ],
+      "card_evidence": [],
+      "sessions": [
+        {
+          "id": "bloco-17-sessao-2026-05-13",
+          "date": "2026-05-13",
+          "kind": "class",
+          "label": "correcao prova p1 aula",
+          "signals": [
+            "2026-05-13",
+            "13 05 2026",
+            "13",
+            "05",
+            "2026",
+            "13 05",
+            "05 2026",
+            "correcao prova p1 aula",
+            "correcao",
+            "prova",
+            "p1",
+            "aula",
+            "correcao prova",
+            "prova p1",
+            "p1 aula",
+            "correcao prova p1",
+            "prova p1 aula"
+          ]
+        }
+      ],
+      "source_rows": [
+        20
+      ],
+      "topic_source": "topic_text_fallback"
+    },
+    {
+      "id": "bloco-18",
+      "period_start": "2026-05-15",
+      "period_end": "2026-05-22",
+      "period_label": "3 dias · 15/05/2026 a 22/05/2026",
+      "kind": "class",
+      "unit_slug": "unidade-04-hierarquia-de-classes-de-complexidade-de-problemas-computacionais",
+      "unit_confidence": 1.0,
+      "primary_topic_slug": "complexidade-de-tempo-e-de-espaco",
+      "primary_topic_label": "Complexidade de Tempo e de Espaço",
+      "primary_topic_confidence": 1.0,
+      "topic_ambiguous": false,
+      "topic_candidates": [
+        {
+          "topic_slug": "complexidade-de-tempo-e-de-espaco",
+          "topic_label": "Complexidade de Tempo e de Espaço",
+          "unit_slug": "unidade-04-hierarquia-de-classes-de-complexidade-de-problemas-computacionais",
+          "kind": "topic",
+          "aliases": [
+            "Complexidade de Tempo e de Espaço",
+            "—"
+          ],
+          "score": 1.483,
+          "confidence": 1.0
+        },
+        {
+          "topic_slug": "tipos-de-problemas-computacionais",
+          "topic_label": "Tipos de Problemas Computacionais",
+          "unit_slug": "unidade-04-hierarquia-de-classes-de-complexidade-de-problemas-computacionais",
+          "kind": "topic",
+          "aliases": [
+            "Tipos de Problemas Computacionais",
+            "—"
+          ],
+          "score": 0.122,
+          "confidence": 0.083
+        }
+      ],
+      "topic_text": "classes problemas complexidade tempo espaco teorema savitch complete hard intractability reducao",
+      "topics": [
+        "classes problemas complexidade tempo espaco teorema savitch complete hard intractability",
+        "complexidade tempo"
+      ],
+      "aliases": [
+        "classes",
+        "problemas",
+        "complexidade",
+        "tempo",
+        "espaco",
+        "teorema"
+      ],
+      "card_evidence": [],
+      "sessions": [
+        {
+          "id": "bloco-18-sessao-2026-05-15",
+          "date": "2026-05-15",
+          "kind": "class",
+          "label": "classes de problemas",
+          "signals": [
+            "2026-05-15",
+            "15 05 2026",
+            "15",
+            "05",
+            "2026",
+            "15 05",
+            "05 2026",
+            "classes de problemas",
+            "classes",
+            "de",
+            "problemas",
+            "classes de",
+            "de problemas"
+          ]
+        },
+        {
+          "id": "bloco-18-sessao-2026-05-20",
+          "date": "2026-05-20",
+          "kind": "class",
+          "label": "complexidade de tempo classes p e np aula",
+          "signals": [
+            "2026-05-20",
+            "20 05 2026",
+            "20",
+            "05",
+            "2026",
+            "20 05",
+            "05 2026",
+            "complexidade de tempo classes p e np aula",
+            "complexidade",
+            "de",
+            "tempo",
+            "classes",
+            "p",
+            "e",
+            "np",
+            "aula",
+            "complexidade de",
+            "de tempo",
+            "tempo classes",
+            "classes p",
+            "p e",
+            "e np",
+            "np aula",
+            "complexidade de tempo",
+            "de tempo classes",
+            "tempo classes p",
+            "classes p e",
+            "p e np",
+            "e np aula",
+            "complexidade de tempo classes",
+            "de tempo classes p",
+            "tempo classes p e",
+            "classes p e np",
+            "p e np aula"
+          ]
+        },
+        {
+          "id": "bloco-18-sessao-2026-05-22",
+          "date": "2026-05-22",
+          "kind": "class",
+          "label": "complexidade de tempo np complete",
+          "signals": [
+            "2026-05-22",
+            "22 05 2026",
+            "22",
+            "05",
+            "2026",
+            "22 05",
+            "05 2026",
+            "complexidade de tempo np complete",
+            "complexidade",
+            "de",
+            "tempo",
+            "np",
+            "complete",
+            "complexidade de",
+            "de tempo",
+            "tempo np",
+            "np complete",
+            "complexidade de tempo",
+            "de tempo np",
+            "tempo np complete",
+            "complexidade de tempo np",
+            "de tempo np complete"
+          ]
+        }
+      ],
+      "source_rows": [
+        21,
+        22,
+        23
+      ],
+      "topic_source": "taxonomy"
+    },
+    {
+      "id": "bloco-20",
+      "period_start": "2026-05-29",
+      "period_end": "2026-05-29",
+      "period_label": "1 dia · 29/05/2026",
+      "kind": "class",
+      "unit_slug": "unidade-04-hierarquia-de-classes-de-complexidade-de-problemas-computacionais",
+      "unit_confidence": 1.0,
+      "primary_topic_slug": "",
+      "primary_topic_label": "Theorema cook levin",
+      "primary_topic_confidence": 0.0,
+      "topic_ambiguous": true,
+      "topic_candidates": [],
+      "topic_text": "theorema cook levin",
+      "topics": [
+        "theorema cook levin"
+      ],
+      "aliases": [
+        "theorema",
+        "levin"
+      ],
+      "card_evidence": [],
+      "sessions": [
+        {
+          "id": "bloco-20-sessao-2026-05-29",
+          "date": "2026-05-29",
+          "kind": "class",
+          "label": "theorema de cook levin aula",
+          "signals": [
+            "2026-05-29",
+            "29 05 2026",
+            "29",
+            "05",
+            "2026",
+            "29 05",
+            "05 2026",
+            "theorema de cook levin aula",
+            "theorema",
+            "de",
+            "cook",
+            "levin",
+            "aula",
+            "theorema de",
+            "de cook",
+            "cook levin",
+            "levin aula",
+            "theorema de cook",
+            "de cook levin",
+            "cook levin aula",
+            "theorema de cook levin",
+            "de cook levin aula"
+          ]
+        }
+      ],
+      "source_rows": [
+        25
+      ],
+      "topic_source": "topic_text_fallback"
+    },
+    {
+      "id": "bloco-21",
+      "period_start": "2026-06-03",
+      "period_end": "2026-06-05",
+      "period_label": "2 dias · 03/06/2026 a 05/06/2026",
+      "kind": "class",
+      "unit_slug": "unidade-04-hierarquia-de-classes-de-complexidade-de-problemas-computacionais",
+      "unit_confidence": 1.0,
+      "primary_topic_slug": "classe-np",
+      "primary_topic_label": "Classe NP",
+      "primary_topic_confidence": 1.0,
+      "topic_ambiguous": false,
+      "topic_candidates": [
+        {
+          "topic_slug": "classe-np",
+          "topic_label": "Classe NP",
+          "unit_slug": "unidade-04-hierarquia-de-classes-de-complexidade-de-problemas-computacionais",
+          "kind": "topic",
+          "aliases": [
+            "Classe NP",
+            "—"
+          ],
+          "score": 5.84,
+          "confidence": 1.0
+        },
+        {
+          "topic_slug": "complexidade-de-tempo-e-de-espaco",
+          "topic_label": "Complexidade de Tempo e de Espaço",
+          "unit_slug": "unidade-04-hierarquia-de-classes-de-complexidade-de-problemas-computacionais",
+          "kind": "topic",
+          "aliases": [
+            "Complexidade de Tempo e de Espaço",
+            "—"
+          ],
+          "score": 0.907,
+          "confidence": 0.155
+        },
+        {
+          "topic_slug": "tipos-de-problemas-computacionais",
+          "topic_label": "Tipos de Problemas Computacionais",
+          "unit_slug": "unidade-04-hierarquia-de-classes-de-complexidade-de-problemas-computacionais",
+          "kind": "topic",
+          "aliases": [
+            "Tipos de Problemas Computacionais",
+            "—"
+          ],
+          "score": 0.122,
+          "confidence": 0.021
+        },
+        {
+          "topic_slug": "definicao-da-classe",
+          "topic_label": "Definição da Classe",
+          "unit_slug": "unidade-04-hierarquia-de-classes-de-complexidade-de-problemas-computacionais",
+          "kind": "topic",
+          "aliases": [
+            "Definição da Classe",
+            "—"
+          ],
+          "score": 0.122,
+          "confidence": 0.021
+        }
+      ],
+      "topic_text": "complexidade tempo classe hard reducao problemas pspace complete",
+      "topics": [
+        "complexidade tempo"
+      ],
+      "aliases": [
+        "complexidade",
+        "tempo"
+      ],
+      "card_evidence": [],
+      "sessions": [
+        {
+          "id": "bloco-21-sessao-2026-06-03",
+          "date": "2026-06-03",
+          "kind": "class",
+          "label": "complexidade de tempo classe np hard",
+          "signals": [
+            "2026-06-03",
+            "03 06 2026",
+            "03",
+            "06",
+            "2026",
+            "03 06",
+            "06 2026",
+            "complexidade de tempo classe np hard",
+            "complexidade",
+            "de",
+            "tempo",
+            "classe",
+            "np",
+            "hard",
+            "complexidade de",
+            "de tempo",
+            "tempo classe",
+            "classe np",
+            "np hard",
+            "complexidade de tempo",
+            "de tempo classe",
+            "tempo classe np",
+            "classe np hard",
+            "complexidade de tempo classe",
+            "de tempo classe np",
+            "tempo classe np hard"
+          ]
+        },
+        {
+          "id": "bloco-21-sessao-2026-06-05",
+          "date": "2026-06-05",
+          "kind": "class",
+          "label": "complexidade de tempo pspace pspace complete e pspace hard aula",
+          "signals": [
+            "2026-06-05",
+            "05 06 2026",
+            "05",
+            "06",
+            "2026",
+            "05 06",
+            "06 2026",
+            "complexidade de tempo pspace pspace complete e pspace hard aula",
+            "complexidade",
+            "de",
+            "tempo",
+            "pspace",
+            "complete",
+            "e",
+            "hard",
+            "aula",
+            "complexidade de",
+            "de tempo",
+            "tempo pspace",
+            "pspace pspace",
+            "pspace complete",
+            "complete e",
+            "e pspace",
+            "pspace hard",
+            "hard aula",
+            "complexidade de tempo",
+            "de tempo pspace",
+            "tempo pspace pspace",
+            "pspace pspace complete",
+            "pspace complete e",
+            "complete e pspace",
+            "e pspace hard",
+            "pspace hard aula",
+            "complexidade de tempo pspace",
+            "de tempo pspace pspace",
+            "tempo pspace pspace complete",
+            "pspace pspace complete e",
+            "pspace complete e pspace",
+            "complete e pspace hard",
+            "e pspace hard aula"
+          ]
+        }
+      ],
+      "source_rows": [
+        26,
+        27
+      ],
+      "topic_source": "taxonomy"
+    },
+    {
+      "id": "bloco-22",
+      "period_start": "2026-06-10",
+      "period_end": "2026-06-10",
+      "period_label": "1 dia · 10/06/2026",
+      "kind": "deliverable",
+      "unit_slug": "",
+      "unit_confidence": 0.0,
+      "primary_topic_slug": "",
+      "primary_topic_label": "Trabalho",
+      "primary_topic_confidence": 0.0,
+      "topic_ambiguous": true,
+      "topic_candidates": [],
+      "topic_text": "trabalho",
+      "topics": [
+        "trabalho"
+      ],
+      "aliases": [
+        "trabalho"
+      ],
+      "card_evidence": [],
+      "sessions": [
+        {
+          "id": "bloco-22-sessao-2026-06-10",
+          "date": "2026-06-10",
+          "kind": "class",
+          "label": "t2 em aula trabalho",
+          "signals": [
+            "2026-06-10",
+            "10 06 2026",
+            "10",
+            "06",
+            "2026",
+            "10 06",
+            "06 2026",
+            "t2 em aula trabalho",
+            "t2",
+            "em",
+            "aula",
+            "trabalho",
+            "t2 em",
+            "em aula",
+            "aula trabalho",
+            "t2 em aula",
+            "em aula trabalho"
+          ]
+        }
+      ],
+      "source_rows": [
+        28
+      ],
+      "topic_source": "topic_text_fallback"
+    },
+    {
+      "id": "bloco-23",
+      "period_start": "2026-06-12",
+      "period_end": "2026-06-26",
+      "period_label": "5 dias · 12/06/2026 a 26/06/2026",
+      "kind": "deliverable",
+      "unit_slug": "unidade-04-hierarquia-de-classes-de-complexidade-de-problemas-computacionais",
+      "unit_confidence": 0.55,
+      "primary_topic_slug": "",
+      "primary_topic_label": "Oficina problemas lancamento enunciados trabalho",
+      "primary_topic_confidence": 0.45,
+      "topic_ambiguous": true,
+      "topic_candidates": [
+        {
+          "topic_slug": "tipos-de-problemas-computacionais",
+          "topic_label": "Tipos de Problemas Computacionais",
+          "unit_slug": "unidade-04-hierarquia-de-classes-de-complexidade-de-problemas-computacionais",
+          "kind": "topic",
+          "aliases": [
+            "Tipos de Problemas Computacionais",
+            "—"
+          ],
+          "score": 0.122,
+          "confidence": 1.0
+        }
+      ],
+      "topic_text": "oficina problemas lancamento enunciados trabalho",
+      "topics": [
+        "oficina problemas"
+      ],
+      "aliases": [
+        "oficina",
+        "problemas"
+      ],
+      "card_evidence": [],
+      "sessions": [
+        {
+          "id": "bloco-23-sessao-2026-06-12",
+          "date": "2026-06-12",
+          "kind": "class",
+          "label": "oficina de problemas lancamento enunciados aula",
+          "signals": [
+            "2026-06-12",
+            "12 06 2026",
+            "12",
+            "06",
+            "2026",
+            "12 06",
+            "06 2026",
+            "oficina de problemas lancamento enunciados aula",
+            "oficina",
+            "de",
+            "problemas",
+            "lancamento",
+            "enunciados",
+            "aula",
+            "oficina de",
+            "de problemas",
+            "problemas lancamento",
+            "lancamento enunciados",
+            "enunciados aula",
+            "oficina de problemas",
+            "de problemas lancamento",
+            "problemas lancamento enunciados",
+            "lancamento enunciados aula",
+            "oficina de problemas lancamento",
+            "de problemas lancamento enunciados",
+            "problemas lancamento enunciados aula"
+          ]
+        },
+        {
+          "id": "bloco-23-sessao-2026-06-17",
+          "date": "2026-06-17",
+          "kind": "class",
+          "label": "oficina de problemas aula",
+          "signals": [
+            "2026-06-17",
+            "17 06 2026",
+            "17",
+            "06",
+            "2026",
+            "17 06",
+            "06 2026",
+            "oficina de problemas aula",
+            "oficina",
+            "de",
+            "problemas",
+            "aula",
+            "oficina de",
+            "de problemas",
+            "problemas aula",
+            "oficina de problemas",
+            "de problemas aula"
+          ]
+        },
+        {
+          "id": "bloco-23-sessao-2026-06-19",
+          "date": "2026-06-19",
+          "kind": "class",
+          "label": "oficina de problemas aula",
+          "signals": [
+            "2026-06-19",
+            "19 06 2026",
+            "19",
+            "06",
+            "2026",
+            "19 06",
+            "06 2026",
+            "oficina de problemas aula",
+            "oficina",
+            "de",
+            "problemas",
+            "aula",
+            "oficina de",
+            "de problemas",
+            "problemas aula",
+            "oficina de problemas",
+            "de problemas aula"
+          ]
+        },
+        {
+          "id": "bloco-23-sessao-2026-06-24",
+          "date": "2026-06-24",
+          "kind": "class",
+          "label": "oficina de problemas aula",
+          "signals": [
+            "2026-06-24",
+            "24 06 2026",
+            "24",
+            "06",
+            "2026",
+            "24 06",
+            "06 2026",
+            "oficina de problemas aula",
+            "oficina",
+            "de",
+            "problemas",
+            "aula",
+            "oficina de",
+            "de problemas",
+            "problemas aula",
+            "oficina de problemas",
+            "de problemas aula"
+          ]
+        },
+        {
+          "id": "bloco-23-sessao-2026-06-26",
+          "date": "2026-06-26",
+          "kind": "class",
+          "label": "oficina de problemas apresentacao trabalho",
+          "signals": [
+            "2026-06-26",
+            "26 06 2026",
+            "26",
+            "06",
+            "2026",
+            "26 06",
+            "06 2026",
+            "oficina de problemas apresentacao trabalho",
+            "oficina",
+            "de",
+            "problemas",
+            "apresentacao",
+            "trabalho",
+            "oficina de",
+            "de problemas",
+            "problemas apresentacao",
+            "apresentacao trabalho",
+            "oficina de problemas",
+            "de problemas apresentacao",
+            "problemas apresentacao trabalho",
+            "oficina de problemas apresentacao",
+            "de problemas apresentacao trabalho"
+          ]
+        }
+      ],
+      "source_rows": [
+        29,
+        30,
+        31,
+        32,
+        33
+      ],
+      "topic_source": "topic_text_fallback"
+    },
+    {
+      "id": "bloco-24",
+      "period_start": "2026-07-01",
+      "period_end": "2026-07-03",
+      "period_label": "2 dias · 01/07/2026 a 03/07/2026",
+      "kind": "class",
+      "unit_slug": "unidade-03-problemas-indecidiveis",
+      "unit_confidence": 0.55,
+      "primary_topic_slug": "",
+      "primary_topic_label": "Para",
+      "primary_topic_confidence": 0.45,
+      "topic_ambiguous": true,
+      "topic_candidates": [
+        {
+          "topic_slug": "prova-da-indecidibilidade-do-problema-da-parada",
+          "topic_label": "Prova da Indecidibilidade do Problema da Parada",
+          "unit_slug": "unidade-03-problemas-indecidiveis",
+          "kind": "topic",
+          "aliases": [
+            "3.1. Prova da Indecidibilidade do Problema da Parada",
+            "—"
+          ],
+          "score": 0.122,
+          "confidence": 1.0
+        }
+      ],
+      "topic_text": "para",
+      "topics": [
+        "para"
+      ],
+      "aliases": [],
+      "card_evidence": [],
+      "sessions": [
+        {
+          "id": "bloco-24-sessao-2026-07-01",
+          "date": "2026-07-01",
+          "kind": "class",
+          "label": "revisao para prova p2 aula",
+          "signals": [
+            "2026-07-01",
+            "01 07 2026",
+            "01",
+            "07",
+            "2026",
+            "01 07",
+            "07 2026",
+            "revisao para prova p2 aula",
+            "revisao",
+            "para",
+            "prova",
+            "p2",
+            "aula",
+            "revisao para",
+            "para prova",
+            "prova p2",
+            "p2 aula",
+            "revisao para prova",
+            "para prova p2",
+            "prova p2 aula",
+            "revisao para prova p2",
+            "para prova p2 aula"
+          ]
+        },
+        {
+          "id": "bloco-24-sessao-2026-07-03",
+          "date": "2026-07-03",
+          "kind": "class",
+          "label": "prova p2 prova",
+          "signals": [
+            "2026-07-03",
+            "03 07 2026",
+            "03",
+            "07",
+            "2026",
+            "03 07",
+            "07 2026",
+            "prova p2 prova",
+            "prova",
+            "p2",
+            "prova p2",
+            "p2 prova"
+          ]
+        }
+      ],
+      "source_rows": [
+        34,
+        35
+      ],
+      "topic_source": "topic_text_fallback"
+    },
+    {
+      "id": "bloco-26",
+      "period_start": "2026-07-10",
+      "period_end": "2026-07-10",
+      "period_label": "1 dia · 10/07/2026",
+      "kind": "class",
+      "unit_slug": "unidade-03-problemas-indecidiveis",
+      "unit_confidence": 0.55,
+      "primary_topic_slug": "",
+      "primary_topic_label": "Correcao",
+      "primary_topic_confidence": 0.45,
+      "topic_ambiguous": true,
+      "topic_candidates": [
+        {
+          "topic_slug": "prova-da-indecidibilidade-do-problema-da-parada",
+          "topic_label": "Prova da Indecidibilidade do Problema da Parada",
+          "unit_slug": "unidade-03-problemas-indecidiveis",
+          "kind": "topic",
+          "aliases": [
+            "3.1. Prova da Indecidibilidade do Problema da Parada",
+            "—"
+          ],
+          "score": 0.122,
+          "confidence": 1.0
+        }
+      ],
+      "topic_text": "correcao",
+      "topics": [
+        "correcao"
+      ],
+      "aliases": [
+        "correcao"
+      ],
+      "card_evidence": [],
+      "sessions": [
+        {
+          "id": "bloco-26-sessao-2026-07-10",
+          "date": "2026-07-10",
+          "kind": "class",
+          "label": "correcao da prova p2 e prova ps aula",
+          "signals": [
+            "2026-07-10",
+            "10 07 2026",
+            "10",
+            "07",
+            "2026",
+            "10 07",
+            "07 2026",
+            "correcao da prova p2 e prova ps aula",
+            "correcao",
+            "da",
+            "prova",
+            "p2",
+            "e",
+            "ps",
+            "aula",
+            "correcao da",
+            "da prova",
+            "prova p2",
+            "p2 e",
+            "e prova",
+            "prova ps",
+            "ps aula",
+            "correcao da prova",
+            "da prova p2",
+            "prova p2 e",
+            "p2 e prova",
+            "e prova ps",
+            "prova ps aula",
+            "correcao da prova p2",
+            "da prova p2 e",
+            "prova p2 e prova",
+            "p2 e prova ps",
+            "e prova ps aula"
+          ]
+        }
+      ],
+      "source_rows": [
+        37
+      ],
+      "topic_source": "topic_text_fallback"
+    },
+    {
+      "id": "bloco-27",
+      "period_start": "2026-07-15",
+      "period_end": "2026-07-17",
+      "period_label": "2 dias · 15/07/2026 a 17/07/2026",
+      "kind": "office_hours",
+      "unit_slug": "unidade-03-problemas-indecidiveis",
+      "unit_confidence": 0.55,
+      "primary_topic_slug": "",
+      "primary_topic_label": "Atendimento duvidas",
+      "primary_topic_confidence": 0.45,
+      "topic_ambiguous": true,
+      "topic_candidates": [
+        {
+          "topic_slug": "prova-da-indecidibilidade-do-problema-da-parada",
+          "topic_label": "Prova da Indecidibilidade do Problema da Parada",
+          "unit_slug": "unidade-03-problemas-indecidiveis",
+          "kind": "topic",
+          "aliases": [
+            "3.1. Prova da Indecidibilidade do Problema da Parada",
+            "—"
+          ],
+          "score": 0.122,
+          "confidence": 1.0
+        }
+      ],
+      "topic_text": "atendimento duvidas",
+      "topics": [
+        "atendimento duvidas"
+      ],
+      "aliases": [
+        "atendimento",
+        "duvidas"
+      ],
+      "card_evidence": [],
+      "sessions": [
+        {
+          "id": "bloco-27-sessao-2026-07-15",
+          "date": "2026-07-15",
+          "kind": "class",
+          "label": "atendimento a duvidas aula",
+          "signals": [
+            "2026-07-15",
+            "15 07 2026",
+            "15",
+            "07",
+            "2026",
+            "15 07",
+            "07 2026",
+            "atendimento a duvidas aula",
+            "atendimento",
+            "a",
+            "duvidas",
+            "aula",
+            "atendimento a",
+            "a duvidas",
+            "duvidas aula",
+            "atendimento a duvidas",
+            "a duvidas aula"
+          ]
+        },
+        {
+          "id": "bloco-27-sessao-2026-07-17",
+          "date": "2026-07-17",
+          "kind": "class",
+          "label": "prova g2 prova de g2",
+          "signals": [
+            "2026-07-17",
+            "17 07 2026",
+            "17",
+            "07",
+            "2026",
+            "17 07",
+            "07 2026",
+            "prova g2 prova de g2",
+            "prova",
+            "g2",
+            "de",
+            "prova g2",
+            "g2 prova",
+            "prova de",
+            "de g2",
+            "prova g2 prova",
+            "g2 prova de",
+            "prova de g2",
+            "prova g2 prova de",
+            "g2 prova de g2"
+          ]
+        }
+      ],
+      "source_rows": [
+        38,
+        39
+      ],
+      "topic_source": "topic_text_fallback"
+    }
+  ]
+}

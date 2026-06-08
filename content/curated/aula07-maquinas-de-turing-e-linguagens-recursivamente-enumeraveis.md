@@ -7,17 +7,15 @@
   - O Problema de Hilbert (1928)
   - A Resposta de Turing (1936)
   - Importância
-  - Idea Intuitiva
+  - Ideia Intuitiva
 - **Componentes de uma Máquina de Turing**
-- **Funcionamento Básico**
-  - A cada passo, a MT:
-  - “Tipos” de Parada
+  - Funcionamento Básico
   - Comparação com Autômatos Finitos
   - Diferença Fundamental
 - **Por que Máquinas de Turing?**
   - Generalidade
   - Robustez
-- **Padrão de Referência**
+  - Padrão de Referência
 - **Definição de Máquina de Turing**
   - Definição
   - Convenções
@@ -35,7 +33,7 @@
   - Convenções
   - Descrição de Alto Nível
   - Níveis de Descrição
-  - Idea
+  - Ideia
   - Estados
   - Descrição de Alto Nível
   - Complexidade
@@ -74,6 +72,7 @@
   - Desafio: MT para Multiplicação
   - Especificação
 - **Referências I**
+- **Imagens Curadas**
 
 <!-- EXEC_SUMMARY_END -->
 {0}------------------------------------------------
@@ -91,35 +90,53 @@ Ciência da Computação
 
 27 de março de 2026
 
-The logo of the Pontifical University of Rio Grande do Sul (PUCRS) School of Polytechnics. It features a crest with a shield, a cross, and a sun, with the text "PUCRS" below it. To the right of the crest, the words "ESCOLA POLITÉCNICA" are written in a bold, sans-serif font.
+The logo of the Escola Politécnica da PUCRS. It features a small crest on the left with a shield, a cross, and a star. To the right of the crest, the text "PUCRS" is written in a small font, followed by a vertical line and then "ESCOLA POLITÉCNICA" in a larger, bold, blue font.
 
-Logo of PUCRS Escola Politécnica
-
-A large, faint, gray watermark of the PUCRS seal is visible in the background. It features a shield with a cross and a sun, surrounded by a circular border with the Latin motto "AD VERVM DVOCIT".
-
-Faint background watermark of the PUCRS seal
+Logo of Escola Politécnica da PUCRS
 
 {1}------------------------------------------------
 ## Sumário
 
-- 1** Introdução às Máquinas de Turing
-- 2** Definição Formal
-- 3** Exemplos de Máquinas de Turing
-- 4** Linguagens Recursivamente Enumeráveis
-- 5** Exercícios
+- 1 Introdução às Máquinas de Turing
+- 2 Definição Formal
+- 3 Exemplos de Máquinas de Turing
+- 4 Linguagens Recursivamente Enumeráveis
+- 5 Exercícios
 
-A faint, stylized watermark of a coat of arms featuring a crown, a shield with a star and a monogram, and a banner with the Latin motto 'AD VERVM DVICIT'.
+The image is a faded, light gray watermark of the coat of arms of the University of São Paulo (USP). It features a shield with a central vertical band containing a stylized 'M' and 'U' monogram, flanked by two vertical bands with a repeating cross pattern. Above the shield is a crown, and on either side are crossed keys. A banner at the bottom of the shield contains the Latin motto 'AD VERVM DVCT'.
+
+Coat of arms of the University of São Paulo (USP)
 
 {2}------------------------------------------------
 
-<!-- IMAGE_DESCRIPTION: datalab-d3294dc879b451b369c0b06f42e9b39f_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Faint background watermark of the PUCRS seal
-<!-- /IMAGE_DESCRIPTION -->
-
 <!-- IMAGE_DESCRIPTION: datalab-cb00037bd3b3af9720d5551ad2f818dd_img.jpg -->
 <!-- Tipo: generico -->
-> **[Descrição de imagem]** A faint, stylized watermark of a coat of arms featuring a crown, a shield with a star and a monogram, and a banner with the Latin motto 'AD VERVM DVICIT'.
+> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
+<!-- /IMAGE_DESCRIPTION -->
+
+<!-- IMAGE_DESCRIPTION: datalab-eca7fa4eb8dd1303e4bd56aee6555b2d_img.jpg -->
+<!-- Tipo: generico -->
+> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
+<!-- /IMAGE_DESCRIPTION -->
+
+<!-- IMAGE_DESCRIPTION: datalab-c2c3abb173421fc58a8c014e41562eb3_img.jpg -->
+<!-- Tipo: generico -->
+> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
+<!-- /IMAGE_DESCRIPTION -->
+
+<!-- IMAGE_DESCRIPTION: datalab-4a7229c854e8286e8d38fc192a3ba1d4_img.jpg -->
+<!-- Tipo: generico -->
+> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
+<!-- /IMAGE_DESCRIPTION -->
+
+<!-- IMAGE_DESCRIPTION: datalab-aa7a4ea43951479b7e7b4c530ea5bc2d_img.jpg -->
+<!-- Tipo: generico -->
+> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
+<!-- /IMAGE_DESCRIPTION -->
+
+<!-- IMAGE_DESCRIPTION: datalab-7b86546611b0b5929a4da6eb922e559c_img.jpg -->
+<!-- Tipo: generico -->
+> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
 <!-- /IMAGE_DESCRIPTION -->
 ## Contexto Histórico
 ### O Problema de Hilbert (1928)
@@ -135,30 +152,31 @@ Usando este modelo, provou que o Entscheidungsproblem é **impossível**.
 A Máquina de Turing é o modelo teórico fundamental de computação, usado para definir:
 
 {3}------------------------------------------------
-### Idea Intuitiva
+### Ideia Intuitiva
 ## Componentes de uma Máquina de Turing
 
-- 1 **Fita:** memória infinita dividida em células
-- 2 **Cabeçote:** lê e escreve na fita, move-se
-- 3 **Controle:** estados que determinam o comportamento
+- 1 Fita:** memória infinita dividida em células
+- 2 Cabeçote:** lê e escreve na fita, move-se
+- 3 Controle:** estados que determinam o comportamento
 
-The diagram illustrates the components of a Turing Machine. At the top right, the label "Controle" is positioned above a circle containing the state  $q_2$ . To the left, the label "Cabeçote" is positioned above a downward-pointing arrow. Below these, a horizontal row of cells represents the "Fita (infinita)". The cells contain the following sequence from left to right: an ellipsis ( $\dots$ ), a blank symbol ( $\sqcup$ ),  $a$ ,  $b$ ,  $b$ ,  $a$ , a blank symbol ( $\sqcup$ ), a blank symbol ( $\sqcup$ ), a blank symbol ( $\sqcup$ ), a blank symbol ( $\sqcup$ ), a blank symbol ( $\sqcup$ ), and an ellipsis ( $\dots$ ). The downward arrow from "Cabeçote" points to the third cell, which contains the symbol  $b$ .
+The diagram illustrates the components of a Turing Machine. At the bottom is a horizontal row of cells representing the tape, labeled "Fita (infinita)". The cells contain the following sequence: an empty square, the letter 'a', the letter 'b', the letter 'b', the letter 'a', an empty square, an empty square, an empty square, an empty square, an empty square, and an empty square, followed by an ellipsis "...". Above the fourth cell (containing 'b') is the label "Cabeçote" with a downward-pointing arrow. To the right of the tape is a circle containing the state  $q_2$ , with the label "Controle" above it. The background features a faint watermark of the University of Coimbra crest.
 
-Diagram of a Turing Machine showing the tape, head, and control state.
+Diagram of a Turing Machine showing the tape, head, and control unit.
 
 {4}------------------------------------------------
 
 <!-- IMAGE_DESCRIPTION: datalab-0c9723d1620cf51bc2b7a380ce7e23c0_img.jpg -->
 <!-- Tipo: generico -->
-> **[Descrição de imagem]** Diagram of a Turing Machine showing the tape, head, and control state.
+> **[Descrição de imagem]** Diagram of a Turing Machine showing the tape, head, and control unit.
 <!-- /IMAGE_DESCRIPTION -->
 
 <!-- IMAGE_DESCRIPTION: datalab-3ad00ce93ad9dea9ee0f47535e5355e6_img.jpg -->
 <!-- Tipo: generico -->
-> **[Descrição de imagem]** Diagrama de estados de uma Máquina de Turing
+> **[Descrição de imagem]** Diagrama de Estados de uma Máquina de Turing
 <!-- /IMAGE_DESCRIPTION -->
-## Funcionamento Básico
-### A cada passo, a MT:
+### Funcionamento Básico
+
+A cada passo, a MT:
 
 - 1 **Lê** o símbolo na posição atual da fita
 - 2 Baseada no estado atual e símbolo lido:
@@ -166,11 +184,12 @@ Diagram of a Turing Machine showing the tape, head, and control state.
   - **Move** o cabeçote (esquerda ou direita)
   - **Muda** para um novo estado
 - 3 Continua até atingir um estado de parada
-### “Tipos” de Parada
 
-- **Aceita:** para em estado de aceitação
-- **Rejeita:** para em estado de rejeição
-- **Loop:** nunca para (não é uma parada!)
+“Tipos” de Parada
+
+- **Aceita**: para em estado de aceitação
+- **Rejeita**: para em estado de rejeição
+- **Loop**: nunca para (não é uma parada!)
 
 {5}------------------------------------------------
 ### Comparação com Autômatos Finitos
@@ -195,7 +214,7 @@ Toda computação realizada por qualquer computador pode ser simulada por uma MT
 ### Robustez
 
 Variações do modelo (múltiplas fitas, não-determinismo, etc.) têm o mesmo poder computacional.
-## Padrão de Referência
+### Padrão de Referência
 
 A MT é o “melhor que temos” para definir computabilidade:
 
@@ -267,14 +286,14 @@ $C_1 \vdash C_2$  (“ $C_1$  leva a  $C_2$ ”) se a MT vai da configuração  
 
 Se  $\delta(q, b) = (q', c, R)$ :
 
-$$uaq bv \vdash uacq' v$$
+$$uaq \ bv \vdash uacq' \ v$$
 
 Se  $\delta(q, b) = (q', c, L)$ :
 
-$$uaq bv \vdash uq' acv$$
+$$uaq \ bv \vdash uq' \ acv$$
 ### Fecho Transitivo
 
-$C_1 \vdash^* C_2$  se existe sequência  $C_1 \vdash C'_1 \vdash \dots \vdash C_2$ .
+$C_1 \vdash^* C_2$  se existe sequência  $C_1 \vdash C_1' \vdash \dots \vdash C_2$ .
 
 {11}------------------------------------------------
 ### Computação
@@ -305,9 +324,9 @@ $$L(M) = \{w \in \Sigma^* : M \text{ aceita } w\}$$
 - Estado de aceitação: círculo duplo
 - Transições: setas rotuladas  $a \rightarrow b, D$
 
-Diagrama de estados de uma Máquina de Turing. O diagrama mostra três estados:  $q_0$  (estado inicial),  $q_1$  (estado intermediário) e  $q_{acc}$  (estado de aceitação).  $q_0$  é um círculo simples com uma seta de entrada rotulada "start".  $q_1$  é um círculo simples com uma auto-loop rotulada  $a \rightarrow a, R$ .  $q_{acc}$  é um círculo duplo. Há uma transição de  $q_0$  para  $q_1$  rotulada  $a \rightarrow X, R$ . Há uma transição de  $q_1$  para  $q_{acc}$  rotulada  $\sqcup \rightarrow \sqcup, L$ .
+O diagrama mostra um fluxo de estados em uma Máquina de Turing. O estado inicial  $q_0$  é representado por um círculo simples com uma seta rotulada "start" apontando para ele. Uma transição  $a \rightarrow X, R$  leva de  $q_0$  para o estado  $q_1$ . O estado  $q_1$  possui um auto-loop rotulado  $a \rightarrow a, R$  e uma transição  $\sqcup \rightarrow \sqcup, L$  que o leva ao estado de aceitação  $q_{acc}$ . O estado  $q_{acc}$  é representado por um círculo duplo.
 
-Diagrama de estados de uma Máquina de Turing
+Diagrama de Estados de uma Máquina de Turing
 
 Transição  $a \rightarrow X, R$ : lendo  $a$ , escreve  $X$ , move à direita.
 
@@ -317,9 +336,9 @@ Transição  $a \rightarrow X, R$ : lendo  $a$ , escreve  $X$ , move à direita.
 
 Podemos descrever uma MT em três níveis:
 
-- 1 **Formal:** 7-tupla completa com  $\delta$  explícita
-- 2 **Implementação:** descrição do funcionamento dos estados e transições
-- 3 **Alto nível:** descrição algorítmica em português/pseudocódigo
+- 1 **Formal**: 7-tupla completa com  $\delta$  explícita
+- 2 **Implementação**: descrição do funcionamento dos estados e transições
+- 3 **Alto nível**: descrição algorítmica em português/pseudocódigo
 #### Exemplo de Alto Nível
 
 MT para  $L = \{0^n 1^n : n \geq 0\}$ , com entrada  $w$ :
@@ -332,8 +351,8 @@ MT para  $L = \{0^n 1^n : n \geq 0\}$ , com entrada  $w$ :
 - 6 Se todos os 0s e 1s estão marcados, aceite
 
 {14}------------------------------------------------
-#### Exemplo 1: $L = \{0^n 1^n : n \geq 0\}$
-### Idea
+##### Exemplo 1: $L = \{0^n 1^n : n \geq 0\}$
+### Ideia
 
 Repetidamente marque um 0 e um 1 correspondente, até todos estarem marcados.
 ### Estados
@@ -345,7 +364,7 @@ Repetidamente marque um 0 e um 1 correspondente, até todos estarem marcados.
 - $q_{rej}$ : rejeita
 #### Alfabeto
 
-$\Sigma = \{0, 1\}$ ,  $\Gamma = \{0, 1, X, Y, \sqcup\}$
+$\Sigma = \{0, 1\}, \Gamma = \{0, 1, X, Y, \sqcup\}$
 
 {15}------------------------------------------------
 #### Exemplo 1: Transições
@@ -363,46 +382,34 @@ $\Sigma = \{0, 1\}$ ,  $\Gamma = \{0, 1, X, Y, \sqcup\}$
 | $q_2$  | X        | $(q_0, X, R)$ ; reinicia                      |
 
 {16}------------------------------------------------
-#### Exemplo 1: Execução em 0011
+##### Exemplo 1: Execução em 0011
 
-| Passo | Configuração        |
-|-------|---------------------|
-| 0     | $q_0$ 0011          |
-| 1     | $X q_1$ 011         |
-| 2     | $X 0 q_1$ 11        |
-| 3     | $X q_2$ 0Y1         |
-| 4     | $q_2 X 0 Y 1$       |
-| 5     | $X q_0$ 0Y1         |
-| 6     | $XX q_1$ Y1         |
-| 7     | $XXY q_1$ 1         |
-| 8     | $XX q_2$ YY         |
-| 9     | $X q_2$ XYY         |
-| 10    | $XX q_0$ YY         |
-| 11    | $XXY q_0$ Y         |
-| 12    | $XXYY q_0$ $\sqcup$ |
-| 13    | Aceita!             |
+| Passo | Configuração |
+|-------|--------------|
+| 0     | $q_0$ 0011   |
+| 1     | $X q_1$ 011  |
+| 2     | $X0 q_1$ 11  |
+| 3     | $X q_2$ 0Y1  |
+| 4     | $q_2 X0Y1$   |
+| 5     | $X q_0$ 0Y1  |
+| 6     | $XX q_1$ Y1  |
+| 7     | $XXY q_1$ 1  |
+| 8     | $XX q_2$ YY  |
+| 9     | $X q_2$ XYY  |
+| 10    | $XX q_0$ YY  |
+| 11    | $XXY q_0$ Y  |
+| 12    | $XXYY q_0$ $\square$ |
+| 13    | Aceita!      |
 
-The image is a faint, grayscale watermark of the coat of arms of the University of Coimbra. It features a shield with a star and the motto "AD VERVM DVICIT" (To truth, it conquers) on a ribbon below. The shield is flanked by two figures, and a crown sits atop the shield.
-
-Coat of arms of the University of Coimbra, featuring a shield with a star and the motto 'AD VERVM DVICIT'.
+Coat of arms of the University of Coimbra, featuring a shield with a star and a banner reading 'AD VERVM DVCIT'.
 
 {17}------------------------------------------------
 
 <!-- IMAGE_DESCRIPTION: datalab-c3ee41c6d46565ab4198d0a9c69108c5_img.jpg -->
 <!-- Tipo: generico -->
-> **[Descrição de imagem]** Coat of arms of the University of Coimbra, featuring a shield with a star and the motto 'AD VERVM DVICIT'.
+> **[Descrição de imagem]** Coat of arms of the University of Coimbra, featuring a shield with a star and a banner reading 'AD VERVM DVCIT'.
 <!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-c2c3abb173421fc58a8c014e41562eb3_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Coat of arms of the University of Coimbra, featuring a shield with a star and the motto 'AD VERVM DVICIT'.
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-3666d118c94e8574a6b318e7944d3d16_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Watermark of the University of Coimbra coat of arms, featuring a shield with a star and the motto 'AD VERVM DVICIT'.
-<!-- /IMAGE_DESCRIPTION -->
-#### Exemplo 2: $L = \{ww : w \in \{a, b\}^*\}$
+##### Exemplo 2: $L = \{ww : w \in \{a, b\}^*\}$
 ### Descrição de Alto Nível
 
 “Na entrada  $x$ :
@@ -439,19 +446,21 @@ Esta linguagem **não** é livre de contexto! MTs podem reconhecer linguagens qu
 #### Exemplo 4: Soma Unária
 ### Problema
 
-Dados  $m$  e  $n$  em unário (sequências de 1s), calcular  $m + n$ .  
-Entrada:  $1^m\#1^n$  Saída esperada:  $1^{m+n}$
+Dados  $m$  e  $n$  em unário (sequências de 1s), calcular  $m + n$ .
+
+Entrada:  $1^m \# 1^n$  Saída esperada:  $1^{m+n}$
 ### Descrição
 
-“Na entrada  $1^m\#1^n$ :
+“Na entrada  $1^m \# 1^n$ :
 
 - 1 Substitua o  $\#$  por 1
 - 2 Apague o último 1 (para compensar o  $\#$  extra)
 - 3 Pare”
 #### Exemplo
 
-$111\#11 \rightarrow 11111 \rightarrow 1111$   
- $3 + 2 = 5 \checkmark$
+$111\#11 \rightarrow 11111 \rightarrow 1111$
+
+$3 + 2 = 5 \checkmark$
 
 {20}------------------------------------------------
 ## Máquinas de Turing como Reconhecedores
@@ -505,7 +514,8 @@ Uma MT  $E$  é um **enumerador** para  $L$  se:
 - Toda cadeia de  $L$  é eventualmente escrita
 ### Equivalência
 
-$L$  é r.e.  $\iff L$  pode ser enumerada por alguma MT.  
+$L$  é r.e.  $\iff L$  pode ser enumerada por alguma MT.
+
 Daí o nome “recursivamente enumerável”.
 
 {23}------------------------------------------------
@@ -549,7 +559,7 @@ Para toda  $w$ , ou  $w \in L$  ou  $w \in \bar{L}$ , então  $M$  sempre para.
 #### Exemplo: Uma Linguagem R.E. não Decidível
 ### O Problema da Parada
 
-$$HALT = \{\langle M, w \rangle : M \text{ é MT que para na entrada } w\}$$
+$$HALT = \{ \langle M, w \rangle : M \text{ é MT que para na entrada } w \}$$
 ### Afirmação
 
 $HALT$  é reconhecível mas não decidível.
@@ -565,9 +575,11 @@ $U$  reconhece  $HALT$  (aceita sse  $M$  para em  $w$ ).
 {26}------------------------------------------------
 ### Hierarquia de Linguagens
 
-Venn diagram showing the hierarchy of languages. A large black oval is labeled 'Todas as Linguagens'. Inside it is a blue oval labeled 'Reconhecíveis (R.E.)'. Inside the blue oval is a green oval labeled 'Decidíveis'. A dashed red oval labeled 'co-R.E.' overlaps with the blue oval. The label 'HALT' appears twice, once inside the green oval and once outside it but inside the blue oval.
+O diagrama ilustra a hierarquia das linguagens de computação através de três elipses concêntricas. A maior elipse, com contorno preto, representa 'Todas as Linguagens'. Dentro dela, uma elipse azul representa as 'Reconhecíveis (R.E.)'. A menor elipse, com contorno verde, representa as 'Decidíveis'. Uma terceira elipse, com contorno vermelho tracejado, representa as 'co-R.E.' e se sobrepõe à elipse azul. O rótulo 'HALT' está localizado na parte inferior esquerda da elipse azul, e o rótulo  $\overline{HALT}$  está na parte inferior direita da elipse vermelha tracejada. No fundo da slide, há uma imagem desbotada do brasão da Universidade de Coimbra.
 
-- Decidíveis = R.E.  $\cap$  co-R.E.
+Diagrama da hierarquia de linguagens de computação
+
+- $\text{Decidíveis} = \text{R.E.} \cap \text{co-R.E.}$
 - $HALT$  é R.E. mas não co-R.E.
 - $\overline{HALT}$  é co-R.E. mas não R.E.
 
@@ -575,7 +587,7 @@ Venn diagram showing the hierarchy of languages. A large black oval is labeled '
 
 <!-- IMAGE_DESCRIPTION: datalab-4cde160bcc69b7b6c81b648dd0e4252e_img.jpg -->
 <!-- Tipo: generico -->
-> **[Descrição de imagem]** Venn diagram showing the hierarchy of languages.
+> **[Descrição de imagem]** Diagrama da hierarquia de linguagens de computação
 <!-- /IMAGE_DESCRIPTION -->
 ## Resumo
 ## Classes de Linguagens
@@ -589,7 +601,7 @@ Venn diagram showing the hierarchy of languages. A large black oval is labeled '
 
 - Decidível  $\subset$  Reconhecível  $\subset$  Todas
 - Reconhecível  $\neq$  co-Reconhecível
-- Decidível  $=$  Reconhecível  $\cap$  co-Reconhecível
+- Decidível = Reconhecível  $\cap$  co-Reconhecível
 - Existem linguagens que não são reconhecíveis nem co-reconhecíveis
 
 {28}------------------------------------------------
@@ -608,30 +620,25 @@ Considere a MT com  $Q = \{q_0, q_1, q_{acc}, q_{rej}\}$ ,  $\Sigma = \{a, b\}$ 
 - 2 Que linguagem esta MT reconhece?
 - 3 Esta MT é um decisor? Justifique.
 
-The image is a watermark of the University of Coimbra's coat of arms. It features a shield divided into three sections: a central section with a crown and a monogram, and two side sections with a repeating pattern of stylized trees. Above the shield is a crown, and below it is a ribbon with the Latin motto "VERVM DVCT".
+The image shows the coat of arms of the University of São Paulo (USP). It features a shield with a large five-pointed star in the center. The shield is flanked by two crossed keys (the keys of St. Peter). Above the shield is a crown. The shield is decorated with a pattern of smaller stars. Below the shield is a banner with the Latin motto "VERVM DVCT".
 
-Watermark of the University of Coimbra crest, featuring a shield with a crown and the motto 'VERVM DVCT'.
+Coat of arms of the University of São Paulo (USP)
 
 {29}------------------------------------------------
-
-<!-- IMAGE_DESCRIPTION: datalab-eca7fa4eb8dd1303e4bd56aee6555b2d_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Watermark of the University of Coimbra crest, featuring a shield with a crown and the motto 'VERVM DVCT'.
-<!-- /IMAGE_DESCRIPTION -->
 ### Exercício 2: Projeto de MTs
 
 Projete Máquinas de Turing (descrição de alto nível ou diagrama) para:
 
 - 1  $L = \{w \in \{a, b\}^* : |w|_a = |w|_b\}$
-- 2  $L = \{a^n b^{2^n} : n \geq 0\}$
+- 2  $L = \{a^n b^{2n} : n \geq 0\}$
 - 3  $L = \{w\#w : w \in \{0, 1\}^*\}$  (verificar se duas cadeias são iguais)
 - 4  $L = \{1^n : n \text{ é potência de } 2\}$
 
 Para cada uma, indique se sua MT é um decisor.
 
-The image is a watermark of the coat of arms of the University of Coimbra. It features a shield with a star at the top and a pattern of small crosses. Above the shield is a crown and two supporters. A ribbon at the bottom contains the Latin motto "AD VERVM DVICIT".
+The image shows the coat of arms of the University of São Paulo (USP). It features a shield with a large five-pointed star in the center. The shield is flanked by two crossed keys (the keys of St. Peter). Above the shield is a crown. A banner at the bottom of the shield contains the Latin motto "AD VERVM DVCT".
 
-Coat of arms of the University of Coimbra, featuring a shield with a star and the motto 'AD VERVM DVICIT'.
+Coat of arms of the University of São Paulo (USP)
 
 {30}------------------------------------------------
 ### Exercício 3: Operações com MTs
@@ -641,47 +648,38 @@ Coat of arms of the University of Coimbra, featuring a shield with a star and th
 - 3 Dada MT  $M$  que reconhece  $L$ , como construir MT para  $L^*$ ?
 - 4 Por que é difícil construir MT para  $\bar{L}$  a partir de  $M$ ?
 
-The image is a watermark of the University of Coimbra seal. It features a crown at the top, a shield with a star in the center, and the motto 'AD VERVM DVOCIT' written in a banner at the bottom. The shield is decorated with various heraldic elements, including a cross and a star.
+The image shows the coat of arms of the University of São Paulo (USP). It features a shield with a white field containing a large blue star and a smaller blue star above it. The shield is flanked by two blue lions. Above the shield is a blue crown. A blue ribbon with the Latin motto 'AD VERVM DVCT' is draped across the bottom of the shield.
 
-Watermark of the University of Coimbra seal, featuring a crown, a shield with a star, and the motto 'AD VERVM DVOCIT'.
+Coat of arms of the University of São Paulo (USP)
 
 {31}------------------------------------------------
-
-<!-- IMAGE_DESCRIPTION: datalab-4a7229c854e8286e8d38fc192a3ba1d4_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Watermark of the University of Coimbra seal, featuring a crown, a shield with a star, and the motto 'AD VERVM DVOCIT'.
-<!-- /IMAGE_DESCRIPTION -->
 ### Exercício 4: Reconhecibilidade e Decidibilidade
 
 Classifique cada afirmação como Verdadeira ou Falsa. Justifique.
 
-- 1 Toda linguagem finita é decidível.
-- 2 Se  $L$  é decidível, então  $L$  é reconhecível.
-- 3 Se  $L$  é reconhecível, então  $L$  é decidível.
-- 4 Se  $L$  e  $\bar{L}$  são reconhecíveis, então  $L$  é decidível.
-- 5 Se  $L$  não é reconhecível, então  $\bar{L}$  é reconhecível.
-- 6 Existe uma linguagem que não é reconhecível nem co-reconhecível.
+- 1** Toda linguagem finita é decidível.
+- 2** Se  $L$  é decidível, então  $L$  é reconhecível.
+- 3** Se  $L$  é reconhecível, então  $L$  é decidível.
+- 4** Se  $L$  e  $\bar{L}$  são reconhecíveis, então  $L$  é decidível.
+- 5** Se  $L$  não é reconhecível, então  $\bar{L}$  é reconhecível.
+- 6** Existe uma linguagem que não é reconhecível nem co-reconhecível.
 
-A faint, gray watermark of the University of Coimbra's coat of arms is visible on the right side of the slide. The crest features a shield with a cross and a star, topped by a crown and flanked by two figures. Below the shield is a ribbon with the Latin motto 'AD VERVM DVOCIT'.
+The image shows the coat of arms of the University of São Paulo (USP). It features a central shield with a large five-pointed star. The shield is flanked by two crossed keys (the keys of St. Peter). Above the shield is a crown. The shield is decorated with a pattern of smaller stars and a central emblem. A banner at the bottom of the shield contains the Latin motto "AD VERVM DVCT".
 
-Watermark of the University of Coimbra crest with the motto 'AD VERVM DVOCIT'.
+Coat of arms of the University of São Paulo (USP)
 
 {32}------------------------------------------------
-
-<!-- IMAGE_DESCRIPTION: datalab-aa7a4ea43951479b7e7b4c530ea5bc2d_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Watermark of the University of Coimbra crest with the motto 'AD VERVM DVOCIT'.
-<!-- /IMAGE_DESCRIPTION -->
 ### Exercício 5: Enumeradores
 
 - 1 Descreva um enumerador para  $L = \{a^n b^n : n \geq 0\}$ .
-  - 2 Prove que se  $L$  é infinita e decidível, então  $L$  pode ser enumerada em ordem lexicográfica.
-  - 3 Prove que se  $L$  pode ser enumerada em ordem lexicográfica (sem repetições), então  $L$  é decidível.
-- Dica:** Compare a entrada com os elementos enumerados.
+- 2 Prove que se  $L$  é infinita e decidível, então  $L$  pode ser enumerada em ordem lexicográfica.
+- 3 Prove que se  $L$  pode ser enumerada em ordem lexicográfica (sem repetições), então  $L$  é decidível.
 
-The image is a faint, gray watermark of the coat of arms of the University of Coimbra. It features a shield with a star at the bottom and a crown on top. The shield is flanked by two supporters. A banner at the bottom contains the Latin motto "AD VERVM DVICIT".
+**Dica:** Compare a entrada com os elementos enumerados.
 
-Watermark of the University of Coimbra coat of arms, featuring a shield with a star and the motto 'AD VERVM DVICIT'.
+The image shows the coat of arms of the University of São Paulo (USP). It features a shield with a large five-pointed star in the center. The shield is flanked by two crossed flags: the Brazilian flag on the left and the USP flag on the right. Above the shield is a crown. A banner at the bottom of the shield contains the Latin motto "AD VERVM DVCT".
+
+Coat of arms of the University of São Paulo (USP)
 
 {33}------------------------------------------------
 ### Desafio: MT para Multiplicação
@@ -706,11 +704,11 @@ Projete uma Máquina de Turing que computa a multiplicação de dois números em
 - [3] Christos H. Papadimitriou. *Computational Complexity*. Addison-Wesley, 1994.
 - [4] Michael Sipser. *Introduction to the Theory of Computation*. 3rd. Cengage Learning, 2012.
 
-Faint watermark of the University of Cambridge crest, featuring a shield with four lions and a closed book, with the motto 'AD VERVM DVCT' on a ribbon below.
+Faint watermark of the University of São Paulo (USP) coat of arms, featuring a shield with a star and the motto 'AD VERVM DVCT'.
 
 <!-- IMAGE_DESCRIPTION: datalab-474827f04e18dc4a3b073e8785813a76_img.jpg -->
 <!-- Tipo: generico -->
-> **[Descrição de imagem]** Faint watermark of the University of Cambridge crest, featuring a shield with four lions and a closed book, with the motto 'AD VERVM DVCT' on a ribbon below.
+> **[Descrição de imagem]** Faint watermark of the University of São Paulo (USP) coat of arms, featuring a shield with a star and the motto 'AD VERVM DVCT'.
 <!-- /IMAGE_DESCRIPTION -->
 
 <!-- IMAGE_DESCRIPTION_ORPHANS -->
@@ -720,6 +718,6 @@ Descrições preservadas para imagens detectadas no documento, mas sem referênc
 
 <!-- IMAGE_DESCRIPTION: datalab-1d7527f4316cfe2d342b08d1653d1592_img.jpg -->
 <!-- Tipo: generico -->
-> **[Descrição de imagem]** Logo of PUCRS Escola Politécnica
+> **[Descrição de imagem]** Logo of Escola Politécnica da PUCRS
 <!-- /IMAGE_DESCRIPTION -->
 <!-- /IMAGE_DESCRIPTION_ORPHANS -->

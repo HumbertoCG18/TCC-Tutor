@@ -8,27 +8,36 @@
   - Solução Natural
   - Pergunta
   - Definição: MT Multifita
-  - Visualização: MT com 3 Fitas
+  - Definição
   - Teorema de Equivalência
+  - Teorema
+  - Ideia da Simulação
+  - Passo de Simulação
   - Complexidade
+  - Custo da Simulação
+  - Teorema
   - Análise
   - Consequências
-  - Não-Determinismo
+- **Não-Determinismo**
   - Conceito
   - Definição Formal
   - Aceitação
   - Visualização: Árvore de Computação
+  - Exemplo de MTN
   - Algoritmo Não-Determinístico
-  - Equivalência: MTN $\equiv$ MTD
+  - Observação
+  - Equivalência: $MTN \equiv MTD$
   - Teorema
+  - Ideia da Prova
   - Custo da Simulação
+  - Teorema
   - Análise
   - Consequência para Complexidade
   - Não-Determinismo e Classes de Complexidade
   - Classe P
   - Classe NP
   - Questão P vs NP
-  - MT com Fita Duplamente Infinita
+- **MT com Fita Duplamente Infinita**
   - Modelo Padrão
   - Variação
   - Demonstração de Equivalência
@@ -40,15 +49,15 @@
   - MT com Alfabeto Restrito
   - Mínimo
   - MT com Estados Restritos
-  - Trade-off
   - MT Probabilística
+  - Descrição
   - Classes de Complexidade
   - MT Quântica
   - Descrição
   - Poder Computacional
   - Classe BQP
 - **Resumo: Equivalências**
-  - Variações Equivalentes à MT Padrão
+- **Variações Equivalentes à MT Padrão**
   - Para Computabilidade
   - Para Complexidade
   - Exercício 1: MT Multifita
@@ -58,6 +67,7 @@
   - Exercício 5: Alfabeto Mínimo
   - Desafio: MT com Oráculo
 - **Referências I**
+- **Imagens Curadas**
 
 <!-- EXEC_SUMMARY_END -->
 {0}------------------------------------------------
@@ -68,35 +78,52 @@ Prof. Anderson Roberto Pinheiro Domingues
 
 [anderson.domingues@pucrs.br](mailto:anderson.domingues@pucrs.br)
 
-Aula 09  
+Aula 09
+
 Teoria da Computabilidade e Complexidade  
 Ciência da Computação
 
 8 de abril de 2026
 
-The logo of the PUCRS Escola Politécnica. It features a crest with a shield and a star, with the text "PUCRS" below it. To the right of the crest, the words "ESCOLA" and "POLITÉCNICA" are stacked vertically in a bold, blue, sans-serif font.
+The logo of PUCRS, featuring a shield with a cross and a star, and the text "PUCRS" below it.
 
-Logo of PUCRS Escola Politécnica
+Logo of PUCRS (Pontifícia Universidade Católica do Rio Grande do Sul)
 
-A large, faint, gray watermark of the PUCRS seal is positioned on the right side of the slide. The seal includes a shield with a star and the motto "AD VERVM DVOCIT" written in a banner at the bottom.
-
-Faint background watermark of the PUCRS seal
+ESCOLA  
+POLITÉCNICA
 
 {1}------------------------------------------------
 ## Sumário
 
-- 1** Máquinas de Turing Multifita
-- 2** Máquinas de Turing Não-Determinísticas
-- 3** Outras Variações
-- 4** Exercícios
+- 1 Máquinas de Turing Multifita
+- 2 Máquinas de Turing Não-Determinísticas
+- 3 Outras Variações
+- 4 Exercícios
 
-A faint, stylized watermark of the coat of arms of the University of Coimbra. It features a shield with a central crest and two side panels decorated with pine-like trees. Above the shield is a crown and two crossed keys. A ribbon at the bottom bears the Latin motto 'AD VERVM DVCTIT'.
+The image shows the coat of arms of the University of São Paulo (USP). It features a shield with a central panel containing a stylized 'M' and 'U' monogram, flanked by two panels with a repeating cross pattern. Above the shield is a crown, and on either side are crossed keys. A banner at the bottom reads 'AD VERVM DVCIT'.
+
+Coat of arms of the University of São Paulo (USP)
 
 {2}------------------------------------------------
 
 <!-- IMAGE_DESCRIPTION: datalab-8c378a184b5ae4d1605cb74d7b7a7e3f_img.jpg -->
 <!-- Tipo: generico -->
-> **[Descrição de imagem]** A faint, stylized watermark of the coat of arms of the University of Coimbra.
+> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
+<!-- /IMAGE_DESCRIPTION -->
+
+<!-- IMAGE_DESCRIPTION: datalab-8b7d06054b5d46b891858673c714c794_img.jpg -->
+<!-- Tipo: generico -->
+> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
+<!-- /IMAGE_DESCRIPTION -->
+
+<!-- IMAGE_DESCRIPTION: datalab-513b2f88e0edcd2ffb6b7cf54f465d06_img.jpg -->
+<!-- Tipo: generico -->
+> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
+<!-- /IMAGE_DESCRIPTION -->
+
+<!-- IMAGE_DESCRIPTION: datalab-66e8a5ee8999de53e962b143d5cf86ad_img.jpg -->
+<!-- Tipo: generico -->
+> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
 <!-- /IMAGE_DESCRIPTION -->
 ## Motivação
 ## Limitação Prática
@@ -115,14 +142,15 @@ Pergunta: isso aumenta o poder computacional? Não! MTs multifita têm o mesmo p
 
 {3}------------------------------------------------
 ### Definição: MT Multifita
-#### Definição
+### Definição
 
 Uma **MT com  $k$  fitas** é uma 7-tupla
 
 $M = (Q, \Sigma, \Gamma, \delta, q_0, q_{acc}, q_{rej})$  onde:
 
 $$\delta : Q \times \Gamma^k \rightarrow Q \times \Gamma^k \times \{L, R, S\}^k$$
-#### Interpretação de $\delta(q, a_1, \dots, a_k) = (q', b_1, \dots, b_k, D_1, \dots, D_k)$
+
+Interpretação de  $\delta(q, a_1, \dots, a_k) = (q', b_1, \dots, b_k, D_1, \dots, D_k)$
 
 Se está no estado  $q$  lendo  $a_i$  na fita  $i$ :
 
@@ -130,72 +158,30 @@ Se está no estado  $q$  lendo  $a_i$  na fita  $i$ :
 - Move cabeçote da fita  $i$  na direção  $D_i$
 - Vai para estado  $q'$
 
-Onde  $D_i \in \{L, R, S\}$  ( $S = \text{ficar parado}$ ).
+Onde  $D_i \in \{L, R, S\}$  ( $S$  = ficar parado).
 
 {4}------------------------------------------------
-### Visualização: MT com 3 Fitas
-
-Fita 1: 
-
-|  |  |          |          |          |  |  |  |  |
-|--|--|----------|----------|----------|--|--|--|--|
-|  |  | <i>a</i> | <i>b</i> | <i>b</i> |  |  |  |  |
-|--|--|----------|----------|----------|--|--|--|--|
-
- $\downarrow$
-
-Fita 2: 
-
-|  |          |          |  |  |  |  |  |  |
-|--|----------|----------|--|--|--|--|--|--|
-|  | <i>X</i> | <i>Y</i> |  |  |  |  |  |  |
-|--|----------|----------|--|--|--|--|--|--|
-
- $\downarrow$
-
-Fita 3: 
-
-|  |  |  |  |  |          |          |  |  |
-|--|--|--|--|--|----------|----------|--|--|
-|  |  |  |  |  | <i>1</i> | <i>0</i> |  |  |
-|--|--|--|--|--|----------|----------|--|--|
-
- $\downarrow$
-
-Controle  
-(*q*)
-
-Diagram of a 3-tape Turing machine. Fita 1 contains 'a b b' with the head on the second 'b'. Fita 2 contains 'X Y' with the head on 'Y'. Fita 3 contains '1 0' with the head on '1'. A control state 'q' is shown on the right.
-
-- Cada fita tem seu cabeçote independente
-- Fita 1 geralmente contém a entrada
-- Outras fitas são usadas como “memória de trabalho”
 
 {5}------------------------------------------------
-
-<!-- IMAGE_DESCRIPTION: datalab-ca5566458a134032dd860e88fdaa0d2b_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Diagram of a 3-tape Turing machine. Fita 1 contains 'a b b' with the head on the second 'b'. Fita 2 contains 'X Y' with the head on 'Y'. Fita 3 contains '1 0' with the head on '1'. A control state 'q' is shown on the...
-<!-- /IMAGE_DESCRIPTION -->
 ### Teorema de Equivalência
-#### Teorema
+### Teorema
 
 Para toda MT  $M$  com  $k$  fitas, existe uma MT  $M'$  com 1 fita tal que  $L(M) = L(M')$ .
-#### Idea da Simulação
+### Ideia da Simulação
 
 A fita única de  $M'$  simula as  $k$  fitas de  $M$ :
 
-|     |           |     |   |           |     |   |   |           |   |  |  |  |  |
-|-----|-----------|-----|---|-----------|-----|---|---|-----------|---|--|--|--|--|
-| $a$ | $\dot{b}$ | $b$ | # | $\dot{X}$ | $Y$ | # | 1 | $\dot{0}$ | # |  |  |  |  |
-|-----|-----------|-----|---|-----------|-----|---|---|-----------|---|--|--|--|--|
+|     |     |     |      |           |     |      |     |           |      |  |  |  |  |  |
+|-----|-----|-----|------|-----------|-----|------|-----|-----------|------|--|--|--|--|--|
+| $a$ | $b$ | $b$ | $\#$ | $\dot{x}$ | $y$ | $\#$ | $1$ | $\dot{o}$ | $\#$ |  |  |  |  |  |
+|-----|-----|-----|------|-----------|-----|------|-----|-----------|------|--|--|--|--|--|
 
-- # separa o conteúdo das fitas
+- $\#$  separa o conteúdo das fitas
 - Símbolos com ponto ( $\dot{a}$ ) marcam posição do cabeçote
 - Alfabeto expandido:  $\Gamma' = \Gamma \cup \dot{\Gamma} \cup \{\#\}$
 
 {6}------------------------------------------------
-#### Passo de Simulação
+### Passo de Simulação
 
 Para simular um passo de  $M$  com  $k$  fitas:
 
@@ -210,8 +196,8 @@ Para simular um passo de  $M$  com  $k$  fitas:
 Um passo de  $M$  é simulado em  $O(n)$  passos de  $M'$ , onde  $n$  é o comprimento total usado nas fitas.
 
 {7}------------------------------------------------
-#### Custo da Simulação
-#### Teorema
+### Custo da Simulação
+### Teorema
 
 Se uma MT com  $k$  fitas executa em tempo  $t(n)$ , a MT equivalente de 1 fita executa em tempo  $O(t(n)^2)$ .
 ### Análise
@@ -225,13 +211,13 @@ Se uma MT com  $k$  fitas executa em tempo  $t(n)$ , a MT equivalente de 1 fita 
 - Para questões de **computabilidade**, isso não importa.
 
 {8}------------------------------------------------
-### Não-Determinismo
+## Não-Determinismo
 ### Conceito
 
 Em cada passo de computação, a MT pode ter **múltiplas** transições possíveis. Nesse caso, a função de transição é modificada para mapear um conjunto de possíveis transições.
 ### Definição Formal
 
-Uma **MT não-determinística (MTN)** possui função de transição:
+Uma **MT não-determinística** (MTN) possui função de transição:
 
 $$\delta : Q \times \Gamma \rightarrow \mathcal{P}(Q \times \Gamma \times \{L, R\})$$
 
@@ -243,26 +229,25 @@ Uma MTN  $M$  aceita  $w$  se **existe** alguma sequência de escolhas que leva 
 {9}------------------------------------------------
 ### Visualização: Árvore de Computação
 
-Diagram of a computation tree for a non-deterministic Turing machine. The root node is C0. It branches into C1 and C2. C1 branches into C3 (labeled 'rej') and C4 (labeled 'acc'). C2 branches into C5 and C6 (labeled 'rej'). C5 has a vertical ellipsis below it. The background features a faint watermark of the University of Coimbra crest.
+```
+graph TD; C0((C0)) --- C1((C1)); C0 --- C2((C2)); C1 --- C3((C3)); C1 --- C4((C4)); C2 --- C5((C5)); C2 --- C6((C6)); C5 --- dots[$\vdots$];
+```
+
+Diagram of a computation tree for a Non-deterministic Turing Machine. The root node is C0. It branches to C1 (left) and C2 (right). C1 branches to C3 (left, labeled 'rej') and C4 (right, labeled 'acc'). C2 branches to C5 (left) and C6 (right, labeled 'rej'). C5 has a vertical ellipsis below it, indicating further branching. Nodes C3, C4, and C6 are highlighted with colored circles: C3 and C6 are red, and C4 is green.
 
 - Cada nó = configuração
 - Ramificações = escolhas não-determinísticas
-- Aceita se algum caminho leva a  $q_{acc}$
-- Rejeita se todos os caminhos levam a  $q_{rej}$  ou loop
+- **Aceita** se algum caminho leva a  $q_{acc}$
+- **Rejeita** se todos os caminhos levam a  $q_{rej}$  ou loop
 
 {10}------------------------------------------------
 
-<!-- IMAGE_DESCRIPTION: datalab-d3294dc879b451b369c0b06f42e9b39f_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Faint background watermark of the PUCRS seal
-<!-- /IMAGE_DESCRIPTION -->
-
 <!-- IMAGE_DESCRIPTION: datalab-053f1077d592e6622cd21dc4bb4cb366_img.jpg -->
 <!-- Tipo: generico -->
-> **[Descrição de imagem]** Diagram of a computation tree for a non-deterministic Turing machine.
+> **[Descrição de imagem]** Diagram of a computation tree for a Non-deterministic Turing Machine.
 <!-- /IMAGE_DESCRIPTION -->
-#### Exemplo de MTN
-#### Verificar se $n$ é não-primo
+### Exemplo de MTN
+#### Verificar se $n$ é não-primó
 
 Entrada:  $n$  em unário ( $1^n$ )
 
@@ -274,16 +259,16 @@ MTN “adivinha” fatores  $p, q > 1$  e verifica se  $p \times q = n$ .
 - 3 Compute  $p \times q$  (deterministicamente)
 - 4 Se  $p \times q = n$ , aceite
 - 5 Caso contrário, rejeite
-#### Observação
+### Observação
 
 Se  $n$  é composto, existe escolha de  $p, q$  que aceita. Se  $n$  é primo, nenhuma escolha aceita.
 
 {11}------------------------------------------------
-### Equivalência: MTN $\equiv$ MTD
+### Equivalência: $MTN \equiv MTD$
 ### Teorema
 
 Para toda MTN  $N$ , existe uma MT determinística  $D$  tal que  $L(N) = L(D)$ .
-#### Idea da Prova
+### Ideia da Prova
 
 $D$  simula todas as possíveis computações de  $N$  usando **busca em largura** (BFS) na árvore de computação.
 
@@ -297,7 +282,7 @@ DFS poderia seguir um ramo infinito e nunca explorar um ramo que aceita.
 
 {12}------------------------------------------------
 ### Custo da Simulação
-#### Teorema
+### Teorema
 
 Se MTN  $N$  aceita em tempo  $t(n)$ , então a MTD equivalente aceita em tempo  $2^{O(t(n))}$ .
 ### Análise
@@ -322,14 +307,14 @@ Linguagens decidíveis por MTD em tempo polinomial.
 - Verificação de certificados/gabaritos (certificate/witness) ocorre em tempo polinomial.
 ### Questão P vs NP
 
-$P = NP$ ?
+$P = NP?$
 
 - Sabemos que  $P \subseteq NP$
 - A simulação de MTN por MTD é exponencial **até então**, isto é, não sabemos se existe simulação polinomial
 - É um **problema em aberto** (e famoso) na Ciência da Computação!
 
 {14}------------------------------------------------
-### MT com Fita Duplamente Infinita
+## MT com Fita Duplamente Infinita
 ### Modelo Padrão
 
 Fita infinita apenas à direita; há uma extremidade esquerda.
@@ -351,13 +336,22 @@ Fita infinita em **ambas** as direções. Não há extremidade esquerda.
 
 A fita é uma grade bidimensional infinita (ou um plano cartesiano discreto). Cabeçote pode mover:  $\uparrow$ ,  $\downarrow$ ,  $\leftarrow$ ,  $\rightarrow$ , ou  $\times$  (ficar parado).
 
-Diagrama de uma máquina de Turing com fita bidimensional. Uma seta rotulada "cabeçote" aponta para a célula contendo "b" em uma grade de 4x6. As células adjacentes "a" (à esquerda), "b" (abaixo) e "c" (abaixo de b) estão destacadas em azul.
+cabeçote
 
-Diagrama de uma máquina de Turing com fita bidimensional. Uma seta rotulada 'cabeçote' aponta para a célula contendo 'b' em uma grade de 4x6. As células adjacentes 'a' (à esquerda), 'b' (abaixo) e 'c' (abaixo de b) estão destacadas em azul.
+A 6x4 grid representing a 2D tape. The head is positioned above the second row, fourth column cell, which contains the letter 'b'. The cell to its left (second row, third column) contains the letter 'a', and the cell directly below it (third row, fourth column) contains the letter 'c'. An arrow points from the word 'cabeçote' to the head's position.
+
+|  |  |   |   |  |  |
+|--|--|---|---|--|--|
+|  |  |   |   |  |  |
+|  |  | a | b |  |  |
+|  |  |   | c |  |  |
+|  |  |   |   |  |  |
+
+Diagram of a 2D tape grid with a head pointing to a cell containing 'b'.
 
 <!-- IMAGE_DESCRIPTION: datalab-b90144cfbb81a2d610d920240fda689d_img.jpg -->
 <!-- Tipo: generico -->
-> **[Descrição de imagem]** Diagrama de uma máquina de Turing com fita bidimensional.
+> **[Descrição de imagem]** Diagram of a 2D tape grid with a head pointing to a cell containing 'b'.
 <!-- /IMAGE_DESCRIPTION -->
 #### Equivalência
 
@@ -406,14 +400,14 @@ Qual o número mínimo de estados para universalidade?
 - Minsky (1967): MT universal com 7 estados e 4 símbolos
 - Rogozhin (1996): várias combinações pequenas
 - Neary & Woods (2009): 2 estados e 18 símbolos
-### Trade-off
+#### Trade-off
 
 Menos estados  $\Rightarrow$  mais símbolos necessários (e vice-versa).  
 O produto (estados  $\times$  símbolos) tem limite inferior.
 
 {19}------------------------------------------------
 ### MT Probabilística
-#### Descrição
+### Descrição
 
 Em vez de não-determinismo, as escolhas são feitas com **probabilidades**.
 
@@ -448,7 +442,7 @@ Linguagens decidíveis por MT quântica em tempo polinomial com erro limitado.
 
 {21}------------------------------------------------
 ## Resumo: Equivalências
-### Variações Equivalentes à MT Padrão
+## Variações Equivalentes à MT Padrão
 
 - MT com  $k$  fitas
 - MT não-determinística
@@ -473,20 +467,18 @@ Todas estas variações reconhecem a mesma classe de linguagens (r.e.) e decidem
   - Compare com uma solução de 1 fita para palíndromos. Qual a diferença de complexidade?
 - 3 Mostre que  $k + 1$  fitas não são mais poderosas que  $k$  fitas (para  $k \geq 1$ ).
 
-The image is a watermark of the University of Coimbra seal. It features a central shield with a cross and a star, flanked by two figures. Below the shield is a ribbon with the Latin motto "AD VERVM DVOCIT". The entire seal is rendered in a light gray, semi-transparent style.
-
-Watermark of the University of Coimbra seal, featuring a shield with a cross and the motto 'AD VERVM DVOCIT'.
+Faint watermark of the University of São Paulo (USP) coat of arms, featuring a shield with a star and the motto 'AD VERVM DVCT'.
 
 {23}------------------------------------------------
 
 <!-- IMAGE_DESCRIPTION: datalab-0ab720844e454afef91e5d68f4ab8ad9_img.jpg -->
 <!-- Tipo: generico -->
-> **[Descrição de imagem]** Watermark of the University of Coimbra seal, featuring a shield with a cross and the motto 'AD VERVM DVOCIT'.
+> **[Descrição de imagem]** Faint watermark of the University of São Paulo (USP) coat of arms, featuring a shield with a star and the motto 'AD VERVM DVCT'.
 <!-- /IMAGE_DESCRIPTION -->
 
-<!-- IMAGE_DESCRIPTION: datalab-66e8a5ee8999de53e962b143d5cf86ad_img.jpg -->
+<!-- IMAGE_DESCRIPTION: datalab-b82dcf86cd51c5066a9abaa9c8f6c0f9_img.jpg -->
 <!-- Tipo: generico -->
-> **[Descrição de imagem]** Watermark of the University of Coimbra seal, featuring a shield with a cross and the motto 'AD VERVM DVOCIT'.
+> **[Descrição de imagem]** Faint watermark of the University of São Paulo (USP) coat of arms, featuring a shield with a star and the motto 'AD VERVM DVCT'.
 <!-- /IMAGE_DESCRIPTION -->
 ### Exercício 2: Simulação de Multifita
 
@@ -494,43 +486,42 @@ Watermark of the University of Coimbra seal, featuring a shield with a cross and
   - Como o conteúdo das 2 fitas é representado
   - Como os cabeçotes são simulados
   - Como uma transição é simulada
+
 - 2 Se a MT de 2 fitas usa no máximo  $s(n)$  células em cada fita, quanto espaço a MT de 1 fita usa?
+
 - 3 Se a MT de 2 fitas faz  $t(n)$  passos, quantos passos a MT de 1 fita faz?
 
-The image is a watermark of the University of Coimbra's seal. It features a central shield with a cross and a star, flanked by two figures holding a banner that reads "AD VERVM DVICIT". The entire seal is rendered in a light gray, semi-transparent style.
+The image shows a faded watermark of the coat of arms of the University of São Paulo (USP) in the background. It features a central shield with a cross pattern, topped by a crown, and surrounded by decorative elements including keys and a banner with the text 'AD VERVM DVCIT'.
 
-Watermark of the University of Coimbra seal, featuring a shield with a cross and the motto 'AD VERVM DVICIT'.
+Coat of arms of the University of São Paulo (USP)
 
 {24}------------------------------------------------
-
-<!-- IMAGE_DESCRIPTION: datalab-8b7d06054b5d46b891858673c714c794_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Watermark of the University of Coimbra seal, featuring a shield with a cross and the motto 'AD VERVM DVICIT'.
-<!-- /IMAGE_DESCRIPTION -->
 ### Exercício 3: Não-Determinismo
 
-- 1 Projete uma MTN para reconhecer  $L = \{w\#w : w \in \{a,b\}^*\}$ . Onde o não-determinismo ajuda?
+- 1 Projete uma MTN para reconhecer  $L = \{w\#w : w \in \{a, b\}^*\}$ . Onde o não-determinismo ajuda?
 - 2 Projete uma MTN que, dada uma fórmula booleana em CNF, aceita se ela é satisfatível.
 - 3 Explique por que a busca em largura (BFS) é necessária na simulação de MTN por MTD, e por que busca em profundidade (DFS) não funciona.
 - 4 Se uma MTN tem no máximo 3 escolhas por configuração e aceita em 10 passos, quantos caminhos a MTD simuladora pode precisar explorar?
 
+Faint watermark of the University of Coimbra coat of arms in the background.
+
 {25}------------------------------------------------
+
+<!-- IMAGE_DESCRIPTION: datalab-f770ac8927cbf6aa997de6e0307c9783_img.jpg -->
+<!-- Tipo: generico -->
+> **[Descrição de imagem]** Faint watermark of the University of Coimbra coat of arms in the background.
+<!-- /IMAGE_DESCRIPTION -->
 ### Exercício 4: Equivalências
 
-- 1 Mostre como simular uma MT com fita duplamente infinita usando uma MT com fita infinita apenas à direita.
-- 2 Mostre como simular uma MT com fita bidimensional usando uma MT com fita unidimensional. Descreva a função que mapeia coordenadas  $(x, y)$  para posições na fita linear.
-- 3 Prove que uma MT com 2 cabeçotes em uma fita é equivalente a uma MT padrão.
+- 1** Mostre como simular uma MT com fita duplamente infinita usando uma MT com fita infinita apenas à direita.
+- 2** Mostre como simular uma MT com fita bidimensional usando uma MT com fita unidimensional. Descreva a função que mapeia coordenadas  $(x, y)$  para posições na fita linear.
+- 3** Prove que uma MT com 2 cabeçotes em uma fita é equivalente a uma MT padrão.
 
-The image is a watermark of the University of Coimbra seal. It features a shield with a star in the center, surrounded by four quadrants containing various heraldic symbols. Above the shield is a crown, and below it is a ribbon with the Latin motto "AD VERVM DVCT". The entire seal is rendered in a light gray, semi-transparent style.
+The image shows the coat of arms of the University of São Paulo (USP). It features a central shield with a white field containing a grid of green crosses. Above the shield is a crown. On either side of the shield are two supporters: a lion on the left and a bear on the right. Below the shield is a blue ribbon with the Latin motto 'AD VERVM DVCT' in white capital letters.
 
-Watermark of the University of Coimbra seal, featuring a shield with a star and the motto 'AD VERVM DVCT'.
+Coat of arms of the University of São Paulo (USP)
 
 {26}------------------------------------------------
-
-<!-- IMAGE_DESCRIPTION: datalab-513b2f88e0edcd2ffb6b7cf54f465d06_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Watermark of the University of Coimbra seal, featuring a shield with a star and the motto 'AD VERVM DVCT'.
-<!-- /IMAGE_DESCRIPTION -->
 ### Exercício 5: Alfabeto Mínimo
 
 - 1 Mostre como codificar o alfabeto  $\{a, b, c, d, \sqcup\}$  usando apenas  $\{0, 1, \sqcup\}$ .
@@ -538,9 +529,9 @@ Watermark of the University of Coimbra seal, featuring a shield with a star and 
 - 3 Descreva como uma transição da MT original é simulada pela MT com alfabeto binário.
 - 4 Qual o aumento no tempo de execução quando usamos a codificação binária?
 
-The image is a watermark of the University of Coimbra seal. It features a shield with a cross and a star, flanked by two figures. Below the shield is a ribbon with the Latin motto "AD VERVM DVOCIT".
+The image shows the coat of arms of the University of São Paulo (USP). It features a shield with a white background and a large blue star in the center. The shield is flanked by two blue lions. Above the shield is a blue crown. A blue banner at the bottom of the shield contains the Latin motto "AD VERVM DVCT".
 
-Watermark of the University of Coimbra seal, featuring a shield with a cross and the motto 'AD VERVM DVOCIT'.
+Coat of arms of the University of São Paulo (USP)
 
 {27}------------------------------------------------
 ### Desafio: MT com Oráculo
@@ -560,20 +551,15 @@ Uma **MT com oráculo** para uma linguagem  $A$  é uma MT que pode, em um passo
 - [3] Christos H. Papadimitriou. *Computational Complexity*. Addison-Wesley, 1994.
 - [4] Michael Sipser. *Introduction to the Theory of Computation*. 3rd. Cengage Learning, 2012.
 
-Faint watermark of the University of Cambridge crest, featuring a shield with four lions and a central book, surrounded by the Latin motto 'AD VERVM DVOCIT'.
-
-<!-- IMAGE_DESCRIPTION: datalab-b82dcf86cd51c5066a9abaa9c8f6c0f9_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Faint watermark of the University of Cambridge crest, featuring a shield with four lions and a central book, surrounded by the Latin motto 'AD VERVM DVOCIT'.
-<!-- /IMAGE_DESCRIPTION -->
+Faint watermark of the University of São Paulo (USP) coat of arms, featuring a shield with a star and the motto 'AD VERVM DVCT'.
 
 <!-- IMAGE_DESCRIPTION_ORPHANS -->
 ## Imagens Curadas
 
 Descrições preservadas para imagens detectadas no documento, mas sem referência markdown compatível no corpo principal.
 
-<!-- IMAGE_DESCRIPTION: datalab-1d7527f4316cfe2d342b08d1653d1592_img.jpg -->
+<!-- IMAGE_DESCRIPTION: datalab-d3294dc879b451b369c0b06f42e9b39f_img.jpg -->
 <!-- Tipo: generico -->
-> **[Descrição de imagem]** Logo of PUCRS Escola Politécnica
+> **[Descrição de imagem]** Logo of PUCRS (Pontifícia Universidade Católica do Rio Grande do Sul)
 <!-- /IMAGE_DESCRIPTION -->
 <!-- /IMAGE_DESCRIPTION_ORPHANS -->

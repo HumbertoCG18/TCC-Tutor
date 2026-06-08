@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "subject_slug": "TCC-Tutor",
+  "generated_at": "2026-06-06T06:01:10.809323",
+  "learned_corrections": [
+    {
+      "entry_id": "aula-01-apresentacao-da-disciplina-revisao-de-teoria-de-conjuntos-e-enumerabilidade",
+      "corrected_unit_slug": "unidade-01-conjuntos-enumeraveis-e-funcoes-recursivas",
+      "corrected_subunit_slug": "12-argumento-diagonal-de-cantor-e-conjuntos-incontaveis-13-funcoes-recursivas-primitivas-e-funcoes-recursivas-parciais",
+      "learned_terms": [
+        "apresenta",
+        "apresentacao",
+        "bloco-16",
+        "conjuntos",
+        "disciplina",
+        "enumerabilidade",
+        "material-base",
+        "revis",
+        "revisao",
+        "teoria",
+        "unidade-02-turing-computabilidade"
+      ],
+      "created_at": "2026-06-06T06:01:21.235295"
+    }
+  ]
+}

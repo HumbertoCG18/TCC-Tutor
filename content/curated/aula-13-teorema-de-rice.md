@@ -2,12 +2,11 @@
 ## Sumário
 > *Leia antes de varrer o arquivo. Vá direto à seção relevante para a pergunta do aluno.*
 
-- **Sumário**
 - **Motivação**
 - **Problemas sobre Linguagens de MTs**
   - Pergunta
 - **Teorema de Rice**
-  - Propriedades de Linguagens
+- **Propriedades de Linguagens**
   - Definição
   - Exemplos de Propriedades
   - Trivialidade
@@ -51,41 +50,25 @@ Prof. Anderson Roberto Pinheiro Domingues
 
 [anderson.domingues@pucrs.br](mailto:anderson.domingues@pucrs.br)
 
-Aula 13  
+Aula 13
+
 Teoria da Computabilidade e Complexidade  
 Ciência da Computação
 
 22 de abril de 2026
 
-The logo of the PUCRS Escola Politécnica. It features a small crest on the left with the text "PUCRS" below it. To the right of the crest, the words "ESCOLA" and "POLITÉCNICA" are stacked vertically in a bold, blue, sans-serif font.
+Logo of PUCRS (Universidade Federal do Rio Grande do Sul)
 
-Logo of PUCRS Escola Politécnica
+ESCOLA  
+POLITÉCNICA
 
 {1}------------------------------------------------
 
-<!-- IMAGE_DESCRIPTION: datalab-1d7527f4316cfe2d342b08d1653d1592_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Logo of PUCRS Escola Politécnica
-<!-- /IMAGE_DESCRIPTION -->
-## Sumário
-
-**1** Teorema de Rice
-
-**2** Aplicações do Teorema de Rice
-
-**3** Prova do Teorema de Rice
-
-**4** Exercícios
-
-A faint, grayscale watermark of the coat of arms of the University of Coimbra is visible on the right side of the slide. The shield features a central star and is flanked by two smaller shields with cross-like symbols. The motto 'AD VERVM DVICIT' is inscribed on a banner at the bottom. The entire emblem is rendered in a light gray color, serving as a background element.
-
-Faint watermark of the coat of arms of the University of Coimbra, featuring a shield with a star and the motto 'AD VERVM DVICIT'.
-
 {2}------------------------------------------------
 
-<!-- IMAGE_DESCRIPTION: datalab-1211e36d120f0d2912a745437f4c8f19_img.jpg -->
+<!-- IMAGE_DESCRIPTION: datalab-d3294dc879b451b369c0b06f42e9b39f_img.jpg -->
 <!-- Tipo: generico -->
-> **[Descrição de imagem]** Faint watermark of the coat of arms of the University of Coimbra, featuring a shield with a star and the motto 'AD VERVM DVICIT'.
+> **[Descrição de imagem]** Logo of PUCRS (Universidade Federal do Rio Grande do Sul)
 <!-- /IMAGE_DESCRIPTION -->
 ## Motivação
 ## Problemas sobre Linguagens de MTs
@@ -103,7 +86,7 @@ Existe alguma propriedade **não-trivial** de linguagens de MTs que seja decidí
 O **Teorema de Rice** generaliza todos estes resultados de indecidibilidade.
 
 {3}------------------------------------------------
-### Propriedades de Linguagens
+## Propriedades de Linguagens
 ### Definição
 
 Uma **propriedade de linguagens**  $P$  é um conjunto de linguagens Turing-reconhecíveis.
@@ -178,8 +161,8 @@ O Teorema de Rice se aplica a propriedades da **linguagem**  $L(M)$ , não a pro
 Rice trata de perguntas **semânticas**, porque dependem apenas de  $L(M)$ . Perguntas meramente **sintáticas** sobre a descrição de  $M$  ficam fora do alcance do teorema e podem ser decidíveis.
 ### Exemplos
 
-- **Sintática:** “ $M$  usa o símbolo  $a$ ?”
-- **Semântica:** “ $L(M)$  contém alguma palavra com  $a$ ?”
+- **Sintática**: “ $M$  usa o símbolo  $a$ ?”
+- **Semântica**: “ $L(M)$  contém alguma palavra com  $a$ ?”
 
 {8}------------------------------------------------
 ## Interpretação do Teorema
@@ -206,7 +189,7 @@ Não pode existir uma ferramenta que, para **qualquer** programa arbitrário, re
 #### Exemplos:
 
 - **Compiladores** não conseguem detectar todo código morto.
-- **Analizadores estáticos** não conseguem classificar com precisão total todos os defeitos.
+- **Analisadores estáticos** não conseguem classificar com precisão total todos os defeitos.
 - **Antivírus** não conseguem reconhecer todo comportamento malicioso possível.
 
 {10}------------------------------------------------
@@ -264,7 +247,7 @@ Na entrada arbitrária  $x$ , a máquina  $N_{M,w}$  faz o seguinte:
 - 4 se  $M(w)$  **nunca parar**, então  $N_{M,w}$  nunca chega ao passo 3.
 #### Ponto central
 
-O comportamento semântico de  $N_{M,w}$  depende inteiramente de um fato externo:  **$M$  para ou não para em  $w$ ?**
+O comportamento semântico de  $N_{M,w}$  depende inteiramente de um fato externo:  $M$  **para ou não para em  $w$ ?**
 
 {14}------------------------------------------------
 #### Possíveis retornos de $N_{M,w}$
@@ -297,7 +280,7 @@ Se  $D_P$  existisse, bastaria construir  $\langle N_{M,w} \rangle$  e executar 
 
 Conclusão
 
-Isso decidiria o problema  $HALT$ , o que é impossível. Portanto, o decisor  $D_P$  não pode existir. Logo,  $L_P$  é **indecidível**.
+Isso decidiria o problema  $HALT$ , o que é impossível. Portanto, o decisor  $D_P$  não pode existir. Logo,  $L_P$  é **indecidível**. $\square$
 
 {16}------------------------------------------------
 ### Exercício 1: Propriedades Não-Triviais
@@ -311,16 +294,7 @@ Use o Teorema de Rice para provar que os seguintes problemas são indecidíveis:
 
 Para cada item, identifique qual é a propriedade  $P$  e mostre que é não-trivial.
 
-The image is a watermark of the coat of arms of the University of Coimbra. It features a shield with a cross and a central emblem, flanked by two figures. Below the shield is a ribbon with the Latin motto "AD VERVM DVOCIT".
-
-Watermark of the University of Coimbra coat of arms, featuring a shield with a cross and the motto 'AD VERVM DVOCIT'.
-
 {17}------------------------------------------------
-
-<!-- IMAGE_DESCRIPTION: datalab-bcc4b9d57d1d23e256f09d0a0a81be73_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Watermark of the University of Coimbra coat of arms, featuring a shield with a cross and the motto 'AD VERVM DVOCIT'.
-<!-- /IMAGE_DESCRIPTION -->
 ### Exercício 2: Aplicações Teóricas do Teorema de Rice
 
 Explique por que o Teorema de Rice **não** pode ser usado diretamente para os seguintes problemas:
@@ -332,16 +306,7 @@ Explique por que o Teorema de Rice **não** pode ser usado diretamente para os s
 
 Para cada item, determine se o problema é decidível ou não, e justifique.
 
-The image is a watermark of the University of Coimbra seal. It features a shield with a crown on top, supported by two figures. The shield is divided into sections containing various heraldic symbols, including a star and a cross. Below the shield is a ribbon with the Latin motto 'AD VERVM DVOCIT' (To the truth it calls).
-
-Watermark of the University of Coimbra seal, featuring a shield with a crown and the motto 'AD VERVM DVOCIT'.
-
 {18}------------------------------------------------
-
-<!-- IMAGE_DESCRIPTION: datalab-601cbf7e7b6a7dd9a260c57031279e13_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Watermark of the University of Coimbra seal, featuring a shield with a crown and the motto 'AD VERVM DVOCIT'.
-<!-- /IMAGE_DESCRIPTION -->
 ### Exercício 3: Aplicações Práticas do Teorema de Rice
 
 - 1 Um colega propõe criar um “verificador universal de bugs” que analisa qualquer programa e garante que está livre de erros. Use o Teorema de Rice para explicar por que isso é impossível.

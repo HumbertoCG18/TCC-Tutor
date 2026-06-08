@@ -7,12 +7,8 @@
 - **Teoria de Autômatos e Linguagens Formais**
   - Contexto
 - **Alfabeto**
+  - Cadeia (String)
   - Definição
-  - Exemplos
-- **Cadeia (String)**
-  - Definição
-  - Notações
-  - Exemplos com $\Sigma = \{0, 1\}$
   - Operações com Cadeias
   - Subcadeia (substring)
   - O Conjunto $\Sigma^*$
@@ -24,16 +20,14 @@
   - Classes de Linguagens
   - Hierarquia
   - Problemas de Decisão como Linguagens
-  - Idea Fundamental
+  - Ideia Fundamental
   - Decidibilidade
   - Autômato Finito Determinístico (DFA)
-  - Autômato Finito Não-Determinístico (NDFA)
+  - Autômato Finito Não-Determinístico (NFA)
 - **Linguagens Regulares**
-  - Definição
   - Caracterizações Equivalentes
   - Fechamento
 - **Lema do Bombeamento para Linguagens Regulares**
-  - Lema (Pumping Lemma)
   - Autômatos de Pilha (PDA)
   - Conclusão
 - **Gramáticas Formais**
@@ -45,16 +39,12 @@
   - Inclusões
   - Correspondência com Autômatos
   - Exemplos de Linguagens em Cada Nível
-- **Lema do Bombeamento para LLCs**
-  - Enunciado
-  - Intuição
-  - Comparando os Dois Lemmas do Bombeamento
+  - Lema do Bombeamento para LLCs
   - Conclusão
 - **Linguagens Decidíveis vs. Reconhecíveis**
   - Definições
   - Relação
   - Teorema
-  - Exemplo
 - **Resumo: Poderes Computacionais**
   - Exercício 1: Operações com Cadeias
   - Exercício 2: Operações com Linguagens
@@ -72,38 +62,94 @@
 <!-- EXEC_SUMMARY_END -->
 {0}------------------------------------------------
 
-# Revisão: Alfabeto, Cadeia, Linguagem, Hierarquia de Chomsky, Lemmas e Propriedades de Autômatos
+# Revisão: Alfabeto, Cadeia, Linguagem, Hierarquia de Chomsky, Lemas e Propriedades de Autômatos
 
 Prof. Anderson Roberto Pinheiro Domingues
 
 [anderson.domingues@pucrs.br](mailto:anderson.domingues@pucrs.br)
 
-Aula 06  
+Aula 06
+
 Teoria da Computabilidade e Complexidade  
 Ciência da Computação
 
 22 de março de 2026
 
-A faint, large-scale watermark of the PUCRS seal is visible in the background on the right side of the slide. The seal features a shield with a star and the motto 'AD VERVM DVOCIT'.
+The logo of PUCRS, featuring a shield with a cross and a star, and the text 'PUCRS' below it.
 
-Faint background watermark of the PUCRS seal, featuring a shield with a star and the motto 'AD VERVM DVOCIT'.
+Logo of PUCRS (Pontifícia Universidade Católica do Rio Grande do Sul)
+
+ESCOLA  
+POLITÉCNICA
 
 {1}------------------------------------------------
 ## Sumário
 
-- 1** Alfabetos e Cadeias
-- 2** Linguagens
-- 3** Autômatos Finitos
-- 4** Hierarquia de Chomsky
-- 5** Exercícios
+- 1 Alfabetos e Cadeias
+- 2 Linguagens
+- 3 Autômatos Finitos
+- 4 Hierarquia de Chomsky
+- 5 Exercícios
 
-A faint, stylized watermark of the coat of arms of the University of Coimbra. It features a shield with a central crest and two side sections containing pine-like trees. Above the shield is a crown and two crossed keys. A ribbon at the bottom bears the Latin motto 'AD VERVM DVICIT'.
+The image is a large, light gray watermark of the coat of arms of the University of São Paulo (USP). It features a shield with a central vertical band containing a stylized 'M' and a star. The shield is flanked by two crossed keys (the keys of St. Peter) and topped by a crown. A banner at the bottom of the shield contains the Latin motto 'AD VERVM DVCT'.
+
+Coat of arms of the University of São Paulo (USP)
 
 {2}------------------------------------------------
 
 <!-- IMAGE_DESCRIPTION: datalab-b6cb8677b4ffb35c6468fa5c24091bff_img.jpg -->
 <!-- Tipo: generico -->
-> **[Descrição de imagem]** A faint, stylized watermark of the coat of arms of the University of Coimbra.
+> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
+<!-- /IMAGE_DESCRIPTION -->
+
+<!-- IMAGE_DESCRIPTION: datalab-63ae75eedbc0eeea2efd2ee19c2fbc7d_img.jpg -->
+<!-- Tipo: generico -->
+> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
+<!-- /IMAGE_DESCRIPTION -->
+
+<!-- IMAGE_DESCRIPTION: datalab-7898f899fb291b02fbb353e0337c5514_img.jpg -->
+<!-- Tipo: generico -->
+> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
+<!-- /IMAGE_DESCRIPTION -->
+
+<!-- IMAGE_DESCRIPTION: datalab-911a4f4b97be8e1dcf81e58b080dc0e2_img.jpg -->
+<!-- Tipo: generico -->
+> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
+<!-- /IMAGE_DESCRIPTION -->
+
+<!-- IMAGE_DESCRIPTION: datalab-9cc5ec27db4e35a26008bce9b9cd0bc8_img.jpg -->
+<!-- Tipo: generico -->
+> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
+<!-- /IMAGE_DESCRIPTION -->
+
+<!-- IMAGE_DESCRIPTION: datalab-9b77845519ed6ce33bab327fe59ace1c_img.jpg -->
+<!-- Tipo: generico -->
+> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
+<!-- /IMAGE_DESCRIPTION -->
+
+<!-- IMAGE_DESCRIPTION: datalab-9911cc821dddfed7079ce56cbb907c9e_img.jpg -->
+<!-- Tipo: generico -->
+> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
+<!-- /IMAGE_DESCRIPTION -->
+
+<!-- IMAGE_DESCRIPTION: datalab-9642ee15d719705144037077981aaa99_img.jpg -->
+<!-- Tipo: generico -->
+> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
+<!-- /IMAGE_DESCRIPTION -->
+
+<!-- IMAGE_DESCRIPTION: datalab-4ca62688976b4bef770a81683f9d9eef_img.jpg -->
+<!-- Tipo: generico -->
+> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
+<!-- /IMAGE_DESCRIPTION -->
+
+<!-- IMAGE_DESCRIPTION: datalab-f254a67565344d514e13763a4e556a70_img.jpg -->
+<!-- Tipo: generico -->
+> **[Descrição de imagem]** Coat of arms of the Pontifical Catholic University of São Paulo (PUC-SP)
+<!-- /IMAGE_DESCRIPTION -->
+
+<!-- IMAGE_DESCRIPTION: datalab-966c4b9785d85823782a007f3ecec1a7_img.jpg -->
+<!-- Tipo: generico -->
+> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
 <!-- /IMAGE_DESCRIPTION -->
 ## Motivação
 ## Teoria de Autômatos e Linguagens Formais
@@ -119,29 +165,29 @@ Máquinas de Turing operam sobre **cadeias** de símbolos e são uma “continua
 
 {3}------------------------------------------------
 ## Alfabeto
-### Definição
+#### Definição
 
 Um **alfabeto**  $\Sigma$  é um conjunto finito não-vazio de símbolos.
-### Exemplos
+#### Exemplos
 
 - $\Sigma_0 = \{0, 1\}$ , alfabeto binário
 - $\Sigma_1 = \{a, b, c, \dots, z\}$ , alfabeto das letras minúsculas
 - $\Sigma_2 = \{0, 1, 2, \dots, 9\}$ , alfabeto dos dígitos decimais
-- $\Sigma_3 = \{a, b, \dots, z, 0, \dots, 9, \_\}$ , alfabeto dos identificadores
+- $\Sigma_3 = \{a, b, \dots, z, 0, \dots, 9, _\}$ , alfabeto dos identificadores
 - $\Sigma_4 = \{+, -, \times, \div, =\}$ , alfabeto dos símbolos matemáticos
 
 {4}------------------------------------------------
-## Cadeia (String)
+### Cadeia (String)
 ### Definição
 
 Uma **cadeia** (ou string, palavra) sobre  $\Sigma$  é uma sequência finita de símbolos de  $\Sigma$ .
-### Notações
+#### Notações
 
 - $w = a_1 a_2 \cdots a_n$  onde cada  $a_i \in \Sigma$
 - $|w| = n$  é o **comprimento** de  $w$
 - $\varepsilon$  é a **cadeia vazia** ( $|\varepsilon| = 0$ )
 - $w[i]$  ou  $w_i$  denota o  $i$ -ésimo símbolo de  $w$
-### Exemplos com $\Sigma = \{0, 1\}$
+#### Exemplos com $\Sigma = \{0, 1\}$
 
 - $w = 0110$  tem comprimento  $|w| = 4$
 - $w = 0$ ;  $|w| = 1$
@@ -226,7 +272,7 @@ Podemos ordenar  $\Sigma^*$  de forma única:
 
 Para  $\Sigma = \{0, 1\}$  com  $0 < 1$ :
 
-$$\varepsilon, 0, 1, 00, 01, 10, 11, 000, 001, \dots$$
+$\varepsilon, 0, 1, 00, 01, 10, 11, 000, 001, \dots$
 #### Importância
 
 A ordem canônica permite **enumerar** todas as cadeias, o que é essencial para argumentos de diagonalização.
@@ -307,18 +353,31 @@ O conjunto de todas as linguagens sobre  $\Sigma$  é **incontável**.
 
 Linguagens são classificadas pela “complexidade” de reconhecê-las:
 
-Diagrama de hierarquia de linguagens representado por cinco círculos concêntricos. Os círculos são aninhados, com o menor no centro e o maior na base. Os rótulos, de cima para baixo (do maior para o menor conjunto), são: Todas as Linguagens, Recursivamente Enumeráveis, Recursivas (Decidíveis), Livres de Contexto e Regulares.
+O diagrama ilustra a hierarquia das linguagens de Chomsky através de cinco elipses concêntricas. Cada elipse representa uma classe de linguagens, com o nome da classe inscrito dentro dela. As classes são:
 
-Diagrama de hierarquia de linguagens
+- Todas as Linguagens (a elipse mais externa)
+- Rekursivamente Enumeráveis
+- Rekursivas (Decidíveis)
+- Livres de Contexto
+- Regulares (a elipse mais interna)
+
+A disposição das elipses indica que cada classe é um subconjunto próprio da classe imediatamente superior, mostrando a relação de inclusão entre os tipos de linguagens.
+
+Diagrama da hierarquia das linguagens de Chomsky, mostrando cinco níveis concêntricos de complexidade crescente.
 
 {14}------------------------------------------------
 
 <!-- IMAGE_DESCRIPTION: datalab-c036e2540a94b31357ceb0002f0cacab_img.jpg -->
 <!-- Tipo: generico -->
-> **[Descrição de imagem]** Diagrama de hierarquia de linguagens
+> **[Descrição de imagem]** Diagrama da hierarquia das linguagens de Chomsky, mostrando cinco níveis concêntricos de ovals: Regulares (no centro), Livres de Contexto, Recursivas (Decidíveis), Recursivamente Enumeráveis, e Todas as Linguagens (no...
+<!-- /IMAGE_DESCRIPTION -->
+
+<!-- IMAGE_DESCRIPTION: datalab-875c6f4f441fdd3ca7e1908fd1582983_img.jpg -->
+<!-- Tipo: generico -->
+> **[Descrição de imagem]** Diagrama da Hierarquia de Chomsky mostrando a inclusão entre classes de linguagens.
 <!-- /IMAGE_DESCRIPTION -->
 ### Problemas de Decisão como Linguagens
-### Idea Fundamental
+### Ideia Fundamental
 
 Todo problema de decisão pode ser formulado como uma linguagem:
 
@@ -359,12 +418,18 @@ Linguagem: cadeias que terminam em 01
 $$L = \{w \in \{0, 1\}^* : w \text{ termina em } 01\}$$
 
 ```
-graph LR; q0((q0)) -- 1 --> q0; q0 -- 0 --> q1((q1)); q1 -- 0 --> q1; q1 -- 1 --> q2(((q2))); q2 -- 1 --> q0; q2 -- 0 --> q1;
+graph LR
+    q0((q0)) -- 0 --> q1((q1))
+    q0 -- 1 --> q0
+    q1 -- 0 --> q1
+    q1 -- 1 --> q2(((q2)))
+    q2 -- 0 --> q1
+    q2 -- 1 --> q0
 ```
 
-Diagrama de um DFA com três estados: q0, q1 e q2. q0 é o estado inicial, q2 é o estado final. Transições: q0 para q0 com 1, q0 para q1 com 0, q1 para q1 com 0, q1 para q2 com 1, q2 para q0 com 1, q2 para q1 com 0.
+Diagram of a Deterministic Finite Automaton (DFA) with three states: q0, q1, and q2. q0 is the start state, and q2 is the final state. Transitions: q0 has a self-loop on 1 and goes to q1 on 0. q1 has a self-loop on 0 and goes to q2 on 1. q2 goes to q1 on 0 and back to q0 on 1.
 
-- $Q = \{q_0, q_1, q_2\}$ ,  $\Sigma = \{0, 1\}$
+- $Q = \{q_0, q_1, q_2\}, \Sigma = \{0, 1\}$
 - $q_0$ : estado inicial,  $F = \{q_2\}$
 - $q_1$ : último símbolo foi 0,  $q_2$ : últimos símbolos foram 01
 
@@ -372,12 +437,12 @@ Diagrama de um DFA com três estados: q0, q1 e q2. q0 é o estado inicial, q2 é
 
 <!-- IMAGE_DESCRIPTION: datalab-29f586959675cafdf81cf934954908eb_img.jpg -->
 <!-- Tipo: generico -->
-> **[Descrição de imagem]** Diagrama de um DFA com três estados: q0, q1 e q2.
+> **[Descrição de imagem]** Diagram of a Deterministic Finite Automaton (DFA) for strings ending in 01.
 <!-- /IMAGE_DESCRIPTION -->
-### Autômato Finito Não-Determinístico (NDFA)
+### Autômato Finito Não-Determinístico (NFA)
 #### Definição
 
-Um NDFA é uma 5-tupla  $M = (Q, \Sigma, \delta, q_0, F)$  onde:
+Um NFA é uma 5-tupla  $M = (Q, \Sigma, \delta, q_0, F)$  onde:
 
 - $\delta : Q \times (\Sigma \cup \{\varepsilon\}) \rightarrow \mathcal{P}(Q)$
 
@@ -388,13 +453,13 @@ Diferenças do DFA:
 - Aceita se **algum** caminho leva a um estado final
 #### Teorema
 
-DFAs e NDFAs possuem o **mesmo poder expressivo**:
+DFAs e NFAs possuem o **mesmo poder expressivo**:
 
-$L$  é reconhecida por NDFA  $\iff L$  é reconhecida por DFA
+$L$  é reconhecida por NFA  $\iff L$  é reconhecida por DFA
 
 {18}------------------------------------------------
 ## Linguagens Regulares
-### Definição
+#### Definição
 
 Uma linguagem é **regular** se é reconhecida por algum DFA (equivalentemente, por algum NDFA).
 ### Caracterizações Equivalentes
@@ -414,13 +479,13 @@ Linguagens regulares são fechadas sob:
 
 {19}------------------------------------------------
 ## Lema do Bombeamento para Linguagens Regulares
-### Lema (Pumping Lemma)
+#### Lema (Pumping Lemma)
 
 Se  $L$  é regular, então existe  $p \geq 1$  (comprimento de bombeamento) tal que toda cadeia  $w \in L$  com  $|w| \geq p$  pode ser dividida como  $w = xyz$  onde:
 
 - 1  $|xy| \leq p$
 - 2  $|y| > 0$
-- 3  $xy^i z \in L$  para todo  $i \geq 0$
+- 3  $xy^iz \in L$  para todo  $i \geq 0$
 #### Exemplo de Uso (estrutura de prova)
 
 O lema é usado para provar que linguagens **não** são regulares:
@@ -460,23 +525,23 @@ Um PDA é uma 7-tupla  $M = (Q, \Sigma, \Gamma, \delta, q_0, Z_0, F)$ :
 - $\Gamma$  é alfabeto da pilha
 - $\delta : Q \times (\Sigma \cup \{\varepsilon\}) \times \Gamma \rightarrow \mathcal{P}(Q \times \Gamma^*)$  é a função de transição
 - $Z_0 \in \Gamma$ , símbolo inicial da pilha
-- Outros elementos equivalem aos encontrados em DFA e NDFA
+- Outros elementos equivalem aos encontrados em DFA e N DFA
 #### Expressividade
 
-PDAs reconhecem as **linguagens livres de contexto**. Exemplo:  
+PDA's reconhecem as **linguagens livres de contexto**. Exemplo:  
  $L = \{0^n 1^n : n \geq 0\}$  (não é regular, mas é livre de contexto).
 #### Limitação
 
-PDAs não reconhecem **linguagens sensíveis ao contexto** ou **recursivamente enumeráveis**, e.g.  $\{a^n b^n c^n : n \geq 0\}$ . Para isso, precisamos de Máquinas de Turing!
+PDA's não reconhecem **linguagens sensíveis ao contexto** ou **recursivamente enumeráveis**, e.g.  $\{a^n b^n c^n : n \geq 0\}$ . Para isso, precisamos de Máquinas de Turing!
 
 {22}------------------------------------------------
 #### Exemplo de PDA: $\{0^n 1^n : n \geq 0\}$
 
 ```
-graph LR; q0((q0)) -- "0, Z0/XZ0" --> q0; q0 -- "0, X/XX" --> q0; q0 -- "1, X/$\epsilon$" --> q1((q1)); q1 -- "1, X/$\epsilon$" --> q1; q1 -- "$\epsilon$, Z0/Z0" --> qf(((qf))); style q0 fill:#fff,stroke:#000,stroke-width:2px; style q1 fill:#fff,stroke:#000,stroke-width:2px; style qf fill:#fff,stroke:#000,stroke-width:3px; style q0_text fill:#000,stroke:none; style q1_text fill:#000,stroke:none; style qf_text fill:#000,stroke:none;
+graph LR; q0((q0)) -- "0, Z0/XZ0" --> q0; q0 -- "0, X/XX" --> q0; q0 -- "1, X/$\epsilon$" --> q1((q1)); q1 -- "1, X/$\epsilon$" --> q1; q1 -- "$\epsilon$, Z0/Z0" --> qf(((qf)));
 ```
 
-Diagram of a Pushdown Automaton (PDA) for the language {0^n 1^n : n $\geq$ 0}. The automaton has three states: q0, q1, and qf. q0 is the start state, q1 is the middle state, and qf is the final state (double circle). Transitions: q0 has a self-loop labeled '0, Z0/XZ0' and '0, X/XX'; q0 to q1 is labeled '1, X/$\epsilon$'; q1 has a self-loop labeled '1, X/$\epsilon$'; q1 to qf is labeled '$\epsilon$, Z0/Z0'.
+Diagram of a Pushdown Automaton (PDA) for the language {0^n 1^n : n $\geq$ 0}. The PDA has three states: q0, q1, and qf. q0 is the start state, and qf is the final state. Transitions are: q0 has a self-loop on (0, X/Z0) and (0, X/XX); q0 transitions to q1 on (1, X/$\epsilon$); q1 has a self-loop on (1, X/$\epsilon$); q1 transitions to qf on ($\epsilon$, Z0/Z0).
 
 <!-- IMAGE_DESCRIPTION: datalab-86b4670fc1a5a694821ee92b99c1209a_img.jpg -->
 <!-- Tipo: generico -->
@@ -484,9 +549,9 @@ Diagram of a Pushdown Automaton (PDA) for the language {0^n 1^n : n $\geq$ 0}. T
 <!-- /IMAGE_DESCRIPTION -->
 #### Descrição das transições
 
-- **Em  $q_0$ :** empilha  $X$  para cada símbolo de entrada  $0$
-- **Transição  $q_0 \rightarrow q_1$ :** ao ler o primeiro  $1$ , muda para fase de comparação
-- **Em  $q_1$ :** desempilha um  $X$  para cada símbolo de entrada  $1$
+- **Em  $q_0$ :** empilha  $X$  para cada símbolo de entrada 0
+- **Transição  $q_0 \rightarrow q_1$ :** ao ler o primeiro 1, muda para fase de comparação
+- **Em  $q_1$ :** desempilha um  $X$  para cada símbolo de entrada 1
 - **Transição  $q_1 \rightarrow q_f$ :** aceita quando a pilha está vazia (apenas  $Z_0$  no topo)
 
 {23}------------------------------------------------
@@ -507,7 +572,7 @@ Diagram of a Pushdown Automaton (PDA) for the language {0^n 1^n : n $\geq$ 0}. T
 A pilha guarda quantos 0s foram vistos; a fase de leitura dos 1s confere se a quantidade coincide.
 
 {24}------------------------------------------------
-#### Outro Exemplo de PDA: $L = \{wcw^R : w \in \{a,b\}^*\}$
+#### Outro Exemplo de PDA: $L = \{wcw^R : w \in \{a, b\}^*\}$
 #### Ideia
 
 A letra  $c$  marca o meio da cadeia:
@@ -516,7 +581,8 @@ A letra  $c$  marca o meio da cadeia:
 - depois de  $c$ , o PDA compara a entrada com o topo da pilha
 #### Exemplo de execução
 
-Para a cadeia  $abcba$  com marcador central, isto é,  $abcba = ab c ba$ :
+Para a cadeia  $abcba$  com marcador central, isto é,  
+ $abcba = ab\ c\ ba$ :
 
 - 1 lê  $a, b$  e empilha  $a, b$
 - 2 lê  $c$  e muda para a fase de comparação
@@ -569,7 +635,7 @@ Todas as inclusões são **estritas**.
 | 3    | Regulares                  | Autômato Finito               |
 | 2    | Livres de Contexto         | Autômato com Pilha            |
 | 1    | Sensíveis ao Contexto      | Autômato Linearmente Limitado |
-| 0    | Recursivamente Enumeráveis | Máquina de Turing             |
+| 0    | Rekursivamente Enumeráveis | Máquina de Turing             |
 #### Observação
 
 - Cada nível adiciona “memória”
@@ -612,8 +678,8 @@ Todas as inclusões são **estritas**.
 Nem toda linguagem recursivamente enumerável é decidível. Existem linguagens que podem ser reconhecidas (MT para sim) mas não há MT que sempre para.
 
 {30}------------------------------------------------
-## Lema do Bombeamento para LLCs
-### Enunciado
+### Lema do Bombeamento para LLCs
+#### Enunciado
 
 Se  $L$  é uma linguagem livre de contexto, então existe  $p \geq 1$  tal que toda cadeia  $w \in L$  com  $|w| \geq p$  pode ser escrita como
 
@@ -624,12 +690,12 @@ de modo que:
 - 1  $|vxy| \leq p$
 - 2  $|vy| > 0$
 - 3  $uv^i xy^i z \in L$  para todo  $i \geq 0$
-### Intuição
+#### Intuição
 
-Em árvores de derivação suficientemente grandes, algum não-terminal se repete em um caminho. Isso permite “bombar” duas regiões da cadeia ao mesmo tempo.
+Em árvores de derivação suficientemente grandes, algum não-terminal se repete em um caminho. Isso permite “bombear” duas regiões da cadeia ao mesmo tempo.
 
 {31}------------------------------------------------
-### Comparando os Dois Lemmas do Bombeamento
+#### Comparando os Dois Lemas do Bombeamento
 
 | Classe             | Decomposição | Parte bombeada            |
 |--------------------|--------------|---------------------------|
@@ -641,7 +707,7 @@ Assumimos que  $L$  é livre de contexto, escolhemos uma cadeia longa e mostramo
 
 {32}------------------------------------------------
 #### Exemplo de Prova: $\{a^n b^n c^n : n \geq 0\}$ não é LLC
-#### Idea da prova
+#### Ideia da prova
 
 Suponha que  $L = \{a^n b^n c^n : n \geq 0\}$  seja livre de contexto e seja  $p$  o comprimento de bombeamento.
 #### Escolha da cadeia
@@ -651,9 +717,9 @@ Tome  $w = a^p b^p c^p$ . Como  $|vxy| \leq p$ , o trecho  $vxy$  fica contido e
 
 Ao bombear com  $i = 0$  ou  $i = 2$ , alteramos a quantidade de símbolos em apenas uma ou duas regiões:
 
-- ou muda o número de *as*
-- ou muda o número de *bs*
-- ou muda o número de *cs*
+- ou muda o número de  $as$
+- ou muda o número de  $bs$
+- ou muda o número de  $cs$
 - ou mudam duas contagens, mas a terceira fica intacta
 
 Em todos os casos, a igualdade  $|a| = |b| = |c|$  é destruída.
@@ -670,23 +736,26 @@ Decidíveis  $\subset$  Reconhecíveis  $\subset$  Todas
 ### Teorema
 
 $L$  é decidível  $\iff L$  e  $\bar{L}$  são reconhecíveis.
-### Exemplo
+#### Exemplo
 
 O problema da parada HALT é reconhecível mas não decidível.
 
 {34}------------------------------------------------
 ## Resumo: Poderes Computacionais
 
-The diagram illustrates the hierarchy of computational power using nested ellipses. The outermost ellipse is black and labeled "Todas as Linguagens". Inside it is a blue ellipse labeled "Recursivamente Enumeráveis". Within the blue ellipse is a green ellipse labeled "Decidíveis (Recursivas) (MT)". Inside the green ellipse is an orange ellipse labeled "Sensíveis ao Contexto". Within the orange ellipse is a red ellipse labeled "Livres de Contexto". The innermost ellipse is pink and labeled "Regulares". A faint watermark of the University of Coimbra crest is visible in the background.
+O diagrama ilustra a hierarquia de Chomsky através de cinco ovais concêntricos, onde cada oval representa uma classe de linguagens e está contido dentro da próxima classe mais ampla. As classes, da mais restrita para a mais abrangente, são:
 
-Diagram showing the hierarchy of computational power with nested ellipses.
+- Regulares** (oval interno, cor rosa)
+- Livres de Contexto** (oval de cor vermelha)
+- Sensíveis ao Contexto** (oval de cor laranja)
+- Decidíveis (Rekursivas) (MT)** (oval de cor verde)
+- Rekursivamente Enumeráveis** (oval de cor azul)
+
+Um sexto oval, preto, engloba todos os outros e é rotulado **Todas as Linguagens** no topo.
+
+Diagrama da Hierarquia de Chomsky mostrando a inclusão entre classes de linguagens.
 
 {35}------------------------------------------------
-
-<!-- IMAGE_DESCRIPTION: datalab-875c6f4f441fdd3ca7e1908fd1582983_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Diagram showing the hierarchy of computational power with nested ellipses.
-<!-- /IMAGE_DESCRIPTION -->
 ### Exercício 1: Operações com Cadeias
 
 Seja  $\Sigma = \{a, b\}$ .
@@ -697,31 +766,11 @@ Seja  $\Sigma = \{a, b\}$ .
 - 4 Seja  $w = aba$ . Calcule  $w^0$ ,  $w^2$  e  $w^R$ .
 - 5 Explique a diferença entre  $\varepsilon$  e  $\emptyset$ .
 
-The image is a watermark of the University of Coimbra's coat of arms. It features a shield with a star in the center, flanked by two smaller shields. The shield is supported by two figures. Below the shield is a ribbon with the Latin motto "AD VERVM DVOCIT". The entire emblem is rendered in a light gray, semi-transparent style.
+The image shows the coat of arms of the University of São Paulo (USP). It features a shield with a white background and a large blue star in the center. The shield is flanked by two blue lions. Above the shield is a blue crown. A blue ribbon with white text wraps around the bottom of the shield.
 
-Watermark of the University of Coimbra crest, featuring a shield with a star and the motto 'AD VERVM DVOCIT'.
+Coat of arms of the University of São Paulo (USP)
 
 {36}------------------------------------------------
-
-<!-- IMAGE_DESCRIPTION: datalab-63ae75eedbc0eeea2efd2ee19c2fbc7d_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Watermark of the University of Coimbra crest, featuring a shield with a star and the motto 'AD VERVM DVOCIT'.
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-911a4f4b97be8e1dcf81e58b080dc0e2_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Watermark of the coat of arms of the University of Coimbra, featuring a shield with a star and the motto 'AD VERVM DVOCIT'.
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-9cc5ec27db4e35a26008bce9b9cd0bc8_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Watermark of the University of Coimbra crest, featuring a shield with a star and the motto 'AD VERVM DVOCIT'.
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-3ddb2696ae060a47bd0e5af5d68cac65_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Watermark of the University of Coimbra crest with the motto 'AD VERVM DVOCIT'.
-<!-- /IMAGE_DESCRIPTION -->
 ### Exercício 2: Operações com Linguagens
 
 Sejam  $L_1 = \{a^n : n \geq 0\}$  e  $L_2 = \{b^n : n \geq 0\}$ .
@@ -733,26 +782,11 @@ Sejam  $L_1 = \{a^n : n \geq 0\}$  e  $L_2 = \{b^n : n \geq 0\}$ .
 - 5 Calcule  $L_1 \cap L_2$  e explique por quê.
 - 6 Seja  $\Sigma = \{a, b\}$ . Descreva o complemento de  $L = \{w \in \Sigma^* : w \text{ contém } ab\}$ .
 
-The image is a watermark of the coat of arms of the University of Coimbra. It features a shield with a star in the center, surrounded by four smaller shields. The shield is supported by two figures. Below the shield is a ribbon with the Latin motto "AD VERVM DVICIT".
+The image is a large, faint watermark of the coat of arms of the University of São Paulo (USP) on the right side of the slide. It features a shield with a central star, flanked by two crossed keys (the keys of St. Peter), and a banner at the bottom with the motto 'AD VERVM DVCT'.
 
-Watermark of the University of Coimbra coat of arms, featuring a shield with a star and the motto 'AD VERVM DVICIT'.
+Coat of arms of the University of São Paulo (USP)
 
 {37}------------------------------------------------
-
-<!-- IMAGE_DESCRIPTION: datalab-7898f899fb291b02fbb353e0337c5514_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Watermark of the University of Coimbra coat of arms, featuring a shield with a star and the motto 'AD VERVM DVICIT'.
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-9642ee15d719705144037077981aaa99_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Watermark of the coat of arms of the University of Coimbra, featuring a shield with a star and the motto 'AD VERVM DVICIT'.
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-4ca62688976b4bef770a81683f9d9eef_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Watermark of the coat of arms of the University of Coimbra, featuring a shield with a star and the motto 'AD VERVM DVICIT'.
-<!-- /IMAGE_DESCRIPTION -->
 ### Exercício 3: Cardinalidade e Representação
 
 - 1 Por que  $\Sigma^*$  é infinito contável para todo alfabeto finito  $\Sigma$ ?
@@ -760,68 +794,62 @@ Watermark of the University of Coimbra coat of arms, featuring a shield with a s
 - 3 Explique por que a diferença entre os dois itens anteriores implica que existem linguagens que nenhuma máquina reconhece.
 - 4 Se  $L = \{ab, ba\}$ , descreva  $L^2$ ,  $L^+$  e  $L^*$ .
 
-The image is a watermark of the coat of arms of the University of Coimbra. It features a shield with a star in the center, surrounded by four smaller shields. The shield is supported by two figures. Below the shield is a ribbon with the Latin motto "AD VERVM DVOCIT".
+The image shows the coat of arms of the University of São Paulo (USP). It features a shield with a large five-pointed star in the center. The shield is flanked by two figures, possibly representing the university's history or values. Above the shield is a crown. A banner at the bottom of the shield contains the Latin motto "AD VERVM DVCT".
 
-Watermark of the coat of arms of the University of Coimbra, featuring a shield with a star and the motto 'AD VERVM DVOCIT'.
+Coat of arms of the University of São Paulo (USP)
 
 {38}------------------------------------------------
 ### Exercício 4: Autômatos Finitos
 
 - 1 Construa um DFA para  $L = \{w \in \{0, 1\}^* : w \text{ contém } 010\}$
-- 2 Construa um NDFA para  
- $L = \{w \in \{a, b\}^* : w \text{ termina em } ab \text{ ou } ba\}$
-- 3 Converta o DFA do item anterior em NDFA
+- 2 Construa um N DFA para  $L = \{w \in \{a, b\}^* : w \text{ termina em } ab \text{ ou } ba\}$
+- 3 Converta o DFA do item anterior em N DFA
 - 4 Construa um DFA para o complemento da linguagem do item 1
-- 5 Construa um NDFA para  
- $L = \{w \in \{a, b\}^* : w \text{ tem número par de } a\}$
+- 5 Construa um N DFA para  $L = \{w \in \{a, b\}^* : w \text{ tem número par de } as\}$
 
-The image is a watermark of the University of Coimbra's coat of arms. It features a shield with a star in the center, surrounded by smaller stars. The shield is flanked by two supporters. Below the shield is a ribbon with the Latin motto "AD VERVM DVOCIT".
+The image shows the coat of arms of the University of São Paulo (USP). It features a shield with a star in the center, surrounded by a banner that reads "AD VERVM DVCIT". Above the shield is a crest with a crown and two crossed keys. The shield is flanked by two figures, possibly representing the university's history or values.
 
-Watermark of the University of Coimbra crest, featuring a shield with a star and the motto 'AD VERVM DVOCIT'.
+Coat of arms of the University of São Paulo (USP)
 
 {39}------------------------------------------------
 ### Exercício 5: Lema do Bombeamento Regular
 
 **Desafio!** Use o Lema do Bombeamento para provar que as seguintes linguagens **não** são regulares:
 
-- 1  $L = \{a^{n^2} : n \geq 0\}$  (potências quadradas de  $a$ )
-- 2  $L = \{a^p : p \text{ é primo}\}$
-- 3  $L = \{0^n 1^m : n \neq m\}$
-- 4  $L = \{ww : w \in \{a, b\}^*\}$
+1  $L = \{a^{n^2} : n \geq 0\}$  (potências quadradas de  $a$ )
+
+2  $L = \{a^p : p \text{ é primo}\}$
+
+3  $L = \{0^n 1^m : n \neq m\}$
+
+4  $L = \{ww : w \in \{a, b\}^*\}$
 
 **Dica:** Para cada linguagem, escolha cuidadosamente a cadeia  $w$  a ser bombeada.
 
-A faint, gray watermark of the coat of arms of the University of Coimbra is visible in the background. It features a shield with a cross and a star, topped by a crown and flanked by two figures. Below the shield is a ribbon with the Latin motto "AD VERVM DVICIT".
+The image shows the coat of arms of the University of São Paulo (USP). It features a shield with a central vertical band containing a stylized 'M' and 'U' monogram. The shield is flanked by two crossed keys (the keys of St. Peter) and topped by a crown. Below the shield is a banner with the Latin motto 'AD VERVM DVCT'.
 
-Watermark of the coat of arms of the University of Coimbra, featuring a shield with a cross and a star, and the motto 'AD VERVM DVICIT'.
+Coat of arms of the University of São Paulo (USP)
 
 {40}------------------------------------------------
-
-<!-- IMAGE_DESCRIPTION: datalab-d3294dc879b451b369c0b06f42e9b39f_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Faint background watermark of the PUCRS seal, featuring a shield with a star and the motto 'AD VERVM DVOCIT'.
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-5dddb446832bc0d98a7265b1d79c3054_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Watermark of the coat of arms of the University of Coimbra, featuring a shield with a cross and a star, and the motto 'AD VERVM DVICIT'.
-<!-- /IMAGE_DESCRIPTION -->
 ### Exercício 6: Gramáticas e Hierarquia
 
-- 1 Associe cada classe abaixo ao reconhecedor correspondente:
-  - Regulares
-  - Livres de contexto
-  - Sensíveis ao contexto
-  - Recursivamente enumeráveis
-- 2 Dê um exemplo de linguagem que seja:
-  - Regular
-  - Livre de contexto mas não regular
-  - Sensível ao contexto mas não livre de contexto
-  - Recursivamente enumerável mas não sensível ao contexto
+**1** Associe cada classe abaixo ao reconhecedor correspondente:
 
-A faint, grey watermark of the University of Coimbra's coat of arms is visible in the background. It features a shield with a cross and a crown, flanked by two figures. Below the shield is a ribbon with the Latin motto 'AD VERVM DVOCIT'.
+- Regulares
+- Livres de contexto
+- Sensíveis ao contexto
+- Recursivamente enumeráveis
 
-Watermark of the University of Coimbra crest with the motto 'AD VERVM DVOCIT'.
+**2** Dê um exemplo de linguagem que seja:
+
+- Regular
+- Livre de contexto mas não regular
+- Sensível ao contexto mas não livre de contexto
+- Recursivamente enumerável mas não sensível ao contexto
+
+The image shows the coat of arms of the University of São Paulo (USP). It features a shield with a white background and a blue border. The shield is divided into four quadrants, each containing a blue cross. In the center of the shield is a blue star. Above the shield is a crown. The shield is flanked by two blue lions. A blue ribbon with the Latin motto 'AD VERVM DVCT' is at the bottom.
+
+Coat of arms of the University of São Paulo (USP)
 
 {41}------------------------------------------------
 ### Exercício 7: Classificação de Linguagens
@@ -830,10 +858,10 @@ Classifique cada linguagem abaixo como Regular (R), Livre de Contexto (LLC), Sen
 
 - 1  $\{a^n b^n : n \geq 0\}$
 - 2  $\{a^n b^n c^n : n \geq 0\}$
-- 3  $\{w : w \text{ tem igual número de } a\text{s e } b\text{s}\}$ , assuma o alfabeto  $\{a, b\}$
+- 3  $\{w : w \text{ tem igual número de as e bs}\}$ , assumo o alfabeto  $\{a, b\}$
 - 4  $\{ww^R : w \in \{a, b\}^*\}$
 - 5  $\{a^{2^n} : n \geq 0\}$
-- 6  $\{w : w \text{ não contém } aa \text{ como subcadeia}\}$ , assuma o alfabeto  $\{a, b\}$
+- 6  $\{w : w \text{ não contém } aa \text{ como subcadeia}\}$ , assumo o alfabeto  $\{a, b\}$
 
 Justifique suas respostas.
 
@@ -845,9 +873,9 @@ Justifique suas respostas.
 - 3 Explique por que um autômato finito não basta para reconhecer as linguagens dos itens anteriores.
 - 4 Um PDA poderia reconhecer  $\{a^n b^n c^n : n \geq 0\}$ ? Justifique.
 
-The image is a watermark of the coat of arms of the University of Coimbra. It features a shield with a star and the motto 'AD VERVM DVICIT' (To the truth, victory). The shield is flanked by two figures, and the entire emblem is rendered in a light gray color.
+The image shows the coat of arms of the University of São Paulo (USP). It features a shield with a large five-pointed star in the center. Above the star is a crest with a crown and two crossed scepters. The shield is flanked by two lions. Below the shield is a banner with the Latin motto "AD VERVM DVCT".
 
-Watermark of the coat of arms of the University of Coimbra, featuring a shield with a star and the motto 'AD VERVM DVICIT'.
+Coat of arms of the University of São Paulo (USP)
 
 {43}------------------------------------------------
 ### Exercício 9: Bombeamento para LLCs
@@ -860,26 +888,23 @@ Watermark of the coat of arms of the University of Coimbra, featuring a shield w
 
 **Dica:** analise onde o trecho  $vxy$  pode ficar e o que acontece ao bombear com  $i = 0$  ou  $i = 2$ .
 
-A faint, gray watermark of the coat of arms of the University of Coimbra is visible in the background. It features a shield with a star and the motto 'AD VERVM DVICIT' on a banner below.
+The image shows the coat of arms of the University of São Paulo (USP). It features a shield with a central vertical band containing a stylized 'M' and 'U' monogram. The shield is flanked by two crossed flags. Below the shield is a banner with the Latin motto 'AD VERVM DVCT'. The entire emblem is rendered in a light gray, semi-transparent style.
 
-Watermark of the coat of arms of the University of Coimbra, featuring a shield with a star and the motto 'AD VERVM DVICIT'.
+Coat of arms of the University of São Paulo (USP)
 
 {44}------------------------------------------------
 ### Exercício 10: Reconhecível vs. Decidível
 
 - 1 Defina, com suas palavras, o que significa uma linguagem ser reconhecível.
-  - 2 Defina o que significa uma linguagem ser decidível.
-  - 3 Toda linguagem decidível é reconhecível? E o contrário? Justifique.
-  - 4 Explique o significado do teorema:  $L$  é decidível  $\iff L$  e  $\overline{L}$  são reconhecíveis.
+- 2 Defina o que significa uma linguagem ser decidível.
+- 3 Toda linguagem decidível é reconhecível? E o contrário? Justifique.
+- 4 Explique o significado do teorema:  $L$  é decidível  $\iff L$  e  $\bar{L}$  são reconhecíveis.
 
-A faint, stylized background image of the coat of arms of the University of Coimbra, featuring a shield with a cross and a star, and a ribbon with the Latin motto 'AD VERVM DVICIT'.
+The image shows the coat of arms of the University of São Paulo (USP). It features a shield with a white background and a large blue star in the center. The shield is flanked by two blue lions. Above the shield is a blue crown. A blue banner at the bottom of the shield contains the Latin motto "AD VERVM DVCT".
+
+Coat of arms of the University of São Paulo (USP)
 
 {45}------------------------------------------------
-
-<!-- IMAGE_DESCRIPTION: datalab-f254a67565344d514e13763a4e556a70_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** A faint, stylized background image of the coat of arms of the University of Coimbra, featuring a shield with a cross and a star, and a ribbon with the Latin motto 'AD VERVM DVICIT'.
-<!-- /IMAGE_DESCRIPTION -->
 ### Exercício 11: Propriedades de Fechamento
 
 - 1 **Desafio!** Prove que se  $L_1$  e  $L_2$  são regulares, então  $L_1 \cap L_2$  é regular.
@@ -897,6 +922,10 @@ A faint, stylized background image of the coat of arms of the University of Coim
 - $L^*$
 - $L'^*$
 
+The image shows the coat of arms of the University of São Paulo (USP). It features a central shield with a white field containing a green cross and a blue star. The shield is flanked by two golden lions. Above the shield is a crown. A banner at the bottom of the shield contains the Latin motto 'AD VERVM DVCT'.
+
+Coat of arms of the University of São Paulo (USP)
+
 {46}------------------------------------------------
 ## Referências I
 
@@ -905,11 +934,20 @@ A faint, stylized background image of the coat of arms of the University of Coim
 - [3] Christos H. Papadimitriou. *Computational Complexity*. Addison-Wesley, 1994.
 - [4] Michael Sipser. *Introduction to the Theory of Computation*. 3rd. Cengage Learning, 2012.
 
-A faint, semi-transparent watermark of the University of Coimbra's coat of arms is visible in the background. It features a shield with a cross and the motto 'AD VERVM DVCT' on a ribbon at the bottom.
-
-Faint background watermark of the University of Coimbra coat of arms, featuring a shield with a cross and the motto 'AD VERVM DVCT'.
+Faint watermark of the University of São Paulo (USP) coat of arms, featuring a shield with a star and the motto 'AD VERVM DVCT'.
 
 <!-- IMAGE_DESCRIPTION: datalab-fb15f15a7d964c8490c9317e43e40c1a_img.jpg -->
 <!-- Tipo: generico -->
-> **[Descrição de imagem]** Faint background watermark of the University of Coimbra coat of arms, featuring a shield with a cross and the motto 'AD VERVM DVCT'.
+> **[Descrição de imagem]** Faint watermark of the University of São Paulo (USP) coat of arms, featuring a shield with a star and the motto 'AD VERVM DVCT'.
 <!-- /IMAGE_DESCRIPTION -->
+
+<!-- IMAGE_DESCRIPTION_ORPHANS -->
+## Imagens Curadas
+
+Descrições preservadas para imagens detectadas no documento, mas sem referência markdown compatível no corpo principal.
+
+<!-- IMAGE_DESCRIPTION: datalab-fa6c61be003dfbb4ca5587e48a71de94_img.jpg -->
+<!-- Tipo: generico -->
+> **[Descrição de imagem]** Logo of PUCRS (Pontifícia Universidade Católica do Rio Grande do Sul)
+<!-- /IMAGE_DESCRIPTION -->
+<!-- /IMAGE_DESCRIPTION_ORPHANS -->

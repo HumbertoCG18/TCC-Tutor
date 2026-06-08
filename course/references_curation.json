@@ -1,0 +1,20 @@
+{
+  "entries": {
+    "referencia-reducibility-among-combinatorial-problems": {
+      "ref_summary": "",
+      "ref_concepts": [],
+      "computed_ref_unit": "",
+      "computed_ref_topics": [],
+      "content_hash": "66fc7f5474147fb5d242f0b9b6c835adfb17088e",
+      "matcher_version": 1
+    },
+    "problema-weighted-max-cut": {
+      "ref_summary": "",
+      "ref_concepts": [],
+      "computed_ref_unit": "",
+      "computed_ref_topics": [],
+      "content_hash": "2ed374f5100d62a0af63d052fa6f33893244ac5d",
+      "matcher_version": 1
+    }
+  }
+}

@@ -22,13 +22,13 @@
 > Definições iniciais curtas são geradas no build para reduzir custo de contexto no tutor web.
 
 ## 1.1. Conjuntos Enumeráveis
-**Definição:** Conceito central de esta unidade que deve ser reconhecido e usado corretamente nas respostas e revisões.
+**Definição:** Aula 02 - Conjuntos Enumeráveis e Não-Enumeráveis; Argumento da Diagonalização de Cantor.
 **Sinônimos aceitos:** —
 **Não confundir com:** —
 **Aparece em:** UNIDADE 01 — Conjuntos Enumeráveis e Funções Recursivas
 
 ## 1.2. Argumento Diagonal de Cantor e Conjuntos Incontáveis 1.3. Funções Recursivas Primitivas e Funções Recursivas Parciais
-**Definição:** Parte 1 - Teoria de Conjuntos Parte 2 - Enumerabilidade Parte 3 - Funções Recursivas Primitivas Parte 4 - Funções Parciais e Minimização.
+**Definição:** Argumento clássico usado para mostrar que certos conjuntos não podem ser listados completamente.
 **Sinônimos aceitos:** —
 **Não confundir com:** —
 **Aparece em:** UNIDADE 01 — Conjuntos Enumeráveis e Funções Recursivas
@@ -46,19 +46,19 @@
 **Aparece em:** UNIDADE 02 — Turing-Computabilidade​
 
 ## 2.3. Variações de Máquinas de Turing
-**Definição:** Conceito central de esta unidade que deve ser reconhecido e usado corretamente nas respostas e revisões.
+**Definição:** Aula 09 - Variações de Máquinas de Turing.
 **Sinônimos aceitos:** —
 **Não confundir com:** —
 **Aparece em:** UNIDADE 02 — Turing-Computabilidade​
 
 ## 2.4. Conjectura de Church-Turing
-**Definição:** Conceito central de esta unidade que deve ser reconhecido e usado corretamente nas respostas e revisões.
+**Definição:** Sumário Funções Recursivas Primitivas; Composição de Funções Sumário Motivação Questão Central A Tese de Church-Turing Tese de Church-Turing Observação.
 **Sinônimos aceitos:** —
 **Não confundir com:** —
 **Aparece em:** UNIDADE 02 — Turing-Computabilidade​
 
 ## 2.5. Máquinas de Turing Universais
-**Definição:** Conceito central de esta unidade que deve ser reconhecido e usado corretamente nas respostas e revisões.
+**Definição:** Linguagens Reconhecíveis e Linguagens Decidíveis; Máquinas de Turing Universais.
 **Sinônimos aceitos:** —
 **Não confundir com:** —
 **Aparece em:** UNIDADE 02 — Turing-Computabilidade​

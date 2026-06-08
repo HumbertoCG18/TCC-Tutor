@@ -3,14 +3,9 @@
 > *Leia antes de varrer o arquivo. Vá direto à seção relevante para a pergunta do aluno.*
 
 - **Sumário**
-- **1 Decidibilidade e Reconhecibilidade**
-- **2 Máquinas de Turing Universais**
-- **3 Indecidibilidade**
-- **4 Reduções**
-- **5 Exercícios**
 - **Recapitulação: Classes de Linguagens**
   - Linguagem Turing-Reconhecível (R.E.)
-  - Linguagem Turing-Decidível (Recursiva)
+  - Linguagem Turing-Decidível (Rekursiva)
   - Relação
   - Exemplos de Linguagens Decidíveis
   - Linguagens Regulares
@@ -19,7 +14,12 @@
   - Problemas de Decisão sobre DFAs
   - Problemas de Decisão sobre GLCs
   - Teorema: Decidível $\iff$ R.E. e co-R.E.
+  - Teorema
+  - Prova
   - Corolário: Existem Linguagens não R.E.
+  - Corolário
+  - Prova
+  - Exemplo
 - **A Máquina de Turing Universal**
   - Definição
   - Comportamento
@@ -32,27 +32,37 @@
   - Von Neumann (1945)
   - Interpretadores e Compiladores
   - Máquinas Virtuais
-  - O Problema da Parada
+- **O Problema da Parada**
   - Definição
   - Teorema (Turing, 1936)
   - Significado
   - Prova: *HALT* é Indecidível
   - Prova por Diagonalização
-  - Construção de $D$
+  - Construção de *D*
   - Contradição
+  - A Máquina $D$ : Fluxo de Execução
   - Análise da Contradição
   - Conclusão
   - Visualização: Argumento Diagonal
   - $A_{TM}$ é Indecidível
+  - Definição
+  - Teorema
+  - Prova
   - Consequências da Indecidibilidade
   - Impossibilidades
   - Teorema de Rice
+  - Não-trivial
   - Redução de Problemas
+  - Redução de $A$ para $B$
+  - Exemplo: $E_{TM}$ é Indecidível
+  - Definição
+  - Teorema
   - Prova por redução de $A_{TM}$
   - Mais Problemas Indecidíveis
+  - $EQ_{TM}$ , Equivalência de MTs
   - Hierarquia de Problemas
 - **Resumo**
-  - Conceitos Principais
+- **Conceitos Principais**
   - Exercício 1: Decidibilidade
   - Exercício 2: MT Universal
   - Exercício 3: Indecidibilidade
@@ -61,6 +71,7 @@
   - Desafio: Teorema de Rice
   - Teorema de Rice
 - **Referências I**
+- **Imagens Curadas**
 
 <!-- EXEC_SUMMARY_END -->
 {0}------------------------------------------------
@@ -71,36 +82,58 @@ Prof. Anderson Roberto Pinheiro Domingues
 
 [anderson.domingues@pucrs.br](mailto:anderson.domingues@pucrs.br)
 
-Aula 10  
+Aula 10
+
 Teoria da Computabilidade e Complexidade  
 Ciência da Computação
 
 10 de abril de 2026
 
-Logo of PUCRS (Pontifical University of Rio Grande do Sul)
+The logo of PUCRS, featuring a shield with a cross and a star, and the text 'PUCRS' below it.
+
+Logo of PUCRS (Pontifícia Universidade Católica do Rio Grande do Sul)
 
 ESCOLA  
 POLITÉCNICA
 
-Faint background watermark of the PUCRS seal featuring a shield with a cross and the motto 'AD VERVM DVOCIT'.
-
 {1}------------------------------------------------
 ## Sumário
-## 1 Decidibilidade e Reconhecibilidade
-## 2 Máquinas de Turing Universais
-## 3 Indecidibilidade
-## 4 Reduções
-## 5 Exercícios
 
-A faint, light gray watermark of the coat of arms of the University of Coimbra is visible on the right side of the slide. The shield features a central star and is flanked by two smaller shields with a repeating pattern of stylized trees. Above the shield is a crown and two crossed keys. A ribbon at the bottom bears the Latin motto 'AD VERVM DVKIT'.
+- 1 Decidibilidade e Reconhecibilidade
+- 2 Máquinas de Turing Universais
+- 3 Indecidibilidade
+- 4 Reduções
+- 5 Exercícios
 
-Faint watermark of the coat of arms of the University of Coimbra, featuring a shield with a star and the motto 'AD VERVM DVKIT'.
+The image is a large, light gray watermark of the coat of arms of the University of São Paulo (USP). It features a shield with a central vertical band containing a stylized 'M' and 'U' monogram, flanked by two vertical bands with a repeating cross pattern. Above the shield is a crown, and on either side are crossed keys. A banner at the bottom of the shield contains the Latin motto 'AD VERVM DVCT'.
+
+Coat of arms of the University of São Paulo (USP)
 
 {2}------------------------------------------------
 
-<!-- IMAGE_DESCRIPTION: datalab-669865256db7d33e9cb759eac2e226c8_img.jpg -->
+<!-- IMAGE_DESCRIPTION: datalab-b6cb8677b4ffb35c6468fa5c24091bff_img.jpg -->
 <!-- Tipo: generico -->
-> **[Descrição de imagem]** Faint watermark of the coat of arms of the University of Coimbra, featuring a shield with a star and the motto 'AD VERVM DVKIT'.
+> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
+<!-- /IMAGE_DESCRIPTION -->
+
+<!-- IMAGE_DESCRIPTION: datalab-2f49752384f0d40dcfa439810d5ad58e_img.jpg -->
+<!-- Tipo: generico -->
+> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
+<!-- /IMAGE_DESCRIPTION -->
+
+<!-- IMAGE_DESCRIPTION: datalab-eaa5fbc353eb95b90302cfbe7c299576_img.jpg -->
+<!-- Tipo: generico -->
+> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
+<!-- /IMAGE_DESCRIPTION -->
+
+<!-- IMAGE_DESCRIPTION: datalab-1695df64fe320e3f81049cfe402c8155_img.jpg -->
+<!-- Tipo: generico -->
+> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
+<!-- /IMAGE_DESCRIPTION -->
+
+<!-- IMAGE_DESCRIPTION: datalab-aa1ad572ba493829cf259738c9668fe2_img.jpg -->
+<!-- Tipo: generico -->
+> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
 <!-- /IMAGE_DESCRIPTION -->
 ## Recapitulação: Classes de Linguagens
 ### Linguagem Turing-Reconhecível (R.E.)
@@ -109,7 +142,7 @@ $L$  é **reconhecível** se existe MT  $M$  tal que:
 
 - $(\forall w \in L).A(w)$ , onde  $A(x)$  significa que  $M$  aceita  $w$
 - $(\forall w \notin L).?R(w)$ , onde  $?R(x)$  significa que  $M$  rejeita ou não para
-### Linguagem Turing-Decidível (Recursiva)
+### Linguagem Turing-Decidível (Rekursiva)
 
 $L$  é **decidível** se existe MT  $M$  onde:
 
@@ -139,17 +172,17 @@ Decidível  $\subset$  Reconhecível  $\subset$  Todas as Linguagens
 ### Problemas de Decisão sobre DFAs
 #### $A_{DFA}$ , Aceitação de DFA
 
-$$A_{DFA} = \{ \langle D, w \rangle : D \text{ é DFA e } D \text{ aceita } w \}$$
+$A_{DFA} = \{ \langle D, w \rangle : D \text{ é DFA e } D \text{ aceita } w \}$
 
 **Decidível:** Simule  $D$  em  $w$ .
 #### $E_{DFA}$ , Linguagem vazia (aceita nenhuma string)
 
-$$E_{DFA} = \{ \langle D \rangle : L(D) = \emptyset \}$$
+$E_{DFA} = \{ \langle D \rangle : L(D) = \emptyset \}$
 
 **Decidível:** Use busca (BFS/DFS) a partir do estado inicial. Se algum estado final é alcançável, rejeite; senão, aceite.
 #### $EQ_{DFA}$ , Equivalência de DFAs
 
-$$EQ_{DFA} = \{ \langle D_1, D_2 \rangle : L(D_1) = L(D_2) \}$$
+$EQ_{DFA} = \{ \langle D_1, D_2 \rangle : L(D_1) = L(D_2) \}$
 
 **Decidível:** Construa DFA para  $(L(D_1) \cap \overline{L(D_2)}) \cup (\overline{L(D_1)} \cap L(D_2))$  e teste se é vazio.
 
@@ -159,7 +192,7 @@ $$EQ_{DFA} = \{ \langle D_1, D_2 \rangle : L(D_1) = L(D_2) \}$$
 
 $$A_{CFG} = \{ \langle G, w \rangle : G \text{ é GLC e } w \in L(G) \}$$
 
-**Decidível:** Algoritmo CYK em  $O(n^3 |G|)$ .
+**Decidível:** Algoritmo CYK em  $O(n^3|G|)$ .
 #### $E_{CFG}$ , Linguagem vazia (gera nenhuma string)
 
 $$E_{CFG} = \{ \langle G \rangle : L(G) = \emptyset \}$$
@@ -173,10 +206,10 @@ $$EQ_{CFG} = \{ \langle G_1, G_2 \rangle : L(G_1) = L(G_2) \}$$
 
 {6}------------------------------------------------
 ### Teorema: Decidível $\iff$ R.E. e co-R.E.
-#### Teorema
+### Teorema
 
 Uma linguagem  $L$  é decidível se e somente se  $L$  e  $\bar{L}$  são reconhecíveis.
-#### Prova
+### Prova
 
 $(\Rightarrow)$  Se  $L$  é decidível:
 
@@ -192,14 +225,14 @@ $(\Leftarrow)$  Se  $L$  e  $\bar{L}$  são reconhecíveis:
 
 {7}------------------------------------------------
 ### Corolário: Existem Linguagens não R.E.
-#### Corolário
+### Corolário
 
 Se  $L$  é reconhecível mas não decidível, então  $\bar{L}$  não é reconhecível.
-#### Prova
+### Prova
 
 Suponha  $L$  reconhecível, não decidível, e  $\bar{L}$  reconhecível.  
 Pelo teorema anterior,  $L$  seria decidível. Contradição!
-#### Exemplo
+### Exemplo
 
 O problema da parada  $HALT$  é reconhecível mas não decidível.  
 Logo,  $\overline{HALT}$  não é reconhecível!  
@@ -244,15 +277,18 @@ para toda MT  $M$  e entrada  $w$ .
 
 {10}------------------------------------------------
 ### Propriedades da MT Universal
-#### $U$ é uma MT válida
+
+$U$  é uma MT válida
 
 $U$  é uma MT com número finito de estados e alfabeto finito, independentemente de qual  $M$  está sendo simulada.
-#### $U$ reconhece $A_{TM}$
+
+$U$  reconhece  $A_{TM}$
 
 A linguagem reconhecida por  $U$  é:
 
-$$A_{TM} = \{\langle M, w \rangle : M \text{ é MT que aceita } w\}$$
-#### $U$ não decide $A_{TM}$
+$$A_{TM} = \{ \langle M, w \rangle : M \text{ é MT que aceita } w \}$$
+
+$U$  não decide  $A_{TM}$
 
 $U$  pode não parar (quando  $M$  não para em  $w$ ), isto é,  $A_{TM}$  é **indecidível!**
 
@@ -275,10 +311,10 @@ Arquitetura de computador baseada na ideia de MT Universal:
 JVM, CLR: MT Universal para bytecode específico.
 
 {12}------------------------------------------------
-### O Problema da Parada
+## O Problema da Parada
 ### Definição
 
-$$HALT = \{\langle M, w \rangle : M \text{ é uma MT que para na entrada } w\}$$
+$$HALT = \{ \langle M, w \rangle : M \text{ é uma MT que para na entrada } w \}$$
 ### Teorema (Turing, 1936)
 
 $HALT$  é indecidível.
@@ -290,46 +326,43 @@ Não existe algoritmo que, dado um programa e uma entrada, sempre determina corr
 ### Prova: *HALT* é Indecidível
 ### Prova por Diagonalização
 
-Suponha que *HALT* seja decidível. Seja  $H$  o decisor:
+Suponha que *HALT* seja decidível. Seja *H* o decisor:
 
 $$H(\langle M, w \rangle) = \begin{cases} \text{aceita} & \text{se } M \text{ para em } w \\ \text{rejeita} & \text{se } M \text{ não para em } w \end{cases}$$
-### Construção de $D$
+### Construção de *D*
 
-Construa MT  $D$  que, na entrada  $\langle M \rangle$ :
+Construa MT *D* que, na entrada  $\langle M \rangle$ :
 
 - 1 Execute  $H(\langle M, \langle M \rangle \rangle)$
-- 2 Se  $H$  aceita (i.e.,  $M$  para em  $\langle M \rangle$ ), entre em loop infinito
-- 3 Se  $H$  rejeita (i.e.,  $M$  não para em  $\langle M \rangle$ ), aceite
+- 2 Se *H* aceita (i.e., *M* para em  $\langle M \rangle$ ), entre em loop infinito
+- 3 Se *H* rejeita (i.e., *M* não para em  $\langle M \rangle$ ), aceite
 ### Contradição
 
 O que acontece quando executamos  $D(\langle D \rangle)$ ?
 
 {14}------------------------------------------------
-#### A Máquina $D$ : Fluxo de Execução
+### A Máquina $D$ : Fluxo de Execução
 
 ```
-graph TD; A[Entrada: <M>] --> B[Codifica <M, <M>>]; B --> C[Executa H(<M, <M>>)]; C --> D{H aceita?}; D -- SIM --> E[Loop]; E --> F((D ñ para)); D -- NÃO --> G[Aceita]; G --> H((D para));
+
+graph TD
+    Start([Entrada:  $\langle M \rangle$ ]) --> Encode[Codifica  $\langle M, \langle M \rangle \rangle$ ]
+    Encode --> Exec[Executa  $H(\langle M, \langle M \rangle \rangle)$ ]
+    Exec --> Decision{H aceita?}
+    Decision -- SIM --> Loop[Loop]
+    Loop --> D_no_halt((D ñ para))
+    Decision -- NÃO --> Accept[Aceita]
+    Accept --> D_halt((D para))
+
 ```
 
-Flowchart of the execution flow of Turing machine D. It starts with 'Entrada: ', followed by 'Codifica >', then 'Executa H(>)'. A decision diamond 'H aceita?' follows. If 'SIM', it goes to 'Loop' and then to a red circle 'D ñ para'. If 'NÃO', it goes to 'Aceita' and then to a green circle 'D para'.
-
-Faint watermark of the University of Coimbra coat of arms, featuring a crown, a shield with a cross, and the motto 'VERVM DVOCIT'.
+Flowchart showing the execution flow of machine D. It starts with an input , encodes it as >, then executes a decider H on that encoding. Based on whether H accepts, machine D either loops (if H accepts) or accepts (if H rejects).
 
 {15}------------------------------------------------
 
-<!-- IMAGE_DESCRIPTION: datalab-8740e63f5546e4004e600f24d883acba_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Faint background watermark of the PUCRS seal featuring a shield with a cross and the motto 'AD VERVM DVOCIT'.
-<!-- /IMAGE_DESCRIPTION -->
-
 <!-- IMAGE_DESCRIPTION: datalab-bffdddb47fced140f8d17fdc2a29f592_img.jpg -->
 <!-- Tipo: generico -->
-> **[Descrição de imagem]** Flowchart of the execution flow of Turing machine D.
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-15ee1fd7e4011d0d5dcb11b291fb91d7_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Faint watermark of the University of Coimbra coat of arms, featuring a crown, a shield with a cross, and the motto 'VERVM DVOCIT'.
+> **[Descrição de imagem]** Flowchart showing the execution flow of machine D.
 <!-- /IMAGE_DESCRIPTION -->
 ### Análise da Contradição
 #### Caso 1: $D$ para em $\langle D \rangle$
@@ -349,36 +382,29 @@ Ambos os casos levam a contradição. Logo, o decisor  $H$  não pode existir.  
 {16}------------------------------------------------
 ### Visualização: Argumento Diagonal
 
-|       | $\langle M_0 \rangle$ | $\langle M_1 \rangle$ | $\langle M_2 \rangle$ | $\langle M_3 \rangle$ | $\langle D \rangle$ | ... |
-|-------|-----------------------|-----------------------|-----------------------|-----------------------|---------------------|-----|
-| $M_0$ | <b>P</b>              | N                     | P                     | P                     | ?                   |     |
-| $M_1$ | P                     | <b>N</b>              | N                     | P                     | ?                   |     |
-| $M_2$ | N                     | P                     | <b>P</b>              | N                     | ?                   |     |
-| $M_3$ | P                     | P                     | N                     | <b>N</b>              | ?                   |     |
-| $D$   | N                     | P                     | N                     | P                     | <b>?</b>            |     |
-| $\vdots$     |                       |                       |                       |                       |                     |     |
+|          | $\langle M_0 \rangle$ | $\langle M_1 \rangle$ | $\langle M_2 \rangle$ | $\langle M_3 \rangle$ | $\langle D \rangle$ | ... |
+|----------|-----------------------|-----------------------|-----------------------|-----------------------|---------------------|-----|
+| $M_0$    | <b>P</b>              | N                     | P                     | P                     | ?                   |     |
+| $M_1$    | P                     | <b>N</b>              | N                     | P                     | ?                   |     |
+| $M_2$    | N                     | P                     | <b>P</b>              | N                     | ?                   |     |
+| $M_3$    | P                     | P                     | N                     | <b>N</b>              | ?                   |     |
+| $D$      | N                     | P                     | N                     | P                     | <b>?</b>            |     |
+| $\vdots$ |                       |                       |                       |                       |                     |     |
 
 - P = para, N = não para
 - $D$  é construída para diferir de  $M_i$  na diagonal
 - $D(\langle M_i \rangle)$ : para sse  $M_i(\langle M_i \rangle)$  não para
 - $D(\langle D \rangle) = ?$
 
-A faint, stylized illustration of a coat of arms featuring a crown, a shield with a star and the letters 'MAC', and a banner with the Latin motto 'AD VERVM DVCTIT'.
-
 {17}------------------------------------------------
-
-<!-- IMAGE_DESCRIPTION: datalab-bcc4b9d57d1d23e256f09d0a0a81be73_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** A faint, stylized illustration of a coat of arms featuring a crown, a shield with a star and the letters 'MAC', and a banner with the Latin motto 'AD VERVM DVCTIT'.
-<!-- /IMAGE_DESCRIPTION -->
 ### $A_{TM}$ é Indecidível
-#### Definição
+### Definição
 
-$$A_{TM} = \{\langle M, w \rangle : M \text{ é MT que aceita } w\}$$
-#### Teorema
+$$A_{TM} = \{ \langle M, w \rangle : M \text{ é MT que aceita } w \}$$
+### Teorema
 
 $A_{TM}$  é indecidível (mas é reconhecível).
-#### Prova
+### Prova
 
 Suponha que  $A_{TM}$  seja decidível com decisor  $A$ . Construa decisor  $H'$  para  $HALT$ : na entrada  $\langle M, w \rangle$ :
 
@@ -402,9 +428,10 @@ Não existem algoritmos para:
 
 Seja  $P$  uma propriedade não-trivial de funções computáveis.  
 Então  $\{e : \varphi_e \text{ tem propriedade } P\}$  é indecidível.
-#### Não-trivial
+### Não-trivial
 
-“Não-trivial” = algumas funções possuem  $P$ , outras não. Exemplo: “a função é total” (nem todas são).
+“Não-trivial” = algumas funções possuem  $P$ , outras não. Exemplo:  
+“a função é total” (nem todas são).
 
 {19}------------------------------------------------
 ### Redução de Problemas
@@ -415,13 +442,13 @@ Para provar que um problema  $B$  é indecidível:
 - 1 Escolha um problema  $A$  que sabemos ser indecidível
 - 2 Mostre que se  $B$  fosse decidível, poderíamos decidir  $A$
 - 3 Conclua que  $B$  é indecidível
-#### Redução de $A$ para $B$
+### Redução de $A$ para $B$
 
 Uma **redução** de  $A$  para  $B$  é uma função computável  $f$  tal que:
 
 $$w \in A \iff f(w) \in B$$
 
-Notação:  $A \leq_m B$  (“ $A$  se reduz a  $B$ ”)
+Notação:  $A \leq_m B$  (" $A$  se reduz a  $B$ ")
 #### Consequência
 
 Se  $A \leq_m B$  e  $B$  é decidível, então  $A$  é decidível.
@@ -429,13 +456,13 @@ Se  $A \leq_m B$  e  $B$  é decidível, então  $A$  é decidível.
 Contrapositiva: Se  $A$  é indecidível e  $A \leq_m B$ , então  $B$  é indecidível.
 
 {20}------------------------------------------------
-#### Exemplo: $E_{TM}$ é Indecidível
-#### Definição
+### Exemplo: $E_{TM}$ é Indecidível
+### Definição
 
 $$E_{TM} = \{\langle M \rangle : L(M) = \emptyset\}$$
 
 “A linguagem de  $M$  é vazia?”
-#### Teorema
+### Teorema
 
 $E_{TM}$  é indecidível.
 ### Prova por redução de $A_{TM}$
@@ -450,7 +477,7 @@ Então:  $L(M') = \Sigma^*$  se  $M$  aceita  $w$ , e  $L(M') = \emptyset$  se  
 
 {21}------------------------------------------------
 ### Mais Problemas Indecidíveis
-#### $EQ_{TM}$ , Equivalência de MTs
+### $EQ_{TM}$ , Equivalência de MTs
 
 $$EQ_{TM} = \{\langle M_1, M_2 \rangle : L(M_1) = L(M_2)\}$$
 
@@ -469,7 +496,9 @@ Indecidível e nem mesmo reconhecível!
 {22}------------------------------------------------
 ### Hierarquia de Problemas
 
-Venn diagram showing the hierarchy of language classes. A large black oval is labeled 'Todas as Linguagens'. Inside it, a blue oval is labeled 'R.E.' and a red oval is labeled 'co-R.E.'. The intersection of the blue and red ovals is labeled 'Decidíveis' in green. Inside the blue oval but outside the red one, the text 'A\_TM' and 'HALT' are shown. Inside the red oval but outside the blue one, the text 'A\_TM' and 'HALT' are shown with a bar over them. Inside the green intersection, the text 'A\_DFA' is shown. Outside the blue and red ovals but inside the black oval, the text 'EQ\_TM' is shown.
+O diagrama ilustra a hierarquia dos problemas de decisão. Um grande oval preto representa 'Todas as Linguagens'. Dentro dele, um oval azul representa 'R.E.' (Reconhecíveis) e um oval vermelho representa 'co-R.E.' (co-Reconhecíveis). A interseção dos ovais azul e vermelho é rotulada 'Decidíveis' em verde. Dentro da região 'Decidíveis', há o símbolo  $A_{DFA}$ . Na região exclusiva do oval azul ('R.E. não decidíveis'), há os símbolos  $A_{TM}$  e  $HALT$ . Na região exclusiva do oval vermelho ('co-R.E. não decidíveis'), há os símbolos  $\overline{A_{TM}}$  e  $\overline{HALT}$ . Abaixo do oval vermelho, fora da interseção, está o símbolo  $EQ_{TM}$ .
+
+Diagrama da Hierarquia de Problemas de Decisão
 
 - **Decidíveis:**  $A_{DFA}$ ,  $E_{DFA}$ ,  $A_{CFG}$ , primalidade
 - **R.E. não decidíveis:**  $A_{TM}$ ,  $HALT$
@@ -480,10 +509,10 @@ Venn diagram showing the hierarchy of language classes. A large black oval is la
 
 <!-- IMAGE_DESCRIPTION: datalab-86b4670fc1a5a694821ee92b99c1209a_img.jpg -->
 <!-- Tipo: generico -->
-> **[Descrição de imagem]** Venn diagram showing the hierarchy of language classes.
+> **[Descrição de imagem]** Diagrama da Hierarquia de Problemas de Decisão
 <!-- /IMAGE_DESCRIPTION -->
 ## Resumo
-### Conceitos Principais
+## Conceitos Principais
 
 - MT Universal: simula qualquer **outra** MT
 - Existem problemas indecidíveis (HALT,  $A_{TM}$ )
@@ -491,12 +520,12 @@ Venn diagram showing the hierarchy of language classes. A large black oval is la
 - Reduções: técnica para transferir indecidibilidade
 - Hierarquia: Decidíveis  $\subset$  R.E.  $\subset$  Todas
 
-| Categoria             | Se $w \in L$ (Pertence) | Se $w \notin L$ (Não Pertence) |
-|-----------------------|-------------------------|--------------------------------|
-| Decidível             | Para e Aceita           | Para e Rejeita                 |
-| Reconhecível (R)      | Para e Aceita           | Pode entrar em Loop            |
-| co-Reconhecível (coR) | Pode entrar em Loop     | Para e Rejeita                 |
-| Nem R nem co-R (N)    | Pode entrar em Loop     | Pode entrar em Loop            |
+| Categoria                    | Se $w \in L$ (Pertence) | Se $w \notin L$ (Não Pertence) |
+|------------------------------|-------------------------|--------------------------------|
+| <b>Decidível</b>             | Para e Aceita           | Para e Rejeita                 |
+| <b>Reconhecível (R)</b>      | Para e Aceita           | Pode entrar em Loop            |
+| <b>co-Reconhecível (coR)</b> | Pode entrar em Loop     | Para e Rejeita                 |
+| <b>Nem R nem co-R (N)</b>    | Pode entrar em Loop     | Pode entrar em Loop            |
 
 {24}------------------------------------------------
 ### Exercício 1: Decidibilidade
@@ -510,22 +539,21 @@ Prove que as seguintes linguagens são decidíveis:
 
 Para cada uma, descreva o algoritmo do decisor.
 
-The image is a faint, gray watermark of the coat of arms of the University of Coimbra. It features a shield with a star in the center, surrounded by smaller stars. The shield is flanked by two figures, likely representing the university's heraldic supporters. Below the shield is a ribbon with the Latin motto "AD VERVM DVICIT" (To the truth, it conquers).
+The image shows the coat of arms of the University of São Paulo (USP). It features a shield with a central vertical band containing a stylized 'M' and 'U' monogram. The shield is flanked by two crossed keys (the keys of St. Peter) and topped by a crown. Below the shield is a banner with the Latin motto 'AD VERVM DVCT'.
 
-Coat of arms of the University of Coimbra, featuring a shield with a star and the motto 'AD VERVM DVICIT'.
+Coat of arms of the University of São Paulo (USP)
 
 {25}------------------------------------------------
-
-<!-- IMAGE_DESCRIPTION: datalab-2f49752384f0d40dcfa439810d5ad58e_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Coat of arms of the University of Coimbra, featuring a shield with a star and the motto 'AD VERVM DVICIT'.
-<!-- /IMAGE_DESCRIPTION -->
 ### Exercício 2: MT Universal
 
 - 1 Descreva como a MT Universal  $U$  verifica se  $\langle M \rangle$  é uma codificação válida de MT.
 - 2 Se  $M$  tem  $n$  estados e alfabeto de tamanho  $k$ , quantas transições  $M$  pode ter no máximo?
 - 3 Se  $U$  usa 3 fitas e cada passo de  $M$  é simulado em tempo proporcional ao tamanho de  $\langle M \rangle$ , qual a complexidade de  $U$  para simular  $t$  passos de  $M$ ?
 - 4 Explique por que  $U$  não pode ser um decisor (sempre parar).
+
+The image shows the coat of arms of the University of São Paulo (USP). It features a central shield with a white background and a pattern of green pine trees. Above the shield is a crown. On either side of the shield are two figures, likely representing the university's history or values. Below the shield is a banner with the Latin motto 'AD VERVM DVCT'.
+
+Coat of arms of the University of São Paulo (USP)
 
 {26}------------------------------------------------
 ### Exercício 3: Indecidibilidade
@@ -536,39 +564,30 @@ Dica: reduza de  $A_{TM}$ .
 - 3 Prove que  $\{e : \varphi_e \text{ é função constante}\}$  é indecidível.  
 Dica: use o Teorema de Rice.
 
-The image is a watermark of the University of Coimbra seal. It features a shield with a star in the center, surrounded by four quadrants containing various heraldic symbols. Above the shield is a crown, and below it is a ribbon with the Latin motto "AD VERVM DVOCIT". The entire seal is rendered in a light gray, semi-transparent style.
+The image shows the coat of arms of the University of São Paulo (USP). It features a shield with a central panel containing a stylized 'M' and 'U' monogram, flanked by two panels with a repeating cross pattern. Above the shield is a crown, and below it is a banner with the Latin motto 'AD VERVM DVCT'.
 
-Watermark of the University of Coimbra seal, featuring a shield with a star and the motto 'AD VERVM DVOCIT'.
+Coat of arms of the University of São Paulo (USP)
 
 {27}------------------------------------------------
-
-<!-- IMAGE_DESCRIPTION: datalab-1695df64fe320e3f81049cfe402c8155_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Watermark of the University of Coimbra seal, featuring a shield with a star and the motto 'AD VERVM DVOCIT'.
-<!-- /IMAGE_DESCRIPTION -->
 ### Exercício 4: Reduções
 
 Prove que as seguintes linguagens são indecidíveis usando reduções:
 
-1  $INFINITE_{TM} = \{\langle M \rangle : L(M) \text{ é infinita}\}$
+- 1  $INFINITE_{TM} = \{\langle M \rangle : L(M) \text{ é infinita}\}$
 
 Dica: reduza de  $A_{TM}$ .
 
-2  $\{\langle M \rangle : M \text{ aceita pelo menos 2 cadeias distintas}\}$
+- 2  $\{\langle M \rangle : M \text{ aceita pelo menos 2 cadeias distintas}\}$
+- 3  $\{\langle M, w \rangle : M \text{ move o cabeçote para a esquerda ao processar } w\}$
+- 4  $\{\langle M \rangle : \text{existe } w \text{ tal que } M \text{ aceita } w \text{ em menos de } |w|^2 \text{ passos}\}$
 
-3  $\{\langle M, w \rangle : M \text{ move o cabeçote para a esquerda ao processar } w\}$
-
-4  $\{\langle M \rangle : \text{existe } w \text{ tal que } M \text{ aceita } w \text{ em menos de } |w|^2 \text{ passos}\}$
-
-The image is a watermark of the University of Coimbra's coat of arms. It features a shield with a star at the top and a banner at the bottom with the Latin motto "AD VERVM DVOCIT". The shield is flanked by two figures, and the entire emblem is rendered in a light gray, semi-transparent style.
-
-Watermark of the University of Coimbra crest, featuring a shield with a star and the motto 'AD VERVM DVOCIT'.
+Faint watermark of the University of Coimbra crest, featuring a shield with a cross and stars, topped by a crown and surrounded by a banner reading 'AD VERVM DVCIT'.
 
 {28}------------------------------------------------
 
-<!-- IMAGE_DESCRIPTION: datalab-ae83f54db5532eefc57d2e11a76e56d9_img.jpg -->
+<!-- IMAGE_DESCRIPTION: datalab-0b12afcd375d5f967112ceb045230b96_img.jpg -->
 <!-- Tipo: generico -->
-> **[Descrição de imagem]** Watermark of the University of Coimbra crest, featuring a shield with a star and the motto 'AD VERVM DVOCIT'.
+> **[Descrição de imagem]** Faint watermark of the University of Coimbra crest, featuring a shield with a cross and stars, topped by a crown and surrounded by a banner reading 'AD VERVM DVCIT'.
 <!-- /IMAGE_DESCRIPTION -->
 ### Exercício 5: Classificação
 
@@ -583,16 +602,11 @@ Classifique cada linguagem como: (D) Decidível, (R) Reconhecível não-decidív
 
 Justifique cada resposta.
 
-The image is a watermark of the University of Coimbra's coat of arms. It features a shield with a cross and a central emblem, flanked by two smaller shields. Above the shield is a crown, and below it is a ribbon with the Latin motto "AD VERVM DVCT". The entire emblem is rendered in a light gray color.
+The image shows the coat of arms of the University of São Paulo (USP). It features a shield with a central star, flanked by two vertical panels containing stylized trees. Above the shield is a crown and a banner with the motto 'AD VERVM DVCT'. The background of the slide is dark blue, and the coat of arms is rendered in a light, semi-transparent style.
 
-Watermark of the University of Coimbra crest, featuring a shield with a cross and the motto 'AD VERVM DVCT'.
+Coat of arms of the University of São Paulo (USP)
 
 {29}------------------------------------------------
-
-<!-- IMAGE_DESCRIPTION: datalab-aa1ad572ba493829cf259738c9668fe2_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Watermark of the University of Coimbra crest, featuring a shield with a cross and the motto 'AD VERVM DVCT'.
-<!-- /IMAGE_DESCRIPTION -->
 ### Desafio: Teorema de Rice
 ### Teorema de Rice
 
@@ -618,11 +632,11 @@ Dica: Dado  $\langle M, w \rangle$ , construa  $M'$  tal que  $L(M')$  tem  $P$ 
 - [3] Christos H. Papadimitriou. *Computational Complexity*. Addison-Wesley, 1994.
 - [4] Michael Sipser. *Introduction to the Theory of Computation*. 3rd. Cengage Learning, 2012.
 
-Faint background watermark of the University of Cambridge crest, featuring a shield with four lions and a closed book, with the motto 'AD VERVM DVCTIT' below.
+Faint watermark of the University of São Paulo (USP) crest and motto 'AD VERVM DVCT'.
 
 <!-- IMAGE_DESCRIPTION: datalab-011d7628370283ec23a24c1772507121_img.jpg -->
 <!-- Tipo: generico -->
-> **[Descrição de imagem]** Faint background watermark of the University of Cambridge crest, featuring a shield with four lions and a closed book, with the motto 'AD VERVM DVCTIT' below.
+> **[Descrição de imagem]** Faint watermark of the University of São Paulo (USP) crest and motto 'AD VERVM DVCT'.
 <!-- /IMAGE_DESCRIPTION -->
 
 <!-- IMAGE_DESCRIPTION_ORPHANS -->
@@ -630,8 +644,8 @@ Faint background watermark of the University of Cambridge crest, featuring a shi
 
 Descrições preservadas para imagens detectadas no documento, mas sem referência markdown compatível no corpo principal.
 
-<!-- IMAGE_DESCRIPTION: datalab-d3294dc879b451b369c0b06f42e9b39f_img.jpg -->
+<!-- IMAGE_DESCRIPTION: datalab-fa6c61be003dfbb4ca5587e48a71de94_img.jpg -->
 <!-- Tipo: generico -->
-> **[Descrição de imagem]** Logo of PUCRS (Pontifical University of Rio Grande do Sul)
+> **[Descrição de imagem]** Logo of PUCRS (Pontifícia Universidade Católica do Rio Grande do Sul)
 <!-- /IMAGE_DESCRIPTION -->
 <!-- /IMAGE_DESCRIPTION_ORPHANS -->

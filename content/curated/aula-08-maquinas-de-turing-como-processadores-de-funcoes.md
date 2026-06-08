@@ -21,9 +21,12 @@
   - Independência da Codificação
   - Codificando MTs como Cadeias
   - Motivação
+  - Ideia
   - Exemplo de Codificação
   - Uma Codificação Simples
   - Propriedades da Codificação
+  - Bijeção Parcial
+  - Convenção
 - **Enumeração de MTs**
 - **A Máquina de Turing Universal**
   - Teorema (Turing, 1936)
@@ -33,34 +36,29 @@
   - Programabilidade
   - Auto-Referência
   - Numeração de Gödel
+  - Ideia
   - Função Universal
   - Definição
-- **Teorema da Equivalência**
-  - Teorema
-  - Prova (Esboço)
+  - Teorema da Equivalência
   - A Tese de Church-Turing
-  - Tese (Não é teorema!)
-  - Evidências
   - Outros Modelos Equivalentes
-  - Cálculo Lambda (Church, 1936)
-  - Máquinas de Registradores (RAM)
   - Sistemas de Reescrita
   - Implicações da Equivalência
   - Robustez da Definição
   - Limites Absolutos
   - Fundamentos Sólidos
-- **Funções Computáveis vs. Não-Computáveis**
-  - Funções Computáveis (exemplos)
+  - Funções Computáveis vs. Não-Computáveis
   - Funções Não-Computáveis (exemplos)
 - **Resumo: Equivalências**
   - Todos Caracterizam a Mesma Classe
 - **Exercício 1: Funções Computáveis**
   - Exercício 2: Codificação
   - Exercício 3: MT Universal
-- **Exercício 4: Equivalência de Modelos**
+  - Exercício 4: Equivalência de Modelos
   - Exercício 5: Funções e Linguagens
 - **Desafio: Teorema s-m-n com MTs**
 - **Referências I**
+- **Imagens Curadas**
 
 <!-- EXEC_SUMMARY_END -->
 {0}------------------------------------------------
@@ -71,39 +69,52 @@ Prof. Anderson Roberto Pinheiro Domingues
 
 [anderson.domingues@pucrs.br](mailto:anderson.domingues@pucrs.br)
 
-Aula 08  
+Aula 08
+
 Teoria da Computabilidade e Complexidade  
 Ciência da Computação
 
 1 de abril de 2026
 
-Faint background watermark of the PUCRS coat of arms featuring a shield with trees and a star, and the motto 'AD VERVM DVOCIT'.
+The logo of PUCRS, featuring a shield with a cross and a star, and the text 'PUCRS' below it.
 
-Logo of PUCRS (Pontifical University of Rio Grande do Sul) and Escola Politécnica.
+Logo of PUCRS (Pontifícia Universidade Católica do Rio Grande do Sul)
+
+ESCOLA  
+POLITÉCNICA
 
 {1}------------------------------------------------
 ## Sumário
 
-**1** Máquinas de Turing e Funções
+- 1 Máquinas de Turing e Funções
+- 2 Codificação de Máquinas de Turing
+- 3 Equivalência com Funções Recursivas
+- 4 Exercícios
 
-**2** Codificação de Máquinas de Turing
+The image is a large, light gray watermark of the coat of arms of the University of São Paulo (USP). It features a shield with a central vertical band containing a stylized 'M' and 'U' monogram, flanked by two vertical bands with a repeating cross pattern. A large five-pointed star is at the bottom of the shield. Above the shield is a crown, and on either side are crossed keys. A banner at the bottom reads 'AD VERVM DVCT'.
 
-**3** Equivalência com Funções Recursivas
-
-**4** Exercícios
-
-A large, faint, gray watermark of the coat of arms of the University of Coimbra. The shield features a central crest with a star and a monogram, flanked by two sections with repeating tree-like motifs. The shield is supported by two figures, and a banner at the bottom reads 'AD VERVM DVICIT'.
+Coat of arms of the University of São Paulo (USP)
 
 {2}------------------------------------------------
 
-<!-- IMAGE_DESCRIPTION: datalab-f5f48eb1753d75fb380cf01027a6395d_img.jpg -->
+<!-- IMAGE_DESCRIPTION: datalab-cb00037bd3b3af9720d5551ad2f818dd_img.jpg -->
 <!-- Tipo: generico -->
-> **[Descrição de imagem]** A large, faint, gray watermark of the coat of arms of the University of Coimbra.
+> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
 <!-- /IMAGE_DESCRIPTION -->
 
-<!-- IMAGE_DESCRIPTION: datalab-a4f8ab9085cf6977168da3fa62e04b7e_img.jpg -->
+<!-- IMAGE_DESCRIPTION: datalab-0ab720844e454afef91e5d68f4ab8ad9_img.jpg -->
 <!-- Tipo: generico -->
-> **[Descrição de imagem]** A large, faint, gray watermark of the coat of arms of the University of Coimbra.
+> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
+<!-- /IMAGE_DESCRIPTION -->
+
+<!-- IMAGE_DESCRIPTION: datalab-55fb58e14ec092ccc4fe111de0dc6278_img.jpg -->
+<!-- Tipo: generico -->
+> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
+<!-- /IMAGE_DESCRIPTION -->
+
+<!-- IMAGE_DESCRIPTION: datalab-87d9833379b490461fb3451cf389cb4a_img.jpg -->
+<!-- Tipo: generico -->
+> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
 <!-- /IMAGE_DESCRIPTION -->
 ## Duas Visões de Computação
 ## MT como Reconhecedor de Linguagens
@@ -132,8 +143,8 @@ Uma função parcial  $f : \Sigma^* \rightarrow \Sigma^*$  é **Turing-computáv
 
 Para  $f : \mathbb{N}^k \rightarrow \mathbb{N}$ :
 
-- Entrada:  $(n_1, \dots, n_k)$  codificado como  $\text{bin}(n_1) \# \dots \# \text{bin}(n_k)$
-- Ou em unário:  $1^{n_1} \# \dots \# 1^{n_k}$
+- Entrada:  $(n_1, \dots, n_k)$  codificado como  $\text{bin}(n_1)\# \dots \# \text{bin}(n_k)$
+- Ou em unário:  $1^{n_1}\# \dots \# 1^{n_k}$
 - Saída:  $f(n_1, \dots, n_k)$  na mesma codificação
 
 {4}------------------------------------------------
@@ -202,8 +213,8 @@ Se  $f(w) \uparrow$  ou  $g(f(w)) \uparrow$ , então  $(g \circ f)(w) \uparrow$ 
 Para computar  $f : \mathbb{N}^k \rightarrow \mathbb{N}$ , precisamos codificar  $(n_1, \dots, n_k)$  como uma única cadeia.
 ### Opções de Codificação
 
-- 1 **Separador:**  $\text{bin}(n_1) \# \text{bin}(n_2) \# \dots \# \text{bin}(n_k)$
-- 2 **Unário:**  $1^{n_1} 0 1^{n_2} 0 \dots 0 1^{n_k}$
+- 1 **Separador:**  $\text{bin}(n_1)\# \text{bin}(n_2)\# \dots \# \text{bin}(n_k)$
+- 2 **Unário:**  $1^{n_1}01^{n_2}0 \dots 01^{n_k}$
 - 3 **Função de pareamento:** usar  $\langle n_1, n_2 \rangle$  recursivamente
 ### Independência da Codificação
 
@@ -214,7 +225,7 @@ Diferentes codificações “razoáveis” resultam na mesma classe de funções
 ### Motivação
 
 Para estudar MTs “sobre” MTs (como a MT Universal), precisamos representar MTs como cadeias.
-#### Ideia
+### Ideia
 
 Uma MT  $M = (Q, \Sigma, \Gamma, \delta, q_0, q_{acc}, q_{rej})$  é um objeto finito:
 
@@ -237,11 +248,11 @@ Assuma alfabeto binário para a codificação.
 
 - Estados:  $q_i$  codificado como  $0^{i+1}$
 - Símbolos de  $\Gamma$ :  $a_j$  codificado como  $0^{j+1}$
-- Direções:  $L = 0$ ,  $R = 1$
+- Direções:  $L = 0, R = 1$
 - Transição  $\delta(q_i, a_j) = (q_k, a_l, D)$ :  
 codificada como  $0^{i+1}10^{j+1}10^{k+1}10^{l+1}1D$
 - Transições separadas por 11
-- MT completa:  $111\text{transições}111$
+- MT completa:  $111transições111$
 #### Observação
 
 A codificação específica não importa muito, o importante é que:
@@ -251,16 +262,16 @@ A codificação específica não importa muito, o importante é que:
 
 {10}------------------------------------------------
 ### Propriedades da Codificação
-#### Bijecção Parcial
+### Bijeção Parcial
 
 Nem toda cadeia é uma codificação válida de MT.
 
 Seja  $TM = \{\langle M \rangle : M \text{ é uma MT válida}\}$ .
 
-$TM$  é decidível (podemos verificar se uma cadeia é codificação válida).
-#### Convenção
+TM é decidível (podemos verificar se uma cadeia é codificação válida).
+### Convenção
 
-Quando uma MT recebe entrada  $\langle M \rangle$  que não é codificação válida, convencionaos que ela rejeita.
+Quando uma MT recebe entrada  $\langle M \rangle$  que não é codificação válida, convencionamos que ela rejeita.
 ## Enumeração de MTs
 
 Como  $TM \subseteq \{0, 1\}^*$  e  $\{0, 1\}^*$  é enumerável, o conjunto de todas as MTs é **enumerável**.
@@ -307,7 +318,8 @@ $U$  é um **interpretador**: um programa que executa outros programas. É a bas
 ### Consequências da MT Universal
 ### Programabilidade
 
-Um único dispositivo (a MT Universal) pode simular qualquer computação, desde que receba a “descrição do programa”. Esta é a ideia por trás dos computadores modernos!
+Um único dispositivo (a MT Universal) pode simular qualquer computação, desde que receba a “descrição do programa”.  
+Esta é a ideia por trás dos computadores modernos!
 ### Auto-Referência
 
 MTs podem operar sobre descrições de outras MTs (ou de si mesmas).
@@ -320,16 +332,16 @@ Isso leva a resultados profundos:
 
 {14}------------------------------------------------
 ### Numeração de Gödel
-#### Ideia
+### Ideia
 
 Cada MT pode ser associada a um número natural único:
 
-$M \mapsto e$  onde  $e =$  número correspondente a  $\langle M \rangle$
+$$M \mapsto e \text{ onde } e = \text{número correspondente a } \langle M \rangle$$
 #### Notação
 
-- $M_e =$  a MT com número  $e$
-- $\varphi_e =$  a função computada por  $M_e$
-- $W_e = L(M_e) =$  linguagem reconhecida por  $M_e$
+- $M_e$  = a MT com número  $e$
+- $\varphi_e$  = a função computada por  $M_e$
+- $W_e = L(M_e)$  = linguagem reconhecida por  $M_e$
 ### Função Universal
 
 A função universal  $\Phi : \mathbb{N}^2 \rightarrow \mathbb{N}$ :
@@ -344,32 +356,31 @@ $$\Phi(e, x) = \varphi_e(x)$$
 
 As funções  $\mu$ -recursivas (recursivas parciais) são construídas a partir de:
 
-- Funções básicas:  $Z, S, P_i^k$
+- Funções básicas:  $Z$ ,  $S$ ,  $P_i^k$
 - Composição
 - Recursão primitiva
 - Minimização ( $\mu$ )
 #### Pergunta
 
 As funções Turing-computáveis são exatamente as funções recursivas parciais?
-#### Resposta: SIM!
+
+Resposta: SIM!
 
 Este é um dos resultados fundamentais da teoria da computabilidade.
 
 {16}------------------------------------------------
-## Teorema da Equivalência
-### Teorema
+### Teorema da Equivalência
+#### Teorema
 
 Uma função  $f : \mathbb{N}^k \rightarrow \mathbb{N}$  é Turing-computável se e somente se é  $\mu$ -recursiva.
-### Prova (Esboço)
-
-**( $\mu$ -recursiva  $\Rightarrow$  Turing-computável)**
+#### Prova (Esboço)
+##### $(\mu\text{-recursiva} \Rightarrow \text{Turing-computável})$
 
 - Funções básicas são claramente computáveis por MTs
 - Composição: execute MTs em sequência
 - Recursão primitiva: use loop com contador
 - Minimização: busca sequencial (while)
-
-**(Turing-computável  $\Rightarrow$   $\mu$ -recursiva)**
+##### $(\text{Turing-computável} \Rightarrow \mu\text{-recursiva})$
 
 - Codifique configurações de MT como números
 - A função “próxima configuração” é recursiva primitiva
@@ -377,10 +388,10 @@ Uma função  $f : \mathbb{N}^k \rightarrow \mathbb{N}$  é Turing-computável s
 
 {17}------------------------------------------------
 ### A Tese de Church-Turing
-### Tese (Não é teorema!)
+#### Tese (Não é teorema!)
 
 A noção informal de “função efetivamente computável” coincide com a noção formal de “função Turing-computável” (equivalentemente,  $\mu$ -recursiva).
-### Evidências
+#### Evidências
 
 - Todos os modelos de computação propostos são equivalentes:
   - Máquinas de Turing
@@ -393,14 +404,14 @@ A noção informal de “função efetivamente computável” coincide com a no�
 
 {18}------------------------------------------------
 ### Outros Modelos Equivalentes
-### Cálculo Lambda (Church, 1936)
+#### Cálculo Lambda (Church, 1936)
 
 Modelo baseado em funções e aplicação.
 
 - Termos: variáveis,  $\lambda x.M$ ,  $(M N)$
 - Computação:  $\beta$ -redução
 - Base para linguagens funcionais (Lisp, Haskell)
-### Máquinas de Registradores (RAM)
+#### Máquinas de Registradores (RAM)
 
 Modelo próximo a computadores reais:
 
@@ -409,7 +420,7 @@ Modelo próximo a computadores reais:
 - Base para linguagens imperativas
 ### Sistemas de Reescrita
 
-Gramáticas irregulares (Tipo 0) geram exatamente linguagens r.e.
+Gramáticas irrestritas (Tipo 0) geram exatamente linguagens r.e.
 
 {19}------------------------------------------------
 ### Implicações da Equivalência
@@ -428,8 +439,8 @@ Podemos usar o modelo mais conveniente para cada situação:
 - RAM para análise de complexidade
 
 {20}------------------------------------------------
-## Funções Computáveis vs. Não-Computáveis
-### Funções Computáveis (exemplos)
+### Funções Computáveis vs. Não-Computáveis
+#### Funções Computáveis (exemplos)
 
 - Aritmética:  $+$ ,  $\times$ ,  $!$ , primos, gcd
 - Strings: concatenação, reverso, palíndromo
@@ -437,21 +448,23 @@ Podemos usar o modelo mais conveniente para cada situação:
 - Busy Beaver parcial:  $BB'(n) = BB(n)$  se  $n \leq 4$ , indefinida caso contrário
 ### Funções Não-Computáveis (exemplos)
 
-- Busy Beaver:  $BB(n) =$  maior output de MT com  $n$  estados
+- Busy Beaver:  $BB(n)$  = maior output de MT com  $n$  estados
 - Função de Parada:  $h(e, x) = 1$  se  $\varphi_e(x) \downarrow$ , 0 caso contrário
-- Kolmogorov:  $K(x) =$  menor programa que gera  $x$
+- Kolmogorov:  $K(x)$  = menor programa que gera  $x$
 - Função característica de qualquer conjunto r.e. não-decidível
 
 {21}------------------------------------------------
 ## Resumo: Equivalências
 
-The diagram illustrates the equivalence of four computational models. It consists of four rounded rectangular boxes arranged in a 2x2 grid. The top-left box is labeled 'Máquinas de Turing', the top-right is 'Funções  $\mu$ -recursivas', the bottom-left is 'Cálculo Lambda', and the bottom-right is 'Gramáticas Tipo 0'. Bidirectional arrows connect every box to every other box, including self-loops on each box, indicating that all four models are equivalent to each other.
+```
+graph TD; MT[Máquinas de Turing] <--> FR[Funções $\mu$-recursivas]; CL[Cálculo Lambda] <--> GT[Gramáticas Tipo 0]; MT <--> CL; MT <--> GT; FR <--> CL; FR <--> GT;
+```
 
-Diagram showing the equivalence between Turing Machines, $\mu$-recursive functions, Lambda Calculus, and Type 0 Grammars.
+Diagram showing the equivalence between four computational models: Máquinas de Turing, Funções $\mu$-recursivas, Cálculo Lambda, and Gramáticas Tipo 0. All four models are interconnected with double-headed arrows, indicating that they all characterize the same class of computable functions.
 
 <!-- IMAGE_DESCRIPTION: datalab-7d3d5fb5d09c0cd35a9d637be241651e_img.jpg -->
 <!-- Tipo: generico -->
-> **[Descrição de imagem]** Diagram showing the equivalence between Turing Machines, μ-recursive functions, Lambda Calculus, and Type 0 Grammars.
+> **[Descrição de imagem]** Diagram showing the equivalence between four computational models: Máquinas de Turing, Funções μ-recursivas, Cálculo Lambda, and Gramáticas Tipo 0.
 <!-- /IMAGE_DESCRIPTION -->
 ### Todos Caracterizam a Mesma Classe
 
@@ -467,36 +480,25 @@ Mostre que as seguintes funções são Turing-computáveis, descrevendo (em alto
 - 1  $f(n) = 2n$  (dobro, em unário)
 - 2  $g(n) = \lfloor n/2 \rfloor$  (metade inteira)
 - 3  $h(m, n) = m^n$  (exponenciação)
-- 4  $p(n) = n\text{-ésimo número primo}$
-- 5  $\gcd(m, n) = \text{máximo divisor comum}$
+- 4  $p(n)$  =  $n$ -ésimo número primo
+- 5  $\text{gcd}(m, n)$  = máximo divisor comum
 
-The image is a faint, stylized watermark of the coat of arms of the University of Coimbra. It features a shield with a star at the bottom and a crest on top. The motto 'AD VERVM DVOCIT' is written in a banner at the bottom.
+The image shows the coat of arms of the University of São Paulo (USP). It features a shield with a central star, flanked by two vertical panels with a cross pattern. Above the shield is a crown and a banner with the motto 'AD VERVM DVCT'.
 
-Coat of arms of the University of Coimbra, featuring a shield with a star and the motto 'AD VERVM DVOCIT'.
+Coat of arms of the University of São Paulo (USP)
 
 {23}------------------------------------------------
-
-<!-- IMAGE_DESCRIPTION: datalab-84a1d09fb489061482111515543b60dc_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Faint background watermark of the PUCRS coat of arms featuring a shield with trees and a star, and the motto 'AD VERVM DVOCIT'.
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-0ab720844e454afef91e5d68f4ab8ad9_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Coat of arms of the University of Coimbra, featuring a shield with a star and the motto 'AD VERVM DVOCIT'.
-<!-- /IMAGE_DESCRIPTION -->
 ### Exercício 2: Codificação
 
-- 1 Dada a MT com estados  $\{q_0, q_1, q_{acc}\}$ , alfabeto  $\{0, 1, \sqcup\}$ , e transições:
-
+- 1** Dada a MT com estados  $\{q_0, q_1, q_{acc}\}$ , alfabeto  $\{0, 1, \sqcup\}$ , e transições:
 - $\delta(q_0, 0) = (q_1, 1, R)$
-- $\delta(q_1, 1) = (q_0, 0, L)$
-- $\delta(q_0, \sqcup) = (q_{acc}, \sqcup, R)$
+  - $\delta(q_1, 1) = (q_0, 0, L)$
+  - $\delta(q_0, \sqcup) = (q_{acc}, \sqcup, R)$
 
 Escreva uma possível codificação  $\langle M \rangle$  usando a convenção da aula.
 
-- 2 Dada a cadeia  $\langle M \rangle$ , como você verifica se ela é uma codificação válida de MT?
-- 3 Por que a verificação de validade de  $\langle M \rangle$  é decidível?
+- 2** Dada a cadeia  $\langle M \rangle$ , como você verifica se ela é uma codificação válida de MT?
+- 3** Por que a verificação de validade de  $\langle M \rangle$  é decidível?
 
 {24}------------------------------------------------
 ### Exercício 3: MT Universal
@@ -506,13 +508,24 @@ Escreva uma possível codificação  $\langle M \rangle$  usando a convenção d
 - 3 Se  $U(\langle M, w \rangle)$  aceita, o que podemos concluir sobre  $M$  e  $w$ ?
 - 4 Descreva o que acontece quando executamos  $U(\langle U, \langle U, w \rangle \rangle)$  — uma MT Universal simulando ela mesma.
 
+Faint watermark of the University of São Paulo (USP) coat of arms, featuring a shield with a star and the motto 'AD VERVM DVCT'.
+
 {25}------------------------------------------------
-## Exercício 4: Equivalência de Modelos
+
+<!-- IMAGE_DESCRIPTION: datalab-03d99823cac9b0c49db95d65dc155d8c_img.jpg -->
+<!-- Tipo: generico -->
+> **[Descrição de imagem]** Faint watermark of the University of São Paulo (USP) coat of arms, featuring a shield with a star and the motto 'AD VERVM DVCT'.
+<!-- /IMAGE_DESCRIPTION -->
+### Exercício 4: Equivalência de Modelos
 
 - 1 Mostre como simular a função básica  $S(n) = n + 1$  usando uma MT (em unário).
 - 2 Mostre como simular composição  $f = g \circ h$  com MTs, dadas MTs para  $g$  e  $h$ .
 - 3 Mostre como simular minimização  $f(x) = \mu y[g(x, y) = 0]$  com uma MT, dada MT para  $g$ .
 - 4 Por que a simulação de recursão primitiva não introduz loops infinitos, mas a de minimização pode?
+
+The image shows the coat of arms of the University of São Paulo (USP). It features a central shield with a white background and a pattern of green pine trees. Above the shield is a crown, and on either side are two crossed keys. Below the shield is a blue ribbon with the Latin motto 'AD VERVM DVCT'.
+
+Coat of arms of the University of São Paulo (USP)
 
 {26}------------------------------------------------
 ### Exercício 5: Funções e Linguagens
@@ -521,6 +534,10 @@ Escreva uma possível codificação  $\langle M \rangle$  usando a convenção d
 - 2 Se  $L$  é decidível, mostre que sua função característica  $\chi_L$  é computável total.
 - 3 Se  $f : \mathbb{N} \rightarrow \mathbb{N}$  é computável e  $A = \{x : f(x) = 0\}$ , o que podemos afirmar sobre  $A$ ? É sempre decidível? É sempre reconhecível?
 - 4 Dê exemplo de função  $f$  computável tal que  $\{x : f(x) = 0\}$  é reconhecível mas não decidível.
+
+The image shows the coat of arms of the University of São Paulo (USP). It features a central shield with a white background and a pattern of green pine trees. Above the shield is a crown. On either side of the shield are two figures, likely representing the university's founding figures. Below the shield is a banner with the Latin motto 'AD VERVM DVCT'.
+
+Coat of arms of the University of São Paulo (USP)
 
 {27}------------------------------------------------
 ## Desafio: Teorema s-m-n com MTs
@@ -538,7 +555,14 @@ $$\varphi_{s(e,y)}(x) = \varphi_e(x, y)$$
 {28}------------------------------------------------
 ## Referências I
 
-A large, faint, gray watermark of the coat of arms of the University of Coimbra. The shield features a central crest with the letters 'AM' and a star, flanked by two sections with repeating tree-like motifs. The shield is supported by two figures, and a ribbon at the bottom bears the Latin motto 'AD VERVM DVICIT'.
+The image shows the coat of arms of Brazil, which is a heraldic shield. The shield is divided into three sections: a central section with a five-pointed star and a banner below it, and two side sections with a pattern of small crosses. Above the shield is a crown and two crossed keys. The banner at the bottom of the shield contains the Latin motto "AD VERVM DVCIT".
+
+Coat of arms of Brazil
+
+<!-- IMAGE_DESCRIPTION: datalab-a4f8ab9085cf6977168da3fa62e04b7e_img.jpg -->
+<!-- Tipo: generico -->
+> **[Descrição de imagem]** Coat of arms of Brazil
+<!-- /IMAGE_DESCRIPTION -->
 
 <!-- IMAGE_DESCRIPTION_ORPHANS -->
 ## Imagens Curadas
@@ -547,6 +571,6 @@ Descrições preservadas para imagens detectadas no documento, mas sem referênc
 
 <!-- IMAGE_DESCRIPTION: datalab-1d7527f4316cfe2d342b08d1653d1592_img.jpg -->
 <!-- Tipo: generico -->
-> **[Descrição de imagem]** Logo of PUCRS (Pontifical University of Rio Grande do Sul) and Escola Politécnica.
+> **[Descrição de imagem]** Logo of PUCRS (Pontifícia Universidade Católica do Rio Grande do Sul)
 <!-- /IMAGE_DESCRIPTION -->
 <!-- /IMAGE_DESCRIPTION_ORPHANS -->

@@ -1,0 +1,17 @@
+{
+ "version": 1,
+ "blocks": {
+  "bloco-05": {
+   "manual_kind_override": "review"
+  },
+  "bloco-10": {
+   "manual_unit_slug": "unidade-03-problemas-indecidiveis"
+  },
+  "bloco-11": {
+   "manual_unit_slug": "unidade-03-problemas-indecidiveis"
+  },
+  "bloco-12": {
+   "manual_unit_slug": "unidade-03-problemas-indecidiveis"
+  }
+ }
+}

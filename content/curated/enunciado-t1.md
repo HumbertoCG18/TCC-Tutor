@@ -1,3 +1,5 @@
+{0}------------------------------------------------
+
 Nome: \_\_\_\_\_ Data: \_\_\_\_\_
 
 # Parte 1 - Teoria de Conjuntos
@@ -25,6 +27,6 @@ Nome: \_\_\_\_\_ Data: \_\_\_\_\_
 
 13. Diferencie função total de função parcial.
 14. Explique o significado das notações  $\varphi_e(x) \downarrow$  e  $\varphi_e(x) \uparrow$ .
-15. Explique por que o operador de minimização ( $\mu$ ) pode gerar funções parciais.
+15. Explique porque o operador de minimização ( $\mu$ ) pode gerar funções parciais.
 16. Calcule  $\mu y [y^2 \geq 20]$  e justifique o resultado encontrado.
 17. Para cada predicado abaixo, diga se a minimização é regular ou não-regular. Justifique cada classificação. (a)  $P_1(x, y) : y \geq x$ ; (b)  $P_2(x, y) : 2y = x + 1$

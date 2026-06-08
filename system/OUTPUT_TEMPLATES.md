@@ -7,23 +7,21 @@
 ```
 ## [Nome do conceito]
 
-**Por que existe:** [contexto em 1-2 frases]
+**Contexto:** [contexto em 1-2 frases]
 
 **Intuição:** [analogia ou imagem mental]
 
-**Definição formal:**
-[definição precisa, com LaTeX se necessário]
+**Definição:** [definição precisa, com LaTeX se necessário]
 
-**Exemplo mínimo:**
-[exemplo mais simples possível]
+**Exemplo mínimo:** [exemplo mais simples possível]
 
-**Como aparece na disciplina:**
-[conexão com o conteúdo do curso]
+**Aplicação:** [conexão com o conteúdo do curso]
 
-**Cuidado com:**
-[erro mais comum]
+**Erros comuns:** [erro mais comum]
 
-**Agora você:** [pergunta para o aluno aplicar o conceito]
+**Exercício guiado:** [pergunta para o aluno aplicar]
+
+**Resumo:** [uma frase que captura a essência]
 
 *Fonte: [arquivo de origem]*
 ```

@@ -2,21 +2,20 @@
 ## Sumário
 > *Leia antes de varrer o arquivo. Vá direto à seção relevante para a pergunta do aluno.*
 
-- **Sumário**
 - **Kurt Gödel (1906–1978)**
   - Impacto
-  - O Programa de Hilbert (Revisitado)
+- **O Programa de Hilbert (Revisitado)**
   - Objetivo de Hilbert
   - Desfechos
 - **Sistemas Formais**
   - Definição
   - Exemplo: Aritmética de Peano (PA)
-  - Indução
+  - Axiomas de Peano
   - Propriedades de Sistemas Formais
   - Definições
   - Relação
   - Números de Gödel
-  - Idea Central
+  - Ideia Central
   - Esquema de Codificação
   - Consequência
   - Autoreferência via Numeração
@@ -82,6 +81,7 @@
 - **Referências I**
 - **Referências II**
 - **Referências III**
+- **Imagens Curadas**
 
 <!-- EXEC_SUMMARY_END -->
 {0}------------------------------------------------
@@ -92,32 +92,20 @@ Prof. Anderson Roberto Pinheiro Domingues
 
 [anderson.domingues@pucrs.br](mailto:anderson.domingues@pucrs.br)
 
-Aula 15  
+Aula 15
+
 Teoria da Computabilidade e Complexidade  
 Ciência da Computação
 
 28 de abril de 2026
 
-The logo of the Pontifical Catholic University of Rio Grande do Sul (PUCRS) Escola Politécnica. It features a crest with a shield, a cross, and a sun, with the text "PUCRS" below it. To the right of the crest, the words "ESCOLA POLITÉCNICA" are written in a bold, sans-serif font.
+The logo of the Escola Politécnica of PUCRS, featuring a crest with a star and the text "PUCRS" and "ESCOLA POLITÉCNICA".
 
-Logo of PUCRS Escola Politécnica
+Logo of ESCOLA POLITÉCNICA PUCRS
 
 {1}------------------------------------------------
-## Sumário
-
-- 1** Contexto Histórico
-- 2** Primeiro Teorema da Incompletude
-- 3** Segundo Teorema da Incompletude
-- 4** Exercícios
-
-A faint, stylized watermark of the coat of arms of the University of Coimbra. It features a shield with a central crest and two side panels decorated with pine-like trees. Above the shield is a crown, and below it is a ribbon with the Latin motto 'AD VERVM DVOCIT'.
 
 {2}------------------------------------------------
-
-<!-- IMAGE_DESCRIPTION: datalab-8c378a184b5ae4d1605cb74d7b7a7e3f_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** A faint, stylized watermark of the coat of arms of the University of Coimbra.
-<!-- /IMAGE_DESCRIPTION -->
 ## Kurt Gödel (1906–1978)
 
 - Lógico austro-americano, nascido em **1906** em Brno
@@ -130,17 +118,17 @@ A faint, stylized watermark of the coat of arms of the University of Coimbra. It
 
 Os resultados de Gödel redefiniram os limites da formalização matemática no século XX.
 
-A black and white portrait of Kurt Gödel. He is an older man with short, dark hair, wearing round-rimmed glasses, a white shirt, a dark tie, and a dark suit jacket. He is looking directly at the camera with a neutral expression. The background is slightly blurred, showing what appears to be a building with windows.
+A black and white portrait of Kurt Gödel. He is an older man with short, light-colored hair, wearing round-rimmed glasses. He is dressed in a dark suit jacket over a light-colored shirt and a dark tie. He is looking directly at the camera with a serious expression. The background is slightly out of focus, showing what appears to be a library or study with bookshelves.
 
-Black and white portrait of Kurt Gödel, wearing glasses and a suit, standing in front of a building.
+Black and white portrait of Kurt Gödel, an older man with glasses, wearing a suit and tie, standing in front of a bookshelf.
 
 {3}------------------------------------------------
 
 <!-- IMAGE_DESCRIPTION: datalab-9d71890acd754a1325e9415e44a7dacb_img.jpg -->
 <!-- Tipo: generico -->
-> **[Descrição de imagem]** Black and white portrait of Kurt Gödel, wearing glasses and a suit, standing in front of a building.
+> **[Descrição de imagem]** Black and white portrait of Kurt Gödel, an older man with glasses, wearing a suit and tie, standing in front of a bookshelf.
 <!-- /IMAGE_DESCRIPTION -->
-### O Programa de Hilbert (Revisitado)
+## O Programa de Hilbert (Revisitado)
 ### Objetivo de Hilbert
 
 Estabelecer fundamentos sólidos para **toda** a matemática:
@@ -170,16 +158,16 @@ Um **sistema formal**  $S$  consiste de:
 - Regras: modus ponens, generalização
 
 {5}------------------------------------------------
-#### Axiomas de Peano
+### Axiomas de Peano
 #### Axiomas Básicos
 
 - 1  $\forall x : \neg(S(x) = 0)$  (zero não é sucessor)
 - 2  $\forall x \forall y : S(x) = S(y) \rightarrow x = y$  (sucessor é injetivo)
 - 3  $\forall x : x + 0 = x$  (neutro da adição)
-- 4  $\forall x \forall y : x + S(y) = S(x + y)$  (definição recursiva de  $+$ )
+- 4  $\forall x \forall y : x + S(y) = S(x + y)$  (definição recursiva de +)
 - 5  $\forall x : x \cdot 0 = 0$  (elemento absorvente)
-- 6  $\forall x \forall y : x \cdot S(y) = x \cdot y + x$  (definição recursiva de  $\cdot$ )
-### Indução
+- 6  $\forall x \forall y : x \cdot S(y) = x \cdot y + x$  (definição recursiva de ·)
+#### Indução
 
 Para cada fórmula  $\phi(x)$ :
 
@@ -200,7 +188,7 @@ $\omega$ -consistência  $\Rightarrow$  consistência (mas não o contrário)
 
 {7}------------------------------------------------
 ### Números de Gödel
-### Idea Central
+### Ideia Central
 
 Codificar fórmulas, provas e teoremas como **números naturais**. Isso permite que a aritmética possa “referenciar a si mesma”.
 ### Esquema de Codificação
@@ -263,7 +251,7 @@ $$G \leftrightarrow \neg Prov_S(\#G)$$
 
 Para qualquer fórmula  $\phi(x)$ , existe uma sentença  $\psi$  tal que:
 
-$$S \vdash \psi \leftrightarrow \phi(\#\psi)$$
+$$S \vdash \psi \leftrightarrow \phi(\# \psi)$$
 
 {11}------------------------------------------------
 ### Prova do Primeiro Teorema
@@ -291,7 +279,7 @@ Lembre:  $G \leftrightarrow \neg \text{Prov}_S(\#G)$ , i.e.,  $G$  diz “Eu nã
 
 Se  $S$  é  $\omega$ -consistente, então:
 
-$$S \not\vdash G \quad e \quad S \not\vdash \neg G$$
+$$S \not\vdash G \quad \text{e} \quad S \not\vdash \neg G$$
 
 $G$  é **indecidível** em  $S$ , mas **verdadeira** (pois realmente não é provável).
 
@@ -305,7 +293,7 @@ O primeiro teorema de Gödel vale assumindo apenas **consistência** (não preci
 Rosser construiu uma sentença  $R$  mais engenhosa, que permite obter incompletude apenas com consistência simples.
 ### Sentença de Rosser
 
-“Se existe prova de mim, então existe prova menor de minha negação.”
+"Se existe prova de mim, então existe prova menor de minha negação."
 
 {14}------------------------------------------------
 ### Implicações do Primeiro Teorema
@@ -336,9 +324,9 @@ O conjunto das sentenças verdadeiras da aritmética ( $Th(\mathbb{N})$ ) não �
 - Se  $Th(\mathbb{N})$  fosse reconhecível,  $HALT$  seria decidível
 ### Hierarquia
 
-$Prováveis \subset Verdadeiros \subset Sentenças$
+Prováveis  $\subset$  Verdadeiros  $\subset$  Sentenças
 
-i.e. a diferença “Verdadeiros – Prováveis” é não-vazia!
+i.e. a diferença “Verdadeiros — Prováveis” é não-vazia!
 
 {16}------------------------------------------------
 ## Enunciado do Segundo Teorema
@@ -348,7 +336,7 @@ Para qualquer sistema formal  $S$  que seja:
 
 - **Consistente**
 - **Efetivamente axiomatizável**
-- **Capaz de expressar aritmética básica**
+- Capaz de expressar **aritmética básica**
 
 **$S$  não pode provar sua própria consistência.**
 
@@ -358,7 +346,8 @@ onde  $Con(S)$  é a fórmula aritmética que expressa “ $S$  é consistente�
 
 {17}------------------------------------------------
 ### Consistência: Formulação
-#### O que significa "S é consistente"?
+
+O que significa “ $S$  é consistente”?
 
 - Não existe fórmula  $\phi$  tal que  $S \vdash \phi$  e  $S \vdash \neg\phi$
 - Equivalentemente:  $S \not\vdash (0 = 1)$
@@ -378,26 +367,19 @@ Se  $S$  pudesse provar  $Con(S)$ , então  $S$  poderia provar que  $G$  (sente
 
 Mostrar que dentro de  $S$ :
 
-$$S \vdash Con(S) \rightarrow G$$
+$$S \vdash \text{Con}(S) \rightarrow G$$
 
 onde  $G$  é a sentença de Gödel (“Eu não sou provável”).
 #### Argumento
 
 - 1 Se  $S$  é consistente, então  $G$  é verdadeira (pelo primeiro teorema)
 - 2 Esta implicação pode ser **formalizada** dentro de  $S$
-- 3 Logo,  $S \vdash Con(S) \rightarrow G$
-- 4 Se  $S \vdash Con(S)$ , então  $S \vdash G$
+- 3 Logo,  $S \vdash \text{Con}(S) \rightarrow G$
+- 4 Se  $S \vdash \text{Con}(S)$ , então  $S \vdash G$
 - 5 Mas sabemos que  $S \not\vdash G$  (primeiro teorema)
-- 6 Portanto,  $S \not\vdash Con(S)$
-
-Faint background illustration of a person holding a ruler and a compass, with the text 'VIT' visible.
+- 6 Portanto,  $S \not\vdash \text{Con}(S)$
 
 {19}------------------------------------------------
-
-<!-- IMAGE_DESCRIPTION: datalab-b4a46a8e2fc8816230ce027b03e4899b_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Faint background illustration of a person holding a ruler and a compass, with the text 'VIT' visible.
-<!-- /IMAGE_DESCRIPTION -->
 ### Implicações
 ### O Segundo Teorema
 
@@ -413,14 +395,7 @@ Hilbert queria provar consistência da matemática usando métodos “finitário
 
 PA não prova  $Con(PA)$ , mas ZFC (teoria de conjuntos) pode.
 
-Faint background illustration of a classical figure holding a staff, with the text 'OV CIT' visible vertically.
-
 {20}------------------------------------------------
-
-<!-- IMAGE_DESCRIPTION: datalab-a7b0ce8ddbb18a80bb6f57334023059d_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Faint background illustration of a classical figure holding a staff, with the text 'OV CIT' visible vertically.
-<!-- /IMAGE_DESCRIPTION -->
 ### Provas de Consistência Conhecidas
 ### Consistência de PA
 
@@ -431,27 +406,22 @@ Gentzen (1936) provou a consistência de PA usando:
 - Confirma o segundo teorema (precisa de sistema mais forte)
 ### Hierarquia de Teorias
 
-Diagram illustrating the hierarchy of theories and the proofs of their consistency:
+Diagrama hierárquico de teorias matemáticas:
 
-$\vdots$
+- PA
+- $\uparrow$ prova  $Con(PA)$
+- ZFC
+- $\uparrow$ prova  $Con(ZFC)$
+- ZFC + Grandes Cardinais
+- $\vdots$
 
-ZFC + Grandes Cardinais
-
-$\uparrow$  prova  $Con(ZFC)$
-
-ZFC
-
-$\uparrow$  prova  $Con(PA)$
-
-PA
-
-Diagram showing the hierarchy of theories: PA at the bottom, ZFC above it, and ZFC + Grandes Cardinais at the top. Arrows indicate the proof of consistency for each level.
+Diagrama hierárquico de teorias matemáticas mostrando a relação de consistência entre elas.
 
 {21}------------------------------------------------
 
 <!-- IMAGE_DESCRIPTION: datalab-7ede87328f6b696dcffa65ebc4570cc8_img.jpg -->
 <!-- Tipo: generico -->
-> **[Descrição de imagem]** Diagram showing the hierarchy of theories: PA at the bottom, ZFC above it, and ZFC + Grandes Cardinais at the top.
+> **[Descrição de imagem]** Diagrama hierárquico de teorias matemáticas mostrando a relação de consistência entre elas.
 <!-- /IMAGE_DESCRIPTION -->
 ### Relação entre os Teoremas
 ### Conexão
@@ -470,7 +440,7 @@ Ambos os teoremas derivam da **autoreferência**: capacidade de um sistema “fa
 ### Teoremas de Gödel e Computação
 ### Paralelos
 
-| <b>Lógica (Gödel)</b> | <b>Computação (Turing)</b>      |
+| Lógica (Gödel)        | Computação (Turing)             |
 |-----------------------|---------------------------------|
 | Sentença de Gödel $G$ | Máquina $D$ (diagonal)          |
 | Numeração de Gödel    | Codificação $\langle M \rangle$ |
@@ -504,16 +474,7 @@ Tal sistema não pode provar sua própria consistência.
 - 3 Por que a numeração de Gödel é essencial para a prova dos teoremas de incompletude?
 - 4 Qual é a diferença entre “verdadeiro” e “provável” no contexto dos teoremas de Gödel?
 
-A faint, large watermark of the University of Coimbra seal is visible in the background. It features a shield with a star and the motto 'AD VERVM DVCT' on a banner below.
-
-Faint watermark of the University of Coimbra seal, featuring a shield with a star and the motto 'AD VERVM DVCT'.
-
 {25}------------------------------------------------
-
-<!-- IMAGE_DESCRIPTION: datalab-f770ac8927cbf6aa997de6e0307c9783_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Faint watermark of the University of Coimbra seal, featuring a shield with a star and the motto 'AD VERVM DVCT'.
-<!-- /IMAGE_DESCRIPTION -->
 ### Exercício 2: A Sentença de Gödel
 
 - 1 A sentença de Gödel  $G$  afirma “Eu não sou provável em  $S$ ”. Se  $S$  é consistente,  $G$  é verdadeira ou falsa? Justifique.
@@ -532,21 +493,12 @@ Faint watermark of the University of Coimbra seal, featuring a shield with a sta
 {27}------------------------------------------------
 ## Exercício 4: Segundo Teorema
 
-- 1 Explique informalmente por que  $S \vdash Con(S) \rightarrow G$ .
-- 2 Se PA não pode provar  $Con(PA)$ , como sabemos que PA é consistente?
-- 3 ZFC pode provar  $Con(PA)$ . Isso contradiz o segundo teorema? Explique.
-- 4 Se alguém encontrar uma prova de  $Con(ZFC)$  dentro de ZFC, o que isso implicaria sobre ZFC?
-
-A faint, large watermark of the coat of arms of the University of Coimbra is visible in the background. It features a shield with a star and the motto 'AD VERVM DVOCIT' (To the truth it calls) written on a banner below it. The shield is flanked by two figures, and the entire emblem is rendered in a light gray color.
-
-Faint watermark of the coat of arms of the University of Coimbra, featuring a shield with a star and the motto 'AD VERVM DVOCIT'.
+- 1 Explique informalmente por que  $S \vdash \text{Con}(S) \rightarrow G$ .
+- 2 Se PA não pode provar  $\text{Con}(PA)$ , como sabemos que PA é consistente?
+- 3 ZFC pode provar  $\text{Con}(PA)$ . Isso contradiz o segundo teorema? Explique.
+- 4 Se alguém encontrar uma prova de  $\text{Con}(ZFC)$  dentro de ZFC, o que isso implicaria sobre ZFC?
 
 {28}------------------------------------------------
-
-<!-- IMAGE_DESCRIPTION: datalab-e3c1d325b828c44049a7ac37e5b34603_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Faint watermark of the coat of arms of the University of Coimbra, featuring a shield with a star and the motto 'AD VERVM DVOCIT'.
-<!-- /IMAGE_DESCRIPTION -->
 ### Exercício 5: Relação com Computabilidade
 
 - 1 Compare a sentença de Gödel  $G$  com a máquina diagonal  $D$  na prova da indecidibilidade do Problema da Parada.
@@ -554,39 +506,23 @@ Faint watermark of the coat of arms of the University of Coimbra, featuring a sh
 - 3 O conjunto de sentenças **prováveis** em PA é decidível? É reconhecível?
 - 4 Relacione o Teorema de Rice com o primeiro teorema de incompletude.
 
-A faint, large watermark of the University of Coimbra seal is visible in the background. It features a shield with a cross and other heraldic elements, topped with a crown. Below the shield is a ribbon with the Latin motto 'AD VERVM DVOCIT'.
-
-Faint watermark of the University of Coimbra seal with the motto 'AD VERVM DVOCIT'.
-
 {29}------------------------------------------------
-
-<!-- IMAGE_DESCRIPTION: datalab-b82dcf86cd51c5066a9abaa9c8f6c0f9_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Faint watermark of the University of Coimbra seal with the motto 'AD VERVM DVOCIT'.
-<!-- /IMAGE_DESCRIPTION -->
 ### Exercício 6: Questões Filosóficas
 
-- 1 Os teoremas de Gödel mostram que existem verdades matemáticas que humanos nunca poderão conhecer?
-- 2 Alguns argumentam que os teoremas de Gödel mostram que a mente humana é superior a máquinas. Critique este argumento.
-- 3 O segundo teorema implica que nunca teremos certeza absoluta de que a matemática é livre de contradições?
-- 4 Hilbert disse “Wir müssen wissen. Wir werden wissen.” (Devemos saber. Saberemos.) Como os teoremas de Gödel respondem a esta afirmação?
+- 1** Os teoremas de Gödel mostram que existem verdades matemáticas que humanos nunca poderão conhecer?
+- 2** Alguns argumentam que os teoremas de Gödel mostram que a mente humana é superior a máquinas. Critique este argumento.
+- 3** O segundo teorema implica que nunca teremos certeza absoluta de que a matemática é livre de contradições?
+- 4** Hilbert disse “Wir müssen wissen. Wir werden wissen.” (Devemos saber. Saberemos.) Como os teoremas de Gödel respondem a esta afirmação?
 
 {30}------------------------------------------------
 ### Exercício 7: Explorando Limites
 
 - 1** O Teorema da Completude de Gödel (1930) diz que a lógica de primeira ordem é completa. Como isso é compatível com os teoremas de incompletude (1931)?  
 *Dica:* Há uma diferença entre completude da lógica e completude de uma teoria específica.
-- 2** Considere a “teoria verdadeira da aritmética”  $Th(\mathbb{N}) =$  todas as sentenças verdadeiras sobre  $\mathbb{N}$ . Esta teoria é completa? É efetivamente axiomatizável?
+- 2** Considere a “teoria verdadeira da aritmética”  $Th(\mathbb{N})$  = todas as sentenças verdadeiras sobre  $\mathbb{N}$ . Esta teoria é completa? É efetivamente axiomatizável?
 - 3** Por que não podemos “escapar” da incompletude simplesmente adicionando todas as sentenças verdadeiras como axiomas?
 
-Faint watermark of the University of Coimbra seal, featuring a shield with a cross and the motto 'VERVM DVCT'.
-
 {31}------------------------------------------------
-
-<!-- IMAGE_DESCRIPTION: datalab-8a919c7e46849292573775081d1b3d66_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Faint watermark of the University of Coimbra seal, featuring a shield with a cross and the motto 'VERVM DVCT'.
-<!-- /IMAGE_DESCRIPTION -->
 ## Desafio
 ### O Problema de Goodstein
 
@@ -605,7 +541,7 @@ A sequência de Goodstein de um número  $n$  é definida por um processo que en
 
 Para qualquer fórmula  $\phi(x)$  com uma variável livre, existe uma sentença  $\psi$  tal que:
 
-$$PA \vdash \psi \leftrightarrow \phi(\#\psi)$$
+$$PA \vdash \psi \leftrightarrow \phi(\# \psi)$$
 
 - 1 Explique intuitivamente o que este lema permite fazer.
 - 2 Use o lema para construir uma sentença que diz “Eu tenho uma prova com menos de 1000 símbolos.”
@@ -633,7 +569,7 @@ $$PA \vdash \psi \leftrightarrow \phi(\#\psi)$$
 
 - [9] J. Barkley Rosser. “Extensions of Some Theorems of Gödel and Church”. Em: *The Journal of Symbolic Logic* 1.3 (1936), pp. 87–91. DOI: [10.2307/2269028](https://doi.org/10.2307/2269028).
 - [10] Michael Sipser. *Introduction to the Theory of Computation*. 3rd. Cengage Learning, 2012. ISBN: 978-1133187790.
-- [11] Raymond M. Smullyan. *Gödel’s Incompleteness Theorems*. Oxford University Press, 1992. ISBN: 978-0195046724.
+- [11] Raymond M. Smullyan. *Gödel's Incompleteness Theorems*. Oxford University Press, 1992. ISBN: 978-0195046724.
 - [12] Alan M. Turing. “On Computable Numbers, with an Application to the Entscheidungsproblem”. Em: *Proceedings of the London Mathematical Society* s2-42.1 (1937), pp. 230–265. DOI: [10.1112/plms/s2-42.1.230](https://doi.org/10.1112/plms/s2-42.1.230).
 
 <!-- IMAGE_DESCRIPTION_ORPHANS -->
@@ -641,8 +577,8 @@ $$PA \vdash \psi \leftrightarrow \phi(\#\psi)$$
 
 Descrições preservadas para imagens detectadas no documento, mas sem referência markdown compatível no corpo principal.
 
-<!-- IMAGE_DESCRIPTION: datalab-1d7527f4316cfe2d342b08d1653d1592_img.jpg -->
+<!-- IMAGE_DESCRIPTION: datalab-d3294dc879b451b369c0b06f42e9b39f_img.jpg -->
 <!-- Tipo: generico -->
-> **[Descrição de imagem]** Logo of PUCRS Escola Politécnica
+> **[Descrição de imagem]** Logo of ESCOLA POLITÉCNICA PUCRS
 <!-- /IMAGE_DESCRIPTION -->
 <!-- /IMAGE_DESCRIPTION_ORPHANS -->

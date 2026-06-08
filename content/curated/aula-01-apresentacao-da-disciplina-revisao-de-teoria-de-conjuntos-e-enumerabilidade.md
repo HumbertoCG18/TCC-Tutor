@@ -7,20 +7,20 @@
 - **Regras de Convivência**
 - **Teoria da Computabilidade e Complexidade**
 - **Questões Fundamentais**
-  - Ementa
-  - ■ Parte I: Fundamentos
-  - ■ Parte II: Computabilidade
-  - ■ Parte III: Complexidade
+- **Ementa**
 - **Bibliografia**
   - Bibliografia da Disciplina, livros principais
 - **Recomendação**
-  - Por que estudar Teoria da Computação?
+- **Por que estudar Teoria da Computação?**
   - Importante
 - **Conjuntos: Definições Básicas**
   - Conjunto
   - Conjuntos Importantes
-  - Relações entre Conjuntos
-  - Operações com Conjuntos
+- **Relações entre Conjuntos**
+  - Subconjunto
+  - Igualdade
+  - Subconjunto Próprio
+- **Operações com Conjuntos**
   - União
   - Interseção
   - Diferença
@@ -31,10 +31,11 @@
   - Definição
   - Para Conjuntos Infinitos
   - Questão Central
-  - Funções
+- **Funções**
   - Definição
   - Tipos de Funções
-  - Relações
+- **Relações**
+  - Definição
   - Propriedades de Relações
   - Relações de Equivalência e Ordem
   - Princípio da Indução
@@ -56,6 +57,7 @@
 - **Limitações da Teoria de Conjuntos Ingênua**
 - **Referências I**
 - **Referências II**
+- **Imagens Curadas**
 
 <!-- EXEC_SUMMARY_END -->
 {0}------------------------------------------------
@@ -66,15 +68,19 @@ Prof. Anderson Roberto Pinheiro Domingues
 
 [anderson.domingues@pucrs.br](mailto:anderson.domingues@pucrs.br)
 
-Aula 01  
+Aula 01
+
 Teoria da Computabilidade e Complexidade  
 Ciência da Computação
 
 23 de fevereiro de 2026
 
-The logo of the PUCRS Escola Politécnica. It features a crest with a shield, a cross, and a sun, with the text "PUCRS" below it. To the right of the crest, the words "ESCOLA" and "POLITÉCNICA" are stacked vertically in a bold, blue, sans-serif font.
+The logo of PUCRS, featuring a shield with a cross and a star, and the text 'PUCRS' below it.
 
-Logo of PUCRS Escola Politécnica
+Logo of PUCRS (Pontifícia Universidade Católica do Rio Grande do Sul)
+
+ESCOLA  
+POLITÉCNICA
 
 {1}------------------------------------------------
 ## Sumário
@@ -87,15 +93,45 @@ Logo of PUCRS Escola Politécnica
 
 **4** Exercícios
 
-A faint, gray watermark of the coat of arms of the University of Coimbra is visible on the right side of the slide. The shield features a central star and is flanked by two sections with a repeating pattern of stylized trees. Above the shield is a crown and two crossed keys. A ribbon at the bottom bears the Latin motto 'AD VERVM DVKIT'.
+The image is a large, light gray watermark of the Coat of Arms of the University of São Paulo (USP). It features a central shield with a vertical band containing a monogram, flanked by two vertical panels with a pine tree pattern. Above the shield is a crown and two crossed keys. A banner at the bottom reads 'AD VERVM DVCIT'.
 
-Faint watermark of the coat of arms of the University of Coimbra, featuring a shield with a star and the motto 'AD VERVM DVKIT'.
+Coat of arms of the University of São Paulo (USP)
 
 {2}------------------------------------------------
 
 <!-- IMAGE_DESCRIPTION: datalab-1211e36d120f0d2912a745437f4c8f19_img.jpg -->
 <!-- Tipo: generico -->
-> **[Descrição de imagem]** Faint watermark of the coat of arms of the University of Coimbra, featuring a shield with a star and the motto 'AD VERVM DVKIT'.
+> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
+<!-- /IMAGE_DESCRIPTION -->
+
+<!-- IMAGE_DESCRIPTION: datalab-5549f7bbf28f047575f40f7da371a217_img.jpg -->
+<!-- Tipo: generico -->
+> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
+<!-- /IMAGE_DESCRIPTION -->
+
+<!-- IMAGE_DESCRIPTION: datalab-78ef2571ddaf2a46ff88bc9df5865952_img.jpg -->
+<!-- Tipo: generico -->
+> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
+<!-- /IMAGE_DESCRIPTION -->
+
+<!-- IMAGE_DESCRIPTION: datalab-4cfefefc761d19fccc2f5ee84a57a895_img.jpg -->
+<!-- Tipo: generico -->
+> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
+<!-- /IMAGE_DESCRIPTION -->
+
+<!-- IMAGE_DESCRIPTION: datalab-344b61635f2d962dbbb8ed925c8c8d48_img.jpg -->
+<!-- Tipo: generico -->
+> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
+<!-- /IMAGE_DESCRIPTION -->
+
+<!-- IMAGE_DESCRIPTION: datalab-5756508641ee599941f6d1e85de7e84b_img.jpg -->
+<!-- Tipo: generico -->
+> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
+<!-- /IMAGE_DESCRIPTION -->
+
+<!-- IMAGE_DESCRIPTION: datalab-513b2f88e0edcd2ffb6b7cf54f465d06_img.jpg -->
+<!-- Tipo: generico -->
+> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
 <!-- /IMAGE_DESCRIPTION -->
 ### Prof. Anderson R. P. Domingues
 
@@ -106,10 +142,10 @@ Faint watermark of the coat of arms of the University of Coimbra, featuring a sh
 <https://lsa-pucrs.github.io/>
     - GAPH - Grupo de Apoio ao Projeto de Hardware, SESD<sup>1</sup>:  
 <https://gaph-pucrs.github.io/>
-  - Comissão Coordenadora de Curso (CCC-ECo)
+  - Comissão Coordenadora de Curso (CCC-ECó)
   - Disciplinas (2026-1):
-    - Introdução à Programação — ECo
-    - Algoritmos e Estruturas de Dados I — ECo
+    - Introdução à Programação — ECó
+    - Algoritmos e Estruturas de Dados I — ECó
     - Sistemas Digitais
     - Confiabilidade e Segurança de Hardware
     - Teoria da Computabilidade e Complexidade
@@ -122,7 +158,7 @@ Faint watermark of the coat of arms of the University of Coimbra, featuring a sh
 ## Regras de Convivência
 
 - Pontualidade: a chamada será realizada a cada início de período. Não comparecer em ao menos 75% das aulas acarretará em **reprovação imediata**;
-- Conduta: Seja respeituoso e cortês, não produza ruídos desnecessários durante as aulas; peça a palavra antes de falar;
+- Conduta: Seja respeitoso e cortês, não produza ruídos desnecessários durante as aulas; peça a palavra antes de falar;
 - Ambiente Moodle<sup>2</sup>:
   - Cronograma, plano de ensino e material;
   - SARC: <https://sarc.pucrs.br>
@@ -135,7 +171,7 @@ Faint watermark of the coat of arms of the University of Coimbra, featuring a sh
 
 <sup>2</sup><https://moodle.pucrs.br/>
 
-<sup>3</sup>[https://www.planalto.gov.br/ccivil\\_03/leis/2003/110.695.htm](https://www.planalto.gov.br/ccivil_03/leis/2003/110.695.htm)
+<sup>3</sup>[https://www.planalto.gov.br/ccivil\\_03/leis/2003/l110.695.htm](https://www.planalto.gov.br/ccivil_03/leis/2003/l110.695.htm)
 
 {4}------------------------------------------------
 ## Teoria da Computabilidade e Complexidade
@@ -150,30 +186,25 @@ Faint watermark of the coat of arms of the University of Coimbra, featuring a sh
 - Como classificar problemas por *dificuldade*?
 
 {5}------------------------------------------------
-### Ementa
-### ■ Parte I: Fundamentos
+## Ementa
 
-- Teoria de Conjuntos e Cardinalidade
-- Funções Recursivas e Computabilidade
-### ■ Parte II: Computabilidade
+- **Parte I: Fundamentos**
+  - Teoria de Conjuntos e Cardinalidade
+  - Funções Recursivas e Computabilidade
+- **Parte II: Computabilidade**
+  - Máquinas de Turing
+  - Linguagens Decidíveis e Reconhecíveis
+  - Problemas Indecidíveis (Halting Problem, etc.)
+- **Parte III: Complexidade**
+  - Classes P e NP
+  - NP-Completeness e Reduções
+  - PSPACE e além
 
-- Máquinas de Turing
-- Linguagens Decidíveis e Reconhecíveis
-- Problemas Indecidíveis (Halting Problem, etc.)
-### ■ Parte III: Complexidade
+The image is a large, light gray watermark of the coat of arms of the University of São Paulo (USP). It features a central shield with a large five-pointed star at the bottom. The shield is flanked by two crossed keys (the keys of St. Peter) and topped by a crown. A banner at the bottom of the shield contains the Latin motto "AD VERVM DVCT".
 
-- Classes P e NP
-- NP-Complete e Reduções
-- PSPACE e além
-
-A faint, stylized illustration of a coat of arms featuring a crown, a shield with a star and the initials 'MAC', and a banner with the Latin motto 'AD VERVM DVCT'.
+Coat of arms of the University of São Paulo (USP)
 
 {6}------------------------------------------------
-
-<!-- IMAGE_DESCRIPTION: datalab-aa541b61e0c277c9c5b40e0936168cec_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** A faint, stylized illustration of a coat of arms featuring a crown, a shield with a star and the initials 'MAC', and a banner with the Latin motto 'AD VERVM DVCT'.
-<!-- /IMAGE_DESCRIPTION -->
 ## Bibliografia
 ### Bibliografia da Disciplina, livros principais
 
@@ -184,10 +215,10 @@ A faint, stylized illustration of a coat of arms featuring a crown, a shield wit
 - ROSEN, KENNETH H., *Discrete Mathematics Applications*. 8th ed. McGraw-Hill, 2019.
 - <sup>4</sup>HOPCROFT, J.; MOTWANI, R.; ULLMAN, J. *Introduction to Automata Theory, Languages, and Computation*. 3rd ed. Pearson, 2006.
 
-<sup>4</sup>Disciplina de Ling. Formais e Autômatos
+<sup>4</sup>Disciplina de Ling. Formais e Autônomatos
 
 {7}------------------------------------------------
-### Por que estudar Teoria da Computação?
+## Por que estudar Teoria da Computação?
 
 - Entender os **limites fundamentais** da computação
 - Reconhecer problemas **intratáveis** antes de tentar resolvê-los
@@ -219,16 +250,16 @@ Coleção de objetos distintos, chamados **elementos** ou **membros**.
 - $\mathbb{R}$  — Números reais
 
 {9}------------------------------------------------
-### Relações entre Conjuntos
-#### Subconjunto
+## Relações entre Conjuntos
+### Subconjunto
 
 $A \subseteq B$  se todo elemento de  $A$  também está em  $B$ :
 
 $$A \subseteq B \iff \forall x(x \in A \Rightarrow x \in B)$$
-#### Igualdade
+### Igualdade
 
 $A = B$  se  $A \subseteq B$  e  $B \subseteq A$
-#### Subconjunto Próprio
+### Subconjunto Próprio
 
 $A \subset B$  se  $A \subseteq B$  e  $A \neq B$
 #### Exemplos
@@ -238,7 +269,7 @@ $A \subset B$  se  $A \subseteq B$  e  $A \neq B$
 - $\emptyset \subseteq A$  para qualquer conjunto  $A$
 
 {10}------------------------------------------------
-### Operações com Conjuntos
+## Operações com Conjuntos
 ### União
 
 $$A \cup B = \{x \mid x \in A \vee x \in B\}$$
@@ -250,7 +281,7 @@ $$A \cap B = \{x \mid x \in A \wedge x \in B\}$$
 $$A - B = \{x \mid x \in A \wedge x \notin B\}$$
 ### Complemento
 
-$$\bar{A} = U - A \text{ (em relação ao universo } U\text{)}$$
+$\bar{A} = U - A$  (em relação ao universo  $U$ )
 ### Produto Cartesiano
 
 $$A \times B = \{(a, b) \mid a \in A \wedge b \in B\}$$
@@ -277,7 +308,7 @@ $$|A| = |B| \iff \exists f : A \rightarrow B \text{ bijetora}$$
 Todos os conjuntos infinitos têm o “mesmo tamanho”?
 
 {12}------------------------------------------------
-### Funções
+## Funções
 ### Definição
 
 Uma **função**  $f : A \rightarrow B$  associa cada elemento de  $A$  (domínio) a exatamente um elemento de  $B$  (contradomínio).
@@ -291,34 +322,34 @@ Uma **função**  $f : A \rightarrow B$  associa cada elemento de  $A$  (domíni
 
 Injetora
 
-Diagrama de uma função injetora. O domínio A tem 4 elementos e o contradomínio B tem 5 elementos. Cada elemento de A é mapeado para um elemento único de B, deixando um elemento de B sem imagem.
+Diagram of an injective function (one-to-one). Set A has 3 elements and set B has 4 elements. Each element in A is mapped to a unique element in B, but one element in B is not mapped to by any element in A.
 
 Sobrejetora
 
-Diagrama de uma função sobrejetora. O domínio A tem 4 elementos e o contradomínio B tem 3 elementos. Cada elemento de B tem pelo menos um elemento de A mapeado para ele, mas alguns elementos de B têm mais de um elemento de A mapeado para eles.
+Diagram of a surjective function (onto). Set A has 5 elements and set B has 4 elements. Every element in B is mapped to by at least one element in A. One element in A is not mapped to any element in B.
 
 Bijetora
 
-Diagrama de uma função bijetora. O domínio A tem 3 elementos e o contradomínio B tem 3 elementos. Cada elemento de A é mapeado para um elemento único de B, e cada elemento de B tem exatamente um elemento de A mapeado para ele.
+Diagram of a bijective function (one-to-one and onto). Set A has 4 elements and set B has 4 elements. Every element in A is mapped to a unique element in B, and every element in B is mapped to by exactly one element in A.
 
 {13}------------------------------------------------
 
 <!-- IMAGE_DESCRIPTION: datalab-5dfc130b129ace4df375839020a5700d_img.jpg -->
 <!-- Tipo: generico -->
-> **[Descrição de imagem]** Diagrama de uma função injetora. O domínio A tem 4 elementos e o contradomínio B tem 5 elementos. Cada elemento de A é mapeado para um elemento único de B, deixando um elemento de B sem imagem.
+> **[Descrição de imagem]** Diagram of an injective function (one-to-one).
 <!-- /IMAGE_DESCRIPTION -->
 
 <!-- IMAGE_DESCRIPTION: datalab-3376375fe7236a570fd0ee9448d9c4ee_img.jpg -->
 <!-- Tipo: generico -->
-> **[Descrição de imagem]** Diagrama de uma função sobrejetora. O domínio A tem 4 elementos e o contradomínio B tem 3 elementos. Cada elemento de B tem pelo menos um elemento de A mapeado para ele, mas alguns elementos de B têm mais de um...
+> **[Descrição de imagem]** Diagram of a surjective function (onto).
 <!-- /IMAGE_DESCRIPTION -->
 
 <!-- IMAGE_DESCRIPTION: datalab-ea37ab05b033e59cfdf7b074161aaf5a_img.jpg -->
 <!-- Tipo: generico -->
-> **[Descrição de imagem]** Diagrama de uma função bijetora. O domínio A tem 3 elementos e o contradomínio B tem 3 elementos. Cada elemento de A é mapeado para um elemento único de B, e cada elemento de B tem exatamente um elemento de A mapeado...
+> **[Descrição de imagem]** Diagram of a bijective function (one-to-one and onto).
 <!-- /IMAGE_DESCRIPTION -->
-### Relações
-#### Definição
+## Relações
+### Definição
 
 Uma **relação**  $R$  sobre  $A$  é um subconjunto de  $A \times A$ . Escrevemos  $aRb$  ou  $(a, b) \in R$ .
 ### Propriedades de Relações
@@ -346,21 +377,21 @@ Uma **relação**  $R$  sobre  $A$  é um subconjunto de  $A \times A$ . Escreve
 
 Para provar  $P(n)$  para todo  $n \geq n_0$ :
 
-- 1 **Base:** Provar  $P(n_0)$
-- 2 **Passo Indutivo:** Provar que  $P(k) \Rightarrow P(k+1)$
+- 1 Base:** Provar  $P(n_0)$
+- 2 Passo Indutivo:** Provar que  $P(k) \Rightarrow P(k + 1)$
 ### Indução Forte vs. Fraca
 
-- **Indução Fraca:**  $P(k) \Rightarrow P(k+1)$
-- **Indução Forte:**  $(P(n_0) \wedge P(n_0+1) \wedge \dots \wedge P(k)) \Rightarrow P(k+1)$
+- **Indução Fraca:**  $P(k) \Rightarrow P(k + 1)$
+- **Indução Forte:**  $(P(n_0) \wedge P(n_0 + 1) \wedge \dots \wedge P(k)) \Rightarrow P(k + 1)$
 #### Exemplo: Soma dos primeiros $n$ naturais
 
 **Provar:**  $\sum_{i=1}^n i = \frac{n(n+1)}{2}$
 
-**Base:**  $n = 1$ :  $1 = \frac{1 \cdot 2}{2} = 1$  ✓
+**Base:**  $n = 1$ :  $1 = \frac{1 \cdot 2}{2} = 1 \checkmark$
 
-**Passo:** Assumindo para  $k$ , provar para  $k+1$ :
+**Passo:** Assumindo para  $k$ , provar para  $k + 1$ :
 
-$\sum_{i=1}^{k+1} i = \frac{k(k+1)}{2} + (k+1) = \frac{(k+1)(k+2)}{2}$  ✓
+$$\sum_{i=1}^{k+1} i = \frac{k(k+1)}{2} + (k + 1) = \frac{(k+1)(k+2)}{2} \checkmark$$
 
 {16}------------------------------------------------
 ## Conjuntos Contáveis e Incontáveis
@@ -384,7 +415,7 @@ E  $\mathbb{R}$ ? É contável?
 ## Conceitos Fundamentais
 
 - Conjuntos, elementos, subconjuntos
-- Operações:  $\cup, \cap, -, \times, \mathcal{P}$
+- Operações:  $\cup$ ,  $\cap$ ,  $-$ ,  $\times$ ,  $\mathcal{P}$
 - Cardinalidade e bijeções
 - Funções: injetora, sobrejetora, bijetora
 - Relações e equivalência
@@ -399,62 +430,59 @@ Argumento da Diagonalização de Cantor: provando que  $\mathbb{R}$  é **incont
 
 Dados  $A = \{1, 2, 3, 4\}$  e  $B = \{3, 4, 5, 6\}$ , determine:
 
-- 1  $A \cup B$
-- 2  $A \cap B$
-- 3  $A - B$
-- 4  $B - A$
-- 5  $A \times B$  (apenas os pares onde ambos são ímpares)
-- 6  $|\mathcal{P}(A \cap B)|$
+**1**  $A \cup B$
 
-The image is a watermark of the coat of arms of the University of Coimbra. It features a shield with a star and the motto 'AD VERVM DVICIT' (To truth, it leads). The shield is flanked by two figures, and the entire emblem is rendered in a light gray color.
+**2**  $A \cap B$
 
-Watermark of the coat of arms of the University of Coimbra, featuring a shield with a star and the motto 'AD VERVM DVICIT'.
+**3**  $A - B$
+
+**4**  $B - A$
+
+**5**  $A \times B$  (apenas os pares onde ambos são ímpares)
+
+**6**  $|\mathcal{P}(A \cap B)|$
+
+The image is a large, faint watermark of the coat of arms of the University of São Paulo (USP) on the right side of the slide. It features a shield with a central vertical band containing a stylized 'M' and 'U' monogram, flanked by two vertical bands with a repeating cross pattern. Above the shield is a crown, and below it is a ribbon with the motto 'AD VERVM DVCIT'.
+
+Coat of arms of the University of São Paulo (USP)
 
 {19}------------------------------------------------
-
-<!-- IMAGE_DESCRIPTION: datalab-0adfe2c1a73ed4d130777d83dd16321d_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Watermark of the coat of arms of the University of Coimbra, featuring a shield with a star and the motto 'AD VERVM DVICIT'.
-<!-- /IMAGE_DESCRIPTION -->
 ### Exercício 2: Funções
 
 Para cada função abaixo, determine se é injetora, sobrejetora, ou bijetora:
 
-1  $f : \mathbb{N} \rightarrow \mathbb{N}, f(n) = n + 1$
+**1**  $f : \mathbb{N} \rightarrow \mathbb{N}, f(n) = n + 1$
 
-2  $g : \mathbb{Z} \rightarrow \mathbb{Z}, g(n) = n + 1$
+**2**  $g : \mathbb{Z} \rightarrow \mathbb{Z}, g(n) = n + 1$
 
-3  $h : \mathbb{N} \rightarrow \mathbb{N}, h(n) = n^2$
+**3**  $h : \mathbb{N} \rightarrow \mathbb{N}, h(n) = n^2$
 
-4  $p : \mathbb{Z} \rightarrow \mathbb{N}, p(n) = |n|$
+**4**  $p : \mathbb{Z} \rightarrow \mathbb{N}, p(n) = |n|$
 
-5  $q : \mathbb{N} \rightarrow \mathbb{N}, q(n) = \lfloor n/2 \rfloor$
+**5**  $q : \mathbb{N} \rightarrow \mathbb{N}, q(n) = \lfloor n/2 \rfloor$
 
-A faint, stylized illustration of the coat of arms of the University of Coimbra. It features a shield with a central crest and two side panels decorated with small tree-like motifs. Above the shield is a crown and two crossed keys. A ribbon at the bottom bears the Latin motto 'AD VERVM DVICIT'.
+The image shows the coat of arms of the University of São Paulo (USP). It features a shield with a central vertical band containing a stylized 'M' and 'U' monogram. The shield is flanked by two crossed keys (the keys of St. Peter) and topped by a crown. A banner at the bottom of the shield reads 'AD VERVM DVCIT'.
+
+Coat of arms of the University of São Paulo (USP)
 
 {20}------------------------------------------------
-
-<!-- IMAGE_DESCRIPTION: datalab-4cfefefc761d19fccc2f5ee84a57a895_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** A faint, stylized illustration of the coat of arms of the University of Coimbra.
-<!-- /IMAGE_DESCRIPTION -->
 ### Exercício 3: Indução
 
 Prove por indução matemática:
 
-- 1  $\sum_{i=1}^n i^2 = \frac{n(n+1)(2n+1)}{6}$
-- 2  $\sum_{i=0}^n 2^i = 2^{n+1} - 1$
-- 3 Para todo  $n \geq 1$ :  $n^3 - n$  é divisível por 3
-- 4 Para todo  $n \geq 4$ :  $2^n > n^2$
+1  $\sum_{i=1}^n i^2 = \frac{n(n+1)(2n+1)}{6}$
 
-A large, faint watermark of the coat of arms of the University of Coimbra. It features a shield with a central crest and two side panels decorated with pine-like trees. Above the shield is a crown and two crossed keys. A ribbon at the bottom bears the Latin motto 'AD VERVM DVICIT'.
+2  $\sum_{i=0}^n 2^i = 2^{n+1} - 1$
+
+3 Para todo  $n \geq 1$ :  $n^3 - n$  é divisível por 3
+
+4 Para todo  $n \geq 4$ :  $2^n > n^2$
+
+The image is a large, light gray watermark of the coat of arms of the University of São Paulo (USP). It features a central shield with a large five-pointed star at the bottom. The shield is flanked by two crossed keys (the keys of St. Peter) and topped by a crown. A banner at the bottom of the shield contains the Latin motto "AD VERVM DVCT".
+
+Coat of arms of the University of São Paulo (USP)
 
 {21}------------------------------------------------
-
-<!-- IMAGE_DESCRIPTION: datalab-8c88a2b2e156c28098d47bdd093e67e0_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** A large, faint watermark of the coat of arms of the University of Coimbra.
-<!-- /IMAGE_DESCRIPTION -->
 ### Exercício 4: Cardinalidade
 
 - 1 Mostre que  $|\mathbb{N}| = |\mathbb{N} - \{0\}|$  (dica: encontre uma bijeção)
@@ -462,26 +490,23 @@ A large, faint watermark of the coat of arms of the University of Coimbra. It fe
 - 3 Se  $|A| = n$ , quantos subconjuntos de  $A$  têm exatamente  $k$  elementos?
 - 4 **Desafio:** Mostre que  $|\mathbb{N} \times \mathbb{N}| = |\mathbb{N}|$  (dica: use a função de pareamento de Cantor)
 
-A faint, stylized illustration of a coat of arms featuring a shield with a cross and a star, topped with a crown and flanked by two figures. Below the shield is a banner with the Latin motto 'AD VERVM DVICIT'.
+The image shows the coat of arms of the University of São Paulo (USP). It features a shield with a large five-pointed star in the center. The shield is flanked by two crossed flags. Above the shield is a crown. A banner at the bottom of the shield contains the Latin motto "AD VERVM DVCT".
+
+Coat of arms of the University of São Paulo (USP)
 
 {22}------------------------------------------------
-
-<!-- IMAGE_DESCRIPTION: datalab-5756508641ee599941f6d1e85de7e84b_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** A faint, stylized illustration of a coat of arms featuring a shield with a cross and a star, topped with a crown and flanked by two figures.
-<!-- /IMAGE_DESCRIPTION -->
 ### Exercício 5: Relações
 
 Seja  $R$  uma relação sobre  $\mathbb{Z}$  definida por:  $aRb \iff a - b$  é par.
 
-- 1 Prove que  $R$  é uma relação de equivalência
-- 2 Quais são as classes de equivalência de  $R$ ?
-- 3 Quantas classes de equivalência existem?
+- 1** Prove que  $R$  é uma relação de equivalência
+- 2** Quais são as classes de equivalência de  $R$ ?
+- 3** Quantas classes de equivalência existem?
 
 Seja  $S$  uma relação sobre  $\mathbb{N}$  definida por:  $aSb \iff a \mid b$  ( $a$  divide  $b$ ).
 
-- 4  $S$  é reflexiva? Simétrica? Transitiva? Antissimétrica?
-- 5  $S$  é uma relação de equivalência? É uma ordem parcial?
+- 4**  $S$  é reflexiva? Simétrica? Transitiva? Antissimétrica?
+- 5**  $S$  é uma relação de equivalência? É uma ordem parcial?
 
 {23}------------------------------------------------
 ### Reflexão
@@ -514,22 +539,17 @@ Este paradoxo mostra que “o conjunto de todos os conjuntos” não pode existi
 - [6] Michael Sipser. *Introduction to the Theory of Computation*. 3rd. Cengage Learning, 2012.
 - [7] Daniel J. Velleman. *How to Prove It: A Structured Approach*. 2nd. Cambridge University Press, 2006.
 
-A faint, gray watermark of the University of Coimbra's coat of arms is visible on the right side of the slide. The shield features a central star and is flanked by two smaller shields with cross-like symbols. Below the shield is a ribbon with the Latin motto "AD VERVM DVOCIT".
+The image shows the coat of arms of the University of São Paulo (USP). It features a shield with a central vertical band containing a stylized 'M' and 'U' monogram. The shield is flanked by two crossed keys (the keys of St. Peter) and topped by a crown. A banner at the bottom of the shield contains the Latin motto 'AD VERVM DVCT'.
 
-Faint watermark of the University of Coimbra coat of arms, featuring a shield with a star and the motto 'AD VERVM DVOCIT'.
-
-<!-- IMAGE_DESCRIPTION: datalab-513b2f88e0edcd2ffb6b7cf54f465d06_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Faint watermark of the University of Coimbra coat of arms, featuring a shield with a star and the motto 'AD VERVM DVOCIT'.
-<!-- /IMAGE_DESCRIPTION -->
+Coat of arms of the University of São Paulo (USP)
 
 <!-- IMAGE_DESCRIPTION_ORPHANS -->
 ## Imagens Curadas
 
 Descrições preservadas para imagens detectadas no documento, mas sem referência markdown compatível no corpo principal.
 
-<!-- IMAGE_DESCRIPTION: datalab-1d7527f4316cfe2d342b08d1653d1592_img.jpg -->
+<!-- IMAGE_DESCRIPTION: datalab-d3294dc879b451b369c0b06f42e9b39f_img.jpg -->
 <!-- Tipo: generico -->
-> **[Descrição de imagem]** Logo of PUCRS Escola Politécnica
+> **[Descrição de imagem]** Logo of PUCRS (Pontifícia Universidade Católica do Rio Grande do Sul)
 <!-- /IMAGE_DESCRIPTION -->
 <!-- /IMAGE_DESCRIPTION_ORPHANS -->

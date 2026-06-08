@@ -1,13 +1,33 @@
 generated_at: 2026-03-25T00:37:32
 sources:
-  - id: enunciado-t1
-    title: "Enunciado T1"
-    category: trabalhos
+  - id: aula-17-np-completude
+    title: "Aula 17 - NP-Completude"
+    category: material-de-aula
     file_type: pdf
-    source_path: "C:/Users/Humberto/Downloads/TCC/Enunciado T1[.pdf"
-    raw_target: "raw/pdfs/trabalhos/enunciado-t1.pdf"
+    source_path: "C:/Users/Humberto/Downloads/TCC/Aula 17 - NP-Completude .pdf"
+    raw_target: "raw/pdfs/material-de-aula/aula-17-np-completude.pdf"
     processing_mode: high_fidelity
     effective_profile: math_heavy
+    include_in_bundle: true
+    professor_signal: ""
+  - id: problema-weighted-max-cut
+    title: "Problema Weighted Max-Cut"
+    category: bibliografia
+    file_type: pdf
+    source_path: "C:/Users/Humberto/Downloads/TCC/Problema Weighted Max-Cut.pdf"
+    raw_target: "raw/pdfs/bibliografia/problema-weighted-max-cut.pdf"
+    processing_mode: auto
+    effective_profile: auto
+    include_in_bundle: true
+    professor_signal: ""
+  - id: enunciado-t2
+    title: "Enunciado T2"
+    category: trabalhos
+    file_type: pdf
+    source_path: "C:/Users/Humberto/Downloads/TCC/Enunciado T2.pdf"
+    raw_target: "raw/pdfs/trabalhos/enunciado-t2.pdf"
+    processing_mode: high_fidelity
+    effective_profile: diagram_heavy
     include_in_bundle: true
     professor_signal: ""
   - id: aula-16-exemplo-de-prova-para-revisao
@@ -107,7 +127,7 @@ sources:
     source_path: "C:/Users/Humberto/Downloads/TCC/Aula07 Máquinas de Turing e Linguagens Recursivamente Enumeráveis.pdf"
     raw_target: "raw/pdfs/material-de-aula/aula07-maquinas-de-turing-e-linguagens-recursivamente-enumeraveis.pdf"
     processing_mode: high_fidelity
-    effective_profile: math_heavy
+    effective_profile: diagram_heavy
     include_in_bundle: true
     professor_signal: ""
   - id: aula-06-revisao-alfabeto-cadeia-linguagem-hierarquia-de-chomsky-lemas-e-propriedades-de-automatos
@@ -126,6 +146,16 @@ sources:
     file_type: pdf
     source_path: "C:/Users/Humberto/Downloads/TCC/Revisão Alfabeto, Cadeia, Linguagem, Hierarquia de Chomsky, Lemas e Propriedades de Autômatos.pdf"
     raw_target: "raw/pdfs/material-de-aula/revisao-alfabeto-cadeia-linguagem-hierarquia-de-chomsky-lemas-e-propriedades-de-automatos.pdf"
+    processing_mode: high_fidelity
+    effective_profile: math_heavy
+    include_in_bundle: true
+    professor_signal: ""
+  - id: enunciado-t1
+    title: "Enunciado T1"
+    category: trabalhos
+    file_type: pdf
+    source_path: "C:/Users/Humberto/Downloads/TCC/Enunciado T1.pdf"
+    raw_target: "raw/pdfs/trabalhos/enunciado-t1.pdf"
     processing_mode: high_fidelity
     effective_profile: math_heavy
     include_in_bundle: true
@@ -176,6 +206,36 @@ sources:
     file_type: pdf
     source_path: "C:/Users/Humberto/Downloads/TCC/Aula 01 - Apresentação da Disciplina, Revisão de Teoria de Conjuntos e Enumerabilidade.pdf"
     raw_target: "raw/pdfs/material-de-aula/aula-01-apresentacao-da-disciplina-revisao-de-teoria-de-conjuntos-e-enumerabilidade.pdf"
+    processing_mode: high_fidelity
+    effective_profile: math_heavy
+    include_in_bundle: true
+    professor_signal: ""
+  - id: referencia-reducibility-among-combinatorial-problems
+    title: "Referência- REDUCIBILITY AMONG COMBINATORIAL PROBLEMS"
+    category: bibliografia
+    file_type: pdf
+    source_path: "C:/Users/Humberto/Downloads/TCC/Referência- REDUCIBILITY AMONG COMBINATORIAL PROBLEMS.pdf"
+    raw_target: "raw/pdfs/bibliografia/referencia-reducibility-among-combinatorial-problems.pdf"
+    processing_mode: auto
+    effective_profile: scanned
+    include_in_bundle: true
+    professor_signal: ""
+  - id: aula-16-classes-de-problemas-e-complexidade
+    title: "Aula 16 - Classes de Problemas e Complexidade"
+    category: material-de-aula
+    file_type: pdf
+    source_path: "C:\\Users\\Humberto\\Downloads\\TCC\\Semana 11 - Classes de Problemas e Complexidade\\Aula 16 - Classes de Problemas e Complexidade .pdf"
+    raw_target: "raw/pdfs/material-de-aula/aula-16-classes-de-problemas-e-complexidade.pdf"
+    processing_mode: high_fidelity
+    effective_profile: math_heavy
+    include_in_bundle: true
+    professor_signal: ""
+  - id: aula-06-revisao-alfabeto-cadeia-linguagem-hierarquia-de-chomsky-lemas-e-propriedades-de-automatos
+    title: "Aula 06 - Revisão Alfabeto, Cadeia, Linguagem, Hierarquia de Chomsky, Lemas e Propriedades de Autômatos"
+    category: material-de-aula
+    file_type: pdf
+    source_path: "C:\\Users\\Humberto\\Downloads\\TCC\\Semana 4 - Teoria de Autômatos e Introdução a Máquinas de Turing\\Aula 06 - Revisão Alfabeto, Cadeia, Linguagem, Hierarquia de Chomsky, Lemas e Propriedades de Autômatos.pdf"
+    raw_target: "raw/pdfs/material-de-aula/aula-06-revisao-alfabeto-cadeia-linguagem-hierarquia-de-chomsky-lemas-e-propriedades-de-automatos.pdf"
     processing_mode: high_fidelity
     effective_profile: math_heavy
     include_in_bundle: true

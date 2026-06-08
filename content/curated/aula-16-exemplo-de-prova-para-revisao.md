@@ -36,7 +36,6 @@ Nome: \_\_\_\_\_ Matrícula: \_\_\_\_\_
 | H. Problema de Correspondência de Post | 8. Linguagem para a qual existe uma máquina de Turing que sempre para e responde sim ou não corretamente.             |
 
 2. **(0,5 ptos.)** Compare funções recursivas primitivas e funções recursivas parciais.
-
 3. **(0,5 ptos.)** Explique o papel da minimização e por que ela pode introduzir indefinição em funções recursivas parciais.
 
 {1}------------------------------------------------
@@ -48,7 +47,7 @@ Nome: \_\_\_\_\_ Matrícula: \_\_\_\_\_
   - ( ) Variações razoáveis de máquinas de Turing podem facilitar provas e construções, mas não aumentam o poder computacional do modelo.
   - ( ) Pelo Teorema de Rice, qualquer propriedade não trivial sobre a linguagem reconhecida por uma máquina de Turing é decidível.
   - ( ) O Problema de Correspondência de Post é um exemplo usado no estudo de indecidibilidade.
-5. **(2,0 ptos.)** Explique brevemente os conceitos abaixo e relacione-os com Máquinas de Turing.
+5. **(2,0 ptos.)** Explique brevemente os conceito abaixo e relacione-os com Máquinas de Turing.
 - Problema da Parada
   - Entscheidungsproblem
   - Teorema de Rice

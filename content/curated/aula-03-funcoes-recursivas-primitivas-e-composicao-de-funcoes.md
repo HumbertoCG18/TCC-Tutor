@@ -32,11 +32,14 @@
   - Notação
   - Estrutura
   - Visualização da Recursão Primitiva
-  - Definição: Funções Recursivas Primitivas
   - Definição Indutiva
   - Propriedades das Funções Recursivas Primitivas
   - Exemplos
   - Somatório e Produtório Limitados
+  - Teorema
+  - Quantificação Limitada (Universal e Existencial)
+  - Teorema
+  - Construção
 - **Importante**
 - **Resumo: Funções Recursivas Primitivas**
   - O que Conseguimos Definir
@@ -44,12 +47,14 @@
   - Exercício 1: Funções Básicas
   - Exercício 2: Construções por Composição
   - Exercício 3: Recursão Primitiva
+  - Desafio!
   - Exercício 4: Predicados
   - Exercício 5: Busca Limitada
   - Exercício 6: Codificação de Pares
   - Exercício 7: Função de Ackermann
 - **Importante**
 - **Referências I**
+- **Imagens Curadas**
 
 <!-- EXEC_SUMMARY_END -->
 {0}------------------------------------------------
@@ -60,39 +65,48 @@ Prof. Anderson Roberto Pinheiro Domingues
 
 [anderson.domingues@pucrs.br](mailto:anderson.domingues@pucrs.br)
 
-Aula 03  
+Aula 03
+
 Teoria da Computabilidade e Complexidade  
 Ciência da Computação
 
 25 de fevereiro de 2026
 
-Faint background watermark of the PUCRS coat of arms featuring a shield with trees and a star, and the motto 'AD VERVM DVOCIT'.
+The logo of PUCRS, featuring a shield with a cross and a star, and the text "PUCRS" below it.
 
-PUCRS logo with the text 'ESCOLA POLITÉCNICA'.
+Logo of PUCRS (Pontifícia Universidade Católica do Rio Grande do Sul)
+
+ESCOLA  
+POLITÉCNICA
 
 {1}------------------------------------------------
 ## Sumário
 
-- 1** Introdução
-- 2** Funções Básicas
-- 3** Composição e Recursão Primitiva
-- 4** Exemplos de Funções Recursivas Primitivas
-- 5** Exercícios
+- 1 Introdução
+- 2 Funções Básicas
+- 3 Composição e Recursão Primitiva
+- 4 Exemplos de Funções Recursivas Primitivas
+- 5 Exercícios
 
-The image is a watermark of the coat of arms of the University of Coimbra. It features a shield with a central star and a crest above it. The shield is flanked by two supporters. Below the shield is a ribbon with the Latin motto "AD VERVM DVICIT".
+The image is a large, light gray watermark of the coat of arms of the University of São Paulo (USP). It features a shield with a central vertical band containing a stylized 'M' and a star. The shield is flanked by two crossed keys (the keys of St. Peter) and topped with a crown. A banner at the bottom reads 'AD VERVM DVCIT'.
 
-Watermark of the coat of arms of the University of Coimbra, featuring a shield with a star and the motto 'AD VERVM DVICIT'.
+Coat of arms of the University of São Paulo (USP)
 
 {2}------------------------------------------------
 
-<!-- IMAGE_DESCRIPTION: datalab-8c378a184b5ae4d1605cb74d7b7a7e3f_img.jpg -->
+<!-- IMAGE_DESCRIPTION: datalab-317e0525ef1b2458976c246876f4a948_img.jpg -->
 <!-- Tipo: generico -->
-> **[Descrição de imagem]** Watermark of the coat of arms of the University of Coimbra, featuring a shield with a star and the motto 'AD VERVM DVICIT'.
+> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
 <!-- /IMAGE_DESCRIPTION -->
 
-<!-- IMAGE_DESCRIPTION: datalab-c2c3abb173421fc58a8c014e41562eb3_img.jpg -->
+<!-- IMAGE_DESCRIPTION: datalab-c092f712a80ce3310c5e29d0fa0e454a_img.jpg -->
 <!-- Tipo: generico -->
-> **[Descrição de imagem]** Coat of arms of the University of Coimbra, featuring a shield with a star and the motto 'AD VERVM DVICIT'.
+> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
+<!-- /IMAGE_DESCRIPTION -->
+
+<!-- IMAGE_DESCRIPTION: datalab-5f5807dc5366ae1d316a6f93e0f583c4_img.jpg -->
+<!-- Tipo: generico -->
+> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
 <!-- /IMAGE_DESCRIPTION -->
 ## Motivação
 ## Questão Central
@@ -100,15 +114,15 @@ Watermark of the coat of arms of the University of Coimbra, featuring a shield w
 O que significa uma função ser **computável**?
 
 - Antes dos computadores, matemáticos buscavam formalizar a noção de computação
-  - David Hilbert e Wilhelm Ackermann (1928):  
+- David Hilbert e Wilhelm Ackermann (1928):  
 **Entscheidungsproblem**, *existe um procedimento mecânico que decida se uma fórmula lógica é universalmente válida?*
-    - Universalmente válida: verdadeira em todas as interpretações e modelos; sua negação deve ser uma contradição!
-    - Gödel (1931) considera universalmente válida uma fórmula que é provável utilizando lógica de primeira-ordem.
-  - Várias formalizações independentes surgiram nos anos 1930:
-    - **Funções recursivas** (Gödel, 1931; Kleene, 1936)
-    - **Cálculo- $\lambda$**  (Alonzo Church, 1930/1936)
-    - **Máquinas de Turing** (Turing, 1936)
-  - As três formalizações acima são **equivalentes!**
+  - Universalmente válida: verdadeira em todas as interpretações e modelos; sua negação deve ser uma contradição!
+  - Gödel (1931) considera universalmente válida uma fórmula que é provável utilizando lógica de primeira-ordem.
+- Várias formalizações independentes surgiram nos anos 1930:
+  - **Funções recursivas** (Gödel, 1931; Kleene, 1936)
+  - **Cálculo- $\lambda$**  (Alonzo Church, 1930/1936)
+  - **Máquinas de Turing** (Turing, 1936)
+- **As três formalizações acima são equivalentes!**
 
 {3}------------------------------------------------
 ## A Tese de Church-Turing
@@ -200,14 +214,14 @@ Retorna o  $i$ -ésimo argumento.
 ### Conexão com Axiomas de Peano
 ### Axiomas de Peano (simplificado)
 
-- 1  $0$  é um número natural
+- 1 0 é um número natural
 - 2 Se  $n$  é natural, então  $S(n)$  é natural
 - 3  $S(n) \neq 0$  para todo  $n$
 - 4  $S(n) = S(m) \Rightarrow n = m$
 - 5 Princípio da Indução
 ### Relação
 
-- $Z$  fornece acesso ao elemento base  $0$
+- $Z$  fornece acesso ao elemento base 0
 - $S$  fornece um “construtor de números”
 - Projeções são necessárias para acessar múltiplos valores
 - A recursão primitiva corresponde ao princípio da indução (ver operações)
@@ -223,7 +237,7 @@ A **composição** de  $g$  com  $h_1, \dots, h_m$  é a função  $f : \mathbb{
 $$f(x_1, \dots, x_k) = g(h_1(x_1, \dots, x_k), \dots, h_m(x_1, \dots, x_k))$$
 ### Notação
 
-$f = g \circ (h_1, \dots, h_m)$  ou  $f = \text{Comp}[g, h_1, \dots, h_m]$
+$$f = g \circ (h_1, \dots, h_m) \text{ ou } f = \text{Comp}[g, h_1, \dots, h_m]$$
 ### Intuição
 
 - Aplique cada  $h_i$  aos argumentos
@@ -234,17 +248,20 @@ $f = g \circ (h_1, \dots, h_m)$  ou  $f = \text{Comp}[g, h_1, \dots, h_m]$
 ### Exemplos de Composição
 #### Exemplo 1: Função Constante 1
 
-$f(x) = 1$   
+$$f(x) = 1$$
+
 Como?  $f = S \circ Z$ , ou seja:
 
 $$f(x) = S(Z(x)) = S(0) = 1$$
 #### Exemplo 2: Função Constante $n$
 
-$f(x) = n$   
+$$f(x) = n$$
+
 Como?  $f = \underbrace{S \circ S \circ \dots \circ S}_{n \text{ vezes}} \circ Z$
 #### Exemplo 3: Soma de dois
 
-$f(x) = x + 2$   
+$$f(x) = x + 2$$
+
 Como?  $f = S \circ S \circ P_1^1 = S \circ S$ , ou seja:
 
 $$f(x) = S(S(x))$$
@@ -253,14 +270,16 @@ $$f(x) = S(S(x))$$
 ## Operação 2: Recursão Primitiva
 ### Definição
 
-Sejam  $g : \mathbb{N}^k \rightarrow \mathbb{N}$  e  $h : \mathbb{N}^{k+2} \rightarrow \mathbb{N}$ .  
+Sejam  $g : \mathbb{N}^k \rightarrow \mathbb{N}$  e  $h : \mathbb{N}^{k+2} \rightarrow \mathbb{N}$ .
+
 A função  $f : \mathbb{N}^{k+1} \rightarrow \mathbb{N}$  definida por **recursão primitiva** a partir de  $g$  e  $h$  é:
 
 $$f(x_1, \dots, x_k, 0) = g(x_1, \dots, x_k)$$
+
 $$f(x_1, \dots, x_k, y + 1) = h(x_1, \dots, x_k, y, f(x_1, \dots, x_k, y))$$
 ### Notação
 
-$$f = \text{Rec}[g, h] \text{ ou } f = \rho(g, h)$$
+$f = \text{Rec}[g, h]$  ou  $f = \rho(g, h)$
 ### Estrutura
 
 - $g$  define o **caso base** (quando o último argumento é 0)
@@ -271,47 +290,41 @@ $$f = \text{Rec}[g, h] \text{ ou } f = \rho(g, h)$$
 
 Para calcular  $f(x_1, \dots, x_k, n)$ :
 
-$$f(\vec{x}, 0) = g(\vec{x})$$
+$$\begin{array}{c}
+ f(\vec{x}, 0) = g(\vec{x}) \\
+ \downarrow \\
+ f(\vec{x}, 1) = h(\vec{x}, 0, f(\vec{x}, 0)) \\
+ \downarrow \\
+ f(\vec{x}, 2) = h(\vec{x}, 1, f(\vec{x}, 1)) \\
+ \downarrow \\
+ \vdots \\
+ \downarrow \\
+ f(\vec{x}, n) = h(\vec{x}, n-1, f(\vec{x}, n-1))
+ \end{array}$$
 
-$$\downarrow$$
+The image shows the official coat of arms of the University of São Paulo (USP). It features a shield with a central panel containing a stylized 'M' and 'U' monogram, flanked by two panels with a cross pattern. Above the shield is a crown, and below it is a banner with the Latin motto 'AD VERVM DVCT'. The shield is supported by two figures, likely representing the university's history and values.
 
-$$f(\vec{x}, 1) = h(\vec{x}, 0, f(\vec{x}, 0))$$
-
-$$\downarrow$$
-
-$$f(\vec{x}, 2) = h(\vec{x}, 1, f(\vec{x}, 1))$$
-
-$$\downarrow$$
-
-$$\vdots$$
-
-$$\downarrow$$
-
-$$f(\vec{x}, n) = h(\vec{x}, n - 1, f(\vec{x}, n - 1))$$
-
-The image is a watermark of the University of Coimbra's coat of arms. It features a shield with a central star and a crest above it. The shield is flanked by two supporters. A ribbon at the bottom bears the Latin motto "AD VERVM DVOCIT" (To truth it calls).
-
-Watermark of the University of Coimbra crest, featuring a shield with a star and the motto 'AD VERVM DVOCIT'.
+Coat of arms of the University of São Paulo (USP)
 
 {13}------------------------------------------------
-
-<!-- IMAGE_DESCRIPTION: datalab-223d6acc237d0154d7618df0673bd257_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Watermark of the University of Coimbra crest, featuring a shield with a star and the motto 'AD VERVM DVOCIT'.
-<!-- /IMAGE_DESCRIPTION -->
-### Definição: Funções Recursivas Primitivas
+#### Definição: Funções Recursivas Primitivas
 ### Definição Indutiva
 
 O conjunto das **funções recursivas primitivas** é o menor conjunto de funções que:
 
-- 1 Contém as funções básicas:
-  - Função zero:  $Z$
-  - Função sucessor:  $S$
-  - Funções de projeção:  $P_i^k$  para todo  $k \geq 1$  e  $1 \leq i \leq k$
-- 2 É fechado sob **composição**:
-  - Se  $g, h_1, \dots, h_m$  são recursivas primitivas, então  $g \circ (h_1, \dots, h_m)$  também é
-- 3 É fechado sob **recursão primitiva**:
-  - Se  $g, h$  são recursivas primitivas, então  $\text{Rec}[g, h]$  também é
+**1** Contém as funções básicas:
+
+- Função zero:  $Z$
+- Função sucessor:  $S$
+- Funções de projeção:  $P_i^k$  para todo  $k \geq 1$  e  $1 \leq i \leq k$
+
+**2** É fechado sob **composição**:
+
+- Se  $g, h_1, \dots, h_m$  são recursivas primitivas, então  $g \circ (h_1, \dots, h_m)$  também é
+
+**3** É fechado sob **recursão primitiva**:
+
+- Se  $g, h$  são recursivas primitivas, então  $\text{Rec}[g, h]$  também é
 
 {14}------------------------------------------------
 ### Propriedades das Funções Recursivas Primitivas
@@ -335,27 +348,14 @@ As funções recursivas primitivas não podem expressar todas as funções compu
 $$\text{add}(x, y) = x + y$$
 ##### Construção por Recursão Primitiva
 
-$$\text{add}(x, 0) = x = P_1^1(x)$$
+$$\begin{aligned}\text{add}(x, 0) &= x = P_1^1(x) \\ \text{add}(x, y + 1) &= \text{add}(x, y) + 1 = S(P_3^3(x, y, \text{add}(x, y)))\end{aligned}$$
 
-$$\text{add}(x, y + 1) = \text{add}(x, y) + 1 = S(P_3^3(x, y, \text{add}(x, y)))$$
-
-Portanto:  $\text{add} = \text{Rec}[P_1^1, S \circ P_3^3]$
+$$\text{Portanto: } \text{add} = \text{Rec}[P_1^1, S \circ P_3^3]$$
 ##### Verificação: $\text{add}(2, 3)$
 
-$$\text{add}(2, 0) = 2$$
-
-$$\text{add}(2, 1) = S(\text{add}(2, 0)) = S(2) = 3$$
-
-$$\text{add}(2, 2) = S(\text{add}(2, 1)) = S(3) = 4$$
-
-$$\text{add}(2, 3) = S(\text{add}(2, 2)) = S(4) = 5 \checkmark$$
+$$\begin{aligned}\text{add}(2, 0) &= 2 \\ \text{add}(2, 1) &= S(\text{add}(2, 0)) = S(2) = 3 \\ \text{add}(2, 2) &= S(\text{add}(2, 1)) = S(3) = 4 \\ \text{add}(2, 3) &= S(\text{add}(2, 2)) = S(4) = 5\checkmark\end{aligned}$$
 
 {16}------------------------------------------------
-
-<!-- IMAGE_DESCRIPTION: datalab-d3294dc879b451b369c0b06f42e9b39f_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** PUCRS logo with the text 'ESCOLA POLITÉCNICA'.
-<!-- /IMAGE_DESCRIPTION -->
 #### Exemplo 2: Multiplicação
 ##### Definição
 
@@ -375,29 +375,29 @@ $$\text{mult}(3, 0) = 0$$
 
 $$\text{mult}(3, 1) = \text{mult}(3, 0) + 3 = 0 + 3 = 3$$
 
-$$\text{mult}(3, 2) = \text{mult}(3, 1) + 3 = 3 + 3 = 6 \checkmark$$
+$$\text{mult}(3, 2) = \text{mult}(3, 1) + 3 = 3 + 3 = 6\checkmark$$
 
 {17}------------------------------------------------
 #### Exemplo 3: Exponenciação
 ##### Definição
 
-$$\exp(x, y) = x^y$$
+$$\text{exp}(x, y) = x^y$$
 ##### Construção por Recursão Primitiva
 
-$$\exp(x, 0) = 1 = S(Z(x))$$
+$$\text{exp}(x, 0) = 1 = S(Z(x))$$
 
-$$\exp(x, y + 1) = \exp(x, y) \cdot x = \text{mult}(P_3^3, P_1^3)$$
+$$\text{exp}(x, y + 1) = \text{exp}(x, y) \cdot x = \text{mult}(P_3^3, P_1^3)$$
 
-Portanto:  $\exp = \text{Rec}[S \circ Z, \text{mult} \circ (P_3^3, P_1^3)]$
-##### Verificação: $\exp(2, 3)$
+Portanto:  $\text{exp} = \text{Rec}[S \circ Z, \text{mult} \circ (P_3^3, P_1^3)]$
+##### Verificação: $\text{exp}(2, 3)$
 
-$$\exp(2, 0) = 1$$
+$$\text{exp}(2, 0) = 1$$
 
-$$\exp(2, 1) = \exp(2, 0) \cdot 2 = 1 \cdot 2 = 2$$
+$$\text{exp}(2, 1) = \text{exp}(2, 0) \cdot 2 = 1 \cdot 2 = 2$$
 
-$$\exp(2, 2) = \exp(2, 1) \cdot 2 = 2 \cdot 2 = 4$$
+$$\text{exp}(2, 2) = \text{exp}(2, 1) \cdot 2 = 2 \cdot 2 = 4$$
 
-$$\exp(2, 3) = \exp(2, 2) \cdot 2 = 4 \cdot 2 = 8 \checkmark$$
+$$\text{exp}(2, 3) = \text{exp}(2, 2) \cdot 2 = 4 \cdot 2 = 8 \checkmark$$
 
 {18}------------------------------------------------
 #### Exemplo 4: Predecessor
@@ -415,7 +415,7 @@ Usando uma função auxiliar constante  $g = Z$  (aridade 0):
 $$\text{pred} = \text{Rec}[Z, P_1^2]$$
 ##### Verificação
 
-$$\text{pred}(0) = 0, \text{pred}(1) = 0, \text{pred}(5) = 4 \checkmark$$
+$$\text{pred}(0) = 0, \text{pred}(1) = 0, \text{pred}(5) = 4 \quad \checkmark$$
 
 {19}------------------------------------------------
 #### Exemplo 5: Subtração Truncada (Monus)
@@ -440,7 +440,8 @@ Portanto:  $\text{monus} = \text{Rec}[P_1^1, \text{pred} \circ P_3^3]$
 $$\text{sg}(x) = \begin{cases} 0 & \text{se } x = 0 \\ 1 & \text{se } x > 0 \end{cases}$$
 ##### Construção
 
-Observe que  $\text{sg}(x) = 1 \dot{-} (1 \dot{-} x)$   
+Observe que  $\text{sg}(x) = 1 \dot{-} (1 \dot{-} x)$
+
 Ou por recursão primitiva direta:
 
 $$\text{sg}(0) = 0$$
@@ -452,7 +453,7 @@ $$\overline{\text{sg}}(x) = 1 \dot{-} \text{sg}(x) = \begin{cases} 1 & \text{se 
 
 {21}------------------------------------------------
 #### Exemplo 7: Comparações
-#### Menor ou Igual
+##### Menor ou Igual
 
 $$\text{leq}(x, y) = \begin{cases} 1 & \text{se } x \leq y \\ 0 & \text{caso contrário} \end{cases} = \overline{\text{sg}}(x \dot{-} y)$$
 ##### Igualdade
@@ -470,16 +471,20 @@ Ou simplesmente:  $\text{lt}(x, y) = \text{sg}(y \dot{-} x)$
 #### Exemplo 8: Operações Lógicas
 
 **Verdadeiro** = 1, **Falso** = 0
-#### Negação
+
+Negação
 
 $$\text{not}(x) = 1 \dot{-} x$$
-#### Conjunção (E lógico)
+
+Conjunção (E lógico)
 
 $$\text{and}(x, y) = x \cdot y$$
-##### Disjunção (OU lógico)
+
+Disjunção (OU lógico)
 
 $$\text{or}(x, y) = \text{sg}(x + y)$$
-#### Condicional (Se-Então-Senão)
+
+Condicional (Se-Então-Senão)
 
 $$\text{cond}(c, x, y) = c \cdot x + (1 \dot{-} c) \cdot y$$
 
@@ -530,7 +535,7 @@ $$\text{fact}(4) = 4 \cdot 6 = 24\checkmark$$
 
 {25}------------------------------------------------
 ### Somatório e Produtório Limitados
-#### Teorema
+### Teorema
 
 Se  $f(x_1, \dots, x_k, y)$  é recursiva primitiva, então também são:
 
@@ -546,16 +551,15 @@ A prova para o produtório é análogo, usando multiplicação.
 NOTA: Apenas somatórios e produtórios **limitados** ( $y$ ) são garantidamente recursivos primitivos.
 
 {26}------------------------------------------------
-#### Quantificação Limitada (Universal e Existencial)
-#### Teorema
+### Quantificação Limitada (Universal e Existencial)
+### Teorema
 
 Se  $P(x_1, \dots, x_k, y)$  é um predicado recursivo primitivo (valores em  $\{0, 1\}$ ), então também são:
 
 $$\forall_{i \leq y} P(\vec{x}, i) \quad \text{e} \quad \exists_{i \leq y} P(\vec{x}, i)$$
-#### Construção
+### Construção
 
 $$\forall_{i \leq y} P(\vec{x}, i) = \prod_{i=0}^y P(\vec{x}, i)$$
-
 $$\exists_{i \leq y} P(\vec{x}, i) = \text{sg} \left( \sum_{i=0}^y P(\vec{x}, i) \right)$$
 ## Importante
 
@@ -587,20 +591,13 @@ Calcule:
 - 4  $P_3^3(5, 5, 5)$
 - 5  $(S \circ S \circ Z)(42)$
 
-A faint, stylized coat of arms featuring a crown, a shield with a star, and the motto 'AD VERVM DVICIT' on a ribbon. The shield is divided into sections containing a crown and several small trees. The entire image is rendered in a light gray color, serving as a watermark.
-
-A faint, stylized coat of arms featuring a crown, a shield with a star, and the motto 'AD VERVM DVICIT' on a ribbon.
+Coat of arms of Brazil, featuring a shield with a star, a banner reading 'AD VERVM DVCIT', and a crown on top.
 
 {29}------------------------------------------------
 
-<!-- IMAGE_DESCRIPTION: datalab-1d7527f4316cfe2d342b08d1653d1592_img.jpg -->
+<!-- IMAGE_DESCRIPTION: datalab-67f9de2f1a2e5acf0d35a9adbcbd2d22_img.jpg -->
 <!-- Tipo: generico -->
-> **[Descrição de imagem]** Faint background watermark of the PUCRS coat of arms featuring a shield with trees and a star, and the motto 'AD VERVM DVOCIT'.
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-eca7fa4eb8dd1303e4bd56aee6555b2d_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** A faint, stylized coat of arms featuring a crown, a shield with a star, and the motto 'AD VERVM DVICIT' on a ribbon.
+> **[Descrição de imagem]** Coat of arms of Brazil, featuring a shield with a star, a banner reading 'AD VERVM DVCIT', and a crown on top.
 <!-- /IMAGE_DESCRIPTION -->
 ### Exercício 2: Construções por Composição
 
@@ -612,9 +609,9 @@ Expresse as seguintes funções usando apenas  $Z$ ,  $S$ ,  $P_i^k$  e composi�
 - 4  $k(x, y, z) = x + 2$  (ignorando  $y$  e  $z$ )
 - 5  $m(x) = x$  (função identidade)
 
-The image is a faint, stylized watermark of the coat of arms of the University of Coimbra. It features a shield with a star at the bottom and a crest above it. The motto 'AD VERVM DVICIT' is written in a banner at the bottom.
+The image shows the coat of arms of the University of São Paulo (USP). It features a shield with a large five-pointed star in the center. The shield is flanked by two crossed keys (the keys of St. Peter) and topped by a crown. A banner at the bottom of the shield contains the Latin motto "AD VERVM DVCT".
 
-Coat of arms of the University of Coimbra, featuring a shield with a star and the motto 'AD VERVM DVICIT'.
+Coat of arms of the University of São Paulo (USP)
 
 {30}------------------------------------------------
 ### Exercício 3: Recursão Primitiva
@@ -622,30 +619,38 @@ Coat of arms of the University of Coimbra, featuring a shield with a star and th
 Mostre que as seguintes funções são recursivas primitivas, dando explicitamente  $g$  e  $h$  na definição  $f = \text{Rec}[g, h]$ :
 
 - 1  $f(x, y) = x + 2y$
-- 2  $f(x, y) = x^2 + y$  (dica: assuma que  $x^2$  é recursiva primitiva)
+- 2  $f(x, y) = x^2 + y$  (dica: assumo que  $x^2$  é recursiva primitiva)
 - 3  $f(n) = 2^n$
 - 4  $f(n) = n \cdot (n + 1)$
-#### Desafio!
+### Desafio!
 
-- 1 Fibonacci:  $F(0) = 0$ ,  $F(1) = 1$ ,  $F(n + 2) = F(n + 1) + F(n)$ 
-  - Dica: defina uma função auxiliar que retorna um “par”  $(F(n), F(n + 1))$
+- 1 Fibonacci:  $F(0) = 0, F(1) = 1, F(n + 2) = F(n + 1) + F(n)$ 
+  - Dica: defina uma função auxiliar que retorna um “par”  
+( $F(n), F(n + 1)$ )
 
 {31}------------------------------------------------
 ### Exercício 4: Predicados
 
 Mostre que os seguintes predicados são recursivos primitivos:
 
-$$1 \text{ É\_Zero}(x) = \begin{cases} 1 & \text{se } x = 0 \\ 0 & \text{caso contrário} \end{cases}$$
+$$1 \quad \text{É\_Zero}(x) = \begin{cases} 1 & \text{se } x = 0 \\ 0 & \text{caso contrário} \end{cases}$$
 
-$$2 \text{ É\_Par}(x) = \begin{cases} 1 & \text{se } x \text{ é par} \\ 0 & \text{caso contrário} \end{cases}$$
+$$2 \quad \text{É\_Par}(x) = \begin{cases} 1 & \text{se } x \text{ é par} \\ 0 & \text{caso contrário} \end{cases}$$
 
-$$3 \text{ Divide}(x, y) = \begin{cases} 1 & \text{se } x \mid y \\ 0 & \text{caso contrário} \end{cases}$$
+$$3 \quad \text{Divide}(x, y) = \begin{cases} 1 & \text{se } x \mid y \\ 0 & \text{caso contrário} \end{cases}$$
 
-$$4 \text{ É\_Primo}(n) = \begin{cases} 1 & \text{se } n \text{ é primo} \\ 0 & \text{caso contrário} \end{cases}$$
+$$4 \quad \text{É\_Primo}(n) = \begin{cases} 1 & \text{se } n \text{ é primo} \\ 0 & \text{caso contrário} \end{cases}$$
 
 **Dica:**  $n$  é primo sse  $n > 1$  e não existe  $2 \leq d < n$  que divide  $n$
 
+Faint watermark of the University of Coimbra crest on the right side of the slide.
+
 {32}------------------------------------------------
+
+<!-- IMAGE_DESCRIPTION: datalab-d9a8b92ba7fc661ebe736ba3e4088eb5_img.jpg -->
+<!-- Tipo: generico -->
+> **[Descrição de imagem]** Faint watermark of the University of Coimbra crest on the right side of the slide.
+<!-- /IMAGE_DESCRIPTION -->
 ### Exercício 5: Busca Limitada
 #### Definição
 
@@ -653,13 +658,13 @@ Se  $P(\vec{x}, y)$  é um predicado recursivo primitivo, definimos:
 
 $$(\mu y \leq z)P(\vec{x}, y) = \begin{cases} \text{menor } y \leq z \text{ tal que } P(\vec{x}, y) = 1 & \text{se existir} \\ z + 1 & \text{caso contrário} \end{cases}$$
 
-- Desafio!** Prove que  $(\mu y \leq z)P(\vec{x}, y)$  é recursiva primitiva.  
+- 1 **Desafio!** Prove que  $(\mu y \leq z)P(\vec{x}, y)$  é recursiva primitiva.
+
 Dica: somas limitadas são recursivas primitivas!
 
-- Use busca limitada para definir:
-
-- $\sqrt{n}$  (raiz quadrada inteira,  $= \lfloor \sqrt{n} \rfloor$ )
-- O  $n$ -ésimo número primo  $p(n)$
+- 2 Use busca limitada para definir:
+  - $\sqrt{n}$  (raiz quadrada inteira,  $= \lfloor \sqrt{n} \rfloor$ )
+  - O  $n$ -ésimo número primo  $p(n)$
 
 {33}------------------------------------------------
 ### Exercício 6: Codificação de Pares
@@ -697,9 +702,20 @@ Por que a função de Ackermann não é recursiva primitiva? O que isso nos diz 
 - [3] Christos H. Papadimitriou. *Computational Complexity*. Addison-Wesley, 1994.
 - [4] Michael Sipser. *Introduction to the Theory of Computation*. 3rd. Cengage Learning, 2012.
 
-Faint watermark of the University of Cambridge crest, featuring a shield with four lions and a closed book, with the motto 'AD VERVM DVCTIT' on a ribbon below.
+Faint watermark of the University of São Paulo (USP) coat of arms, featuring a shield with a star and the motto 'AD VERVM DVCT'.
 
 <!-- IMAGE_DESCRIPTION: datalab-711ec8db6b4a2d4e24b0c0b2ed8853b8_img.jpg -->
 <!-- Tipo: generico -->
-> **[Descrição de imagem]** Faint watermark of the University of Cambridge crest, featuring a shield with four lions and a closed book, with the motto 'AD VERVM DVCTIT' on a ribbon below.
+> **[Descrição de imagem]** Faint watermark of the University of São Paulo (USP) coat of arms, featuring a shield with a star and the motto 'AD VERVM DVCT'.
 <!-- /IMAGE_DESCRIPTION -->
+
+<!-- IMAGE_DESCRIPTION_ORPHANS -->
+## Imagens Curadas
+
+Descrições preservadas para imagens detectadas no documento, mas sem referência markdown compatível no corpo principal.
+
+<!-- IMAGE_DESCRIPTION: datalab-fa6c61be003dfbb4ca5587e48a71de94_img.jpg -->
+<!-- Tipo: generico -->
+> **[Descrição de imagem]** Logo of PUCRS (Pontifícia Universidade Católica do Rio Grande do Sul)
+<!-- /IMAGE_DESCRIPTION -->
+<!-- /IMAGE_DESCRIPTION_ORPHANS -->

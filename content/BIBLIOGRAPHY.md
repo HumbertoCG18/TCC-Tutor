@@ -4,15 +4,16 @@
 > O tutor consulta este arquivo quando o aluno pede fontes
 > ou quando uma explicação pode ser aprofundada com leitura adicional.
 
-## Referências
+## Referências importadas
 
-<!-- Adicione referências aqui, importe links pelo app,
-     ou preencha o Plano de Ensino no Gerenciador de Matérias. -->
+### Problema Weighted Max-Cut
+- **URL:** C:/Users/Humberto/Downloads/TCC/Problema Weighted Max-Cut.pdf
+- **Incluir no bundle:** sim
 
-## Mapa de relevância por tópico
+### Referência- REDUCIBILITY AMONG COMBINATORIAL PROBLEMS
+- **URL:** C:/Users/Humberto/Downloads/TCC/Referência- REDUCIBILITY AMONG COMBINATORIAL PROBLEMS.pdf
+- **Incluir no bundle:** sim
 
-<!-- Preencha após organizar as referências -->
+## Relevância por tópico
 
-| Tópico | Referência principal | Acessível | Incidência em prova |
-|---|---|---|---|
-| [a preencher] | | | |
+> A relevância por tópico agora vive no `course/COURSE_MAP.md` (linhas `📖 Apoio:` sob cada tópico/unidade). Esta página traz o resumo completo de cada referência.

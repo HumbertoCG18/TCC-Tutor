@@ -5,10 +5,7 @@
 
 ## Trabalhos
 
-| Arquivo | Título | Unidade | Status |
-|---|---|---|---|
-| Enunciado T1[.pdf | Enunciado T1 |  | pendente |
-
-## Padrões do professor
-
-- [a preencher]
+| Arquivo | Título | Unidade |
+|---|---|---|
+| Enunciado T2.pdf | Enunciado T2 |  |
+| Enunciado T1.pdf | Enunciado T1 |  |

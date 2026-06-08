@@ -15,6 +15,7 @@
   - Linguagens e Decidibilidade
   - Linguagem de uma MT
   - Tipos de Linguagens
+  - Pergunta
   - Codificação de Máquinas de Turing
   - Definição Formal
 - **O Problema da Parada (Halting Problem)**
@@ -22,20 +23,23 @@
   - Teorema (Turing, 1936)
   - Prova: Estrutura do Argumento
   - Método: Prova por Contradição + Diagonalização
-  - Prova: Construção da Máquina $D$
   - Visualização: Argumento Diagonal
   - Analogia ao Paradoxo de Russell
   - Problema do Barbeiro
   - Conexão
-- **HALT é Reconhecível, mas não Decidível**
-  - HALT é Turing-Reconhecível
+- ***HALT* é Reconhecível, mas não Decidível**
+  - *HALT* é Turing-Reconhecível
   - Problema
   - Hierarquia
-  - O Complemento de *HALT*
+  - O Complemento de $HALT$
   - Definição
+  - Prova
   - Variações do Problema da Parada
+  - Todas são Indecidíveis
+  - Trivialidade
   - Redução: Ferramenta para Provar Indecidibilidade
   - Exemplo: Problema da Aceitação
+  - Prova (Redução de $HALT$ )
   - Exemplo: Problema da Linguagem Vazia
 - **Implicações Práticas**
   - Verificação de Software
@@ -58,6 +62,7 @@
 - **Reflexão**
 - **Referências I**
 - **Referências II**
+- **Imagens Curadas**
 
 <!-- EXEC_SUMMARY_END -->
 {0}------------------------------------------------
@@ -68,50 +73,62 @@ Prof. Anderson Roberto Pinheiro Domingues
 
 [anderson.domingues@pucrs.br](mailto:anderson.domingues@pucrs.br)
 
-Aula 11  
+Aula 11
+
 Teoria da Computabilidade e Complexidade  
 Ciência da Computação
 
 15 de abril de 2026
 
-The logo of the PUCRS Escola Politécnica. It features a crest with a shield and a star, with the text "PUCRS" below it. To the right of the crest, the words "ESCOLA" and "POLITÉCNICA" are stacked vertically in a blue sans-serif font.
+The logo of PUCRS, featuring a shield with a cross and a star, and the text 'PUCRS' below it.
 
-Logo of PUCRS Escola Politécnica
+Logo of PUCRS (Pontifícia Universidade Católica do Rio Grande do Sul)
 
-A large, faint, gray watermark of the PUCRS seal is positioned on the right side of the slide. The seal is a circular emblem with a central shield and a banner at the bottom that reads "AD VERVM DVOCIT".
-
-Faint background watermark of the PUCRS seal
+ESCOLA  
+POLITÉCNICA
 
 {1}------------------------------------------------
 ## Sumário
 
-**1** Introdução
+- 1 Introdução
+- 2 O Problema da Parada
+- 3 Consequências e Aplicações
+- 4 Exercícios
 
-**2** O Problema da Parada
+The image shows the coat of arms of the University of São Paulo (USP). It features a shield with a central vertical band containing a monogram, flanked by two vertical bands with a repeating cross pattern. Above the shield is a crown and two crossed keys. Below the shield is a banner with the Latin motto "AD VERVM DVCT".
 
-**3** Consequências e Aplicações
-
-**4** Exercícios
-
-A faint, gray watermark of the coat of arms of the University of Coimbra is visible on the right side of the slide. The shield features a central star and is flanked by two sections with a repeating pattern of stylized trees. Above the shield is a crown and two crossed keys. A ribbon at the bottom bears the Latin motto 'AD VERVM DVKIT'.
-
-Faint watermark of the coat of arms of the University of Coimbra, featuring a shield with a star and the motto 'AD VERVM DVKIT'.
+Coat of arms of the University of São Paulo (USP)
 
 {2}------------------------------------------------
 
-<!-- IMAGE_DESCRIPTION: datalab-1211e36d120f0d2912a745437f4c8f19_img.jpg -->
+<!-- IMAGE_DESCRIPTION: datalab-8c378a184b5ae4d1605cb74d7b7a7e3f_img.jpg -->
 <!-- Tipo: generico -->
-> **[Descrição de imagem]** Faint watermark of the coat of arms of the University of Coimbra, featuring a shield with a star and the motto 'AD VERVM DVKIT'.
+> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
+<!-- /IMAGE_DESCRIPTION -->
+
+<!-- IMAGE_DESCRIPTION: datalab-082ba09313df59d76a7bfbdde8ec877d_img.jpg -->
+<!-- Tipo: generico -->
+> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
+<!-- /IMAGE_DESCRIPTION -->
+
+<!-- IMAGE_DESCRIPTION: datalab-f770ac8927cbf6aa997de6e0307c9783_img.jpg -->
+<!-- Tipo: generico -->
+> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
+<!-- /IMAGE_DESCRIPTION -->
+
+<!-- IMAGE_DESCRIPTION: datalab-9887cf85c05205c57271d28ecc108b32_img.jpg -->
+<!-- Tipo: generico -->
+> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
 <!-- /IMAGE_DESCRIPTION -->
 ## Contexto Histórico
 ## A Busca pelos Limites da Computação
 
 No início do século XX, alguns matemáticos buscavam entender os **limites fundamentais** do que pode ou não ser computado.
 
-- **1900:** David Hilbert propõe 23 problemas fundamentais
-- **1928:** Hilbert e Ackermann formalizam o *Entscheidungsproblem*
-- **1936:** Alan Turing publica “On Computable Numbers”
-- **1936:** Turing demonstra que o Problema da Parada é **indecidível**
+- **1900**: David Hilbert propõe 23 problemas fundamentais
+- **1928**: Hilbert e Ackermann formalizam o *Entscheidungsproblem*
+- **1936**: Alan Turing publica “On Computable Numbers”
+- **1936**: Turing demonstra que o Problema da Parada é **indecidível**
 ### Importância
 
 O Problema da Parada é o primeiro e exemplo de problema **computacionalmente impossível**<sup>1</sup> de resolver.
@@ -140,16 +157,16 @@ Uma Máquina de Turing  $M$  é uma tupla  $(Q, \Sigma, \Gamma, \delta, q_0, q_{
 
 - $Q$ : conjunto finito de estados
 - $\Sigma$ : alfabeto de entrada (não contém  $\sqcup$ )
-- $\Gamma$ : alfabeto da fita ( $\Sigma \subseteq \Gamma$ ,  $\sqcup \in \Gamma$ )
+- $\Gamma$ : alfabeto da fita ( $\Sigma \subseteq \Gamma, \sqcup \in \Gamma$ )
 - $\delta : Q \times \Gamma \rightarrow Q \times \Gamma \times \{L, R\}$
 - $q_0, q_{accept}, q_{reject} \in Q$ : estados inicial, de aceitação e rejeição
 ### Comportamento
 
 Para entrada  $w$ , a MT  $M$  pode:
 
-- 1 **Aceitar:** entrar em  $q_{accept}$
-- 2 **Rejeitar:** entrar em  $q_{reject}$
-- 3 **Looping:** nunca parar
+- 1 **Aceitar**: entrar em  $q_{accept}$
+- 2 **Rejeitar**: entrar em  $q_{reject}$
+- 3 **Looping**: nunca parar
 
 {5}------------------------------------------------
 ### Linguagens e Decidibilidade
@@ -158,7 +175,7 @@ Para entrada  $w$ , a MT  $M$  pode:
 $$L(M) = \{w \mid M \text{ aceita } w\}$$
 ### Tipos de Linguagens
 
-Decidível (Recursiva): Existe MT  $M$  que **sempre para** e:
+Decidível (Recursiva): Existe MT  $M$  que **sempre para e**:
 
 - Aceita se  $w \in L$
 - Rejeita se  $w \notin L$
@@ -167,7 +184,7 @@ Reconhecível (Recursivamente Enumerável): Existe MT  $M$  que:
 
 - Aceita se  $w \in L$
 - Rejeita ou **loop** se  $w \notin L$
-#### Pergunta
+### Pergunta
 
 Existirá algum formalismo (máquina computante) que decide linguagens reconhecíveis?
 
@@ -193,7 +210,8 @@ Usaremos  $\langle M, w \rangle$  para denotar a codificação da MT  $M$  junto
 ### Definição Formal
 ## O Problema da Parada (Halting Problem)
 
-**Entrada:** Uma codificação  $\langle M, w \rangle$  de uma MT  $M$  e uma string  $w$ .  
+**Entrada:** Uma codificação  $\langle M, w \rangle$  de uma MT  $M$  e uma string  $w$ .
+
 **Pergunta:**  $M$  para quando executada com entrada  $w$ ?
 ### Linguagem Associada
 
@@ -208,14 +226,16 @@ Não existe Máquina de Turing que sempre para e decide corretamente se uma MT a
 ### Prova: Estrutura do Argumento
 ### Método: Prova por Contradição + Diagonalização
 
-- 1 Assumir que existe uma MT  $H$  que decide *HALT*
+- 1 Assumir que existe uma MT  $H$  que decide  $HALT$
 - 2 Construir uma nova MT  $D$  usando  $H$
 - 3 Mostrar que  $D$  leva a uma contradição
 - 4 Concluir que  $H$  não pode existir
 
-A diagram illustrating the hypothetical Turing machine  $H$ . On the left, the input  $\langle M, w \rangle$  is shown with an arrow pointing to a rectangular box labeled  $H$ . From the right side of the box, two arrows point to different outputs: the top arrow points to the text "aceita se  $M$  para em  $w$ ", and the bottom arrow points to the text "rejeita se  $M$  não para em  $w$ ".
+```
+graph LR; Input["<M, w>"] --> H[H]; H --> Accept["aceita se M para em w"]; H --> Reject["rejeita se M não para em w"];
+```
 
-Diagram showing the input and outputs of a hypothetical Turing machine H.
+Diagram of a hypothetical Turing machine H. An input  enters a box labeled H. Two arrows exit the box: one pointing to 'aceita se M para em w' and another pointing to 'rejeita se M não para em w'.
 
 A MT hipotética  $H$  **sempre para** e responde corretamente.
 
@@ -223,14 +243,9 @@ A MT hipotética  $H$  **sempre para** e responde corretamente.
 
 <!-- IMAGE_DESCRIPTION: datalab-a234352dfaccdc24745c88eef7724cc6_img.jpg -->
 <!-- Tipo: generico -->
-> **[Descrição de imagem]** Diagram showing the input and outputs of a hypothetical Turing machine H.
+> **[Descrição de imagem]** Diagram of a hypothetical Turing machine H.
 <!-- /IMAGE_DESCRIPTION -->
-### Prova: Construção da Máquina $D$
-
-<!-- IMAGE_DESCRIPTION: datalab-1eadbbe42cfcac5c0023577110aec5e3_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Diagrama da máquina D
-<!-- /IMAGE_DESCRIPTION -->
+#### Prova: Construção da Máquina $D$
 #### Definição de $D$
 
 Usando  $H$ , construímos  $D$  que recebe  $\langle M \rangle$  como entrada:
@@ -239,21 +254,30 @@ Usando  $H$ , construímos  $D$  que recebe  $\langle M \rangle$  como entrada:
 - 2 Se  $H$  aceita (i.e.,  $M$  para em  $\langle M \rangle$ ): entre em loop infinito
 - 3 Se  $H$  rejeita (i.e.,  $M$  não para em  $\langle M \rangle$ ): aceite e pare
 
-Diagrama da máquina  $D$ . Uma seta rotulada  $\langle M \rangle$  entra em um retângulo tracejado rotulado  $D$ . Dentro de  $D$  há um retângulo rotulado  $H$ . De  $H$ , duas setas saem para fora de  $D$ : uma rotulada "se aceita" apontando para "loop  $\infty$ ", e outra rotulada "se rejeita" apontando para "para".
+```
+graph LR; Input("<M>") --> D; subgraph D [D]; H[H]; end; H -- "se aceita" --> Loop("loop $\infty$"); H -- "se rejeita" --> Para("para");
+```
 
-Diagrama da máquina D
+Diagram illustrating the construction of machine D. An input  enters a dashed box labeled D. Inside D is a box labeled H. From the output of H, two paths emerge: 'se aceita' leading to 'loop $\infty$' and 'se rejeita' leading to 'para'.
+
+<!-- IMAGE_DESCRIPTION: datalab-1eadbbe42cfcac5c0023577110aec5e3_img.jpg -->
+<!-- Tipo: generico -->
+> **[Descrição de imagem]** Diagram illustrating the construction of machine D.
+<!-- /IMAGE_DESCRIPTION -->
 #### Comportamento de $D$
 
 $D(\langle M \rangle)$  faz o **oposto** do que  $M$  faz quando recebe sua própria descrição.
 
 {10}------------------------------------------------
 #### Prova por Contradição
-#### Onde está a contradição?
+
+Onde está a contradição?
 
 O que acontece quando executamos  $D$  com sua própria descrição?
 
 $$D(\langle D \rangle) = ?$$
-#### Possibilidades
+
+Possibilidades
 
 **Caso 1:** Suponha que  $D(\langle D \rangle)$  **para**.
 
@@ -284,14 +308,7 @@ $$D(\langle D \rangle) = ?$$
 - Se  $M_i$  para em  $\langle M_i \rangle$ , então  $D$  não para em  $\langle M_i \rangle$
 - A entrada  $\langle D \rangle$  para  $D$  gera a contradição
 
-Faint watermark of the University of Coimbra crest featuring a crown, a shield with a star and the letters 'M', and the motto 'ALVERVM DVCTI'.
-
 {12}------------------------------------------------
-
-<!-- IMAGE_DESCRIPTION: datalab-a8a65eb4968947846b288d693535f03a_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Faint watermark of the University of Coimbra crest featuring a crown, a shield with a star and the letters 'M', and the motto 'ALVERVM DVCTI'.
-<!-- /IMAGE_DESCRIPTION -->
 ### Analogia ao Paradoxo de Russell
 ### Problema do Barbeiro
 
@@ -306,8 +323,8 @@ Em uma vila, o barbeiro barbeia todas as pessoas que não barbeiam a si mesmas, 
 A máquina  $D$  é como o “barbeiro”: ela é definida para fazer o oposto do que “deveria” fazer quando aplicada a si mesma.
 
 {13}------------------------------------------------
-## HALT é Reconhecível, mas não Decidível
-### HALT é Turing-Reconhecível
+## *HALT* é Reconhecível, mas não Decidível
+### *HALT* é Turing-Reconhecível
 
 Podemos construir uma MT  $R$  que **reconhece** *HALT*:
 
@@ -319,48 +336,45 @@ Podemos construir uma MT  $R$  que **reconhece** *HALT*:
 $R$  não **decide** *HALT*.
 ### Hierarquia
 
-Diagrama de Venn illustrating the hierarchy of computational problems. A larger oval labeled "Reconhecíveis" (Recognizable) contains a smaller oval labeled "Decidíveis" (Decidable). The label "HALT" is placed within the larger oval but outside the smaller one, indicating that HALT is recognizable but not decidable.
+O diagrama ilustra a hierarquia dos problemas de decisão. Consiste em dois ovais concêntricos. O oval interno, menor, é rotulado 'Decidíveis'. O oval externo, maior, é rotulado 'Reconhecíveis'. A região entre os dois ovais, representando problemas que são reconhecíveis mas não decidíveis, contém o rótulo '*HALT*'.
 
-Diagrama de Venn mostrando a hierarquia de problemas computacionais. Um oval maior rotulado 'Reconhecíveis' contém um oval menor rotulado 'Decidíveis'. A palavra 'HALT' está escrita dentro do oval maior, mas fora do oval menor, indicando que HALT é reconhecível mas não decidível.
+Diagrama de hierarquia de problemas de decisão
 
 {14}------------------------------------------------
 
 <!-- IMAGE_DESCRIPTION: datalab-66c2bf11a8f117cddf67eff92d4c736c_img.jpg -->
 <!-- Tipo: generico -->
-> **[Descrição de imagem]** Diagrama de Venn mostrando a hierarquia de problemas computacionais.
+> **[Descrição de imagem]** Diagrama de hierarquia de problemas de decisão
 <!-- /IMAGE_DESCRIPTION -->
-### O Complemento de *HALT*
+### O Complemento de $HALT$
 ### Definição
 
 $$\overline{HALT} = \{\langle M, w \rangle \mid M \text{ não para em } w\}$$
 #### Teorema
 
-$\overline{HALT}$  **não é** Turing-reconhecível.
-#### Prova
+$\overline{HALT}$  **não** é Turing-reconhecível.
+### Prova
 
-Se tanto *HALT* quanto  $\overline{HALT}$  fossem reconhecíveis, então *HALT* seria decidível:
+Se tanto  $HALT$  quanto  $\overline{HALT}$  fossem reconhecíveis, então  $HALT$  seria decidível:
 
-- Execute reconhecedores *HALT* e  $\overline{HALT}$  em paralelo
-- Um deles eventualmente aceita; isso daria um decisor para *HALT*
+- Execute reconhecedores  $HALT$  e  $\overline{HALT}$  em paralelo
+- Um deles eventualmente aceita; isso daria um decisor para  $HALT$
 
-Mas *HALT* não é decidível, então  $\overline{HALT}$  não pode ser reconhecível.
+Mas  $HALT$  não é decidível, então  $\overline{HALT}$  não pode ser reconhecível.
 
 {15}------------------------------------------------
 ### Variações do Problema da Parada
-#### Todas são Indecidíveis
-
-- **Parada na entrada vazia:**
+### Todas são Indecidíveis
+#### - Parada na entrada vazia:
 
 $$HALT_{\epsilon} = \{\langle M \rangle \mid M \text{ para em } \epsilon\}$$
-
-- **Parada em todas as entradas:**
+#### - Parada em todas as entradas:
 
 $$HALT_{all} = \{\langle M \rangle \mid M \text{ para em toda entrada}\}$$
-
-- **Parada em alguma entrada:**
+#### - Parada em alguma entrada:
 
 $$HALT_{some} = \{\langle M \rangle \mid \exists w : M \text{ para em } w\}$$
-#### Trivialidade
+### Trivialidade
 
 Qualquer propriedade não-trivial sobre MTs tende a ser indecidível (Teorema de Rice).
 
@@ -375,37 +389,41 @@ Para provar que um problema  $B$  é indecidível:
 - 3 Como  $A$  é indecidível,  $B$  também deve ser
 #### Notação
 
-$A \leq_m B$  significa “ $A$  é redutível a  $B$ ” (ou “ $A$  reduz para  $B$ ”).  
+$A \leq_m B$  significa “ $A$  é redutível a  $B$ ” (ou “ $A$  reduz para  $B$ ”).
+
 Se  $A \leq_m B$  e  $A$  é indecidível, então  $B$  é indecidível.
 
-A diagram illustrating the reduction process. It consists of two rectangular boxes. The left box contains the text "Problema A". Below this box is the word "indecidível". An arrow points from the right side of the left box to the left side of the right box. Above the arrow is the word "redução". The right box contains the text "Problema B". Below this box is the expression "$\Rightarrow$ indecidível".
+```
+graph LR; A[Problema A] -- redução --> B[Problema B]; A --- A_label[indecidível]; B --- B_label["$\Rightarrow$ indecidível"];
+```
 
-Diagram showing the reduction from Problem A to Problem B. Problem A is labeled 'indecidível' and Problem B is labeled '$\Rightarrow$ indecidível'.
+Diagram illustrating a reduction from Problema A to Problema B. A box labeled 'Problema A' is connected by an arrow labeled 'redução' to a box labeled 'Problema B'. Below 'Problema A' is the word 'indecidível', and below 'Problema B' is '$\Rightarrow$ indecidível'.
 
 {17}------------------------------------------------
 
-<!-- IMAGE_DESCRIPTION: datalab-b0d4609bc46c2d88a8318706bb5321f7_img.jpg -->
+<!-- IMAGE_DESCRIPTION: datalab-9b62a616c7a1097c5da57f001ab6dd64_img.jpg -->
 <!-- Tipo: generico -->
-> **[Descrição de imagem]** Diagram showing the reduction from Problem A to Problem B.
+> **[Descrição de imagem]** Diagram illustrating a reduction from Problema A to Problema B.
 <!-- /IMAGE_DESCRIPTION -->
 ### Exemplo: Problema da Aceitação
 #### Definição
 
-$$A_{TM} = \{\langle M, w \rangle \mid M \text{ aceita } w\}$$
+$$A_{TM} = \{ \langle M, w \rangle \mid M \text{ aceita } w \}$$
 #### Teorema
 
 $A_{TM}$  é indecidível.
-#### Prova (Redução de *HALT*)
+### Prova (Redução de $HALT$ )
 
 Mostraremos que  $HALT \leq_m A_{TM}$ .
 
-Dada instância  $\langle M, w \rangle$  de *HALT*, construa  $M'$ :
+Dada instância  $\langle M, w \rangle$  de  $HALT$ , construa  $M'$ :
 
 - 1  $M'$  simula  $M$  em  $w$
 - 2 Se  $M$  para (aceita ou rejeita),  $M'$  aceita
 
-Então:  $M$  para em  $w \iff M'$  aceita  $w \iff \langle M', w \rangle \in A_{TM}$   
-Se pudéssemos decidir  $A_{TM}$ , decidiríamos *HALT*. Contradição!
+Então:  $M$  para em  $w \iff M'$  aceita  $w \iff \langle M', w \rangle \in A_{TM}$
+
+Se pudéssemos decidir  $A_{TM}$ , decidiríamos  $HALT$ . Contradição!
 
 {18}------------------------------------------------
 ### Exemplo: Problema da Linguagem Vazia
@@ -440,7 +458,7 @@ Não existe ferramenta que possa verificar automaticamente se **qualquer** progr
 
 - **Compiladores:** não podem otimizar perfeitamente (ex: eliminar código morto)
 - **Antivírus:** não podem detectar todos os malwares
-- **Analisaadores estáticos:** falsos positivos/negativos
+- **Analisadores estáticos:** falsos positivos/negativos
 
 {20}------------------------------------------------
 ### O Problema da Parada em Linguagens Reais
@@ -453,11 +471,11 @@ Linguagens como C, Python, Java são Turing-completas:
 ### Exemplo em Python
 
 ```
-1 def will_halt(programa, entrada):  
-2     # Este algoritmo não pode existir!  
-3     # Retornaria True se programa(entrada) para  
-4     # Retornaria False se programa(entrada) não para  
-5     pass
+1  def will_halt(programa, entrada):  
+2      # Este algoritmo não pode existir!  
+3      # Retornaria True se programa(entrada) para  
+4      # Retornaria False se programa(entrada) não para  
+5      pass
 ```
 #### Consequência
 
@@ -470,11 +488,11 @@ Nenhuma IDE ou ferramenta pode sempre detectar loops infinitos em código arbitr
 Existem **subclasses** de programas para as quais a terminação é decidível:
 ## Exemplos
 
-- **Autômatos Finitos:** sempre terminam (passos finitos)
-- **Autômatos de Pilha:** decidíveis por análise da gramática
-- **Funções primitivas recursivas:** sempre terminam
-- **Loops limitados:** 'for i in range(n)' sempre termina
-- **Programas com medidas de terminação:** funções que decrescem a cada iteração
+- **Autômatos Finitos**: sempre terminam (passos finitos)
+- **Autômatos de Pilha**: decidíveis por análise da gramática
+- **Funções primitivas recursivas**: sempre terminam
+- **Loops limitados**: 'for i in range(n)' sempre termina
+- **Programas com medidas de terminação**: funções que decrescem a cada iteração
 ## Na Prática
 
 A maioria dos programas úteis **podem** ter sua terminação verificada, mas não **todos**.
@@ -486,41 +504,26 @@ A maioria dos programas úteis **podem** ter sua terminação verificada, mas n�
 - 2 Na prova, o que aconteceria se  $D$  fizesse o **mesmo** que  $H$  indica (ao invés do oposto)? Ainda teríamos contradição?
 - 3 Por que não podemos simplesmente “executar  $M$  em  $w$  por um tempo limitado” e declarar que  $M$  não para se não terminar nesse tempo?
 
-A faint, grayscale watermark of the University of Coimbra seal is visible in the background. It features a shield with a cross and other heraldic elements, topped with a crown. Below the shield is a ribbon with the Latin motto "AD VERVM DVOCIT".
-
-Faint background watermark of the University of Coimbra seal, featuring a shield with a cross and the motto 'AD VERVM DVOCIT'.
+Faint watermark of the University of São Paulo (USP) coat of arms, featuring a shield with a star and a banner below reading 'AD VERVM DVCIT'.
 
 {23}------------------------------------------------
 
-<!-- IMAGE_DESCRIPTION: datalab-d3294dc879b451b369c0b06f42e9b39f_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Faint background watermark of the PUCRS seal
-<!-- /IMAGE_DESCRIPTION -->
-
 <!-- IMAGE_DESCRIPTION: datalab-0ab720844e454afef91e5d68f4ab8ad9_img.jpg -->
 <!-- Tipo: generico -->
-> **[Descrição de imagem]** Faint background watermark of the University of Coimbra seal, featuring a shield with a cross and the motto 'AD VERVM DVOCIT'.
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-e954015e19aabf163663a8fa54b8b48c_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Watermark of the University of Coimbra seal, featuring a shield with a cross and the motto 'AD VERVM DVOCIT'.
+> **[Descrição de imagem]** Faint watermark of the University of São Paulo (USP) coat of arms, featuring a shield with a star and a banner below reading 'AD VERVM DVCIT'.
 <!-- /IMAGE_DESCRIPTION -->
 ### Exercício 2: Variações do Problema da Parada
 
 Prove que os seguintes problemas são indecidíveis (usando redução de *HALT*):
 
-1  $HALT_{\epsilon} = \{\langle M \rangle \mid M \text{ para na entrada vazia } \epsilon\}$
-
+- 1  $HALT_{\epsilon} = \{\langle M \rangle \mid M \text{ para na entrada vazia } \epsilon\}$   
 *Dica:* Dada  $\langle M, w \rangle$ , construa  $M'$  que ignora sua entrada e simula  $M$  em  $w$ .
+- 2  $HALT_{101} = \{\langle M \rangle \mid M \text{ para na entrada } 101\}$
+- 3 O problema de decidir se uma MT para em **exatamente 100 passos** para alguma entrada.
 
-2  $HALT_{101} = \{\langle M \rangle \mid M \text{ para na entrada } 101\}$
+The image shows the coat of arms of the University of São Paulo (USP). It features a central shield with a white background and a large blue star. The shield is flanked by two blue lions. Above the shield is a blue crown. A blue banner at the bottom of the shield contains the Latin motto 'AD VERVM DVCT'.
 
-3 O problema de decidir se uma MT para em **exatamente 100 passos** para alguma entrada.
-
-The image is a watermark of the University of Coimbra seal. It features a shield with a cross and the motto 'AD VERVM DVOCIT' (To the truth it calls) written in a banner below. The shield is flanked by two figures, and the entire emblem is rendered in a light gray color.
-
-Watermark of the University of Coimbra seal, featuring a shield with a cross and the motto 'AD VERVM DVOCIT'.
+Coat of arms of the University of São Paulo (USP)
 
 {24}------------------------------------------------
 ### Exercício 3: Reconhecibilidade
@@ -530,14 +533,11 @@ Watermark of the University of Coimbra seal, featuring a shield with a cross and
 - 2 Por que  $\overline{HALT}$  não é Turing-reconhecível?
 - 3 Existe uma linguagem que não é Turing-reconhecível nem co-Turing-reconhecível? Justifique.
 
-A faint, stylized illustration of a coat of arms featuring a crown, a shield with a cross, and a banner with the Latin motto 'AD VERVM DVOCIT'.
+The image shows the coat of arms of the University of São Paulo (USP). It features a central shield with a white background and a large blue star at the bottom. The shield is flanked by two golden lions. Above the shield is a crown. A banner at the bottom of the shield contains the Latin motto "AD VERVM DVCT".
+
+Coat of arms of the University of São Paulo (USP)
 
 {25}------------------------------------------------
-
-<!-- IMAGE_DESCRIPTION: datalab-f770ac8927cbf6aa997de6e0307c9783_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** A faint, stylized illustration of a coat of arms featuring a crown, a shield with a cross, and a banner with the Latin motto 'AD VERVM DVOCIT'.
-<!-- /IMAGE_DESCRIPTION -->
 ### Exercício 4: Reduções
 
 Para cada par  $(A, B)$ , determine se  $A \leq_m B$ ,  $B \leq_m A$ , ambos, ou nenhum:
@@ -548,16 +548,11 @@ Para cada par  $(A, B)$ , determine se  $A \leq_m B$ ,  $B \leq_m A$ , ambos, ou
 
 Lembre-se:  $A \leq_m B$  significa que existe uma função computável  $f$  tal que  $x \in A \iff f(x) \in B$ .
 
-The image is a watermark of the coat of arms of the University of Coimbra. It features a shield with a star in the center, surrounded by a pattern of small crosses. Above the shield is a crown, and below it is a ribbon with the Latin motto "AD VERVM DVICIT". The entire emblem is rendered in a light gray color.
+The image shows the coat of arms of the University of São Paulo (USP). It features a shield with a white field containing a grid of green crosses. A central vertical band (fess) is black with a white star and a white monogram. Above the shield is a crown. The shield is flanked by two crossed keys (the keys of St. Peter). Below the shield is a blue ribbon with the Latin motto 'AD VERVM DVCT' in white capital letters.
 
-Watermark of the coat of arms of the University of Coimbra, featuring a shield with a star and the motto 'AD VERVM DVICIT'.
+Coat of arms of the University of São Paulo (USP)
 
 {26}------------------------------------------------
-
-<!-- IMAGE_DESCRIPTION: datalab-9887cf85c05205c57271d28ecc108b32_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Watermark of the coat of arms of the University of Coimbra, featuring a shield with a star and the motto 'AD VERVM DVICIT'.
-<!-- /IMAGE_DESCRIPTION -->
 ### Exercício 5: Aplicações Práticas
 
 - 1 Um colega afirma ter criado um programa que detecta loops infinitos em código Python. Critique esta afirmação considerando o Problema da Parada.
@@ -582,20 +577,13 @@ Este é o problema de Collatz. Por que não podemos usar um computador para prov
 - 2 Existe algum modelo de computação **mais poderoso** que Máquinas de Turing que poderia decidir o Problema da Parada? Justifique com base na Tese de Church-Turing.
 - 3 A indecidibilidade do Problema da Parada implica que existem programas cuja terminação **nunca** poderá ser determinada por nenhum meio (incluindo prova matemática humana)?
 
-A faint, grayscale watermark of the University of Coimbra's coat of arms is visible in the background. It features a shield with a cross and four smaller crosses in the quadrants, topped by a crown. The shield is flanked by two figures. Below the shield is a ribbon with the Latin motto 'AD VERVM DVOCIT'.
-
-Faint watermark of the University of Coimbra crest, featuring a shield with a cross and the motto 'AD VERVM DVOCIT'.
+Faint watermark of the University of São Paulo (USP) coat of arms, featuring a central shield with a star, flanked by two figures, and a banner below reading 'AD VERVM DVCT'.
 
 {28}------------------------------------------------
 
 <!-- IMAGE_DESCRIPTION: datalab-e3c1d325b828c44049a7ac37e5b34603_img.jpg -->
 <!-- Tipo: generico -->
-> **[Descrição de imagem]** Faint watermark of the University of Coimbra crest, featuring a shield with a cross and the motto 'AD VERVM DVOCIT'.
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-c80dd550f724de455f5efebaed25198d_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Faint background watermark of the University of Coimbra crest.
+> **[Descrição de imagem]** Faint watermark of the University of São Paulo (USP) coat of arms, featuring a central shield with a star, flanked by two figures, and a banner below reading 'AD VERVM DVCT'.
 <!-- /IMAGE_DESCRIPTION -->
 ## Desafio
 ### Teorema da Recursão
@@ -617,30 +605,30 @@ Como esta prova se relaciona com a autoreferência no Paradoxo de Russell e nos 
 {29}------------------------------------------------
 ## Referências I
 
+- ![Faint watermark of the University of Brasília seal in the background.](b4fd951633a5d21f350c61bae231fccd_img.jpg)
 - [1] Sanjeev Arora e Boaz Barak. *Computational Complexity: A Modern Approach*. Cambridge University Press, 2009.
-- [2] Alonzo Church. “An Unsolvable Problem of Elementary Number Theory”. Em: *American Journal of Mathematics* 58.2 (1936), pp. 345–363.
-- [3] Martin D. Davis. *Computability and Unsolvability*. Dover Publications, 1982.
-- [4] John E. Hopcroft, Rajeev Motwani e Jeffrey D. Ullman. *Introduction to Automata Theory, Languages, and Computation*. 3rd. Pearson, 2006.
-- [5] Marvin L. Minsky. *Computation: Finite and Infinite Machines*. Prentice-Hall, 1967.
-
-A faint, semi-transparent watermark of the University of Coimbra crest is visible in the background. The crest features a shield with a cross and other heraldic elements, topped with a crown and surrounded by decorative flourishes. The text "UNIVERSITAS COIMBRENSIS" is partially visible around the shield.
-
-Faint background watermark of the University of Coimbra crest.
+  - [2] Alonzo Church. “An Unsolvable Problem of Elementary Number Theory”. Em: *American Journal of Mathematics* 58:2 (1936), pp. 345–363.
+  - [3] Martin D. Davis. *Computability and Unsolvability*. Dover Publications, 1982.
+  - [4] John E. Hopcroft, Rajeev Motwani e Jeffrey D. Ullman. *Introduction to Automata Theory, Languages, and Computation*. 3rd. Pearson, 2006.
+  - [5] Marvin L. Minsky. *Computation: Finite and Infinite Machines*. Prentice-Hall, 1967.
 
 {30}------------------------------------------------
+
+<!-- IMAGE_DESCRIPTION: datalab-b4fd951633a5d21f350c61bae231fccd_img.jpg -->
+<!-- Tipo: generico -->
+> **[Descrição de imagem]** Faint watermark of the University of Brasília seal in the background.
+<!-- /IMAGE_DESCRIPTION -->
 ## Referências II
 
 - [6] Christos H. Papadimitriou. *Computational Complexity*. Addison-Wesley, 1994.
 - [7] Michael Sipser. *Introduction to the Theory of Computation*. 3rd. Cengage Learning, 2012.
 - [8] Alan M. Turing. “On Computable Numbers, with an Application to the Entscheidungsproblem”. Em: *Proceedings of the London Mathematical Society* 42.1 (1936), pp. 230–265.
 
-A faint, semi-transparent watermark of the University of Coimbra's coat of arms is visible in the background. It features a shield with a star and the motto 'AD VERVM DVOCIT' (To the truth it calls) on a ribbon below. The shield is flanked by two figures, and the entire emblem is rendered in a light gray color.
-
-Faint watermark of the University of Coimbra crest, featuring a shield with a star and the motto 'AD VERVM DVOCIT'.
+Faint watermark of the University of São Paulo (USP) coat of arms, featuring a shield with a star, a banner reading 'AD VERVM DVCIT', and a crown above.
 
 <!-- IMAGE_DESCRIPTION: datalab-8a919c7e46849292573775081d1b3d66_img.jpg -->
 <!-- Tipo: generico -->
-> **[Descrição de imagem]** Faint watermark of the University of Coimbra crest, featuring a shield with a star and the motto 'AD VERVM DVOCIT'.
+> **[Descrição de imagem]** Faint watermark of the University of São Paulo (USP) coat of arms, featuring a shield with a star, a banner reading 'AD VERVM DVCIT', and a crown above.
 <!-- /IMAGE_DESCRIPTION -->
 
 <!-- IMAGE_DESCRIPTION_ORPHANS -->
@@ -648,8 +636,8 @@ Faint watermark of the University of Coimbra crest, featuring a shield with a st
 
 Descrições preservadas para imagens detectadas no documento, mas sem referência markdown compatível no corpo principal.
 
-<!-- IMAGE_DESCRIPTION: datalab-1d7527f4316cfe2d342b08d1653d1592_img.jpg -->
+<!-- IMAGE_DESCRIPTION: datalab-d3294dc879b451b369c0b06f42e9b39f_img.jpg -->
 <!-- Tipo: generico -->
-> **[Descrição de imagem]** Logo of PUCRS Escola Politécnica
+> **[Descrição de imagem]** Logo of PUCRS (Pontifícia Universidade Católica do Rio Grande do Sul)
 <!-- /IMAGE_DESCRIPTION -->
 <!-- /IMAGE_DESCRIPTION_ORPHANS -->
