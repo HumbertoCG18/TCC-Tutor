@@ -1,20 +1,48 @@
 {
   "version": 1,
   "blocks": {
-    "bloco-05": {
+    "ee594a67-ac2f-480c-ae87-9f4bdcdb5f52": {
       "manual_kind_override": "review"
     },
-    "bloco-10": {
+    "e09117dc-5a43-42db-a0b6-e3c59ad9c444": {
       "manual_unit_slug": "unidade-03-problemas-indecidiveis"
     },
-    "bloco-11": {
+    "b01d21d6-f4f5-4a53-be51-e7278017b6d5": {
       "manual_unit_slug": "unidade-03-problemas-indecidiveis"
     },
-    "bloco-12": {
+    "0cd0390b-85a1-42c8-b7d5-f6b2524c8ea9": {
       "manual_unit_slug": "unidade-03-problemas-indecidiveis"
     },
-    "bloco-29": {
+    "69e684b3-8c8d-4edc-a963-ae894b216ceb": {
       "manual_kind_override": "class"
+    },
+    "184a4076-bf9a-4f4d-b2d1-c34249e5ac60": {
+      "manual_scope_unit_slugs": [
+        "unidade-01-conjuntos-enumeraveis-e-funcoes-recursivas",
+        "unidade-02-turing-computabilidade"
+      ]
+    },
+    "3408302b-45bd-4f6c-a1f8-7390fcee2cb0": {
+      "manual_scope_unit_slugs": [
+        "unidade-03-problemas-indecidiveis",
+        "unidade-04-hierarquia-de-classes-de-complexidade-de-problemas-computacionais"
+      ]
+    },
+    "db1c8dda-147b-444c-a15c-5bd5e0e6fafe": {
+      "manual_scope_unit_slugs": [
+        "unidade-01-conjuntos-enumeraveis-e-funcoes-recursivas",
+        "unidade-02-turing-computabilidade",
+        "unidade-03-problemas-indecidiveis",
+        "unidade-04-hierarquia-de-classes-de-complexidade-de-problemas-computacionais"
+      ]
+    },
+    "42bdf5f1-d3f4-4243-9d6f-4e024fb76b60": {
+      "manual_scope_unit_slugs": [
+        "unidade-01-conjuntos-enumeraveis-e-funcoes-recursivas",
+        "unidade-02-turing-computabilidade",
+        "unidade-03-problemas-indecidiveis",
+        "unidade-04-hierarquia-de-classes-de-complexidade-de-problemas-computacionais"
+      ]
     }
   }
 }
