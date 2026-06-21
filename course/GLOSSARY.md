@@ -22,13 +22,13 @@
 > Definições iniciais curtas são geradas no build para reduzir custo de contexto no tutor web.
 
 ## 1.1. Conjuntos Enumeráveis
-**Definição:** Aula 02 - Conjuntos Enumeráveis e Não-Enumeráveis; Argumento da Diagonalização de Cantor.
+**Definição:** CONTEÚDOS: ### UNIDADE 01: Conjuntos Enumeráveis e Funções Recursivas - 1.1.
 **Sinônimos aceitos:** —
 **Não confundir com:** —
 **Aparece em:** UNIDADE 01 — Conjuntos Enumeráveis e Funções Recursivas
 
 ## 1.2. Argumento Diagonal de Cantor e Conjuntos Incontáveis 1.3. Funções Recursivas Primitivas e Funções Recursivas Parciais
-**Definição:** Argumento clássico usado para mostrar que certos conjuntos não podem ser listados completamente.
+**Definição:** CONTEÚDOS: ### UNIDADE 01: Conjuntos Enumeráveis e Funções Recursivas - 1.1.
 **Sinônimos aceitos:** —
 **Não confundir com:** —
 **Aparece em:** UNIDADE 01 — Conjuntos Enumeráveis e Funções Recursivas
@@ -46,25 +46,25 @@
 **Aparece em:** UNIDADE 02 — Turing-Computabilidade​
 
 ## 2.3. Variações de Máquinas de Turing
-**Definição:** Aula 09 - Variações de Máquinas de Turing.
+**Definição:** Conceito central de esta unidade que deve ser reconhecido e usado corretamente nas respostas e revisões.
 **Sinônimos aceitos:** —
 **Não confundir com:** —
 **Aparece em:** UNIDADE 02 — Turing-Computabilidade​
 
 ## 2.4. Conjectura de Church-Turing
-**Definição:** Sumário Funções Recursivas Primitivas; Composição de Funções Sumário Motivação Questão Central A Tese de Church-Turing Tese de Church-Turing Observação.
+**Definição:** Conceito central de esta unidade que deve ser reconhecido e usado corretamente nas respostas e revisões.
 **Sinônimos aceitos:** —
 **Não confundir com:** —
 **Aparece em:** UNIDADE 02 — Turing-Computabilidade​
 
 ## 2.5. Máquinas de Turing Universais
-**Definição:** Linguagens Reconhecíveis e Linguagens Decidíveis; Máquinas de Turing Universais.
+**Definição:** Máquinas de Turing Universais ### UNIDADE 03: Problemas Indecidíveis - 3.1.
 **Sinônimos aceitos:** —
 **Não confundir com:** —
 **Aparece em:** UNIDADE 02 — Turing-Computabilidade​
 
 ## 3.1. Prova da Indecidibilidade do Problema da Parada
-**Definição:** Conceito central de solução de problemas que deve ser reconhecido e usado corretamente nas respostas e revisões.
+**Definição:** Prova da Indecidibilidade do Problema da Parada {1}------------------------------------------------ - 3.2.
 **Sinônimos aceitos:** —
 **Não confundir com:** —
 **Aparece em:** UNIDADE 03 — Problemas Indecidíveis
@@ -88,7 +88,7 @@
 **Aparece em:** UNIDADE 03 — Problemas Indecidíveis
 
 ## Tipos de Problemas Computacionais
-**Definição:** Conceito central de solução de problemas que deve ser reconhecido e usado corretamente nas respostas e revisões.
+**Definição:** Conhecer os fundamentos da hierarquia de classes de complexidade de problemas computacionais e identificar problemas pertencentes às classes P, NP e PSPACE, suas características.
 **Sinônimos aceitos:** —
 **Não confundir com:** —
 **Aparece em:** UNIDADE 04 — Hierarquia de Classes de Complexidade de Problemas Computacionais
@@ -100,13 +100,13 @@
 **Aparece em:** UNIDADE 04 — Hierarquia de Classes de Complexidade de Problemas Computacionais
 
 ## Hierarquia de Classes de Complexidade de Problemas
-**Definição:** Conceito central de solução de problemas que deve ser reconhecido e usado corretamente nas respostas e revisões.
+**Definição:** Conhecer os fundamentos da hierarquia de classes de complexidade de problemas computacionais e identificar problemas pertencentes às classes P, NP e PSPACE, suas características.
 **Sinônimos aceitos:** —
 **Não confundir com:** —
 **Aparece em:** UNIDADE 04 — Hierarquia de Classes de Complexidade de Problemas Computacionais
 
 ## Classe P e exemplos de Problemas em P
-**Definição:** Conceito central de solução de problemas que deve ser reconhecido e usado corretamente nas respostas e revisões.
+**Definição:** Conhecer os fundamentos da hierarquia de classes de complexidade de problemas computacionais e identificar problemas pertencentes às classes P, NP e PSPACE, suas características.
 **Sinônimos aceitos:** —
 **Não confundir com:** —
 **Aparece em:** UNIDADE 04 — Hierarquia de Classes de Complexidade de Problemas Computacionais
@@ -124,7 +124,7 @@
 **Aparece em:** UNIDADE 04 — Hierarquia de Classes de Complexidade de Problemas Computacionais
 
 ## Exemplos de Problemas Importantes em NP e suas aplicações industriais 4.5.3 Teorema de Cook-Levin
-**Definição:** Conceito central de solução de problemas que deve ser reconhecido e usado corretamente nas respostas e revisões.
+**Definição:** Exemplos de Problemas Importantes em NP e suas aplicações industriais - 4.5.3 Teorema de Cook-Levin - 4.5.4 Redução Polinomial de Problemas -.
 **Sinônimos aceitos:** —
 **Não confundir com:** —
 **Aparece em:** UNIDADE 04 — Hierarquia de Classes de Complexidade de Problemas Computacionais

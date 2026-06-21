@@ -105,7 +105,7 @@ POLITÉCNICA
 - 4 Reduções
 - 5 Exercícios
 
-The image is a large, light gray watermark of the coat of arms of the University of São Paulo (USP). It features a shield with a central vertical band containing a stylized 'M' and 'U' monogram, flanked by two vertical bands with a repeating cross pattern. Above the shield is a crown, and on either side are crossed keys. A banner at the bottom of the shield contains the Latin motto 'AD VERVM DVCT'.
+The image shows the coat of arms of the University of São Paulo (USP). It features a shield with a central panel containing a stylized 'M' and 'U' monogram, flanked by two panels with a repeating pattern of small crosses. Above the shield is a crown, and on either side are crossed keys. A banner at the bottom of the shield contains the Latin motto 'AD VERVM DVCT'.
 
 Coat of arms of the University of São Paulo (USP)
 
@@ -116,66 +116,21 @@ Coat of arms of the University of São Paulo (USP)
 > **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
 <!-- /IMAGE_DESCRIPTION -->
 
-<!-- IMAGE_DESCRIPTION: datalab-63ae75eedbc0eeea2efd2ee19c2fbc7d_img.jpg -->
+<!-- IMAGE_DESCRIPTION: datalab-2f49752384f0d40dcfa439810d5ad58e_img.jpg -->
 <!-- Tipo: generico -->
 > **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
 <!-- /IMAGE_DESCRIPTION -->
 
-<!-- IMAGE_DESCRIPTION: datalab-7898f899fb291b02fbb353e0337c5514_img.jpg -->
+<!-- IMAGE_DESCRIPTION: datalab-1695df64fe320e3f81049cfe402c8155_img.jpg -->
 <!-- Tipo: generico -->
 > **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
 <!-- /IMAGE_DESCRIPTION -->
 
-<!-- IMAGE_DESCRIPTION: datalab-911a4f4b97be8e1dcf81e58b080dc0e2_img.jpg -->
+<!-- IMAGE_DESCRIPTION: datalab-aa1ad572ba493829cf259738c9668fe2_img.jpg -->
 <!-- Tipo: generico -->
 > **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-9cc5ec27db4e35a26008bce9b9cd0bc8_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-9b77845519ed6ce33bab327fe59ace1c_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-9911cc821dddfed7079ce56cbb907c9e_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-9642ee15d719705144037077981aaa99_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-4ca62688976b4bef770a81683f9d9eef_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-f254a67565344d514e13763a4e556a70_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-966c4b9785d85823782a007f3ecec1a7_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-fb15f15a7d964c8490c9317e43e40c1a_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Faint watermark of the University of São Paulo (USP) coat of arms, featuring a shield with a star and the motto 'AD VERVM DVCT'.
 <!-- /IMAGE_DESCRIPTION -->
 ## Recapitulação: Classes de Linguagens
-
-<!-- IMAGE_DESCRIPTION: datalab-875c6f4f441fdd3ca7e1908fd1582983_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Diagrama da Hierarquia de Chomsky mostrando a inclusão entre classes de linguagens.
-<!-- /IMAGE_DESCRIPTION -->
 ### Linguagem Turing-Reconhecível (R.E.)
 
 $L$  é **reconhecível** se existe MT  $M$  tal que:
@@ -384,21 +339,17 @@ O que acontece quando executamos  $D(\langle D \rangle)$ ?
 ### A Máquina $D$ : Fluxo de Execução
 
 ```
-
-graph TD
-    Start([Entrada:  $\langle M \rangle$ ]) --> Encode[Codifica  $\langle M, \langle M \rangle \rangle$ ]
-    Encode --> Exec[Executa  $H(\langle M, \langle M \rangle \rangle)$ ]
-    Exec --> Decision{H aceita?}
-    Decision -- SIM --> Loop[Loop]
-    Loop --> D_no_halt((D ñ para))
-    Decision -- NÃO --> Accept[Aceita]
-    Accept --> D_halt((D para))
-
+graph TD; A[Entrada: <M>] --> B[Codifica <M, <M>>]; B --> C[Executa H(<M, <M>>)]; C --> D{H aceita?}; D -- SIM --> E[Loop]; E --> F((D ã para)); F --> E; D -- NÃO --> G[Aceita]; G --> H((D para));
 ```
 
-Flowchart showing the execution flow of machine D. It starts with an input , encodes it as >, then executes a decider H on that encoding. Based on whether H accepts, machine D either loops (if H accepts) or accepts (if H rejects).
+Flowchart of the execution of machine D. It starts with 'Entrada: ', followed by 'Codifica >', then 'Executa H(>)'. A decision diamond asks 'H aceita?'. If 'SIM' (Yes), it goes to a loop labeled 'Loop' and 'D ã para' (D does not stop). If 'NÃO' (No), it goes to 'Aceita' and 'D para' (D stops).
 
 {15}------------------------------------------------
+
+<!-- IMAGE_DESCRIPTION: datalab-bffdddb47fced140f8d17fdc2a29f592_img.jpg -->
+<!-- Tipo: generico -->
+> **[Descrição de imagem]** Flowchart of the execution of machine D.
+<!-- /IMAGE_DESCRIPTION -->
 ### Análise da Contradição
 #### Caso 1: $D$ para em $\langle D \rangle$
 
@@ -461,12 +412,10 @@ Não existem algoritmos para:
 - Verificar automaticamente propriedades de programas (Teorema de Rice)
 ### Teorema de Rice
 
-Seja  $P$  uma propriedade não-trivial de funções computáveis.  
-Então  $\{e : \varphi_e \text{ tem propriedade } P\}$  é indecidível.
+Seja  $P$  uma propriedade não-trivial de funções computáveis. Então  $\{e : \varphi_e \text{ tem propriedade } P\}$  é indecidível.
 ### Não-trivial
 
-“Não-trivial” = algumas funções possuem  $P$ , outras não. Exemplo:  
-“a função é total” (nem todas são).
+“Não-trivial” = algumas funções possuem  $P$ , outras não. Exemplo: “a função é total” (nem todas são).
 
 {19}------------------------------------------------
 ### Redução de Problemas
@@ -531,7 +480,7 @@ Indecidível e nem mesmo reconhecível!
 {22}------------------------------------------------
 ### Hierarquia de Problemas
 
-O diagrama ilustra a hierarquia dos problemas de decisão. Um grande oval preto representa 'Todas as Linguagens'. Dentro dele, um oval azul representa 'R.E.' (Reconhecíveis) e um oval vermelho representa 'co-R.E.' (co-Reconhecíveis). A interseção dos ovais azul e vermelho é rotulada 'Decidíveis' em verde. Dentro da região 'Decidíveis', há o símbolo  $A_{DFA}$ . Na região exclusiva do oval azul ('R.E. não decidíveis'), há os símbolos  $A_{TM}$  e  $HALT$ . Na região exclusiva do oval vermelho ('co-R.E. não decidíveis'), há os símbolos  $\overline{A_{TM}}$  e  $\overline{HALT}$ . Abaixo do oval vermelho, fora da interseção, está o símbolo  $EQ_{TM}$ .
+O diagrama ilustra a hierarquia dos problemas de decisão. Um grande oval preto, rotulado 'Todas as Linguagens', contém dois ovais menores que se sobrepõem: um azul rotulado 'R.E.' e um vermelho rotulado 'co-R.E.'. A interseção desses dois ovais é rotulada 'Decidíveis' em verde. Dentro da região azul ('R.E.'), mas fora da interseção, estão os problemas  $A_{TM}$  e  $HALT$ . Dentro da região vermelha ('co-R.E.'), mas fora da interseção, estão os problemas  $\overline{A_{TM}}$  e  $\overline{HALT}$ . No interior da interseção ('Decidíveis'), estão os problemas  $A_{DFA}$  e  $EQ_{TM}$ .
 
 Diagrama da Hierarquia de Problemas de Decisão
 
@@ -542,9 +491,9 @@ Diagrama da Hierarquia de Problemas de Decisão
 
 {23}------------------------------------------------
 
-<!-- IMAGE_DESCRIPTION: datalab-c036e2540a94b31357ceb0002f0cacab_img.jpg -->
+<!-- IMAGE_DESCRIPTION: datalab-86b4670fc1a5a694821ee92b99c1209a_img.jpg -->
 <!-- Tipo: generico -->
-> **[Descrição de imagem]** Diagrama da hierarquia das linguagens de Chomsky, mostrando cinco níveis concêntricos de complexidade crescente.
+> **[Descrição de imagem]** Diagrama da Hierarquia de Problemas de Decisão
 <!-- /IMAGE_DESCRIPTION -->
 ## Resumo
 ## Conceitos Principais
@@ -574,7 +523,7 @@ Prove que as seguintes linguagens são decidíveis:
 
 Para cada uma, descreva o algoritmo do decisor.
 
-The image shows the coat of arms of the University of São Paulo (USP). It features a shield with a central vertical band containing a stylized 'M' and 'U' monogram. The shield is flanked by two crossed keys (the keys of St. Peter) and topped by a crown. Below the shield is a banner with the Latin motto 'AD VERVM DVCT'.
+The image shows the coat of arms of the University of São Paulo (USP). It features a shield with a central star, flanked by two crossed keys (the keys of St. Peter). Above the shield is a crown. A banner at the bottom of the shield contains the Latin motto "AD VERVM DVCT".
 
 Coat of arms of the University of São Paulo (USP)
 
@@ -586,11 +535,14 @@ Coat of arms of the University of São Paulo (USP)
 - 3 Se  $U$  usa 3 fitas e cada passo de  $M$  é simulado em tempo proporcional ao tamanho de  $\langle M \rangle$ , qual a complexidade de  $U$  para simular  $t$  passos de  $M$ ?
 - 4 Explique por que  $U$  não pode ser um decisor (sempre parar).
 
-The image shows the coat of arms of the University of São Paulo (USP). It features a central shield with a white background and a pattern of green pine trees. Above the shield is a crown. On either side of the shield are two figures, likely representing the university's history or values. Below the shield is a banner with the Latin motto 'AD VERVM DVCT'.
-
-Coat of arms of the University of São Paulo (USP)
+Coat of arms of the University of Coimbra, featuring a shield with a star and a banner below reading 'AD VERVM DVCT'.
 
 {26}------------------------------------------------
+
+<!-- IMAGE_DESCRIPTION: datalab-eaa5fbc353eb95b90302cfbe7c299576_img.jpg -->
+<!-- Tipo: generico -->
+> **[Descrição de imagem]** Coat of arms of the University of Coimbra, featuring a shield with a star and a banner below reading 'AD VERVM DVCT'.
+<!-- /IMAGE_DESCRIPTION -->
 ### Exercício 3: Indecidibilidade
 
 - 1 Complete a prova de que  $A_{TM}$  é indecidível, mostrando que a MT  $D$  construída na prova de HALT também serve para  $A_{TM}$ .
@@ -616,9 +568,14 @@ Dica: reduza de  $A_{TM}$ .
 - 3  $\{\langle M, w \rangle : M \text{ move o cabeçote para a esquerda ao processar } w\}$
 - 4  $\{\langle M \rangle : \text{existe } w \text{ tal que } M \text{ aceita } w \text{ em menos de } |w|^2 \text{ passos}\}$
 
-Faint watermark of the University of Coimbra crest, featuring a shield with a cross and stars, topped by a crown and surrounded by a banner reading 'AD VERVM DVCIT'.
+Faint watermark of the University of Coimbra crest, featuring a shield with a cross and a star, topped by a crown and surrounded by a banner reading 'AD VERVM DVCIT'.
 
 {28}------------------------------------------------
+
+<!-- IMAGE_DESCRIPTION: datalab-0b12afcd375d5f967112ceb045230b96_img.jpg -->
+<!-- Tipo: generico -->
+> **[Descrição de imagem]** Faint watermark of the University of Coimbra crest, featuring a shield with a cross and a star, topped by a crown and surrounded by a banner reading 'AD VERVM DVCIT'.
+<!-- /IMAGE_DESCRIPTION -->
 ### Exercício 5: Classificação
 
 Classifique cada linguagem como: (D) Decidível, (R) Reconhecível não-decidível, (coR) co-Reconhecível não-decidível, ou (N) Nem R.E. nem co-R.E.
@@ -632,7 +589,7 @@ Classifique cada linguagem como: (D) Decidível, (R) Reconhecível não-decidív
 
 Justifique cada resposta.
 
-The image shows the coat of arms of the University of São Paulo (USP). It features a shield with a central star, flanked by two vertical panels containing stylized trees. Above the shield is a crown and a banner with the motto 'AD VERVM DVCT'. The background of the slide is dark blue, and the coat of arms is rendered in a light, semi-transparent style.
+The image shows the coat of arms of the University of São Paulo (USP). It features a shield with a central star, flanked by two vertical panels containing stylized trees. Above the shield is a crown and a banner with the motto 'AD VERVM DVCT'.
 
 Coat of arms of the University of São Paulo (USP)
 
@@ -662,22 +619,17 @@ Dica: Dado  $\langle M, w \rangle$ , construa  $M'$  tal que  $L(M')$  tem  $P$ 
 - [3] Christos H. Papadimitriou. *Computational Complexity*. Addison-Wesley, 1994.
 - [4] Michael Sipser. *Introduction to the Theory of Computation*. 3rd. Cengage Learning, 2012.
 
-Faint watermark of the University of São Paulo (USP) crest and motto 'AD VERVM DVCT'.
+Faint watermark of the University of São Paulo (USP) coat of arms, featuring a shield with a star and the motto 'AD VERVM DVCT'.
+
+<!-- IMAGE_DESCRIPTION: datalab-011d7628370283ec23a24c1772507121_img.jpg -->
+<!-- Tipo: generico -->
+> **[Descrição de imagem]** Faint watermark of the University of São Paulo (USP) coat of arms, featuring a shield with a star and the motto 'AD VERVM DVCT'.
+<!-- /IMAGE_DESCRIPTION -->
 
 <!-- IMAGE_DESCRIPTION_ORPHANS -->
 ## Imagens Curadas
 
 Descrições preservadas para imagens detectadas no documento, mas sem referência markdown compatível no corpo principal.
-
-<!-- IMAGE_DESCRIPTION: datalab-29f586959675cafdf81cf934954908eb_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Diagram of a Deterministic Finite Automaton (DFA) with three states: q0, q1, and q2.
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-86b4670fc1a5a694821ee92b99c1209a_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Diagram of a Pushdown Automaton (PDA) for the language {0^n 1^n : n ≥ 0}.
-<!-- /IMAGE_DESCRIPTION -->
 
 <!-- IMAGE_DESCRIPTION: datalab-fa6c61be003dfbb4ca5587e48a71de94_img.jpg -->
 <!-- Tipo: generico -->

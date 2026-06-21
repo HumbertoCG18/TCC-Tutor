@@ -240,3 +240,163 @@ sources:
     effective_profile: math_heavy
     include_in_bundle: true
     professor_signal: ""
+  - id: aula-17-complexidade-de-tempo-classes-p-e-np
+    title: "Aula 17 - Complexidade de Tempo Classes P e NP"
+    category: material-de-aula
+    file_type: pdf
+    source_path: "C:\\Users\\Humberto\\Desktop\\Moodle\\teoria-da-computabilidade-e-complexidade\\Semana 11 - Classes de Problemas e Complexidade\\Aula 17 - Complexidade de Tempo Classes P e NP.pdf"
+    raw_target: "raw/pdfs/material-de-aula/aula-17-complexidade-de-tempo-classes-p-e-np.pdf"
+    processing_mode: high_fidelity
+    effective_profile: math_heavy
+    include_in_bundle: true
+    professor_signal: ""
+  - id: plano-de-ensino
+    title: "Plano de Ensino"
+    category: cronograma
+    file_type: pdf
+    source_path: "C:\\Users\\Humberto\\Desktop\\Moodle\\teoria-da-computabilidade-e-complexidade\\sem-secao\\Plano de Ensino.pdf"
+    raw_target: "raw/pdfs/cronograma/plano-de-ensino.pdf"
+    processing_mode: high_fidelity
+    effective_profile: math_heavy
+    include_in_bundle: true
+    professor_signal: ""
+  - id: aula-16-classes-de-problemas-e-complexidade-pdf
+    title: "Aula 16 - Classes de Problemas e Complexidade"
+    category: material-de-aula
+    file_type: pdf
+    source_path: "C:\\Users\\Humberto\\Desktop\\Moodle\\teoria-da-computabilidade-e-complexidade\\Semana 11 - Classes de Problemas e Complexidade\\Aula 16 - Classes de Problemas e Complexidade.pdf"
+    raw_target: "raw/pdfs/material-de-aula/aula-16-classes-de-problemas-e-complexidade-pdf.pdf"
+    processing_mode: high_fidelity
+    effective_profile: math_heavy
+    include_in_bundle: true
+    professor_signal: ""
+  - id: aula-17-np-completude-pdf
+    title: "Aula 17 - NP-Completude"
+    category: material-de-aula
+    file_type: pdf
+    source_path: "C:\\Users\\Humberto\\Desktop\\Moodle\\teoria-da-computabilidade-e-complexidade\\Semana 12 - NP-completude\\Aula 17 - NP-Completude.pdf"
+    raw_target: "raw/pdfs/material-de-aula/aula-17-np-completude-pdf.pdf"
+    processing_mode: high_fidelity
+    effective_profile: math_heavy
+    include_in_bundle: true
+    professor_signal: ""
+  - id: trabalho-t2-enunciado
+    title: "Trabalho T2 - Enunciado"
+    category: trabalhos
+    file_type: pdf
+    source_path: "C:\\Users\\Humberto\\Desktop\\Moodle\\teoria-da-computabilidade-e-complexidade\\Semana 13 - Trabalho T2\\Trabalho T2 - Enunciado.pdf"
+    raw_target: "raw/pdfs/trabalhos/trabalho-t2-enunciado.pdf"
+    processing_mode: high_fidelity
+    effective_profile: math_heavy
+    include_in_bundle: true
+    professor_signal: ""
+  - id: 3dm-caetano-gabriel-e-gustavo
+    title: "3DM - Caetano, Gabriel e Gustavo"
+    category: trabalhos
+    file_type: pdf
+    source_path: "C:\\Users\\Humberto\\Desktop\\Moodle\\teoria-da-computabilidade-e-complexidade\\Semana 14 - Apresentações T2\\3DM - Caetano, Gabriel e Gustavo.pdf"
+    raw_target: "raw/pdfs/trabalhos/3dm-caetano-gabriel-e-gustavo.pdf"
+    processing_mode: high_fidelity
+    effective_profile: math_heavy
+    include_in_bundle: true
+    professor_signal: ""
+  - id: cubic-3-edge-coloring
+    title: "Cubic 3-Edge Coloring"
+    category: trabalhos
+    file_type: pdf
+    source_path: "C:\\Users\\Humberto\\Desktop\\Moodle\\teoria-da-computabilidade-e-complexidade\\Semana 14 - Apresentações T2\\Cubic 3-Edge Coloring.pdf"
+    raw_target: "raw/pdfs/trabalhos/cubic-3-edge-coloring.pdf"
+    processing_mode: high_fidelity
+    effective_profile: math_heavy
+    include_in_bundle: true
+    professor_signal: ""
+  - id: programacao-inteira-01-20260617-154423-0000
+    title: "Programação Inteira 01_20260617_154423_0000"
+    category: trabalhos
+    file_type: pdf
+    source_path: "C:\\Users\\Humberto\\Desktop\\Moodle\\teoria-da-computabilidade-e-complexidade\\Semana 14 - Apresentações T2\\Programação Inteira 01_20260617_154423_0000.pdf"
+    raw_target: "raw/pdfs/trabalhos/programacao-inteira-01-20260617-154423-0000.pdf"
+    processing_mode: high_fidelity
+    effective_profile: math_heavy
+    include_in_bundle: true
+    professor_signal: ""
+  - id: aula-04-funcoes-computaveis-funcoes-recursivas-parciais-pdf
+    title: "Aula 04 - Funções Computáveis Funções Recursivas Parciais"
+    category: material-de-aula
+    file_type: pdf
+    source_path: "C:\\Users\\Humberto\\Desktop\\Moodle\\teoria-da-computabilidade-e-complexidade\\Semana 2 - Funções Recursivas Primitivas, Parciais e Totais\\Aula 04 - Funções Computáveis Funções Recursivas Parciais.pdf"
+    raw_target: "raw/pdfs/material-de-aula/aula-04-funcoes-computaveis-funcoes-recursivas-parciais-pdf.pdf"
+    processing_mode: high_fidelity
+    effective_profile: math_heavy
+    include_in_bundle: true
+    professor_signal: ""
+  - id: t1-enunciado
+    title: "T1 - Enunciado"
+    category: trabalhos
+    file_type: pdf
+    source_path: "C:\\Users\\Humberto\\Desktop\\Moodle\\teoria-da-computabilidade-e-complexidade\\Semana 3 - Operações de Minimização e Trabalho T1\\T1 - Enunciado.pdf"
+    raw_target: "raw/pdfs/trabalhos/t1-enunciado.pdf"
+    processing_mode: high_fidelity
+    effective_profile: math_heavy
+    include_in_bundle: true
+    professor_signal: ""
+  - id: aula-07-maquinas-de-turing-e-linguagens-recursivamente-enumeraveis
+    title: "Aula 07 - Máquinas de Turing e Linguagens Recursivamente Enumeráveis"
+    category: material-de-aula
+    file_type: pdf
+    source_path: "C:\\Users\\Humberto\\Desktop\\Moodle\\teoria-da-computabilidade-e-complexidade\\Semana 4 - Teoria de Autômatos e Introdução a Máquinas de Turing\\Aula 07 - Máquinas de Turing e Linguagens Recursivamente Enumeráveis.pdf"
+    raw_target: "raw/pdfs/material-de-aula/aula-07-maquinas-de-turing-e-linguagens-recursivamente-enumeraveis.pdf"
+    processing_mode: high_fidelity
+    effective_profile: math_heavy
+    include_in_bundle: true
+    professor_signal: ""
+  - id: aula-08-maquinas-de-turing-como-processadoras-de-funcoes
+    title: "Aula 08 - Máquinas de Turing como Processadoras de Funções"
+    category: material-de-aula
+    file_type: pdf
+    source_path: "C:\\Users\\Humberto\\Desktop\\Moodle\\teoria-da-computabilidade-e-complexidade\\Semana 5 - Codificação de Máquinas de Turing e Equivalência Entre Modelos\\Aula 08 - Máquinas de Turing como Processadoras de Funções.pdf"
+    raw_target: "raw/pdfs/material-de-aula/aula-08-maquinas-de-turing-como-processadoras-de-funcoes.pdf"
+    processing_mode: high_fidelity
+    effective_profile: math_heavy
+    include_in_bundle: true
+    professor_signal: ""
+  - id: aula-10-linguagens-reconhecıveis-e-linguagens-decidıveis-pdf
+    title: "Aula 10 - Linguagens Reconhecı́veis e Linguagens Decidı́veis"
+    category: material-de-aula
+    file_type: pdf
+    source_path: "C:\\Users\\Humberto\\Desktop\\Moodle\\teoria-da-computabilidade-e-complexidade\\Semana 6 - Variações de Máquinas de Turing e Linguagens Decidíveis\\Aula 10 - Linguagens Reconhecı́veis e Linguagens Decidı́veis.pdf"
+    raw_target: "raw/pdfs/material-de-aula/aula-10-linguagens-reconhecıveis-e-linguagens-decidıveis-pdf.pdf"
+    processing_mode: high_fidelity
+    effective_profile: math_heavy
+    include_in_bundle: true
+    professor_signal: ""
+  - id: aula-11-o-problema-da-parada-halting-problem-halteproblem-pdf
+    title: "Aula 11 - O Problema da Parada (Halting Problem, Halteproblem)"
+    category: material-de-aula
+    file_type: pdf
+    source_path: "C:\\Users\\Humberto\\Desktop\\Moodle\\teoria-da-computabilidade-e-complexidade\\Semana 7- Halteproblem und Entscheidungsproblem\\Aula 11 - O Problema da Parada (Halting Problem, Halteproblem).pdf"
+    raw_target: "raw/pdfs/material-de-aula/aula-11-o-problema-da-parada-halting-problem-halteproblem-pdf.pdf"
+    processing_mode: high_fidelity
+    effective_profile: math_heavy
+    include_in_bundle: true
+    professor_signal: ""
+  - id: aula-12-entscheidungsproblem-pdf
+    title: "Aula 12 - Entscheidungsproblem"
+    category: material-de-aula
+    file_type: pdf
+    source_path: "C:\\Users\\Humberto\\Desktop\\Moodle\\teoria-da-computabilidade-e-complexidade\\Semana 7- Halteproblem und Entscheidungsproblem\\Aula 12 - Entscheidungsproblem.pdf"
+    raw_target: "raw/pdfs/material-de-aula/aula-12-entscheidungsproblem-pdf.pdf"
+    processing_mode: high_fidelity
+    effective_profile: math_heavy
+    include_in_bundle: true
+    professor_signal: ""
+  - id: aula-13-teorema-de-rice-pdf
+    title: "Aula 13 - Teorema de Rice"
+    category: material-de-aula
+    file_type: pdf
+    source_path: "C:\\Users\\Humberto\\Desktop\\Moodle\\teoria-da-computabilidade-e-complexidade\\Semana 8 - Teorema de Rice e Problema da Correspondência de Post\\Aula 13 - Teorema de Rice.pdf"
+    raw_target: "raw/pdfs/material-de-aula/aula-13-teorema-de-rice-pdf.pdf"
+    processing_mode: high_fidelity
+    effective_profile: math_heavy
+    include_in_bundle: true
+    professor_signal: ""

@@ -51,29 +51,29 @@ O problema selecionado por cada grupo deve pertencer à lista abaixo. **Não é 
 {1}------------------------------------------------
 ### Lista de problemas para escolha
 
-1. **3-Dimensional Matching (3DM)** [Karp72]  
+1. **3-Dimensional Matching (3DM)** *[Karp72]*  
 Dadas três coleções disjuntas e um conjunto de triplas válidas, decidir se existe um subconjunto dessas triplas que emparelha exatamente uma vez cada elemento envolvido.
-2. **Exact Cover** [Karp72]  
+2. **Exact Cover** *[Karp72]*  
 Dada uma família de subconjuntos, decidir se existe uma subfamília que cobre cada elemento do universo exatamente uma vez.
-3. **Set Packing** [Karp72]  
+3. **Set Packing** *[Karp72]*  
 Dada uma coleção de subconjuntos e um inteiro  $k$ , decidir se existem pelo menos  $k$  subconjuntos dois a dois disjuntos.
-4. **Hitting Set** [Karp72]  
+4. **Hitting Set** *[Karp72]*  
 Dada uma família de subconjuntos e um inteiro  $k$ , decidir se existe um conjunto com no máximo  $k$  elementos que intersecta todos os subconjuntos da família.
-5. **Clique Cover** [Karp72]  
+5. **Clique Cover** *[Karp72]*  
 Dado um grafo e um inteiro  $k$ , decidir se os vértices do grafo podem ser particionados em no máximo  $k$  cliques.
-6. **Feedback Vertex Set** [Karp72]  
+6. **Feedback Vertex Set** *[Karp72]*  
 Dado um grafo e um inteiro  $k$ , decidir se é possível remover no máximo  $k$  vértices de modo que o grafo restante fique acíclico.
-7. **Weighted Max Cut** [Karp72]  
+7. **Weighted Max Cut** *[Karp72]*  
 Dado um grafo com pesos nas arestas e um limiar  $k$ , decidir se existe uma partição dos vértices em dois lados tal que o peso total das arestas que cruzam a partição seja pelo menos  $k$ .
-8. **Feedback Arc Set** [Karp72]  
+8. **Feedback Arc Set** *[Karp72]*  
 Dado um grafo dirigido e um inteiro  $k$ , decidir se é possível remover no máximo  $k$  arcos de modo que o grafo resultante fique acíclico.
-9. **0/1 Integer Programming** [Karp72]  
+9. **0/1 Integer Programming** *[Karp72]*  
 Dado um sistema de desigualdades lineares, decidir se existe uma atribuição binária para as variáveis que satisfaça simultaneamente todas as restrições.
-10. **Monotone 1-in-3 SAT** [Schaefer78]  
+10. **Monotone 1-in-3 SAT** *[Schaefer78]*  
 Dada uma fórmula booleana em que cada cláusula tem três variáveis sem negação, decidir se existe uma atribuição que torne exatamente uma variável verdadeira em cada cláusula.
-11. **Planar 3-SAT** [Lichtenstein82]  
+11. **Planar 3-SAT** *[Lichtenstein82]*  
 Dada uma instância de 3-SAT cujo grafo bipartido variável-cláusula é planar, decidir se a fórmula é satisfatível.
-12. **3-Edge-Coloring de grafos cúbicos** [Holyer81]  
+12. **3-Edge-Coloring de grafos cúbicos** *[Holyer81]*  
 Dado um grafo cúbico, decidir se é possível colorir suas arestas com três cores de modo que arestas adjacentes recebam cores diferentes.
 
 {2}------------------------------------------------

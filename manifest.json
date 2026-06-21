@@ -139,7 +139,7 @@
         "markdown_path": "staging/markdown-auto/datalab/aula-17-np-completude/aula-17-np-completude.md"
       },
       "computed_unit_slug": "unidade-04-hierarquia-de-classes-de-complexidade-de-problemas-computacionais",
-      "computed_block_id": "bloco-22",
+      "computed_block_id": "224e19c2-5329-44d8-a47e-9a7fdf1f36c3",
       "computed_block_confidence": 0.8,
       "computed_block_band": "alta",
       "unit_match_reasons": [
@@ -342,7 +342,7 @@
         "markdown_path": "staging/markdown-auto/datalab/enunciado-t2/enunciado-t2.md"
       },
       "computed_unit_slug": "unidade-04-hierarquia-de-classes-de-complexidade-de-problemas-computacionais",
-      "computed_block_id": "bloco-23",
+      "computed_block_id": "dfd5b65d-4aa6-445b-bad1-bf86b1b672b5",
       "computed_block_confidence": 0.85,
       "computed_block_band": "alta",
       "unit_match_reasons": [
@@ -444,13 +444,13 @@
         "markdown_path": "staging/markdown-auto/datalab/aula-16-exemplo-de-prova-para-revisao/aula-16-exemplo-de-prova-para-revisao.md"
       },
       "computed_unit_slug": "unidade-03-problemas-indecidiveis",
-      "computed_block_id": "bloco-16",
+      "computed_block_id": "62a75727-18b8-4351-bad1-e54030fb15ce",
       "computed_block_confidence": 0.85,
       "computed_block_band": "alta",
       "unit_match_reasons": [
         "winner_score=40.96",
         "topic_score=8.23",
-        "herdada_do_bloco=bloco-16"
+        "herdada_do_bloco=62a75727-18b8-4351-bad1-e54030fb15ce"
       ],
       "unit_match_confidence": 0.6403157255616272,
       "subunit_match_reasons": [
@@ -577,7 +577,7 @@
         "markdown_path": "staging/markdown-auto/datalab/aula-15-teoremas-de-incompletude-de-godel/aula-15-teoremas-de-incompletude-de-godel.md"
       },
       "computed_unit_slug": "unidade-03-problemas-indecidiveis",
-      "computed_block_id": "bloco-14",
+      "computed_block_id": "d5ccf1f1-8651-4a96-8b9a-1e102b324d2a",
       "computed_block_confidence": 0.85,
       "computed_block_band": "alta",
       "unit_match_reasons": [
@@ -708,7 +708,7 @@
         "markdown_path": "staging/markdown-auto/datalab/aula-14-problema-da-correspondencia-de-post/aula-14-problema-da-correspondencia-de-post.md"
       },
       "computed_unit_slug": "unidade-04-hierarquia-de-classes-de-complexidade-de-problemas-computacionais",
-      "computed_block_id": "bloco-13",
+      "computed_block_id": "027d4024-a77c-49e0-aba8-4fa87bd0c728",
       "computed_block_confidence": 0.85,
       "computed_block_band": "alta",
       "unit_match_reasons": [
@@ -733,7 +733,7 @@
       "unit_block_conflict": {
         "unit": "unidade-04-hierarquia-de-classes-de-complexidade-de-problemas-computacionais",
         "block_unit": "unidade-03-problemas-indecidiveis",
-        "block_id": "bloco-13"
+        "block_id": "027d4024-a77c-49e0-aba8-4fa87bd0c728"
       },
       "computed_subunit_slug": "definicao-da-classe"
     },
@@ -834,13 +834,13 @@
         "markdown_path": "staging/markdown-auto/datalab/aula-13-teorema-de-rice/aula-13-teorema-de-rice.md"
       },
       "computed_unit_slug": "unidade-03-problemas-indecidiveis",
-      "computed_block_id": "bloco-13",
+      "computed_block_id": "027d4024-a77c-49e0-aba8-4fa87bd0c728",
       "computed_block_confidence": 0.85,
       "computed_block_band": "alta",
       "unit_match_reasons": [
         "winner_score=61.10",
         "topic_score=8.83",
-        "herdada_do_bloco=bloco-13"
+        "herdada_do_bloco=027d4024-a77c-49e0-aba8-4fa87bd0c728"
       ],
       "unit_match_confidence": 0.5418400696732573,
       "subunit_match_reasons": [
@@ -958,13 +958,13 @@
         "markdown_path": "staging/markdown-auto/datalab/aula-12-entscheidungsproblem/aula-12-entscheidungsproblem.md"
       },
       "computed_unit_slug": "unidade-03-problemas-indecidiveis",
-      "computed_block_id": "bloco-10",
+      "computed_block_id": "e09117dc-5a43-42db-a0b6-e3c59ad9c444",
       "computed_block_confidence": 0.12251852541329869,
       "computed_block_band": "baixa",
       "unit_match_reasons": [
         "winner_score=53.26",
         "topic_score=5.04",
-        "herdada_do_bloco=bloco-10"
+        "herdada_do_bloco=e09117dc-5a43-42db-a0b6-e3c59ad9c444"
       ],
       "unit_match_confidence": 0.6112743152044463,
       "subunit_match_reasons": [
@@ -1159,14 +1159,14 @@
         "markdown_path": "staging/markdown-auto/datalab/aula-11-o-problema-da-parada-halting-problem-halteproblem/aula-11-o-problema-da-parada-halting-problem-halteproblem.md"
       },
       "computed_unit_slug": "unidade-03-problemas-indecidiveis",
-      "computed_block_id": "bloco-10",
+      "computed_block_id": "e09117dc-5a43-42db-a0b6-e3c59ad9c444",
       "computed_block_confidence": 0.8,
       "computed_block_band": "alta",
       "unit_match_reasons": [
         "winner_score=52.85",
         "topic_score=9.53",
         "ambiguous",
-        "herdada_do_bloco=bloco-10"
+        "herdada_do_bloco=e09117dc-5a43-42db-a0b6-e3c59ad9c444"
       ],
       "unit_match_confidence": 0.12318442043679241,
       "subunit_match_reasons": [
@@ -1344,7 +1344,7 @@
         "markdown_path": "staging/markdown-auto/datalab/aula-10-linguagens-reconhecıveis-e-linguagens-decidıveis/aula-10-linguagens-reconhecıveis-e-linguagens-decidıveis.md"
       },
       "computed_unit_slug": "unidade-02-turing-computabilidade",
-      "computed_block_id": "bloco-09",
+      "computed_block_id": "3e3be596-9527-42ba-ad20-c15956e48f4e",
       "computed_block_confidence": 0.85,
       "computed_block_band": "alta",
       "unit_match_reasons": [
@@ -1525,13 +1525,13 @@
         "markdown_path": "staging/markdown-auto/datalab/aula-09-variacoes-de-maquinas-de-turing/aula-09-variacoes-de-maquinas-de-turing.md"
       },
       "computed_unit_slug": "unidade-02-turing-computabilidade",
-      "computed_block_id": "bloco-09",
+      "computed_block_id": "3e3be596-9527-42ba-ad20-c15956e48f4e",
       "computed_block_confidence": 0.85,
       "computed_block_band": "alta",
       "unit_match_reasons": [
         "winner_score=69.53",
         "topic_score=23.87",
-        "herdada_do_bloco=bloco-09"
+        "herdada_do_bloco=3e3be596-9527-42ba-ad20-c15956e48f4e"
       ],
       "unit_match_confidence": 0.5587902651531019,
       "subunit_match_reasons": [
@@ -1693,7 +1693,7 @@
         "markdown_path": "staging/markdown-auto/datalab/aula-08-maquinas-de-turing-como-processadores-de-funcoes/aula-08-maquinas-de-turing-como-processadores-de-funcoes.md"
       },
       "computed_unit_slug": "unidade-02-turing-computabilidade",
-      "computed_block_id": "bloco-09",
+      "computed_block_id": "3e3be596-9527-42ba-ad20-c15956e48f4e",
       "computed_block_confidence": 0.14108545872114164,
       "computed_block_band": "baixa",
       "unit_match_reasons": [
@@ -1887,7 +1887,7 @@
         "markdown_path": "staging/markdown-auto/datalab/aula07-maquinas-de-turing-e-linguagens-recursivamente-enumeraveis/aula07-maquinas-de-turing-e-linguagens-recursivamente-enumeraveis.md"
       },
       "computed_unit_slug": "unidade-02-turing-computabilidade",
-      "computed_block_id": "bloco-09",
+      "computed_block_id": "3e3be596-9527-42ba-ad20-c15956e48f4e",
       "computed_block_confidence": 0.2609093395807706,
       "computed_block_band": "media",
       "unit_match_reasons": [
@@ -2118,13 +2118,13 @@
         "markdown_path": "staging/markdown-auto/datalab/aula-06-revisao-alfabeto-cadeia-linguagem-hierarquia-de-chomsky-lemas-e-propriedades-de-automatos/aula-06-revisao-alfabeto-cadeia-linguagem-hierarquia-de-chomsky-lemas-e-propriedades-de-automatos.md"
       },
       "computed_unit_slug": "unidade-02-turing-computabilidade",
-      "computed_block_id": "bloco-09",
+      "computed_block_id": "3e3be596-9527-42ba-ad20-c15956e48f4e",
       "computed_block_confidence": 0.42194596993971234,
       "computed_block_band": "media",
       "unit_match_reasons": [
         "winner_score=66.42",
         "topic_score=8.83",
-        "herdada_do_bloco=bloco-09"
+        "herdada_do_bloco=3e3be596-9527-42ba-ad20-c15956e48f4e"
       ],
       "unit_match_confidence": 0.5496465150004531,
       "subunit_match_reasons": [
@@ -2350,13 +2350,13 @@
         "markdown_path": "staging/markdown-auto/datalab/revisao-alfabeto-cadeia-linguagem-hierarquia-de-chomsky-lemas-e-propriedades-de-automatos/revisao-alfabeto-cadeia-linguagem-hierarquia-de-chomsky-lemas-e-propriedades-de-automatos.md"
       },
       "computed_unit_slug": "unidade-04-hierarquia-de-classes-de-complexidade-de-problemas-computacionais",
-      "computed_block_id": "bloco-22",
+      "computed_block_id": "224e19c2-5329-44d8-a47e-9a7fdf1f36c3",
       "computed_block_confidence": 0.7,
       "computed_block_band": "alta",
       "unit_match_reasons": [
         "winner_score=65.05",
         "topic_score=8.83",
-        "herdada_do_bloco=bloco-22"
+        "herdada_do_bloco=224e19c2-5329-44d8-a47e-9a7fdf1f36c3"
       ],
       "unit_match_confidence": 0.5496465150004531,
       "subunit_match_reasons": [
@@ -2449,7 +2449,7 @@
         "markdown_path": "staging/markdown-auto/datalab/enunciado-t1/enunciado-t1.md"
       },
       "computed_unit_slug": "unidade-01-conjuntos-enumeraveis-e-funcoes-recursivas",
-      "computed_block_id": "bloco-03",
+      "computed_block_id": "e4678122-f30f-4385-bbed-3a682d728920",
       "computed_block_confidence": 0.8,
       "computed_block_band": "alta",
       "unit_match_reasons": [
@@ -2601,13 +2601,13 @@
         "markdown_path": "staging/markdown-auto/datalab/aula-05-minimizacao-de-funcoes-recursivas-parciais/aula-05-minimizacao-de-funcoes-recursivas-parciais.md"
       },
       "computed_unit_slug": "unidade-01-conjuntos-enumeraveis-e-funcoes-recursivas",
-      "computed_block_id": "bloco-03",
+      "computed_block_id": "e4678122-f30f-4385-bbed-3a682d728920",
       "computed_block_confidence": 0.8,
       "computed_block_band": "alta",
       "unit_match_reasons": [
         "winner_score=45.02",
         "topic_score=13.00",
-        "herdada_do_bloco=bloco-03"
+        "herdada_do_bloco=e4678122-f30f-4385-bbed-3a682d728920"
       ],
       "unit_match_confidence": 0.4433538461538461,
       "subunit_match_reasons": [
@@ -2761,13 +2761,13 @@
         "markdown_path": "staging/markdown-auto/datalab/aula-04-funcoes-computaveis-funcoes-recursivas-parciais/aula-04-funcoes-computaveis-funcoes-recursivas-parciais.md"
       },
       "computed_unit_slug": "unidade-01-conjuntos-enumeraveis-e-funcoes-recursivas",
-      "computed_block_id": "bloco-03",
+      "computed_block_id": "e4678122-f30f-4385-bbed-3a682d728920",
       "computed_block_confidence": 0.8,
       "computed_block_band": "alta",
       "unit_match_reasons": [
         "winner_score=55.93",
         "topic_score=13.72",
-        "herdada_do_bloco=bloco-03"
+        "herdada_do_bloco=e4678122-f30f-4385-bbed-3a682d728920"
       ],
       "unit_match_confidence": 0.6328095390804932,
       "subunit_match_reasons": [
@@ -2922,13 +2922,13 @@
         "markdown_path": "staging/markdown-auto/datalab/aula-03-funcoes-recursivas-primitivas-e-composicao-de-funcoes/aula-03-funcoes-recursivas-primitivas-e-composicao-de-funcoes.md"
       },
       "computed_unit_slug": "unidade-01-conjuntos-enumeraveis-e-funcoes-recursivas",
-      "computed_block_id": "bloco-03",
+      "computed_block_id": "e4678122-f30f-4385-bbed-3a682d728920",
       "computed_block_confidence": 0.8,
       "computed_block_band": "alta",
       "unit_match_reasons": [
         "winner_score=41.38",
         "topic_score=9.33",
-        "herdada_do_bloco=bloco-03"
+        "herdada_do_bloco=e4678122-f30f-4385-bbed-3a682d728920"
       ],
       "unit_match_confidence": 0.4597898348702552,
       "subunit_match_reasons": [
@@ -3096,7 +3096,7 @@
         "markdown_path": "staging/markdown-auto/datalab/aula-02-conjuntos-enumeraveis-e-nao-enumeraveis-argumento-da-diagonalizacao-de-cantor/aula-02-conjuntos-enumeraveis-e-nao-enumeraveis-argumento-da-diagonalizacao-de-cantor.md"
       },
       "computed_unit_slug": "unidade-01-conjuntos-enumeraveis-e-funcoes-recursivas",
-      "computed_block_id": "bloco-02",
+      "computed_block_id": "18a1092a-9a22-4d54-b02b-59414b171496",
       "computed_block_confidence": 0.85,
       "computed_block_band": "alta",
       "unit_match_reasons": [
@@ -3284,7 +3284,7 @@
         "markdown_path": "staging/markdown-auto/datalab/aula-01-apresentacao-da-disciplina-revisao-de-teoria-de-conjuntos-e-enumerabilidade/aula-01-apresentacao-da-disciplina-revisao-de-teoria-de-conjuntos-e-enumerabilidade.md"
       },
       "computed_unit_slug": "unidade-01-conjuntos-enumeraveis-e-funcoes-recursivas",
-      "computed_block_id": "bloco-01",
+      "computed_block_id": "667491f1-cffe-45f5-8b3f-29b0cec9d25a",
       "computed_block_confidence": 1.0,
       "computed_block_band": "alta",
       "unit_match_reasons": [
@@ -3532,13 +3532,13 @@
         "markdown_path": "staging/markdown-auto/datalab/aula-16-classes-de-problemas-e-complexidade/aula-16-classes-de-problemas-e-complexidade.md"
       },
       "computed_unit_slug": "unidade-04-hierarquia-de-classes-de-complexidade-de-problemas-computacionais",
-      "computed_block_id": "bloco-19",
+      "computed_block_id": "74265198-aa3e-4d9d-8001-049cbc79710f",
       "computed_block_confidence": 0.3638335767300547,
       "computed_block_band": "media",
       "unit_match_reasons": [
         "winner_score=105.69",
         "topic_score=15.95",
-        "herdada_do_bloco=bloco-19"
+        "herdada_do_bloco=74265198-aa3e-4d9d-8001-049cbc79710f"
       ],
       "unit_match_confidence": 0.6133461515922598,
       "subunit_match_reasons": [
@@ -3762,14 +3762,14 @@
         "markdown_path": "staging/markdown-auto/datalab/aula-06-revisao-alfabeto-cadeia-linguagem-hierarquia-de-chomsky-lemas-e-propriedades-de-automatos/aula-06-revisao-alfabeto-cadeia-linguagem-hierarquia-de-chomsky-lemas-e-propriedades-de-automatos.md"
       },
       "computed_unit_slug": "unidade-02-turing-computabilidade",
-      "computed_block_id": "bloco-06",
+      "computed_block_id": "cbf887a2-7073-441b-b695-8b3d8d1d1b86",
       "computed_block_confidence": 0.014165343753816053,
       "computed_block_band": "baixa",
       "unit_match_reasons": [
         "winner_score=3.84",
         "topic_score=0.00",
         "ambiguous",
-        "herdada_do_bloco=bloco-06"
+        "herdada_do_bloco=cbf887a2-7073-441b-b695-8b3d8d1d1b86"
       ],
       "unit_match_confidence": 0.00247395833333335,
       "subunit_match_reasons": [
@@ -3902,7 +3902,7 @@
       },
       "computed_unit_slug": "unidade-04-hierarquia-de-classes-de-complexidade-de-problemas-computacionais",
       "computed_block_method": "card+scorer",
-      "computed_block_id": "bloco-19",
+      "computed_block_id": "74265198-aa3e-4d9d-8001-049cbc79710f",
       "computed_block_confidence": 0.15715837362502758,
       "computed_block_band": "baixa",
       "unit_match_reasons": [
@@ -4164,13 +4164,13 @@
       },
       "computed_unit_slug": "unidade-04-hierarquia-de-classes-de-complexidade-de-problemas-computacionais",
       "computed_block_method": "card+scorer",
-      "computed_block_id": "bloco-19",
+      "computed_block_id": "74265198-aa3e-4d9d-8001-049cbc79710f",
       "computed_block_confidence": 0.36725013327427236,
       "computed_block_band": "media",
       "unit_match_reasons": [
         "winner_score=105.69",
         "topic_score=15.95",
-        "herdada_do_bloco=bloco-19"
+        "herdada_do_bloco=74265198-aa3e-4d9d-8001-049cbc79710f"
       ],
       "unit_match_confidence": 0.6133461515922598,
       "unit_block_conflict": {},
@@ -4304,7 +4304,7 @@
       },
       "computed_unit_slug": "unidade-04-hierarquia-de-classes-de-complexidade-de-problemas-computacionais",
       "computed_block_method": "card+scorer",
-      "computed_block_id": "bloco-22",
+      "computed_block_id": "224e19c2-5329-44d8-a47e-9a7fdf1f36c3",
       "computed_block_confidence": 0.8,
       "computed_block_band": "alta",
       "unit_match_reasons": [
@@ -4403,7 +4403,7 @@
       },
       "computed_unit_slug": "unidade-04-hierarquia-de-classes-de-complexidade-de-problemas-computacionais",
       "computed_block_method": "card",
-      "computed_block_id": "bloco-23",
+      "computed_block_id": "dfd5b65d-4aa6-445b-bad1-bf86b1b672b5",
       "computed_block_confidence": 0.85,
       "computed_block_band": "alta",
       "unit_match_reasons": [
@@ -4589,7 +4589,7 @@
       },
       "computed_unit_slug": "unidade-04-hierarquia-de-classes-de-complexidade-de-problemas-computacionais",
       "computed_block_method": "scorer_only",
-      "computed_block_id": "bloco-22",
+      "computed_block_id": "224e19c2-5329-44d8-a47e-9a7fdf1f36c3",
       "computed_block_confidence": 0.7,
       "computed_block_band": "alta",
       "unit_match_reasons": [
@@ -4754,13 +4754,13 @@
       },
       "computed_unit_slug": "unidade-04-hierarquia-de-classes-de-complexidade-de-problemas-computacionais",
       "computed_block_method": "scorer_only",
-      "computed_block_id": "bloco-26",
+      "computed_block_id": "c4f3f5ef-556c-4695-88ac-710f8f9b8d3f",
       "computed_block_confidence": 0.0,
       "computed_block_band": "baixa",
       "unit_match_reasons": [
         "winner_score=26.72",
         "topic_score=1.30",
-        "herdada_do_bloco=bloco-26"
+        "herdada_do_bloco=c4f3f5ef-556c-4695-88ac-710f8f9b8d3f"
       ],
       "unit_match_confidence": 0.4288845526183144,
       "unit_block_conflict": {},
@@ -4884,14 +4884,14 @@
       },
       "computed_unit_slug": "unidade-03-problemas-indecidiveis",
       "computed_block_method": "scorer_only",
-      "computed_block_id": "bloco-13",
+      "computed_block_id": "027d4024-a77c-49e0-aba8-4fa87bd0c728",
       "computed_block_confidence": 0.12514156285390884,
       "computed_block_band": "baixa",
       "unit_match_reasons": [
         "winner_score=17.71",
         "topic_score=1.04",
         "ambiguous",
-        "herdada_do_bloco=bloco-13"
+        "herdada_do_bloco=027d4024-a77c-49e0-aba8-4fa87bd0c728"
       ],
       "unit_match_confidence": 0.04414611174978594,
       "unit_block_conflict": {},
@@ -5046,13 +5046,13 @@
       },
       "computed_unit_slug": "unidade-01-conjuntos-enumeraveis-e-funcoes-recursivas",
       "computed_block_method": "card+scorer",
-      "computed_block_id": "bloco-03",
+      "computed_block_id": "e4678122-f30f-4385-bbed-3a682d728920",
       "computed_block_confidence": 0.8,
       "computed_block_band": "alta",
       "unit_match_reasons": [
         "winner_score=55.93",
         "topic_score=13.72",
-        "herdada_do_bloco=bloco-03"
+        "herdada_do_bloco=e4678122-f30f-4385-bbed-3a682d728920"
       ],
       "unit_match_confidence": 0.6328095390804932,
       "unit_block_conflict": {},
@@ -5146,7 +5146,7 @@
       },
       "computed_unit_slug": "unidade-01-conjuntos-enumeraveis-e-funcoes-recursivas",
       "computed_block_method": "card+scorer",
-      "computed_block_id": "bloco-03",
+      "computed_block_id": "e4678122-f30f-4385-bbed-3a682d728920",
       "computed_block_confidence": 0.8,
       "computed_block_band": "alta",
       "unit_match_reasons": [
@@ -5340,7 +5340,7 @@
       },
       "computed_unit_slug": "unidade-02-turing-computabilidade",
       "computed_block_method": "card+scorer",
-      "computed_block_id": "bloco-09",
+      "computed_block_id": "3e3be596-9527-42ba-ad20-c15956e48f4e",
       "computed_block_confidence": 0.2480521061602154,
       "computed_block_band": "media",
       "unit_match_reasons": [
@@ -5506,7 +5506,7 @@
       },
       "computed_unit_slug": "unidade-02-turing-computabilidade",
       "computed_block_method": "card+scorer",
-      "computed_block_id": "bloco-09",
+      "computed_block_id": "3e3be596-9527-42ba-ad20-c15956e48f4e",
       "computed_block_confidence": 0.09066384287623258,
       "computed_block_band": "baixa",
       "unit_match_reasons": [
@@ -5690,7 +5690,7 @@
       },
       "computed_unit_slug": "unidade-02-turing-computabilidade",
       "computed_block_method": "card",
-      "computed_block_id": "bloco-09",
+      "computed_block_id": "3e3be596-9527-42ba-ad20-c15956e48f4e",
       "computed_block_confidence": 0.85,
       "computed_block_band": "alta",
       "unit_match_reasons": [
@@ -5891,14 +5891,14 @@
       },
       "computed_unit_slug": "unidade-03-problemas-indecidiveis",
       "computed_block_method": "card+scorer",
-      "computed_block_id": "bloco-10",
+      "computed_block_id": "e09117dc-5a43-42db-a0b6-e3c59ad9c444",
       "computed_block_confidence": 0.8,
       "computed_block_band": "alta",
       "unit_match_reasons": [
         "winner_score=52.85",
         "topic_score=9.53",
         "ambiguous",
-        "herdada_do_bloco=bloco-10"
+        "herdada_do_bloco=e09117dc-5a43-42db-a0b6-e3c59ad9c444"
       ],
       "unit_match_confidence": 0.12318442043679241,
       "unit_block_conflict": {},
@@ -6024,13 +6024,13 @@
       },
       "computed_unit_slug": "unidade-03-problemas-indecidiveis",
       "computed_block_method": "card+scorer",
-      "computed_block_id": "bloco-10",
+      "computed_block_id": "e09117dc-5a43-42db-a0b6-e3c59ad9c444",
       "computed_block_confidence": 0.12944324054831854,
       "computed_block_band": "baixa",
       "unit_match_reasons": [
         "winner_score=48.18",
         "topic_score=5.04",
-        "herdada_do_bloco=bloco-10"
+        "herdada_do_bloco=e09117dc-5a43-42db-a0b6-e3c59ad9c444"
       ],
       "unit_match_confidence": 0.6112743152044463,
       "unit_block_conflict": {},
@@ -6145,13 +6145,13 @@
       },
       "computed_unit_slug": "unidade-03-problemas-indecidiveis",
       "computed_block_method": "card",
-      "computed_block_id": "bloco-13",
+      "computed_block_id": "027d4024-a77c-49e0-aba8-4fa87bd0c728",
       "computed_block_confidence": 0.85,
       "computed_block_band": "alta",
       "unit_match_reasons": [
         "winner_score=48.76",
         "topic_score=8.83",
-        "herdada_do_bloco=bloco-13"
+        "herdada_do_bloco=027d4024-a77c-49e0-aba8-4fa87bd0c728"
       ],
       "unit_match_confidence": 0.32629564577264325,
       "unit_block_conflict": {},
@@ -7911,6 +7911,6 @@
       "category": "material-de-aula"
     }
   ],
-  "updated_at": "2026-06-19T08:43:47",
+  "updated_at": "2026-06-21T14:42:02",
   "failed_entries": []
 }

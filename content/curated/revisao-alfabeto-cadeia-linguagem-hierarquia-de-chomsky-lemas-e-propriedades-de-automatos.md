@@ -143,6 +143,11 @@ Coat of arms of the University of São Paulo (USP)
 > **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
 <!-- /IMAGE_DESCRIPTION -->
 
+<!-- IMAGE_DESCRIPTION: datalab-f254a67565344d514e13763a4e556a70_img.jpg -->
+<!-- Tipo: generico -->
+> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
+<!-- /IMAGE_DESCRIPTION -->
+
 <!-- IMAGE_DESCRIPTION: datalab-966c4b9785d85823782a007f3ecec1a7_img.jpg -->
 <!-- Tipo: generico -->
 > **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
@@ -363,7 +368,7 @@ Diagrama da hierarquia das linguagens de Chomsky, mostrando cinco níveis concê
 
 <!-- IMAGE_DESCRIPTION: datalab-c036e2540a94b31357ceb0002f0cacab_img.jpg -->
 <!-- Tipo: generico -->
-> **[Descrição de imagem]** Diagrama da hierarquia das linguagens de Chomsky, mostrando cinco níveis concêntricos de ovals: Regulares (no centro), Livres de Contexto, Recursivas (Decidíveis), Recursivamente Enumeráveis, e Todas as Linguagens (no...
+> **[Descrição de imagem]** Diagrama da hierarquia das linguagens de Chomsky, mostrando cinco níveis concêntricos de complexidade crescente.
 <!-- /IMAGE_DESCRIPTION -->
 ### Problemas de Decisão como Linguagens
 ### Ideia Fundamental
@@ -426,7 +431,7 @@ Diagram of a Deterministic Finite Automaton (DFA) for strings ending in 01. It h
 
 <!-- IMAGE_DESCRIPTION: datalab-29f586959675cafdf81cf934954908eb_img.jpg -->
 <!-- Tipo: generico -->
-> **[Descrição de imagem]** Diagram of a Deterministic Finite Automaton (DFA) for strings ending in 01.
+> **[Descrição de imagem]** Diagram of a Deterministic Finite Automaton (DFA) with three states: q0, q1, and q2.
 <!-- /IMAGE_DESCRIPTION -->
 ### Autômato Finito Não-Determinístico (NFA)
 #### Definição
@@ -899,11 +904,6 @@ The image shows a watermark of the coat of arms of PUC-SP. It includes a shield 
 Coat of arms of the Pontifical Catholic University of São Paulo (PUC-SP)
 
 {45}------------------------------------------------
-
-<!-- IMAGE_DESCRIPTION: datalab-f254a67565344d514e13763a4e556a70_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Coat of arms of the Pontifical Catholic University of São Paulo (PUC-SP)
-<!-- /IMAGE_DESCRIPTION -->
 ### Exercício 11: Propriedades de Fechamento
 
 - 1 **Desafio!** Prove que se  $L_1$  e  $L_2$  são regulares, então  $L_1 \cap L_2$  é regular.

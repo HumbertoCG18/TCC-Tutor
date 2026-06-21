@@ -27,8 +27,8 @@
   - Analogia ao Paradoxo de Russell
   - Problema do Barbeiro
   - Conexão
-- ***HALT* é Reconhecível, mas não Decidível**
-  - *HALT* é Turing-Reconhecível
+- **$HALT$ é Reconhecível, mas não Decidível**
+  - $HALT$ é Turing-Reconhecível
   - Problema
   - Hierarquia
   - O Complemento de $HALT$
@@ -95,63 +95,23 @@ POLITÉCNICA
 - 3 Consequências e Aplicações
 - 4 Exercícios
 
-The image shows the coat of arms of the University of São Paulo (USP). It features a shield with a central vertical band containing a monogram, flanked by two vertical bands with a repeating cross pattern. Above the shield is a crown and two crossed keys. Below the shield is a banner with the Latin motto "AD VERVM DVCT".
+The image shows the coat of arms of the University of São Paulo (USP). It features a shield with a central vertical band containing a monogram and stars, flanked by two vertical bands with a cross pattern. The shield is topped by a crown and two crossed keys. A banner at the bottom reads "AD VERVM DVCIT".
 
 Coat of arms of the University of São Paulo (USP)
 
 {2}------------------------------------------------
 
-<!-- IMAGE_DESCRIPTION: datalab-b6cb8677b4ffb35c6468fa5c24091bff_img.jpg -->
+<!-- IMAGE_DESCRIPTION: datalab-8c378a184b5ae4d1605cb74d7b7a7e3f_img.jpg -->
 <!-- Tipo: generico -->
 > **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
 <!-- /IMAGE_DESCRIPTION -->
 
-<!-- IMAGE_DESCRIPTION: datalab-63ae75eedbc0eeea2efd2ee19c2fbc7d_img.jpg -->
+<!-- IMAGE_DESCRIPTION: datalab-f770ac8927cbf6aa997de6e0307c9783_img.jpg -->
 <!-- Tipo: generico -->
 > **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
 <!-- /IMAGE_DESCRIPTION -->
 
-<!-- IMAGE_DESCRIPTION: datalab-7898f899fb291b02fbb353e0337c5514_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-911a4f4b97be8e1dcf81e58b080dc0e2_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-9cc5ec27db4e35a26008bce9b9cd0bc8_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-9b77845519ed6ce33bab327fe59ace1c_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-9911cc821dddfed7079ce56cbb907c9e_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-9642ee15d719705144037077981aaa99_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-4ca62688976b4bef770a81683f9d9eef_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-f254a67565344d514e13763a4e556a70_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-966c4b9785d85823782a007f3ecec1a7_img.jpg -->
+<!-- IMAGE_DESCRIPTION: datalab-9887cf85c05205c57271d28ecc108b32_img.jpg -->
 <!-- Tipo: generico -->
 > **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
 <!-- /IMAGE_DESCRIPTION -->
@@ -275,6 +235,11 @@ Diagram of a hypothetical Turing machine H. An input  enters a box labeled H. Tw
 A MT hipotética  $H$  **sempre para** e responde corretamente.
 
 {9}------------------------------------------------
+
+<!-- IMAGE_DESCRIPTION: datalab-a234352dfaccdc24745c88eef7724cc6_img.jpg -->
+<!-- Tipo: generico -->
+> **[Descrição de imagem]** Diagram of a hypothetical Turing machine H.
+<!-- /IMAGE_DESCRIPTION -->
 #### Prova: Construção da Máquina $D$
 #### Definição de $D$
 
@@ -288,7 +253,12 @@ Usando  $H$ , construímos  $D$  que recebe  $\langle M \rangle$  como entrada:
 graph LR; Input("<M>") --> D; subgraph D [D]; H[H]; end; H -- "se aceita" --> Loop("loop $\infty$"); H -- "se rejeita" --> Para("para");
 ```
 
-Diagram illustrating the construction of machine D. An input  enters a dashed box labeled D. Inside D is a box labeled H. From the output of H, two paths emerge: 'se aceita' leading to 'loop $\infty$' and 'se rejeita' leading to 'para'.
+Diagram illustrating the construction of machine D. An input  enters a dashed box labeled D. Inside D is a box labeled H. From the output of H, two paths emerge: one labeled 'se aceita' leading to 'loop $\infty$', and another labeled 'se rejeita' leading to 'para'.
+
+<!-- IMAGE_DESCRIPTION: datalab-1eadbbe42cfcac5c0023577110aec5e3_img.jpg -->
+<!-- Tipo: generico -->
+> **[Descrição de imagem]** Diagram illustrating the construction of machine D.
+<!-- /IMAGE_DESCRIPTION -->
 #### Comportamento de $D$
 
 $D(\langle M \rangle)$  faz o **oposto** do que  $M$  faz quando recebe sua própria descrição.
@@ -348,33 +318,28 @@ Em uma vila, o barbeiro barbeia todas as pessoas que não barbeiam a si mesmas, 
 A máquina  $D$  é como o “barbeiro”: ela é definida para fazer o oposto do que “deveria” fazer quando aplicada a si mesma.
 
 {13}------------------------------------------------
-## *HALT* é Reconhecível, mas não Decidível
-### *HALT* é Turing-Reconhecível
+## $HALT$ é Reconhecível, mas não Decidível
+### $HALT$ é Turing-Reconhecível
 
-Podemos construir uma MT  $R$  que **reconhece** *HALT*:
+Podemos construir uma MT  $R$  que **reconhece**  $HALT$ :
 
 - 1 Entrada:  $\langle M, w \rangle$
 - 2 Simule  $M$  em  $w$
 - 3 Se  $M$  parar, aceite
 ### Problema
 
-$R$  não **decide** *HALT*.
+$R$  não **decide**  $HALT$ .
 ### Hierarquia
 
-O diagrama ilustra a hierarquia dos problemas de decisão. Consiste em dois ovais concêntricos. O oval interno, menor, é rotulado 'Decidíveis'. O oval externo, maior, é rotulado 'Reconhecíveis'. A região entre os dois ovais, representando problemas que são reconhecíveis mas não decidíveis, contém o rótulo '*HALT*'.
+O diagrama ilustra a hierarquia dos problemas de decisão. Consiste em dois ovais concêntricos. O oval interno, menor, é rotulado 'Decidíveis'. O oval externo, maior, é rotulado 'Reconhecíveis'. A região entre os dois ovais é rotulada 'HALT', indicando que o problema da parada é reconhecível, mas não decidível.
 
 Diagrama de hierarquia de problemas de decisão
 
 {14}------------------------------------------------
 
-<!-- IMAGE_DESCRIPTION: datalab-c036e2540a94b31357ceb0002f0cacab_img.jpg -->
+<!-- IMAGE_DESCRIPTION: datalab-66c2bf11a8f117cddf67eff92d4c736c_img.jpg -->
 <!-- Tipo: generico -->
-> **[Descrição de imagem]** Diagrama da hierarquia das linguagens de Chomsky, mostrando cinco níveis concêntricos de complexidade crescente.
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-875c6f4f441fdd3ca7e1908fd1582983_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Diagrama da Hierarquia de Chomsky mostrando a inclusão entre classes de linguagens.
+> **[Descrição de imagem]** Diagrama de hierarquia de problemas de decisão
 <!-- /IMAGE_DESCRIPTION -->
 ### O Complemento de $HALT$
 ### Definição
@@ -382,7 +347,7 @@ Diagrama de hierarquia de problemas de decisão
 $$\overline{HALT} = \{\langle M, w \rangle \mid M \text{ não para em } w\}$$
 #### Teorema
 
-$\overline{HALT}$  **não** é Turing-reconhecível.
+$\overline{HALT}$  não é Turing-reconhecível.
 ### Prova
 
 Se tanto  $HALT$  quanto  $\overline{HALT}$  fossem reconhecíveis, então  $HALT$  seria decidível:
@@ -427,9 +392,14 @@ Se  $A \leq_m B$  e  $A$  é indecidível, então  $B$  é indecidível.
 graph LR; A[Problema A] -- redução --> B[Problema B]; A --- A_label[indecidível]; B --- B_label["$\Rightarrow$ indecidível"];
 ```
 
-Diagram illustrating a reduction from Problema A to Problema B. A box labeled 'Problema A' is connected by an arrow labeled 'redução' to a box labeled 'Problema B'. Below 'Problema A' is the word 'indecidível', and below 'Problema B' is '$\Rightarrow$ indecidível'.
+Diagram illustrating a reduction from Problem A to Problem B. A box labeled 'Problema A' is connected by an arrow labeled 'redução' to a box labeled 'Problema B'. Below 'Problema A' is the text 'indecidível', and below 'Problema B' is the text '$\Rightarrow$ indecidível'.
 
 {17}------------------------------------------------
+
+<!-- IMAGE_DESCRIPTION: datalab-9b62a616c7a1097c5da57f001ab6dd64_img.jpg -->
+<!-- Tipo: generico -->
+> **[Descrição de imagem]** Diagram illustrating a reduction from Problem A to Problem B.
+<!-- /IMAGE_DESCRIPTION -->
 ### Exemplo: Problema da Aceitação
 #### Definição
 
@@ -532,20 +502,35 @@ A maioria dos programas úteis **podem** ter sua terminação verificada, mas n�
 Faint watermark of the University of São Paulo (USP) coat of arms, featuring a shield with a star and a banner below reading 'AD VERVM DVCIT'.
 
 {23}------------------------------------------------
+
+<!-- IMAGE_DESCRIPTION: datalab-0ab720844e454afef91e5d68f4ab8ad9_img.jpg -->
+<!-- Tipo: generico -->
+> **[Descrição de imagem]** Faint watermark of the University of São Paulo (USP) coat of arms, featuring a shield with a star and a banner below reading 'AD VERVM DVCIT'.
+<!-- /IMAGE_DESCRIPTION -->
+
+<!-- IMAGE_DESCRIPTION: datalab-e3c1d325b828c44049a7ac37e5b34603_img.jpg -->
+<!-- Tipo: generico -->
+> **[Descrição de imagem]** Faint watermark of the University of São Paulo (USP) coat of arms, featuring a shield with a star and a banner below reading 'AD VERVM DVCIT'.
+<!-- /IMAGE_DESCRIPTION -->
 ### Exercício 2: Variações do Problema da Parada
 
-Prove que os seguintes problemas são indecidíveis (usando redução de *HALT*):
+Prove que os seguintes problemas são indecidíveis (usando redução de  $HALT$ ):
 
 - 1  $HALT_{\epsilon} = \{\langle M \rangle \mid M \text{ para na entrada vazia } \epsilon\}$   
 *Dica:* Dada  $\langle M, w \rangle$ , construa  $M'$  que ignora sua entrada e simula  $M$  em  $w$ .
+
 - 2  $HALT_{101} = \{\langle M \rangle \mid M \text{ para na entrada } 101\}$
+
 - 3 O problema de decidir se uma MT para em **exatamente 100 passos** para alguma entrada.
 
-The image shows the coat of arms of the University of São Paulo (USP). It features a central shield with a white background and a large blue star. The shield is flanked by two blue lions. Above the shield is a blue crown. A blue banner at the bottom of the shield contains the Latin motto 'AD VERVM DVCT'.
-
-Coat of arms of the University of São Paulo (USP)
+Watermark of the coat of arms of the University of São Paulo (USP) featuring a shield with crosses, a crown, and crossed keys, with the motto 'AD VERVM DVCT' below.
 
 {24}------------------------------------------------
+
+<!-- IMAGE_DESCRIPTION: datalab-082ba09313df59d76a7bfbdde8ec877d_img.jpg -->
+<!-- Tipo: generico -->
+> **[Descrição de imagem]** Watermark of the coat of arms of the University of São Paulo (USP) featuring a shield with crosses, a crown, and crossed keys, with the motto 'AD VERVM DVCT' below.
+<!-- /IMAGE_DESCRIPTION -->
 ### Exercício 3: Reconhecibilidade
 
 - 1 Mostre que o conjunto  $\{\langle M \rangle \mid M \text{ aceita pelo menos uma string}\}$  é Turing-reconhecível.  
@@ -553,7 +538,7 @@ Coat of arms of the University of São Paulo (USP)
 - 2 Por que  $\overline{HALT}$  não é Turing-reconhecível?
 - 3 Existe uma linguagem que não é Turing-reconhecível nem co-Turing-reconhecível? Justifique.
 
-The image shows the coat of arms of the University of São Paulo (USP). It features a central shield with a white background and a large blue star at the bottom. The shield is flanked by two golden lions. Above the shield is a crown. A banner at the bottom of the shield contains the Latin motto "AD VERVM DVCT".
+The image shows the coat of arms of the University of São Paulo (USP). It features a shield with a large five-pointed star in the center. The shield is flanked by two crossed flags. Above the shield is a crown. A banner at the bottom of the shield contains the Latin motto "AD VERVM DVCT".
 
 Coat of arms of the University of São Paulo (USP)
 
@@ -562,13 +547,13 @@ Coat of arms of the University of São Paulo (USP)
 
 Para cada par  $(A, B)$ , determine se  $A \leq_m B$ ,  $B \leq_m A$ , ambos, ou nenhum:
 
-- 1  $A = HALT$ ,  $B = A_{TM}$
-- 2  $A = \{\langle M \rangle \mid M \text{ aceita } \langle M \rangle\}$ ,  $B = HALT$
-- 3  $A = E_{TM}$ ,  $B = \overline{E_{TM}}$
+- 1  $A = HALT, B = A_{TM}$
+- 2  $A = \{\langle M \rangle \mid M \text{ aceita } \langle M \rangle\}, B = HALT$
+- 3  $A = E_{TM}, B = \overline{E_{TM}}$
 
 Lembre-se:  $A \leq_m B$  significa que existe uma função computável  $f$  tal que  $x \in A \iff f(x) \in B$ .
 
-The image shows the coat of arms of the University of São Paulo (USP). It features a shield with a white field containing a grid of green crosses. A central vertical band (fess) is black with a white star and a white monogram. Above the shield is a crown. The shield is flanked by two crossed keys (the keys of St. Peter). Below the shield is a blue ribbon with the Latin motto 'AD VERVM DVCT' in white capital letters.
+The image shows the coat of arms of the University of São Paulo (USP). It features a shield with a white background and a blue border. The shield is divided into four quadrants, each containing a blue cross. In the center of the shield is a blue star. Above the shield is a crown. The shield is flanked by two blue lions. A blue ribbon with the Latin motto 'AD VERVM DVCT' is at the bottom.
 
 Coat of arms of the University of São Paulo (USP)
 
@@ -597,14 +582,9 @@ Este é o problema de Collatz. Por que não podemos usar um computador para prov
 - 2 Existe algum modelo de computação **mais poderoso** que Máquinas de Turing que poderia decidir o Problema da Parada? Justifique com base na Tese de Church-Turing.
 - 3 A indecidibilidade do Problema da Parada implica que existem programas cuja terminação **nunca** poderá ser determinada por nenhum meio (incluindo prova matemática humana)?
 
-Faint watermark of the University of São Paulo (USP) coat of arms, featuring a central shield with a star, flanked by two figures, and a banner below reading 'AD VERVM DVCT'.
+Faint watermark of the University of São Paulo (USP) coat of arms, featuring a shield with a star and a banner below reading 'AD VERVM DVCIT'.
 
 {28}------------------------------------------------
-
-<!-- IMAGE_DESCRIPTION: datalab-fb15f15a7d964c8490c9317e43e40c1a_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Faint watermark of the University of São Paulo (USP) coat of arms, featuring a shield with a star and the motto 'AD VERVM DVCT'.
-<!-- /IMAGE_DESCRIPTION -->
 ## Desafio
 ### Teorema da Recursão
 
@@ -625,7 +605,7 @@ Como esta prova se relaciona com a autoreferência no Paradoxo de Russell e nos 
 {29}------------------------------------------------
 ## Referências I
 
-- ![Faint watermark of the University of Brasília seal in the background.](b4fd951633a5d21f350c61bae231fccd_img.jpg)
+- ![Faint watermark of the University of Brasília coat of arms](b4fd951633a5d21f350c61bae231fccd_img.jpg)
 - [1] Sanjeev Arora e Boaz Barak. *Computational Complexity: A Modern Approach*. Cambridge University Press, 2009.
   - [2] Alonzo Church. “An Unsolvable Problem of Elementary Number Theory”. Em: *American Journal of Mathematics* 58:2 (1936), pp. 345–363.
   - [3] Martin D. Davis. *Computability and Unsolvability*. Dover Publications, 1982.
@@ -633,6 +613,11 @@ Como esta prova se relaciona com a autoreferência no Paradoxo de Russell e nos 
   - [5] Marvin L. Minsky. *Computation: Finite and Infinite Machines*. Prentice-Hall, 1967.
 
 {30}------------------------------------------------
+
+<!-- IMAGE_DESCRIPTION: datalab-b4fd951633a5d21f350c61bae231fccd_img.jpg -->
+<!-- Tipo: generico -->
+> **[Descrição de imagem]** Faint watermark of the University of Brasília coat of arms
+<!-- /IMAGE_DESCRIPTION -->
 ## Referências II
 
 - [6] Christos H. Papadimitriou. *Computational Complexity*. Addison-Wesley, 1994.
@@ -641,22 +626,17 @@ Como esta prova se relaciona com a autoreferência no Paradoxo de Russell e nos 
 
 Faint watermark of the University of São Paulo (USP) coat of arms, featuring a shield with a star, a banner reading 'AD VERVM DVCIT', and a crown above.
 
+<!-- IMAGE_DESCRIPTION: datalab-8a919c7e46849292573775081d1b3d66_img.jpg -->
+<!-- Tipo: generico -->
+> **[Descrição de imagem]** Faint watermark of the University of São Paulo (USP) coat of arms, featuring a shield with a star, a banner reading 'AD VERVM DVCIT', and a crown above.
+<!-- /IMAGE_DESCRIPTION -->
+
 <!-- IMAGE_DESCRIPTION_ORPHANS -->
 ## Imagens Curadas
 
 Descrições preservadas para imagens detectadas no documento, mas sem referência markdown compatível no corpo principal.
 
-<!-- IMAGE_DESCRIPTION: datalab-29f586959675cafdf81cf934954908eb_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Diagram of a Deterministic Finite Automaton (DFA) with three states: q0, q1, and q2.
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-86b4670fc1a5a694821ee92b99c1209a_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Diagram of a Pushdown Automaton (PDA) for the language {0^n 1^n : n ≥ 0}.
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-fa6c61be003dfbb4ca5587e48a71de94_img.jpg -->
+<!-- IMAGE_DESCRIPTION: datalab-d3294dc879b451b369c0b06f42e9b39f_img.jpg -->
 <!-- Tipo: generico -->
 > **[Descrição de imagem]** Logo of PUCRS (Pontifícia Universidade Católica do Rio Grande do Sul)
 <!-- /IMAGE_DESCRIPTION -->

@@ -58,6 +58,7 @@
   - Exercício 10: Reconhecível vs. Decidível
   - Exercício 11: Propriedades de Fechamento
 - **Referências I**
+- **Imagens Curadas**
 
 <!-- EXEC_SUMMARY_END -->
 {0}------------------------------------------------
@@ -144,7 +145,7 @@ Coat of arms of the University of São Paulo (USP)
 
 <!-- IMAGE_DESCRIPTION: datalab-f254a67565344d514e13763a4e556a70_img.jpg -->
 <!-- Tipo: generico -->
-> **[Descrição de imagem]** Coat of arms of the Pontifical Catholic University of São Paulo (PUC-SP)
+> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
 <!-- /IMAGE_DESCRIPTION -->
 
 <!-- IMAGE_DESCRIPTION: datalab-966c4b9785d85823782a007f3ecec1a7_img.jpg -->
@@ -369,7 +370,7 @@ Diagrama da hierarquia das linguagens de Chomsky, mostrando cinco níveis concê
 
 <!-- IMAGE_DESCRIPTION: datalab-c036e2540a94b31357ceb0002f0cacab_img.jpg -->
 <!-- Tipo: generico -->
-> **[Descrição de imagem]** Diagrama da hierarquia das linguagens de Chomsky, mostrando cinco níveis concêntricos de ovals: Regulares (no centro), Livres de Contexto, Recursivas (Decidíveis), Recursivamente Enumeráveis, e Todas as Linguagens (no...
+> **[Descrição de imagem]** Diagrama da hierarquia das linguagens de Chomsky, mostrando cinco níveis concêntricos de complexidade crescente.
 <!-- /IMAGE_DESCRIPTION -->
 
 <!-- IMAGE_DESCRIPTION: datalab-875c6f4f441fdd3ca7e1908fd1582983_img.jpg -->
@@ -437,7 +438,7 @@ Diagram of a Deterministic Finite Automaton (DFA) with three states: q0, q1, and
 
 <!-- IMAGE_DESCRIPTION: datalab-29f586959675cafdf81cf934954908eb_img.jpg -->
 <!-- Tipo: generico -->
-> **[Descrição de imagem]** Diagram of a Deterministic Finite Automaton (DFA) for strings ending in 01.
+> **[Descrição de imagem]** Diagram of a Deterministic Finite Automaton (DFA) with three states: q0, q1, and q2.
 <!-- /IMAGE_DESCRIPTION -->
 ### Autômato Finito Não-Determinístico (NFA)
 #### Definição

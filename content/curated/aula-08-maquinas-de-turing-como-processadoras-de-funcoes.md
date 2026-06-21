@@ -15,13 +15,12 @@
   - Correspondência com MTs
   - Composição de Funções Computáveis
   - Teorema
-  - Funções de Múltiplas Variáveis
+- **Funções de Múltiplas Variáveis**
   - Codificação de Tuplas
   - Opções de Codificação
   - Independência da Codificação
   - Codificando MTs como Cadeias
   - Motivação
-  - Ideia
   - Exemplo de Codificação
   - Uma Codificação Simples
   - Propriedades da Codificação
@@ -39,9 +38,11 @@
   - Ideia
   - Função Universal
   - Definição
+  - Pergunta
   - Teorema da Equivalência
   - A Tese de Church-Turing
   - Outros Modelos Equivalentes
+  - Máquinas de Registradores (RAM)
   - Sistemas de Reescrita
   - Implicações da Equivalência
   - Robustez da Definição
@@ -91,65 +92,20 @@ POLITÉCNICA
 - 3 Equivalência com Funções Recursivas
 - 4 Exercícios
 
-The image is a large, light gray watermark of the coat of arms of the University of São Paulo (USP). It features a shield with a central vertical band containing a stylized 'M' and 'U' monogram, flanked by two vertical bands with a repeating cross pattern. A large five-pointed star is at the bottom of the shield. Above the shield is a crown, and on either side are crossed keys. A banner at the bottom reads 'AD VERVM DVCT'.
+The image is a faint, light gray watermark of the Coat of Arms of Brazil. It features a central shield with a green field containing a white five-pointed star and a gold field containing a white cross. The shield is surmounted by a crown and flanked by two crossed keys. A ribbon at the bottom contains the motto 'AD VERVM DVCIT'.
 
-Coat of arms of the University of São Paulo (USP)
+Coat of arms of Brazil
 
 {2}------------------------------------------------
 
-<!-- IMAGE_DESCRIPTION: datalab-b6cb8677b4ffb35c6468fa5c24091bff_img.jpg -->
+<!-- IMAGE_DESCRIPTION: datalab-cb00037bd3b3af9720d5551ad2f818dd_img.jpg -->
 <!-- Tipo: generico -->
-> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
+> **[Descrição de imagem]** Coat of arms of Brazil
 <!-- /IMAGE_DESCRIPTION -->
 
-<!-- IMAGE_DESCRIPTION: datalab-63ae75eedbc0eeea2efd2ee19c2fbc7d_img.jpg -->
+<!-- IMAGE_DESCRIPTION: datalab-a4f8ab9085cf6977168da3fa62e04b7e_img.jpg -->
 <!-- Tipo: generico -->
-> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-7898f899fb291b02fbb353e0337c5514_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-911a4f4b97be8e1dcf81e58b080dc0e2_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-9cc5ec27db4e35a26008bce9b9cd0bc8_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-9b77845519ed6ce33bab327fe59ace1c_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-9911cc821dddfed7079ce56cbb907c9e_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-9642ee15d719705144037077981aaa99_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-4ca62688976b4bef770a81683f9d9eef_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-f254a67565344d514e13763a4e556a70_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-966c4b9785d85823782a007f3ecec1a7_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
+> **[Descrição de imagem]** Coat of arms of Brazil
 <!-- /IMAGE_DESCRIPTION -->
 ## Duas Visões de Computação
 ## MT como Reconhecedor de Linguagens
@@ -157,16 +113,6 @@ Coat of arms of the University of São Paulo (USP)
 - Entrada: cadeia  $w$
 - Saída: Aceita ou Rejeita (ou loop)
 - Decide se  $w \in L$
-
-<!-- IMAGE_DESCRIPTION: datalab-c036e2540a94b31357ceb0002f0cacab_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Diagrama da hierarquia das linguagens de Chomsky, mostrando cinco níveis concêntricos de complexidade crescente.
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-875c6f4f441fdd3ca7e1908fd1582983_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Diagrama da Hierarquia de Chomsky mostrando a inclusão entre classes de linguagens.
-<!-- /IMAGE_DESCRIPTION -->
 ## MT como Computador de Funções
 
 - Entrada: valor  $x$  (codificado como cadeia)
@@ -252,7 +198,7 @@ Construa  $M_{g \circ f}$ :
 Se  $f(w) \uparrow$  ou  $g(f(w)) \uparrow$ , então  $(g \circ f)(w) \uparrow$ .  $\square$
 
 {7}------------------------------------------------
-### Funções de Múltiplas Variáveis
+## Funções de Múltiplas Variáveis
 ### Codificação de Tuplas
 
 Para computar  $f : \mathbb{N}^k \rightarrow \mathbb{N}$ , precisamos codificar  $(n_1, \dots, n_k)$  como uma única cadeia.
@@ -270,7 +216,7 @@ Diferentes codificações “razoáveis” resultam na mesma classe de funções
 ### Motivação
 
 Para estudar MTs “sobre” MTs (como a MT Universal), precisamos representar MTs como cadeias.
-### Ideia
+#### Ideia
 
 Uma MT  $M = (Q, \Sigma, \Gamma, \delta, q_0, q_{acc}, q_{rej})$  é um objeto finito:
 
@@ -293,11 +239,11 @@ Assuma alfabeto binário para a codificação.
 
 - Estados:  $q_i$  codificado como  $0^{i+1}$
 - Símbolos de  $\Gamma$ :  $a_j$  codificado como  $0^{j+1}$
-- Direções:  $L = 0, R = 1$
+- Direções:  $L = 0$ ,  $R = 1$
 - Transição  $\delta(q_i, a_j) = (q_k, a_l, D)$ :  
 codificada como  $0^{i+1}10^{j+1}10^{k+1}10^{l+1}1D$
 - Transições separadas por 11
-- MT completa:  $111transições111$
+- MT completa: 111*transições*111
 #### Observação
 
 A codificação específica não importa muito, o importante é que:
@@ -405,11 +351,11 @@ As funções  $\mu$ -recursivas (recursivas parciais) são construídas a partir
 - Composição
 - Recursão primitiva
 - Minimização ( $\mu$ )
-#### Pergunta
+### Pergunta
 
 As funções Turing-computáveis são exatamente as funções recursivas parciais?
 
-Resposta: SIM!
+**Resposta: SIM!**
 
 Este é um dos resultados fundamentais da teoria da computabilidade.
 
@@ -419,13 +365,13 @@ Este é um dos resultados fundamentais da teoria da computabilidade.
 
 Uma função  $f : \mathbb{N}^k \rightarrow \mathbb{N}$  é Turing-computável se e somente se é  $\mu$ -recursiva.
 #### Prova (Esboço)
-##### $(\mu\text{-recursiva} \Rightarrow \text{Turing-computável})$
+#### **( $\mu$ -recursiva $\Rightarrow$ Turing-computável)**
 
 - Funções básicas são claramente computáveis por MTs
 - Composição: execute MTs em sequência
 - Recursão primitiva: use loop com contador
 - Minimização: busca sequencial (while)
-##### $(\text{Turing-computável} \Rightarrow \mu\text{-recursiva})$
+#### **(Turing-computável $\Rightarrow$ $\mu$ -recursiva)**
 
 - Codifique configurações de MT como números
 - A função “próxima configuração” é recursiva primitiva
@@ -456,7 +402,7 @@ Modelo baseado em funções e aplicação.
 - Termos: variáveis,  $\lambda x.M$ ,  $(M N)$
 - Computação:  $\beta$ -redução
 - Base para linguagens funcionais (Lisp, Haskell)
-#### Máquinas de Registradores (RAM)
+### Máquinas de Registradores (RAM)
 
 Modelo próximo a computadores reais:
 
@@ -507,9 +453,9 @@ graph TD; MT[Máquinas de Turing] <--> FR[Funções $\mu$-recursivas]; CL[Cálcu
 
 Diagram showing the equivalence between four computational models: Máquinas de Turing, Funções $\mu$-recursivas, Cálculo Lambda, and Gramáticas Tipo 0. All four models are interconnected with double-headed arrows, indicating that they all characterize the same class of computable functions.
 
-<!-- IMAGE_DESCRIPTION: datalab-29f586959675cafdf81cf934954908eb_img.jpg -->
+<!-- IMAGE_DESCRIPTION: datalab-7d3d5fb5d09c0cd35a9d637be241651e_img.jpg -->
 <!-- Tipo: generico -->
-> **[Descrição de imagem]** Diagram of a Deterministic Finite Automaton (DFA) with three states: q0, q1, and q2.
+> **[Descrição de imagem]** Diagram showing the equivalence between four computational models: Máquinas de Turing, Funções μ-recursivas, Cálculo Lambda, and Gramáticas Tipo 0.
 <!-- /IMAGE_DESCRIPTION -->
 ### Todos Caracterizam a Mesma Classe
 
@@ -528,11 +474,31 @@ Mostre que as seguintes funções são Turing-computáveis, descrevendo (em alto
 - 4  $p(n)$  =  $n$ -ésimo número primo
 - 5  $\text{gcd}(m, n)$  = máximo divisor comum
 
-The image shows the coat of arms of the University of São Paulo (USP). It features a shield with a central star, flanked by two vertical panels with a cross pattern. Above the shield is a crown and a banner with the motto 'AD VERVM DVCT'.
+The image shows the coat of arms of the University of São Paulo (USP). It features a shield with a central vertical band containing a stylized 'M' and 'U' monogram. The shield is flanked by two crossed flags (one green and gold, the other red and green) and topped by a crown. A banner at the bottom reads 'AD VERVM DVCIT'.
 
 Coat of arms of the University of São Paulo (USP)
 
 {23}------------------------------------------------
+
+<!-- IMAGE_DESCRIPTION: datalab-0ab720844e454afef91e5d68f4ab8ad9_img.jpg -->
+<!-- Tipo: generico -->
+> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
+<!-- /IMAGE_DESCRIPTION -->
+
+<!-- IMAGE_DESCRIPTION: datalab-03d99823cac9b0c49db95d65dc155d8c_img.jpg -->
+<!-- Tipo: generico -->
+> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
+<!-- /IMAGE_DESCRIPTION -->
+
+<!-- IMAGE_DESCRIPTION: datalab-55fb58e14ec092ccc4fe111de0dc6278_img.jpg -->
+<!-- Tipo: generico -->
+> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
+<!-- /IMAGE_DESCRIPTION -->
+
+<!-- IMAGE_DESCRIPTION: datalab-87d9833379b490461fb3451cf389cb4a_img.jpg -->
+<!-- Tipo: generico -->
+> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
+<!-- /IMAGE_DESCRIPTION -->
 ### Exercício 2: Codificação
 
 - 1** Dada a MT com estados  $\{q_0, q_1, q_{acc}\}$ , alfabeto  $\{0, 1, \sqcup\}$ , e transições:
@@ -553,14 +519,11 @@ Escreva uma possível codificação  $\langle M \rangle$  usando a convenção d
 - 3 Se  $U(\langle M, w \rangle)$  aceita, o que podemos concluir sobre  $M$  e  $w$ ?
 - 4 Descreva o que acontece quando executamos  $U(\langle U, \langle U, w \rangle \rangle)$  — uma MT Universal simulando ela mesma.
 
-Faint watermark of the University of São Paulo (USP) coat of arms, featuring a shield with a star and the motto 'AD VERVM DVCT'.
+The image shows the coat of arms of the University of São Paulo (USP). It features a shield with a large five-pointed star in the center. The shield is flanked by two figures, possibly representing the university's history or values. Above the shield is a crown. A banner at the bottom of the shield contains the Latin motto "AD VERVM DVCT".
+
+Coat of arms of the University of São Paulo (USP)
 
 {25}------------------------------------------------
-
-<!-- IMAGE_DESCRIPTION: datalab-fb15f15a7d964c8490c9317e43e40c1a_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Faint watermark of the University of São Paulo (USP) coat of arms, featuring a shield with a star and the motto 'AD VERVM DVCT'.
-<!-- /IMAGE_DESCRIPTION -->
 ### Exercício 4: Equivalência de Modelos
 
 - 1 Mostre como simular a função básica  $S(n) = n + 1$  usando uma MT (em unário).
@@ -568,7 +531,7 @@ Faint watermark of the University of São Paulo (USP) coat of arms, featuring a 
 - 3 Mostre como simular minimização  $f(x) = \mu y[g(x, y) = 0]$  com uma MT, dada MT para  $g$ .
 - 4 Por que a simulação de recursão primitiva não introduz loops infinitos, mas a de minimização pode?
 
-The image shows the coat of arms of the University of São Paulo (USP). It features a central shield with a white background and a pattern of green pine trees. Above the shield is a crown, and on either side are two crossed keys. Below the shield is a blue ribbon with the Latin motto 'AD VERVM DVCT'.
+The image shows the coat of arms of the University of São Paulo (USP). It features a central shield with a white background and a pattern of green pine trees. Above the shield is a crown, and on either side are two crossed keys. Below the shield is a banner with the Latin motto 'AD VERVM DVCT'.
 
 Coat of arms of the University of São Paulo (USP)
 
@@ -580,7 +543,7 @@ Coat of arms of the University of São Paulo (USP)
 - 3 Se  $f : \mathbb{N} \rightarrow \mathbb{N}$  é computável e  $A = \{x : f(x) = 0\}$ , o que podemos afirmar sobre  $A$ ? É sempre decidível? É sempre reconhecível?
 - 4 Dê exemplo de função  $f$  computável tal que  $\{x : f(x) = 0\}$  é reconhecível mas não decidível.
 
-The image shows the coat of arms of the University of São Paulo (USP). It features a central shield with a white background and a pattern of green pine trees. Above the shield is a crown. On either side of the shield are two figures, likely representing the university's founding figures. Below the shield is a banner with the Latin motto 'AD VERVM DVCT'.
+The image shows the coat of arms of the University of São Paulo (USP). It features a shield with a blue field containing a white star and a red field containing a white cross. The shield is surmounted by a crown and flanked by two golden lions. A banner at the bottom reads "AD VERVM DVCT".
 
 Coat of arms of the University of São Paulo (USP)
 
@@ -600,7 +563,7 @@ $$\varphi_{s(e,y)}(x) = \varphi_e(x, y)$$
 {28}------------------------------------------------
 ## Referências I
 
-The image shows the coat of arms of Brazil, which is a heraldic shield. The shield is divided into three sections: a central section with a five-pointed star and a banner below it, and two side sections with a pattern of small crosses. Above the shield is a crown and two crossed keys. The banner at the bottom of the shield contains the Latin motto "AD VERVM DVCIT".
+The image is a faded, light gray watermark of the official coat of arms of Brazil. It features a central shield with a green field containing a large white star and a gold field containing a white cross. The shield is flanked by two golden branches of coffee and tobacco. Above the shield is a golden crown. A blue ribbon at the bottom of the shield contains the Latin motto 'AD VERVM DVCIT'.
 
 Coat of arms of Brazil
 
@@ -609,12 +572,7 @@ Coat of arms of Brazil
 
 Descrições preservadas para imagens detectadas no documento, mas sem referência markdown compatível no corpo principal.
 
-<!-- IMAGE_DESCRIPTION: datalab-86b4670fc1a5a694821ee92b99c1209a_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Diagram of a Pushdown Automaton (PDA) for the language {0^n 1^n : n ≥ 0}.
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-fa6c61be003dfbb4ca5587e48a71de94_img.jpg -->
+<!-- IMAGE_DESCRIPTION: datalab-1d7527f4316cfe2d342b08d1653d1592_img.jpg -->
 <!-- Tipo: generico -->
 > **[Descrição de imagem]** Logo of PUCRS (Pontifícia Universidade Católica do Rio Grande do Sul)
 <!-- /IMAGE_DESCRIPTION -->

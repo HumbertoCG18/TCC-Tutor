@@ -77,17 +77,12 @@ Ciência da Computação
 
 The logo of PUCRS, featuring a shield with a cross and a star, and the text 'PUCRS' below it.
 
-Logo of PUCRS (Pontifícia Universidade Católica do Rio Grande do Sul)
+Logo of PUCRS (Universidade Católica do Rio Grande do Sul)
 
 ESCOLA  
 POLITÉCNICA
 
 {1}------------------------------------------------
-
-<!-- IMAGE_DESCRIPTION: datalab-875c6f4f441fdd3ca7e1908fd1582983_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Diagrama da Hierarquia de Chomsky mostrando a inclusão entre classes de linguagens.
-<!-- /IMAGE_DESCRIPTION -->
 ## Sumário
 
 **1** Limitações das Funções Recursivas Primitivas
@@ -98,11 +93,26 @@ POLITÉCNICA
 
 **4** Exercícios
 
-The image is a large, faded watermark of the Brazilian coat of arms. It features a central shield with a green field containing a white five-pointed star and a gold field containing a white cross. The shield is flanked by two blue and white banners. Above the shield is a crown. The entire emblem is set against a dark blue background.
+The image shows the coat of arms of the University of São Paulo (USP). It features a shield with a central vertical band containing a stylized 'M' and 'U' monogram, flanked by two vertical bands with a repeating cross pattern. A large five-pointed star is positioned at the bottom center of the shield. Above the shield is a crown, and on either side are crossed keys. A banner at the bottom of the shield contains the Latin motto 'AD VERVM DVCT'.
 
-Coat of arms of Brazil
+Coat of arms of the University of São Paulo (USP)
 
 {2}------------------------------------------------
+
+<!-- IMAGE_DESCRIPTION: datalab-1211e36d120f0d2912a745437f4c8f19_img.jpg -->
+<!-- Tipo: generico -->
+> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
+<!-- /IMAGE_DESCRIPTION -->
+
+<!-- IMAGE_DESCRIPTION: datalab-9887cf85c05205c57271d28ecc108b32_img.jpg -->
+<!-- Tipo: generico -->
+> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
+<!-- /IMAGE_DESCRIPTION -->
+
+<!-- IMAGE_DESCRIPTION: datalab-a3f81dedbdc5b702f397d07ef476d53e_img.jpg -->
+<!-- Tipo: generico -->
+> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
+<!-- /IMAGE_DESCRIPTION -->
 ## Revisão
 ## Funções Recursivas Primitivas
 
@@ -286,11 +296,6 @@ Uma função recursiva parcial que é **total** (definida para todas as entradas
 ### Hierarquia
 
 Rec. Primitivas  $\subset$  Recursivas Totais  $\subset$  Recursivas Parciais
-
-<!-- IMAGE_DESCRIPTION: datalab-c036e2540a94b31357ceb0002f0cacab_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Diagrama da hierarquia das linguagens de Chomsky, mostrando cinco níveis concêntricos de complexidade crescente.
-<!-- /IMAGE_DESCRIPTION -->
 #### Exemplos
 
 - Adição, multiplicação: recursivas primitivas
@@ -399,7 +404,7 @@ Esta receita pode ser codificada como um número natural!
 
 Existe uma enumeração  $\varphi_0, \varphi_1, \varphi_2, \dots$  de todas as funções recursivas parciais de uma variável.
 
-$\varphi_e$  = a função com “código” (ou índice)  $e$ .
+$\varphi_e =$  a função com “código” (ou índice)  $e$ .
 ### Notação
 
 $\varphi_e^{(k)}$  denota a  $e$ -ésima função recursiva parcial de  $k$  variáveis.
@@ -500,11 +505,16 @@ Logo,  $h$  não pode ser computável.  $\square$
 ## Resumo
 ## Classes de Funções
 
-The diagram illustrates the hierarchy of function classes using four concentric ellipses. The outermost ellipse is labeled "Todas as funções  $\mathbb{N}^k \rightarrow \mathbb{N}$ ". Inside it is an ellipse labeled "Recursivas Parciais (Computáveis)". Inside that is an ellipse labeled "Recursivas Totais". The innermost ellipse is labeled "Rec. Primitivas". This shows that the set of primitive recursive functions is a subset of total recursive functions, which is a subset of partial recursive (computable) functions, which is a subset of all functions from  $\mathbb{N}^k$  to  $\mathbb{N}$ .
+The diagram illustrates the hierarchy of function classes using four concentric ellipses. The outermost ellipse is labeled "Todas as funções  $\mathbb{N}^k \rightarrow \mathbb{N}$ ". Inside it is an ellipse labeled "Recursivas Parciais (Computáveis)". Inside that is an ellipse labeled "Recursivas Totais". The innermost ellipse is labeled "Rec. Primitivas".
 
 Venn diagram showing the hierarchy of function classes: Todas as funções N^k -> N, Recursivas Parciais (Computáveis), Recursivas Totais, and Rec. Primitivas.
 
 {25}------------------------------------------------
+
+<!-- IMAGE_DESCRIPTION: datalab-8d325fc12b494e42c9ea7ed2a7f327a6_img.jpg -->
+<!-- Tipo: generico -->
+> **[Descrição de imagem]** Venn diagram showing the hierarchy of function classes: Todas as funções N^k -> N, Recursivas Parciais (Computáveis), Recursivas Totais, and Rec.
+<!-- /IMAGE_DESCRIPTION -->
 ### Exercício 1: Funções Parciais
 
 Para cada função abaixo, determine seu domínio:
@@ -517,71 +527,11 @@ Para cada função abaixo, determine seu domínio:
 
 Quais destas funções são totais?
 
-The image shows the coat of arms of the University of São Paulo (USP). It features a shield with a large five-pointed star in the center. The shield is flanked by two crossed flags. Above the shield is a crown. A banner at the bottom of the shield contains the Latin motto "AD VERVM DVCT".
+The image is a faint, light gray watermark of the coat of arms of the University of São Paulo (USP). It features a central shield with a large five-pointed star at the bottom. The shield is flanked by two crossed flags (one green and gold, the other red and green) and topped by a crown. A banner at the bottom of the shield contains the Latin motto 'AD VERVM DVCT'.
 
 Coat of arms of the University of São Paulo (USP)
 
 {26}------------------------------------------------
-
-<!-- IMAGE_DESCRIPTION: datalab-b6cb8677b4ffb35c6468fa5c24091bff_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-63ae75eedbc0eeea2efd2ee19c2fbc7d_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-7898f899fb291b02fbb353e0337c5514_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-911a4f4b97be8e1dcf81e58b080dc0e2_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-9cc5ec27db4e35a26008bce9b9cd0bc8_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-9b77845519ed6ce33bab327fe59ace1c_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-9911cc821dddfed7079ce56cbb907c9e_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-9642ee15d719705144037077981aaa99_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-4ca62688976b4bef770a81683f9d9eef_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-f254a67565344d514e13763a4e556a70_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-966c4b9785d85823782a007f3ecec1a7_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-fb15f15a7d964c8490c9317e43e40c1a_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Faint watermark of the University of São Paulo (USP) coat of arms, featuring a shield with a star and the motto 'AD VERVM DVCT'.
-<!-- /IMAGE_DESCRIPTION -->
 ### Exercício 2: Minimização
 
 Expresse as seguintes funções usando minimização:
@@ -593,7 +543,7 @@ Expresse as seguintes funções usando minimização:
 
 **Dica:** Para cada item, identifique o predicado  $P$  tal que a resposta é  $\mu y[P(y)]$ .
 
-The image shows the coat of arms of the University of São Paulo (USP). It features a shield with a star and a banner below it that reads "AD VERVM DVCIT". Above the shield is a crown and two crossed scepters.
+The image shows the coat of arms of the University of São Paulo (USP). It features a shield with a five-pointed star in the center, surrounded by a wreath. Above the shield is a crown. The shield is flanked by two crossed flags. Below the shield is a ribbon with the Latin motto 'AD VERVM DVCT'.
 
 Coat of arms of the University of São Paulo (USP)
 
@@ -608,9 +558,14 @@ Determine se as seguintes funções são recursivas primitivas, recursivas totai
 - 4  $p(x) =$  o  $x$ -ésimo número primo
 - 5  $q(x) = \mu y[\varphi_x(y) \downarrow]$  (menor entrada para a qual o programa  $x$  para)
 
-Faint watermark of the coat of arms of the University of São Paulo (USP) in the background.
+Faint watermark of the coat of arms of the University of São Paulo (USP) on the right side of the slide.
 
 {28}------------------------------------------------
+
+<!-- IMAGE_DESCRIPTION: datalab-83db47f9541df5f9be73289497eaae90_img.jpg -->
+<!-- Tipo: generico -->
+> **[Descrição de imagem]** Faint watermark of the coat of arms of the University of São Paulo (USP) on the right side of the slide.
+<!-- /IMAGE_DESCRIPTION -->
 ### Exercício 4: Teoremas de Kleene
 
 - 1 Explique intuitivamente por que a função universal  $U(e, x) = \varphi_e(x)$  pode ser computável. O que um algoritmo para  $U$  precisa fazer?
@@ -663,25 +618,20 @@ $BB(1) = 1$ ,  $BB(2) = 4$ ,  $BB(3) = 6$ ,  $BB(4) = 13$ ,
 - [3] Christos H. Papadimitriou. *Computational Complexity*. Addison-Wesley, 1994.
 - [4] Michael Sipser. *Introduction to the Theory of Computation*. 3rd. Cengage Learning, 2012.
 
-Faint watermark of a university crest or seal, featuring a shield with a cross pattern and a banner below reading 'AD VERVM DVCT'.
+Faint watermark of the University of São Paulo (USP) coat of arms, featuring a shield with a star and a banner below reading 'AD VERVM DVCIT'.
+
+<!-- IMAGE_DESCRIPTION: datalab-aa7a4ea43951479b7e7b4c530ea5bc2d_img.jpg -->
+<!-- Tipo: generico -->
+> **[Descrição de imagem]** Faint watermark of the University of São Paulo (USP) coat of arms, featuring a shield with a star and a banner below reading 'AD VERVM DVCIT'.
+<!-- /IMAGE_DESCRIPTION -->
 
 <!-- IMAGE_DESCRIPTION_ORPHANS -->
 ## Imagens Curadas
 
 Descrições preservadas para imagens detectadas no documento, mas sem referência markdown compatível no corpo principal.
 
-<!-- IMAGE_DESCRIPTION: datalab-29f586959675cafdf81cf934954908eb_img.jpg -->
+<!-- IMAGE_DESCRIPTION: datalab-d3294dc879b451b369c0b06f42e9b39f_img.jpg -->
 <!-- Tipo: generico -->
-> **[Descrição de imagem]** Diagram of a Deterministic Finite Automaton (DFA) with three states: q0, q1, and q2.
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-86b4670fc1a5a694821ee92b99c1209a_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Diagram of a Pushdown Automaton (PDA) for the language {0^n 1^n : n ≥ 0}.
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-fa6c61be003dfbb4ca5587e48a71de94_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Logo of PUCRS (Pontifícia Universidade Católica do Rio Grande do Sul)
+> **[Descrição de imagem]** Logo of PUCRS (Universidade Católica do Rio Grande do Sul)
 <!-- /IMAGE_DESCRIPTION -->
 <!-- /IMAGE_DESCRIPTION_ORPHANS -->

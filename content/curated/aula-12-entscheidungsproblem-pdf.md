@@ -76,10 +76,11 @@
   - Exercício 5: Fragmentos Decidíveis
   - Exercício 6: Consequências
   - Exercício 7: Reflexão Histórica
-- **Desafio**
+  - Desafio
   - Teorema de Trakhtenbrot (1950)
 - **Contraste**
 - **Referências I**
+- **Referências II**
 - **Referências II**
 - **Imagens Curadas**
 
@@ -99,7 +100,7 @@ Ciência da Computação
 
 17 de abril de 2026
 
-The logo of the Escola Politécnica of PUCRS, featuring a crest with a star and the text "PUCRS" and "ESCOLA POLITÉCNICA".
+The logo of the Escola Politécnica of PUCRS, featuring a crest with a star and the text "ESCOLA POLITÉCNICA" and "PUCRS".
 
 Logo of ESCOLA POLITÉCNICA PUCRS
 
@@ -294,16 +295,16 @@ MT  $\equiv$   $\lambda$ -calculus  $\equiv$  Funções Recursivas  $\equiv$  M�
 Termos do  $\lambda$ -calculus:
 
 - **Variáveis:**  $x, y, z, \dots$
-- **Abstração:**  $\lambda x. M$  (função que mapeia  $x$  para  $M$ )
+- **Abstração:**  $\lambda x.M$  (função que mapeia  $x$  para  $M$ )
 - **Aplicação:**  $(M N)$  (aplicar  $M$  a  $N$ )
 #### Exemplos
 
-- Identidade:  $\lambda x. x$
-- Constante:  $\lambda x. \lambda y. x$
-- Aplicação:  $(\lambda x. x + 1) 5 = 6$
+- Identidade:  $\lambda x.x$
+- Constante:  $\lambda x.\lambda y.x$
+- Aplicação:  $(\lambda x.x + 1) 5 = 6$
 ### Regra de Redução ( $\beta$ -redução)
 
-$$(\lambda x. M) N \rightarrow_{\beta} M[x := N]$$
+$$(\lambda x.M) N \rightarrow_{\beta} M[x := N]$$
 
 {14}------------------------------------------------
 ### Equivalência dos Modelos
@@ -363,15 +364,16 @@ Existem verdades matemáticas que nenhum procedimento mecânico pode descobrir s
 - 3 Mas o Problema da Parada é indecidível
 - 4 Logo, o Entscheidungsproblem é indecidível
 
-The diagram shows a logical reduction. A box on the left labeled 'Problema da Parada' is connected by a horizontal arrow labeled 'redução' to a box on the right labeled 'Entscheidungsproblem'. Below the 'Problema da Parada' box is the word 'indecidível'. Below the 'Entscheidungsproblem' box is the expression '$\Rightarrow$ indecidível', indicating that the undecidability of the Halting Problem implies the undecidability of the Entscheidungsproblem.
-
-```
-graph LR; A[Problema da Parada] -- redução --> B[Entscheidungsproblem]; A --- C[indecidível]; B --- D["$\Rightarrow$ indecidível"]; style C stroke-width:0px; style D stroke-width:0px;
-```
+The diagram shows a logical reduction. A box labeled 'Problema da Parada' is connected by an arrow labeled 'redução' to a box labeled 'Entscheidungsproblem'. Below the 'Problema da Parada' box is the word 'indecidível'. Below the 'Entscheidungsproblem' box is the expression '$\Rightarrow$ indecidível', indicating that if the Entscheidungsproblem were decidable, the Halting Problem would also be decidable, which contradicts its known undecidability.
 
 Diagram illustrating the reduction from the Halting Problem to the Entscheidungsproblem.
 
 {18}------------------------------------------------
+
+<!-- IMAGE_DESCRIPTION: datalab-51db757d054ce1ce83c436a3578b56ca_img.jpg -->
+<!-- Tipo: generico -->
+> **[Descrição de imagem]** Diagram illustrating the reduction from the Halting Problem to the Entscheidungsproblem.
+<!-- /IMAGE_DESCRIPTION -->
 ## Codificando MTs em Lógica
 ### Ideia da Codificação
 
@@ -532,9 +534,9 @@ Considere uma MT simples com:
 {30}------------------------------------------------
 ### Exercício 5: Fragmentos Decidíveis
 
-- 1** A lógica proposicional é decidível. Descreva um algoritmo para decidir se uma fórmula proposicional é uma tautologia.
-- 2** Por que a aritmética de Presburger (com adição mas sem multiplicação) é decidível, enquanto a aritmética de Peano (com adição e multiplicação) não é?
-- 3** A teoria da ordem dos números reais  $(\mathbb{R}, <)$  é decidível (Tarski). Por que isso não contradiz a indecidibilidade do Entscheidungsproblem?
+- 1 A lógica proposicional é decidível. Descreva um algoritmo para decidir se uma fórmula proposicional é uma tautologia.
+- 2 Por que a aritmética de Presburger (com adição mas sem multiplicação) é decidível, enquanto a aritmética de Peano (com adição e multiplicação) não é?
+- 3 A teoria da ordem dos números reais  $(\mathbb{R}, <)$  é decidível (Tarski). Por que isso não contradiz a indecidibilidade do Entscheidungsproblem?
 
 {31}------------------------------------------------
 ### Exercício 6: Consequências
@@ -546,12 +548,12 @@ Considere uma MT simples com:
 {32}------------------------------------------------
 ### Exercício 7: Reflexão Histórica
 
-- 1** Por que o trabalho de Turing é considerado o “nascimento da Ciência da Computação”, mesmo tendo um resultado negativo?
-- 2** Turing e Church chegaram ao mesmo resultado usando métodos diferentes. Por que isso fortalece a Tese de Church-Turing?
-- 3** A citação de Hilbert “Devemos saber. Saberemos.” foi pronunciada um dia antes de Gödel apresentar seus teoremas de incompletude. Comente sobre a ironia histórica.
+- 1 Por que o trabalho de Turing é considerado o “nascimento da Ciência da Computação”, mesmo tendo um resultado negativo?
+- 2 Turing e Church chegaram ao mesmo resultado usando métodos diferentes. Por que isso fortalece a Tese de Church-Turing?
+- 3 A citação de Hilbert “Devemos saber. Saberemos.” foi pronunciada um dia antes de Gödel apresentar seus teoremas de incompletude. Comente sobre a ironia histórica.
 
 {33}------------------------------------------------
-## Desafio
+### Desafio
 ### Teorema de Trakhtenbrot (1950)
 
 O problema de decidir se uma fórmula de primeira ordem é satisfatível em um **domínio finito** é indecidível.
@@ -581,94 +583,26 @@ Compare com a lógica proposicional, onde satisfatibilidade (SAT) é decidível 
 - [9] Alan M. Turing. “On Computable Numbers, with an Application to the Entscheidungsproblem”. Em: *Proceedings of the London Mathematical Society* s2-42.1 (1937), pp. 230–265. DOI: [10.1112/plms/s2-42.1.230](https://doi.org/10.1112/plms/s2-42.1.230).
 
 {36}------------------------------------------------
+## Referências II
+
+- [10] Alan M. Turing. “On Computable Numbers, with an Application to the Entscheidungsproblem. A Correction”. Em: *Proceedings of the London Mathematical Society* s2-43.6 (1938), pp. 544–546. DOI: [10.1112/plms/s2-43.6.544](https://doi.org/10.1112/plms/s2-43.6.544).
+
+The image shows the coat of arms of the University of São Paulo (USP). It features a shield with a central panel containing a stylized 'M' and 'U' monogram, flanked by two panels with a repeating pattern of small crosses. Above the shield is a crown, and below it is a banner with the Latin motto 'AD VERVM DVCT'. The entire emblem is rendered in a light gray, semi-transparent style.
+
+Coat of arms of the University of São Paulo (USP)
+
+<!-- IMAGE_DESCRIPTION: datalab-aef7fa3e55b1477058e5b4f630f21d12_img.jpg -->
+<!-- Tipo: generico -->
+> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
+<!-- /IMAGE_DESCRIPTION -->
 
 <!-- IMAGE_DESCRIPTION_ORPHANS -->
 ## Imagens Curadas
 
 Descrições preservadas para imagens detectadas no documento, mas sem referência markdown compatível no corpo principal.
 
-<!-- IMAGE_DESCRIPTION: datalab-29f586959675cafdf81cf934954908eb_img.jpg -->
+<!-- IMAGE_DESCRIPTION: datalab-d3294dc879b451b369c0b06f42e9b39f_img.jpg -->
 <!-- Tipo: generico -->
-> **[Descrição de imagem]** Diagram of a Deterministic Finite Automaton (DFA) with three states: q0, q1, and q2.
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-4ca62688976b4bef770a81683f9d9eef_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-63ae75eedbc0eeea2efd2ee19c2fbc7d_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-7898f899fb291b02fbb353e0337c5514_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-86b4670fc1a5a694821ee92b99c1209a_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Diagram of a Pushdown Automaton (PDA) for the language {0^n 1^n : n ≥ 0}.
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-875c6f4f441fdd3ca7e1908fd1582983_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Diagrama da Hierarquia de Chomsky mostrando a inclusão entre classes de linguagens.
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-911a4f4b97be8e1dcf81e58b080dc0e2_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-9642ee15d719705144037077981aaa99_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-966c4b9785d85823782a007f3ecec1a7_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-9911cc821dddfed7079ce56cbb907c9e_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-9b77845519ed6ce33bab327fe59ace1c_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-9cc5ec27db4e35a26008bce9b9cd0bc8_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-b6cb8677b4ffb35c6468fa5c24091bff_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-c036e2540a94b31357ceb0002f0cacab_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Diagrama da hierarquia das linguagens de Chomsky, mostrando cinco níveis concêntricos de complexidade crescente.
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-f254a67565344d514e13763a4e556a70_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-fa6c61be003dfbb4ca5587e48a71de94_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Logo of PUCRS (Pontifícia Universidade Católica do Rio Grande do Sul)
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-fb15f15a7d964c8490c9317e43e40c1a_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Faint watermark of the University of São Paulo (USP) coat of arms, featuring a shield with a star and the motto 'AD VERVM DVCT'.
+> **[Descrição de imagem]** Logo of ESCOLA POLITÉCNICA PUCRS
 <!-- /IMAGE_DESCRIPTION -->
 <!-- /IMAGE_DESCRIPTION_ORPHANS -->

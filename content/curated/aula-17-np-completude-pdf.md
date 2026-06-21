@@ -12,21 +12,19 @@
   - Definição: NP-hard
   - Definição: NP-completo
   - Intuição
-  - Importância de NP-Compleitude
+  - Importância de NP-Completo
   - Teorema Fundamental
   - Prova
   - Contrapositiva
-  - Como Provar NP-Compleitude
+- **Como Provar NP-Compleitude**
   - Método Padrão
   - O Primeiro Problema NP-Completo
   - Questão Fundamental
-  - Teorema de Cook-Levin (1971)
   - Mapa de NP-Completo
-- **Anatomia de uma Redução**
+  - Anatomia de uma Redução
   - Estrutura Típica
   - Erro Comum
   - Ideia da Redução
-  - Redução $3\text{-SAT} \leq_p \text{CLIQUE}$ : Construção
   - Redução
   - Tempo
   - Redução
@@ -34,24 +32,22 @@
   - Dicas para Construir Reduções
   - Estratégias Comuns
   - Armadilhas
-- **Lista de Problemas NP-Completos**
+- **Lista de Problemas NP-Completo**
   - Problemas em Lógica
   - Problemas em Grafos
-  - Mais Problemas NP-Completo
+  - Mais Problemas NP-Completos
   - Problemas Numéricos
   - Outros Domínios
   - 3-SAT
-  - Teorema
-  - Redução $SAT \leq_p 3-SAT$
   - Transformação de Cláusulas
   - Subset Sum
   - NP-Completeness
   - Caminho Hamiltoniano
-- **NP-Completeness**
+  - NP-Completeness
   - 3-Coloração
   - Definição
   - Contraste
-  - NP-Completeness
+  - NP-Completo
 - **Resumo da Aula**
   - Conceitos Principais
   - Problemas NP-Completos Vistos
@@ -63,7 +59,7 @@
   - Dica
 - **Exercício 3: Roteiro de prova de NP-completude**
   - Meta
-  - Exercício 4: Reduções simples e clássicas
+- **Exercício 4: Reduções simples e clássicas**
   - Exercício 5: 3-SAT para CLIQUE
   - Exercício 7: De SAT para 3-SAT
   - Exercício 8: Classificando variantes
@@ -79,7 +75,7 @@
 <!-- EXEC_SUMMARY_END -->
 {0}------------------------------------------------
 
-# Complexidade de Tempo: NP-Completeness and Problem Reduction
+# Complexidade de Tempo: NP-Compleitude e Redução de Problemas
 
 Prof. Anderson Roberto Pinheiro Domingues
 
@@ -118,9 +114,9 @@ Diagram illustrating a polynomial-time reduction f from language A to language B
 
 {3}------------------------------------------------
 
-<!-- IMAGE_DESCRIPTION: datalab-86b4670fc1a5a694821ee92b99c1209a_img.jpg -->
+<!-- IMAGE_DESCRIPTION: datalab-f89631cc38aa971e8d15cbffe28f1183_img.jpg -->
 <!-- Tipo: generico -->
-> **[Descrição de imagem]** Diagram of a Pushdown Automaton (PDA) for the language {0^n 1^n : n ≥ 0}.
+> **[Descrição de imagem]** Diagram illustrating a polynomial-time reduction f from language A to language B.
 <!-- /IMAGE_DESCRIPTION -->
 ### Propriedades das Reduções
 ### Transitividade
@@ -160,7 +156,7 @@ Problemas NP-completos são os “mais difíceis” dentro de NP.
 Se qualquer um deles estiver em P, então  $P = \text{NP}$ .
 
 {5}------------------------------------------------
-### Importância de NP-Compleitude
+### Importância de NP-Completo
 ### Teorema Fundamental
 
 Se  $B$  é NP-completo e  $B \in P$ , então  $P = NP$ .
@@ -168,15 +164,15 @@ Se  $B$  é NP-completo e  $B \in P$ , então  $P = NP$ .
 
 - Seja  $A$  qualquer linguagem em NP
 - Como  $B$  é NP-completo,  $A \leq_p B$
-- Como  $B \in P$ , e reduções preservam P, temos  $A \in P$
+- Como  $B \in P$ , e reduções preservam  $P$ , temos  $A \in P$
 - Portanto,  $NP \subseteq P$
 - Como  $P \subseteq NP$  sempre, temos  $P = NP$
 ### Contrapositiva
 
-Se  $P \neq NP$ , então nenhum problema NP-completo está em P.
+Se  $P \neq NP$ , então nenhum problema NP-completo está em  $P$ .
 
 {6}------------------------------------------------
-### Como Provar NP-Compleitude
+## Como Provar NP-Compleitude
 ### Método Padrão
 
 Para provar que  $B$  é NP-completo:
@@ -197,7 +193,7 @@ Para provar que  $B$  é NP-completo:
 
 Como provar que o **primeiro** problema é NP-completo?  
 Não podemos reduzir a partir de outro problema NP-completo!
-### Teorema de Cook-Levin (1971)
+#### Teorema de Cook-Levin (1971)
 
 SAT (satisfatibilidade booleana) é NP-completo.  
 A prova mostra diretamente que **todo** problema em NP se reduz a SAT, sem usar outro problema NP-completo.
@@ -211,12 +207,10 @@ Uma vez estabelecido SAT como problema NP-completo, podemos provar a NP-completu
 ### Mapa de NP-Completo
 
 ```
-graph TD; SAT[SAT] --> 3SAT[3-SAT]; 3SAT --> CLIQUE[CLIQUE]; 3SAT --> INDEP-SET[INDEP-SET]; 3SAT --> HAMPATH[HAMPATH]; 3SAT --> SUBSET-SUM[SUBSET-SUM]; 3SAT --> VERTEX-COVER[VERTEX-COVER]; 3SAT --> 3-COLORING[3-COLORING]; CLIQUE --> INDEP-SET; INDEP-SET --> VERTEX-COVER;
+graph TD; SAT[SAT] --> 3SAT[3-SAT]; 3SAT --> CLIQUE[CLIQUE]; 3SAT --> HAMPATH[HAMPATH]; 3SAT --> INDEPSET[INDEP-SET]; 3SAT --> SUBSETSUM[SUBSET-SUM]; 3SAT --> VERTEXCOVER[VERTEX-COVER]; 3SAT --> 3COLORING[3-COLORING]; CLIQUE --> INDEPSET; INDEPSET --> VERTEXCOVER;
 ```
 
-O diagrama ilustra as reduções polinomiais entre problemas NP-completos. No topo, o problema SAT (em um retângulo rosa) reduz-se a 3-SAT (em um retângulo azul). A partir de 3-SAT, setas apontam para sete outros problemas: CLIQUE, INDEP-SET, HAMPATH, SUBSET-SUM, VERTEX-COVER e 3-COLORING (estes sete problemas estão em retângulos verdes). Além disso, há setas de redução entre CLIQUE e INDEP-SET, e entre INDEP-SET e VERTEX-COVER.
-
-Diagrama de redução de NP-completude mostrando a hierarquia de problemas.
+Diagrama de redução de NP-completude mostrando a hierarquia de problemas. SAT (vermelho) reduz para 3-SAT (roxo). 3-SAT reduz para CLIQUE, HAMPATH, INDEP-SET, SUBSET-SUM, VERTEX-COVER e 3-COLORING. CLIQUE, INDEP-SET e VERTEX-COVER são verdes. HAMPATH, SUBSET-SUM e 3-COLORING são amarelos. Há também reduções entre CLIQUE, INDEP-SET e VERTEX-COVER.
 
 Cada seta indica uma redução polinomial conhecida.
 
@@ -224,16 +218,11 @@ Cada seta indica uma redução polinomial conhecida.
 
 {9}------------------------------------------------
 
-<!-- IMAGE_DESCRIPTION: datalab-c036e2540a94b31357ceb0002f0cacab_img.jpg -->
+<!-- IMAGE_DESCRIPTION: datalab-dbe553cf16dd14073b89a8263a428664_img.jpg -->
 <!-- Tipo: generico -->
-> **[Descrição de imagem]** Diagrama da hierarquia das linguagens de Chomsky, mostrando cinco níveis concêntricos de complexidade crescente.
+> **[Descrição de imagem]** Diagrama de redução de NP-completude mostrando a hierarquia de problemas.
 <!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-875c6f4f441fdd3ca7e1908fd1582983_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Diagrama da Hierarquia de Chomsky mostrando a inclusão entre classes de linguagens.
-<!-- /IMAGE_DESCRIPTION -->
-## Anatomia de uma Redução
+### Anatomia de uma Redução
 ### Estrutura Típica
 
 Para provar  $A \leq_p B$ :
@@ -267,7 +256,7 @@ Dada fórmula  $\phi = C_1 \wedge C_2 \wedge \dots \wedge C_k$  com  $k$  cláus
 - Construir um grafo  $G$  em que uma clique de tamanho  $k$  corresponda a uma atribuição satisfatória
 
 {11}------------------------------------------------
-### Redução $3\text{-SAT} \leq_p \text{CLIQUE}$ : Construção
+#### Redução $3\text{-SAT} \leq_p \text{CLIQUE}$ : Construção
 #### Construção do Grafo $G$
 
 Seja  $\phi = C_1 \wedge \dots \wedge C_k$  onde cada  $C_i = (\ell_{i1} \vee \ell_{i2} \vee \ell_{i3})$ .
@@ -354,7 +343,7 @@ $S$  é conjunto independente  $\iff V - S$  é cobertura de vértices.
 - Assumir estrutura que a instância não necessariamente possui
 
 {16}------------------------------------------------
-## Lista de Problemas NP-Completos
+## Lista de Problemas NP-Completo
 ### Problemas em Lógica
 
 - SAT: Satisfatibilidade booleana
@@ -369,7 +358,7 @@ $S$  é conjunto independente  $\iff V - S$  é cobertura de vértices.
 - 3-COLORING: Coloração com 3 cores
 
 {17}------------------------------------------------
-### Mais Problemas NP-Completo
+### Mais Problemas NP-Completos
 ### Problemas Numéricos
 
 - SUBSET-SUM: Subconjunto com soma igual a  $t$
@@ -395,14 +384,14 @@ $S$  é conjunto independente  $\iff V - S$  é cobertura de vértices.
 $$\phi = (x_1 \vee \neg x_2 \vee x_3) \wedge (\neg x_1 \vee x_2 \vee \neg x_3) \wedge (x_1 \vee x_2 \vee x_3)$$
 
 Satisfatível? Sim:  $x_1 = T, x_2 = T, x_3 = T$ .
-### Teorema
+#### Teorema
 
 3-SAT é NP-completo.
 
 *Prova:* Redução de SAT. Cláusulas com mais de 3 literais são divididas usando variáveis auxiliares.
 
 {19}------------------------------------------------
-### Redução $SAT \leq_p 3-SAT$
+#### Redução $SAT \leq_p 3\text{-SAT}$
 ### Transformação de Cláusulas
 
 Cláusula  $C = (l_1 \vee l_2 \vee \dots \vee l_k)$ :
@@ -447,15 +436,15 @@ Ideia: números codificam variáveis e cláusulas de modo que uma soma correta c
 graph LR; s((s)) --> a((a)); s((s)) --> b((b)); a((a)) --> t((t)); b((b)) --> t((t));
 ```
 
-Diagram of a directed graph with vertices s, a, b, and t. Edges are: s to a, s to b, a to t, and b to t. A Hamiltonian path is highlighted in red: s to a, a to b, and b to t.
+Diagrama de um grafo direcionado com vértices s, a, b e t. Há arestas direcionadas de s para a, s para b, a para t e b para t. Um caminho Hamiltoniano é destacado em vermelho, seguindo a sequência s -> a -> b -> t.
 
 Caminho Hamiltoniano:  $s \rightarrow a \rightarrow b \rightarrow t$
 
-<!-- IMAGE_DESCRIPTION: datalab-29f586959675cafdf81cf934954908eb_img.jpg -->
+<!-- IMAGE_DESCRIPTION: datalab-04dc3838022e96d8d5548bb1b777b38c_img.jpg -->
 <!-- Tipo: generico -->
-> **[Descrição de imagem]** Diagram of a Deterministic Finite Automaton (DFA) with three states: q0, q1, and q2.
+> **[Descrição de imagem]** Diagrama de um grafo direcionado com vértices s, a, b e t.
 <!-- /IMAGE_DESCRIPTION -->
-## NP-Completeness
+### NP-Completeness
 
 Sua NP-completeness é demonstrada por redução de 3-SAT usando *gadgets*.
 
@@ -471,9 +460,9 @@ Sua NP-completeness é demonstrada por redução de 3-SAT usando *gadgets*.
 - 2-COLORING: Em P (verificar se grafo é bipartido)
 - 3-COLORING: NP-completo
 - $k$ -COLORING para  $k \geq 3$ : NP-completo
-### NP-Completeness
+### NP-Completo
 
-Sua NP-completeness pode ser obtida por redução de 3-SAT usando *gadgets* para variáveis e cláusulas.
+Sua NP-completude pode ser obtida por redução de 3-SAT usando *gadgets* para variáveis e cláusulas.
 
 {23}------------------------------------------------
 ## Resumo da Aula
@@ -541,7 +530,7 @@ Este exercício é sobre o **método** da prova, não sobre um problema específ
 [7, 6, 3]
 
 {27}------------------------------------------------
-### Exercício 4: Reduções simples e clássicas
+## Exercício 4: Reduções simples e clássicas
 
 Prove as seguintes reduções.
 
@@ -559,11 +548,11 @@ Considere a fórmula:
 
 $$\phi = (x_1 \vee x_2 \vee \neg x_3) \wedge (\neg x_1 \vee x_2 \vee x_3) \wedge (x_1 \vee \neg x_2 \vee x_3)$$
 
-- 1** Construa o grafo  $G$  da redução  $3\text{-SAT} \leq_p \text{CLIQUE}$ .
-- 2** Quantos vértices  $G$  possui?
-- 3** Qual deve ser o valor de  $k$ ?
-- 4** Encontre uma clique válida e recupere a atribuição correspondente.
-- 5** Verifique que a atribuição satisfaz  $\phi$ .
+- 1 Construa o grafo  $G$  da redução  $3\text{-SAT} \leq_p \text{CLIQUE}$ .
+- 2 Quantos vértices  $G$  possui?
+- 3 Qual deve ser o valor de  $k$ ?
+- 4 Encontre uma clique válida e recupere a atribuição correspondente.
+- 5 Verifique que a atribuição satisfaz  $\phi$ .
 
 [5, 3]
 
@@ -592,79 +581,19 @@ A transformação deve preservar **satisfatibilidade**, não equivalência lógi
 
 Determine a complexidade e justifique:
 
-- 1** 2-SAT
-- 2** 2-COLORING
-- 3** CLIQUE em grafos bipartidos
-- 4** HAMPATH em DAGs
-- 5** SHORTEST-PATH-LEQ
+- 1 2-SAT
+- 2 2-COLORING
+- 3 CLIQUE em grafos bipartidos
+- 4 HAMPATH em DAGs
+- 5 SHORTEST-PATH-LEQ
 
 ![Coat of arms of the University of São Paulo (USP) with the text [7, 6, 3] overlaid.](011d7628370283ec23a24c1772507121_img.jpg)
 
-The image shows the coat of arms of the University of São Paulo (USP). It features a shield with a central vertical band containing a stylized 'M' and 'U' monogram, flanked by two crossed keys. The shield is surmounted by a crown. Below the shield is a banner with the Latin motto 'AD VERVM DVCT'. Overlaid on the lower right portion of the shield is the text '[7, 6, 3]' in a blue, monospace-style font.
+The image shows the coat of arms of the University of São Paulo (USP). It features a shield with a central vertical band containing a stylized 'M' and 'U' monogram, flanked by two vertical bands with a repeating pattern of small crosses. Above the shield is a crown, and on either side are crossed keys. A banner at the bottom reads 'AD VERVM DVCIT'. Overlaid on the lower right part of the shield is the text '[7, 6, 3]' in blue.
 
 Coat of arms of the University of São Paulo (USP) with the text [7, 6, 3] overlaid.
 
 {31}------------------------------------------------
-
-<!-- IMAGE_DESCRIPTION: datalab-b6cb8677b4ffb35c6468fa5c24091bff_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-63ae75eedbc0eeea2efd2ee19c2fbc7d_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-7898f899fb291b02fbb353e0337c5514_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-911a4f4b97be8e1dcf81e58b080dc0e2_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-9cc5ec27db4e35a26008bce9b9cd0bc8_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-9b77845519ed6ce33bab327fe59ace1c_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-9911cc821dddfed7079ce56cbb907c9e_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-9642ee15d719705144037077981aaa99_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-4ca62688976b4bef770a81683f9d9eef_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-f254a67565344d514e13763a4e556a70_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-966c4b9785d85823782a007f3ecec1a7_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-fb15f15a7d964c8490c9317e43e40c1a_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Faint watermark of the University of São Paulo (USP) coat of arms, featuring a shield with a star and the motto 'AD VERVM DVCT'.
-<!-- /IMAGE_DESCRIPTION -->
 ### Exercício 9: SUBSET-SUM e pseudo-polinomialidade
 
 - 1 Por que a redução  $3\text{-SAT} \leq_p \text{SUBSET-SUM}$  continua polinomial mesmo usando números grandes?
@@ -728,7 +657,7 @@ DOI: [10.1145/800157.805047](https://doi.org/10.1145/800157.805047).
 
 Descrições preservadas para imagens detectadas no documento, mas sem referência markdown compatível no corpo principal.
 
-<!-- IMAGE_DESCRIPTION: datalab-fa6c61be003dfbb4ca5587e48a71de94_img.jpg -->
+<!-- IMAGE_DESCRIPTION: datalab-d3294dc879b451b369c0b06f42e9b39f_img.jpg -->
 <!-- Tipo: generico -->
 > **[Descrição de imagem]** Logo of PUCRS (Pontifícia Universidade Católica do Rio Grande do Sul)
 <!-- /IMAGE_DESCRIPTION -->

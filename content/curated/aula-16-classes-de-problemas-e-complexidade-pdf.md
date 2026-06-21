@@ -16,7 +16,7 @@
   - Notação $O$ (Big-O)
 - **Classes de Crescimento**
   - Divisão Fundamental
-  - Sobre a Classe Polinomial (P)
+  - Sobre a Classe Polinomial (**P**)
   - Sobre Classes Super-Polinomiais
   - Características
   - Intratabilidade
@@ -178,7 +178,7 @@ $$\forall n \geq n_0 : f(n) \leq c \cdot g(n)$$
 **Polinomial** ( $O(n^k)$ ) vs. **Super-polinomial** ( $\omega(n^k)$ ) é a fronteira clássica entre “tratável” e “intratável”. “Polinomial” é usado como aproximação formal de “eficiente”, mas isso não significa necessariamente “rápido” na prática.
 
 {7}------------------------------------------------
-### Sobre a Classe Polinomial (P)
+### Sobre a Classe Polinomial (**P**)
 #### Argumentos a Favor
 
 - **Fechamento:** Polinômios são fechados sob composição
@@ -199,11 +199,16 @@ Problemas “eficientemente computáveis” pertencem à classe **P**.
 
 [3, 5]
 
-A set of small, light-blue navigation icons typically found in Beamer presentations, including symbols for back, forward, and search.
+A set of small, light-blue navigation icons typically found in Beamer presentations, including symbols for back, forward, search, and other navigation controls.
 
 Navigation icons
 
 {8}------------------------------------------------
+
+<!-- IMAGE_DESCRIPTION: datalab-528d839f704da63e4162ae966073e5c6_img.jpg -->
+<!-- Tipo: generico -->
+> **[Descrição de imagem]** Navigation icons
+<!-- /IMAGE_DESCRIPTION -->
 ### Sobre Classes Super-Polinomiais
 ### Características
 
@@ -242,15 +247,20 @@ P e NP são definidas sobre linguagens, então decisão é “natural”.
 {10}------------------------------------------------
 ## Classes de Complexidade de Tempo
 
-A Venn diagram illustrating the relationship between complexity classes. A large blue circle is labeled "EXPTIME". Inside this circle, there are two overlapping circles: a green one labeled "NP" and a red one labeled "coNP". The intersection of the "NP" and "coNP" circles is labeled "P".
+A Venn diagram illustrating the relationship between complexity classes. A large blue circle is labeled "EXPTIME". Inside this circle, there are two smaller circles that overlap each other. The left circle is green and labeled "NP". The right circle is red and labeled "coNP". The intersection of the "NP" and "coNP" circles is labeled "P".
 
-Venn diagram showing the relationship between complexity classes EXPTIME, NP, P, and coNP.
+Venn diagram showing the relationship between complexity classes EXPTIME, NP, and coNP.
 
 - **P**: problemas decididos em tempo polinomial (determinístico)
 - **NP**: problemas verificáveis em tempo polinomial e resolvidos em tempo polinomial por MT não-determinística
 - **coNP**: problemas cujos “não” podem ser verificados em tempo polinomial
 
 {11}------------------------------------------------
+
+<!-- IMAGE_DESCRIPTION: datalab-8e14350b4b669119a3bdfca7869110ca_img.jpg -->
+<!-- Tipo: generico -->
+> **[Descrição de imagem]** Venn diagram showing the relationship between complexity classes EXPTIME, NP, and coNP.
+<!-- /IMAGE_DESCRIPTION -->
 ### Classes de Complexidade de Tempo
 ### Definições Básicas
 
@@ -290,15 +300,15 @@ que decide  $L$  usando espaço  $O(f(n))\}$
 - $\text{EXPSPACE} = \bigcup_{k \geq 0} \text{DSPACE}(2^{n^k})$  (espaço exponencial)
 ### Classes Não-determinísticas
 
-- $NL = \text{NSPACE}(\log n)$  (espaço log não-determinístico)
+- $\text{NL} = \text{NSPACE}(\log n)$  (espaço log não-determinístico)
 - $\text{NPSPACE} = \bigcup_{k \geq 0} \text{NSPACE}(n^k)$  (espaço polinomial não-determinístico)
 
 {14}------------------------------------------------
 ### Classes de Complexidade de Espaço - Hierarquia
 
-The diagram illustrates the hierarchy of space complexity classes using a Venn diagram. A large blue circle represents EXPSPACE. Inside it is a red circle representing PSPACE. Within the PSPACE circle, there are two overlapping circles: a green one for NL and a pink one for NPSPACE. The intersection of the NL and NPSPACE circles is labeled with the letter 'L', representing problems solvable in logarithmic space.
+The diagram illustrates the hierarchy of space complexity classes using a Venn diagram. A large blue circle represents EXPSPACE. Inside it is a red circle representing PSPACE. Within PSPACE, there are two overlapping circles: a green one for NL and a purple one for NPSPACE. The intersection of NL and NPSPACE is labeled 'L'. The labels for the circles are: EXPSPACE (blue), PSPACE (red), NL (green), NPSPACE (purple), and L (black text in the intersection).
 
-Venn diagram showing the hierarchy of space complexity classes: EXPSPACE (blue circle) contains PSPACE (red circle), which contains NL (green circle) and NPSPACE (pink circle). NL and NPSPACE overlap, and their intersection is labeled L.
+Venn diagram showing the hierarchy of space complexity classes: EXPSPACE (blue circle) contains PSPACE (red circle), which contains NL (green circle) and NPSPACE (purple circle). NL and NPSPACE overlap, and both are contained within PSPACE.
 
 - **L**: problemas decididos em espaço logarítmico (DMT)
 - **NL**: problemas decididos em espaço logarítmico (NMT)
@@ -308,9 +318,9 @@ Venn diagram showing the hierarchy of space complexity classes: EXPSPACE (blue c
 
 {15}------------------------------------------------
 
-<!-- IMAGE_DESCRIPTION: datalab-29f586959675cafdf81cf934954908eb_img.jpg -->
+<!-- IMAGE_DESCRIPTION: datalab-bffdddb47fced140f8d17fdc2a29f592_img.jpg -->
 <!-- Tipo: generico -->
-> **[Descrição de imagem]** Diagram of a Deterministic Finite Automaton (DFA) with three states: q0, q1, and q2.
+> **[Descrição de imagem]** Venn diagram showing the hierarchy of space complexity classes: EXPSPACE (blue circle) contains PSPACE (red circle), which contains NL (green circle) and NPSPACE (purple circle).
 <!-- /IMAGE_DESCRIPTION -->
 ### Relações entre Tempo e Espaço
 ### Teoremas
@@ -334,30 +344,25 @@ Venn diagram showing the hierarchy of space complexity classes: EXPSPACE (blue c
 {16}------------------------------------------------
 #### Hierarquia de Classes
 
-Diagrama da hierarquia de classes de complexidade computacional, representado por círculos concêntricos coloridos:
+Diagrama da hierarquia de classes de complexidade computacional, representado por círculos concêntricos:
 
-- EXPSPACE** (externo, rosa)
-- EXPTIME** (laranja)
-- PSPACE** (amarelo)
-- NP/coNP** (azul)
-- P** (interno, verde)
+- EXPSPACE (maior círculo, cor de fundo rosa escuro)
+- EXPTIME (segundo círculo, cor de fundo rosa claro)
+- PSPACE (terceiro círculo, cor de fundo amarelo)
+- NP/coNP (quarto círculo, cor de fundo azul)
+- P (menor círculo, cor de fundo verde)
 
-As classes são contidas uma dentro da outra:  $P \subseteq (NP \cap coNP) \subseteq PSPACE \subseteq EXPTIME \subseteq EXPSPACE$ .
+As inclusões sugeridas pelo diagrama são:  $P ext{ } ext{NP/coNP} ext{ } ext{PSPACE} ext{ } ext{EXPTIME} ext{ } ext{EXPSPACE}$ .
 
-Diagrama de Venn mostrando a hierarquia de classes de complexidade computacional. No centro está a classe P (verde), contida em NP/coNP (azul), que está contida em PSPACE (amarelo), que está contida em EXPTIME (laranja), que por sua vez está contida em EXPSPACE (rosa).
+Diagrama da hierarquia de classes de complexidade computacional
 
-<!-- IMAGE_DESCRIPTION: datalab-c036e2540a94b31357ceb0002f0cacab_img.jpg -->
+<!-- IMAGE_DESCRIPTION: datalab-36117e9cb27c58484cd8d3e5f9dc7ac3_img.jpg -->
 <!-- Tipo: generico -->
-> **[Descrição de imagem]** Diagrama da hierarquia das linguagens de Chomsky, mostrando cinco níveis concêntricos de complexidade crescente.
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-875c6f4f441fdd3ca7e1908fd1582983_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Diagrama da Hierarquia de Chomsky mostrando a inclusão entre classes de linguagens.
+> **[Descrição de imagem]** Diagrama da hierarquia de classes de complexidade computacional
 <!-- /IMAGE_DESCRIPTION -->
 #### Questões em Aberto
 
-$P \stackrel{?}{=} NP$ ,  $NP \stackrel{?}{=} coNP$ ,  $NP \stackrel{?}{=} PSPACE$
+$P ext{ } ext{NP, NP} ext{ } ext{coNP, NP} ext{ } ext{PSPACE}$
 
 {17}------------------------------------------------
 #### Teorema da Hierarquia de Tempo
@@ -454,13 +459,15 @@ $$w \in A \iff f(w) \in B$$
 
 [8, 11]
 
-The diagram shows a horizontal flow from left to right. On the left, a box labeled 'Instância de A' is positioned above the text  $w \in A$ . An arrow points from this box to a box on the right labeled 'Instância de B', with the label  $f$  (polinomial) written above the arrow. Below the right box is the text  $f(w) \in B$ .
+Instância de A  $\xrightarrow{f \text{ (polinomial)}}$  Instância de B
 
-Diagram illustrating a polynomial-time reduction f from an instance w of language A to an instance f(w) of language B.
+$w \in A$   $f(w) \in B$
 
-<!-- IMAGE_DESCRIPTION: datalab-86b4670fc1a5a694821ee92b99c1209a_img.jpg -->
+Diagram illustrating a polynomial-time reduction from A to B. A box labeled 'Instância de A' is connected by an arrow labeled 'f (polinomial)' to a box labeled 'Instância de B'. Below the first box is the expression 'w \in A' and below the second box is 'f(w) \in B'.
+
+<!-- IMAGE_DESCRIPTION: datalab-86d30a7d5a9cd4ee5456b5962ae3420a_img.jpg -->
 <!-- Tipo: generico -->
-> **[Descrição de imagem]** Diagram of a Pushdown Automaton (PDA) for the language {0^n 1^n : n ≥ 0}.
+> **[Descrição de imagem]** Diagram illustrating a polynomial-time reduction from A to B.
 <!-- /IMAGE_DESCRIPTION -->
 ### Intuição
 
@@ -490,9 +497,20 @@ $\mathcal{C}$ -complete Um problema  $B$  é  $\mathcal{C}$ -complete se:
 
 Classe  $\mathcal{C}$
 
-The diagram shows a large light blue oval labeled "Classe  $\mathcal{C}$ ". Inside this oval is a smaller red oval labeled " $\mathcal{C}$ -complete". To the right of the large oval are two orange circles, each labeled "Hard". Dashed arrows point from the " $\mathcal{C}$ -complete" oval to each of the "Hard" circles. Additionally, the label " $\mathcal{C}$ -hard" is placed between the two "Hard" circles.
+$\mathcal{C}$ -complete
 
-Diagram illustrating the relationship between a complexity class C and its complete and hard problems.
+Hard
+
+Hard
+
+$\mathcal{C}$ -hard
+
+Diagram illustrating the relationship between a complexity class C and its C-hard problems. A large light blue oval labeled 'Classe C' contains a smaller red oval labeled 'C-complete'. Two dashed arrows point from the 'C-complete' oval to two separate orange circles, each labeled 'Hard'. To the right of these circles is the label 'C-hard'.
+
+<!-- IMAGE_DESCRIPTION: datalab-8d325fc12b494e42c9ea7ed2a7f327a6_img.jpg -->
+<!-- Tipo: generico -->
+> **[Descrição de imagem]** Diagram illustrating the relationship between a complexity class C and its C-hard problems.
+<!-- /IMAGE_DESCRIPTION -->
 #### Relação
 
 $$\mathcal{C}\text{-complete} = \mathcal{C}\text{-hard} \cap \mathcal{C}$$
@@ -528,7 +546,7 @@ Em teoria da complexidade, chamamos de **intratável** um problema para o qual n
 - 1 Problema é NP-hard (sob a hipótese  $P \neq NP$ )
 - 2 Problema é PSPACE-hard
 - 3 Problema é EXPTIME-complete
-- 4 Problema requer tempo/espaco super-polinomial (provado)
+- 4 Problema requer tempo/espço super-polinomial (provado)
 #### “Intratável” não significa “impossível”!
 
 - Instâncias pequenas podem ser resolvidas
@@ -558,9 +576,17 @@ Em teoria da complexidade, chamamos de **intratável** um problema para o qual n
 {28}------------------------------------------------
 ## Mapa das Classes
 
-O diagrama mostra as classes de complexidade computacional representadas por círculos concêntricos. No centro está o círculo rosa rotulado 'P'. Ao redor dele está o círculo azul rotulado 'NP'. O próximo círculo é verde e rotulado 'PSPACE'. O círculo mais externo é amarelo e rotulado 'EXPTIME'. Acima do círculo amarelo, dentro de um retângulo branco, está o rótulo 'Decidíveis'.
+O diagrama mostra a hierarquia das classes de complexidade computacional representada por conjuntos concêntricos:
 
-Diagrama das classes de complexidade computacional
+- Decidíveis**: O conjunto mais externo, retangular.
+- EXPTIME**: O maior conjunto circular, amarelo.
+- PSPACE**: O conjunto circular intermediário, verde.
+- NP**: O conjunto circular interno, roxo.
+- P**: O conjunto circular mais interno, rosa.
+
+As classes são relacionadas por inclusão:  $P \subseteq NP \subseteq PSPACE \subseteq EXPTIME \subseteq \text{Decidíveis}$ .
+
+Venn diagram showing the hierarchy of complexity classes: P is contained in NP, which is in PSPACE, which is in EXPTIME, all of which are Decidable.
 
 EXPTIME-complete: xadrez/damas
 
@@ -577,6 +603,11 @@ SAT = Satisfiability
 TSP = Traveling Salesman Problem
 
 {29}------------------------------------------------
+
+<!-- IMAGE_DESCRIPTION: datalab-55136bc716146672fc680fa05989f1d2_img.jpg -->
+<!-- Tipo: generico -->
+> **[Descrição de imagem]** Venn diagram showing the hierarchy of complexity classes: P is contained in NP, which is in PSPACE, which is in EXPTIME, all of which are Decidable.
+<!-- /IMAGE_DESCRIPTION -->
 ## Resumo
 ## Conceitos Principais
 
@@ -636,11 +667,11 @@ Determine a complexidade de tempo (em notação  $O$ ) dos seguintes algoritmos:
 {33}------------------------------------------------
 ### Exercício 3: Relações entre Classes
 
-- 1 Prove que  $DTIME(n) \subseteq DSPACE(n)$ .
-- 2 Por que  $DSPACE(n) \subseteq DTIME(2^{O(n)})$ ? Quantas configurações distintas uma MT pode ter usando espaço  $n$ ?
-- 3 Mostre que  $P \subseteq PSPACE$ .
-- 4 Use o Teorema de Savitch para mostrar que  $NPSPACE = PSPACE$ .
-- 5 Por que não podemos usar um argumento similar para provar  $P = NP$ ?
+- 1 Prove que  $\text{DTIME}(n) \subseteq \text{DSpace}(n)$ .
+- 2 Por que  $\text{DSpace}(n) \subseteq \text{DTIME}(2^{O(n)})$ ? Quantas configurações distintas uma MT pode ter usando espaço  $n$ ?
+- 3 Mostre que  $P \subseteq \text{PSPACE}$ .
+- 4 Use o Teorema de Savitch para mostrar que  $\text{NPSPACE} = \text{PSPACE}$ .
+- 5 Por que não podemos usar um argumento similar para provar  $P = \text{NP}$ ?
 
 {34}------------------------------------------------
 ### Exercício 4: Hard e Complete
@@ -723,64 +754,9 @@ The image shows the coat of arms of the University of São Paulo (USP). It featu
 
 Coat of arms of the University of São Paulo (USP)
 
-<!-- IMAGE_DESCRIPTION: datalab-b6cb8677b4ffb35c6468fa5c24091bff_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-63ae75eedbc0eeea2efd2ee19c2fbc7d_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-7898f899fb291b02fbb353e0337c5514_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-911a4f4b97be8e1dcf81e58b080dc0e2_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-9cc5ec27db4e35a26008bce9b9cd0bc8_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-9b77845519ed6ce33bab327fe59ace1c_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-9911cc821dddfed7079ce56cbb907c9e_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
-<!-- /IMAGE_DESCRIPTION -->
-
 <!-- IMAGE_DESCRIPTION: datalab-9642ee15d719705144037077981aaa99_img.jpg -->
 <!-- Tipo: generico -->
 > **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-4ca62688976b4bef770a81683f9d9eef_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-f254a67565344d514e13763a4e556a70_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-966c4b9785d85823782a007f3ecec1a7_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-fb15f15a7d964c8490c9317e43e40c1a_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Faint watermark of the University of São Paulo (USP) coat of arms, featuring a shield with a star and the motto 'AD VERVM DVCT'.
 <!-- /IMAGE_DESCRIPTION -->
 
 <!-- IMAGE_DESCRIPTION_ORPHANS -->

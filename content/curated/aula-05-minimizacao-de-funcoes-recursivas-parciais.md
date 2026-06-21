@@ -98,6 +98,11 @@ The logo of the Escola Politécnica da PUCRS. It features a small crest on the l
 Logo of Escola Politécnica da PUCRS
 
 {1}------------------------------------------------
+
+<!-- IMAGE_DESCRIPTION: datalab-c036e2540a94b31357ceb0002f0cacab_img.jpg -->
+<!-- Tipo: generico -->
+> **[Descrição de imagem]** Diagrama da hierarquia das linguagens de Chomsky, mostrando cinco níveis concêntricos de complexidade crescente.
+<!-- /IMAGE_DESCRIPTION -->
 ## Sumário
 
 - 1 O Operador de Minimização
@@ -111,12 +116,57 @@ Coat of arms of the University of São Paulo (USP)
 
 {2}------------------------------------------------
 
-<!-- IMAGE_DESCRIPTION: datalab-8c378a184b5ae4d1605cb74d7b7a7e3f_img.jpg -->
+<!-- IMAGE_DESCRIPTION: datalab-b6cb8677b4ffb35c6468fa5c24091bff_img.jpg -->
 <!-- Tipo: generico -->
 > **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
 <!-- /IMAGE_DESCRIPTION -->
 
-<!-- IMAGE_DESCRIPTION: datalab-082ba09313df59d76a7bfbdde8ec877d_img.jpg -->
+<!-- IMAGE_DESCRIPTION: datalab-63ae75eedbc0eeea2efd2ee19c2fbc7d_img.jpg -->
+<!-- Tipo: generico -->
+> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
+<!-- /IMAGE_DESCRIPTION -->
+
+<!-- IMAGE_DESCRIPTION: datalab-7898f899fb291b02fbb353e0337c5514_img.jpg -->
+<!-- Tipo: generico -->
+> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
+<!-- /IMAGE_DESCRIPTION -->
+
+<!-- IMAGE_DESCRIPTION: datalab-911a4f4b97be8e1dcf81e58b080dc0e2_img.jpg -->
+<!-- Tipo: generico -->
+> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
+<!-- /IMAGE_DESCRIPTION -->
+
+<!-- IMAGE_DESCRIPTION: datalab-9cc5ec27db4e35a26008bce9b9cd0bc8_img.jpg -->
+<!-- Tipo: generico -->
+> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
+<!-- /IMAGE_DESCRIPTION -->
+
+<!-- IMAGE_DESCRIPTION: datalab-9b77845519ed6ce33bab327fe59ace1c_img.jpg -->
+<!-- Tipo: generico -->
+> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
+<!-- /IMAGE_DESCRIPTION -->
+
+<!-- IMAGE_DESCRIPTION: datalab-9911cc821dddfed7079ce56cbb907c9e_img.jpg -->
+<!-- Tipo: generico -->
+> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
+<!-- /IMAGE_DESCRIPTION -->
+
+<!-- IMAGE_DESCRIPTION: datalab-9642ee15d719705144037077981aaa99_img.jpg -->
+<!-- Tipo: generico -->
+> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
+<!-- /IMAGE_DESCRIPTION -->
+
+<!-- IMAGE_DESCRIPTION: datalab-4ca62688976b4bef770a81683f9d9eef_img.jpg -->
+<!-- Tipo: generico -->
+> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
+<!-- /IMAGE_DESCRIPTION -->
+
+<!-- IMAGE_DESCRIPTION: datalab-f254a67565344d514e13763a4e556a70_img.jpg -->
+<!-- Tipo: generico -->
+> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
+<!-- /IMAGE_DESCRIPTION -->
+
+<!-- IMAGE_DESCRIPTION: datalab-966c4b9785d85823782a007f3ecec1a7_img.jpg -->
 <!-- Tipo: generico -->
 > **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
 <!-- /IMAGE_DESCRIPTION -->
@@ -338,9 +388,14 @@ Diagram showing the hierarchy of recursive functions: Recursivas Parciais (outer
 
 {15}------------------------------------------------
 
-<!-- IMAGE_DESCRIPTION: datalab-9ae17964ddd9b814c7d905b1af2fddf2_img.jpg -->
+<!-- IMAGE_DESCRIPTION: datalab-29f586959675cafdf81cf934954908eb_img.jpg -->
 <!-- Tipo: generico -->
-> **[Descrição de imagem]** Diagram showing the hierarchy of recursive functions: Recursivas Parciais (outermost), Recursivas Totais (middle), and Recursivas Primitivas (innermost).
+> **[Descrição de imagem]** Diagram of a Deterministic Finite Automaton (DFA) with three states: q0, q1, and q2.
+<!-- /IMAGE_DESCRIPTION -->
+
+<!-- IMAGE_DESCRIPTION: datalab-875c6f4f441fdd3ca7e1908fd1582983_img.jpg -->
+<!-- Tipo: generico -->
+> **[Descrição de imagem]** Diagrama da Hierarquia de Chomsky mostrando a inclusão entre classes de linguagens.
 <!-- /IMAGE_DESCRIPTION -->
 ### Aplicação 1: Inversa de Funções
 ### Problema
@@ -499,6 +554,11 @@ The image shows the coat of arms of the University of São Paulo (USP). It featu
 Coat of arms of the University of São Paulo (USP)
 
 {24}------------------------------------------------
+
+<!-- IMAGE_DESCRIPTION: datalab-fb15f15a7d964c8490c9317e43e40c1a_img.jpg -->
+<!-- Tipo: generico -->
+> **[Descrição de imagem]** Faint watermark of the University of São Paulo (USP) coat of arms, featuring a shield with a star and the motto 'AD VERVM DVCT'.
+<!-- /IMAGE_DESCRIPTION -->
 ## Exercício 2: Verificação de Totalidade
 
 Para cada função abaixo, determine se a minimização é regular (sempre encontra um zero) e, portanto, se a função resultante é total:
@@ -518,11 +578,6 @@ Para cada função abaixo, determine se a minimização é regular (sempre encon
 Faint watermark of the coat of arms of the University of Coimbra, featuring a shield with a cross and a crown above it, surrounded by a banner with the motto 'D V E R V M D V C I T'.
 
 {25}------------------------------------------------
-
-<!-- IMAGE_DESCRIPTION: datalab-ff9826b45dbe31485ee6cf3f5d67a303_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Faint watermark of the coat of arms of the University of Coimbra, featuring a shield with a cross and a crown above it, surrounded by a banner with the motto 'D V E R V M D V C I T'.
-<!-- /IMAGE_DESCRIPTION -->
 ### Exercício 3: Forma Normal de Kleene
 
 - 1 Desafio!** Explique por que toda função recursiva parcial pode ser escrita na forma:
@@ -590,18 +645,18 @@ A large, faint watermark of a university crest or seal is positioned on the righ
 
 Faint watermark of a university crest or seal on the right side of the slide.
 
-<!-- IMAGE_DESCRIPTION: datalab-c80dd550f724de455f5efebaed25198d_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Faint watermark of a university crest or seal on the right side of the slide.
-<!-- /IMAGE_DESCRIPTION -->
-
 <!-- IMAGE_DESCRIPTION_ORPHANS -->
 ## Imagens Curadas
 
 Descrições preservadas para imagens detectadas no documento, mas sem referência markdown compatível no corpo principal.
 
-<!-- IMAGE_DESCRIPTION: datalab-d3294dc879b451b369c0b06f42e9b39f_img.jpg -->
+<!-- IMAGE_DESCRIPTION: datalab-86b4670fc1a5a694821ee92b99c1209a_img.jpg -->
 <!-- Tipo: generico -->
-> **[Descrição de imagem]** Logo of Escola Politécnica da PUCRS
+> **[Descrição de imagem]** Diagram of a Pushdown Automaton (PDA) for the language {0^n 1^n : n ≥ 0}.
+<!-- /IMAGE_DESCRIPTION -->
+
+<!-- IMAGE_DESCRIPTION: datalab-fa6c61be003dfbb4ca5587e48a71de94_img.jpg -->
+<!-- Tipo: generico -->
+> **[Descrição de imagem]** Logo of PUCRS (Pontifícia Universidade Católica do Rio Grande do Sul)
 <!-- /IMAGE_DESCRIPTION -->
 <!-- /IMAGE_DESCRIPTION_ORPHANS -->
