@@ -7,8 +7,6 @@
 
 | Arquivo | Título | Unidade |
 |---|---|---|
-| Enunciado T2.pdf | Enunciado T2 |  |
-| Enunciado T1.pdf | Enunciado T1 |  |
 | Trabalho T2 - Enunciado.pdf | Trabalho T2 - Enunciado |  |
 | 3DM - Caetano, Gabriel e Gustavo.pdf | 3DM - Caetano, Gabriel e Gustavo |  |
 | Cubic 3-Edge Coloring.pdf | Cubic 3-Edge Coloring |  |

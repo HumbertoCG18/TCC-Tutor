@@ -35,6 +35,15 @@ effective_profile: "scanned"
 <!-- EXEC_SUMMARY_END -->
 
 
+
+
+
+
+
+
+
+
+
 # Referência- REDUCIBILITY AMONG COMBINATORIAL PROBLEMS
 
 > Documento tratado como **imagem** porque o perfil efetivo foi `scanned`.

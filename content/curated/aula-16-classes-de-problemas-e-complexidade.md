@@ -204,6 +204,11 @@ A set of small, light-blue navigation icons typically found in Beamer presentati
 Navigation icons
 
 {8}------------------------------------------------
+
+<!-- IMAGE_DESCRIPTION: datalab-528d839f704da63e4162ae966073e5c6_img.jpg -->
+<!-- Tipo: generico -->
+> **[Descrição de imagem]** Navigation icons
+<!-- /IMAGE_DESCRIPTION -->
 ### Sobre Classes Super-Polinomiais
 ### Características
 
@@ -251,6 +256,11 @@ Venn diagram showing the relationship between complexity classes EXPTIME, NP, P,
 - **coNP**: problemas cujos “não” podem ser verificados em tempo polinomial
 
 {11}------------------------------------------------
+
+<!-- IMAGE_DESCRIPTION: datalab-8e14350b4b669119a3bdfca7869110ca_img.jpg -->
+<!-- Tipo: generico -->
+> **[Descrição de imagem]** Venn diagram showing the relationship between complexity classes EXPTIME, NP, P, and coNP.
+<!-- /IMAGE_DESCRIPTION -->
 ### Classes de Complexidade de Tempo
 ### Definições Básicas
 
@@ -308,9 +318,9 @@ Venn diagram showing the hierarchy of space complexity classes: EXPSPACE (blue c
 
 {15}------------------------------------------------
 
-<!-- IMAGE_DESCRIPTION: datalab-29f586959675cafdf81cf934954908eb_img.jpg -->
+<!-- IMAGE_DESCRIPTION: datalab-bffdddb47fced140f8d17fdc2a29f592_img.jpg -->
 <!-- Tipo: generico -->
-> **[Descrição de imagem]** Diagram of a Deterministic Finite Automaton (DFA) with three states: q0, q1, and q2.
+> **[Descrição de imagem]** Venn diagram showing the hierarchy of space complexity classes: EXPSPACE (blue circle) contains PSPACE (red circle), which contains NL (green circle) and NPSPACE (pink circle).
 <!-- /IMAGE_DESCRIPTION -->
 ### Relações entre Tempo e Espaço
 ### Teoremas
@@ -346,14 +356,14 @@ As classes são contidas uma dentro da outra:  $P \subseteq (NP \cap coNP) \subs
 
 Diagrama de Venn mostrando a hierarquia de classes de complexidade computacional. No centro está a classe P (verde), contida em NP/coNP (azul), que está contida em PSPACE (amarelo), que está contida em EXPTIME (laranja), que por sua vez está contida em EXPSPACE (rosa).
 
-<!-- IMAGE_DESCRIPTION: datalab-c036e2540a94b31357ceb0002f0cacab_img.jpg -->
+<!-- IMAGE_DESCRIPTION: datalab-36117e9cb27c58484cd8d3e5f9dc7ac3_img.jpg -->
 <!-- Tipo: generico -->
-> **[Descrição de imagem]** Diagrama da hierarquia das linguagens de Chomsky, mostrando cinco níveis concêntricos de complexidade crescente.
+> **[Descrição de imagem]** Diagrama de Venn mostrando a hierarquia de classes de complexidade computacional.
 <!-- /IMAGE_DESCRIPTION -->
 
-<!-- IMAGE_DESCRIPTION: datalab-875c6f4f441fdd3ca7e1908fd1582983_img.jpg -->
+<!-- IMAGE_DESCRIPTION: datalab-55136bc716146672fc680fa05989f1d2_img.jpg -->
 <!-- Tipo: generico -->
-> **[Descrição de imagem]** Diagrama da Hierarquia de Chomsky mostrando a inclusão entre classes de linguagens.
+> **[Descrição de imagem]** Diagrama das classes de complexidade computacional
 <!-- /IMAGE_DESCRIPTION -->
 #### Questões em Aberto
 
@@ -458,9 +468,9 @@ The diagram shows a horizontal flow from left to right. On the left, a box label
 
 Diagram illustrating a polynomial-time reduction f from an instance w of language A to an instance f(w) of language B.
 
-<!-- IMAGE_DESCRIPTION: datalab-86b4670fc1a5a694821ee92b99c1209a_img.jpg -->
+<!-- IMAGE_DESCRIPTION: datalab-86d30a7d5a9cd4ee5456b5962ae3420a_img.jpg -->
 <!-- Tipo: generico -->
-> **[Descrição de imagem]** Diagram of a Pushdown Automaton (PDA) for the language {0^n 1^n : n ≥ 0}.
+> **[Descrição de imagem]** Diagram illustrating a polynomial-time reduction f from an instance w of language A to an instance f(w) of language B.
 <!-- /IMAGE_DESCRIPTION -->
 ### Intuição
 
@@ -493,6 +503,11 @@ Classe  $\mathcal{C}$
 The diagram shows a large light blue oval labeled "Classe  $\mathcal{C}$ ". Inside this oval is a smaller red oval labeled " $\mathcal{C}$ -complete". To the right of the large oval are two orange circles, each labeled "Hard". Dashed arrows point from the " $\mathcal{C}$ -complete" oval to each of the "Hard" circles. Additionally, the label " $\mathcal{C}$ -hard" is placed between the two "Hard" circles.
 
 Diagram illustrating the relationship between a complexity class C and its complete and hard problems.
+
+<!-- IMAGE_DESCRIPTION: datalab-8d325fc12b494e42c9ea7ed2a7f327a6_img.jpg -->
+<!-- Tipo: generico -->
+> **[Descrição de imagem]** Diagram illustrating the relationship between a complexity class C and its complete and hard problems.
+<!-- /IMAGE_DESCRIPTION -->
 #### Relação
 
 $$\mathcal{C}\text{-complete} = \mathcal{C}\text{-hard} \cap \mathcal{C}$$
@@ -723,64 +738,9 @@ The image shows the coat of arms of the University of São Paulo (USP). It featu
 
 Coat of arms of the University of São Paulo (USP)
 
-<!-- IMAGE_DESCRIPTION: datalab-b6cb8677b4ffb35c6468fa5c24091bff_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-63ae75eedbc0eeea2efd2ee19c2fbc7d_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-7898f899fb291b02fbb353e0337c5514_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-911a4f4b97be8e1dcf81e58b080dc0e2_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-9cc5ec27db4e35a26008bce9b9cd0bc8_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-9b77845519ed6ce33bab327fe59ace1c_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-9911cc821dddfed7079ce56cbb907c9e_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
-<!-- /IMAGE_DESCRIPTION -->
-
 <!-- IMAGE_DESCRIPTION: datalab-9642ee15d719705144037077981aaa99_img.jpg -->
 <!-- Tipo: generico -->
 > **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-4ca62688976b4bef770a81683f9d9eef_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-f254a67565344d514e13763a4e556a70_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-966c4b9785d85823782a007f3ecec1a7_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-fb15f15a7d964c8490c9317e43e40c1a_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Faint watermark of the University of São Paulo (USP) coat of arms, featuring a shield with a star and the motto 'AD VERVM DVCT'.
 <!-- /IMAGE_DESCRIPTION -->
 
 <!-- IMAGE_DESCRIPTION_ORPHANS -->

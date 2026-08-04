@@ -116,66 +116,26 @@ Coat of arms of the University of São Paulo (USP)
 > **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
 <!-- /IMAGE_DESCRIPTION -->
 
-<!-- IMAGE_DESCRIPTION: datalab-63ae75eedbc0eeea2efd2ee19c2fbc7d_img.jpg -->
+<!-- IMAGE_DESCRIPTION: datalab-2f49752384f0d40dcfa439810d5ad58e_img.jpg -->
 <!-- Tipo: generico -->
 > **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
 <!-- /IMAGE_DESCRIPTION -->
 
-<!-- IMAGE_DESCRIPTION: datalab-7898f899fb291b02fbb353e0337c5514_img.jpg -->
+<!-- IMAGE_DESCRIPTION: datalab-eaa5fbc353eb95b90302cfbe7c299576_img.jpg -->
 <!-- Tipo: generico -->
 > **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
 <!-- /IMAGE_DESCRIPTION -->
 
-<!-- IMAGE_DESCRIPTION: datalab-911a4f4b97be8e1dcf81e58b080dc0e2_img.jpg -->
+<!-- IMAGE_DESCRIPTION: datalab-1695df64fe320e3f81049cfe402c8155_img.jpg -->
 <!-- Tipo: generico -->
 > **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
 <!-- /IMAGE_DESCRIPTION -->
 
-<!-- IMAGE_DESCRIPTION: datalab-9cc5ec27db4e35a26008bce9b9cd0bc8_img.jpg -->
+<!-- IMAGE_DESCRIPTION: datalab-aa1ad572ba493829cf259738c9668fe2_img.jpg -->
 <!-- Tipo: generico -->
 > **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-9b77845519ed6ce33bab327fe59ace1c_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-9911cc821dddfed7079ce56cbb907c9e_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-9642ee15d719705144037077981aaa99_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-4ca62688976b4bef770a81683f9d9eef_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-f254a67565344d514e13763a4e556a70_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-966c4b9785d85823782a007f3ecec1a7_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-fb15f15a7d964c8490c9317e43e40c1a_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Faint watermark of the University of São Paulo (USP) coat of arms, featuring a shield with a star and the motto 'AD VERVM DVCT'.
 <!-- /IMAGE_DESCRIPTION -->
 ## Recapitulação: Classes de Linguagens
-
-<!-- IMAGE_DESCRIPTION: datalab-875c6f4f441fdd3ca7e1908fd1582983_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Diagrama da Hierarquia de Chomsky mostrando a inclusão entre classes de linguagens.
-<!-- /IMAGE_DESCRIPTION -->
 ### Linguagem Turing-Reconhecível (R.E.)
 
 $L$  é **reconhecível** se existe MT  $M$  tal que:
@@ -399,6 +359,11 @@ graph TD
 Flowchart showing the execution flow of machine D. It starts with an input , encodes it as >, then executes a decider H on that encoding. Based on whether H accepts, machine D either loops (if H accepts) or accepts (if H rejects).
 
 {15}------------------------------------------------
+
+<!-- IMAGE_DESCRIPTION: datalab-bffdddb47fced140f8d17fdc2a29f592_img.jpg -->
+<!-- Tipo: generico -->
+> **[Descrição de imagem]** Flowchart showing the execution flow of machine D.
+<!-- /IMAGE_DESCRIPTION -->
 ### Análise da Contradição
 #### Caso 1: $D$ para em $\langle D \rangle$
 
@@ -542,9 +507,9 @@ Diagrama da Hierarquia de Problemas de Decisão
 
 {23}------------------------------------------------
 
-<!-- IMAGE_DESCRIPTION: datalab-c036e2540a94b31357ceb0002f0cacab_img.jpg -->
+<!-- IMAGE_DESCRIPTION: datalab-86b4670fc1a5a694821ee92b99c1209a_img.jpg -->
 <!-- Tipo: generico -->
-> **[Descrição de imagem]** Diagrama da hierarquia das linguagens de Chomsky, mostrando cinco níveis concêntricos de complexidade crescente.
+> **[Descrição de imagem]** Diagrama da Hierarquia de Problemas de Decisão
 <!-- /IMAGE_DESCRIPTION -->
 ## Resumo
 ## Conceitos Principais
@@ -619,6 +584,11 @@ Dica: reduza de  $A_{TM}$ .
 Faint watermark of the University of Coimbra crest, featuring a shield with a cross and stars, topped by a crown and surrounded by a banner reading 'AD VERVM DVCIT'.
 
 {28}------------------------------------------------
+
+<!-- IMAGE_DESCRIPTION: datalab-0b12afcd375d5f967112ceb045230b96_img.jpg -->
+<!-- Tipo: generico -->
+> **[Descrição de imagem]** Faint watermark of the University of Coimbra crest, featuring a shield with a cross and stars, topped by a crown and surrounded by a banner reading 'AD VERVM DVCIT'.
+<!-- /IMAGE_DESCRIPTION -->
 ### Exercício 5: Classificação
 
 Classifique cada linguagem como: (D) Decidível, (R) Reconhecível não-decidível, (coR) co-Reconhecível não-decidível, ou (N) Nem R.E. nem co-R.E.
@@ -664,20 +634,15 @@ Dica: Dado  $\langle M, w \rangle$ , construa  $M'$  tal que  $L(M')$  tem  $P$ 
 
 Faint watermark of the University of São Paulo (USP) crest and motto 'AD VERVM DVCT'.
 
+<!-- IMAGE_DESCRIPTION: datalab-011d7628370283ec23a24c1772507121_img.jpg -->
+<!-- Tipo: generico -->
+> **[Descrição de imagem]** Faint watermark of the University of São Paulo (USP) crest and motto 'AD VERVM DVCT'.
+<!-- /IMAGE_DESCRIPTION -->
+
 <!-- IMAGE_DESCRIPTION_ORPHANS -->
 ## Imagens Curadas
 
 Descrições preservadas para imagens detectadas no documento, mas sem referência markdown compatível no corpo principal.
-
-<!-- IMAGE_DESCRIPTION: datalab-29f586959675cafdf81cf934954908eb_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Diagram of a Deterministic Finite Automaton (DFA) with three states: q0, q1, and q2.
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-86b4670fc1a5a694821ee92b99c1209a_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Diagram of a Pushdown Automaton (PDA) for the language {0^n 1^n : n ≥ 0}.
-<!-- /IMAGE_DESCRIPTION -->
 
 <!-- IMAGE_DESCRIPTION: datalab-fa6c61be003dfbb4ca5587e48a71de94_img.jpg -->
 <!-- Tipo: generico -->

@@ -93,16 +93,11 @@ Ciência da Computação
 
 17 de março de 2026
 
-The logo of the Escola Politécnica da PUCRS. It features a small crest on the left with a shield, a cross, and a crown. To the right of the crest, the text "PUCRS" is written in a small, blue, sans-serif font. Further to the right, the words "ESCOLA" and "POLITÉCNICA" are stacked vertically in a larger, blue, sans-serif font.
+The logo of the Escola Politécnica da PUCRS. It features a small crest on the left with a red and white design. To the right of the crest, the word "PUCRS" is written in blue capital letters. Further to the right, the words "ESCOLA" and "POLITÉCNICA" are stacked vertically in blue capital letters, separated by a vertical line.
 
 Logo of Escola Politécnica da PUCRS
 
 {1}------------------------------------------------
-
-<!-- IMAGE_DESCRIPTION: datalab-c036e2540a94b31357ceb0002f0cacab_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Diagrama da hierarquia das linguagens de Chomsky, mostrando cinco níveis concêntricos de complexidade crescente.
-<!-- /IMAGE_DESCRIPTION -->
 ## Sumário
 
 - 1 O Operador de Minimização
@@ -116,57 +111,7 @@ Coat of arms of the University of São Paulo (USP)
 
 {2}------------------------------------------------
 
-<!-- IMAGE_DESCRIPTION: datalab-b6cb8677b4ffb35c6468fa5c24091bff_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-63ae75eedbc0eeea2efd2ee19c2fbc7d_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-7898f899fb291b02fbb353e0337c5514_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-911a4f4b97be8e1dcf81e58b080dc0e2_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-9cc5ec27db4e35a26008bce9b9cd0bc8_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-9b77845519ed6ce33bab327fe59ace1c_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-9911cc821dddfed7079ce56cbb907c9e_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-9642ee15d719705144037077981aaa99_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-4ca62688976b4bef770a81683f9d9eef_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-f254a67565344d514e13763a4e556a70_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-966c4b9785d85823782a007f3ecec1a7_img.jpg -->
+<!-- IMAGE_DESCRIPTION: datalab-8c378a184b5ae4d1605cb74d7b7a7e3f_img.jpg -->
 <!-- Tipo: generico -->
 > **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
 <!-- /IMAGE_DESCRIPTION -->
@@ -194,12 +139,12 @@ Seja  $g : \mathbb{N}^{k+1} \rightarrow \mathbb{N}$  uma função parcial.
 
 A **minimização** de  $g$  é a função  $f : \mathbb{N}^k \rightarrow \mathbb{N}$ :
 
-$$f(\vec{x}) = \mu y[g(\vec{x}, y) = 0]$$
+$$f(\vec{x}) = \mu y [g(\vec{x}, y) = 0]$$
 
 definida como o **menor**  $y \in \mathbb{N}$  tal que:
 
 - 1  $g(\vec{x}, 0) \downarrow, g(\vec{x}, 1) \downarrow, \dots, g(\vec{x}, y) \downarrow$  (todos definidos)
-- 2  $g(\vec{x}, 0) \neq 0, g(\vec{x}, 1) \neq 0, \dots, g(\vec{x}, y-1) \neq 0$
+- 2  $g(\vec{x}, 0) \neq 0, g(\vec{x}, 1) \neq 0, \dots, g(\vec{x}, y - 1) \neq 0$
 - 3  $g(\vec{x}, y) = 0$
 
 Se tal  $y$  não existe, então  $f(\vec{x}) \uparrow$  (indefinido).
@@ -388,14 +333,9 @@ Diagram showing the hierarchy of recursive functions: Recursivas Parciais (outer
 
 {15}------------------------------------------------
 
-<!-- IMAGE_DESCRIPTION: datalab-29f586959675cafdf81cf934954908eb_img.jpg -->
+<!-- IMAGE_DESCRIPTION: datalab-9ae17964ddd9b814c7d905b1af2fddf2_img.jpg -->
 <!-- Tipo: generico -->
-> **[Descrição de imagem]** Diagram of a Deterministic Finite Automaton (DFA) with three states: q0, q1, and q2.
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-875c6f4f441fdd3ca7e1908fd1582983_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Diagrama da Hierarquia de Chomsky mostrando a inclusão entre classes de linguagens.
+> **[Descrição de imagem]** Diagram showing the hierarchy of recursive functions: Recursivas Parciais (outermost), Recursivas Totais (middle), and Recursivas Primitivas (innermost).
 <!-- /IMAGE_DESCRIPTION -->
 ### Aplicação 1: Inversa de Funções
 ### Problema
@@ -439,11 +379,11 @@ $$\log_2(8) = \mu y [2^{y+1} > 8]$$
 ## Aplicação 3: Números Primos
 ### O $n$ -ésimo Primo
 
-Seja  $p(n)$  o  $n$ -ésimo número primo ( $p(0) = 2$ ,  $p(1) = 3$ ,  $\dots$ ).
+Seja  $p(n)$  o  $n$ -ésimo número primo ( $p(0) = 2$ ,  $p(1) = 3$ , ...).
 ### Construção Recursiva
 
 $$p(0) = 2$$
-$$p(n+1) = \mu y[y > p(n) \wedge \text{IsPrime}(y)]$$
+$$p(n+1) = \mu y [y > p(n) \wedge \text{IsPrime}(y)]$$
 
 onde  $\text{IsPrime}(y) = 1$  sse  $y$  é primo.
 ### Por que é Total?
@@ -549,15 +489,13 @@ Escreva as seguintes funções usando minimização e verifique se são totais:
 - 4  $\text{prev\_prime}(x) = \text{maior primo} < x$  (para  $x > 2$ )
 - 5  $\text{sqrt\_exact}(x) = \sqrt{x}$  se  $x$  é quadrado perfeito, indefinida caso contrário
 
-The image shows the coat of arms of the University of São Paulo (USP). It features a shield with a central vertical band containing a book and a star, flanked by two crossed keys. The shield is surmounted by a crown. A banner at the bottom reads 'AD VERVM DVCT'.
-
-Coat of arms of the University of São Paulo (USP)
+Coat of arms of the University of Coimbra, featuring a shield with a star and a banner below reading 'AD VERVM DVCT'.
 
 {24}------------------------------------------------
 
-<!-- IMAGE_DESCRIPTION: datalab-fb15f15a7d964c8490c9317e43e40c1a_img.jpg -->
+<!-- IMAGE_DESCRIPTION: datalab-082ba09313df59d76a7bfbdde8ec877d_img.jpg -->
 <!-- Tipo: generico -->
-> **[Descrição de imagem]** Faint watermark of the University of São Paulo (USP) coat of arms, featuring a shield with a star and the motto 'AD VERVM DVCT'.
+> **[Descrição de imagem]** Coat of arms of the University of Coimbra, featuring a shield with a star and a banner below reading 'AD VERVM DVCT'.
 <!-- /IMAGE_DESCRIPTION -->
 ## Exercício 2: Verificação de Totalidade
 
@@ -575,22 +513,27 @@ Para cada função abaixo, determine se a minimização é regular (sempre encon
 
 **Dica:** Para mostrar que é total, encontre um limitante para o valor de  $y$ .
 
-Faint watermark of the coat of arms of the University of Coimbra, featuring a shield with a cross and a crown above it, surrounded by a banner with the motto 'D V E R V M D V C I T'.
+Faint watermark of the University of Coimbra crest and motto 'D V E R V M D V C I T'.
 
 {25}------------------------------------------------
+
+<!-- IMAGE_DESCRIPTION: datalab-ff9826b45dbe31485ee6cf3f5d67a303_img.jpg -->
+<!-- Tipo: generico -->
+> **[Descrição de imagem]** Faint watermark of the University of Coimbra crest and motto 'D V E R V M D V C I T'.
+<!-- /IMAGE_DESCRIPTION -->
 ### Exercício 3: Forma Normal de Kleene
 
-- 1 Desafio!** Explique por que toda função recursiva parcial pode ser escrita na forma:
+- 1 **Desafio!** Explique por que toda função recursiva parcial pode ser escrita na forma:
 
 $$f(\vec{x}) = g(\mu y[h(\vec{x}, y) = 0])$$
 
 com  $g$  e  $h$  recursivas primitivas.
 
-- 2** Dada  $f(x) = \mu y[y^2 > x] + \mu z[z^3 > x]$ , reescreva  $f$  usando apenas uma minimização.
+- 2 Dada  $f(x) = \mu y[y^2 > x] + \mu z[z^3 > x]$ , reescreva  $f$  usando apenas uma minimização.
 
 **Dica:** Codifique o par  $(y, z)$  como um único número e busque o primeiro par válido.
 
-- 3** Por que não podemos eliminar completamente a minimização e expressar todas as funções computáveis usando apenas funções recursivas primitivas?
+- 3 Por que não podemos eliminar completamente a minimização e expressar todas as funções computáveis usando apenas funções recursivas primitivas?
 
 {26}------------------------------------------------
 ### Exercício 4: Predicado T de Kleene
@@ -641,22 +584,20 @@ onde  $g$  e  $h$  são recursivas primitivas.
 - [3] Christos H. Papadimitriou. *Computational Complexity*. Addison-Wesley, 1994.
 - [4] Michael Sipser. *Introduction to the Theory of Computation*. 3rd. Cengage Learning, 2012.
 
-A large, faint watermark of a university crest or seal is positioned on the right side of the slide. The crest features a shield with a cross pattern, a crown on top, and a banner at the bottom with the Latin motto 'AD VERVM DVCT'. The watermark is light gray and serves as a background element.
+Faint watermark of a university crest or seal, featuring a shield with a cross and a banner below it reading 'AD VERVM DVCIT'.
 
-Faint watermark of a university crest or seal on the right side of the slide.
+<!-- IMAGE_DESCRIPTION: datalab-c80dd550f724de455f5efebaed25198d_img.jpg -->
+<!-- Tipo: generico -->
+> **[Descrição de imagem]** Faint watermark of a university crest or seal, featuring a shield with a cross and a banner below it reading 'AD VERVM DVCIT'.
+<!-- /IMAGE_DESCRIPTION -->
 
 <!-- IMAGE_DESCRIPTION_ORPHANS -->
 ## Imagens Curadas
 
 Descrições preservadas para imagens detectadas no documento, mas sem referência markdown compatível no corpo principal.
 
-<!-- IMAGE_DESCRIPTION: datalab-86b4670fc1a5a694821ee92b99c1209a_img.jpg -->
+<!-- IMAGE_DESCRIPTION: datalab-d3294dc879b451b369c0b06f42e9b39f_img.jpg -->
 <!-- Tipo: generico -->
-> **[Descrição de imagem]** Diagram of a Pushdown Automaton (PDA) for the language {0^n 1^n : n ≥ 0}.
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-fa6c61be003dfbb4ca5587e48a71de94_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Logo of PUCRS (Pontifícia Universidade Católica do Rio Grande do Sul)
+> **[Descrição de imagem]** Logo of Escola Politécnica da PUCRS
 <!-- /IMAGE_DESCRIPTION -->
 <!-- /IMAGE_DESCRIPTION_ORPHANS -->

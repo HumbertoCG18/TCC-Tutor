@@ -35,7 +35,7 @@
         "ferramenta:propriedades",
         "topico:definicao",
         "tipo:material-base",
-        "unit:unidade-04-hierarquia-de-classes-de-complexidade-de-problemas-computacionais",
+        "unit:unidade-02-turing-computabilidade",
         "bloco:bloco-22"
       ],
       "manual_unit_slug": "",
@@ -138,24 +138,24 @@
         "signals": [],
         "markdown_path": "staging/markdown-auto/datalab/aula-17-np-completude/aula-17-np-completude.md"
       },
-      "computed_unit_slug": "unidade-04-hierarquia-de-classes-de-complexidade-de-problemas-computacionais",
+      "computed_unit_slug": "unidade-02-turing-computabilidade",
       "computed_block_id": "bloco-22",
       "computed_block_confidence": 1.0,
       "computed_block_band": "alta",
       "unit_match_reasons": [
-        "winner_score=35.76",
-        "topic_score=8.61"
+        "winner_score=34.66"
       ],
       "unit_match_confidence": 1.0,
       "subunit_match_reasons": [
-        "winner_score=8.61"
+        "sem-taxonomia"
       ],
-      "subunit_match_confidence": 0.15914478270973742,
+      "subunit_match_confidence": 0.0,
       "approved_markdown": "content/curated/aula-17-np-completude.md",
       "curated_markdown": "content/curated/aula-17-np-completude.md",
       "approved_source_markdown": "staging/markdown-auto/datalab/aula-17-np-completude/aula-17-np-completude.md",
       "approved_at": "2026-06-06T01:21:22",
-      "review_status": "approved"
+      "review_status": "approved",
+      "source_section": "Semana 12 - NP-completude"
     },
     {
       "id": "problema-weighted-max-cut",
@@ -169,7 +169,7 @@
         "ferramenta:max-cut"
       ],
       "manual_unit_slug": "",
-      "manual_timeline_block_id": "",
+      "manual_timeline_block_id": "bloco-22",
       "notes": "",
       "professor_signal": "",
       "include_in_bundle": true,
@@ -258,7 +258,8 @@
       "curated_markdown": "content/curated/problema-weighted-max-cut.md",
       "approved_source_markdown": "staging/markdown-auto/datalab/problema-weighted-max-cut/problema-weighted-max-cut.md",
       "approved_at": "2026-06-06T01:20:07",
-      "review_status": "approved"
+      "review_status": "approved",
+      "source_section": "Semana 13 - Trabalho T2"
     },
     {
       "id": "enunciado-t2",
@@ -271,7 +272,7 @@
       "auto_tags": [
         "ferramenta:trabalho",
         "unit:unidade-04-hierarquia-de-classes-de-complexidade-de-problemas-computacionais",
-        "bloco:bloco-25"
+        "bloco:bloco-23"
       ],
       "manual_unit_slug": "",
       "manual_timeline_block_id": "",
@@ -337,23 +338,23 @@
         "markdown_path": "staging/markdown-auto/datalab/enunciado-t2/enunciado-t2.md"
       },
       "computed_unit_slug": "unidade-04-hierarquia-de-classes-de-complexidade-de-problemas-computacionais",
-      "computed_block_id": "bloco-25",
-      "computed_block_confidence": 1.0,
+      "computed_block_id": "bloco-23",
+      "computed_block_confidence": 0.85,
       "computed_block_band": "alta",
       "unit_match_reasons": [
-        "winner_score=30.69",
-        "topic_score=10.53"
+        "winner_score=22.91"
       ],
       "unit_match_confidence": 1.0,
       "subunit_match_reasons": [
-        "winner_score=10.53"
+        "sem-taxonomia"
       ],
-      "subunit_match_confidence": 0.5216937244849519,
+      "subunit_match_confidence": 0.0,
       "approved_markdown": "content/curated/enunciado-t2.md",
       "curated_markdown": "content/curated/enunciado-t2.md",
       "approved_source_markdown": "staging/markdown-auto/datalab/enunciado-t2/enunciado-t2.md",
       "approved_at": "2026-06-06T01:20:52",
-      "review_status": "approved"
+      "review_status": "approved",
+      "source_section": "Semana 13 - Trabalho T2"
     },
     {
       "id": "aula-16-exemplo-de-prova-para-revisao",
@@ -367,9 +368,7 @@
         "ferramenta:exemplo",
         "tipo:material-base",
         "uso:revisao-prova",
-        "unit:unidade-02-turing-computabilidade",
-        "subunit:maquinas-de-turing",
-        "bloco:bloco-06"
+        "bloco:bloco-16"
       ],
       "manual_unit_slug": "",
       "manual_timeline_block_id": "",
@@ -434,24 +433,25 @@
         "signals": [],
         "markdown_path": "staging/markdown-auto/datalab/aula-16-exemplo-de-prova-para-revisao/aula-16-exemplo-de-prova-para-revisao.md"
       },
-      "computed_unit_slug": "unidade-02-turing-computabilidade",
-      "computed_block_id": "bloco-06",
-      "computed_block_confidence": 1.0,
+      "computed_unit_slug": "",
+      "computed_block_id": "bloco-16",
+      "computed_block_confidence": 0.85,
       "computed_block_band": "alta",
       "unit_match_reasons": [
-        "winner_score=68.21",
-        "topic_score=8.23"
+        "winner_score=61.21",
+        "ambiguous"
       ],
-      "unit_match_confidence": 1.0,
+      "unit_match_confidence": 0.4,
       "subunit_match_reasons": [
-        "winner_score=8.23"
+        "sem-taxonomia"
       ],
-      "subunit_match_confidence": 0.6403157255616272,
+      "subunit_match_confidence": 0.0,
       "approved_markdown": "content/curated/aula-16-exemplo-de-prova-para-revisao.md",
       "curated_markdown": "content/curated/aula-16-exemplo-de-prova-para-revisao.md",
       "approved_source_markdown": "staging/markdown-auto/datalab/aula-16-exemplo-de-prova-para-revisao/aula-16-exemplo-de-prova-para-revisao.md",
       "approved_at": "2026-06-06T01:21:37",
-      "review_status": "approved"
+      "review_status": "approved",
+      "source_section": "Semana 10 - Revisão para P1 e Prova P1"
     },
     {
       "id": "aula-15-teoremas-de-incompletude-de-godel",
@@ -465,8 +465,6 @@
         "topico:teoremas-de-godel",
         "topico:teoremas-de-incompletude-de-godel",
         "tipo:material-base",
-        "unit:unidade-03-problemas-indecidiveis",
-        "subunit:teoremas-de-godel",
         "bloco:bloco-14"
       ],
       "manual_unit_slug": "",
@@ -562,24 +560,25 @@
         "signals": [],
         "markdown_path": "staging/markdown-auto/datalab/aula-15-teoremas-de-incompletude-de-godel/aula-15-teoremas-de-incompletude-de-godel.md"
       },
-      "computed_unit_slug": "unidade-03-problemas-indecidiveis",
+      "computed_unit_slug": "",
       "computed_block_id": "bloco-14",
-      "computed_block_confidence": 1.0,
+      "computed_block_confidence": 0.85,
       "computed_block_band": "alta",
       "unit_match_reasons": [
-        "winner_score=45.38",
-        "topic_score=19.70"
+        "winner_score=32.71",
+        "ambiguous"
       ],
-      "unit_match_confidence": 1.0,
+      "unit_match_confidence": 0.4,
       "subunit_match_reasons": [
-        "winner_score=19.70"
+        "sem-taxonomia"
       ],
-      "subunit_match_confidence": 0.8249604028753604,
+      "subunit_match_confidence": 0.0,
       "approved_markdown": "content/curated/aula-15-teoremas-de-incompletude-de-godel.md",
       "curated_markdown": "content/curated/aula-15-teoremas-de-incompletude-de-godel.md",
       "approved_source_markdown": "staging/markdown-auto/datalab/aula-15-teoremas-de-incompletude-de-godel/aula-15-teoremas-de-incompletude-de-godel.md",
       "approved_at": "2026-06-06T01:21:45",
-      "review_status": "approved"
+      "review_status": "approved",
+      "source_section": "Semana 9 - Teoremas de Gödel"
     },
     {
       "id": "aula-14-problema-da-correspondencia-de-post",
@@ -690,22 +689,22 @@
       },
       "computed_unit_slug": "unidade-02-turing-computabilidade",
       "computed_block_id": "bloco-13",
-      "computed_block_confidence": 1.0,
+      "computed_block_confidence": 0.85,
       "computed_block_band": "alta",
       "unit_match_reasons": [
-        "winner_score=41.34",
-        "topic_score=3.44"
+        "winner_score=39.06"
       ],
       "unit_match_confidence": 1.0,
       "subunit_match_reasons": [
-        "winner_score=7.24"
+        "sem-taxonomia"
       ],
-      "subunit_match_confidence": 0.5253164556962024,
+      "subunit_match_confidence": 0.0,
       "approved_markdown": "content/curated/aula-14-problema-da-correspondencia-de-post.md",
       "curated_markdown": "content/curated/aula-14-problema-da-correspondencia-de-post.md",
       "approved_source_markdown": "staging/markdown-auto/datalab/aula-14-problema-da-correspondencia-de-post/aula-14-problema-da-correspondencia-de-post.md",
       "approved_at": "2026-06-06T01:21:52",
-      "review_status": "approved"
+      "review_status": "approved",
+      "source_section": "Semana 8 - Teorema de Rice e Problema da Correspondência de Post"
     },
     {
       "id": "aula-13-teorema-de-rice",
@@ -721,7 +720,7 @@
         "topico:problemas-sobre-linguagens-de-mts",
         "tipo:material-base",
         "unit:unidade-02-turing-computabilidade",
-        "bloco:bloco-05"
+        "bloco:bloco-13"
       ],
       "manual_unit_slug": "",
       "manual_timeline_block_id": "",
@@ -803,24 +802,23 @@
         "markdown_path": "staging/markdown-auto/datalab/aula-13-teorema-de-rice/aula-13-teorema-de-rice.md"
       },
       "computed_unit_slug": "unidade-02-turing-computabilidade",
-      "computed_block_id": "bloco-05",
-      "computed_block_confidence": 1.0,
+      "computed_block_id": "bloco-13",
+      "computed_block_confidence": 0.85,
       "computed_block_band": "alta",
       "unit_match_reasons": [
-        "winner_score=54.00",
-        "topic_score=8.61"
+        "winner_score=47.33"
       ],
       "unit_match_confidence": 1.0,
       "subunit_match_reasons": [
-        "winner_score=8.83",
-        "ambiguous"
+        "sem-taxonomia"
       ],
-      "subunit_match_confidence": 0.024925224327018814,
+      "subunit_match_confidence": 0.0,
       "approved_markdown": "content/curated/aula-13-teorema-de-rice.md",
       "curated_markdown": "content/curated/aula-13-teorema-de-rice.md",
       "approved_source_markdown": "staging/markdown-auto/datalab/aula-13-teorema-de-rice/aula-13-teorema-de-rice.md",
       "approved_at": "2026-06-06T01:22:00",
-      "review_status": "approved"
+      "review_status": "approved",
+      "source_section": "Semana 8 - Teorema de Rice e Problema da Correspondência de Post"
     },
     {
       "id": "aula-12-entscheidungsproblem",
@@ -833,7 +831,7 @@
       "auto_tags": [
         "tipo:material-base",
         "unit:unidade-02-turing-computabilidade",
-        "bloco:bloco-06"
+        "bloco:bloco-10"
       ],
       "manual_unit_slug": "",
       "manual_timeline_block_id": "",
@@ -922,23 +920,23 @@
         "markdown_path": "staging/markdown-auto/datalab/aula-12-entscheidungsproblem/aula-12-entscheidungsproblem.md"
       },
       "computed_unit_slug": "unidade-02-turing-computabilidade",
-      "computed_block_id": "bloco-06",
+      "computed_block_id": "bloco-10",
       "computed_block_confidence": 1.0,
       "computed_block_band": "alta",
       "unit_match_reasons": [
-        "winner_score=66.77",
-        "topic_score=3.62"
+        "winner_score=64.34"
       ],
       "unit_match_confidence": 1.0,
       "subunit_match_reasons": [
-        "winner_score=5.04"
+        "sem-taxonomia"
       ],
-      "subunit_match_confidence": 0.28245335450575626,
+      "subunit_match_confidence": 0.0,
       "approved_markdown": "content/curated/aula-12-entscheidungsproblem.md",
       "curated_markdown": "content/curated/aula-12-entscheidungsproblem.md",
       "approved_source_markdown": "staging/markdown-auto/datalab/aula-12-entscheidungsproblem/aula-12-entscheidungsproblem.md",
       "approved_at": "2026-06-06T01:22:06",
-      "review_status": "approved"
+      "review_status": "approved",
+      "source_section": "Semana 7- Halteproblem und Entscheidungsproblem"
     },
     {
       "id": "aula-11-o-problema-da-parada-halting-problem-halteproblem",
@@ -951,7 +949,7 @@
       "auto_tags": [
         "tipo:material-base",
         "unit:unidade-02-turing-computabilidade",
-        "bloco:bloco-16"
+        "bloco:bloco-10"
       ],
       "manual_unit_slug": "",
       "manual_timeline_block_id": "",
@@ -1117,24 +1115,23 @@
         "markdown_path": "staging/markdown-auto/datalab/aula-11-o-problema-da-parada-halting-problem-halteproblem/aula-11-o-problema-da-parada-halting-problem-halteproblem.md"
       },
       "computed_unit_slug": "unidade-02-turing-computabilidade",
-      "computed_block_id": "bloco-16",
+      "computed_block_id": "bloco-10",
       "computed_block_confidence": 1.0,
       "computed_block_band": "alta",
       "unit_match_reasons": [
-        "winner_score=77.19",
-        "topic_score=8.77"
+        "winner_score=70.37"
       ],
       "unit_match_confidence": 1.0,
       "subunit_match_reasons": [
-        "winner_score=9.53",
-        "ambiguous"
+        "sem-taxonomia"
       ],
-      "subunit_match_confidence": 0.07883686752047042,
+      "subunit_match_confidence": 0.0,
       "approved_markdown": "content/curated/aula-11-o-problema-da-parada-halting-problem-halteproblem.md",
       "curated_markdown": "content/curated/aula-11-o-problema-da-parada-halting-problem-halteproblem.md",
       "approved_source_markdown": "staging/markdown-auto/datalab/aula-11-o-problema-da-parada-halting-problem-halteproblem/aula-11-o-problema-da-parada-halting-problem-halteproblem.md",
       "approved_at": "2026-06-06T01:22:53",
-      "review_status": "approved"
+      "review_status": "approved",
+      "source_section": "Semana 7- Halteproblem und Entscheidungsproblem"
     },
     {
       "id": "aula-10-linguagens-reconhecıveis-e-linguagens-decidıveis",
@@ -1152,7 +1149,7 @@
         "topico:recapitulacao-classes-de-linguagens",
         "tipo:material-base",
         "unit:unidade-02-turing-computabilidade",
-        "bloco:bloco-16"
+        "bloco:bloco-09"
       ],
       "manual_unit_slug": "",
       "manual_timeline_block_id": "",
@@ -1297,23 +1294,23 @@
         "markdown_path": "staging/markdown-auto/datalab/aula-10-linguagens-reconhecıveis-e-linguagens-decidıveis/aula-10-linguagens-reconhecıveis-e-linguagens-decidıveis.md"
       },
       "computed_unit_slug": "unidade-02-turing-computabilidade",
-      "computed_block_id": "bloco-16",
-      "computed_block_confidence": 1.0,
+      "computed_block_id": "bloco-09",
+      "computed_block_confidence": 0.85,
       "computed_block_band": "alta",
       "unit_match_reasons": [
-        "winner_score=83.10",
-        "topic_score=23.02"
+        "winner_score=63.76"
       ],
       "unit_match_confidence": 1.0,
       "subunit_match_reasons": [
-        "winner_score=23.02"
+        "sem-taxonomia"
       ],
-      "subunit_match_confidence": 0.29994788047255033,
+      "subunit_match_confidence": 0.0,
       "approved_markdown": "content/curated/aula-10-linguagens-reconhecıveis-e-linguagens-decidıveis.md",
       "curated_markdown": "content/curated/aula-10-linguagens-reconhecıveis-e-linguagens-decidıveis.md",
       "approved_source_markdown": "staging/markdown-auto/datalab/aula-10-linguagens-reconhecıveis-e-linguagens-decidıveis/aula-10-linguagens-reconhecıveis-e-linguagens-decidıveis.md",
       "approved_at": "2026-06-06T01:22:46",
-      "review_status": "approved"
+      "review_status": "approved",
+      "source_section": "Semana 6 - Variações de Máquinas de Turing e Linguagens Decidíveis"
     },
     {
       "id": "aula-09-variacoes-de-maquinas-de-turing",
@@ -1329,7 +1326,7 @@
         "topico:variacoes-de-maquinas-de-turing",
         "tipo:material-base",
         "unit:unidade-02-turing-computabilidade",
-        "bloco:bloco-16"
+        "bloco:bloco-09"
       ],
       "manual_unit_slug": "",
       "manual_timeline_block_id": "",
@@ -1474,24 +1471,23 @@
         "markdown_path": "staging/markdown-auto/datalab/aula-09-variacoes-de-maquinas-de-turing/aula-09-variacoes-de-maquinas-de-turing.md"
       },
       "computed_unit_slug": "unidade-02-turing-computabilidade",
-      "computed_block_id": "bloco-16",
-      "computed_block_confidence": 1.0,
+      "computed_block_id": "bloco-09",
+      "computed_block_confidence": 0.85,
       "computed_block_band": "alta",
       "unit_match_reasons": [
-        "winner_score=126.53",
-        "topic_score=23.87"
+        "winner_score=106.71"
       ],
       "unit_match_confidence": 1.0,
       "subunit_match_reasons": [
-        "winner_score=23.87",
-        "ambiguous"
+        "sem-taxonomia"
       ],
-      "subunit_match_confidence": 0.0033510660578895944,
+      "subunit_match_confidence": 0.0,
       "approved_markdown": "content/curated/aula-09-variacoes-de-maquinas-de-turing.md",
       "curated_markdown": "content/curated/aula-09-variacoes-de-maquinas-de-turing.md",
       "approved_source_markdown": "staging/markdown-auto/datalab/aula-09-variacoes-de-maquinas-de-turing/aula-09-variacoes-de-maquinas-de-turing.md",
       "approved_at": "2026-06-06T01:22:40",
-      "review_status": "approved"
+      "review_status": "approved",
+      "source_section": "Semana 6 - Variações de Máquinas de Turing e Linguagens Decidíveis"
     },
     {
       "id": "aula-08-maquinas-de-turing-como-processadores-de-funcoes",
@@ -1505,8 +1501,7 @@
         "topico:maquinas-de-turing",
         "tipo:material-base",
         "unit:unidade-02-turing-computabilidade",
-        "subunit:maquinas-de-turing",
-        "bloco:bloco-06"
+        "bloco:bloco-09"
       ],
       "manual_unit_slug": "",
       "manual_timeline_block_id": "",
@@ -1637,23 +1632,23 @@
         "markdown_path": "staging/markdown-auto/datalab/aula-08-maquinas-de-turing-como-processadores-de-funcoes/aula-08-maquinas-de-turing-como-processadores-de-funcoes.md"
       },
       "computed_unit_slug": "unidade-02-turing-computabilidade",
-      "computed_block_id": "bloco-06",
+      "computed_block_id": "bloco-09",
       "computed_block_confidence": 1.0,
       "computed_block_band": "alta",
       "unit_match_reasons": [
-        "winner_score=108.21",
-        "topic_score=30.96"
+        "winner_score=82.36"
       ],
       "unit_match_confidence": 1.0,
       "subunit_match_reasons": [
-        "winner_score=30.96"
+        "sem-taxonomia"
       ],
-      "subunit_match_confidence": 0.8372686456280888,
+      "subunit_match_confidence": 0.0,
       "approved_markdown": "content/curated/aula-08-maquinas-de-turing-como-processadores-de-funcoes.md",
       "curated_markdown": "content/curated/aula-08-maquinas-de-turing-como-processadores-de-funcoes.md",
       "approved_source_markdown": "staging/markdown-auto/datalab/aula-08-maquinas-de-turing-como-processadores-de-funcoes/aula-08-maquinas-de-turing-como-processadores-de-funcoes.md",
       "approved_at": "2026-06-06T01:22:25",
-      "review_status": "approved"
+      "review_status": "approved",
+      "source_section": "Semana 5 - Codificação de Máquinas de Turing e Equivalência Entre Modelos"
     },
     {
       "id": "aula07-maquinas-de-turing-e-linguagens-recursivamente-enumeraveis",
@@ -1667,8 +1662,7 @@
         "topico:maquinas-de-turing",
         "tipo:material-base",
         "unit:unidade-02-turing-computabilidade",
-        "subunit:maquinas-de-turing",
-        "bloco:bloco-06"
+        "bloco:bloco-09"
       ],
       "manual_unit_slug": "",
       "manual_timeline_block_id": "",
@@ -1827,23 +1821,23 @@
         "markdown_path": "staging/markdown-auto/datalab/aula07-maquinas-de-turing-e-linguagens-recursivamente-enumeraveis/aula07-maquinas-de-turing-e-linguagens-recursivamente-enumeraveis.md"
       },
       "computed_unit_slug": "unidade-02-turing-computabilidade",
-      "computed_block_id": "bloco-06",
+      "computed_block_id": "bloco-09",
       "computed_block_confidence": 1.0,
       "computed_block_band": "alta",
       "unit_match_reasons": [
-        "winner_score=97.77",
-        "topic_score=34.81"
+        "winner_score=68.65"
       ],
       "unit_match_confidence": 1.0,
       "subunit_match_reasons": [
-        "winner_score=34.81"
+        "sem-taxonomia"
       ],
-      "subunit_match_confidence": 0.8552839456524861,
+      "subunit_match_confidence": 0.0,
       "approved_markdown": "content/curated/aula07-maquinas-de-turing-e-linguagens-recursivamente-enumeraveis.md",
       "curated_markdown": "content/curated/aula07-maquinas-de-turing-e-linguagens-recursivamente-enumeraveis.md",
       "approved_source_markdown": "staging/markdown-auto/datalab/aula07-maquinas-de-turing-e-linguagens-recursivamente-enumeraveis/aula07-maquinas-de-turing-e-linguagens-recursivamente-enumeraveis.md",
       "approved_at": "2026-06-06T01:21:09",
-      "review_status": "approved"
+      "review_status": "approved",
+      "source_section": "Semana 4 - Teoria de Autômatos e Introdução a Máquinas de Turing"
     },
     {
       "id": "aula-06-revisao-alfabeto-cadeia-linguagem-hierarquia-de-chomsky-lemas-e-propriedades-de-automatos",
@@ -1859,7 +1853,7 @@
         "topico:definicao",
         "tipo:material-base",
         "unit:unidade-02-turing-computabilidade",
-        "bloco:bloco-05"
+        "bloco:bloco-09"
       ],
       "manual_unit_slug": "",
       "manual_timeline_block_id": "",
@@ -2053,23 +2047,23 @@
         "markdown_path": "staging/markdown-auto/datalab/aula-06-revisao-alfabeto-cadeia-linguagem-hierarquia-de-chomsky-lemas-e-propriedades-de-automatos/aula-06-revisao-alfabeto-cadeia-linguagem-hierarquia-de-chomsky-lemas-e-propriedades-de-automatos.md"
       },
       "computed_unit_slug": "unidade-02-turing-computabilidade",
-      "computed_block_id": "bloco-05",
+      "computed_block_id": "bloco-09",
       "computed_block_confidence": 1.0,
       "computed_block_band": "alta",
       "unit_match_reasons": [
-        "winner_score=58.12",
-        "topic_score=3.98"
+        "winner_score=55.39"
       ],
       "unit_match_confidence": 1.0,
       "subunit_match_reasons": [
-        "winner_score=8.83"
+        "sem-taxonomia"
       ],
-      "subunit_match_confidence": 0.5496465150004531,
+      "subunit_match_confidence": 0.0,
       "approved_markdown": "content/curated/aula-06-revisao-alfabeto-cadeia-linguagem-hierarquia-de-chomsky-lemas-e-propriedades-de-automatos.md",
       "curated_markdown": "content/curated/aula-06-revisao-alfabeto-cadeia-linguagem-hierarquia-de-chomsky-lemas-e-propriedades-de-automatos.md",
       "approved_source_markdown": "staging/markdown-auto/datalab/aula-06-revisao-alfabeto-cadeia-linguagem-hierarquia-de-chomsky-lemas-e-propriedades-de-automatos/aula-06-revisao-alfabeto-cadeia-linguagem-hierarquia-de-chomsky-lemas-e-propriedades-de-automatos.md",
       "approved_at": "2026-06-08T01:55:58",
-      "review_status": "approved"
+      "review_status": "approved",
+      "source_section": "Semana 4 - Teoria de Autômatos e Introdução a Máquinas de Turing"
     },
     {
       "id": "revisao-alfabeto-cadeia-linguagem-hierarquia-de-chomsky-lemas-e-propriedades-de-automatos",
@@ -2283,14 +2277,13 @@
       "computed_block_confidence": 1.0,
       "computed_block_band": "alta",
       "unit_match_reasons": [
-        "winner_score=58.12",
-        "topic_score=3.98"
+        "winner_score=55.39"
       ],
       "unit_match_confidence": 1.0,
       "subunit_match_reasons": [
-        "winner_score=8.83"
+        "sem-taxonomia"
       ],
-      "subunit_match_confidence": 0.5496465150004531,
+      "subunit_match_confidence": 0.0,
       "approved_markdown": "content/curated/revisao-alfabeto-cadeia-linguagem-hierarquia-de-chomsky-lemas-e-propriedades-de-automatos.md",
       "curated_markdown": "content/curated/revisao-alfabeto-cadeia-linguagem-hierarquia-de-chomsky-lemas-e-propriedades-de-automatos.md",
       "approved_source_markdown": "staging/markdown-auto/datalab/revisao-alfabeto-cadeia-linguagem-hierarquia-de-chomsky-lemas-e-propriedades-de-automatos/revisao-alfabeto-cadeia-linguagem-hierarquia-de-chomsky-lemas-e-propriedades-de-automatos.md",
@@ -2378,19 +2371,19 @@
       "computed_block_confidence": 1.0,
       "computed_block_band": "alta",
       "unit_match_reasons": [
-        "winner_score=47.63",
-        "topic_score=16.31"
+        "winner_score=34.72"
       ],
       "unit_match_confidence": 1.0,
       "subunit_match_reasons": [
-        "winner_score=16.31"
+        "sem-taxonomia"
       ],
-      "subunit_match_confidence": 0.4503187837175085,
+      "subunit_match_confidence": 0.0,
       "approved_markdown": "content/curated/enunciado-t1.md",
       "curated_markdown": "content/curated/enunciado-t1.md",
       "approved_source_markdown": "staging/markdown-auto/datalab/enunciado-t1/enunciado-t1.md",
       "approved_at": "2026-06-06T01:20:58",
-      "review_status": "approved"
+      "review_status": "approved",
+      "source_section": "Semana 3 - Operações de Minimização e Trabalho T1"
     },
     {
       "id": "aula-05-minimizacao-de-funcoes-recursivas-parciais",
@@ -2525,19 +2518,19 @@
       "computed_block_confidence": 1.0,
       "computed_block_band": "alta",
       "unit_match_reasons": [
-        "winner_score=67.58",
-        "topic_score=8.05"
+        "winner_score=61.37"
       ],
       "unit_match_confidence": 1.0,
       "subunit_match_reasons": [
-        "winner_score=13.00"
+        "sem-taxonomia"
       ],
-      "subunit_match_confidence": 0.3803846153846153,
+      "subunit_match_confidence": 0.0,
       "approved_markdown": "content/curated/aula-05-minimizacao-de-funcoes-recursivas-parciais.md",
       "curated_markdown": "content/curated/aula-05-minimizacao-de-funcoes-recursivas-parciais.md",
       "approved_source_markdown": "staging/markdown-auto/datalab/aula-05-minimizacao-de-funcoes-recursivas-parciais/aula-05-minimizacao-de-funcoes-recursivas-parciais.md",
       "approved_at": "2026-06-06T01:22:13",
-      "review_status": "approved"
+      "review_status": "approved",
+      "source_section": "Semana 3 - Operações de Minimização e Trabalho T1"
     },
     {
       "id": "aula-04-funcoes-computaveis-funcoes-recursivas-parciais",
@@ -2550,7 +2543,7 @@
       "auto_tags": [
         "topico:funcoes-computaveis-funcoes-recursivas-parciais",
         "tipo:material-base",
-        "subunit:argumento-diagonal-de-cantor-e-conjuntos-incontaveis-13-funcoes-recursivas-primitivas-e-funcoes-recursivas-parciais",
+        "unit:unidade-02-turing-computabilidade",
         "bloco:bloco-03"
       ],
       "manual_unit_slug": "",
@@ -2674,25 +2667,24 @@
         "signals": [],
         "markdown_path": "staging/markdown-auto/datalab/aula-04-funcoes-computaveis-funcoes-recursivas-parciais/aula-04-funcoes-computaveis-funcoes-recursivas-parciais.md"
       },
-      "computed_unit_slug": "",
+      "computed_unit_slug": "unidade-02-turing-computabilidade",
       "computed_block_id": "bloco-03",
       "computed_block_confidence": 1.0,
       "computed_block_band": "alta",
       "unit_match_reasons": [
-        "winner_score=57.05",
-        "topic_score=1.17",
-        "ambiguous"
+        "winner_score=56.70"
       ],
-      "unit_match_confidence": 0.4,
+      "unit_match_confidence": 1.0,
       "subunit_match_reasons": [
-        "winner_score=13.72"
+        "sem-taxonomia"
       ],
-      "subunit_match_confidence": 0.6328095390804932,
+      "subunit_match_confidence": 0.0,
       "approved_markdown": "content/curated/aula-04-funcoes-computaveis-funcoes-recursivas-parciais.md",
       "curated_markdown": "content/curated/aula-04-funcoes-computaveis-funcoes-recursivas-parciais.md",
       "approved_source_markdown": "staging/markdown-auto/datalab/aula-04-funcoes-computaveis-funcoes-recursivas-parciais/aula-04-funcoes-computaveis-funcoes-recursivas-parciais.md",
       "approved_at": "2026-06-06T01:19:38",
-      "review_status": "approved"
+      "review_status": "approved",
+      "source_section": "Semana 2 - Funções Recursivas Primitivas, Parciais e Totais"
     },
     {
       "id": "aula-03-funcoes-recursivas-primitivas-e-composicao-de-funcoes",
@@ -2835,19 +2827,19 @@
       "computed_block_confidence": 1.0,
       "computed_block_band": "alta",
       "unit_match_reasons": [
-        "winner_score=77.59",
-        "topic_score=3.44"
+        "winner_score=75.31"
       ],
       "unit_match_confidence": 1.0,
       "subunit_match_reasons": [
-        "winner_score=9.33"
+        "sem-taxonomia"
       ],
-      "subunit_match_confidence": 0.4597898348702552,
+      "subunit_match_confidence": 0.0,
       "approved_markdown": "content/curated/aula-03-funcoes-recursivas-primitivas-e-composicao-de-funcoes.md",
       "curated_markdown": "content/curated/aula-03-funcoes-recursivas-primitivas-e-composicao-de-funcoes.md",
       "approved_source_markdown": "staging/markdown-auto/datalab/aula-03-funcoes-recursivas-primitivas-e-composicao-de-funcoes/aula-03-funcoes-recursivas-primitivas-e-composicao-de-funcoes.md",
       "approved_at": "2026-06-06T01:19:30",
-      "review_status": "approved"
+      "review_status": "approved",
+      "source_section": "Semana 2 - Funções Recursivas Primitivas, Parciais e Totais"
     },
     {
       "id": "aula-02-conjuntos-enumeraveis-e-nao-enumeraveis-argumento-da-diagonalizacao-de-cantor",
@@ -2860,8 +2852,6 @@
       "auto_tags": [
         "topico:conjuntos-enumeraveis",
         "tipo:material-base",
-        "unit:unidade-01-conjuntos-enumeraveis-e-funcoes-recursivas",
-        "subunit:conjuntos-enumeraveis",
         "bloco:bloco-02"
       ],
       "manual_unit_slug": "",
@@ -2999,25 +2989,26 @@
         "signals": [],
         "markdown_path": "staging/markdown-auto/datalab/aula-02-conjuntos-enumeraveis-e-nao-enumeraveis-argumento-da-diagonalizacao-de-cantor/aula-02-conjuntos-enumeraveis-e-nao-enumeraveis-argumento-da-diagonalizacao-de-cantor.md"
       },
-      "computed_unit_slug": "unidade-01-conjuntos-enumeraveis-e-funcoes-recursivas",
+      "computed_unit_slug": "",
       "computed_block_id": "bloco-02",
-      "computed_block_confidence": 1.0,
+      "computed_block_confidence": 0.85,
       "computed_block_band": "alta",
       "unit_match_reasons": [
-        "winner_score=87.17",
-        "topic_score=34.63",
-        "tag_boost=3.00"
+        "winner_score=57.73",
+        "tag_boost=3.00",
+        "ambiguous"
       ],
-      "unit_match_confidence": 1.0,
+      "unit_match_confidence": 0.4,
       "subunit_match_reasons": [
-        "winner_score=34.63"
+        "sem-taxonomia"
       ],
-      "subunit_match_confidence": 0.8904224294747783,
+      "subunit_match_confidence": 0.0,
       "approved_markdown": "content/curated/aula-02-conjuntos-enumeraveis-e-nao-enumeraveis-argumento-da-diagonalizacao-de-cantor.md",
       "curated_markdown": "content/curated/aula-02-conjuntos-enumeraveis-e-nao-enumeraveis-argumento-da-diagonalizacao-de-cantor.md",
       "approved_source_markdown": "staging/markdown-auto/datalab/aula-02-conjuntos-enumeraveis-e-nao-enumeraveis-argumento-da-diagonalizacao-de-cantor/aula-02-conjuntos-enumeraveis-e-nao-enumeraveis-argumento-da-diagonalizacao-de-cantor.md",
       "approved_at": "2026-06-06T01:19:13",
-      "review_status": "approved"
+      "review_status": "approved",
+      "source_section": "Semana 1 - Enumerabilidade e Argumento da Diagonalização de Cantor"
     },
     {
       "id": "aula-01-apresentacao-da-disciplina-revisao-de-teoria-de-conjuntos-e-enumerabilidade",
@@ -3199,7 +3190,8 @@
       "approved_source_markdown": "staging/markdown-auto/datalab/aula-01-apresentacao-da-disciplina-revisao-de-teoria-de-conjuntos-e-enumerabilidade/aula-01-apresentacao-da-disciplina-revisao-de-teoria-de-conjuntos-e-enumerabilidade.md",
       "approved_at": "2026-06-06T01:19:21",
       "review_status": "approved",
-      "manual_subunit_slug": "12-argumento-diagonal-de-cantor-e-conjuntos-incontaveis-13-funcoes-recursivas-primitivas-e-funcoes-recursivas-parciais"
+      "manual_subunit_slug": "12-argumento-diagonal-de-cantor-e-conjuntos-incontaveis-13-funcoes-recursivas-primitivas-e-funcoes-recursivas-parciais",
+      "source_section": "Semana 1 - Enumerabilidade e Argumento da Diagonalização de Cantor"
     },
     {
       "id": "referencia-reducibility-among-combinatorial-problems",
@@ -3211,7 +3203,7 @@
       "manual_tags": [],
       "auto_tags": [],
       "manual_unit_slug": "",
-      "manual_timeline_block_id": "",
+      "manual_timeline_block_id": "bloco-22",
       "notes": "",
       "professor_signal": "",
       "include_in_bundle": true,
@@ -3265,7 +3257,8 @@
       "curated_markdown": "content/curated/referencia-reducibility-among-combinatorial-problems.md",
       "approved_source_markdown": "staging/markdown-auto/scanned/referencia-reducibility-among-combinatorial-problems.md",
       "approved_at": "2026-06-08T01:55:46",
-      "review_status": "approved"
+      "review_status": "approved",
+      "source_section": "Semana 13 - Trabalho T2"
     },
     {
       "id": "aula-16-classes-de-problemas-e-complexidade",
@@ -3277,9 +3270,7 @@
       "manual_tags": [],
       "auto_tags": [
         "tipo:material-base",
-        "unit:unidade-04-hierarquia-de-classes-de-complexidade-de-problemas-computacionais",
-        "subunit:classe-np",
-        "bloco:bloco-22"
+        "bloco:bloco-19"
       ],
       "manual_unit_slug": "",
       "manual_timeline_block_id": "",
@@ -3418,24 +3409,25 @@
         ],
         "markdown_path": "staging/markdown-auto/datalab/aula-16-classes-de-problemas-e-complexidade/aula-16-classes-de-problemas-e-complexidade.md"
       },
-      "computed_unit_slug": "unidade-04-hierarquia-de-classes-de-complexidade-de-problemas-computacionais",
-      "computed_block_id": "bloco-22",
+      "computed_unit_slug": "",
+      "computed_block_id": "bloco-19",
       "computed_block_confidence": 1.0,
       "computed_block_band": "alta",
       "unit_match_reasons": [
-        "winner_score=47.97",
-        "topic_score=3.62"
+        "winner_score=60.12",
+        "ambiguous"
       ],
-      "unit_match_confidence": 1.0,
+      "unit_match_confidence": 0.4,
       "subunit_match_reasons": [
-        "winner_score=3.62"
+        "sem-taxonomia"
       ],
-      "subunit_match_confidence": 0.6416920099529998,
+      "subunit_match_confidence": 0.0,
       "approved_markdown": "content/curated/aula-16-classes-de-problemas-e-complexidade.md",
       "curated_markdown": "content/curated/aula-16-classes-de-problemas-e-complexidade.md",
       "approved_source_markdown": "staging/markdown-auto/datalab/aula-16-classes-de-problemas-e-complexidade/aula-16-classes-de-problemas-e-complexidade.md",
       "approved_at": "2026-06-08T01:55:52",
-      "review_status": "approved"
+      "review_status": "approved",
+      "source_section": "Semana 11 - Classes de Problemas e Complexidade"
     },
     {
       "id": "aula-06-revisao-alfabeto-cadeia-linguagem-hierarquia-de-chomsky-lemas-e-propriedades-de-automatos",
@@ -3449,8 +3441,8 @@
         "ferramenta:hierarquia",
         "ferramenta:propriedades",
         "tipo:material-base",
-        "unit:unidade-04-hierarquia-de-classes-de-complexidade-de-problemas-computacionais",
-        "bloco:bloco-05"
+        "unit:unidade-01-conjuntos-enumeraveis-e-funcoes-recursivas",
+        "bloco:bloco-06"
       ],
       "manual_unit_slug": "",
       "manual_timeline_block_id": "",
@@ -3643,20 +3635,20 @@
         "signals": [],
         "markdown_path": "staging/markdown-auto/datalab/aula-06-revisao-alfabeto-cadeia-linguagem-hierarquia-de-chomsky-lemas-e-propriedades-de-automatos/aula-06-revisao-alfabeto-cadeia-linguagem-hierarquia-de-chomsky-lemas-e-propriedades-de-automatos.md"
       },
-      "computed_unit_slug": "unidade-04-hierarquia-de-classes-de-complexidade-de-problemas-computacionais",
-      "computed_block_id": "bloco-05",
+      "computed_unit_slug": "unidade-01-conjuntos-enumeraveis-e-funcoes-recursivas",
+      "computed_block_id": "bloco-06",
       "computed_block_confidence": 1.0,
       "computed_block_band": "alta",
       "unit_match_reasons": [
-        "winner_score=24.42",
-        "topic_score=0.91"
+        "winner_score=3.87",
+        "tag_boost=3.00"
       ],
       "unit_match_confidence": 1.0,
       "subunit_match_reasons": [
-        "winner_score=1.17",
-        "ambiguous"
+        "sem-taxonomia"
       ],
-      "subunit_match_confidence": 0.11111111111111124
+      "subunit_match_confidence": 0.0,
+      "source_section": "Semana 4 - Teoria de Autômatos e Introdução a Máquinas de Turing"
     }
   ],
   "logs": [

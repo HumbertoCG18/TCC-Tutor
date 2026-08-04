@@ -2,15 +2,17 @@
 ## Sumário
 > *Leia antes de varrer o arquivo. Vá direto à seção relevante para a pergunta do aluno.*
 
+- **Sumário**
 - **Kurt Gödel (1906–1978)**
   - Impacto
-- **O Programa de Hilbert (Revisitado)**
+  - O Programa de Hilbert (Revisitado)
   - Objetivo de Hilbert
   - Desfechos
 - **Sistemas Formais**
   - Definição
   - Exemplo: Aritmética de Peano (PA)
   - Axiomas de Peano
+  - Indução
   - Propriedades de Sistemas Formais
   - Definições
   - Relação
@@ -72,7 +74,7 @@
 - **Exercício 3: Implicações**
 - **Exercício 4: Segundo Teorema**
   - Exercício 5: Relação com Computabilidade
-  - Exercício 6: Questões Filosóficas
+- **Exercício 6: Questões Filosóficas**
   - Exercício 7: Explorando Limites
 - **Desafio**
   - O Problema de Goodstein
@@ -104,8 +106,24 @@ The logo of the Escola Politécnica of PUCRS, featuring a crest with a star and 
 Logo of ESCOLA POLITÉCNICA PUCRS
 
 {1}------------------------------------------------
+## Sumário
+
+- 1** Contexto Histórico
+
+- 2** Primeiro Teorema da Incompletude
+
+- 3** Segundo Teorema da Incompletude
+
+- 4** Exercícios
+
+Watermark of the coat of arms of the Holy See (Vatican City) featuring crossed keys, a papal tiara, and a shield with the motto 'AD VERVM DVCIT'.
 
 {2}------------------------------------------------
+
+<!-- IMAGE_DESCRIPTION: datalab-8c378a184b5ae4d1605cb74d7b7a7e3f_img.jpg -->
+<!-- Tipo: generico -->
+> **[Descrição de imagem]** Watermark of the coat of arms of the Holy See (Vatican City) featuring crossed keys, a papal tiara, and a shield with the motto 'AD VERVM DVCIT'.
+<!-- /IMAGE_DESCRIPTION -->
 ## Kurt Gödel (1906–1978)
 
 - Lógico austro-americano, nascido em **1906** em Brno
@@ -123,7 +141,12 @@ A black and white portrait of Kurt Gödel. He is an older man with short, light-
 Black and white portrait of Kurt Gödel, an older man with glasses, wearing a suit and tie, standing in front of a bookshelf.
 
 {3}------------------------------------------------
-## O Programa de Hilbert (Revisitado)
+
+<!-- IMAGE_DESCRIPTION: datalab-9d71890acd754a1325e9415e44a7dacb_img.jpg -->
+<!-- Tipo: generico -->
+> **[Descrição de imagem]** Black and white portrait of Kurt Gödel, an older man with glasses, wearing a suit and tie, standing in front of a bookshelf.
+<!-- /IMAGE_DESCRIPTION -->
+### O Programa de Hilbert (Revisitado)
 ### Objetivo de Hilbert
 
 Estabelecer fundamentos sólidos para **toda** a matemática:
@@ -143,9 +166,9 @@ Estabelecer fundamentos sólidos para **toda** a matemática:
 
 Um **sistema formal**  $S$  consiste de:
 
-- 1 **Linguagem:** símbolos e regras de formação de fórmulas
-- 2 **Axiomas:** fórmulas assumidas como verdadeiras
-- 3 **Regras de inferência:** formas de derivar novas fórmulas
+- 1 **Linguagem**: símbolos e regras de formação de fórmulas
+- 2 **Axiomas**: fórmulas assumidas como verdadeiras
+- 3 **Regras de inferência**: formas de derivar novas fórmulas
 ### Exemplo: Aritmética de Peano (PA)
 
 - Linguagem:  $0, S, +, \cdot, =$ , quantificadores
@@ -162,7 +185,7 @@ Um **sistema formal**  $S$  consiste de:
 - 4  $\forall x \forall y : x + S(y) = S(x + y)$  (definição recursiva de +)
 - 5  $\forall x : x \cdot 0 = 0$  (elemento absorvente)
 - 6  $\forall x \forall y : x \cdot S(y) = x \cdot y + x$  (definição recursiva de ·)
-#### Indução
+### Indução
 
 Para cada fórmula  $\phi(x)$ :
 
@@ -401,27 +424,22 @@ Gentzen (1936) provou a consistência de PA usando:
 - Confirma o segundo teorema (precisa de sistema mais forte)
 ### Hierarquia de Teorias
 
-Diagrama hierárquico de teorias matemáticas:
+$$\begin{array}{c}
+ \vdots \\
+ \text{ZFC + Grandes Cardinais} \\
+ \uparrow \text{prova } Con(ZFC) \\
+ \text{ZFC} \\
+ \uparrow \text{prova } Con(PA) \\
+ \text{PA}
+ \end{array}$$
 
-- PA
-- $\uparrow$ prova  $Con(PA)$
-- ZFC
-- $\uparrow$ prova  $Con(ZFC)$
-- ZFC + Grandes Cardinais
-- $\vdots$
-
-Diagrama hierárquico de teorias matemáticas mostrando a relação de consistência entre elas.
+Diagrama vertical mostrando a hierarquia de teorias matemáticas. Na base está PA, com uma seta para cima indicando que ZFC prova a consistência de PA (Con(PA)). Acima de ZFC, uma seta indica que ZFC + Grandes Cardinais prova a consistência de ZFC (Con(ZFC)). No topo, reticências verticais indicam a continuação da hierarquia.
 
 {21}------------------------------------------------
 
-<!-- IMAGE_DESCRIPTION: datalab-c036e2540a94b31357ceb0002f0cacab_img.jpg -->
+<!-- IMAGE_DESCRIPTION: datalab-7ede87328f6b696dcffa65ebc4570cc8_img.jpg -->
 <!-- Tipo: generico -->
-> **[Descrição de imagem]** Diagrama da hierarquia das linguagens de Chomsky, mostrando cinco níveis concêntricos de complexidade crescente.
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-875c6f4f441fdd3ca7e1908fd1582983_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Diagrama da Hierarquia de Chomsky mostrando a inclusão entre classes de linguagens.
+> **[Descrição de imagem]** Diagrama vertical mostrando a hierarquia de teorias matemáticas.
 <!-- /IMAGE_DESCRIPTION -->
 ### Relação entre os Teoremas
 ### Conexão
@@ -507,20 +525,20 @@ Tal sistema não pode provar sua própria consistência.
 - 4 Relacione o Teorema de Rice com o primeiro teorema de incompletude.
 
 {29}------------------------------------------------
-### Exercício 6: Questões Filosóficas
+## Exercício 6: Questões Filosóficas
 
-- 1** Os teoremas de Gödel mostram que existem verdades matemáticas que humanos nunca poderão conhecer?
-- 2** Alguns argumentam que os teoremas de Gödel mostram que a mente humana é superior a máquinas. Critique este argumento.
-- 3** O segundo teorema implica que nunca teremos certeza absoluta de que a matemática é livre de contradições?
-- 4** Hilbert disse “Wir müssen wissen. Wir werden wissen.” (Devemos saber. Saberemos.) Como os teoremas de Gödel respondem a esta afirmação?
+- 1 Os teoremas de Gödel mostram que existem verdades matemáticas que humanos nunca poderão conhecer?
+- 2 Alguns argumentam que os teoremas de Gödel mostram que a mente humana é superior a máquinas. Critique este argumento.
+- 3 O segundo teorema implica que nunca teremos certeza absoluta de que a matemática é livre de contradições?
+- 4 Hilbert disse “Wir müssen wissen. Wir werden wissen.” (Devemos saber. Saberemos.) Como os teoremas de Gödel respondem a esta afirmação?
 
 {30}------------------------------------------------
 ### Exercício 7: Explorando Limites
 
-- 1** O Teorema da Completude de Gödel (1930) diz que a lógica de primeira ordem é completa. Como isso é compatível com os teoremas de incompletude (1931)?  
+- 1 O Teorema da Completude de Gödel (1930) diz que a lógica de primeira ordem é completa. Como isso é compatível com os teoremas de incompletude (1931)?  
 *Dica:* Há uma diferença entre completude da lógica e completude de uma teoria específica.
-- 2** Considere a “teoria verdadeira da aritmética”  $Th(\mathbb{N})$  = todas as sentenças verdadeiras sobre  $\mathbb{N}$ . Esta teoria é completa? É efetivamente axiomatizável?
-- 3** Por que não podemos “escapar” da incompletude simplesmente adicionando todas as sentenças verdadeiras como axiomas?
+- 2 Considere a “teoria verdadeira da aritmética”  $Th(\mathbb{N})$  = todas as sentenças verdadeiras sobre  $\mathbb{N}$ . Esta teoria é completa? É efetivamente axiomatizável?
+- 3 Por que não podemos “escapar” da incompletude simplesmente adicionando todas as sentenças verdadeiras como axiomas?
 
 {31}------------------------------------------------
 ## Desafio
@@ -551,10 +569,10 @@ $$PA \vdash \psi \leftrightarrow \phi(\# \psi)$$
 {33}------------------------------------------------
 ## Referências I
 
-- [1] Martin Davis, ed. *The Undecidable: Basic Papers on Undecidable Propositions, Unsolvable Problems and Computable Functions*. Raven Press, 1965.
+- [1] Martin Davis, ed. *The Undecidable: Basic Papers on Undecidable Propositions, Unsolvability Problems and Computable Functions*. Raven Press, 1965.
 - [2] Torkel Franzén. *Gödel's Theorem: An Incomplete Guide to Its Use and Abuse*. A K Peters, 2005. ISBN: 978-1568812380.
-- [3] Gerhard Gentzen. “Die Widerspruchsfreiheit der reinen Zahlentheorie”. Em: *Mathematische Annalen* 112.1 (1936), pp. 493–565. DOI: [10.1007/BF01565428](https://doi.org/10.1007/BF01565428).
-- [4] Kurt Gödel. “Die Vollständigkeit der Axiome des logischen Funktionenkalküls”. Em: *Monatshefte für Mathematik und Physik* 37.1 (1930), pp. 349–360. DOI: [10.1007/BF01696781](https://doi.org/10.1007/BF01696781).
+- [3] Gerhard Gentzen. "Die Widerspruchsfreiheit der reinen Zahlentheorie". Em: *Mathematische Annalen* 112.1 (1936), pp. 493–565. DOI: [10.1007/BF01565428](https://doi.org/10.1007/BF01565428).
+- [4] Kurt Gödel. "Die Vollständigkeit der Axiome des logischen Funktionenkalküls". Em: *Monatshefte für Mathematik und Physik* 37.1 (1930), pp. 349–360. DOI: [10.1007/BF01696781](https://doi.org/10.1007/BF01696781).
 
 {34}------------------------------------------------
 ## Referências II
@@ -572,83 +590,13 @@ $$PA \vdash \psi \leftrightarrow \phi(\# \psi)$$
 - [11] Raymond M. Smullyan. *Gödel's Incompleteness Theorems*. Oxford University Press, 1992. ISBN: 978-0195046724.
 - [12] Alan M. Turing. “On Computable Numbers, with an Application to the Entscheidungsproblem”. Em: *Proceedings of the London Mathematical Society* s2-42.1 (1937), pp. 230–265. DOI: [10.1112/plms/s2-42.1.230](https://doi.org/10.1112/plms/s2-42.1.230).
 
-<!-- IMAGE_DESCRIPTION: datalab-fb15f15a7d964c8490c9317e43e40c1a_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Faint watermark of the University of São Paulo (USP) coat of arms, featuring a shield with a star and the motto 'AD VERVM DVCT'.
-<!-- /IMAGE_DESCRIPTION -->
-
 <!-- IMAGE_DESCRIPTION_ORPHANS -->
 ## Imagens Curadas
 
 Descrições preservadas para imagens detectadas no documento, mas sem referência markdown compatível no corpo principal.
 
-<!-- IMAGE_DESCRIPTION: datalab-29f586959675cafdf81cf934954908eb_img.jpg -->
+<!-- IMAGE_DESCRIPTION: datalab-d3294dc879b451b369c0b06f42e9b39f_img.jpg -->
 <!-- Tipo: generico -->
-> **[Descrição de imagem]** Diagram of a Deterministic Finite Automaton (DFA) with three states: q0, q1, and q2.
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-4ca62688976b4bef770a81683f9d9eef_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-63ae75eedbc0eeea2efd2ee19c2fbc7d_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-7898f899fb291b02fbb353e0337c5514_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-86b4670fc1a5a694821ee92b99c1209a_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Diagram of a Pushdown Automaton (PDA) for the language {0^n 1^n : n ≥ 0}.
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-911a4f4b97be8e1dcf81e58b080dc0e2_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-9642ee15d719705144037077981aaa99_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-966c4b9785d85823782a007f3ecec1a7_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-9911cc821dddfed7079ce56cbb907c9e_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-9b77845519ed6ce33bab327fe59ace1c_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-9cc5ec27db4e35a26008bce9b9cd0bc8_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-b6cb8677b4ffb35c6468fa5c24091bff_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-f254a67565344d514e13763a4e556a70_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-fa6c61be003dfbb4ca5587e48a71de94_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Logo of PUCRS (Pontifícia Universidade Católica do Rio Grande do Sul)
+> **[Descrição de imagem]** Logo of ESCOLA POLITÉCNICA PUCRS
 <!-- /IMAGE_DESCRIPTION -->
 <!-- /IMAGE_DESCRIPTION_ORPHANS -->

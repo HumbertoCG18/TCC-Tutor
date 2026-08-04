@@ -2,6 +2,7 @@
 ## Sumário
 > *Leia antes de varrer o arquivo. Vá direto à seção relevante para a pergunta do aluno.*
 
+- **Sumário**
 - **Da Computabilidade à Complexidade**
   - O Que Já Sabemos
   - Nova Pergunta
@@ -13,7 +14,6 @@
   - Tamanho da Entrada
   - Análise de Pior Caso
   - Notação Assintótica
-  - Notação $O$ (Big-O)
 - **Classes de Crescimento**
   - Divisão Fundamental
   - Sobre a Classe Polinomial (**P**)
@@ -82,7 +82,7 @@ Ciência da Computação
 
 15 de maio de 2026
 
-The logo of PUCRS, featuring a shield with a cross and a star, and the text 'PUCRS' below it.
+The logo of PUCRS, featuring a shield with a cross and a star, and the text "PUCRS" below it.
 
 Logo of PUCRS (Pontifícia Universidade Católica do Rio Grande do Sul)
 
@@ -90,8 +90,26 @@ ESCOLA
 POLITÉCNICA
 
 {1}------------------------------------------------
+## Sumário
+
+- 1 Introdução
+
+- 2 Tempo vs. Espaço
+
+- 3 Teoremas de Hierarquia
+
+- 4 Complete vs. Hard e Intratabilidade
+
+- 5 Exercícios
+
+Faded coat of arms of the Holy See (Vatican City) featuring a shield with a cross and star, surmounted by a papal tiara and crossed keys, with the motto 'AD VERVM DVCIT' below.
 
 {2}------------------------------------------------
+
+<!-- IMAGE_DESCRIPTION: datalab-b6cb8677b4ffb35c6468fa5c24091bff_img.jpg -->
+<!-- Tipo: generico -->
+> **[Descrição de imagem]** Faded coat of arms of the Holy See (Vatican City) featuring a shield with a cross and star, surmounted by a papal tiara and crossed keys, with the motto 'AD VERVM DVCIT' below.
+<!-- /IMAGE_DESCRIPTION -->
 ## Da Computabilidade à Complexidade
 ### O Que Já Sabemos
 
@@ -143,7 +161,7 @@ $$T(n) = \max_{|w|=n} \{\text{tempo para processar } w\}$$
 
 {5}------------------------------------------------
 ### Notação Assintótica
-### Notação $O$ (Big-O)
+#### Notação $O$ (Big-O)
 
 $f(n) = O(g(n))$  se existem  $c > 0$  e  $n_0$  tais que:
 
@@ -199,7 +217,7 @@ Problemas “eficientemente computáveis” pertencem à classe **P**.
 
 [3, 5]
 
-A set of small, light-blue navigation icons typically found in Beamer presentations, including symbols for back, forward, search, and other navigation controls.
+A set of small, faint navigation icons typically found in Beamer presentations, including symbols for back, forward, and search.
 
 Navigation icons
 
@@ -306,9 +324,9 @@ que decide  $L$  usando espaço  $O(f(n))\}$
 {14}------------------------------------------------
 ### Classes de Complexidade de Espaço - Hierarquia
 
-The diagram illustrates the hierarchy of space complexity classes using a Venn diagram. A large blue circle represents EXPSPACE. Inside it is a red circle representing PSPACE. Within PSPACE, there are two overlapping circles: a green one for NL and a purple one for NPSPACE. The intersection of NL and NPSPACE is labeled 'L'. The labels for the circles are: EXPSPACE (blue), PSPACE (red), NL (green), NPSPACE (purple), and L (black text in the intersection).
+A Venn diagram illustrating the hierarchy of space complexity classes. It consists of five nested circles. The outermost circle is blue and labeled 'EXPSPACE'. Inside it is a red circle labeled 'PSPACE'. Inside 'PSPACE' are two overlapping circles: a green one labeled 'NL' on the left and a purple one labeled 'NPSPACE' on the right. The intersection of 'NL' and 'NPSPACE' is labeled 'L'.
 
-Venn diagram showing the hierarchy of space complexity classes: EXPSPACE (blue circle) contains PSPACE (red circle), which contains NL (green circle) and NPSPACE (purple circle). NL and NPSPACE overlap, and both are contained within PSPACE.
+Venn diagram showing the hierarchy of space complexity classes: L, NL, NPSPACE, PSPACE, and EXPSPACE.
 
 - **L**: problemas decididos em espaço logarítmico (DMT)
 - **NL**: problemas decididos em espaço logarítmico (NMT)
@@ -320,7 +338,7 @@ Venn diagram showing the hierarchy of space complexity classes: EXPSPACE (blue c
 
 <!-- IMAGE_DESCRIPTION: datalab-bffdddb47fced140f8d17fdc2a29f592_img.jpg -->
 <!-- Tipo: generico -->
-> **[Descrição de imagem]** Venn diagram showing the hierarchy of space complexity classes: EXPSPACE (blue circle) contains PSPACE (red circle), which contains NL (green circle) and NPSPACE (purple circle).
+> **[Descrição de imagem]** Venn diagram showing the hierarchy of space complexity classes: L, NL, NPSPACE, PSPACE, and EXPSPACE.
 <!-- /IMAGE_DESCRIPTION -->
 ### Relações entre Tempo e Espaço
 ### Teoremas
@@ -346,23 +364,28 @@ Venn diagram showing the hierarchy of space complexity classes: EXPSPACE (blue c
 
 Diagrama da hierarquia de classes de complexidade computacional, representado por círculos concêntricos:
 
-- EXPSPACE (maior círculo, cor de fundo rosa escuro)
-- EXPTIME (segundo círculo, cor de fundo rosa claro)
-- PSPACE (terceiro círculo, cor de fundo amarelo)
-- NP/coNP (quarto círculo, cor de fundo azul)
-- P (menor círculo, cor de fundo verde)
+- EXPSPACE (rosa)
+- EXPTIME (laranja)
+- PSPACE (amarelo)
+- NP/coNP (azul)
+- P (verde)
 
-As inclusões sugeridas pelo diagrama são:  $P ext{ } ext{NP/coNP} ext{ } ext{PSPACE} ext{ } ext{EXPTIME} ext{ } ext{EXPSPACE}$ .
+As classes são contidas uma dentro da outra:  $P \subseteq NP/coNP \subseteq PSPACE \subseteq EXPTIME \subseteq EXPSPACE$ .
 
-Diagrama da hierarquia de classes de complexidade computacional
+Diagrama de Venn da hierarquia de classes de complexidade computacional
 
 <!-- IMAGE_DESCRIPTION: datalab-36117e9cb27c58484cd8d3e5f9dc7ac3_img.jpg -->
 <!-- Tipo: generico -->
-> **[Descrição de imagem]** Diagrama da hierarquia de classes de complexidade computacional
+> **[Descrição de imagem]** Diagrama de Venn da hierarquia de classes de complexidade computacional
+<!-- /IMAGE_DESCRIPTION -->
+
+<!-- IMAGE_DESCRIPTION: datalab-55136bc716146672fc680fa05989f1d2_img.jpg -->
+<!-- Tipo: generico -->
+> **[Descrição de imagem]** Diagrama das classes de complexidade computacional
 <!-- /IMAGE_DESCRIPTION -->
 #### Questões em Aberto
 
-$P ext{ } ext{NP, NP} ext{ } ext{coNP, NP} ext{ } ext{PSPACE}$
+$P \stackrel{?}{=} NP$ ,  $NP \stackrel{?}{=} coNP$ ,  $NP \stackrel{?}{=} PSPACE$
 
 {17}------------------------------------------------
 #### Teorema da Hierarquia de Tempo
@@ -459,15 +482,13 @@ $$w \in A \iff f(w) \in B$$
 
 [8, 11]
 
-Instância de A  $\xrightarrow{f \text{ (polinomial)}}$  Instância de B
+The diagram shows a horizontal flow from left to right. On the left, a box labeled 'Instância de A' is positioned above the text  $w \in A$ . An arrow points from this box to a box on the right labeled 'Instância de B'. Above the arrow is the text  $f$  (polinomial). Below the right box is the text  $f(w) \in B$ .
 
-$w \in A$   $f(w) \in B$
-
-Diagram illustrating a polynomial-time reduction from A to B. A box labeled 'Instância de A' is connected by an arrow labeled 'f (polinomial)' to a box labeled 'Instância de B'. Below the first box is the expression 'w \in A' and below the second box is 'f(w) \in B'.
+Diagram illustrating a polynomial-time reduction f from an instance of A to an instance of B.
 
 <!-- IMAGE_DESCRIPTION: datalab-86d30a7d5a9cd4ee5456b5962ae3420a_img.jpg -->
 <!-- Tipo: generico -->
-> **[Descrição de imagem]** Diagram illustrating a polynomial-time reduction from A to B.
+> **[Descrição de imagem]** Diagram illustrating a polynomial-time reduction f from an instance of A to an instance of B.
 <!-- /IMAGE_DESCRIPTION -->
 ### Intuição
 
@@ -505,11 +526,11 @@ Hard
 
 $\mathcal{C}$ -hard
 
-Diagram illustrating the relationship between a complexity class C and its C-hard problems. A large light blue oval labeled 'Classe C' contains a smaller red oval labeled 'C-complete'. Two dashed arrows point from the 'C-complete' oval to two separate orange circles, each labeled 'Hard'. To the right of these circles is the label 'C-hard'.
+Diagram illustrating the relationship between a complexity class C and its complete and hard problems. A large light blue oval labeled 'Classe C' contains a smaller red oval labeled 'C-complete'. Two dashed arrows point from the 'C-complete' oval to two separate orange circles, each labeled 'Hard'. To the right of these circles is the label 'C-hard'.
 
 <!-- IMAGE_DESCRIPTION: datalab-8d325fc12b494e42c9ea7ed2a7f327a6_img.jpg -->
 <!-- Tipo: generico -->
-> **[Descrição de imagem]** Diagram illustrating the relationship between a complexity class C and its C-hard problems.
+> **[Descrição de imagem]** Diagram illustrating the relationship between a complexity class C and its complete and hard problems.
 <!-- /IMAGE_DESCRIPTION -->
 #### Relação
 
@@ -576,17 +597,9 @@ Em teoria da complexidade, chamamos de **intratável** um problema para o qual n
 {28}------------------------------------------------
 ## Mapa das Classes
 
-O diagrama mostra a hierarquia das classes de complexidade computacional representada por conjuntos concêntricos:
+O diagrama mostra uma hierarquia de classes de complexidade computacional representada por quatro ovais concêntricos. O maior oval amarelo no exterior é rotulado 'Decidíveis' e 'EXPTIME'. Dentro dele, um oval verde é rotulado 'PSPACE'. Dentro do verde, um oval azul é rotulado 'NP'. O menor oval no centro, em rosa, é rotulado 'P'.
 
-- Decidíveis**: O conjunto mais externo, retangular.
-- EXPTIME**: O maior conjunto circular, amarelo.
-- PSPACE**: O conjunto circular intermediário, verde.
-- NP**: O conjunto circular interno, roxo.
-- P**: O conjunto circular mais interno, rosa.
-
-As classes são relacionadas por inclusão:  $P \subseteq NP \subseteq PSPACE \subseteq EXPTIME \subseteq \text{Decidíveis}$ .
-
-Venn diagram showing the hierarchy of complexity classes: P is contained in NP, which is in PSPACE, which is in EXPTIME, all of which are Decidable.
+Diagrama das classes de complexidade computacional
 
 EXPTIME-complete: xadrez/damas
 
@@ -603,11 +616,6 @@ SAT = Satisfiability
 TSP = Traveling Salesman Problem
 
 {29}------------------------------------------------
-
-<!-- IMAGE_DESCRIPTION: datalab-55136bc716146672fc680fa05989f1d2_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Venn diagram showing the hierarchy of complexity classes: P is contained in NP, which is in PSPACE, which is in EXPTIME, all of which are Decidable.
-<!-- /IMAGE_DESCRIPTION -->
 ## Resumo
 ## Conceitos Principais
 
@@ -667,11 +675,11 @@ Determine a complexidade de tempo (em notação  $O$ ) dos seguintes algoritmos:
 {33}------------------------------------------------
 ### Exercício 3: Relações entre Classes
 
-- 1 Prove que  $\text{DTIME}(n) \subseteq \text{DSpace}(n)$ .
-- 2 Por que  $\text{DSpace}(n) \subseteq \text{DTIME}(2^{O(n)})$ ? Quantas configurações distintas uma MT pode ter usando espaço  $n$ ?
-- 3 Mostre que  $P \subseteq \text{PSPACE}$ .
-- 4 Use o Teorema de Savitch para mostrar que  $\text{NPSPACE} = \text{PSPACE}$ .
-- 5 Por que não podemos usar um argumento similar para provar  $P = \text{NP}$ ?
+- 1 Prove que  $DTIME(n) \subseteq DSPACE(n)$ .
+- 2 Por que  $DSPACE(n) \subseteq DTIME(2^{O(n)})$ ? Quantas configurações distintas uma MT pode ter usando espaço  $n$ ?
+- 3 Mostre que  $P \subseteq PSPACE$ .
+- 4 Use o Teorema de Savitch para mostrar que  $NPSPACE = PSPACE$ .
+- 5 Por que não podemos usar um argumento similar para provar  $P = NP$ ?
 
 {34}------------------------------------------------
 ### Exercício 4: Hard e Complete

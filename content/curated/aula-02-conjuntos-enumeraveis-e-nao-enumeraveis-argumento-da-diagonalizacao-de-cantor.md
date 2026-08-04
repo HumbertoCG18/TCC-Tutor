@@ -8,42 +8,40 @@
   - Importância para Computação
 - **Comparando Conjuntos Infinitos**
   - Ideia Central
-  - Exemplo: $\mathbb{N}$ e $\mathbb{N}^+$
   - Observação Surpreendente
 - **Definições Formais**
   - Definição: Conjunto Enumerável (Contável)
   - Definição: Conjunto Infinito Contável
   - Definição: Conjunto Não-Enumerável (Incontável)
 - **O Conjunto dos Números Inteiros é Enumerável**
+  - $\mathbb{N} \times \mathbb{N}$ é Enumerável
+  - Função de Pareamento de Cantor
   - O Conjunto dos Números Racionais é Enumerável
 - **Propriedades de Conjuntos Enumeráveis**
   - Teorema: União de Enumeráveis
   - Teorema: União Contável de Enumeráveis
   - Teorema: Produto de Enumeráveis
   - Teorema: Subconjunto de Enumerável
-- **Strings Finitas são Enumeráveis**
+  - Strings Finitas são Enumeráveis
   - Consequência: Programas são Enumeráveis
   - Corolário
   - Justificativa
   - Implicação Importante
 - **O Conjunto dos Números Reais é Incontável**
   - Teorema (Cantor, 1891)
-  - Significado
-  - Método da Prova
-  - Contradição
   - Corolário
 - **O Conjunto Potência**
   - Teorema (Cantor)
   - Prova
 - **Hierarquia de Cardinalidades**
   - Cardinalidades Infinitas
-- **Hipótese do Contínuo**
+  - Hipótese do Contínuo
 - **Funções: Enumeráveis vs. Não-Enumeráveis**
   - Consequência Fundamental
-- **Linguagens Enumeráveis vs. Não-Enumeráveis**
+  - Linguagens Enumeráveis vs. Não-Enumeráveis
   - Definição
   - Contagem
-- **Consequência para Teoria da Computação**
+  - Consequência para Teoria da Computação
 - **Resumo: A Técnica de Diagonalização**
 - **Estrutura do Argumento**
 - **Aplicações**
@@ -72,30 +70,27 @@ Ciência da Computação
 
 23 de fevereiro de 2026
 
-The logo of PUCRS, featuring a shield with a cross and a star, and the text 'PUCRS' below it.
+The logo consists of the PUCRS crest on the left, which is a shield with a star and a banner. To the right of the crest, the text "ESCOLA POLITÉCNICA" is written in blue capital letters.
 
-Logo of PUCRS (Pontifícia Universidade Católica do Rio Grande do Sul)
-
-ESCOLA  
-POLITÉCNICA
+Logo of PUCRS and Escola Politécnica
 
 {1}------------------------------------------------
-
-<!-- IMAGE_DESCRIPTION: datalab-875c6f4f441fdd3ca7e1908fd1582983_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Diagrama da Hierarquia de Chomsky mostrando a inclusão entre classes de linguagens.
-<!-- /IMAGE_DESCRIPTION -->
 ## Sumário
 
 - 1 Conjuntos Enumeráveis
 - 2 Argumento da Diagonalização de Cantor
 - 3 Exercícios
 
-The image is a large, faded watermark of the Brazilian coat of arms. It features a central shield with a green field containing a white five-pointed star and a gold field containing a white cross. The shield is surmounted by a crown and flanked by two crossed keys. A ribbon at the bottom contains the motto 'AD VERVM DVCIT'.
+The image is a faint, light gray watermark of the Brazilian coat of arms. It features a central shield with a green field containing a white five-pointed star and a gold field containing a white cross. The shield is surmounted by a crown and flanked by two crossed keys. A ribbon at the bottom contains the motto 'AD VERVM DVCIT'.
 
 Coat of arms of Brazil
 
 {2}------------------------------------------------
+
+<!-- IMAGE_DESCRIPTION: datalab-cb00037bd3b3af9720d5551ad2f818dd_img.jpg -->
+<!-- Tipo: generico -->
+> **[Descrição de imagem]** Coat of arms of Brazil
+<!-- /IMAGE_DESCRIPTION -->
 ## Motivação
 ### Questão Fundamental
 
@@ -117,15 +112,16 @@ A existência de diferentes “tamanhos” (**densidade!**) de infinito tem cons
 ### Ideia Central
 
 Dois conjuntos têm o mesmo “tamanho” se podemos estabelecer uma **correspondência um-para-um** (bijeção) entre eles.
-### Exemplo: $\mathbb{N}$ e $\mathbb{N}^+$
+
+Exemplo:  $\mathbb{N}$  e  $\mathbb{N}^+$
 
 $\mathbb{N} = \{0, 1, 2, 3, \dots\}$  e  $\mathbb{N}^+ = \{1, 2, 3, 4, \dots\}$
 
 Bijeção  $f : \mathbb{N} \rightarrow \mathbb{N}^+$ ,  $f(n) = n + 1$
 
-| $n$    | 0 | 1 | 2 | 3 | $\dots$ |
-|--------|---|---|---|---|---------|
-| $f(n)$ | 1 | 2 | 3 | 4 | $\dots$ |
+| $n$    | 0 | 1 | 2 | 3 | ... |
+|--------|---|---|---|---|-----|
+| $f(n)$ | 1 | 2 | 3 | 4 | ... |
 ### Observação Surpreendente
 
 $\mathbb{N}^+ \subset \mathbb{N}$  (subconjunto próprio), mas  $|\mathbb{N}^+| = |\mathbb{N}|$ !
@@ -141,7 +137,7 @@ Um conjunto  $A$  é **enumerável** (ou contável) se:
 - $A$  é finito, ou
 - Existe uma bijeção  $f : \mathbb{N} \rightarrow A$
 
-Equivalentemente: os elementos de  $A$  podem ser listados como uma sequência  $a_0, a_1, a_2, \dots$ .
+Equivalentemente: os elementos de  $A$  podem ser listados como uma sequência  $a_0, a_1, a_2, \dots$
 ### Definição: Conjunto Infinito Contável
 
 Um conjunto  $A$  é **infinito contável** se existe uma bijeção  $f : \mathbb{N} \rightarrow A$ .
@@ -170,54 +166,30 @@ $$f(n) = \begin{cases} n/2 & \text{se } n \text{ é par} \\ -(n+1)/2 & \text{se 
 Enumeração:  $0, -1, 1, -2, 2, -3, 3, -4, 4, \dots$
 
 {6}------------------------------------------------
-
-Conjuntos Enumeráveis
-
-Argumento da Diagonalização de Cantor
-
-Exercícios
-
-Referências
-
-# $\mathbb{N} \times \mathbb{N}$ é Enumerável
-
-**Teorema**
+### $\mathbb{N} \times \mathbb{N}$ é Enumerável
+#### **Teorema**
 
 O produto cartesiano  $\mathbb{N} \times \mathbb{N}$  é enumerável.
+### Função de Pareamento de Cantor
 
-Função de Pareamento de Cantor
-
-$$\pi : \mathbb{N} \times \mathbb{N} \to \mathbb{N}$$
+$$\pi : \mathbb{N} \times \mathbb{N} \rightarrow \mathbb{N}$$
 
 $$\pi(x, y) = \frac{(x + y)(x + y + 1)}{2} + y$$
 
 Esta função é uma bijeção!
 
-```
-
-    (y)
-    3  •   •   •   •   •
-       ^ 
-    2  • <--•   •   •   •
-       ^   / 
-    1  • <--• <--•   •   •
-       ^   /   / 
-    0  • -->• -->• -->•   •
-       0   1   2   3  (x)
-    
-```
+Diagram showing the diagonal enumeration of the set N x N. A grid of points is shown with x and y axes labeled 0, 1, 2, 3. Arrows indicate the path: (0,0) to (1,0), then (1,0) to (0,1), then (0,1) to (2,0), then (2,0) to (1,1), then (1,1) to (0,2), and so on, following diagonals from bottom-right to top-left.
 
 Enumeração diagonal
 
-Diagonal enumeration diagram on a 2D grid of points representing (x, y) coordinates. Arrows show the path starting at (0,0), then (1,0) to (0,1), then (2,0) to (1,1) to (0,2), and so on, following diagonals where x+y is constant.
-
 Ordem:  $(0, 0), (1, 0), (0, 1), (2, 0), (1, 1), (0, 2), (3, 0), \dots$
 
-Prof. Anderson R. P. Domingues
-Conjuntos Enumeráveis
-7 / 26
-
 {7}------------------------------------------------
+
+<!-- IMAGE_DESCRIPTION: datalab-ab9eb65dcbc2696ec77b66f70f9e0e91_img.jpg -->
+<!-- Tipo: generico -->
+> **[Descrição de imagem]** Diagram showing the diagonal enumeration of the set N x N.
+<!-- /IMAGE_DESCRIPTION -->
 ### O Conjunto dos Números Racionais é Enumerável
 #### Teorema
 
@@ -229,15 +201,24 @@ $\mathbb{Q}$  é enumerável.
 - 3 Logo  $\mathbb{Q}^+$  é enumerável
 - 4  $\mathbb{Q} = \mathbb{Q}^- \cup \{0\} \cup \mathbb{Q}^+$  é união de enumeráveis
 
-The diagram shows a grid of fractions  $\frac{p}{q}$  where  $p$  and  $q$  are positive integers. The grid is arranged in columns, with the first column containing  $\frac{1}{1}, \frac{1}{2}, \frac{1}{3}, \frac{1}{4}, \dots$ , the second column containing  $\frac{2}{1}, \frac{2}{2}, \frac{2}{3}, \frac{2}{4}, \dots$ , the third column containing  $\frac{3}{1}, \frac{3}{2}, \frac{3}{3}, \frac{3}{4}, \dots$ , and the fourth column containing  $\frac{4}{1}, \frac{4}{2}, \frac{4}{3}, \frac{4}{4}, \dots$ . A blue zigzag path starts at  $\frac{1}{1}$ , moves right to  $\frac{2}{1}$ , then down-left to  $\frac{1}{2}$ , then down to  $\frac{2}{2}$ , then up-right to  $\frac{3}{2}$ , then up to  $\frac{3}{3}$ , then down-left to  $\frac{2}{3}$ , then down to  $\frac{1}{3}$ , then up-right to  $\frac{2}{4}$ , then up to  $\frac{3}{4}$ , then up to  $\frac{4}{4}$ , and so on. This path ensures that every positive rational number is reached.
+The diagram shows a grid of positive rational numbers arranged in rows and columns. Blue arrows indicate a zigzag path that visits every cell in the grid, demonstrating that the set of positive rationals is countable.
+
+|               |               |               |               |         |
+|---------------|---------------|---------------|---------------|---------|
+| $\frac{1}{1}$ | $\frac{2}{1}$ | $\frac{3}{1}$ | $\frac{4}{1}$ |         |
+| $\frac{1}{2}$ | $\frac{1}{1}$ | $\frac{3}{2}$ | $\frac{4}{2}$ |         |
+| $\frac{1}{3}$ | $\frac{2}{2}$ | $\frac{3}{3}$ | $\frac{4}{3}$ | $\dots$ |
+| $\frac{2}{3}$ | $\frac{2}{2}$ | $\frac{3}{3}$ | $\frac{4}{3}$ |         |
+| $\frac{3}{3}$ | $\frac{2}{3}$ | $\frac{3}{4}$ | $\frac{4}{4}$ |         |
+| $\frac{1}{4}$ | $\frac{2}{4}$ | $\frac{3}{4}$ | $\frac{4}{4}$ |         |
 
 Diagram illustrating the enumeration of positive rational numbers using a zigzag path through a grid of fractions.
 
 {8}------------------------------------------------
 
-<!-- IMAGE_DESCRIPTION: datalab-29f586959675cafdf81cf934954908eb_img.jpg -->
+<!-- IMAGE_DESCRIPTION: datalab-731f533b0599c8e42a063f06e4332045_img.jpg -->
 <!-- Tipo: generico -->
-> **[Descrição de imagem]** Diagram of a Deterministic Finite Automaton (DFA) with three states: q0, q1, and q2.
+> **[Descrição de imagem]** Diagram illustrating the enumeration of positive rational numbers using a zigzag path through a grid of fractions.
 <!-- /IMAGE_DESCRIPTION -->
 ## Propriedades de Conjuntos Enumeráveis
 ### Teorema: União de Enumeráveis
@@ -254,7 +235,7 @@ Se  $A$  e  $B$  são enumeráveis, então  $A \times B$  é enumerável.
 Todo subconjunto de um conjunto enumerável é enumerável.
 
 {9}------------------------------------------------
-## Strings Finitas são Enumeráveis
+### Strings Finitas são Enumeráveis
 #### Teorema
 
 Seja  $\Sigma$  um alfabeto finito. O conjunto  $\Sigma^*$  de todas as strings finitas sobre  $\Sigma$  é enumerável.
@@ -294,12 +275,12 @@ Se existirem mais que  $\aleph_0$  funções ou problemas, então alguns não po
 ### Teorema (Cantor, 1891)
 
 O conjunto  $\mathbb{R}$  dos números reais é **não-enumerável** (incontável).
-### Significado
+#### Significado
 
 - Não existe bijeção entre  $\mathbb{N}$  e  $\mathbb{R}$
 - $\mathbb{R}$  é “maior” que  $\mathbb{N}$
 - Existem diferentes “tamanhos” de infinito!
-### Método da Prova
+#### Método da Prova
 
 **Argumento da Diagonalização:** técnica de prova por contradição que constrói um elemento não listado a partir de qualquer suposta enumeração.
 
@@ -349,62 +330,17 @@ Coat of arms of the University of São Paulo (USP)
 
 {14}------------------------------------------------
 
-<!-- IMAGE_DESCRIPTION: datalab-b6cb8677b4ffb35c6468fa5c24091bff_img.jpg -->
+<!-- IMAGE_DESCRIPTION: datalab-55c729bcda4ea78f553b681b7359c733_img.jpg -->
 <!-- Tipo: generico -->
 > **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
 <!-- /IMAGE_DESCRIPTION -->
 
-<!-- IMAGE_DESCRIPTION: datalab-63ae75eedbc0eeea2efd2ee19c2fbc7d_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-7898f899fb291b02fbb353e0337c5514_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-911a4f4b97be8e1dcf81e58b080dc0e2_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-9cc5ec27db4e35a26008bce9b9cd0bc8_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-9b77845519ed6ce33bab327fe59ace1c_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-9911cc821dddfed7079ce56cbb907c9e_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-9642ee15d719705144037077981aaa99_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-4ca62688976b4bef770a81683f9d9eef_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-f254a67565344d514e13763a4e556a70_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-966c4b9785d85823782a007f3ecec1a7_img.jpg -->
+<!-- IMAGE_DESCRIPTION: datalab-0ab720844e454afef91e5d68f4ab8ad9_img.jpg -->
 <!-- Tipo: generico -->
 > **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
 <!-- /IMAGE_DESCRIPTION -->
 #### Prova: Conclusão
-### Contradição
+#### Contradição
 
 - $r^* \in [0, 1)$  (é um número real válido entre 0 e 1)
 - $r^* \neq r_i$  para todo  $i \in \mathbb{N}$
@@ -451,7 +387,7 @@ Logo, tal bijeção não existe.  $\square$
 - $|\mathcal{P}(\mathbb{R})| = 2^{\mathfrak{c}}$  — ainda maior!
 
 $$\begin{array}{ccccc} |\mathbb{N}| & < & |\mathbb{R}| = |\mathcal{P}(\mathbb{N})| & < & |\mathcal{P}(\mathbb{R})| \\ \aleph_0 & & 2^{\aleph_0} = \mathfrak{c} & & 2^{\mathfrak{c}} \end{array}$$
-## Hipótese do Contínuo
+### Hipótese do Contínuo
 
 Existe algum conjunto  $S$  com  $|\mathbb{N}| < |S| < |\mathbb{R}|$ ?
 
@@ -475,7 +411,7 @@ $$|\{f : \mathbb{N} \rightarrow \{0, 1\}\}| = 2^{|\mathbb{N}|} = 2^{\aleph_0} = 
 - **Logo:** Existem funções que não podem ser computadas por nenhum programa!
 
 {18}------------------------------------------------
-## Linguagens Enumeráveis vs. Não-Enumeráveis
+### Linguagens Enumeráveis vs. Não-Enumeráveis
 ### Definição
 
 Uma **linguagem** sobre um alfabeto  $\Sigma$  é um subconjunto de  $\Sigma^*$ .
@@ -484,7 +420,7 @@ Uma **linguagem** sobre um alfabeto  $\Sigma$  é um subconjunto de  $\Sigma^*$ 
 - $\Sigma^*$  é enumerável (strings finitas)
 - O conjunto de todas as linguagens é  $\mathcal{P}(\Sigma^*)$
 - $|\mathcal{P}(\Sigma^*)| = 2^{|\Sigma^*|} = 2^{\aleph_0}$  — incontável!
-## Consequência para Teoria da Computação
+### Consequência para Teoria da Computação
 
 - Existem  $2^{\aleph_0}$  linguagens sobre  $\{0, 1\}$
 - Existem apenas  $\aleph_0$  Máquinas de Turing
@@ -507,11 +443,6 @@ Uma **linguagem** sobre um alfabeto  $\Sigma$  é um subconjunto de  $\Sigma^*$ 
 - O problema da parada (Halting Problem)
 
 {20}------------------------------------------------
-
-<!-- IMAGE_DESCRIPTION: datalab-c036e2540a94b31357ceb0002f0cacab_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Diagrama da hierarquia das linguagens de Chomsky, mostrando cinco níveis concêntricos de complexidade crescente.
-<!-- /IMAGE_DESCRIPTION -->
 ### Exercício 1: Enumerabilidade
 
 Prove que os seguintes conjuntos são enumeráveis:
@@ -524,24 +455,27 @@ Prove que os seguintes conjuntos são enumeráveis:
 
 **Dica:** Para cada item, construa explicitamente uma bijeção com  $\mathbb{N}$  ou mostre que é subconjunto/produto de conjuntos enumeráveis.
 
-Faint watermark of the University of São Paulo (USP) coat of arms, featuring a shield with a sun, stars, and a banner below reading 'D V E R V M D V C I T'.
+Faint watermark of the coat of arms of the University of São Paulo (USP) on the right side of the slide.
 
 {21}------------------------------------------------
+
+<!-- IMAGE_DESCRIPTION: datalab-8c88a2b2e156c28098d47bdd093e67e0_img.jpg -->
+<!-- Tipo: generico -->
+> **[Descrição de imagem]** Faint watermark of the coat of arms of the University of São Paulo (USP) on the right side of the slide.
+<!-- /IMAGE_DESCRIPTION -->
 ### Exercício 2: Diagonalização
 
 - 1 Por que a prova de diagonalização não funciona para mostrar que  $\mathbb{Q}$  é incontável? Onde o argumento falha?
 - 2 Adapte o argumento de diagonalização para provar diretamente (sem usar que  $[0, 1)$  é incontável) que o conjunto de todas as sequências infinitas de 0s e 1s é incontável.
 - 3 Prove que o conjunto  $\{f : \mathbb{N} \rightarrow \mathbb{N}\}$  de todas as funções de  $\mathbb{N}$  em  $\mathbb{N}$  é incontável.
 
-A faint, light gray watermark of the coat of arms of the University of São Paulo (USP) is visible on the right side of the slide. It features a central shield with a five-pointed star, flanked by two crossed flags, and a banner at the bottom with the motto 'AD VERVM DVCT'.
-
-Faint watermark of the coat of arms of the University of São Paulo (USP) on the right side of the slide.
+Faint watermark of the University of São Paulo (USP) coat of arms, featuring a shield with a star and a banner below reading 'AD VERVM DVCIT'.
 
 {22}------------------------------------------------
 
-<!-- IMAGE_DESCRIPTION: datalab-fb15f15a7d964c8490c9317e43e40c1a_img.jpg -->
+<!-- IMAGE_DESCRIPTION: datalab-6f78ea3343d75a12a76a4c51af28da87_img.jpg -->
 <!-- Tipo: generico -->
-> **[Descrição de imagem]** Faint watermark of the University of São Paulo (USP) coat of arms, featuring a shield with a star and the motto 'AD VERVM DVCT'.
+> **[Descrição de imagem]** Faint watermark of the University of São Paulo (USP) coat of arms, featuring a shield with a star and a banner below reading 'AD VERVM DVCIT'.
 <!-- /IMAGE_DESCRIPTION -->
 ### Exercício 3: Cardinalidades
 
@@ -590,22 +524,22 @@ Estas situações ilustram propriedades surpreendentes de conjuntos infinitos e 
 - [3] Christos H. Papadimitriou. *Computational Complexity*. Addison-Wesley, 1994.
 - [4] Michael Sipser. *Introduction to the Theory of Computation*. 3rd. Cengage Learning, 2012.
 
-A faint, light gray watermark of a university crest or seal is positioned on the right side of the slide. The crest features a shield with a cross pattern, topped by a crown and flanked by decorative elements. A banner at the bottom of the crest contains the Latin motto "AD VERVM DVCT".
+A faint, light gray watermark of a university crest or seal is positioned on the right side of the slide. The crest features a shield with a cross pattern, topped by a crown and flanked by two lions. A banner at the bottom of the shield contains the Latin motto "AD VERVM DVCT".
 
 Faint watermark of a university crest or seal on the right side of the slide.
+
+<!-- IMAGE_DESCRIPTION: datalab-55fb58e14ec092ccc4fe111de0dc6278_img.jpg -->
+<!-- Tipo: generico -->
+> **[Descrição de imagem]** Faint watermark of a university crest or seal on the right side of the slide.
+<!-- /IMAGE_DESCRIPTION -->
 
 <!-- IMAGE_DESCRIPTION_ORPHANS -->
 ## Imagens Curadas
 
 Descrições preservadas para imagens detectadas no documento, mas sem referência markdown compatível no corpo principal.
 
-<!-- IMAGE_DESCRIPTION: datalab-86b4670fc1a5a694821ee92b99c1209a_img.jpg -->
+<!-- IMAGE_DESCRIPTION: datalab-1d7527f4316cfe2d342b08d1653d1592_img.jpg -->
 <!-- Tipo: generico -->
-> **[Descrição de imagem]** Diagram of a Pushdown Automaton (PDA) for the language {0^n 1^n : n ≥ 0}.
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-fa6c61be003dfbb4ca5587e48a71de94_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Logo of PUCRS (Pontifícia Universidade Católica do Rio Grande do Sul)
+> **[Descrição de imagem]** Logo of PUCRS and Escola Politécnica
 <!-- /IMAGE_DESCRIPTION -->
 <!-- /IMAGE_DESCRIPTION_ORPHANS -->

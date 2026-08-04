@@ -10,14 +10,16 @@
   - Problema da Correspondência de Post (PCP)
   - Em Outras Palavras
   - Exemplo de Instância de PCP
+  - Exemplo de Instância de PCP (contd.)
+- **Solução: sequência 2, 1, 3, 2, 1**
   - Exemplo de Instância de PCP sem Solução
-  - Análise
+- **Análise**
   - Indecidibilidade do PCP
   - Teorema (Post, 1946)
   - Estratégia da Prova
   - Como a Construção Funciona
+  - Famílias de Dominós na Prova
   - Famílias de Dominós na Prova (cont.)
-  - Dominós de Aceitação
   - Do MPCP para o PCP
   - Moral da Construção
   - Exemplo Completo: Máquina e Computação
@@ -26,6 +28,8 @@
   - Padrão
   - Exemplo Completo: Fechando a Solução
   - Aceitação
+  - Intuição da Construção
+  - Funcionamento
 - **PCP Modificado (MPCP)**
   - MPCP
   - Relação entre MPCP e PCP
@@ -39,9 +43,7 @@
   - Definição
   - Teorema
   - Esboço da Prova (Redução de PCP)
-  - Equivalência de GLCs
   - Teorema
-  - Prova (Esboço)
   - Contraste
 - **Resumo: PCP**
 - **O Que Sabemos**
@@ -67,28 +69,28 @@ Ciência da Computação
 
 24 de abril de 2026
 
-The logo of the Escola Politécnica of PUCRS, featuring a shield with a star and the text "PUCRS" and "ESCOLA POLITÉCNICA".
+The logo of the Escola Politécnica of PUCRS, featuring a crest with a star and the text "PUCRS" and "ESCOLA POLITÉCNICA".
 
 Logo of ESCOLA POLITÉCNICA PUCRS
 
 {1}------------------------------------------------
 ## Sumário
 
-**1** Problema da Correspondência de Post
+- 1** Problema da Correspondência de Post
 
-**2** Aplicações e Consequências
+- 2** Aplicações e Consequências
 
-**3** Exercícios
+- 3** Exercícios
 
-The image is a large, light gray watermark of the Brazilian coat of arms. It features a central shield with a green field containing a white five-pointed star and a gold field containing a white cross. The shield is flanked by two crossed keys (the keys of St. Peter) and topped by a crown. A ribbon at the bottom contains the motto 'AD VERVM DVCIT'.
+Faded watermark of a coat of arms featuring a papal tiara, crossed keys, and a shield with a star and floral elements. A ribbon at the bottom contains the Latin text "AD VERVM DVCIT".
 
-Coat of arms of Brazil
+Coat of arms of the Holy See (Vatican City) with the motto 'AD VERVM DVCIT'
 
 {2}------------------------------------------------
 
-<!-- IMAGE_DESCRIPTION: datalab-fb15f15a7d964c8490c9317e43e40c1a_img.jpg -->
+<!-- IMAGE_DESCRIPTION: datalab-cb00037bd3b3af9720d5551ad2f818dd_img.jpg -->
 <!-- Tipo: generico -->
-> **[Descrição de imagem]** Faint watermark of the University of São Paulo (USP) coat of arms, featuring a shield with a star and the motto 'AD VERVM DVCT'.
+> **[Descrição de imagem]** Coat of arms of the Holy See (Vatican City) with the motto 'AD VERVM DVCIT'
 <!-- /IMAGE_DESCRIPTION -->
 ## Introdução ao PCP
 ## Problema da Correspondência de Post (PCP)
@@ -110,7 +112,7 @@ O PCP é frequentemente usado como “ponto de partida” para reduções, espec
 
 **Entrada:** Uma coleção de **dominós** (pares de strings):
 
-$$\left\{ \left[ \frac{t_1}{b_1} \right], \left[ \frac{t_2}{b_2} \right], \dots, \left[ \frac{t_k}{b_k} \right] \right\}$$
+$$\left\{ \left[ \begin{array}{c} t_1 \\ b_1 \end{array} \right], \left[ \begin{array}{c} t_2 \\ b_2 \end{array} \right], \dots, \left[ \begin{array}{c} t_k \\ b_k \end{array} \right] \right\}$$
 
 onde  $t_i$  é o “topo” e  $b_i$  é a “base” do  $i$ -ésimo dominó.
 
@@ -146,35 +148,19 @@ Erro...
 Erro...
 
 {5}------------------------------------------------
-
-Problema da Correspondência de Post
-Aplicações e Consequências
-Exercícios
-Referências
-
-○ ○ ● ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○
-○ ○ ○ ○
-○ ○ ○
-
-# Exemplo de Instância de PCP (contd.)
-
-**Instância**
+### Exemplo de Instância de PCP (contd.)
+#### Instância
 
 | Dominó 1       | Dominó 2       | Dominó 3       |
 |----------------|----------------|----------------|
 | $\frac{b}{ca}$ | $\frac{a}{ab}$ | $\frac{ca}{a}$ |
-
-**Solução: sequência 2, 1, 3, 2, 1**
+## Solução: sequência 2, 1, 3, 2, 1
 
 - Topos:  $a \cdot b \cdot ca \cdot a \cdot b = abcaab$
 - Bases:  $ab \cdot ca \cdot a \cdot ab = abcaab \checkmark$
+#### Observação
 
-**Observação**
-
-Encontrar soluções pode ser "difícil" e, para algumas instâncias, **não existe solução**.
-
-Prof. Anderson R. P. Domingues
-PCP      6 / 26
+Encontrar soluções pode ser “difícil” e, para algumas instâncias, **não existe solução.**
 
 {6}------------------------------------------------
 ### Exemplo de Instância de PCP sem Solução
@@ -183,7 +169,7 @@ PCP      6 / 26
 | Dominó 1         | Dominó 2         |
 |------------------|------------------|
 | $\frac{ab}{aba}$ | $\frac{bab}{ab}$ |
-### Análise
+## Análise
 
 - Dominó 1: topo tem 2 símbolos, base tem 3
 - Dominó 2: topo tem 3 símbolos, base tem 2
@@ -227,35 +213,29 @@ $$\text{topo} = \#C_0\#C_1\#\dots\#C_{t-1}\# \quad \text{base} = \#C_0\#C_1\#\do
 - A base fica uma configuração à frente; se  $C_t$  é aceitante, dominós especiais permitem ao topo consumir esse último sufixo.
 
 {9}------------------------------------------------
+### Famílias de Dominós na Prova
+#### ■ Inicial:
 
-Problema da Correspondência de Post  $\circ\circ\circ\circ\circ\circ\circ\bullet\circ\circ\circ\circ\circ\circ\circ\circ$ 
-Aplicações e Consequências  $\circ\circ\circ\circ$ 
-Exercícios  $\circ\circ\circ$ 
-Referências
+$$\left[ \frac{\#}{\#q_0w\#} \right]$$
+#### ■ Cópia:
 
-# Famílias de Dominós na Prova
-
-- Inicial:**
-
-$$\left[ \frac{\#}{\# q_0 w \#} \right]$$
-- Cópia:**
-
-$\left[ \frac{a}{a} \right]$ 
- $a \in \Gamma \cup \{\#\}$
-- Transição à direita:**
+$$\left[ \frac{a}{a} \right] \quad a \in \Gamma \cup \{\#\}$$
+#### ■ Transição à direita:
 
 $$\delta(q, a) = (r, b, R) \Rightarrow \left[ \frac{qa}{br} \right]$$
-- Para movimento à esquerda, usa-se uma família um pouco maior para também copiar o vizinho à esquerda.**
 
-Image: Coat of arms watermark with the text 'AD VERUM DUCIT'
+- Para movimento à esquerda, usa-se uma família um pouco maior para também copiar o vizinho à esquerda.
 
-Prof. Anderson R. P. Domingues
-PCP
-10 / 26
+Coat of arms of the University of Coimbra, featuring a shield with a crown on top, crossed keys, and a banner at the bottom reading 'D V E R V M D V C I T'.
 
 {10}------------------------------------------------
+
+<!-- IMAGE_DESCRIPTION: datalab-bd8e3fb102fd14e1edbc62f149241842_img.jpg -->
+<!-- Tipo: generico -->
+> **[Descrição de imagem]** Coat of arms of the University of Coimbra, featuring a shield with a crown on top, crossed keys, and a banner at the bottom reading 'D V E R V M D V C I T'.
+<!-- /IMAGE_DESCRIPTION -->
 ### Famílias de Dominós na Prova (cont.)
-### Dominós de Aceitação
+#### Dominós de Aceitação
 
 Quando  $q_{acc}$  aparece, usamos dominós que apagam os símbolos ao redor desse estado:
 
@@ -335,20 +315,33 @@ $$X1q_{acc}\# \implies Xq_{acc}\# \implies q_{acc}\# \implies \#$$
 
 Assim, o topo consome o sufixo aceitante que faltava, e a solução codifica exatamente
 
-$$\#q_001\# \vdash \#Xq_11\# \vdash \#X1q_{acc}\#.$$
+$$\#q_01\# \vdash \#Xq_11\# \vdash \#X1q_{acc}\#.$$
 
 {15}------------------------------------------------
+### Intuição da Construção
+
+Topo: #
+
+Base:  $\#q_0w\#$
+
+O topo “corre atrás”  
+→ da base
+### Funcionamento
+
+- A base sempre está “na frente” do topo
+- Dominós de transição fazem a base avançar simulando  $M$
+- Se  $M$  aceita, dominós especiais permitem o topo “alcançar” a base
+- Se  $M$  não aceita, o topo nunca alcança a base
 
 {16}------------------------------------------------
 ## PCP Modificado (MPCP)
 ### MPCP
 
-Versão do PCP onde o primeiro dominó da sequência deve ser o dominó 1.
+Versão do PCP onde o primeiro dominó da sequéncia deve ser o dominó 1.
 ### Relação entre MPCP e PCP
 
-1  $A_{TM} \leq_m MPCP$  (mais fácil de provar)
-
-2  $MPCP \leq_m PCP$  (redução técnica)
+- 1  $A_{TM} \leq_m MPCP$  (mais fácil de provar)
+- 2  $MPCP \leq_m PCP$  (redução técnica)
 
 Logo,  $A_{TM} \leq_m PCP$ , e PCP é indecidível.
 ### Redução MPCP $\rightarrow$ PCP
@@ -403,11 +396,11 @@ Dada instância do PCP com dominós  $\{(t_i, b_i)\}$ :
 - A união  $G = G_t \cup G_b$  é ambígua  $\iff$  PCP tem solução
 
 {20}------------------------------------------------
-### Equivalência de GLCs
+#### Equivalência de GLCs
 ### Teorema
 
 O problema de decidir se duas GLCs  $G_1$  e  $G_2$  geram a mesma linguagem é **indecidível**.
-### Prova (Esboço)
+#### Prova (Esboço)
 
 - Se pudéssemos decidir equivalência, poderíamos decidir se  $L(G) = \Sigma^*$
 - Isso reduziria o PCP (ou  $A_{TM}$ )
@@ -429,68 +422,18 @@ Para linguagens **regulares**, equivalência É decidível (minimização de aut
 
 Para cada instância do PCP, encontre uma solução ou argumente por que não existe:
 
-- 1 Dominós:  $\left[ \frac{ab}{a} \right], \left[ \frac{a}{ab} \right], \left[ \frac{b}{b} \right]$
-- 2 Dominós:  $\left[ \frac{aa}{a} \right], \left[ \frac{bb}{b} \right]$
-- 3 Dominós:  $\left[ \frac{ab}{abb} \right], \left[ \frac{ba}{a} \right], \left[ \frac{a}{bab} \right]$
-- 4 Dominós:  $\left[ \frac{1}{111} \right], \left[ \frac{10}{0} \right], \left[ \frac{01}{1} \right]$
+- 1 Dominós:  $\left[ \frac{ab}{a} \right]$ ,  $\left[ \frac{a}{ab} \right]$ ,  $\left[ \frac{b}{b} \right]$
+- 2 Dominós:  $\left[ \frac{aa}{a} \right]$ ,  $\left[ \frac{bb}{b} \right]$
+- 3 Dominós:  $\left[ \frac{ab}{abb} \right]$ ,  $\left[ \frac{ba}{a} \right]$ ,  $\left[ \frac{a}{bab} \right]$
+- 4 Dominós:  $\left[ \frac{1}{111} \right]$ ,  $\left[ \frac{10}{0} \right]$ ,  $\left[ \frac{01}{1} \right]$
 
-The image shows the coat of arms of the University of São Paulo (USP). It features a shield with a central star, flanked by two vertical panels containing stylized trees. Above the shield is a crown and two crossed scepters. A banner at the bottom reads "AD VERVM DVCIT".
+The image shows the coat of arms of the University of São Paulo (USP). It features a shield with a central panel containing a stylized 'M' and 'U' monogram, flanked by two panels with a repeating pattern of small crosses. Above the shield is a crown, and below it is a banner with the Latin motto 'AD VERVM DVCT'. The shield is supported by two figures, likely representing the university's history and values.
 
 Coat of arms of the University of São Paulo (USP)
 
 {23}------------------------------------------------
 
-<!-- IMAGE_DESCRIPTION: datalab-b6cb8677b4ffb35c6468fa5c24091bff_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-63ae75eedbc0eeea2efd2ee19c2fbc7d_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-7898f899fb291b02fbb353e0337c5514_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-911a4f4b97be8e1dcf81e58b080dc0e2_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-9cc5ec27db4e35a26008bce9b9cd0bc8_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-9b77845519ed6ce33bab327fe59ace1c_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-9911cc821dddfed7079ce56cbb907c9e_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-9642ee15d719705144037077981aaa99_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-4ca62688976b4bef770a81683f9d9eef_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-f254a67565344d514e13763a4e556a70_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-966c4b9785d85823782a007f3ecec1a7_img.jpg -->
+<!-- IMAGE_DESCRIPTION: datalab-0ab720844e454afef91e5d68f4ab8ad9_img.jpg -->
 <!-- Tipo: generico -->
 > **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
 <!-- /IMAGE_DESCRIPTION -->
@@ -522,28 +465,8 @@ Coat of arms of the University of São Paulo (USP)
 
 Descrições preservadas para imagens detectadas no documento, mas sem referência markdown compatível no corpo principal.
 
-<!-- IMAGE_DESCRIPTION: datalab-29f586959675cafdf81cf934954908eb_img.jpg -->
+<!-- IMAGE_DESCRIPTION: datalab-1d7527f4316cfe2d342b08d1653d1592_img.jpg -->
 <!-- Tipo: generico -->
-> **[Descrição de imagem]** Diagram of a Deterministic Finite Automaton (DFA) with three states: q0, q1, and q2.
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-86b4670fc1a5a694821ee92b99c1209a_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Diagram of a Pushdown Automaton (PDA) for the language {0^n 1^n : n ≥ 0}.
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-875c6f4f441fdd3ca7e1908fd1582983_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Diagrama da Hierarquia de Chomsky mostrando a inclusão entre classes de linguagens.
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-c036e2540a94b31357ceb0002f0cacab_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Diagrama da hierarquia das linguagens de Chomsky, mostrando cinco níveis concêntricos de complexidade crescente.
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-fa6c61be003dfbb4ca5587e48a71de94_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Logo of PUCRS (Pontifícia Universidade Católica do Rio Grande do Sul)
+> **[Descrição de imagem]** Logo of ESCOLA POLITÉCNICA PUCRS
 <!-- /IMAGE_DESCRIPTION -->
 <!-- /IMAGE_DESCRIPTION_ORPHANS -->

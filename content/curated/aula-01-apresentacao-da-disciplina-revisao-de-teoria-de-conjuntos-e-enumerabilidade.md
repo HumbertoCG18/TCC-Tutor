@@ -85,71 +85,48 @@ POLITÉCNICA
 {1}------------------------------------------------
 ## Sumário
 
-**1** Professor
+- 1 Professor
+- 2 Disciplina
+- 3 Teoria de Conjuntos
+- 4 Exercícios
 
-**2** Disciplina
-
-**3** Teoria de Conjuntos
-
-**4** Exercícios
-
-The image is a large, light gray watermark of the Coat of Arms of the University of São Paulo (USP). It features a central shield with a vertical band containing a monogram, flanked by two vertical panels with a pine tree pattern. Above the shield is a crown and two crossed keys. A banner at the bottom reads 'AD VERVM DVCIT'.
+The image is a large, light gray watermark of the coat of arms of the University of São Paulo (USP). It features a shield with a central vertical band containing a stylized 'M' and a star. The shield is flanked by two crossed keys (the keys of St. Peter) and topped by a crown. A banner at the bottom of the shield contains the Latin motto 'AD VERVM DVCT'.
 
 Coat of arms of the University of São Paulo (USP)
 
 {2}------------------------------------------------
 
-<!-- IMAGE_DESCRIPTION: datalab-b6cb8677b4ffb35c6468fa5c24091bff_img.jpg -->
+<!-- IMAGE_DESCRIPTION: datalab-8c378a184b5ae4d1605cb74d7b7a7e3f_img.jpg -->
 <!-- Tipo: generico -->
 > **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
 <!-- /IMAGE_DESCRIPTION -->
 
-<!-- IMAGE_DESCRIPTION: datalab-63ae75eedbc0eeea2efd2ee19c2fbc7d_img.jpg -->
+<!-- IMAGE_DESCRIPTION: datalab-5549f7bbf28f047575f40f7da371a217_img.jpg -->
 <!-- Tipo: generico -->
 > **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
 <!-- /IMAGE_DESCRIPTION -->
 
-<!-- IMAGE_DESCRIPTION: datalab-7898f899fb291b02fbb353e0337c5514_img.jpg -->
+<!-- IMAGE_DESCRIPTION: datalab-0adfe2c1a73ed4d130777d83dd16321d_img.jpg -->
 <!-- Tipo: generico -->
 > **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
 <!-- /IMAGE_DESCRIPTION -->
 
-<!-- IMAGE_DESCRIPTION: datalab-911a4f4b97be8e1dcf81e58b080dc0e2_img.jpg -->
+<!-- IMAGE_DESCRIPTION: datalab-4cfefefc761d19fccc2f5ee84a57a895_img.jpg -->
 <!-- Tipo: generico -->
 > **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
 <!-- /IMAGE_DESCRIPTION -->
 
-<!-- IMAGE_DESCRIPTION: datalab-9cc5ec27db4e35a26008bce9b9cd0bc8_img.jpg -->
+<!-- IMAGE_DESCRIPTION: datalab-344b61635f2d962dbbb8ed925c8c8d48_img.jpg -->
 <!-- Tipo: generico -->
 > **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
 <!-- /IMAGE_DESCRIPTION -->
 
-<!-- IMAGE_DESCRIPTION: datalab-9b77845519ed6ce33bab327fe59ace1c_img.jpg -->
+<!-- IMAGE_DESCRIPTION: datalab-5756508641ee599941f6d1e85de7e84b_img.jpg -->
 <!-- Tipo: generico -->
 > **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
 <!-- /IMAGE_DESCRIPTION -->
 
-<!-- IMAGE_DESCRIPTION: datalab-9911cc821dddfed7079ce56cbb907c9e_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-9642ee15d719705144037077981aaa99_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-4ca62688976b4bef770a81683f9d9eef_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-f254a67565344d514e13763a4e556a70_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-966c4b9785d85823782a007f3ecec1a7_img.jpg -->
+<!-- IMAGE_DESCRIPTION: datalab-513b2f88e0edcd2ffb6b7cf54f465d06_img.jpg -->
 <!-- Tipo: generico -->
 > **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
 <!-- /IMAGE_DESCRIPTION -->
@@ -191,7 +168,7 @@ Coat of arms of the University of São Paulo (USP)
 
 <sup>2</sup><https://moodle.pucrs.br/>
 
-<sup>3</sup>[https://www.planalto.gov.br/ccivil\\_03/leis/2003/l110.695.htm](https://www.planalto.gov.br/ccivil_03/leis/2003/l110.695.htm)
+<sup>3</sup>[https://www.planalto.gov.br/ccivil\\_03/leis/2003/110.695.htm](https://www.planalto.gov.br/ccivil_03/leis/2003/110.695.htm)
 
 {4}------------------------------------------------
 ## Teoria da Computabilidade e Complexidade
@@ -199,11 +176,6 @@ Coat of arms of the University of São Paulo (USP)
 - **Objetivo:** Estudar os limites fundamentais da computação
 - O que pode ser computado? (Computabilidade)
 - Quão eficientemente pode ser computado? (Complexidade)
-
-<!-- IMAGE_DESCRIPTION: datalab-c036e2540a94b31357ceb0002f0cacab_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Diagrama da hierarquia das linguagens de Chomsky, mostrando cinco níveis concêntricos de complexidade crescente.
-<!-- /IMAGE_DESCRIPTION -->
 ## Questões Fundamentais
 
 - Existem problemas que **nenhum** computador pode resolver?
@@ -230,16 +202,6 @@ The image is a large, light gray watermark of the coat of arms of the University
 Coat of arms of the University of São Paulo (USP)
 
 {6}------------------------------------------------
-
-<!-- IMAGE_DESCRIPTION: datalab-875c6f4f441fdd3ca7e1908fd1582983_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Diagrama da Hierarquia de Chomsky mostrando a inclusão entre classes de linguagens.
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-fb15f15a7d964c8490c9317e43e40c1a_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Faint watermark of the University of São Paulo (USP) coat of arms, featuring a shield with a star and the motto 'AD VERVM DVCT'.
-<!-- /IMAGE_DESCRIPTION -->
 ## Bibliografia
 ### Bibliografia da Disciplina, livros principais
 
@@ -249,6 +211,8 @@ Coat of arms of the University of São Paulo (USP)
 
 - ROSEN, KENNETH H., *Discrete Mathematics Applications*. 8th ed. McGraw-Hill, 2019.
 - <sup>4</sup>HOPCROFT, J.; MOTWANI, R.; ULLMAN, J. *Introduction to Automata Theory, Languages, and Computation*. 3rd ed. Pearson, 2006.
+
+---
 
 <sup>4</sup>Disciplina de Ling. Formais e Autônomatos
 
@@ -361,13 +325,28 @@ Diagram of an injective function (one-to-one). Set A has 3 elements and set B ha
 
 Sobrejetora
 
-Diagram of a surjective function (onto). Set A has 5 elements and set B has 4 elements. Every element in B is mapped to by at least one element in A. One element in A is not mapped to any element in B.
+Diagram of a surjective function (onto). Set A has 5 elements and set B has 4 elements. Every element in B is mapped to by at least one element in A. One element in A is mapped to two elements in B.
 
 Bijetora
 
 Diagram of a bijective function (one-to-one and onto). Set A has 4 elements and set B has 4 elements. Every element in A is mapped to a unique element in B, and every element in B is mapped to by exactly one element in A.
 
 {13}------------------------------------------------
+
+<!-- IMAGE_DESCRIPTION: datalab-5dfc130b129ace4df375839020a5700d_img.jpg -->
+<!-- Tipo: generico -->
+> **[Descrição de imagem]** Diagram of an injective function (one-to-one).
+<!-- /IMAGE_DESCRIPTION -->
+
+<!-- IMAGE_DESCRIPTION: datalab-3376375fe7236a570fd0ee9448d9c4ee_img.jpg -->
+<!-- Tipo: generico -->
+> **[Descrição de imagem]** Diagram of a surjective function (onto).
+<!-- /IMAGE_DESCRIPTION -->
+
+<!-- IMAGE_DESCRIPTION: datalab-ea37ab05b033e59cfdf7b074161aaf5a_img.jpg -->
+<!-- Tipo: generico -->
+> **[Descrição de imagem]** Diagram of a bijective function (one-to-one and onto).
+<!-- /IMAGE_DESCRIPTION -->
 ## Relações
 ### Definição
 
@@ -450,19 +429,14 @@ Argumento da Diagonalização de Cantor: provando que  $\mathbb{R}$  é **incont
 
 Dados  $A = \{1, 2, 3, 4\}$  e  $B = \{3, 4, 5, 6\}$ , determine:
 
-**1**  $A \cup B$
+- 1  $A \cup B$
+- 2  $A \cap B$
+- 3  $A - B$
+- 4  $B - A$
+- 5  $A \times B$  (apenas os pares onde ambos são ímpares)
+- 6  $|\mathcal{P}(A \cap B)|$
 
-**2**  $A \cap B$
-
-**3**  $A - B$
-
-**4**  $B - A$
-
-**5**  $A \times B$  (apenas os pares onde ambos são ímpares)
-
-**6**  $|\mathcal{P}(A \cap B)|$
-
-The image is a large, faint watermark of the coat of arms of the University of São Paulo (USP) on the right side of the slide. It features a shield with a central vertical band containing a stylized 'M' and 'U' monogram, flanked by two vertical bands with a repeating cross pattern. Above the shield is a crown, and below it is a ribbon with the motto 'AD VERVM DVCIT'.
+The image shows the coat of arms of the University of São Paulo (USP). It features a shield with a central vertical band containing a stylized 'M' and 'U' monogram. The shield is flanked by two crossed keys (the keys of St. Peter) and topped by a crown. A banner at the bottom of the shield reads 'AD VERVM DVCIT'.
 
 Coat of arms of the University of São Paulo (USP)
 
@@ -481,7 +455,7 @@ Para cada função abaixo, determine se é injetora, sobrejetora, ou bijetora:
 
 **5**  $q : \mathbb{N} \rightarrow \mathbb{N}, q(n) = \lfloor n/2 \rfloor$
 
-The image shows the coat of arms of the University of São Paulo (USP). It features a shield with a central vertical band containing a stylized 'M' and 'U' monogram. The shield is flanked by two crossed keys (the keys of St. Peter) and topped by a crown. A banner at the bottom of the shield reads 'AD VERVM DVCIT'.
+The image shows the coat of arms of the University of São Paulo (USP). It features a shield with a central vertical band containing a stylized 'M' and 'U' monogram. The shield is flanked by two crossed keys (the keys of St. Peter) and topped by a crown. A banner at the bottom of the shield contains the Latin motto 'AD VERVM DVCT'.
 
 Coat of arms of the University of São Paulo (USP)
 
@@ -498,7 +472,7 @@ Prove por indução matemática:
 
 4 Para todo  $n \geq 4$ :  $2^n > n^2$
 
-The image is a large, light gray watermark of the coat of arms of the University of São Paulo (USP). It features a central shield with a large five-pointed star at the bottom. The shield is flanked by two crossed keys (the keys of St. Peter) and topped by a crown. A banner at the bottom of the shield contains the Latin motto "AD VERVM DVCT".
+The image shows the coat of arms of the University of São Paulo (USP). It features a shield with a central vertical band containing a stylized 'M' and 'U' monogram. The shield is flanked by two crossed keys (the keys of St. Peter) and topped with a crown. A banner at the bottom of the shield reads 'AD VERVM DVCIT'.
 
 Coat of arms of the University of São Paulo (USP)
 
@@ -510,7 +484,7 @@ Coat of arms of the University of São Paulo (USP)
 - 3 Se  $|A| = n$ , quantos subconjuntos de  $A$  têm exatamente  $k$  elementos?
 - 4 **Desafio:** Mostre que  $|\mathbb{N} \times \mathbb{N}| = |\mathbb{N}|$  (dica: use a função de pareamento de Cantor)
 
-The image shows the coat of arms of the University of São Paulo (USP). It features a shield with a large five-pointed star in the center. The shield is flanked by two crossed flags. Above the shield is a crown. A banner at the bottom of the shield contains the Latin motto "AD VERVM DVCT".
+The image shows the coat of arms of the University of São Paulo (USP). It features a shield with a white background and a large blue star in the center. The shield is flanked by two blue lions. Above the shield is a blue crown. A blue ribbon with white text wraps around the bottom of the shield. The text on the ribbon is "AD VERVM DVCIT".
 
 Coat of arms of the University of São Paulo (USP)
 
@@ -547,13 +521,19 @@ Este paradoxo mostra que “o conjunto de todos os conjuntos” não pode existi
 {24}------------------------------------------------
 ## Referências I
 
+- ![Faint watermark of the University of São Paulo (USP) crest in the background.](feb3ba362cbead28144bd29701a8048b_img.jpg)
 - [1] Sanjeev Arora e Boaz Barak. *Computational Complexity: A Modern Approach*. Cambridge University Press, 2009.
-- [2] Ralph P. Grimaldi. *Discrete and Combinatorial Mathematics: An Applied Introduction*. 5th. Pearson, 2004.
-- [3] John E. Hopcroft, Rajeev Motwani e Jeffrey D. Ullman. *Introduction to Automata Theory, Languages, and Computation*. 3rd. Pearson, 2006.
-- [4] Christos H. Papadimitriou. *Computational Complexity*. Addison-Wesley, 1994.
-- [5] Kenneth H. Rosen. *Discrete Mathematics and Its Applications*. 8th. McGraw-Hill, 2019.
+  - [2] Ralph P. Grimaldi. *Discrete and Combinatorial Mathematics: An Applied Introduction*. 5th. Pearson, 2004.
+  - [3] John E. Hopcroft, Rajeev Motwani e Jeffrey D. Ullman. *Introduction to Automata Theory, Languages, and Computation*. 3rd. Pearson, 2006.
+  - [4] Christos H. Papadimitriou. *Computational Complexity*. Addison-Wesley, 1994.
+  - [5] Kenneth H. Rosen. *Discrete Mathematics and Its Applications*. 8th. McGraw-Hill, 2019.
 
 {25}------------------------------------------------
+
+<!-- IMAGE_DESCRIPTION: datalab-feb3ba362cbead28144bd29701a8048b_img.jpg -->
+<!-- Tipo: generico -->
+> **[Descrição de imagem]** Faint watermark of the University of São Paulo (USP) crest in the background.
+<!-- /IMAGE_DESCRIPTION -->
 ## Referências II
 
 - [6] Michael Sipser. *Introduction to the Theory of Computation*. 3rd. Cengage Learning, 2012.
@@ -568,17 +548,7 @@ Coat of arms of the University of São Paulo (USP)
 
 Descrições preservadas para imagens detectadas no documento, mas sem referência markdown compatível no corpo principal.
 
-<!-- IMAGE_DESCRIPTION: datalab-29f586959675cafdf81cf934954908eb_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Diagram of a Deterministic Finite Automaton (DFA) with three states: q0, q1, and q2.
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-86b4670fc1a5a694821ee92b99c1209a_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Diagram of a Pushdown Automaton (PDA) for the language {0^n 1^n : n ≥ 0}.
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-fa6c61be003dfbb4ca5587e48a71de94_img.jpg -->
+<!-- IMAGE_DESCRIPTION: datalab-d3294dc879b451b369c0b06f42e9b39f_img.jpg -->
 <!-- Tipo: generico -->
 > **[Descrição de imagem]** Logo of PUCRS (Pontifícia Universidade Católica do Rio Grande do Sul)
 <!-- /IMAGE_DESCRIPTION -->

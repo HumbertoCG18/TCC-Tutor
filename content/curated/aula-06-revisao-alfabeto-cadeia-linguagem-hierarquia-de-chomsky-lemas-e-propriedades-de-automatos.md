@@ -92,7 +92,7 @@ POLITÉCNICA
 - 4 Hierarquia de Chomsky
 - 5 Exercícios
 
-The image is a large, light gray watermark of the coat of arms of the University of São Paulo (USP). It features a shield with a central vertical band containing a stylized 'M' and a star. The shield is flanked by two crossed keys (the keys of St. Peter) and topped by a crown. A banner at the bottom of the shield contains the Latin motto 'AD VERVM DVCT'.
+The image is a large, light gray watermark of the coat of arms of the University of São Paulo (USP). It features a shield with a central vertical band containing a stylized 'M' and 'U' monogram, flanked by two vertical bands with a repeating cross pattern. Above the shield is a crown, and on either side are crossed keys. A banner at the bottom of the shield contains the Latin motto 'AD VERVM DVCT'.
 
 Coat of arms of the University of São Paulo (USP)
 
@@ -123,7 +123,7 @@ Coat of arms of the University of São Paulo (USP)
 > **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
 <!-- /IMAGE_DESCRIPTION -->
 
-<!-- IMAGE_DESCRIPTION: datalab-9b77845519ed6ce33bab327fe59ace1c_img.jpg -->
+<!-- IMAGE_DESCRIPTION: datalab-5dddb446832bc0d98a7265b1d79c3054_img.jpg -->
 <!-- Tipo: generico -->
 > **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
 <!-- /IMAGE_DESCRIPTION -->
@@ -134,11 +134,6 @@ Coat of arms of the University of São Paulo (USP)
 <!-- /IMAGE_DESCRIPTION -->
 
 <!-- IMAGE_DESCRIPTION: datalab-9642ee15d719705144037077981aaa99_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-4ca62688976b4bef770a81683f9d9eef_img.jpg -->
 <!-- Tipo: generico -->
 > **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
 <!-- /IMAGE_DESCRIPTION -->
@@ -289,7 +284,7 @@ $$L \subseteq \Sigma^*$$
 
 - $L_1 = \{0^n 1^n : n \geq 0\} = \{\varepsilon, 01, 0011, 000111, \dots\}$
 - $L_2 = \{w \in \{0, 1\}^* : w = w^R\}$ , palíndromos binários
-- $L_3 = \{w \in \{a, b\}^* : |w|_a = |w|_b\}$ , mesmo número de as e bs
+- $L_3 = \{w \in \{a, b\}^* : |w|_a = |w|_b\}$ , mesmo número de  $a$ s e  $b$ s
 - $L_4 = \emptyset$ , linguagem vazia
 - $L_5 = \{\varepsilon\}$ , linguagem contendo apenas a cadeia vazia
 #### Observação
@@ -354,28 +349,21 @@ O conjunto de todas as linguagens sobre  $\Sigma$  é **incontável**.
 
 Linguagens são classificadas pela “complexidade” de reconhecê-las:
 
-O diagrama ilustra a hierarquia das linguagens de Chomsky através de cinco elipses concêntricas. Cada elipse representa uma classe de linguagens, com o nome da classe inscrito dentro dela. As classes são:
+O diagrama ilustra a hierarquia das linguagens através de cinco ovais concêntricos, onde cada oval representa uma classe de linguagens e está contido dentro da classe imediatamente superior. As classes, da mais restrita para a mais abrangente, são:
 
-- Todas as Linguagens (a elipse mais externa)
-- Rekursivamente Enumeráveis
-- Rekursivas (Decidíveis)
-- Livres de Contexto
-- Regulares (a elipse mais interna)
+- Regulares (no centro, o oval mais pequeno)
+- Livres de Contexto (o segundo oval)
+- Rekursivas (Decidíveis) (o terceiro oval)
+- Rekursivamente Enumeráveis (o quarto oval)
+- Todas as Linguagens (o oval mais externo e maior)
 
-A disposição das elipses indica que cada classe é um subconjunto próprio da classe imediatamente superior, mostrando a relação de inclusão entre os tipos de linguagens.
-
-Diagrama da hierarquia das linguagens de Chomsky, mostrando cinco níveis concêntricos de complexidade crescente.
+Diagrama de hierarquia de linguagens mostrando conjuntos concêntricos de linguagens.
 
 {14}------------------------------------------------
 
 <!-- IMAGE_DESCRIPTION: datalab-c036e2540a94b31357ceb0002f0cacab_img.jpg -->
 <!-- Tipo: generico -->
-> **[Descrição de imagem]** Diagrama da hierarquia das linguagens de Chomsky, mostrando cinco níveis concêntricos de complexidade crescente.
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-875c6f4f441fdd3ca7e1908fd1582983_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Diagrama da Hierarquia de Chomsky mostrando a inclusão entre classes de linguagens.
+> **[Descrição de imagem]** Diagrama de hierarquia de linguagens mostrando conjuntos concêntricos de linguagens.
 <!-- /IMAGE_DESCRIPTION -->
 ### Problemas de Decisão como Linguagens
 ### Ideia Fundamental
@@ -416,19 +404,13 @@ Um DFA é uma 5-tupla  $M = (Q, \Sigma, \delta, q_0, F)$  onde:
 
 Linguagem: cadeias que terminam em 01
 
-$$L = \{w \in \{0, 1\}^* : w \text{ termina em } 01\}$$
+$L = \{w \in \{0, 1\}^* : w \text{ termina em } 01\}$
 
 ```
-graph LR
-    q0((q0)) -- 0 --> q1((q1))
-    q0 -- 1 --> q0
-    q1 -- 0 --> q1
-    q1 -- 1 --> q2(((q2)))
-    q2 -- 0 --> q1
-    q2 -- 1 --> q0
+graph LR; q0((q0)) -- 1 --> q0; q0 -- 0 --> q1((q1)); q1 -- 0 --> q1; q1 -- 1 --> q2(((q2))); q2 -- 0 --> q1; q2 -- 1 --> q0;
 ```
 
-Diagram of a Deterministic Finite Automaton (DFA) with three states: q0, q1, and q2. q0 is the start state, and q2 is the final state. Transitions: q0 has a self-loop on 1 and goes to q1 on 0. q1 has a self-loop on 0 and goes to q2 on 1. q2 goes to q1 on 0 and back to q0 on 1.
+Diagram of a Deterministic Finite Automaton (DFA) with three states: q0, q1, and q2. q0 is the start state, and q2 is the final state. Transitions: q0 has a self-loop on 1 and goes to q1 on 0. q1 has a self-loop on 0 and goes to q2 on 1. q2 has a self-loop on 0 and goes back to q0 on 1.
 
 - $Q = \{q_0, q_1, q_2\}, \Sigma = \{0, 1\}$
 - $q_0$ : estado inicial,  $F = \{q_2\}$
@@ -445,12 +427,12 @@ Diagram of a Deterministic Finite Automaton (DFA) with three states: q0, q1, and
 
 Um NFA é uma 5-tupla  $M = (Q, \Sigma, \delta, q_0, F)$  onde:
 
-- $\delta : Q \times (\Sigma \cup \{\varepsilon\}) \rightarrow \mathcal{P}(Q)$
+- $\delta : Q \times (\Sigma \cup \{\epsilon\}) \rightarrow \mathcal{P}(Q)$
 
 Diferenças do DFA:
 
 - $\delta$  retorna um **conjunto** de estados
-- Permite transições- $\varepsilon$  (sem consumir símbolo)
+- Permite transições- $\epsilon$  (sem consumir símbolo)
 - Aceita se **algum** caminho leva a um estado final
 #### Teorema
 
@@ -462,13 +444,13 @@ $L$  é reconhecida por NFA  $\iff L$  é reconhecida por DFA
 ## Linguagens Regulares
 #### Definição
 
-Uma linguagem é **regular** se é reconhecida por algum DFA (equivalentemente, por algum NDFA).
+Uma linguagem é **regular** se é reconhecida por algum DFA (equivalentemente, por algum NDFAs).
 ### Caracterizações Equivalentes
 
 $L$  é regular  $\iff$  qualquer uma das seguintes:
 
 - $L$  é reconhecida por um DFA
-- $L$  é reconhecida por um NDFA
+- $L$  é reconhecida por um NDFAs
 - $L$  é descrita por uma expressão regular
 - $L$  é gerada por uma gramática regular
 ### Fechamento
@@ -511,9 +493,9 @@ Pela condição 1,  $xy$  consiste apenas de 0s (pois  $|xy| \leq p$ ).
 
 Pela condição 2,  $y = 0^k$  para algum  $k > 0$ .
 
-Pela condição 3,  $xy^2z = 0^{p+k} 1^p$  deveria estar em  $L$ .
+Pela condição 3,  $xy^2z = 0^{p+k}1^p$  deveria estar em  $L$ .
 
-Mas  $0^{p+k} 1^p \notin L$  pois  $p + k \neq p$ .
+Mas  $0^{p+k}1^p \notin L$  pois  $p+k \neq p$ .
 
 Contradição! Logo  $L$  não é regular.
 
@@ -539,10 +521,10 @@ PDA's não reconhecem **linguagens sensíveis ao contexto** ou **recursivamente 
 #### Exemplo de PDA: $\{0^n 1^n : n \geq 0\}$
 
 ```
-graph LR; q0((q0)) -- "0, Z0/XZ0" --> q0; q0 -- "0, X/XX" --> q0; q0 -- "1, X/$\epsilon$" --> q1((q1)); q1 -- "1, X/$\epsilon$" --> q1; q1 -- "$\epsilon$, Z0/Z0" --> qf(((qf)));
+graph LR; q0((q0)) -- "0, Z0/XZ0" --> q0; q0 -- "0, X/XX" --> q0; q0 -- "1, X/$\epsilon$" --> q1((q1)); q1 -- "1, X/$\epsilon$" --> q1; q1 -- "$\epsilon$, Z0/Z0" --> qf(((qf)))
 ```
 
-Diagram of a Pushdown Automaton (PDA) for the language {0^n 1^n : n $\geq$ 0}. The PDA has three states: q0, q1, and qf. q0 is the start state, and qf is the final state. Transitions are: q0 has a self-loop on (0, X/Z0) and (0, X/XX); q0 transitions to q1 on (1, X/$\epsilon$); q1 has a self-loop on (1, X/$\epsilon$); q1 transitions to qf on ($\epsilon$, Z0/Z0).
+Diagram of a Pushdown Automaton (PDA) for the language {0^n 1^n : n $\geq$ 0}. The automaton has three states: q0, q1, and qf. q0 is the start state, and qf is the final state. Transitions are: q0 has a self-loop on (0, X/Z0) and (0, X/XX); q0 to q1 on (1, X/$\epsilon$); q1 has a self-loop on (1, X/$\epsilon$); q1 to qf on ($\epsilon$, Z0/Z0).
 
 <!-- IMAGE_DESCRIPTION: datalab-86b4670fc1a5a694821ee92b99c1209a_img.jpg -->
 <!-- Tipo: generico -->
@@ -582,8 +564,7 @@ A letra  $c$  marca o meio da cadeia:
 - depois de  $c$ , o PDA compara a entrada com o topo da pilha
 #### Exemplo de execução
 
-Para a cadeia  $abcba$  com marcador central, isto é,  
- $abcba = ab\ c\ ba$ :
+Para a cadeia  $abcba$  com marcador central, isto é,  $abcba = ab\ c\ ba$ :
 
 - 1 lê  $a, b$  e empilha  $a, b$
 - 2 lê  $c$  e muda para a fase de comparação
@@ -744,19 +725,25 @@ O problema da parada HALT é reconhecível mas não decidível.
 {34}------------------------------------------------
 ## Resumo: Poderes Computacionais
 
-O diagrama ilustra a hierarquia de Chomsky através de cinco ovais concêntricos, onde cada oval representa uma classe de linguagens e está contido dentro da próxima classe mais ampla. As classes, da mais restrita para a mais abrangente, são:
+O diagrama ilustra a hierarquia de Chomsky através de cinco ovais concêntricos, onde cada oval representa uma classe de linguagens e contém a classe imediatamente inferior. A partir do exterior para o interior, as classes são:
 
-- Regulares** (oval interno, cor rosa)
-- Livres de Contexto** (oval de cor vermelha)
-- Sensíveis ao Contexto** (oval de cor laranja)
-- Decidíveis (Rekursivas) (MT)** (oval de cor verde)
-- Rekursivamente Enumeráveis** (oval de cor azul)
+- Todas as Linguagens** (Oval preto mais externo)
+- Recursivamente Enumeráveis** (Oval azul)
+- Decidíveis (Recurativas) (MT)** (Oval verde)
+- Sensíveis ao Contexto** (Oval laranja)
+- Livres de Contexto** (Oval vermelho)
+- Regulares** (Oval rosa mais interno)
 
-Um sexto oval, preto, engloba todos os outros e é rotulado **Todas as Linguagens** no topo.
+As setas de inclusão implícitas indicam que: Regulares  $\subset$  Livres de Contexto  $\subset$  Sensíveis ao Contexto  $\subset$  Decidíveis (Recurativas) (MT)  $\subset$  Recursivamente Enumeráveis  $\subset$  Todas as Linguagens.
 
 Diagrama da Hierarquia de Chomsky mostrando a inclusão entre classes de linguagens.
 
 {35}------------------------------------------------
+
+<!-- IMAGE_DESCRIPTION: datalab-875c6f4f441fdd3ca7e1908fd1582983_img.jpg -->
+<!-- Tipo: generico -->
+> **[Descrição de imagem]** Diagrama da Hierarquia de Chomsky mostrando a inclusão entre classes de linguagens.
+<!-- /IMAGE_DESCRIPTION -->
 ### Exercício 1: Operações com Cadeias
 
 Seja  $\Sigma = \{a, b\}$ .
@@ -767,7 +754,7 @@ Seja  $\Sigma = \{a, b\}$ .
 - 4 Seja  $w = aba$ . Calcule  $w^0$ ,  $w^2$  e  $w^R$ .
 - 5 Explique a diferença entre  $\varepsilon$  e  $\emptyset$ .
 
-The image shows the coat of arms of the University of São Paulo (USP). It features a shield with a white background and a large blue star in the center. The shield is flanked by two blue lions. Above the shield is a blue crown. A blue ribbon with white text wraps around the bottom of the shield.
+The image is a faint, light gray watermark of the coat of arms of the University of São Paulo (USP). It features a central shield with a large five-pointed star at the bottom and a crown on top. The shield is flanked by two crossed flags. A banner at the bottom of the shield contains the Latin motto "AD VERVM DVCT".
 
 Coat of arms of the University of São Paulo (USP)
 
@@ -783,7 +770,7 @@ Sejam  $L_1 = \{a^n : n \geq 0\}$  e  $L_2 = \{b^n : n \geq 0\}$ .
 - 5 Calcule  $L_1 \cap L_2$  e explique por quê.
 - 6 Seja  $\Sigma = \{a, b\}$ . Descreva o complemento de  $L = \{w \in \Sigma^* : w \text{ contém } ab\}$ .
 
-The image is a large, faint watermark of the coat of arms of the University of São Paulo (USP) on the right side of the slide. It features a shield with a central star, flanked by two crossed keys (the keys of St. Peter), and a banner at the bottom with the motto 'AD VERVM DVCT'.
+The image is a large, faint watermark of the coat of arms of the University of São Paulo (USP). It features a central shield with a large five-pointed star at the bottom. The shield is flanked by two crossed keys (the keys of St. Peter) and topped by a crown. A banner at the bottom of the shield contains the Latin motto "AD VERVM DVCT".
 
 Coat of arms of the University of São Paulo (USP)
 
@@ -803,12 +790,14 @@ Coat of arms of the University of São Paulo (USP)
 ### Exercício 4: Autômatos Finitos
 
 - 1 Construa um DFA para  $L = \{w \in \{0, 1\}^* : w \text{ contém } 010\}$
-- 2 Construa um N DFA para  $L = \{w \in \{a, b\}^* : w \text{ termina em } ab \text{ ou } ba\}$
+- 2 Construa um N DFA para  
+ $L = \{w \in \{a, b\}^* : w \text{ termina em } ab \text{ ou } ba\}$
 - 3 Converta o DFA do item anterior em N DFA
 - 4 Construa um DFA para o complemento da linguagem do item 1
-- 5 Construa um N DFA para  $L = \{w \in \{a, b\}^* : w \text{ tem número par de } as\}$
+- 5 Construa um N DFA para  
+ $L = \{w \in \{a, b\}^* : w \text{ tem número par de } as\}$
 
-The image shows the coat of arms of the University of São Paulo (USP). It features a shield with a star in the center, surrounded by a banner that reads "AD VERVM DVCIT". Above the shield is a crest with a crown and two crossed keys. The shield is flanked by two figures, possibly representing the university's history or values.
+The image shows the coat of arms of the University of São Paulo (USP). It features a shield with a star in the center, surrounded by a banner that reads "AD VERVM DVCIT". Above the shield is a crown and two crossed flags. The shield is flanked by two figures, possibly representing the university's history or values.
 
 Coat of arms of the University of São Paulo (USP)
 
@@ -817,17 +806,14 @@ Coat of arms of the University of São Paulo (USP)
 
 **Desafio!** Use o Lema do Bombeamento para provar que as seguintes linguagens **não** são regulares:
 
-1  $L = \{a^{n^2} : n \geq 0\}$  (potências quadradas de  $a$ )
-
-2  $L = \{a^p : p \text{ é primo}\}$
-
-3  $L = \{0^n 1^m : n \neq m\}$
-
-4  $L = \{ww : w \in \{a, b\}^*\}$
+- 1  $L = \{a^{n^2} : n \geq 0\}$  (potências quadradas de  $a$ )
+- 2  $L = \{a^p : p \text{ é primo}\}$
+- 3  $L = \{0^n 1^m : n \neq m\}$
+- 4  $L = \{ww : w \in \{a, b\}^*\}$
 
 **Dica:** Para cada linguagem, escolha cuidadosamente a cadeia  $w$  a ser bombeada.
 
-The image shows the coat of arms of the University of São Paulo (USP). It features a shield with a central vertical band containing a stylized 'M' and 'U' monogram. The shield is flanked by two crossed keys (the keys of St. Peter) and topped by a crown. Below the shield is a banner with the Latin motto 'AD VERVM DVCT'.
+The image shows the coat of arms of the University of São Paulo (USP). It features a shield with a central vertical band containing a star and a banner below it with the motto 'AD VERVM DVCT'. The shield is flanked by two crossed keys (the keys of St. Peter) and topped by a crown.
 
 Coat of arms of the University of São Paulo (USP)
 
@@ -848,7 +834,7 @@ Coat of arms of the University of São Paulo (USP)
 - Sensível ao contexto mas não livre de contexto
 - Recursivamente enumerável mas não sensível ao contexto
 
-The image shows the coat of arms of the University of São Paulo (USP). It features a shield with a white background and a blue border. The shield is divided into four quadrants, each containing a blue cross. In the center of the shield is a blue star. Above the shield is a crown. The shield is flanked by two blue lions. A blue ribbon with the Latin motto 'AD VERVM DVCT' is at the bottom.
+The image is a large, faint watermark of the coat of arms of the University of São Paulo (USP) on the right side of the slide. It features a shield with a central emblem, surrounded by a banner at the bottom with the motto 'AD VERVM DVCT'.
 
 Coat of arms of the University of São Paulo (USP)
 
@@ -874,7 +860,7 @@ Justifique suas respostas.
 - 3 Explique por que um autômato finito não basta para reconhecer as linguagens dos itens anteriores.
 - 4 Um PDA poderia reconhecer  $\{a^n b^n c^n : n \geq 0\}$ ? Justifique.
 
-The image shows the coat of arms of the University of São Paulo (USP). It features a shield with a large five-pointed star in the center. Above the star is a crest with a crown and two crossed scepters. The shield is flanked by two lions. Below the shield is a banner with the Latin motto "AD VERVM DVCT".
+The image shows the coat of arms of the University of São Paulo (USP). It features a shield with a large five-pointed star in the center. Above the star is a banner with the motto 'AD VERVM DVCT'. The shield is flanked by two crossed flags, the Brazilian flag and the flag of the Empire of Brazil. Above the shield is a crown. The entire emblem is rendered in a light gray, semi-transparent style.
 
 Coat of arms of the University of São Paulo (USP)
 
@@ -889,19 +875,24 @@ Coat of arms of the University of São Paulo (USP)
 
 **Dica:** analise onde o trecho  $vxy$  pode ficar e o que acontece ao bombear com  $i = 0$  ou  $i = 2$ .
 
-The image shows the coat of arms of the University of São Paulo (USP). It features a shield with a central vertical band containing a stylized 'M' and 'U' monogram. The shield is flanked by two crossed flags. Below the shield is a banner with the Latin motto 'AD VERVM DVCT'. The entire emblem is rendered in a light gray, semi-transparent style.
+O brasão de Armas do Brasil, apresentando um escudo com uma faixa azul e branca, uma coroa imperial e uma faixa com o lema 'AD VERVM DVCIT'.
 
-Coat of arms of the University of São Paulo (USP)
+Brasão de Armas do Brasil
 
 {44}------------------------------------------------
+
+<!-- IMAGE_DESCRIPTION: datalab-4ca62688976b4bef770a81683f9d9eef_img.jpg -->
+<!-- Tipo: generico -->
+> **[Descrição de imagem]** Brasão de Armas do Brasil
+<!-- /IMAGE_DESCRIPTION -->
 ### Exercício 10: Reconhecível vs. Decidível
 
 - 1 Defina, com suas palavras, o que significa uma linguagem ser reconhecível.
 - 2 Defina o que significa uma linguagem ser decidível.
 - 3 Toda linguagem decidível é reconhecível? E o contrário? Justifique.
-- 4 Explique o significado do teorema:  $L$  é decidível  $\iff L$  e  $\bar{L}$  são reconhecíveis.
+- 4 Explique o significado do teorema:  $L$  é decidível  $\iff L \text{ e } \bar{L}$  são reconhecíveis.
 
-The image shows the coat of arms of the University of São Paulo (USP). It features a shield with a white background and a large blue star in the center. The shield is flanked by two blue lions. Above the shield is a blue crown. A blue banner at the bottom of the shield contains the Latin motto "AD VERVM DVCT".
+The image shows the coat of arms of the University of São Paulo (USP). It features a shield with a large five-pointed star in the center. The shield is flanked by two crossed keys (the keys of St. Peter). Above the shield is a crown. A banner at the bottom of the shield contains the Latin motto "AD VERVM DVCT".
 
 Coat of arms of the University of São Paulo (USP)
 
@@ -923,7 +914,7 @@ Coat of arms of the University of São Paulo (USP)
 - $L^*$
 - $L'^*$
 
-The image shows the coat of arms of the University of São Paulo (USP). It features a central shield with a white field containing a green cross and a blue star. The shield is flanked by two golden lions. Above the shield is a crown. A banner at the bottom of the shield contains the Latin motto 'AD VERVM DVCT'.
+The image is a faint, light gray watermark of the coat of arms of the University of São Paulo (USP). It features a central shield with a cross and stars, flanked by two figures holding a banner that reads "AD VERVM DVCT". Above the shield is a crown and a sunburst.
 
 Coat of arms of the University of São Paulo (USP)
 

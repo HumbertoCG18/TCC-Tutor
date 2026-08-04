@@ -32,6 +32,7 @@
   - Notação
   - Estrutura
   - Visualização da Recursão Primitiva
+  - Definição: Funções Recursivas Primitivas
   - Definição Indutiva
   - Propriedades das Funções Recursivas Primitivas
   - Exemplos
@@ -50,6 +51,7 @@
   - Desafio!
   - Exercício 4: Predicados
   - Exercício 5: Busca Limitada
+- **Definição**
   - Exercício 6: Codificação de Pares
   - Exercício 7: Função de Ackermann
 - **Importante**
@@ -72,7 +74,7 @@ Ciência da Computação
 
 25 de fevereiro de 2026
 
-The logo of PUCRS, featuring a shield with a cross and a star, and the text "PUCRS" below it.
+The logo of PUCRS, featuring a shield with a cross and a star, and the text 'PUCRS' below it.
 
 Logo of PUCRS (Pontifícia Universidade Católica do Rio Grande do Sul)
 
@@ -88,63 +90,23 @@ POLITÉCNICA
 - 4 Exemplos de Funções Recursivas Primitivas
 - 5 Exercícios
 
-The image is a large, light gray watermark of the coat of arms of the University of São Paulo (USP). It features a shield with a central vertical band containing a stylized 'M' and a star. The shield is flanked by two crossed keys (the keys of St. Peter) and topped with a crown. A banner at the bottom reads 'AD VERVM DVCIT'.
+The image is a faded, light gray watermark of the official coat of arms of the University of São Paulo (USP). It features a shield with a central vertical band containing a stylized 'M' and 'U' monogram, flanked by two vertical bands with a repeating cross pattern. Above the shield is a crown, and on either side are crossed keys. A banner at the bottom of the shield contains the Latin motto 'AD VERVM DVCT'.
 
 Coat of arms of the University of São Paulo (USP)
 
 {2}------------------------------------------------
 
-<!-- IMAGE_DESCRIPTION: datalab-b6cb8677b4ffb35c6468fa5c24091bff_img.jpg -->
+<!-- IMAGE_DESCRIPTION: datalab-317e0525ef1b2458976c246876f4a948_img.jpg -->
 <!-- Tipo: generico -->
 > **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
 <!-- /IMAGE_DESCRIPTION -->
 
-<!-- IMAGE_DESCRIPTION: datalab-63ae75eedbc0eeea2efd2ee19c2fbc7d_img.jpg -->
+<!-- IMAGE_DESCRIPTION: datalab-c092f712a80ce3310c5e29d0fa0e454a_img.jpg -->
 <!-- Tipo: generico -->
 > **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
 <!-- /IMAGE_DESCRIPTION -->
 
-<!-- IMAGE_DESCRIPTION: datalab-7898f899fb291b02fbb353e0337c5514_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-911a4f4b97be8e1dcf81e58b080dc0e2_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-9cc5ec27db4e35a26008bce9b9cd0bc8_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-9b77845519ed6ce33bab327fe59ace1c_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-9911cc821dddfed7079ce56cbb907c9e_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-9642ee15d719705144037077981aaa99_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-4ca62688976b4bef770a81683f9d9eef_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-f254a67565344d514e13763a4e556a70_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-966c4b9785d85823782a007f3ecec1a7_img.jpg -->
+<!-- IMAGE_DESCRIPTION: datalab-6d725ca4169920a6fb14e9c251a09102_img.jpg -->
 <!-- Tipo: generico -->
 > **[Descrição de imagem]** Coat of arms of the University of São Paulo (USP)
 <!-- /IMAGE_DESCRIPTION -->
@@ -194,16 +156,6 @@ Definir uma classe de funções computáveis através de:
 - 3 **Funções Recursivas (Totais)** — recursivas parciais que são totais; cada entrada possui um valor de saída correspondente
 
 {5}------------------------------------------------
-
-<!-- IMAGE_DESCRIPTION: datalab-c036e2540a94b31357ceb0002f0cacab_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Diagrama da hierarquia das linguagens de Chomsky, mostrando cinco níveis concêntricos de complexidade crescente.
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-875c6f4f441fdd3ca7e1908fd1582983_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Diagrama da Hierarquia de Chomsky mostrando a inclusão entre classes de linguagens.
-<!-- /IMAGE_DESCRIPTION -->
 ### Domínio das Funções
 ### Convenção
 
@@ -324,12 +276,10 @@ Sejam  $g : \mathbb{N}^k \rightarrow \mathbb{N}$  e  $h : \mathbb{N}^{k+2} \righ
 
 A função  $f : \mathbb{N}^{k+1} \rightarrow \mathbb{N}$  definida por **recursão primitiva** a partir de  $g$  e  $h$  é:
 
-$$f(x_1, \dots, x_k, 0) = g(x_1, \dots, x_k)$$
-
-$$f(x_1, \dots, x_k, y + 1) = h(x_1, \dots, x_k, y, f(x_1, \dots, x_k, y))$$
+$$\begin{aligned}f(x_1, \dots, x_k, 0) &= g(x_1, \dots, x_k) \\f(x_1, \dots, x_k, y + 1) &= h(x_1, \dots, x_k, y, f(x_1, \dots, x_k, y))\end{aligned}$$
 ### Notação
 
-$f = \text{Rec}[g, h]$  ou  $f = \rho(g, h)$
+$$f = \text{Rec}[g, h] \text{ ou } f = \rho(g, h)$$
 ### Estrutura
 
 - $g$  define o **caso base** (quando o último argumento é 0)
@@ -352,12 +302,12 @@ $$\begin{array}{c}
  f(\vec{x}, n) = h(\vec{x}, n-1, f(\vec{x}, n-1))
  \end{array}$$
 
-The image shows the official coat of arms of the University of São Paulo (USP). It features a shield with a central panel containing a stylized 'M' and 'U' monogram, flanked by two panels with a cross pattern. Above the shield is a crown, and below it is a banner with the Latin motto 'AD VERVM DVCT'. The shield is supported by two figures, likely representing the university's history and values.
+The image shows the coat of arms of the University of São Paulo (USP). It features a shield with a central panel containing a stylized 'M' and 'U' monogram, flanked by two panels with a cross pattern. Above the shield is a crown, and below it is a banner with the Latin motto 'AD VERVM DVCT'. The shield is supported by two figures, likely representing the university's history and values.
 
 Coat of arms of the University of São Paulo (USP)
 
 {13}------------------------------------------------
-#### Definição: Funções Recursivas Primitivas
+### Definição: Funções Recursivas Primitivas
 ### Definição Indutiva
 
 O conjunto das **funções recursivas primitivas** é o menor conjunto de funções que:
@@ -398,12 +348,12 @@ As funções recursivas primitivas não podem expressar todas as funções compu
 $$\text{add}(x, y) = x + y$$
 ##### Construção por Recursão Primitiva
 
-$$\begin{aligned}\text{add}(x, 0) &= x = P_1^1(x) \\ \text{add}(x, y + 1) &= \text{add}(x, y) + 1 = S(P_3^3(x, y, \text{add}(x, y)))\end{aligned}$$
+$$\begin{aligned} \text{add}(x, 0) &= x = P_1^1(x) \\ \text{add}(x, y + 1) &= \text{add}(x, y) + 1 = S(P_3^3(x, y, \text{add}(x, y))) \end{aligned}$$
 
-$$\text{Portanto: } \text{add} = \text{Rec}[P_1^1, S \circ P_3^3]$$
+Portanto:  $\text{add} = \text{Rec}[P_1^1, S \circ P_3^3]$
 ##### Verificação: $\text{add}(2, 3)$
 
-$$\begin{aligned}\text{add}(2, 0) &= 2 \\ \text{add}(2, 1) &= S(\text{add}(2, 0)) = S(2) = 3 \\ \text{add}(2, 2) &= S(\text{add}(2, 1)) = S(3) = 4 \\ \text{add}(2, 3) &= S(\text{add}(2, 2)) = S(4) = 5\checkmark\end{aligned}$$
+$$\begin{aligned} \text{add}(2, 0) &= 2 \\ \text{add}(2, 1) &= S(\text{add}(2, 0)) = S(2) = 3 \\ \text{add}(2, 2) &= S(\text{add}(2, 1)) = S(3) = 4 \\ \text{add}(2, 3) &= S(\text{add}(2, 2)) = S(4) = 5\checkmark \end{aligned}$$
 
 {16}------------------------------------------------
 #### Exemplo 2: Multiplicação
@@ -553,7 +503,7 @@ $$\text{quo}(x + 1, y) = \text{quo}(x, y) + \text{eq}(\text{rem}(x + 1, y), 0)$$
 Ideia: incrementa o quociente quando o resto volta a zero.
 ##### Resto da Divisão
 
-$\text{rem}(x, y) =$  resto de  $x$  dividido por  $y$  (para  $y > 0$ )
+$\text{rem}(x, y) = \text{resto de } x \text{ dividido por } y$  (para  $y > 0$ )
 
 $$\text{rem}(0, y) = 0$$
 
@@ -610,6 +560,7 @@ $$\forall_{i \leq y} P(\vec{x}, i) \quad \text{e} \quad \exists_{i \leq y} P(\ve
 ### Construção
 
 $$\forall_{i \leq y} P(\vec{x}, i) = \prod_{i=0}^y P(\vec{x}, i)$$
+
 $$\exists_{i \leq y} P(\vec{x}, i) = \text{sg} \left( \sum_{i=0}^y P(\vec{x}, i) \right)$$
 ## Importante
 
@@ -635,15 +586,26 @@ Veremos que as funções recursivas primitivas **não** capturam todas as funç�
 
 Calcule:
 
-- 1  $Z(100)$
-- 2  $S(S(S(0)))$
-- 3  $P_2^4(3, 7, 2, 9)$
-- 4  $P_3^3(5, 5, 5)$
-- 5  $(S \circ S \circ Z)(42)$
+1  $Z(100)$
 
-Coat of arms of Brazil, featuring a shield with a star, a banner reading 'AD VERVM DVCIT', and a crown on top.
+2  $S(S(S(0)))$
+
+3  $P_2^4(3, 7, 2, 9)$
+
+4  $P_3^3(5, 5, 5)$
+
+5  $(S \circ S \circ Z)(42)$
+
+The image is a faint, light gray watermark of the Coat of Arms of Brazil. It features a central shield with a green field containing a white five-pointed star and a gold field containing a white cross. The shield is surmounted by a crown and flanked by two crossed keys. A ribbon at the bottom contains the motto 'AD VERVM DVCIT'.
+
+Coat of arms of Brazil
 
 {29}------------------------------------------------
+
+<!-- IMAGE_DESCRIPTION: datalab-3546076e7ee10158ef88aad5f9a6f053_img.jpg -->
+<!-- Tipo: generico -->
+> **[Descrição de imagem]** Coat of arms of Brazil
+<!-- /IMAGE_DESCRIPTION -->
 ### Exercício 2: Construções por Composição
 
 Expresse as seguintes funções usando apenas  $Z$ ,  $S$ ,  $P_i^k$  e composição:
@@ -654,7 +616,7 @@ Expresse as seguintes funções usando apenas  $Z$ ,  $S$ ,  $P_i^k$  e composi�
 - 4  $k(x, y, z) = x + 2$  (ignorando  $y$  e  $z$ )
 - 5  $m(x) = x$  (função identidade)
 
-The image shows the coat of arms of the University of São Paulo (USP). It features a shield with a large five-pointed star in the center. The shield is flanked by two crossed keys (the keys of St. Peter) and topped by a crown. A banner at the bottom of the shield contains the Latin motto "AD VERVM DVCT".
+The image is a faint, light gray watermark of the coat of arms of the University of São Paulo (USP). It features a central shield with a large five-pointed star at the bottom. The shield is flanked by two crossed keys (the keys of St. Peter) and topped by a crown. A banner at the bottom of the shield contains the Latin motto "AD VERVM DVCT".
 
 Coat of arms of the University of São Paulo (USP)
 
@@ -664,14 +626,13 @@ Coat of arms of the University of São Paulo (USP)
 Mostre que as seguintes funções são recursivas primitivas, dando explicitamente  $g$  e  $h$  na definição  $f = \text{Rec}[g, h]$ :
 
 - 1  $f(x, y) = x + 2y$
-- 2  $f(x, y) = x^2 + y$  (dica: assumo que  $x^2$  é recursiva primitiva)
+- 2  $f(x, y) = x^2 + y$  (dica: assuma que  $x^2$  é recursiva primitiva)
 - 3  $f(n) = 2^n$
 - 4  $f(n) = n \cdot (n + 1)$
 ### Desafio!
 
 - 1 Fibonacci:  $F(0) = 0, F(1) = 1, F(n + 2) = F(n + 1) + F(n)$ 
-  - Dica: defina uma função auxiliar que retorna um “par”  
-( $F(n), F(n + 1)$ )
+  - Dica: defina uma função auxiliar que retorna um “par”  $(F(n), F(n + 1))$
 
 {31}------------------------------------------------
 ### Exercício 4: Predicados
@@ -688,11 +649,16 @@ $$4 \quad \text{É\_Primo}(n) = \begin{cases} 1 & \text{se } n \text{ é primo} 
 
 **Dica:**  $n$  é primo sse  $n > 1$  e não existe  $2 \leq d < n$  que divide  $n$
 
-Faint watermark of the University of Coimbra crest on the right side of the slide.
+Faint watermark of the University of São Paulo (USP) coat of arms, featuring a shield with a star and a banner below it reading 'AD ADEMPVNDVM CVRIT'.
 
 {32}------------------------------------------------
+
+<!-- IMAGE_DESCRIPTION: datalab-d9a8b92ba7fc661ebe736ba3e4088eb5_img.jpg -->
+<!-- Tipo: generico -->
+> **[Descrição de imagem]** Faint watermark of the University of São Paulo (USP) coat of arms, featuring a shield with a star and a banner below it reading 'AD ADEMPVNDVM CVRIT'.
+<!-- /IMAGE_DESCRIPTION -->
 ### Exercício 5: Busca Limitada
-#### Definição
+## Definição
 
 Se  $P(\vec{x}, y)$  é um predicado recursivo primitivo, definimos:
 
@@ -744,7 +710,7 @@ Por que a função de Ackermann não é recursiva primitiva? O que isso nos diz 
 
 Faint watermark of the University of São Paulo (USP) coat of arms, featuring a shield with a star and the motto 'AD VERVM DVCT'.
 
-<!-- IMAGE_DESCRIPTION: datalab-fb15f15a7d964c8490c9317e43e40c1a_img.jpg -->
+<!-- IMAGE_DESCRIPTION: datalab-26c966741525c50ccb42aac950999afd_img.jpg -->
 <!-- Tipo: generico -->
 > **[Descrição de imagem]** Faint watermark of the University of São Paulo (USP) coat of arms, featuring a shield with a star and the motto 'AD VERVM DVCT'.
 <!-- /IMAGE_DESCRIPTION -->
@@ -754,17 +720,7 @@ Faint watermark of the University of São Paulo (USP) coat of arms, featuring a 
 
 Descrições preservadas para imagens detectadas no documento, mas sem referência markdown compatível no corpo principal.
 
-<!-- IMAGE_DESCRIPTION: datalab-29f586959675cafdf81cf934954908eb_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Diagram of a Deterministic Finite Automaton (DFA) with three states: q0, q1, and q2.
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-86b4670fc1a5a694821ee92b99c1209a_img.jpg -->
-<!-- Tipo: generico -->
-> **[Descrição de imagem]** Diagram of a Pushdown Automaton (PDA) for the language {0^n 1^n : n ≥ 0}.
-<!-- /IMAGE_DESCRIPTION -->
-
-<!-- IMAGE_DESCRIPTION: datalab-fa6c61be003dfbb4ca5587e48a71de94_img.jpg -->
+<!-- IMAGE_DESCRIPTION: datalab-d3294dc879b451b369c0b06f42e9b39f_img.jpg -->
 <!-- Tipo: generico -->
 > **[Descrição de imagem]** Logo of PUCRS (Pontifícia Universidade Católica do Rio Grande do Sul)
 <!-- /IMAGE_DESCRIPTION -->
