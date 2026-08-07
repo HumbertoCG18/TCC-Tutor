@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "votes": {
+    "7754b2935fe75bb036fe12d2a6d97e0e": {
+      "block_id": "bloco-19",
+      "confianca": "alta",
+      "justificativa": "O material trata das Classes P e NP de complexidade de tempo, o que se alinha perfeitamente com o topico do bloco-19 sobre classes de problemas de complexidade de tempo e espaco.",
+      "model": "gemini-3.5-flash"
+    },
+    "726a298c0b0cf3ad9305b322c77fb989": {
+      "block_id": "bloco-21",
+      "confianca": "alta",
+      "justificativa": "O material trata de NP-completude, reduções polinomiais e o primeiro problema NP-completo, tópicos diretamente associados ao Teorema de Cook-Levin (bloco-21), além de ser cronologicamente o mais próxi",
+      "model": "gemini-3.5-flash"
+    },
+    "65a7d2e8e83b38d5edd64fbd4a86ddbe": {
+      "block_id": "bloco-03",
+      "confianca": "alta",
+      "justificativa": "O material trata de Funcoes Computaveis e Recursivas Parciais, o que coincide exatamente com o topico do bloco-03 (funcoes recursivas primitivas composicao parciais computaveis minimizacao) e a data d",
+      "model": "gemini-3.5-flash"
+    },
+    "de1de9fe76632336cf6cfc931571f566": {
+      "block_id": "bloco-06",
+      "confianca": "alta",
+      "justificativa": "A data do material (27 de março de 2026) e o tema (Máquinas de Turing e Linguagens Recursivamente Enumeráveis) coincidem exatamente com o bloco-06, que se inicia em 2026-03-27.",
+      "model": "gemini-3.5-flash"
+    },
+    "5277697094ee18a1a9ab2c17a767b127": {
+      "block_id": "bloco-06",
+      "confianca": "alta",
+      "justificativa": "O material é datado de 1 de abril de 2026 e aborda Máquinas de Turing como processadoras de funções, o que coincide perfeitamente com o período e o tema do bloco-06 (2026-03-27 a 2026-04-01).",
+      "model": "gemini-3.5-flash"
+    },
+    "ebddfd43ddca7f76582a8c22287d31be": {
+      "block_id": "bloco-09",
+      "confianca": "alta",
+      "justificativa": "O material é da Aula 10 de 10 de abril de 2026, com o tema Linguagens Reconhecíveis, Decidíveis e Máquinas de Turing Universais, correspondendo exatamente ao bloco-09, tanto em data quanto em que foi ",
+      "model": "gemini-3.5-flash"
+    },
+    "36912eda12cd5e8867d817837fe59c3c": {
+      "block_id": "bloco-10",
+      "confianca": "alta",
+      "justificativa": "O material da aula 11 sobre o Problema da Parada (Halting Problem) possui a data de 15 de abril de 2026, que coincide exatamente com o periodo e o topico do bloco-10.",
+      "model": "gemini-3.5-flash"
+    },
+    "64dffc30c793fe84ead7858ba60f6cc4": {
+      "block_id": "bloco-11",
+      "confianca": "alta",
+      "justificativa": "O material trata explicitamente do Entscheidungsproblem e possui a data de 17 de abril de 2026, correspondendo exatamente ao bloco-11.",
+      "model": "gemini-3.5-flash"
+    },
+    "2c734d94d55d3ff9d18076105e72fe76": {
+      "block_id": "bloco-12",
+      "confianca": "alta",
+      "justificativa": "O material é sobre o Teorema de Rice e apresenta explicitamente a data de 22 de abril de 2026, que corresponde exatamente à data e ao tema do bloco-12.",
+      "model": "gemini-3.5-flash"
+    },
+    "a5b4d5d10cfbd9880b789d5f8f730629": {
+      "block_id": "bloco-19",
+      "confianca": "alta",
+      "justificativa": "A data do material (15 de maio de 2026) e o conteúdo sobre classes de complexidade, tempo/espaço, completude, dureza (hard) e intratabilidade batem perfeitamente com o bloco-19.",
+      "model": "gemini-3.5-flash"
+    },
+    "1ad258de592d71c7c86f34bf4e1657f0": {
+      "block_id": "bloco-02",
+      "confianca": "alta",
+      "justificativa": "O material trata da Aula 01, que inclui revisao de conjuntos e enumerabilidade, correspondendo ao topico de conjuntos enumeraveis do bloco-02.",
+      "model": "gemini-3.5-flash"
+    },
+    "3becc7ba30f5a29dccf2c9becb15e7ff": {
+      "block_id": "bloco-02",
+      "confianca": "alta",
+      "justificativa": "O material trata explicitamente de conjuntos enumeráveis e do argumento da diagonalização de Cantor, o que coincide perfeitamente com o tópico do bloco-02.",
+      "model": "gemini-3.5-flash"
+    },
+    "a99128493b66e6ff9ead14e96e2cacfc": {
+      "block_id": "bloco-03",
+      "confianca": "alta",
+      "justificativa": "O material trata explicitamente de funcoes recursivas primitivas e composicao, que coincide exatamente com o topico do bloco-03.",
+      "model": "gemini-3.5-flash"
+    },
+    "49bbfca22db7e260514223d8ef4398ec": {
+      "block_id": "bloco-03",
+      "confianca": "alta",
+      "justificativa": "A data do material (17 de marco de 2026) e o topico de Minimizacao de Funcoes Recursivas estao perfeitamente alinhados com o intervalo e o conteudo do bloco-03.",
+      "model": "gemini-3.5-flash"
+    },
+    "e075c995578429276236d1f292c9f8e1": {
+      "block_id": "bloco-05",
+      "confianca": "alta",
+      "justificativa": "O topico do material ('Revisao Alfabeto, Cadeia, Linguagem, Hierarquia de Chomsky, Lemas e Propriedades de Automatos') e o do bloco-05 coincidem perfeitamente.",
+      "model": "gemini-3.5-flash"
+    },
+    "767a83329bdd3d96edff0af8eea63753": {
+      "block_id": "bloco-08",
+      "confianca": "alta",
+      "justificativa": "O material é de 8 de abril de 2026 e aborda Variações de Máquinas de Turing, combinando perfeitamente com a data e o tópico do bloco-08.",
+      "model": "gemini-3.5-flash"
+    }
+  }
+}

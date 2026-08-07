@@ -165,7 +165,22 @@
       "review_status": "approved",
       "moodle_label": "Aula 17 - Complexidade de Tempo: Classes P e NP",
       "posting_date": "2026-05-22",
-      "posting_date_created": "2026-05-22"
+      "posting_date_created": "2026-05-22",
+      "temporal_block_id": "74265198-aa3e-4d9d-8001-049cbc79710f",
+      "temporal_block_method": "llm",
+      "temporal_block_band": "media",
+      "temporal_block_flag": false,
+      "temporal_block_provider": "llm",
+      "temporal_block_window": [
+        "bloco-10",
+        "bloco-13",
+        "bloco-19",
+        "bloco-22",
+        "bloco-24",
+        "bloco-25",
+        "bloco-27",
+        "bloco-31"
+      ]
     },
     {
       "id": "plano-de-ensino",
@@ -381,7 +396,7 @@
         "winner_score=54.00",
         "topic_score=8.61"
       ],
-      "unit_match_confidence": 0.8945851731350222,
+      "unit_match_confidence": 0.879525912154311,
       "unit_block_conflict": {},
       "computed_subunit_slug": "complexidade-de-tempo-e-de-espaco",
       "subunit_match_reasons": [
@@ -395,7 +410,16 @@
       "review_status": "approved",
       "moodle_label": "Aula 17 - NP-Completude",
       "posting_date": "2026-05-22",
-      "posting_date_created": "2026-05-22"
+      "posting_date_created": "2026-05-22",
+      "temporal_block_id": "8381911b-f873-4081-a009-8df04644ffc7",
+      "temporal_block_method": "llm",
+      "temporal_block_band": "media",
+      "temporal_block_flag": false,
+      "temporal_block_provider": "llm",
+      "temporal_block_window": [
+        "bloco-21",
+        "bloco-22"
+      ]
     },
     {
       "id": "trabalho-t2-enunciado",
@@ -701,7 +725,7 @@
         "ferramenta:edge-coloring",
         "ferramenta:exemplo",
         "unit:unidade-04-hierarquia-de-classes-de-complexidade-de-problemas-computacionais",
-        "bloco:bloco-26"
+        "bloco:bloco-22"
       ],
       "manual_unit_slug": "",
       "manual_timeline_block_id": "",
@@ -833,13 +857,13 @@
       },
       "computed_unit_slug": "unidade-04-hierarquia-de-classes-de-complexidade-de-problemas-computacionais",
       "computed_block_method": "scorer_only",
-      "computed_block_id": "c4f3f5ef-556c-4695-88ac-710f8f9b8d3f",
-      "computed_block_confidence": 0.0,
-      "computed_block_band": "baixa",
+      "computed_block_id": "224e19c2-5329-44d8-a47e-9a7fdf1f36c3",
+      "computed_block_confidence": 0.26043047114198314,
+      "computed_block_band": "media",
       "unit_match_reasons": [
         "winner_score=26.61",
         "topic_score=1.17",
-        "herdada_do_bloco=c4f3f5ef-556c-4695-88ac-710f8f9b8d3f"
+        "herdada_do_bloco=224e19c2-5329-44d8-a47e-9a7fdf1f36c3"
       ],
       "unit_match_confidence": 0.4265199638387818,
       "unit_block_conflict": {},
@@ -1153,7 +1177,18 @@
       "review_status": "approved",
       "moodle_label": "Aula 04 - Funções Computáveis: Funções Recursivas Parciais",
       "posting_date": "2026-03-07",
-      "posting_date_created": "2026-03-07"
+      "posting_date_created": "2026-03-07",
+      "temporal_block_id": "e4678122-f30f-4385-bbed-3a682d728920",
+      "temporal_block_method": "llm",
+      "temporal_block_band": "media",
+      "temporal_block_flag": false,
+      "temporal_block_provider": "llm",
+      "temporal_block_window": [
+        "bloco-03",
+        "bloco-06",
+        "bloco-17",
+        "bloco-31"
+      ]
     },
     {
       "id": "t1-enunciado",
@@ -1452,7 +1487,21 @@
       "review_status": "approved",
       "moodle_label": "Aula 07 - Máquinas de Turing e Linguagens Recursivamente Enumeráveis",
       "posting_date": "2026-03-27",
-      "posting_date_created": "2026-03-27"
+      "posting_date_created": "2026-03-27",
+      "temporal_block_id": "cbf887a2-7073-441b-b695-8b3d8d1d1b86",
+      "temporal_block_method": "llm",
+      "temporal_block_band": "media",
+      "temporal_block_flag": false,
+      "temporal_block_provider": "llm",
+      "temporal_block_window": [
+        "bloco-01",
+        "bloco-05",
+        "bloco-06",
+        "bloco-08",
+        "bloco-09",
+        "bloco-17",
+        "bloco-31"
+      ]
     },
     {
       "id": "aula-08-maquinas-de-turing-como-processadoras-de-funcoes",
@@ -1621,7 +1670,19 @@
       "review_status": "approved",
       "moodle_label": "Aula 08 - Máquinas de Turing como Processadoras de Funções",
       "posting_date": "2026-04-01",
-      "posting_date_created": "2026-04-01"
+      "posting_date_created": "2026-04-01",
+      "temporal_block_id": "cbf887a2-7073-441b-b695-8b3d8d1d1b86",
+      "temporal_block_method": "llm",
+      "temporal_block_band": "media",
+      "temporal_block_flag": false,
+      "temporal_block_provider": "llm",
+      "temporal_block_window": [
+        "bloco-06",
+        "bloco-08",
+        "bloco-09",
+        "bloco-17",
+        "bloco-31"
+      ]
     },
     {
       "id": "aula-10-linguagens-reconhecıveis-e-linguagens-decidıveis-pdf",
@@ -1808,7 +1869,20 @@
       "review_status": "approved",
       "moodle_label": "Aula 10 - Linguagens Reconhecı́veis e Linguagens Decidı́veis",
       "posting_date": "2026-04-10",
-      "posting_date_created": "2026-04-10"
+      "posting_date_created": "2026-04-10",
+      "temporal_block_id": "3e3be596-9527-42ba-ad20-c15956e48f4e",
+      "temporal_block_method": "llm",
+      "temporal_block_band": "media",
+      "temporal_block_flag": false,
+      "temporal_block_provider": "llm",
+      "temporal_block_window": [
+        "bloco-05",
+        "bloco-06",
+        "bloco-08",
+        "bloco-09",
+        "bloco-17",
+        "bloco-31"
+      ]
     },
     {
       "id": "aula-11-o-problema-da-parada-halting-problem-halteproblem-pdf",
@@ -1995,18 +2069,18 @@
       "computed_block_confidence": 0.8,
       "computed_block_band": "alta",
       "unit_match_reasons": [
-        "winner_score=52.85",
-        "topic_score=9.53",
+        "winner_score=52.22",
+        "topic_score=8.79",
         "ambiguous",
         "herdada_do_bloco=e09117dc-5a43-42db-a0b6-e3c59ad9c444"
       ],
-      "unit_match_confidence": 0.12318442043679241,
+      "unit_match_confidence": 0.11262329707533887,
       "unit_block_conflict": {},
       "computed_subunit_slug": "prova-da-indecidibilidade-do-problema-da-parada",
       "subunit_match_reasons": [
-        "winner_score=9.53"
+        "winner_score=8.79"
       ],
-      "subunit_match_confidence": 0.67719924417384,
+      "subunit_match_confidence": 0.6500113817436831,
       "approved_markdown": "content/curated/aula-11-o-problema-da-parada-halting-problem-halteproblem-pdf.md",
       "curated_markdown": "content/curated/aula-11-o-problema-da-parada-halting-problem-halteproblem-pdf.md",
       "approved_source_markdown": "staging/markdown-auto/datalab/aula-11-o-problema-da-parada-halting-problem-halteproblem-pdf/aula-11-o-problema-da-parada-halting-problem-halteproblem-pdf.md",
@@ -2014,7 +2088,16 @@
       "review_status": "approved",
       "moodle_label": "Aula 11 - O Problema da Parada (Halting Problem, Halteproblem)",
       "posting_date": "2026-04-15",
-      "posting_date_created": "2026-04-15"
+      "posting_date_created": "2026-04-15",
+      "temporal_block_id": "e09117dc-5a43-42db-a0b6-e3c59ad9c444",
+      "temporal_block_method": "llm",
+      "temporal_block_band": "media",
+      "temporal_block_flag": false,
+      "temporal_block_provider": "llm",
+      "temporal_block_window": [
+        "bloco-10",
+        "bloco-11"
+      ]
     },
     {
       "id": "aula-12-entscheidungsproblem-pdf",
@@ -2027,7 +2110,7 @@
       "manual_tags": [],
       "auto_tags": [
         "tipo:material-base",
-        "unit:unidade-03-problemas-indecidiveis",
+        "unit:unidade-04-hierarquia-de-classes-de-complexidade-de-problemas-computacionais",
         "subunit:definicao-da-classe",
         "bloco:bloco-10"
       ],
@@ -2125,18 +2208,21 @@
         "signals": [],
         "markdown_path": "staging/markdown-auto/datalab/aula-12-entscheidungsproblem-pdf/aula-12-entscheidungsproblem-pdf.md"
       },
-      "computed_unit_slug": "unidade-03-problemas-indecidiveis",
+      "computed_unit_slug": "unidade-04-hierarquia-de-classes-de-complexidade-de-problemas-computacionais",
       "computed_block_method": "card+scorer",
       "computed_block_id": "e09117dc-5a43-42db-a0b6-e3c59ad9c444",
       "computed_block_confidence": 0.12944324054831854,
       "computed_block_band": "baixa",
       "unit_match_reasons": [
         "winner_score=48.18",
-        "topic_score=5.04",
-        "herdada_do_bloco=e09117dc-5a43-42db-a0b6-e3c59ad9c444"
+        "topic_score=5.04"
       ],
-      "unit_match_confidence": 0.6112743152044463,
-      "unit_block_conflict": {},
+      "unit_match_confidence": 0.6913060738388249,
+      "unit_block_conflict": {
+        "unit": "unidade-04-hierarquia-de-classes-de-complexidade-de-problemas-computacionais",
+        "block_unit": "unidade-03-problemas-indecidiveis",
+        "block_id": "e09117dc-5a43-42db-a0b6-e3c59ad9c444"
+      },
       "computed_subunit_slug": "definicao-da-classe",
       "subunit_match_reasons": [
         "winner_score=5.04"
@@ -2149,7 +2235,16 @@
       "review_status": "approved",
       "moodle_label": "Aula 12 - Entscheidungsproblem",
       "posting_date": "2026-04-17",
-      "posting_date_created": "2026-04-17"
+      "posting_date_created": "2026-04-17",
+      "temporal_block_id": "b01d21d6-f4f5-4a53-be51-e7278017b6d5",
+      "temporal_block_method": "llm",
+      "temporal_block_band": "media",
+      "temporal_block_flag": false,
+      "temporal_block_provider": "llm",
+      "temporal_block_window": [
+        "bloco-10",
+        "bloco-11"
+      ]
     },
     {
       "id": "aula-13-teorema-de-rice-pdf",
@@ -2273,7 +2368,24 @@
       "review_status": "approved",
       "moodle_label": "Aula 13 - Teorema de Rice",
       "posting_date": "2026-04-22",
-      "posting_date_created": "2026-04-22"
+      "posting_date_created": "2026-04-22",
+      "temporal_block_id": "0cd0390b-85a1-42c8-b7d5-f6b2524c8ea9",
+      "temporal_block_method": "llm",
+      "temporal_block_band": "media",
+      "temporal_block_flag": false,
+      "temporal_block_provider": "llm",
+      "temporal_block_window": [
+        "bloco-10",
+        "bloco-12",
+        "bloco-13",
+        "bloco-14",
+        "bloco-19",
+        "bloco-22",
+        "bloco-24",
+        "bloco-25",
+        "bloco-27",
+        "bloco-31"
+      ]
     },
     {
       "id": "3d-matching",
@@ -2775,7 +2887,22 @@
       "curated_markdown": "content/curated/aula-16-classes-de-problemas-e-complexidade-pdf.md",
       "approved_source_markdown": "staging/markdown-auto/datalab/aula-16-classes-de-problemas-e-complexidade-pdf/aula-16-classes-de-problemas-e-complexidade-pdf.md",
       "approved_at": "2026-07-01T18:30:53",
-      "review_status": "approved"
+      "review_status": "approved",
+      "temporal_block_id": "74265198-aa3e-4d9d-8001-049cbc79710f",
+      "temporal_block_method": "llm",
+      "temporal_block_band": "media",
+      "temporal_block_flag": false,
+      "temporal_block_provider": "llm",
+      "temporal_block_window": [
+        "bloco-10",
+        "bloco-13",
+        "bloco-19",
+        "bloco-22",
+        "bloco-24",
+        "bloco-25",
+        "bloco-27",
+        "bloco-31"
+      ]
     },
     {
       "id": "aula-01-apresentacao-da-disciplina-revisao-de-teoria-de-conjuntos-e-enumerabilidade",
@@ -2971,7 +3098,19 @@
       "curated_markdown": "content/curated/aula-01-apresentacao-da-disciplina-revisao-de-teoria-de-conjuntos-e-enumerabilidade.md",
       "approved_source_markdown": "staging/markdown-auto/datalab/aula-01-apresentacao-da-disciplina-revisao-de-teoria-de-conjuntos-e-enumerabilidade/aula-01-apresentacao-da-disciplina-revisao-de-teoria-de-conjuntos-e-enumerabilidade.md",
       "approved_at": "2026-07-01T18:59:38",
-      "review_status": "approved"
+      "review_status": "approved",
+      "temporal_block_id": "18a1092a-9a22-4d54-b02b-59414b171496",
+      "temporal_block_method": "llm",
+      "temporal_block_band": "media",
+      "temporal_block_flag": false,
+      "temporal_block_provider": "llm",
+      "temporal_block_window": [
+        "bloco-02",
+        "bloco-03",
+        "bloco-06",
+        "bloco-17",
+        "bloco-31"
+      ]
     },
     {
       "id": "aula-02-conjuntos-enumeraveis-e-nao-enumeraveis-argumento-da-diagonalizacao-de-cantor",
@@ -3145,7 +3284,19 @@
       "curated_markdown": "content/curated/aula-02-conjuntos-enumeraveis-e-nao-enumeraveis-argumento-da-diagonalizacao-de-cantor.md",
       "approved_source_markdown": "staging/markdown-auto/datalab/aula-02-conjuntos-enumeraveis-e-nao-enumeraveis-argumento-da-diagonalizacao-de-cantor/aula-02-conjuntos-enumeraveis-e-nao-enumeraveis-argumento-da-diagonalizacao-de-cantor.md",
       "approved_at": "2026-07-01T18:59:45",
-      "review_status": "approved"
+      "review_status": "approved",
+      "temporal_block_id": "18a1092a-9a22-4d54-b02b-59414b171496",
+      "temporal_block_method": "llm",
+      "temporal_block_band": "media",
+      "temporal_block_flag": false,
+      "temporal_block_provider": "llm",
+      "temporal_block_window": [
+        "bloco-02",
+        "bloco-03",
+        "bloco-06",
+        "bloco-17",
+        "bloco-31"
+      ]
     },
     {
       "id": "aula-16-exemplo-de-prova-para-revisao",
@@ -3248,7 +3399,15 @@
       "curated_markdown": "exercises/lists/aula-16-exemplo-de-prova-para-revisao.md",
       "approved_source_markdown": "staging/markdown-auto/datalab/aula-16-exemplo-de-prova-para-revisao/aula-16-exemplo-de-prova-para-revisao.md",
       "approved_at": "2026-07-01T19:00:05",
-      "review_status": "approved"
+      "review_status": "approved",
+      "temporal_block_id": "62a75727-18b8-4351-bad1-e54030fb15ce",
+      "temporal_block_method": "janela-1",
+      "temporal_block_band": "alta",
+      "temporal_block_flag": false,
+      "temporal_block_provider": "manual",
+      "temporal_block_window": [
+        "bloco-16"
+      ]
     },
     {
       "id": "aula-03-funcoes-recursivas-primitivas-e-composicao-de-funcoes",
@@ -3409,7 +3568,18 @@
       "curated_markdown": "content/curated/aula-03-funcoes-recursivas-primitivas-e-composicao-de-funcoes.md",
       "approved_source_markdown": "staging/markdown-auto/datalab/aula-03-funcoes-recursivas-primitivas-e-composicao-de-funcoes/aula-03-funcoes-recursivas-primitivas-e-composicao-de-funcoes.md",
       "approved_at": "2026-07-01T18:59:52",
-      "review_status": "approved"
+      "review_status": "approved",
+      "temporal_block_id": "e4678122-f30f-4385-bbed-3a682d728920",
+      "temporal_block_method": "llm",
+      "temporal_block_band": "media",
+      "temporal_block_flag": false,
+      "temporal_block_provider": "llm",
+      "temporal_block_window": [
+        "bloco-03",
+        "bloco-06",
+        "bloco-17",
+        "bloco-31"
+      ]
     },
     {
       "id": "aula-05-minimizacao-de-funcoes-recursivas-parciais",
@@ -3561,7 +3731,16 @@
       "curated_markdown": "content/curated/aula-05-minimizacao-de-funcoes-recursivas-parciais.md",
       "approved_source_markdown": "staging/markdown-auto/datalab/aula-05-minimizacao-de-funcoes-recursivas-parciais/aula-05-minimizacao-de-funcoes-recursivas-parciais.md",
       "approved_at": "2026-07-01T18:59:58",
-      "review_status": "approved"
+      "review_status": "approved",
+      "temporal_block_id": "e4678122-f30f-4385-bbed-3a682d728920",
+      "temporal_block_method": "llm",
+      "temporal_block_band": "media",
+      "temporal_block_flag": false,
+      "temporal_block_provider": "llm",
+      "temporal_block_window": [
+        "bloco-03",
+        "bloco-04"
+      ]
     },
     {
       "id": "aula-06-revisao-alfabeto-cadeia-linguagem-hierarquia-de-chomsky-lemas-e-propriedades-de-automatos",
@@ -3793,7 +3972,21 @@
       "curated_markdown": "content/curated/aula-06-revisao-alfabeto-cadeia-linguagem-hierarquia-de-chomsky-lemas-e-propriedades-de-automatos.md",
       "approved_source_markdown": "staging/markdown-auto/datalab/aula-06-revisao-alfabeto-cadeia-linguagem-hierarquia-de-chomsky-lemas-e-propriedades-de-automatos/aula-06-revisao-alfabeto-cadeia-linguagem-hierarquia-de-chomsky-lemas-e-propriedades-de-automatos.md",
       "approved_at": "2026-07-01T19:00:29",
-      "review_status": "approved"
+      "review_status": "approved",
+      "temporal_block_id": "ee594a67-ac2f-480c-ae87-9f4bdcdb5f52",
+      "temporal_block_method": "llm",
+      "temporal_block_band": "media",
+      "temporal_block_flag": false,
+      "temporal_block_provider": "llm",
+      "temporal_block_window": [
+        "bloco-01",
+        "bloco-05",
+        "bloco-06",
+        "bloco-08",
+        "bloco-09",
+        "bloco-17",
+        "bloco-31"
+      ]
     },
     {
       "id": "aula-09-variacoes-de-maquinas-de-turing",
@@ -3983,7 +4176,20 @@
       "curated_markdown": "content/curated/aula-09-variacoes-de-maquinas-de-turing.md",
       "approved_source_markdown": "staging/markdown-auto/datalab/aula-09-variacoes-de-maquinas-de-turing/aula-09-variacoes-de-maquinas-de-turing.md",
       "approved_at": "2026-07-01T19:00:24",
-      "review_status": "approved"
+      "review_status": "approved",
+      "temporal_block_id": "79dccea0-6d43-4021-b63c-ca9fbc63c451",
+      "temporal_block_method": "llm",
+      "temporal_block_band": "media",
+      "temporal_block_flag": false,
+      "temporal_block_provider": "llm",
+      "temporal_block_window": [
+        "bloco-05",
+        "bloco-06",
+        "bloco-08",
+        "bloco-09",
+        "bloco-17",
+        "bloco-31"
+      ]
     },
     {
       "id": "aula-14-problema-da-correspondencia-de-post",
@@ -3996,9 +4202,10 @@
       "manual_tags": [],
       "auto_tags": [
         "topico:definicao",
+        "topico:problema-da-correspondencia-de-post",
         "tipo:material-base",
-        "unit:unidade-04-hierarquia-de-classes-de-complexidade-de-problemas-computacionais",
-        "subunit:definicao-da-classe",
+        "unit:unidade-03-problemas-indecidiveis",
+        "subunit:prova-da-indecidibilidade-do-problema-da-parada",
         "bloco:bloco-13"
       ],
       "manual_unit_slug": "",
@@ -4101,31 +4308,45 @@
         "signals": [],
         "markdown_path": "staging/markdown-auto/datalab/aula-14-problema-da-correspondencia-de-post/aula-14-problema-da-correspondencia-de-post.md"
       },
-      "computed_unit_slug": "unidade-04-hierarquia-de-classes-de-complexidade-de-problemas-computacionais",
+      "computed_unit_slug": "unidade-03-problemas-indecidiveis",
       "computed_block_method": "card",
       "computed_block_id": "027d4024-a77c-49e0-aba8-4fa87bd0c728",
       "computed_block_confidence": 0.85,
       "computed_block_band": "alta",
       "unit_match_reasons": [
-        "winner_score=34.63",
-        "topic_score=7.24"
+        "winner_score=43.05",
+        "topic_score=12.64",
+        "herdada_do_bloco=027d4024-a77c-49e0-aba8-4fa87bd0c728"
       ],
-      "unit_match_confidence": 0.856724338068653,
-      "unit_block_conflict": {
-        "unit": "unidade-04-hierarquia-de-classes-de-complexidade-de-problemas-computacionais",
-        "block_unit": "unidade-03-problemas-indecidiveis",
-        "block_id": "027d4024-a77c-49e0-aba8-4fa87bd0c728"
-      },
-      "computed_subunit_slug": "definicao-da-classe",
+      "unit_match_confidence": 0.42751811651530014,
+      "unit_block_conflict": {},
+      "computed_subunit_slug": "prova-da-indecidibilidade-do-problema-da-parada",
       "subunit_match_reasons": [
-        "winner_score=7.24"
+        "winner_score=12.64"
       ],
-      "subunit_match_confidence": 0.856724338068653,
+      "subunit_match_confidence": 1.0,
       "approved_markdown": "content/curated/aula-14-problema-da-correspondencia-de-post.md",
       "curated_markdown": "content/curated/aula-14-problema-da-correspondencia-de-post.md",
       "approved_source_markdown": "staging/markdown-auto/datalab/aula-14-problema-da-correspondencia-de-post/aula-14-problema-da-correspondencia-de-post.md",
       "approved_at": "2026-07-01T19:00:19",
-      "review_status": "approved"
+      "review_status": "approved",
+      "temporal_block_id": "027d4024-a77c-49e0-aba8-4fa87bd0c728",
+      "temporal_block_method": "disamb",
+      "temporal_block_band": "alta",
+      "temporal_block_flag": false,
+      "temporal_block_provider": "topic",
+      "temporal_block_window": [
+        "bloco-10",
+        "bloco-12",
+        "bloco-13",
+        "bloco-14",
+        "bloco-19",
+        "bloco-22",
+        "bloco-24",
+        "bloco-25",
+        "bloco-27",
+        "bloco-31"
+      ]
     },
     {
       "id": "aula-15-teoremas-de-incompletude-de-godel",
@@ -4266,7 +4487,16 @@
       "curated_markdown": "content/curated/aula-15-teoremas-de-incompletude-de-godel.md",
       "approved_source_markdown": "staging/markdown-auto/datalab/aula-15-teoremas-de-incompletude-de-godel/aula-15-teoremas-de-incompletude-de-godel.md",
       "approved_at": "2026-07-01T19:00:11",
-      "review_status": "approved"
+      "review_status": "approved",
+      "temporal_block_id": "d5ccf1f1-8651-4a96-8b9a-1e102b324d2a",
+      "temporal_block_method": "disamb",
+      "temporal_block_band": "alta",
+      "temporal_block_flag": false,
+      "temporal_block_provider": "topic",
+      "temporal_block_window": [
+        "bloco-14",
+        "bloco-19"
+      ]
     }
   ],
   "logs": [
@@ -6013,7 +6243,7 @@
       "category": "material-de-aula"
     }
   ],
-  "updated_at": "2026-07-01T19:00:36",
+  "updated_at": "2026-08-07T16:45:09",
   "failed_entries": [],
   "turma": "031",
   "schedule_url": "https://sarc.pucrs.br/Default/Export.aspx?id=9b679f12-2101-4a43-a8d4-d516cb198d04&ano=2026&sem=1"
