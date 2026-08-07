@@ -396,7 +396,7 @@
         "winner_score=54.00",
         "topic_score=8.61"
       ],
-      "unit_match_confidence": 0.879525912154311,
+      "unit_match_confidence": 0.8945851731350222,
       "unit_block_conflict": {},
       "computed_subunit_slug": "complexidade-de-tempo-e-de-espaco",
       "subunit_match_reasons": [
@@ -2069,18 +2069,18 @@
       "computed_block_confidence": 0.8,
       "computed_block_band": "alta",
       "unit_match_reasons": [
-        "winner_score=52.22",
-        "topic_score=8.79",
+        "winner_score=52.85",
+        "topic_score=9.53",
         "ambiguous",
         "herdada_do_bloco=e09117dc-5a43-42db-a0b6-e3c59ad9c444"
       ],
-      "unit_match_confidence": 0.11262329707533887,
+      "unit_match_confidence": 0.12318442043679241,
       "unit_block_conflict": {},
       "computed_subunit_slug": "prova-da-indecidibilidade-do-problema-da-parada",
       "subunit_match_reasons": [
-        "winner_score=8.79"
+        "winner_score=9.53"
       ],
-      "subunit_match_confidence": 0.6500113817436831,
+      "subunit_match_confidence": 0.67719924417384,
       "approved_markdown": "content/curated/aula-11-o-problema-da-parada-halting-problem-halteproblem-pdf.md",
       "curated_markdown": "content/curated/aula-11-o-problema-da-parada-halting-problem-halteproblem-pdf.md",
       "approved_source_markdown": "staging/markdown-auto/datalab/aula-11-o-problema-da-parada-halting-problem-halteproblem-pdf/aula-11-o-problema-da-parada-halting-problem-halteproblem-pdf.md",
@@ -2110,7 +2110,7 @@
       "manual_tags": [],
       "auto_tags": [
         "tipo:material-base",
-        "unit:unidade-04-hierarquia-de-classes-de-complexidade-de-problemas-computacionais",
+        "unit:unidade-03-problemas-indecidiveis",
         "subunit:definicao-da-classe",
         "bloco:bloco-10"
       ],
@@ -2208,21 +2208,18 @@
         "signals": [],
         "markdown_path": "staging/markdown-auto/datalab/aula-12-entscheidungsproblem-pdf/aula-12-entscheidungsproblem-pdf.md"
       },
-      "computed_unit_slug": "unidade-04-hierarquia-de-classes-de-complexidade-de-problemas-computacionais",
+      "computed_unit_slug": "unidade-03-problemas-indecidiveis",
       "computed_block_method": "card+scorer",
       "computed_block_id": "e09117dc-5a43-42db-a0b6-e3c59ad9c444",
       "computed_block_confidence": 0.12944324054831854,
       "computed_block_band": "baixa",
       "unit_match_reasons": [
         "winner_score=48.18",
-        "topic_score=5.04"
+        "topic_score=5.04",
+        "herdada_do_bloco=e09117dc-5a43-42db-a0b6-e3c59ad9c444"
       ],
-      "unit_match_confidence": 0.6913060738388249,
-      "unit_block_conflict": {
-        "unit": "unidade-04-hierarquia-de-classes-de-complexidade-de-problemas-computacionais",
-        "block_unit": "unidade-03-problemas-indecidiveis",
-        "block_id": "e09117dc-5a43-42db-a0b6-e3c59ad9c444"
-      },
+      "unit_match_confidence": 0.6112743152044463,
+      "unit_block_conflict": {},
       "computed_subunit_slug": "definicao-da-classe",
       "subunit_match_reasons": [
         "winner_score=5.04"
@@ -2262,10 +2259,10 @@
         "tipo:material-base",
         "unit:unidade-03-problemas-indecidiveis",
         "subunit:definicao-da-classe",
-        "bloco:bloco-13"
+        "bloco:bloco-12"
       ],
       "manual_unit_slug": "",
-      "manual_timeline_block_id": "",
+      "manual_timeline_block_id": "0cd0390b-85a1-42c8-b7d5-f6b2524c8ea9",
       "notes": "",
       "professor_signal": "",
       "include_in_bundle": true,
@@ -2345,14 +2342,14 @@
         "markdown_path": "staging/markdown-auto/datalab/aula-13-teorema-de-rice-pdf/aula-13-teorema-de-rice-pdf.md"
       },
       "computed_unit_slug": "unidade-03-problemas-indecidiveis",
-      "computed_block_method": "card",
-      "computed_block_id": "027d4024-a77c-49e0-aba8-4fa87bd0c728",
-      "computed_block_confidence": 0.85,
+      "computed_block_method": "manual",
+      "computed_block_id": "0cd0390b-85a1-42c8-b7d5-f6b2524c8ea9",
+      "computed_block_confidence": 1.0,
       "computed_block_band": "alta",
       "unit_match_reasons": [
         "winner_score=48.76",
         "topic_score=8.83",
-        "herdada_do_bloco=027d4024-a77c-49e0-aba8-4fa87bd0c728"
+        "unidade_do_bloco_manual"
       ],
       "unit_match_confidence": 0.32629564577264325,
       "unit_block_conflict": {},
@@ -2368,24 +2365,7 @@
       "review_status": "approved",
       "moodle_label": "Aula 13 - Teorema de Rice",
       "posting_date": "2026-04-22",
-      "posting_date_created": "2026-04-22",
-      "temporal_block_id": "0cd0390b-85a1-42c8-b7d5-f6b2524c8ea9",
-      "temporal_block_method": "llm",
-      "temporal_block_band": "media",
-      "temporal_block_flag": false,
-      "temporal_block_provider": "llm",
-      "temporal_block_window": [
-        "bloco-10",
-        "bloco-12",
-        "bloco-13",
-        "bloco-14",
-        "bloco-19",
-        "bloco-22",
-        "bloco-24",
-        "bloco-25",
-        "bloco-27",
-        "bloco-31"
-      ]
+      "posting_date_created": "2026-04-22"
     },
     {
       "id": "3d-matching",
@@ -4202,10 +4182,9 @@
       "manual_tags": [],
       "auto_tags": [
         "topico:definicao",
-        "topico:problema-da-correspondencia-de-post",
         "tipo:material-base",
-        "unit:unidade-03-problemas-indecidiveis",
-        "subunit:prova-da-indecidibilidade-do-problema-da-parada",
+        "unit:unidade-04-hierarquia-de-classes-de-complexidade-de-problemas-computacionais",
+        "subunit:definicao-da-classe",
         "bloco:bloco-13"
       ],
       "manual_unit_slug": "",
@@ -4308,23 +4287,26 @@
         "signals": [],
         "markdown_path": "staging/markdown-auto/datalab/aula-14-problema-da-correspondencia-de-post/aula-14-problema-da-correspondencia-de-post.md"
       },
-      "computed_unit_slug": "unidade-03-problemas-indecidiveis",
+      "computed_unit_slug": "unidade-04-hierarquia-de-classes-de-complexidade-de-problemas-computacionais",
       "computed_block_method": "card",
       "computed_block_id": "027d4024-a77c-49e0-aba8-4fa87bd0c728",
       "computed_block_confidence": 0.85,
       "computed_block_band": "alta",
       "unit_match_reasons": [
-        "winner_score=43.05",
-        "topic_score=12.64",
-        "herdada_do_bloco=027d4024-a77c-49e0-aba8-4fa87bd0c728"
+        "winner_score=34.63",
+        "topic_score=7.24"
       ],
-      "unit_match_confidence": 0.42751811651530014,
-      "unit_block_conflict": {},
-      "computed_subunit_slug": "prova-da-indecidibilidade-do-problema-da-parada",
+      "unit_match_confidence": 0.856724338068653,
+      "unit_block_conflict": {
+        "unit": "unidade-04-hierarquia-de-classes-de-complexidade-de-problemas-computacionais",
+        "block_unit": "unidade-03-problemas-indecidiveis",
+        "block_id": "027d4024-a77c-49e0-aba8-4fa87bd0c728"
+      },
+      "computed_subunit_slug": "definicao-da-classe",
       "subunit_match_reasons": [
-        "winner_score=12.64"
+        "winner_score=7.24"
       ],
-      "subunit_match_confidence": 1.0,
+      "subunit_match_confidence": 0.856724338068653,
       "approved_markdown": "content/curated/aula-14-problema-da-correspondencia-de-post.md",
       "curated_markdown": "content/curated/aula-14-problema-da-correspondencia-de-post.md",
       "approved_source_markdown": "staging/markdown-auto/datalab/aula-14-problema-da-correspondencia-de-post/aula-14-problema-da-correspondencia-de-post.md",
@@ -6243,7 +6225,7 @@
       "category": "material-de-aula"
     }
   ],
-  "updated_at": "2026-08-07T16:45:09",
+  "updated_at": "2026-08-07T16:49:15",
   "failed_entries": [],
   "turma": "031",
   "schedule_url": "https://sarc.pucrs.br/Default/Export.aspx?id=9b679f12-2101-4a43-a8d4-d516cb198d04&ano=2026&sem=1"
