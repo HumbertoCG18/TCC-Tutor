@@ -145,8 +145,8 @@
       "computed_unit_slug": "unidade-04-hierarquia-de-classes-de-complexidade-de-problemas-computacionais",
       "computed_block_method": "card+scorer",
       "computed_block_id": "74265198-aa3e-4d9d-8001-049cbc79710f",
-      "computed_block_confidence": 0.15715837362502758,
-      "computed_block_band": "baixa",
+      "computed_block_confidence": 0.6968031015492995,
+      "computed_block_band": "alta",
       "unit_match_reasons": [
         "winner_score=81.27",
         "topic_score=14.06"
@@ -175,11 +175,16 @@
         "bloco-10",
         "bloco-13",
         "bloco-19",
-        "bloco-22",
+        "bloco-21",
+        "bloco-23",
         "bloco-24",
         "bloco-25",
+        "bloco-26",
         "bloco-27",
-        "bloco-31"
+        "bloco-28",
+        "bloco-29",
+        "bloco-31",
+        "bloco-35"
       ]
     },
     {
@@ -192,10 +197,6 @@
       "tags": "",
       "manual_tags": [],
       "auto_tags": [
-        "ferramenta:ensino",
-        "ferramenta:nome",
-        "ferramenta:plano",
-        "ferramenta:professor",
         "topico:conjuntos-enumeraveis"
       ],
       "manual_unit_slug": "",
@@ -284,7 +285,7 @@
         "topico:definicao",
         "tipo:material-base",
         "unit:unidade-04-hierarquia-de-classes-de-complexidade-de-problemas-computacionais",
-        "bloco:bloco-22"
+        "bloco:bloco-21"
       ],
       "manual_unit_slug": "",
       "manual_timeline_block_id": "",
@@ -389,8 +390,8 @@
       },
       "computed_unit_slug": "unidade-04-hierarquia-de-classes-de-complexidade-de-problemas-computacionais",
       "computed_block_method": "card+scorer",
-      "computed_block_id": "224e19c2-5329-44d8-a47e-9a7fdf1f36c3",
-      "computed_block_confidence": 0.8,
+      "computed_block_id": "8381911b-f873-4081-a009-8df04644ffc7",
+      "computed_block_confidence": 0.7156301500563798,
       "computed_block_band": "alta",
       "unit_match_reasons": [
         "winner_score=54.00",
@@ -500,7 +501,7 @@
       },
       "computed_unit_slug": "unidade-04-hierarquia-de-classes-de-complexidade-de-problemas-computacionais",
       "computed_block_method": "card",
-      "computed_block_id": "dfd5b65d-4aa6-445b-bad1-bf86b1b672b5",
+      "computed_block_id": "773dd63d-f893-4000-a5a3-39901982e2c4",
       "computed_block_confidence": 0.85,
       "computed_block_band": "alta",
       "unit_match_reasons": [
@@ -536,7 +537,7 @@
         "topico:definicao",
         "unit:unidade-04-hierarquia-de-classes-de-complexidade-de-problemas-computacionais",
         "subunit:definicao-da-classe",
-        "bloco:bloco-22"
+        "bloco:bloco-23"
       ],
       "manual_unit_slug": "",
       "manual_timeline_block_id": "",
@@ -689,7 +690,7 @@
       },
       "computed_unit_slug": "unidade-04-hierarquia-de-classes-de-complexidade-de-problemas-computacionais",
       "computed_block_method": "scorer_only",
-      "computed_block_id": "224e19c2-5329-44d8-a47e-9a7fdf1f36c3",
+      "computed_block_id": "773dd63d-f893-4000-a5a3-39901982e2c4",
       "computed_block_confidence": 0.7,
       "computed_block_band": "alta",
       "unit_match_reasons": [
@@ -724,8 +725,7 @@
       "auto_tags": [
         "ferramenta:edge-coloring",
         "ferramenta:exemplo",
-        "unit:unidade-04-hierarquia-de-classes-de-complexidade-de-problemas-computacionais",
-        "bloco:bloco-22"
+        "bloco:bloco-23"
       ],
       "manual_unit_slug": "",
       "manual_timeline_block_id": "",
@@ -855,15 +855,14 @@
         "signals": [],
         "markdown_path": "staging/markdown-auto/datalab/cubic-3-edge-coloring/cubic-3-edge-coloring.md"
       },
-      "computed_unit_slug": "unidade-04-hierarquia-de-classes-de-complexidade-de-problemas-computacionais",
+      "computed_unit_slug": "",
       "computed_block_method": "scorer_only",
-      "computed_block_id": "224e19c2-5329-44d8-a47e-9a7fdf1f36c3",
-      "computed_block_confidence": 0.26043047114198314,
+      "computed_block_id": "773dd63d-f893-4000-a5a3-39901982e2c4",
+      "computed_block_confidence": 0.2782365067338867,
       "computed_block_band": "media",
       "unit_match_reasons": [
         "winner_score=26.61",
-        "topic_score=1.17",
-        "herdada_do_bloco=224e19c2-5329-44d8-a47e-9a7fdf1f36c3"
+        "topic_score=1.17"
       ],
       "unit_match_confidence": 0.4265199638387818,
       "unit_block_conflict": {},
@@ -1187,7 +1186,7 @@
         "bloco-03",
         "bloco-06",
         "bloco-17",
-        "bloco-31"
+        "bloco-35"
       ]
     },
     {
@@ -1500,7 +1499,7 @@
         "bloco-08",
         "bloco-09",
         "bloco-17",
-        "bloco-31"
+        "bloco-35"
       ]
     },
     {
@@ -1681,7 +1680,7 @@
         "bloco-08",
         "bloco-09",
         "bloco-17",
-        "bloco-31"
+        "bloco-35"
       ]
     },
     {
@@ -1881,7 +1880,7 @@
         "bloco-08",
         "bloco-09",
         "bloco-17",
-        "bloco-31"
+        "bloco-35"
       ]
     },
     {
@@ -2534,7 +2533,7 @@
       },
       "computed_unit_slug": "unidade-04-hierarquia-de-classes-de-complexidade-de-problemas-computacionais",
       "computed_block_method": "manual",
-      "computed_block_id": "3a7783ef-c47a-4d99-9038-dacc0c4593b9",
+      "computed_block_id": "dfd5b65d-4aa6-445b-bad1-bf86b1b672b5",
       "computed_block_confidence": 1.0,
       "computed_block_band": "alta",
       "unit_match_reasons": [
@@ -2850,8 +2849,8 @@
       "computed_unit_slug": "unidade-04-hierarquia-de-classes-de-complexidade-de-problemas-computacionais",
       "computed_block_method": "card+scorer",
       "computed_block_id": "74265198-aa3e-4d9d-8001-049cbc79710f",
-      "computed_block_confidence": 0.37287737358350465,
-      "computed_block_band": "media",
+      "computed_block_confidence": 0.8,
+      "computed_block_band": "alta",
       "unit_match_reasons": [
         "winner_score=107.09",
         "topic_score=15.95"
@@ -2877,11 +2876,16 @@
         "bloco-10",
         "bloco-13",
         "bloco-19",
-        "bloco-22",
+        "bloco-21",
+        "bloco-23",
         "bloco-24",
         "bloco-25",
+        "bloco-26",
         "bloco-27",
-        "bloco-31"
+        "bloco-28",
+        "bloco-29",
+        "bloco-31",
+        "bloco-35"
       ]
     },
     {
@@ -3089,7 +3093,7 @@
         "bloco-03",
         "bloco-06",
         "bloco-17",
-        "bloco-31"
+        "bloco-35"
       ]
     },
     {
@@ -3275,7 +3279,7 @@
         "bloco-03",
         "bloco-06",
         "bloco-17",
-        "bloco-31"
+        "bloco-35"
       ]
     },
     {
@@ -3558,7 +3562,7 @@
         "bloco-03",
         "bloco-06",
         "bloco-17",
-        "bloco-31"
+        "bloco-35"
       ]
     },
     {
@@ -3965,7 +3969,7 @@
         "bloco-08",
         "bloco-09",
         "bloco-17",
-        "bloco-31"
+        "bloco-35"
       ]
     },
     {
@@ -4168,7 +4172,7 @@
         "bloco-08",
         "bloco-09",
         "bloco-17",
-        "bloco-31"
+        "bloco-35"
       ]
     },
     {
@@ -4323,11 +4327,15 @@
         "bloco-13",
         "bloco-14",
         "bloco-19",
-        "bloco-22",
-        "bloco-24",
+        "bloco-21",
+        "bloco-23",
         "bloco-25",
+        "bloco-26",
         "bloco-27",
-        "bloco-31"
+        "bloco-28",
+        "bloco-29",
+        "bloco-31",
+        "bloco-35"
       ]
     },
     {
@@ -6225,7 +6233,7 @@
       "category": "material-de-aula"
     }
   ],
-  "updated_at": "2026-08-07T16:49:15",
+  "updated_at": "2026-08-10T15:35:10",
   "failed_entries": [],
   "turma": "031",
   "schedule_url": "https://sarc.pucrs.br/Default/Export.aspx?id=9b679f12-2101-4a43-a8d4-d516cb198d04&ano=2026&sem=1"

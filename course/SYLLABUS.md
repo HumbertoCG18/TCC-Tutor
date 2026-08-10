@@ -9,7 +9,7 @@ schedule: Qua 17:30 - 19:00 / Sex 19:15 - 20:45
 **Horário:** Qua 17:30 - 19:00 / Sex 19:15 - 20:45
 
 | # | Dia | Data | Hora | Descrição | Atividade | Recursos |
-|---|---|---|---|---|---|---|
+| --- | --- | --- | --- | --- | --- | --- |
 | 1 | QUA | 04/03/2026 | JK 17:30 - 19:00 | Apresentação; Revisão sobre Teoria de Conjuntos | Aula |  |
 | 2 | SEX | 06/03/2026 | LM 19:15 - 20:45 | Conjuntos Enumeráveis e Não-Enumeráveis; Argumento da Diagonalização de Cantor | Aula |  |
 | 3 | QUA | 11/03/2026 | JK 17:30 - 19:00 | Funções Recursivas Primitivas; Composição de Funções | Aula |  |
@@ -35,15 +35,15 @@ schedule: Qua 17:30 - 19:00 / Sex 19:15 - 20:45
 | 21 | QUA | 20/05/2026 | JK 17:30 - 19:00 | Complexidade de Tempo: Classes P e NP | Aula |  |
 | 22 | SEX | 22/05/2026 | LM 19:15 - 20:45 | Complexidade de Tempo: NP-complete; Redução de problemas | Aula |  |
 | 23 | QUA | 27/05/2026 | JK 17:30 - 19:00 | SE DAY | Evento Acadêmico |  |
-| 24 | SEX | 29/05/2026 | LM 19:15 - 20:45 | Theorema de Cook-Levin | Aula |  |
-| 25 | QUA | 03/06/2026 | JK 17:30 - 19:00 | Complexidade de Tempo: Classe NP-Hard; Redução de problemas | Aula |  |
-| 26 | SEX | 05/06/2026 | LM 19:15 - 20:45 | Complexidade de Tempo: PSPACE, PSPACE-complete e PSPACE-hard | Aula |  |
-| 27 | QUA | 10/06/2026 | JK 17:30 - 19:00 | T2 - Em Aula | Trabalho |  |
-| 28 | SEX | 12/06/2026 | LM 19:15 - 20:45 | Oficina de problemas - Lançamento enunciados | Aula | Laboratório - 311 |
-| 29 | QUA | 17/06/2026 | JK 17:30 - 19:00 | Oficina de problemas | Aula | Laboratório - 312 |
-| 30 | SEX | 19/06/2026 | LM 19:15 - 20:45 | Oficina de problemas | Aula | Laboratório - 409 |
-| 31 | QUA | 24/06/2026 | JK 17:30 - 19:00 | Oficina de problemas | Aula | Laboratório - 311 |
-| 32 | SEX | 26/06/2026 | LM 19:15 - 20:45 | Oficina de problemas - Apresentação | Trabalho | Laboratório - 409 |
+| 24 | SEX | 29/05/2026 | LM 19:15 - 20:45 | Oficina de problemas - Entrega T2 | Aula |  |
+| 25 | QUA | 03/06/2026 | JK 17:30 - 19:00 | Theorema de Cook-Levin | Aula |  |
+| 26 | SEX | 05/06/2026 | LM 19:15 - 20:45 | Complexidade de Tempo: Classe NP-Hard; Redução de problemas NP-complete e PSPACE-hard | Trabalho |  |
+| 27 | QUA | 10/06/2026 | JK 17:30 - 19:00 | Complexidade de Tempo: PSPACE, PSPACE- | Trabalho |  |
+| 28 | SEX | 12/06/2026 | LM 19:15 - 20:45 | Oficina de problemas - Entrega T2 | Trabalho |  |
+| 29 | QUA | 17/06/2026 | JK 17:30 - 19:00 | Oficina de problemas | Trabalho |  |
+| 30 | SEX | 19/06/2026 | LM 19:15 - 20:45 | Oficina de problemas | Trabalho |  |
+| 31 | QUA | 24/06/2026 | JK 17:30 - 19:00 | Oficina de problemas | Trabalho |  |
+| 32 | SEX | 26/06/2026 | LM 19:15 - 20:45 | Oficina de problemas - Apresentação | Trabalho |  |
 | 33 | QUA | 01/07/2026 | JK 17:30 - 19:00 | Revisão para Prova P2 | Aula |  |
 | 34 | SEX | 03/07/2026 | LM 19:15 - 20:45 | Prova P2 | Prova |  |
 | 35 | QUA | 08/07/2026 | JK 17:30 - 19:00 | Prova PS | Prova de Substituição |  |
@@ -51,174 +51,3 @@ schedule: Qua 17:30 - 19:00 / Sex 19:15 - 20:45
 |  | QUA | 15/07/2026 | JK 17:30 - 19:00 | Atendimento a dúvidas | Aula |  |
 |  | SEX | 17/07/2026 | LM 19:15 - 20:45 | Prova G2 | Prova de G2 |  |
 
-## Cronograma de Aulas
-
-- (04/03/2026) QUA — Apresentação; Revisão sobre Teoria de Conjuntos [Aula]
-- (06/03/2026) SEX — Conjuntos Enumeráveis e Não-Enumeráveis; Argumento da Diagonalização de Cantor [Aula]
-- (11/03/2026) QUA — Funções Recursivas Primitivas; Composição de Funções [Aula]
-- (13/03/2026) SEX — Funções Recursivas Parciais; Funções Computáveis [Aula]
-- (18/03/2026) QUA — Minimização de Funções Recursivas Parciais [Aula]
-- (20/03/2026) SEX — T1 - Em aula [Trabalho]
-- (25/03/2026) QUA — Revisão: Alfabeto, Cadeia, Linguagem, Hierarquia de Chomsky, Lemas e Propriedades de Autômatos [Aula]
-- (27/03/2026) SEX — Máquinas de Turing e Linguagens Recursivamente Enumeráveis [Aula]
-- (01/04/2026) QUA — Máquinas de Turing como Processadoras de Funções [Aula]
-- (03/04/2026) SEX — Feriado [Aula]
-- (08/04/2026) QUA — Variações de Máquias de Turing [Aula]
-- (10/04/2026) SEX — Linguagens Reconhecíveis e Linguagens Decidíveis; Máquinas de Turing Universais [Aula]
-- (15/04/2026) QUA — Halting Problem [Aula]
-- (17/04/2026) SEX — Entscheidungsproblem [Aula]
-- (22/04/2026) QUA — Theorema de Rice [Aula]
-- (24/04/2026) SEX — Problema da Correspondência de Post [Aula]
-- (29/04/2026) QUA — Teoremas de Gödel [Aula]
-- (01/05/2026) SEX — Feriado [Aula]
-- (06/05/2026) QUA — Revisão para prova P1 [Aula]
-- (08/05/2026) SEX — Prova P1 [Prova]
-- (13/05/2026) QUA — Correção Prova P1 [Aula]
-- (15/05/2026) SEX — Classes de Problemas; Complexidade de Tempo vs. Espaço; Teorema de Savitch; Complete vs. Hard; Intractability [Aula]
-- (20/05/2026) QUA — Complexidade de Tempo: Classes P e NP [Aula]
-- (22/05/2026) SEX — Complexidade de Tempo: NP-complete; Redução de problemas [Aula]
-- (27/05/2026) QUA — SE DAY [Evento Acadêmico]
-- (29/05/2026) SEX — Oficina de problemas - Entrega T2 [Aula]
-- (03/06/2026) QUA — Theorema de Cook-Levin [Aula]
-- (05/06/2026) SEX — Complexidade de Tempo: Classe NP-Hard; Redução de problemas NP-complete e PSPACE-hard [Trabalho] @Laboratório - 312
-- (10/06/2026) QUA — Complexidade de Tempo: PSPACE, PSPACE- [Aula]
-- (12/06/2026) SEX — Oficina de problemas - Entrega T2 [Trabalho] @Laboratório - 311
-- (17/06/2026) QUA — Oficina de problemas [Trabalho] @Laboratório - 312
-- (19/06/2026) SEX — Oficina de problemas [Trabalho] @Laboratório - 409
-- (24/06/2026) QUA — Oficina de problemas [Trabalho] @Laboratório - 311
-- (26/06/2026) SEX — Oficina de problemas - Apresentação [Trabalho] @Laboratório - 409
-- (01/07/2026) QUA — Revisão para Prova P2 [Aula]
-- (03/07/2026) SEX — Prova P2 [Prova]
-- (08/07/2026) QUA — Prova PS [Prova de Substituição]
-- (10/07/2026) SEX — Correção da Prova P2 e Prova PS [Aula]
-- (15/07/2026) QUA — Atendimento a dúvidas [Aula]
-- (17/07/2026) SEX — Prova G2 [Prova de G2]
-
-## Cronograma de Aulas
-
-- (04/03/2026) QUA — Apresentação; Revisão sobre Teoria de Conjuntos [Aula]
-- (06/03/2026) SEX — Conjuntos Enumeráveis e Não-Enumeráveis; Argumento da Diagonalização de Cantor [Aula]
-- (11/03/2026) QUA — Funções Recursivas Primitivas; Composição de Funções [Aula]
-- (13/03/2026) SEX — Funções Recursivas Parciais; Funções Computáveis [Aula]
-- (18/03/2026) QUA — Minimização de Funções Recursivas Parciais [Aula]
-- (20/03/2026) SEX — T1 - Em aula [Trabalho]
-- (25/03/2026) QUA — Revisão: Alfabeto, Cadeia, Linguagem, Hierarquia de Chomsky, Lemas e Propriedades de Autômatos [Aula]
-- (27/03/2026) SEX — Máquinas de Turing e Linguagens Recursivamente Enumeráveis [Aula]
-- (01/04/2026) QUA — Máquinas de Turing como Processadoras de Funções [Aula]
-- (03/04/2026) SEX — Feriado [Aula]
-- (08/04/2026) QUA — Variações de Máquias de Turing [Aula]
-- (10/04/2026) SEX — Linguagens Reconhecíveis e Linguagens Decidíveis; Máquinas de Turing Universais [Aula]
-- (15/04/2026) QUA — Halting Problem [Aula]
-- (17/04/2026) SEX — Entscheidungsproblem [Aula]
-- (22/04/2026) QUA — Theorema de Rice [Aula]
-- (24/04/2026) SEX — Problema da Correspondência de Post [Aula]
-- (29/04/2026) QUA — Teoremas de Gödel [Aula]
-- (01/05/2026) SEX — Feriado [Aula]
-- (06/05/2026) QUA — Revisão para prova P1 [Aula]
-- (08/05/2026) SEX — Prova P1 [Prova]
-- (13/05/2026) QUA — Correção Prova P1 [Aula]
-- (15/05/2026) SEX — Classes de Problemas; Complexidade de Tempo vs. Espaço; Teorema de Savitch; Complete vs. Hard; Intractability [Aula]
-- (20/05/2026) QUA — Complexidade de Tempo: Classes P e NP [Aula]
-- (22/05/2026) SEX — Complexidade de Tempo: NP-complete; Redução de problemas [Aula]
-- (27/05/2026) QUA — SE DAY [Evento Acadêmico]
-- (29/05/2026) SEX — Oficina de problemas - Entrega T2 [Aula]
-- (03/06/2026) QUA — Theorema de Cook-Levin [Aula]
-- (05/06/2026) SEX — Complexidade de Tempo: Classe NP-Hard; Redução de problemas NP-complete e PSPACE-hard [Trabalho] @Laboratório - 312
-- (10/06/2026) QUA — Complexidade de Tempo: PSPACE, PSPACE- [Aula]
-- (12/06/2026) SEX — Oficina de problemas - Entrega T2 [Trabalho] @Laboratório - 311
-- (17/06/2026) QUA — Oficina de problemas [Trabalho] @Laboratório - 312
-- (19/06/2026) SEX — Oficina de problemas [Trabalho] @Laboratório - 409
-- (24/06/2026) QUA — Oficina de problemas [Trabalho] @Laboratório - 311
-- (26/06/2026) SEX — Oficina de problemas - Apresentação [Trabalho] @Laboratório - 409
-- (01/07/2026) QUA — Revisão para Prova P2 [Aula]
-- (03/07/2026) SEX — Prova P2 [Prova]
-- (08/07/2026) QUA — Prova PS [Prova de Substituição]
-- (10/07/2026) SEX — Correção da Prova P2 e Prova PS [Aula]
-- (15/07/2026) QUA — Atendimento a dúvidas [Aula]
-- (17/07/2026) SEX — Prova G2 [Prova de G2]
-
-## Cronograma de Aulas
-
-- (04/03/2026) QUA — Apresentação; Revisão sobre Teoria de Conjuntos [Aula]
-- (06/03/2026) SEX — Conjuntos Enumeráveis e Não-Enumeráveis; Argumento da Diagonalização de Cantor [Aula]
-- (11/03/2026) QUA — Funções Recursivas Primitivas; Composição de Funções [Aula]
-- (13/03/2026) SEX — Funções Recursivas Parciais; Funções Computáveis [Aula]
-- (18/03/2026) QUA — Minimização de Funções Recursivas Parciais [Aula]
-- (20/03/2026) SEX — T1 - Em aula [Trabalho] {kind=deliverable}
-- (25/03/2026) QUA — Revisão: Alfabeto, Cadeia, Linguagem, Hierarquia de Chomsky, Lemas e Propriedades de Autômatos [Aula]
-- (27/03/2026) SEX — Máquinas de Turing e Linguagens Recursivamente Enumeráveis [Aula]
-- (01/04/2026) QUA — Máquinas de Turing como Processadoras de Funções [Aula]
-- (03/04/2026) SEX — Feriado [Aula]
-- (08/04/2026) QUA — Variações de Máquias de Turing [Aula]
-- (10/04/2026) SEX — Linguagens Reconhecíveis e Linguagens Decidíveis; Máquinas de Turing Universais [Aula]
-- (15/04/2026) QUA — Halting Problem [Aula]
-- (17/04/2026) SEX — Entscheidungsproblem [Aula]
-- (22/04/2026) QUA — Theorema de Rice [Aula]
-- (24/04/2026) SEX — Problema da Correspondência de Post [Aula]
-- (29/04/2026) QUA — Teoremas de Gödel [Aula]
-- (01/05/2026) SEX — Feriado [Aula]
-- (06/05/2026) QUA — Revisão para prova P1 [Aula]
-- (08/05/2026) SEX — Prova P1 [Prova] {kind=assessment}
-- (13/05/2026) QUA — Correção Prova P1 [Aula]
-- (15/05/2026) SEX — Classes de Problemas; Complexidade de Tempo vs. Espaço; Teorema de Savitch; Complete vs. Hard; Intractability [Aula]
-- (20/05/2026) QUA — Complexidade de Tempo: Classes P e NP [Aula]
-- (22/05/2026) SEX — Complexidade de Tempo: NP-complete; Redução de problemas [Aula]
-- (27/05/2026) QUA — SE DAY [Evento Acadêmico] {kind=event}
-- (29/05/2026) SEX — Oficina de problemas - Entrega T2 [Aula]
-- (03/06/2026) QUA — Theorema de Cook-Levin [Aula]
-- (05/06/2026) SEX — Complexidade de Tempo: Classe NP-Hard; Redução de problemas NP-complete e PSPACE-hard [Trabalho] @Laboratório - 312 {kind=deliverable}
-- (10/06/2026) QUA — Complexidade de Tempo: PSPACE, PSPACE- [Trabalho] @Laboratório - 411 {kind=deliverable}
-- (12/06/2026) SEX — Oficina de problemas - Entrega T2 [Trabalho] @Laboratório - 311 {kind=deliverable}
-- (17/06/2026) QUA — Oficina de problemas [Trabalho] @Laboratório - 312 {kind=deliverable}
-- (19/06/2026) SEX — Oficina de problemas [Trabalho] @Laboratório - 409 {kind=deliverable}
-- (24/06/2026) QUA — Oficina de problemas [Trabalho] @Laboratório - 311 {kind=deliverable}
-- (26/06/2026) SEX — Oficina de problemas - Apresentação [Trabalho] @Laboratório - 409 {kind=deliverable}
-- (01/07/2026) QUA — Revisão para Prova P2 [Aula]
-- (03/07/2026) SEX — Prova P2 [Prova] {kind=assessment}
-- (08/07/2026) QUA — Prova PS [Prova de Substituição] {kind=assessment}
-- (10/07/2026) SEX — Correção da Prova P2 e Prova PS [Aula]
-- (15/07/2026) QUA — Atendimento a dúvidas [Aula]
-- (17/07/2026) SEX — Prova G2 [Prova de G2] {kind=assessment}
-
-## Cronograma de Aulas
-
-- (04/03/2026) QUA — Apresentação; Revisão sobre Teoria de Conjuntos [Aula]
-- (06/03/2026) SEX — Conjuntos Enumeráveis e Não-Enumeráveis; Argumento da Diagonalização de Cantor [Aula]
-- (11/03/2026) QUA — Funções Recursivas Primitivas; Composição de Funções [Aula]
-- (13/03/2026) SEX — Funções Recursivas Parciais; Funções Computáveis [Aula]
-- (18/03/2026) QUA — Minimização de Funções Recursivas Parciais [Aula]
-- (20/03/2026) SEX — T1 - Em aula [Trabalho] {kind=deliverable}
-- (25/03/2026) QUA — Revisão: Alfabeto, Cadeia, Linguagem, Hierarquia de Chomsky, Lemas e Propriedades de Autômatos [Aula]
-- (27/03/2026) SEX — Máquinas de Turing e Linguagens Recursivamente Enumeráveis [Aula]
-- (01/04/2026) QUA — Máquinas de Turing como Processadoras de Funções [Aula]
-- (03/04/2026) SEX — Feriado [Aula]
-- (08/04/2026) QUA — Variações de Máquias de Turing [Aula]
-- (10/04/2026) SEX — Linguagens Reconhecíveis e Linguagens Decidíveis; Máquinas de Turing Universais [Aula]
-- (15/04/2026) QUA — Halting Problem [Aula]
-- (17/04/2026) SEX — Entscheidungsproblem [Aula]
-- (22/04/2026) QUA — Theorema de Rice [Aula]
-- (24/04/2026) SEX — Problema da Correspondência de Post [Aula]
-- (29/04/2026) QUA — Teoremas de Gödel [Aula]
-- (01/05/2026) SEX — Feriado [Aula]
-- (06/05/2026) QUA — Revisão para prova P1 [Aula]
-- (08/05/2026) SEX — Prova P1 [Prova] {kind=assessment}
-- (13/05/2026) QUA — Correção Prova P1 [Aula]
-- (15/05/2026) SEX — Classes de Problemas; Complexidade de Tempo vs. Espaço; Teorema de Savitch; Complete vs. Hard; Intractability [Aula]
-- (20/05/2026) QUA — Complexidade de Tempo: Classes P e NP [Aula]
-- (22/05/2026) SEX — Complexidade de Tempo: NP-complete; Redução de problemas [Aula]
-- (27/05/2026) QUA — SE DAY [Evento Acadêmico] {kind=event}
-- (29/05/2026) SEX — Oficina de problemas - Entrega T2 [Aula]
-- (03/06/2026) QUA — Theorema de Cook-Levin [Aula]
-- (05/06/2026) SEX — Complexidade de Tempo: Classe NP-Hard; Redução de problemas NP-complete e PSPACE-hard [Trabalho] @Laboratório - 312 {kind=deliverable}
-- (10/06/2026) QUA — Complexidade de Tempo: PSPACE, PSPACE- [Trabalho] @Laboratório - 411 {kind=deliverable}
-- (12/06/2026) SEX — Oficina de problemas - Entrega T2 [Trabalho] @Laboratório - 311 {kind=deliverable}
-- (17/06/2026) QUA — Oficina de problemas [Trabalho] @Laboratório - 312 {kind=deliverable}
-- (19/06/2026) SEX — Oficina de problemas [Trabalho] @Laboratório - 409 {kind=deliverable}
-- (24/06/2026) QUA — Oficina de problemas [Trabalho] @Laboratório - 311 {kind=deliverable}
-- (26/06/2026) SEX — Oficina de problemas - Apresentação [Trabalho] @Laboratório - 409 {kind=deliverable}
-- (01/07/2026) QUA — Revisão para Prova P2 [Aula]
-- (03/07/2026) SEX — Prova P2 [Prova] {kind=assessment}
-- (08/07/2026) QUA — Prova PS [Prova de Substituição] {kind=assessment}
-- (10/07/2026) SEX — Correção da Prova P2 e Prova PS [Aula]
-- (15/07/2026) QUA — Atendimento a dúvidas [Aula]
-- (17/07/2026) SEX — Prova G2 [Prova de G2] {kind=assessment}
