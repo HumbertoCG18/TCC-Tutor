@@ -145,7 +145,7 @@
       "computed_unit_slug": "unidade-04-hierarquia-de-classes-de-complexidade-de-problemas-computacionais",
       "computed_block_method": "card+scorer",
       "computed_block_id": "74265198-aa3e-4d9d-8001-049cbc79710f",
-      "computed_block_confidence": 0.6968031015492995,
+      "computed_block_confidence": 0.8,
       "computed_block_band": "alta",
       "unit_match_reasons": [
         "winner_score=81.27",
@@ -3295,7 +3295,6 @@
         "ferramenta:exemplo",
         "tipo:lista",
         "uso:revisao-prova",
-        "unit:unidade-03-problemas-indecidiveis",
         "subunit:maquinas-de-turing",
         "bloco:bloco-16"
       ],
@@ -3362,15 +3361,14 @@
         "signals": [],
         "markdown_path": "staging/markdown-auto/datalab/aula-16-exemplo-de-prova-para-revisao/aula-16-exemplo-de-prova-para-revisao.md"
       },
-      "computed_unit_slug": "unidade-03-problemas-indecidiveis",
+      "computed_unit_slug": "",
       "computed_block_method": "card",
       "computed_block_id": "62a75727-18b8-4351-bad1-e54030fb15ce",
       "computed_block_confidence": 0.85,
       "computed_block_band": "alta",
       "unit_match_reasons": [
         "winner_score=41.18",
-        "topic_score=8.31",
-        "herdada_do_bloco=62a75727-18b8-4351-bad1-e54030fb15ce"
+        "topic_score=8.31"
       ],
       "unit_match_confidence": 0.6341551413108839,
       "unit_block_conflict": {},
@@ -6233,7 +6231,7 @@
       "category": "material-de-aula"
     }
   ],
-  "updated_at": "2026-08-10T15:35:10",
+  "updated_at": "2026-08-11T20:34:05",
   "failed_entries": [],
   "turma": "031",
   "schedule_url": "https://sarc.pucrs.br/Default/Export.aspx?id=9b679f12-2101-4a43-a8d4-d516cb198d04&ano=2026&sem=1"

@@ -1,9 +1,6 @@
 {
   "version": 1,
   "blocks": {
-    "ee594a67-ac2f-480c-ae87-9f4bdcdb5f52": {
-      "manual_kind_override": "review"
-    },
     "e09117dc-5a43-42db-a0b6-e3c59ad9c444": {
       "manual_unit_slug": "unidade-03-problemas-indecidiveis"
     },
