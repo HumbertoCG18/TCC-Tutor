@@ -1,6 +1,6 @@
 ---
 course: Teoria da Computabilidade e Complexidade
 student: Humberto
-updated: 2026-08-11
+updated: 2026-08-17
 
 ---
