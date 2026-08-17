@@ -390,7 +390,7 @@
       },
       "computed_unit_slug": "unidade-04-hierarquia-de-classes-de-complexidade-de-problemas-computacionais",
       "computed_block_id": "74265198-aa3e-4d9d-8001-049cbc79710f",
-      "computed_block_confidence": 0.39449541284403666,
+      "computed_block_confidence": 0.3944954128440367,
       "computed_block_band": "media",
       "unit_match_reasons": [
         "winner_score=54.00",
@@ -501,7 +501,7 @@
       },
       "computed_unit_slug": "unidade-04-hierarquia-de-classes-de-complexidade-de-problemas-computacionais",
       "computed_block_id": "74265198-aa3e-4d9d-8001-049cbc79710f",
-      "computed_block_confidence": 0.08702702702702705,
+      "computed_block_confidence": 0.08702702702702722,
       "computed_block_band": "baixa",
       "unit_match_reasons": [
         "winner_score=49.84",
@@ -3704,7 +3704,7 @@
       },
       "computed_unit_slug": "unidade-01-conjuntos-enumeraveis-e-funcoes-recursivas",
       "computed_block_id": "e4678122-f30f-4385-bbed-3a682d728920",
-      "computed_block_confidence": 0.6027397260273972,
+      "computed_block_confidence": 0.6027397260273973,
       "computed_block_band": "alta",
       "unit_match_reasons": [
         "winner_score=45.02",
@@ -6242,7 +6242,7 @@
       "category": "material-de-aula"
     }
   ],
-  "updated_at": "2026-08-17T17:15:58",
+  "updated_at": "2026-08-17T17:26:44",
   "failed_entries": [],
   "turma": "031",
   "schedule_url": "https://sarc.pucrs.br/Default/Export.aspx?id=9b679f12-2101-4a43-a8d4-d516cb198d04&ano=2026&sem=1"
