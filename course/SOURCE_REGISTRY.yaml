@@ -9,7 +9,6 @@ sources:
     processing_mode: high_fidelity
     effective_profile: math_heavy
     include_in_bundle: true
-    professor_signal: ""
   - id: plano-de-ensino
     title: "Plano de Ensino"
     category: cronograma
@@ -19,7 +18,6 @@ sources:
     processing_mode: high_fidelity
     effective_profile: math_heavy
     include_in_bundle: true
-    professor_signal: ""
   - id: aula-17-np-completude-pdf
     title: "Aula 17 - NP-Completude"
     category: material-de-aula
@@ -29,7 +27,6 @@ sources:
     processing_mode: high_fidelity
     effective_profile: math_heavy
     include_in_bundle: true
-    professor_signal: ""
   - id: trabalho-t2-enunciado
     title: "Trabalho T2 - Enunciado"
     category: trabalhos
@@ -39,7 +36,6 @@ sources:
     processing_mode: high_fidelity
     effective_profile: math_heavy
     include_in_bundle: true
-    professor_signal: ""
   - id: 3dm-caetano-gabriel-e-gustavo
     title: "3DM - Caetano, Gabriel e Gustavo"
     category: trabalhos
@@ -49,7 +45,6 @@ sources:
     processing_mode: high_fidelity
     effective_profile: math_heavy
     include_in_bundle: true
-    professor_signal: ""
   - id: cubic-3-edge-coloring
     title: "Cubic 3-Edge Coloring"
     category: trabalhos
@@ -59,7 +54,6 @@ sources:
     processing_mode: high_fidelity
     effective_profile: math_heavy
     include_in_bundle: true
-    professor_signal: ""
   - id: programacao-inteira-01-20260617-154423-0000
     title: "Programação Inteira 01_20260617_154423_0000"
     category: trabalhos
@@ -69,7 +63,6 @@ sources:
     processing_mode: high_fidelity
     effective_profile: math_heavy
     include_in_bundle: true
-    professor_signal: ""
   - id: aula-04-funcoes-computaveis-funcoes-recursivas-parciais-pdf
     title: "Aula 04 - Funções Computáveis Funções Recursivas Parciais"
     category: material-de-aula
@@ -79,7 +72,6 @@ sources:
     processing_mode: high_fidelity
     effective_profile: math_heavy
     include_in_bundle: true
-    professor_signal: ""
   - id: t1-enunciado
     title: "T1 - Enunciado"
     category: trabalhos
@@ -89,7 +81,6 @@ sources:
     processing_mode: high_fidelity
     effective_profile: math_heavy
     include_in_bundle: true
-    professor_signal: ""
   - id: aula-07-maquinas-de-turing-e-linguagens-recursivamente-enumeraveis
     title: "Aula 07 - Máquinas de Turing e Linguagens Recursivamente Enumeráveis"
     category: material-de-aula
@@ -99,7 +90,6 @@ sources:
     processing_mode: high_fidelity
     effective_profile: math_heavy
     include_in_bundle: true
-    professor_signal: ""
   - id: aula-08-maquinas-de-turing-como-processadoras-de-funcoes
     title: "Aula 08 - Máquinas de Turing como Processadoras de Funções"
     category: material-de-aula
@@ -109,7 +99,6 @@ sources:
     processing_mode: high_fidelity
     effective_profile: math_heavy
     include_in_bundle: true
-    professor_signal: ""
   - id: aula-10-linguagens-reconhecıveis-e-linguagens-decidıveis-pdf
     title: "Aula 10 - Linguagens Reconhecı́veis e Linguagens Decidı́veis"
     category: material-de-aula
@@ -119,7 +108,6 @@ sources:
     processing_mode: high_fidelity
     effective_profile: math_heavy
     include_in_bundle: true
-    professor_signal: ""
   - id: aula-11-o-problema-da-parada-halting-problem-halteproblem-pdf
     title: "Aula 11 - O Problema da Parada (Halting Problem, Halteproblem)"
     category: material-de-aula
@@ -129,7 +117,6 @@ sources:
     processing_mode: high_fidelity
     effective_profile: math_heavy
     include_in_bundle: true
-    professor_signal: ""
   - id: aula-12-entscheidungsproblem-pdf
     title: "Aula 12 - Entscheidungsproblem"
     category: material-de-aula
@@ -139,7 +126,6 @@ sources:
     processing_mode: high_fidelity
     effective_profile: math_heavy
     include_in_bundle: true
-    professor_signal: ""
   - id: aula-13-teorema-de-rice-pdf
     title: "Aula 13 - Teorema de Rice"
     category: material-de-aula
@@ -149,7 +135,6 @@ sources:
     processing_mode: high_fidelity
     effective_profile: math_heavy
     include_in_bundle: true
-    professor_signal: ""
   - id: 3d-matching
     title: "3D Matching"
     category: material-de-aula
@@ -159,7 +144,6 @@ sources:
     processing_mode: high_fidelity
     effective_profile: math_heavy
     include_in_bundle: true
-    professor_signal: ""
   - id: integer-programming-0001
     title: "Integer Programming 00.01"
     category: outros
@@ -169,7 +153,6 @@ sources:
     processing_mode: high_fidelity
     effective_profile: math_heavy
     include_in_bundle: true
-    professor_signal: ""
   - id: aula-16-classes-de-problemas-e-complexidade-pdf
     title: "Aula 16 - Classes de Problemas e Complexidade"
     category: material-de-aula
@@ -179,7 +162,6 @@ sources:
     processing_mode: high_fidelity
     effective_profile: math_heavy
     include_in_bundle: true
-    professor_signal: ""
   - id: aula-01-apresentacao-da-disciplina-revisao-de-teoria-de-conjuntos-e-enumerabilidade
     title: "Aula 01 - Apresentação da Disciplina, Revisão de Teoria de Conjuntos e Enumerabilidade"
     category: material-de-aula
@@ -189,7 +171,6 @@ sources:
     processing_mode: high_fidelity
     effective_profile: math_heavy
     include_in_bundle: true
-    professor_signal: ""
   - id: aula-02-conjuntos-enumeraveis-e-nao-enumeraveis-argumento-da-diagonalizacao-de-cantor
     title: "Aula 02 - Conjuntos Enumeráveis e Não-Enumeráveis; Argumento da Diagonalização de Cantor"
     category: material-de-aula
@@ -199,7 +180,6 @@ sources:
     processing_mode: high_fidelity
     effective_profile: math_heavy
     include_in_bundle: true
-    professor_signal: ""
   - id: aula-16-exemplo-de-prova-para-revisao
     title: "Aula 16 - Exemplo de Prova para Revisão"
     category: listas
@@ -209,7 +189,6 @@ sources:
     processing_mode: high_fidelity
     effective_profile: math_heavy
     include_in_bundle: true
-    professor_signal: ""
   - id: aula-03-funcoes-recursivas-primitivas-e-composicao-de-funcoes
     title: "Aula 03 - Funções Recursivas Primitivas e Composição de Funções"
     category: material-de-aula
@@ -219,7 +198,6 @@ sources:
     processing_mode: high_fidelity
     effective_profile: math_heavy
     include_in_bundle: true
-    professor_signal: ""
   - id: aula-05-minimizacao-de-funcoes-recursivas-parciais
     title: "Aula 05 - Minimização de Funções Recursivas Parciais"
     category: material-de-aula
@@ -229,7 +207,6 @@ sources:
     processing_mode: high_fidelity
     effective_profile: math_heavy
     include_in_bundle: true
-    professor_signal: ""
   - id: aula-06-revisao-alfabeto-cadeia-linguagem-hierarquia-de-chomsky-lemas-e-propriedades-de-automatos
     title: "Aula 06 - Revisão Alfabeto, Cadeia, Linguagem, Hierarquia de Chomsky, Lemas e Propriedades de Autômatos"
     category: material-de-aula
@@ -239,7 +216,6 @@ sources:
     processing_mode: high_fidelity
     effective_profile: math_heavy
     include_in_bundle: true
-    professor_signal: ""
   - id: aula-09-variacoes-de-maquinas-de-turing
     title: "Aula 09 - Variações de Máquinas de Turing"
     category: material-de-aula
@@ -249,7 +225,6 @@ sources:
     processing_mode: high_fidelity
     effective_profile: math_heavy
     include_in_bundle: true
-    professor_signal: ""
   - id: aula-14-problema-da-correspondencia-de-post
     title: "Aula 14 - Problema da Correspondência de Post"
     category: material-de-aula
@@ -259,7 +234,6 @@ sources:
     processing_mode: high_fidelity
     effective_profile: math_heavy
     include_in_bundle: true
-    professor_signal: ""
   - id: aula-15-teoremas-de-incompletude-de-godel
     title: "Aula 15 - Teoremas de Incompletude de Gödel"
     category: material-de-aula
@@ -269,4 +243,3 @@ sources:
     processing_mode: high_fidelity
     effective_profile: math_heavy
     include_in_bundle: true
-    professor_signal: ""
