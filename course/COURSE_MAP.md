@@ -24,6 +24,7 @@
 - [ ] 3.2 Entscheidungsproblem e Introdução à Reducibilidade de Problemas
 - [ ] 3.3 Decidibilidade de Teorias Lógicas
 - [ ] 3.4 Teoremas de Gödel
+- 🧪 Tambem cobre esta unidade: `Aula 06 - Revisão Alfabeto, Cadeia, Linguagem, Hierarquia de Chomsky, Lemas e Propriedades de Autômatos`, `Aula 07 - Máquinas de Turing e Linguagens Recursivamente Enumeráveis`
 
 ### UNIDADE 04 — Hierarquia de Classes de Complexidade de Problemas Computacionais
 - [ ] 4.1 Tipos de Problemas Computacionais

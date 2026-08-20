@@ -33,7 +33,7 @@
       "tags": "",
       "manual_tags": [],
       "auto_tags": [
-        "ferramenta:exemplo",
+        "ferramenta:lemas",
         "topico:classe-np",
         "topico:definicao",
         "topico:definicao-da-classe",
@@ -144,10 +144,10 @@
       },
       "computed_unit_slug": "unidade-04-hierarquia-de-classes-de-complexidade-de-problemas-computacionais",
       "computed_block_id": "74265198-aa3e-4d9d-8001-049cbc79710f",
-      "computed_block_confidence": 0.4327731092436974,
+      "computed_block_confidence": 0.4327731092436975,
       "computed_block_band": "media",
       "unit_match_reasons": [
-        "winner_score=92.52",
+        "winner_score=89.11",
         "topic_score=13.92"
       ],
       "unit_match_confidence": 0.7532292130634061,
@@ -172,6 +172,22 @@
       "temporal_block_provider": "ordinal",
       "temporal_block_window": [
         "bloco-19"
+      ],
+      "coverage_units": [
+        {
+          "unit_slug": "unidade-04-hierarquia-de-classes-de-complexidade-de-problemas-computacionais",
+          "topics": [
+            "4.2 complexidade de tempo e de espaco",
+            "4.3 hierarquia de classes de complexidade de problemas",
+            "classes de problemas e complexidade computacional",
+            "complexidade de tempo classes p e np",
+            "complexidade de tempo e de espaco",
+            "da computabilidade a complexidade",
+            "hierarquia de classes de complexidade de problemas"
+          ],
+          "confidence": 0.7,
+          "rule": "card"
+        }
       ],
       "computed_block_method": "concept-fused"
     },
@@ -257,7 +273,45 @@
       "review_status": "approved",
       "moodle_label": "Plano de Ensino",
       "posting_date": "2026-02-26",
-      "posting_date_created": "2026-02-26"
+      "posting_date_created": "2026-02-26",
+      "computed_unit_slug": "",
+      "unit_match_reasons": [
+        "winner_score=124.54",
+        "topic_score=9.18"
+      ],
+      "unit_match_confidence": 0.483026856795741,
+      "unit_block_conflict": {},
+      "computed_subunit_slug": "conjuntos-enumeraveis",
+      "subunit_match_reasons": [
+        "winner_score=17.12"
+      ],
+      "subunit_match_confidence": 0.46396028037383186,
+      "coverage_units": [
+        {
+          "unit_slug": "unidade-01-conjuntos-enumeraveis-e-funcoes-recursivas",
+          "topics": [],
+          "confidence": 1.0,
+          "rule": "meta"
+        },
+        {
+          "unit_slug": "unidade-02-turing-computabilidade",
+          "topics": [],
+          "confidence": 1.0,
+          "rule": "meta"
+        },
+        {
+          "unit_slug": "unidade-03-problemas-indecidiveis",
+          "topics": [],
+          "confidence": 1.0,
+          "rule": "meta"
+        },
+        {
+          "unit_slug": "unidade-04-hierarquia-de-classes-de-complexidade-de-problemas-computacionais",
+          "topics": [],
+          "confidence": 1.0,
+          "rule": "meta"
+        }
+      ]
     },
     {
       "id": "aula-17-np-completude-pdf",
@@ -269,6 +323,7 @@
       "tags": "",
       "manual_tags": [],
       "auto_tags": [
+        "ferramenta:lemas",
         "ferramenta:propriedades",
         "topico:definicao",
         "tipo:material-base",
@@ -381,7 +436,7 @@
       "computed_block_confidence": 0.4130434782608695,
       "computed_block_band": "media",
       "unit_match_reasons": [
-        "winner_score=64.97",
+        "winner_score=60.61",
         "topic_score=8.91"
       ],
       "unit_match_confidence": 0.8981360880305412,
@@ -408,6 +463,18 @@
         "bloco-21",
         "bloco-22"
       ],
+      "coverage_units": [
+        {
+          "unit_slug": "unidade-04-hierarquia-de-classes-de-complexidade-de-problemas-computacionais",
+          "topics": [
+            "4.5.5 provas de np-completude",
+            "provas de np-completude",
+            "reducao polinomial e provas de np-completude"
+          ],
+          "confidence": 0.7,
+          "rule": "card"
+        }
+      ],
       "computed_block_method": "concept-fused"
     },
     {
@@ -420,7 +487,7 @@
       "tags": "",
       "manual_tags": [],
       "auto_tags": [
-        "ferramenta:trabalho",
+        "ferramenta:lemas",
         "bloco:bloco-19",
         "unit:unidade-04-hierarquia-de-classes-de-complexidade-de-problemas-computacionais",
         "subunit:provas-de-np-completude"
@@ -490,10 +557,10 @@
       },
       "computed_unit_slug": "unidade-04-hierarquia-de-classes-de-complexidade-de-problemas-computacionais",
       "computed_block_id": "74265198-aa3e-4d9d-8001-049cbc79710f",
-      "computed_block_confidence": 0.08702702702702675,
+      "computed_block_confidence": 0.040405405405405596,
       "computed_block_band": "baixa",
       "unit_match_reasons": [
-        "winner_score=85.60",
+        "winner_score=82.29",
         "topic_score=22.82"
       ],
       "unit_match_confidence": 0.95,
@@ -511,6 +578,14 @@
       "moodle_label": "Trabalho T2 - Enunciado",
       "posting_date": "2026-05-28",
       "posting_date_created": "2026-05-28",
+      "coverage_units": [
+        {
+          "unit_slug": "unidade-04-hierarquia-de-classes-de-complexidade-de-problemas-computacionais",
+          "topics": [],
+          "confidence": 0.5,
+          "rule": "unidade-atribuida"
+        }
+      ],
       "computed_block_method": "concept-fused"
     },
     {
@@ -681,7 +756,7 @@
       "computed_block_confidence": 0.3293852459016393,
       "computed_block_band": "media",
       "unit_match_reasons": [
-        "winner_score=32.03",
+        "winner_score=27.49",
         "topic_score=7.28"
       ],
       "unit_match_confidence": 0.95,
@@ -690,7 +765,7 @@
       "subunit_match_reasons": [
         "winner_score=7.28"
       ],
-      "subunit_match_confidence": 0.2718926941894343,
+      "subunit_match_confidence": 0.3818371722280248,
       "approved_markdown": "content/curated/3dm-caetano-gabriel-e-gustavo.md",
       "curated_markdown": "content/curated/3dm-caetano-gabriel-e-gustavo.md",
       "approved_source_markdown": "staging/markdown-auto/datalab/3dm-caetano-gabriel-e-gustavo/3dm-caetano-gabriel-e-gustavo.md",
@@ -699,6 +774,14 @@
       "moodle_label": "3D Matching",
       "posting_date": "2026-06-17",
       "posting_date_created": "2026-06-17",
+      "coverage_units": [
+        {
+          "unit_slug": "unidade-04-hierarquia-de-classes-de-complexidade-de-problemas-computacionais",
+          "topics": [],
+          "confidence": 0.5,
+          "rule": "unidade-atribuida"
+        }
+      ],
       "computed_block_method": "concept-fused"
     },
     {
@@ -712,7 +795,6 @@
       "manual_tags": [],
       "auto_tags": [
         "ferramenta:edge-coloring",
-        "ferramenta:exemplo",
         "bloco:bloco-19",
         "unit:unidade-04-hierarquia-de-classes-de-complexidade-de-problemas-computacionais",
         "subunit:reducao-polinomial-de-problemas"
@@ -850,16 +932,16 @@
       "computed_block_confidence": 0.24764150943396226,
       "computed_block_band": "media",
       "unit_match_reasons": [
-        "winner_score=33.12",
+        "winner_score=30.08",
         "topic_score=4.50"
       ],
       "unit_match_confidence": 0.95,
       "unit_block_conflict": {},
       "computed_subunit_slug": "reducao-polinomial-de-problemas",
       "subunit_match_reasons": [
-        "winner_score=5.30"
+        "winner_score=4.50"
       ],
-      "subunit_match_confidence": 0.6257078142695357,
+      "subunit_match_confidence": 0.6638506002667852,
       "approved_markdown": "content/curated/cubic-3-edge-coloring.md",
       "curated_markdown": "content/curated/cubic-3-edge-coloring.md",
       "approved_source_markdown": "staging/markdown-auto/datalab/cubic-3-edge-coloring/cubic-3-edge-coloring.md",
@@ -868,6 +950,14 @@
       "moodle_label": "Cubic 3-Edge Coloring",
       "posting_date": "2026-06-17",
       "posting_date_created": "2026-06-17",
+      "coverage_units": [
+        {
+          "unit_slug": "unidade-04-hierarquia-de-classes-de-complexidade-de-problemas-computacionais",
+          "topics": [],
+          "confidence": 0.5,
+          "rule": "unidade-atribuida"
+        }
+      ],
       "computed_block_method": "concept-fused"
     },
     {
@@ -981,16 +1071,17 @@
       "computed_block_confidence": 0.37499999999999994,
       "computed_block_band": "media",
       "unit_match_reasons": [
-        "winner_score=18.56",
+        "winner_score=15.42",
         "topic_score=1.07"
       ],
       "unit_match_confidence": 0.95,
       "unit_block_conflict": {},
-      "computed_subunit_slug": "hierarquia-de-classes-de-complexidade-de-problemas",
+      "computed_subunit_slug": "provas-de-np-completude",
       "subunit_match_reasons": [
-        "winner_score=1.98"
+        "winner_score=1.07",
+        "ambiguous"
       ],
-      "subunit_match_confidence": 0.17216338880484133,
+      "subunit_match_confidence": 0.12162162162162157,
       "approved_markdown": "content/curated/programacao-inteira-01-20260617-154423-0000.md",
       "curated_markdown": "content/curated/programacao-inteira-01-20260617-154423-0000.md",
       "approved_source_markdown": "staging/markdown-auto/datalab/programacao-inteira-01-20260617-154423-0000/programacao-inteira-01-20260617-154423-0000.md",
@@ -999,6 +1090,14 @@
       "moodle_label": "Integer Programming 0/1",
       "posting_date": "2026-06-17",
       "posting_date_created": "2026-06-17",
+      "coverage_units": [
+        {
+          "unit_slug": "unidade-04-hierarquia-de-classes-de-complexidade-de-problemas-computacionais",
+          "topics": [],
+          "confidence": 0.5,
+          "rule": "unidade-atribuida"
+        }
+      ],
       "computed_block_method": "concept-fused"
     },
     {
@@ -1144,9 +1243,8 @@
       "computed_block_confidence": 0.4380403458213256,
       "computed_block_band": "media",
       "unit_match_reasons": [
-        "winner_score=68.67",
-        "topic_score=13.00",
-        "herdada_do_bloco=e4678122-f30f-4385-bbed-3a682d728920"
+        "winner_score=62.66",
+        "topic_score=13.00"
       ],
       "unit_match_confidence": 0.6093966339497245,
       "unit_block_conflict": {},
@@ -1154,7 +1252,7 @@
       "subunit_match_reasons": [
         "winner_score=13.00"
       ],
-      "subunit_match_confidence": 0.7920833205132151,
+      "subunit_match_confidence": 0.88037291160272,
       "approved_markdown": "content/curated/aula-04-funcoes-computaveis-funcoes-recursivas-parciais-pdf.md",
       "curated_markdown": "content/curated/aula-04-funcoes-computaveis-funcoes-recursivas-parciais-pdf.md",
       "approved_source_markdown": "staging/markdown-auto/datalab/aula-04-funcoes-computaveis-funcoes-recursivas-parciais-pdf/aula-04-funcoes-computaveis-funcoes-recursivas-parciais-pdf.md",
@@ -1170,6 +1268,21 @@
       "temporal_block_provider": "ordinal",
       "temporal_block_window": [
         "bloco-03"
+      ],
+      "coverage_units": [
+        {
+          "unit_slug": "unidade-01-conjuntos-enumeraveis-e-funcoes-recursivas",
+          "topics": [
+            "1.3 funcoes recursivas primitivas e funcoes recursivas parciais",
+            "funcoes computaveis funcoes recursivas parciais",
+            "funcoes recursivas primitivas composicao de funcoes",
+            "funcoes recursivas primitivas e funcoes recursivas parciais",
+            "minimizacao de funcoes recursivas parciais",
+            "parte 3 - funcoes recursivas primitivas"
+          ],
+          "confidence": 0.7,
+          "rule": "card"
+        }
       ],
       "computed_block_method": "concept-fused"
     },
@@ -1264,7 +1377,7 @@
       "subunit_match_reasons": [
         "winner_score=15.77"
       ],
-      "subunit_match_confidence": 0.3970707583058585,
+      "subunit_match_confidence": 0.4314988587370022,
       "approved_markdown": "content/curated/t1-enunciado.md",
       "curated_markdown": "content/curated/t1-enunciado.md",
       "approved_source_markdown": "staging/markdown-auto/datalab/t1-enunciado/t1-enunciado.md",
@@ -1273,6 +1386,17 @@
       "moodle_label": "T1 - Enunciado",
       "posting_date": "2026-03-18",
       "posting_date_created": "2026-03-18",
+      "coverage_units": [
+        {
+          "unit_slug": "unidade-01-conjuntos-enumeraveis-e-funcoes-recursivas",
+          "topics": [
+            "minimizacao de funcoes recursivas parciais",
+            "parte 4 - funcoes parciais e minimizacao"
+          ],
+          "confidence": 0.7,
+          "rule": "card"
+        }
+      ],
       "computed_block_method": "concept-fused"
     },
     {
@@ -1285,6 +1409,7 @@
       "tags": "",
       "manual_tags": [],
       "auto_tags": [
+        "ferramenta:recursivamente",
         "topico:maquinas-de-turing",
         "tipo:material-base",
         "bloco:bloco-05",
@@ -1449,10 +1574,10 @@
       },
       "computed_unit_slug": "unidade-02-turing-computabilidade",
       "computed_block_id": "ee594a67-ac2f-480c-ae87-9f4bdcdb5f52",
-      "computed_block_confidence": 0.27307692307692294,
+      "computed_block_confidence": 0.37692307692307686,
       "computed_block_band": "media",
       "unit_match_reasons": [
-        "winner_score=97.10",
+        "winner_score=94.06",
         "topic_score=34.81"
       ],
       "unit_match_confidence": 0.8541349495877977,
@@ -1481,6 +1606,23 @@
       "temporal_block_provider": "ordinal",
       "temporal_block_window": [
         "bloco-06"
+      ],
+      "coverage_units": [
+        {
+          "unit_slug": "unidade-03-problemas-indecidiveis",
+          "topics": [
+            "3.2 entscheidungsproblem e introducao a reducibilidade de problemas",
+            "entscheidungsproblem e introducao a reducibilidade de problemas"
+          ],
+          "confidence": 0.7,
+          "rule": "card"
+        },
+        {
+          "unit_slug": "unidade-02-turing-computabilidade",
+          "topics": [],
+          "confidence": 0.5,
+          "rule": "unidade-atribuida"
+        }
       ],
       "computed_block_method": "concept-fused"
     },
@@ -1633,7 +1775,7 @@
       "computed_block_confidence": 0.0945454545454544,
       "computed_block_band": "baixa",
       "unit_match_reasons": [
-        "winner_score=97.68",
+        "winner_score=91.59",
         "topic_score=34.81"
       ],
       "unit_match_confidence": 0.8541349495877977,
@@ -1663,6 +1805,16 @@
       "temporal_block_window": [
         "bloco-06"
       ],
+      "coverage_units": [
+        {
+          "unit_slug": "unidade-02-turing-computabilidade",
+          "topics": [
+            "maquinas de turing"
+          ],
+          "confidence": 0.7,
+          "rule": "card"
+        }
+      ],
       "computed_block_method": "concept-fused"
     },
     {
@@ -1675,7 +1827,7 @@
       "tags": "",
       "manual_tags": [],
       "auto_tags": [
-        "ferramenta:exemplo",
+        "ferramenta:linguagem",
         "topico:linguagens-reconheciveis-e-decidiveis",
         "topico:maquinas-de-turing",
         "topico:maquinas-de-turing-universais",
@@ -1829,10 +1981,10 @@
       },
       "computed_unit_slug": "unidade-02-turing-computabilidade",
       "computed_block_id": "3e3be596-9527-42ba-ad20-c15956e48f4e",
-      "computed_block_confidence": 0.14529914529914545,
-      "computed_block_band": "baixa",
+      "computed_block_confidence": 0.23931623931623935,
+      "computed_block_band": "media",
       "unit_match_reasons": [
-        "winner_score=84.71",
+        "winner_score=78.79",
         "topic_score=23.02"
       ],
       "unit_match_confidence": 0.8485059068797777,
@@ -1857,6 +2009,23 @@
       "temporal_block_provider": "ordinal",
       "temporal_block_window": [
         "bloco-09"
+      ],
+      "coverage_units": [
+        {
+          "unit_slug": "unidade-02-turing-computabilidade",
+          "topics": [
+            "2.2 linguagens reconheciveis e decidiveis",
+            "linguagens reconheciveis e decidiveis",
+            "linguagens reconheciveis e linguagens decidiveis maquinas de turing universais",
+            "maquinas de turing",
+            "maquinas de turing e linguagens recursivamente enumeraveis",
+            "problemas sobre linguagens de mts",
+            "recapitulacao classes de linguagens",
+            "variacoes de maquinas de turing"
+          ],
+          "confidence": 0.7,
+          "rule": "card"
+        }
       ],
       "computed_block_method": "concept-fused"
     },
@@ -2043,17 +2212,17 @@
       "computed_block_confidence": 0.11499999999999987,
       "computed_block_band": "baixa",
       "unit_match_reasons": [
-        "winner_score=71.00",
+        "winner_score=66.39",
         "topic_score=8.77",
         "herdada_do_bloco=ee594a67-ac2f-480c-ae87-9f4bdcdb5f52"
       ],
-      "unit_match_confidence": 0.2951849778350533,
+      "unit_match_confidence": 0.31570531770270427,
       "unit_block_conflict": {},
-      "computed_subunit_slug": "conjuntos-enumeraveis",
+      "computed_subunit_slug": "",
       "subunit_match_reasons": [
-        "winner_score=2.16"
+        "empate-exato 2x score=1.04"
       ],
-      "subunit_match_confidence": 0.5206657420249653,
+      "subunit_match_confidence": 0.0,
       "approved_markdown": "content/curated/aula-11-o-problema-da-parada-halting-problem-halteproblem-pdf.md",
       "curated_markdown": "content/curated/aula-11-o-problema-da-parada-halting-problem-halteproblem-pdf.md",
       "approved_source_markdown": "staging/markdown-auto/datalab/aula-11-o-problema-da-parada-halting-problem-halteproblem-pdf/aula-11-o-problema-da-parada-halting-problem-halteproblem-pdf.md",
@@ -2071,6 +2240,17 @@
         "bloco-10",
         "bloco-11"
       ],
+      "coverage_units": [
+        {
+          "unit_slug": "unidade-03-problemas-indecidiveis",
+          "topics": [
+            "3.2 entscheidungsproblem e introducao a reducibilidade de problemas",
+            "entscheidungsproblem e introducao a reducibilidade de problemas"
+          ],
+          "confidence": 0.7,
+          "rule": "card"
+        }
+      ],
       "computed_block_method": "concept-fused"
     },
     {
@@ -2083,6 +2263,7 @@
       "tags": "",
       "manual_tags": [],
       "auto_tags": [
+        "ferramenta:lemas",
         "tipo:material-base",
         "bloco:bloco-03",
         "unit:unidade-01-conjuntos-enumeraveis-e-funcoes-recursivas"
@@ -2183,20 +2364,20 @@
       },
       "computed_unit_slug": "unidade-01-conjuntos-enumeraveis-e-funcoes-recursivas",
       "computed_block_id": "e4678122-f30f-4385-bbed-3a682d728920",
-      "computed_block_confidence": 0.38181818181818183,
+      "computed_block_confidence": 0.38181818181818167,
       "computed_block_band": "media",
       "unit_match_reasons": [
-        "winner_score=59.99",
+        "winner_score=52.42",
         "topic_score=5.08",
         "herdada_do_bloco=e4678122-f30f-4385-bbed-3a682d728920"
       ],
       "unit_match_confidence": 0.2881055533674675,
       "unit_block_conflict": {},
-      "computed_subunit_slug": "conjuntos-enumeraveis",
+      "computed_subunit_slug": "funcoes-recursivas-primitivas-e-funcoes-recursivas-parciais",
       "subunit_match_reasons": [
-        "winner_score=1.80"
+        "winner_score=1.43"
       ],
-      "subunit_match_confidence": 0.2093178036605657,
+      "subunit_match_confidence": 0.36363636363636365,
       "approved_markdown": "content/curated/aula-12-entscheidungsproblem-pdf.md",
       "curated_markdown": "content/curated/aula-12-entscheidungsproblem-pdf.md",
       "approved_source_markdown": "staging/markdown-auto/datalab/aula-12-entscheidungsproblem-pdf/aula-12-entscheidungsproblem-pdf.md",
@@ -2214,6 +2395,17 @@
         "bloco-10",
         "bloco-11"
       ],
+      "coverage_units": [
+        {
+          "unit_slug": "unidade-03-problemas-indecidiveis",
+          "topics": [
+            "3.2 entscheidungsproblem e introducao a reducibilidade de problemas",
+            "entscheidungsproblem e introducao a reducibilidade de problemas"
+          ],
+          "confidence": 0.7,
+          "rule": "card"
+        }
+      ],
       "computed_block_method": "concept-fused"
     },
     {
@@ -2226,6 +2418,7 @@
       "tags": "",
       "manual_tags": [],
       "auto_tags": [
+        "ferramenta:lemas",
         "ferramenta:propriedades",
         "topico:definicao",
         "topico:problemas-sobre-linguagens-de-mts",
@@ -2319,12 +2512,12 @@
       "computed_block_confidence": 1.0,
       "computed_block_band": "alta",
       "unit_match_reasons": [
-        "winner_score=53.95",
+        "winner_score=48.03",
         "topic_score=8.61",
         "ambiguous",
         "unidade_do_bloco_manual"
       ],
-      "unit_match_confidence": 0.061927205783678656,
+      "unit_match_confidence": 0.06956005399908893,
       "unit_block_conflict": {},
       "computed_subunit_slug": "prova-da-indecidibilidade-do-problema-da-parada",
       "subunit_match_reasons": [
@@ -2511,7 +2704,7 @@
       "computed_block_confidence": 1.0,
       "computed_block_band": "alta",
       "unit_match_reasons": [
-        "winner_score=32.03",
+        "winner_score=27.49",
         "topic_score=7.28"
       ],
       "unit_match_confidence": 0.95,
@@ -2520,13 +2713,21 @@
       "subunit_match_reasons": [
         "winner_score=7.28"
       ],
-      "subunit_match_confidence": 0.2718926941894343,
+      "subunit_match_confidence": 0.3818371722280248,
       "manual_subunit_slug": "",
       "approved_markdown": "content/curated/3d-matching.md",
       "curated_markdown": "content/curated/3d-matching.md",
       "approved_source_markdown": "staging/markdown-auto/datalab/3d-matching/3d-matching.md",
       "approved_at": "2026-06-28T16:52:15",
-      "review_status": "approved"
+      "review_status": "approved",
+      "coverage_units": [
+        {
+          "unit_slug": "unidade-04-hierarquia-de-classes-de-complexidade-de-problemas-computacionais",
+          "topics": [],
+          "confidence": 0.5,
+          "rule": "unidade-atribuida"
+        }
+      ]
     },
     {
       "id": "integer-programming-0001",
@@ -2639,21 +2840,30 @@
       "computed_block_confidence": 0.37499999999999994,
       "computed_block_band": "media",
       "unit_match_reasons": [
-        "winner_score=18.56",
+        "winner_score=15.42",
         "topic_score=1.07"
       ],
       "unit_match_confidence": 0.95,
       "unit_block_conflict": {},
-      "computed_subunit_slug": "hierarquia-de-classes-de-complexidade-de-problemas",
+      "computed_subunit_slug": "provas-de-np-completude",
       "subunit_match_reasons": [
-        "winner_score=1.98"
+        "winner_score=1.07",
+        "ambiguous"
       ],
-      "subunit_match_confidence": 0.17216338880484133,
+      "subunit_match_confidence": 0.12162162162162157,
       "approved_markdown": "content/curated/integer-programming-0001.md",
       "curated_markdown": "content/curated/integer-programming-0001.md",
       "approved_source_markdown": "staging/markdown-auto/datalab/integer-programming-0001/integer-programming-0001.md",
       "approved_at": "2026-06-28T16:52:30",
       "review_status": "approved",
+      "coverage_units": [
+        {
+          "unit_slug": "unidade-04-hierarquia-de-classes-de-complexidade-de-problemas-computacionais",
+          "topics": [],
+          "confidence": 0.5,
+          "rule": "unidade-atribuida"
+        }
+      ],
       "computed_block_method": "concept-fused"
     },
     {
@@ -2666,6 +2876,7 @@
       "tags": "",
       "manual_tags": [],
       "auto_tags": [
+        "ferramenta:lemas",
         "topico:classes-de-problemas-e-complexidade-computacional",
         "topico:da-computabilidade-a-complexidade",
         "tipo:material-base",
@@ -2819,21 +3030,20 @@
       },
       "computed_unit_slug": "unidade-04-hierarquia-de-classes-de-complexidade-de-problemas-computacionais",
       "computed_block_id": "74265198-aa3e-4d9d-8001-049cbc79710f",
-      "computed_block_confidence": 0.369942196531792,
+      "computed_block_confidence": 0.3699421965317917,
       "computed_block_band": "media",
       "unit_match_reasons": [
-        "winner_score=121.85",
-        "topic_score=9.49",
-        "herdada_do_bloco=74265198-aa3e-4d9d-8001-049cbc79710f"
+        "winner_score=114.06",
+        "topic_score=9.49"
       ],
-      "unit_match_confidence": 0.6336913488961885,
+      "unit_match_confidence": 0.676957830841152,
       "unit_block_conflict": {},
       "computed_subunit_slug": "hierarquia-de-classes-de-complexidade-de-problemas",
       "subunit_match_reasons": [
-        "winner_score=9.85",
+        "winner_score=9.49",
         "ambiguous"
       ],
-      "subunit_match_confidence": 0.12620058074603516,
+      "subunit_match_confidence": 0.09276437847866409,
       "approved_markdown": "content/curated/aula-16-classes-de-problemas-e-complexidade-pdf.md",
       "curated_markdown": "content/curated/aula-16-classes-de-problemas-e-complexidade-pdf.md",
       "approved_source_markdown": "staging/markdown-auto/datalab/aula-16-classes-de-problemas-e-complexidade-pdf/aula-16-classes-de-problemas-e-complexidade-pdf.md",
@@ -2846,6 +3056,22 @@
       "temporal_block_provider": "ordinal",
       "temporal_block_window": [
         "bloco-18"
+      ],
+      "coverage_units": [
+        {
+          "unit_slug": "unidade-04-hierarquia-de-classes-de-complexidade-de-problemas-computacionais",
+          "topics": [
+            "4.2 complexidade de tempo e de espaco",
+            "4.3 hierarquia de classes de complexidade de problemas",
+            "classes de problemas e complexidade computacional",
+            "complexidade de tempo classes p e np",
+            "complexidade de tempo e de espaco",
+            "da computabilidade a complexidade",
+            "hierarquia de classes de complexidade de problemas"
+          ],
+          "confidence": 0.7,
+          "rule": "card"
+        }
       ],
       "computed_block_method": "concept-fused"
     },
@@ -3026,18 +3252,17 @@
       "computed_block_confidence": 0.16923076923076918,
       "computed_block_band": "baixa",
       "unit_match_reasons": [
-        "winner_score=40.64",
+        "winner_score=34.78",
         "topic_score=9.33",
-        "tag_boost=4.50",
-        "herdada_do_bloco=18a1092a-9a22-4d54-b02b-59414b171496"
+        "tag_boost=4.50"
       ],
       "unit_match_confidence": 0.5930731288869827,
       "unit_block_conflict": {},
       "computed_subunit_slug": "conjuntos-enumeraveis",
       "subunit_match_reasons": [
-        "winner_score=10.77"
+        "winner_score=9.33"
       ],
-      "subunit_match_confidence": 0.832853561147739,
+      "subunit_match_confidence": 0.806991207377225,
       "approved_markdown": "content/curated/aula-01-apresentacao-da-disciplina-revisao-de-teoria-de-conjuntos-e-enumerabilidade.md",
       "curated_markdown": "content/curated/aula-01-apresentacao-da-disciplina-revisao-de-teoria-de-conjuntos-e-enumerabilidade.md",
       "approved_source_markdown": "staging/markdown-auto/datalab/aula-01-apresentacao-da-disciplina-revisao-de-teoria-de-conjuntos-e-enumerabilidade/aula-01-apresentacao-da-disciplina-revisao-de-teoria-de-conjuntos-e-enumerabilidade.md",
@@ -3050,6 +3275,16 @@
       "temporal_block_provider": "ordinal",
       "temporal_block_window": [
         "bloco-01"
+      ],
+      "coverage_units": [
+        {
+          "unit_slug": "unidade-01-conjuntos-enumeraveis-e-funcoes-recursivas",
+          "topics": [
+            "conjuntos enumeraveis e nao-enumeraveis argumento da diagonalizacao de cantor"
+          ],
+          "confidence": 0.7,
+          "rule": "card"
+        }
       ],
       "computed_block_method": "concept-fused"
     },
@@ -3209,7 +3444,7 @@
       "computed_block_confidence": 0.3693693693693695,
       "computed_block_band": "media",
       "unit_match_reasons": [
-        "winner_score=80.80",
+        "winner_score=75.86",
         "topic_score=34.63",
         "tag_boost=3.00"
       ],
@@ -3233,6 +3468,16 @@
       "temporal_block_window": [
         "bloco-02"
       ],
+      "coverage_units": [
+        {
+          "unit_slug": "unidade-01-conjuntos-enumeraveis-e-funcoes-recursivas",
+          "topics": [
+            "conjuntos enumeraveis e nao-enumeraveis argumento da diagonalizacao de cantor"
+          ],
+          "confidence": 0.7,
+          "rule": "card"
+        }
+      ],
       "computed_block_method": "concept-fused"
     },
     {
@@ -3245,7 +3490,6 @@
       "tags": "",
       "manual_tags": [],
       "auto_tags": [
-        "ferramenta:exemplo",
         "tipo:lista",
         "uso:revisao-prova",
         "bloco:bloco-03",
@@ -3320,18 +3564,18 @@
       "computed_block_confidence": 0.29090909090909084,
       "computed_block_band": "media",
       "unit_match_reasons": [
-        "winner_score=54.15",
+        "winner_score=40.19",
         "topic_score=8.31",
         "ambiguous",
         "herdada_do_bloco=e4678122-f30f-4385-bbed-3a682d728920"
       ],
-      "unit_match_confidence": 0.07399986149264731,
+      "unit_match_confidence": 0.09969211631161558,
       "unit_block_conflict": {},
       "computed_subunit_slug": "funcoes-recursivas-primitivas-e-funcoes-recursivas-parciais",
       "subunit_match_reasons": [
         "winner_score=8.49"
       ],
-      "subunit_match_confidence": 0.714773396115362,
+      "subunit_match_confidence": 0.8406592113007652,
       "approved_markdown": "exercises/lists/aula-16-exemplo-de-prova-para-revisao.md",
       "curated_markdown": "exercises/lists/aula-16-exemplo-de-prova-para-revisao.md",
       "approved_source_markdown": "staging/markdown-auto/datalab/aula-16-exemplo-de-prova-para-revisao/aula-16-exemplo-de-prova-para-revisao.md",
@@ -3490,9 +3734,8 @@
       "computed_block_confidence": 0.6282420749279539,
       "computed_block_band": "alta",
       "unit_match_reasons": [
-        "winner_score=52.11",
-        "topic_score=8.97",
-        "herdada_do_bloco=e4678122-f30f-4385-bbed-3a682d728920"
+        "winner_score=47.10",
+        "topic_score=8.97"
       ],
       "unit_match_confidence": 0.6168860138300245,
       "unit_block_conflict": {},
@@ -3500,7 +3743,7 @@
       "subunit_match_reasons": [
         "winner_score=8.97"
       ],
-      "subunit_match_confidence": 0.7587552977916574,
+      "subunit_match_confidence": 0.8843631496765559,
       "approved_markdown": "content/curated/aula-03-funcoes-recursivas-primitivas-e-composicao-de-funcoes.md",
       "curated_markdown": "content/curated/aula-03-funcoes-recursivas-primitivas-e-composicao-de-funcoes.md",
       "approved_source_markdown": "staging/markdown-auto/datalab/aula-03-funcoes-recursivas-primitivas-e-composicao-de-funcoes/aula-03-funcoes-recursivas-primitivas-e-composicao-de-funcoes.md",
@@ -3513,6 +3756,21 @@
       "temporal_block_provider": "ordinal",
       "temporal_block_window": [
         "bloco-03"
+      ],
+      "coverage_units": [
+        {
+          "unit_slug": "unidade-01-conjuntos-enumeraveis-e-funcoes-recursivas",
+          "topics": [
+            "1.3 funcoes recursivas primitivas e funcoes recursivas parciais",
+            "funcoes computaveis funcoes recursivas parciais",
+            "funcoes recursivas primitivas composicao de funcoes",
+            "funcoes recursivas primitivas e funcoes recursivas parciais",
+            "minimizacao de funcoes recursivas parciais",
+            "parte 3 - funcoes recursivas primitivas"
+          ],
+          "confidence": 0.7,
+          "rule": "card"
+        }
       ],
       "computed_block_method": "concept-fused"
     },
@@ -3648,21 +3906,21 @@
       },
       "computed_unit_slug": "unidade-01-conjuntos-enumeraveis-e-funcoes-recursivas",
       "computed_block_id": "e4678122-f30f-4385-bbed-3a682d728920",
-      "computed_block_confidence": 0.5821325648414987,
+      "computed_block_confidence": 0.5821325648414984,
       "computed_block_band": "alta",
       "unit_match_reasons": [
-        "winner_score=49.98",
+        "winner_score=47.02",
         "topic_score=8.05",
         "ambiguous",
         "herdada_do_bloco=e4678122-f30f-4385-bbed-3a682d728920"
       ],
-      "unit_match_confidence": 0.06613688242091183,
+      "unit_match_confidence": 0.07030046737005534,
       "unit_block_conflict": {},
       "computed_subunit_slug": "funcoes-recursivas-primitivas-e-funcoes-recursivas-parciais",
       "subunit_match_reasons": [
         "winner_score=12.82"
       ],
-      "subunit_match_confidence": 0.8172386895475818,
+      "subunit_match_confidence": 0.9090171606864275,
       "approved_markdown": "content/curated/aula-05-minimizacao-de-funcoes-recursivas-parciais.md",
       "curated_markdown": "content/curated/aula-05-minimizacao-de-funcoes-recursivas-parciais.md",
       "approved_source_markdown": "staging/markdown-auto/datalab/aula-05-minimizacao-de-funcoes-recursivas-parciais/aula-05-minimizacao-de-funcoes-recursivas-parciais.md",
@@ -3677,6 +3935,17 @@
         "bloco-03",
         "bloco-04"
       ],
+      "coverage_units": [
+        {
+          "unit_slug": "unidade-01-conjuntos-enumeraveis-e-funcoes-recursivas",
+          "topics": [
+            "minimizacao de funcoes recursivas parciais",
+            "parte 4 - funcoes parciais e minimizacao"
+          ],
+          "confidence": 0.7,
+          "rule": "card"
+        }
+      ],
       "computed_block_method": "concept-fused"
     },
     {
@@ -3689,12 +3958,15 @@
       "tags": "",
       "manual_tags": [],
       "auto_tags": [
+        "ferramenta:alfabeto",
+        "ferramenta:cadeia",
+        "ferramenta:chomsky",
         "ferramenta:hierarquia",
-        "ferramenta:propriedades",
-        "topico:definicao",
-        "tipo:material-base",
-        "bloco:bloco-05",
-        "unit:unidade-01-conjuntos-enumeraveis-e-funcoes-recursivas"
+        "ferramenta:lemas",
+        "ferramenta:linguagem",
+        "bloco:bloco-06",
+        "unit:unidade-04-hierarquia-de-classes-de-complexidade-de-problemas-computacionais",
+        "subunit:definicao-da-classe"
       ],
       "manual_unit_slug": "",
       "manual_timeline_block_id": "",
@@ -3887,22 +4159,25 @@
         "signals": [],
         "markdown_path": "staging/markdown-auto/datalab/aula-06-revisao-alfabeto-cadeia-linguagem-hierarquia-de-chomsky-lemas-e-propriedades-de-automatos/aula-06-revisao-alfabeto-cadeia-linguagem-hierarquia-de-chomsky-lemas-e-propriedades-de-automatos.md"
       },
-      "computed_unit_slug": "unidade-01-conjuntos-enumeraveis-e-funcoes-recursivas",
-      "computed_block_id": "ee594a67-ac2f-480c-ae87-9f4bdcdb5f52",
-      "computed_block_confidence": 0.45,
-      "computed_block_band": "media",
+      "computed_unit_slug": "unidade-04-hierarquia-de-classes-de-complexidade-de-problemas-computacionais",
+      "computed_block_id": "cbf887a2-7073-441b-b695-8b3d8d1d1b86",
+      "computed_block_confidence": 0.08411016949152543,
+      "computed_block_band": "baixa",
       "unit_match_reasons": [
-        "winner_score=65.90",
-        "topic_score=8.87",
-        "herdada_do_bloco=ee594a67-ac2f-480c-ae87-9f4bdcdb5f52"
+        "winner_score=59.63",
+        "topic_score=8.69"
       ],
-      "unit_match_confidence": 0.5516782459622844,
-      "unit_block_conflict": {},
-      "computed_subunit_slug": "conjuntos-enumeraveis",
+      "unit_match_confidence": 0.5423670274004144,
+      "unit_block_conflict": {
+        "unit": "unidade-04-hierarquia-de-classes-de-complexidade-de-problemas-computacionais",
+        "block_unit": "unidade-02-turing-computabilidade",
+        "block_id": "cbf887a2-7073-441b-b695-8b3d8d1d1b86"
+      },
+      "computed_subunit_slug": "definicao-da-classe",
       "subunit_match_reasons": [
-        "winner_score=2.52"
+        "winner_score=8.69"
       ],
-      "subunit_match_confidence": 0.5890606420927468,
+      "subunit_match_confidence": 0.8292424591296339,
       "approved_markdown": "content/curated/aula-06-revisao-alfabeto-cadeia-linguagem-hierarquia-de-chomsky-lemas-e-propriedades-de-automatos.md",
       "curated_markdown": "content/curated/aula-06-revisao-alfabeto-cadeia-linguagem-hierarquia-de-chomsky-lemas-e-propriedades-de-automatos.md",
       "approved_source_markdown": "staging/markdown-auto/datalab/aula-06-revisao-alfabeto-cadeia-linguagem-hierarquia-de-chomsky-lemas-e-propriedades-de-automatos/aula-06-revisao-alfabeto-cadeia-linguagem-hierarquia-de-chomsky-lemas-e-propriedades-de-automatos.md",
@@ -3915,6 +4190,23 @@
       "temporal_block_provider": "ordinal",
       "temporal_block_window": [
         "bloco-05"
+      ],
+      "coverage_units": [
+        {
+          "unit_slug": "unidade-03-problemas-indecidiveis",
+          "topics": [
+            "3.2 entscheidungsproblem e introducao a reducibilidade de problemas",
+            "entscheidungsproblem e introducao a reducibilidade de problemas"
+          ],
+          "confidence": 0.7,
+          "rule": "card"
+        },
+        {
+          "unit_slug": "unidade-04-hierarquia-de-classes-de-complexidade-de-problemas-computacionais",
+          "topics": [],
+          "confidence": 0.5,
+          "rule": "unidade-atribuida"
+        }
       ],
       "computed_block_method": "concept-fused"
     },
@@ -3933,7 +4225,7 @@
         "topico:variacoes-de-maquinas-de-turing",
         "tipo:material-base",
         "bloco:bloco-05",
-        "unit:unidade-01-conjuntos-enumeraveis-e-funcoes-recursivas"
+        "unit:unidade-02-turing-computabilidade"
       ],
       "manual_unit_slug": "",
       "manual_timeline_block_id": "",
@@ -4084,22 +4376,26 @@
         "signals": [],
         "markdown_path": "staging/markdown-auto/datalab/aula-09-variacoes-de-maquinas-de-turing/aula-09-variacoes-de-maquinas-de-turing.md"
       },
-      "computed_unit_slug": "unidade-01-conjuntos-enumeraveis-e-funcoes-recursivas",
+      "computed_unit_slug": "unidade-02-turing-computabilidade",
       "computed_block_id": "ee594a67-ac2f-480c-ae87-9f4bdcdb5f52",
       "computed_block_confidence": 0.011111111111111072,
       "computed_block_band": "baixa",
       "unit_match_reasons": [
-        "winner_score=119.08",
-        "topic_score=23.87",
-        "herdada_do_bloco=ee594a67-ac2f-480c-ae87-9f4bdcdb5f52"
+        "winner_score=111.41",
+        "topic_score=23.87"
       ],
       "unit_match_confidence": 0.6286013488040884,
-      "unit_block_conflict": {},
-      "computed_subunit_slug": "conjuntos-enumeraveis",
+      "unit_block_conflict": {
+        "unit": "unidade-02-turing-computabilidade",
+        "block_unit": "unidade-01-conjuntos-enumeraveis-e-funcoes-recursivas",
+        "block_id": "ee594a67-ac2f-480c-ae87-9f4bdcdb5f52"
+      },
+      "computed_subunit_slug": "variacoes-de-maquinas-de-turing",
       "subunit_match_reasons": [
-        "winner_score=1.80"
+        "winner_score=23.87",
+        "ambiguous"
       ],
-      "subunit_match_confidence": 0.4249584026622296,
+      "subunit_match_confidence": 0.0033510660578895944,
       "approved_markdown": "content/curated/aula-09-variacoes-de-maquinas-de-turing.md",
       "curated_markdown": "content/curated/aula-09-variacoes-de-maquinas-de-turing.md",
       "approved_source_markdown": "staging/markdown-auto/datalab/aula-09-variacoes-de-maquinas-de-turing/aula-09-variacoes-de-maquinas-de-turing.md",
@@ -4112,6 +4408,23 @@
       "temporal_block_provider": "ordinal",
       "temporal_block_window": [
         "bloco-08"
+      ],
+      "coverage_units": [
+        {
+          "unit_slug": "unidade-02-turing-computabilidade",
+          "topics": [
+            "2.2 linguagens reconheciveis e decidiveis",
+            "linguagens reconheciveis e decidiveis",
+            "linguagens reconheciveis e linguagens decidiveis maquinas de turing universais",
+            "maquinas de turing",
+            "maquinas de turing e linguagens recursivamente enumeraveis",
+            "problemas sobre linguagens de mts",
+            "recapitulacao classes de linguagens",
+            "variacoes de maquinas de turing"
+          ],
+          "confidence": 0.7,
+          "rule": "card"
+        }
       ],
       "computed_block_method": "concept-fused"
     },
@@ -4235,12 +4548,12 @@
       "computed_block_confidence": 0.06250000000000006,
       "computed_block_band": "baixa",
       "unit_match_reasons": [
-        "winner_score=37.71",
+        "winner_score=33.19",
         "topic_score=3.44",
         "ambiguous",
         "herdada_do_bloco=027d4024-a77c-49e0-aba8-4fa87bd0c728"
       ],
-      "unit_match_confidence": 0.10699362913758033,
+      "unit_match_confidence": 0.12156429125584707,
       "unit_block_conflict": {},
       "computed_subunit_slug": "entscheidungsproblem-e-introducao-a-reducibilidade-de-problemas",
       "subunit_match_reasons": [
@@ -4387,7 +4700,7 @@
       "computed_block_confidence": 0.3076923076923077,
       "computed_block_band": "media",
       "unit_match_reasons": [
-        "winner_score=50.90",
+        "winner_score=45.04",
         "topic_score=19.70"
       ],
       "unit_match_confidence": 0.8229297810989725,
@@ -4413,6 +4726,16 @@
       "temporal_block_provider": "ordinal",
       "temporal_block_window": [
         "bloco-14"
+      ],
+      "coverage_units": [
+        {
+          "unit_slug": "unidade-03-problemas-indecidiveis",
+          "topics": [
+            "teoremas de godel"
+          ],
+          "confidence": 0.7,
+          "rule": "card"
+        }
       ],
       "computed_block_method": "concept-fused"
     }
@@ -6161,7 +6484,7 @@
       "category": "material-de-aula"
     }
   ],
-  "updated_at": "2026-08-18T15:40:37",
+  "updated_at": "2026-08-20T10:55:38",
   "failed_entries": [],
   "turma": "031",
   "schedule_url": "https://sarc.pucrs.br/Default/Export.aspx?id=9b679f12-2101-4a43-a8d4-d516cb198d04&ano=2026&sem=1"

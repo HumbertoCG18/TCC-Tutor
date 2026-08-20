@@ -6,4 +6,4 @@
 
 | Recurso | Tipo | Unidade | Solução | Prioridade | Quando usar |
 |---|---|---|---|---|---|
-| Aula 16 - Exemplo de Prova para Revisão | lista | ferramenta:exemplo; tipo:lista; uso:revisao-prova | não | média | fixação por unidade |
+| Aula 16 - Exemplo de Prova para Revisão | lista | tipo:lista; uso:revisao-prova; bloco:bloco-03 | não | média | fixação por unidade |
