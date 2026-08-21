@@ -3049,13 +3049,13 @@
       "approved_source_markdown": "staging/markdown-auto/datalab/aula-16-classes-de-problemas-e-complexidade-pdf/aula-16-classes-de-problemas-e-complexidade-pdf.md",
       "approved_at": "2026-07-01T18:30:53",
       "review_status": "approved",
-      "temporal_block_id": "dd0e0019-dbc5-46d1-85f6-e56e47d323df",
+      "temporal_block_id": "74265198-aa3e-4d9d-8001-049cbc79710f",
       "temporal_block_method": "janela-1",
       "temporal_block_band": "alta",
       "temporal_block_flag": false,
       "temporal_block_provider": "ordinal",
       "temporal_block_window": [
-        "bloco-18"
+        "bloco-19"
       ],
       "coverage_units": [
         {
@@ -6484,7 +6484,7 @@
       "category": "material-de-aula"
     }
   ],
-  "updated_at": "2026-08-20T10:55:38",
+  "updated_at": "2026-08-20T23:44:25",
   "failed_entries": [],
   "turma": "031",
   "schedule_url": "https://sarc.pucrs.br/Default/Export.aspx?id=9b679f12-2101-4a43-a8d4-d516cb198d04&ano=2026&sem=1"

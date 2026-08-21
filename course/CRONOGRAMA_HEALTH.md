@@ -44,8 +44,8 @@
     - candidato `bloco-10` (score —)
     - candidato `bloco-11` (score —)
 - **Integer Programming 00.01** — bloco `74265198-aa3e-4d9d-8001-049cbc79710f` (faixa media, conf 0.37, auto)
-- **Aula 16 - Classes de Problemas e Complexidade** — bloco `bloco-18` (faixa media, conf 0.37, auto)
-    - candidato `bloco-18` (score —)
+- **Aula 16 - Classes de Problemas e Complexidade** — bloco `bloco-19` (faixa media, conf 0.37, auto)
+    - candidato `bloco-19` (score —)
 - **Aula 01 - Apresentação da Disciplina, Revisão de Teoria de Conjuntos e Enumerabilidade** — bloco `bloco-01` (faixa baixa, conf 0.17, auto)
     - candidato `bloco-01` (score —)
 - **Aula 02 - Conjuntos Enumeráveis e Não-Enumeráveis; Argumento da Diagonalização de Cantor** — bloco `bloco-02` (faixa media, conf 0.37, auto)
@@ -63,15 +63,15 @@
 
 ## Blocos pobres (0 materiais)
 
-bloco-04, bloco-07, bloco-15, bloco-17, bloco-20, bloco-22, bloco-23, bloco-25, bloco-26, bloco-27, bloco-28, bloco-29, bloco-30, bloco-31, bloco-32, bloco-33, bloco-34, bloco-35
+bloco-04, bloco-07, bloco-15, bloco-17, bloco-18, bloco-20, bloco-22, bloco-23, bloco-25, bloco-26, bloco-27, bloco-28, bloco-29, bloco-30, bloco-31, bloco-32, bloco-33, bloco-34, bloco-35
 
 ## Blocos mais ricos
 
 - bloco-03: 3 material(is)
+- bloco-19: 2 material(is)
 - bloco-06: 2 material(is)
 - bloco-01: 2 material(is)
 - bloco-24: 1 material(is)
-- bloco-21: 1 material(is)
 
 ## Conflitos de curadoria
 
