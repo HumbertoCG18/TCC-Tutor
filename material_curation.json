@@ -126,6 +126,12 @@
       "confianca": "alta",
       "justificativa": "O material é o enunciado do Trabalho 1 (T1), cujo tópico corresponde diretamente ao bloco-04, que é reservado para o 'trabalho' na cronologia do curso.",
       "model": "gemini-3.5-flash"
+    },
+    "9180b585088f9d1a783336b918adaf50": {
+      "block_id": "bloco-01",
+      "confianca": "alta",
+      "justificativa": "O Plano de Ensino é tipicamente apresentado na primeira aula do semestre, correspondente ao bloco-01.",
+      "model": "gemini-3.5-flash"
     }
   }
 }

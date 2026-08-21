@@ -14,7 +14,8 @@
   },
   "Semana 13 - Trabalho T2": {
     "block_ids": [
-      "bloco-23"
+      "bloco-23",
+      "bloco-25"
     ],
     "source": "manual"
   },
@@ -29,6 +30,12 @@
     "block_ids": [
       "bloco-10",
       "bloco-11"
+    ],
+    "source": "manual"
+  },
+  "Semana 14 - Apresentações T2": {
+    "block_ids": [
+      "bloco-25"
     ],
     "source": "manual"
   }
