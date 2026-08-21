@@ -2590,7 +2590,6 @@
         "markdown_path": "staging/markdown-auto/datalab/aula-13-teorema-de-rice-pdf/aula-13-teorema-de-rice-pdf.md"
       },
       "computed_unit_slug": "unidade-02-turing-computabilidade",
-      "computed_block_method": "concept-fused",
       "computed_block_id": "3e3be596-9527-42ba-ad20-c15956e48f4e",
       "computed_block_confidence": 0.08000000000000007,
       "computed_block_band": "baixa",
@@ -2622,7 +2621,8 @@
       "temporal_block_provider": "ordinal",
       "temporal_block_window": [
         "bloco-12"
-      ]
+      ],
+      "computed_block_method": "concept-fused"
     },
     {
       "id": "3d-matching",
@@ -2788,7 +2788,6 @@
         "markdown_path": "staging/markdown-auto/datalab/3d-matching/3d-matching.md"
       },
       "computed_unit_slug": "unidade-04-hierarquia-de-classes-de-complexidade-de-problemas-computacionais",
-      "computed_block_method": "concept-fused",
       "computed_block_id": "74265198-aa3e-4d9d-8001-049cbc79710f",
       "computed_block_confidence": 0.3293852459016393,
       "computed_block_band": "media",
@@ -2824,7 +2823,8 @@
       "temporal_block_provider": "manual",
       "temporal_block_window": [
         "bloco-25"
-      ]
+      ],
+      "computed_block_method": "concept-fused"
     },
     {
       "id": "integer-programming-0001",
@@ -4032,10 +4032,10 @@
       "approved_at": "2026-07-01T18:59:58",
       "review_status": "approved",
       "temporal_block_id": "e4678122-f30f-4385-bbed-3a682d728920",
-      "temporal_block_method": "llm",
-      "temporal_block_band": "media",
+      "temporal_block_method": "disamb",
+      "temporal_block_band": "alta",
       "temporal_block_flag": false,
-      "temporal_block_provider": "llm",
+      "temporal_block_provider": "manual",
       "temporal_block_window": [
         "bloco-03",
         "bloco-04"
@@ -6589,7 +6589,7 @@
       "category": "material-de-aula"
     }
   ],
-  "updated_at": "2026-08-21T01:35:46",
+  "updated_at": "2026-08-21T02:01:06",
   "failed_entries": [],
   "turma": "031",
   "schedule_url": "https://sarc.pucrs.br/Default/Export.aspx?id=9b679f12-2101-4a43-a8d4-d516cb198d04&ano=2026&sem=1"
