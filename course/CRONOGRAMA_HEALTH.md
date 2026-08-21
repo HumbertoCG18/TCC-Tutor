@@ -21,8 +21,7 @@
 
 - **Aula 17 - Complexidade de Tempo Classes P e NP** — bloco `bloco-19` (faixa media, conf 0.43, auto)
     - candidato `bloco-19` (score —)
-- **Aula 17 - NP-Completude** — bloco `bloco-21` (faixa media, conf 0.41, auto)
-    - candidato `bloco-21` (score —)
+- **Aula 17 - NP-Completude** — bloco `bloco-22` (faixa media, conf 0.41, auto)
     - candidato `bloco-22` (score —)
 - **Trabalho T2 - Enunciado** — bloco `bloco-25` (faixa baixa, conf 0.04, auto)
     - candidato `bloco-23` (score —)
@@ -75,7 +74,7 @@
 
 ## Blocos pobres (0 materiais)
 
-bloco-07, bloco-15, bloco-17, bloco-18, bloco-20, bloco-22, bloco-23, bloco-24, bloco-26, bloco-27, bloco-28, bloco-29, bloco-30, bloco-31, bloco-32, bloco-33, bloco-34, bloco-35
+bloco-07, bloco-15, bloco-17, bloco-18, bloco-20, bloco-21, bloco-23, bloco-24, bloco-26, bloco-27, bloco-28, bloco-29, bloco-30, bloco-31, bloco-32, bloco-33, bloco-34, bloco-35
 
 ## Blocos mais ricos
 

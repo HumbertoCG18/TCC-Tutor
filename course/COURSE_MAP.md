@@ -42,6 +42,7 @@
   - [ ] 4.6.2 Exemplos de Problemas em PSPACE
   - [ ] 4.6.3 Provas de PSPACE-Completude
 - [ ] 4.7 Intratabilidade
+- 🧪 Tambem cobre esta unidade: `Aula 06 - Revisão Alfabeto, Cadeia, Linguagem, Hierarquia de Chomsky, Lemas e Propriedades de Autômatos`
 
 ## Timeline — Cronograma x Unidades
 

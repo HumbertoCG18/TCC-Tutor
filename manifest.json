@@ -326,7 +326,6 @@
         "bloco-04",
         "bloco-05",
         "bloco-06",
-        "bloco-07",
         "bloco-08",
         "bloco-09",
         "bloco-10",
@@ -334,13 +333,10 @@
         "bloco-12",
         "bloco-13",
         "bloco-14",
-        "bloco-15",
         "bloco-16",
         "bloco-17",
         "bloco-18",
         "bloco-19",
-        "bloco-20",
-        "bloco-21",
         "bloco-22",
         "bloco-23",
         "bloco-24",
@@ -353,7 +349,6 @@
         "bloco-31",
         "bloco-32",
         "bloco-33",
-        "bloco-34",
         "bloco-35"
       ]
     },
@@ -481,8 +476,7 @@
       "computed_block_band": "media",
       "unit_match_reasons": [
         "winner_score=60.61",
-        "topic_score=8.91",
-        "herdada_do_vizinho=bloco-19"
+        "topic_score=8.91"
       ],
       "unit_match_confidence": 0.8981360880305412,
       "unit_block_conflict": {},
@@ -499,13 +493,12 @@
       "moodle_label": "Aula 17 - NP-Completude",
       "posting_date": "2026-05-22",
       "posting_date_created": "2026-05-22",
-      "temporal_block_id": "8381911b-f873-4081-a009-8df04644ffc7",
-      "temporal_block_method": "llm",
-      "temporal_block_band": "media",
+      "temporal_block_id": "224e19c2-5329-44d8-a47e-9a7fdf1f36c3",
+      "temporal_block_method": "janela-1",
+      "temporal_block_band": "alta",
       "temporal_block_flag": false,
-      "temporal_block_provider": "llm",
+      "temporal_block_provider": "manual",
       "temporal_block_window": [
-        "bloco-21",
         "bloco-22"
       ],
       "coverage_units": [
@@ -6586,7 +6579,7 @@
       "category": "material-de-aula"
     }
   ],
-  "updated_at": "2026-08-21T02:23:16",
+  "updated_at": "2026-08-21T02:44:47",
   "failed_entries": [],
   "turma": "031",
   "schedule_url": "https://sarc.pucrs.br/Default/Export.aspx?id=9b679f12-2101-4a43-a8d4-d516cb198d04&ano=2026&sem=1"
