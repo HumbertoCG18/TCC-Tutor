@@ -96,6 +96,36 @@
       "confianca": "alta",
       "justificativa": "O material é de 8 de abril de 2026 e aborda Variações de Máquinas de Turing, combinando perfeitamente com a data e o tópico do bloco-08.",
       "model": "gemini-3.5-flash"
+    },
+    "1623ad9eadba1e40d563474d8ec4433b": {
+      "block_id": "bloco-25",
+      "confianca": "alta",
+      "justificativa": "O enunciado do Trabalho T2 indica que a data de entrega e apresentação é 12/06/2026, a qual corresponde exatamente à data do bloco-25.",
+      "model": "gemini-3.5-flash"
+    },
+    "60df41836ba071dd0764ff9fc30b7a92": {
+      "block_id": "bloco-23",
+      "confianca": "alta",
+      "justificativa": "O material é uma apresentação do Trabalho 2 (T2) sobre a NP-completude do problema 3DM. A Semana 14 corresponde ao período de 3 a 9 de junho de 2026, onde o bloco-23 (2026-06-05) aborda reduções de pr",
+      "model": "gemini-3.5-flash"
+    },
+    "6464c15f5ee9d605b93ea68793e06163": {
+      "block_id": "bloco-23",
+      "confianca": "alta",
+      "justificativa": "O material é um trabalho do Trabalho 2 (T2) sobre NP-completude e reduções polinomiais. No cronograma, a Semana 14 corresponde às datas de 2026-06-03 a 2026-06-05. O bloco-23, datado de 2026-06-05, ab",
+      "model": "gemini-3.5-flash"
+    },
+    "f257dbd58847d86c85f84ba16d149131": {
+      "block_id": "bloco-26",
+      "confianca": "alta",
+      "justificativa": "O material possui em seu título a data de 17 de junho de 2026 (20260617) e pertence à seção 'Apresentações T2' na Semana 14, que coincide perfeitamente com o bloco-26, datado em 2026-06-17.",
+      "model": "gemini-3.5-flash"
+    },
+    "944925681dfffa5dc0893e7d237eddc4": {
+      "block_id": "bloco-04",
+      "confianca": "alta",
+      "justificativa": "O material é o enunciado do Trabalho 1 (T1), cujo tópico corresponde diretamente ao bloco-04, que é reservado para o 'trabalho' na cronologia do curso.",
+      "model": "gemini-3.5-flash"
     }
   }
 }
