@@ -80,6 +80,9 @@ effective_profile: "scanned"
 
 
 
+
+
+
 # Referência- REDUCIBILITY AMONG COMBINATORIAL PROBLEMS
 
 > Documento tratado como **imagem** porque o perfil efetivo foi `scanned`.
