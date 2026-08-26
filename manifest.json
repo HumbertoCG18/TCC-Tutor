@@ -625,12 +625,11 @@
         }
       ],
       "temporal_block_id": "3a7783ef-c47a-4d99-9038-dacc0c4593b9",
-      "temporal_block_method": "llm",
-      "temporal_block_band": "media",
+      "temporal_block_method": "janela-1",
+      "temporal_block_band": "alta",
       "temporal_block_flag": false,
-      "temporal_block_provider": "llm",
+      "temporal_block_provider": "topic",
       "temporal_block_window": [
-        "bloco-23",
         "bloco-25"
       ],
       "computed_block_method": "concept-fused"
@@ -832,9 +831,9 @@
       ],
       "temporal_block_id": "3a7783ef-c47a-4d99-9038-dacc0c4593b9",
       "temporal_block_method": "janela-1",
-      "temporal_block_band": "alta",
-      "temporal_block_flag": false,
-      "temporal_block_provider": "manual",
+      "temporal_block_band": "media",
+      "temporal_block_flag": true,
+      "temporal_block_provider": "topic",
       "temporal_block_window": [
         "bloco-25"
       ],
@@ -1017,9 +1016,9 @@
       ],
       "temporal_block_id": "3a7783ef-c47a-4d99-9038-dacc0c4593b9",
       "temporal_block_method": "janela-1",
-      "temporal_block_band": "alta",
-      "temporal_block_flag": false,
-      "temporal_block_provider": "manual",
+      "temporal_block_band": "media",
+      "temporal_block_flag": true,
+      "temporal_block_provider": "topic",
       "temporal_block_window": [
         "bloco-25"
       ],
@@ -1159,9 +1158,9 @@
       "posting_date_created": "2026-06-17",
       "temporal_block_id": "3a7783ef-c47a-4d99-9038-dacc0c4593b9",
       "temporal_block_method": "janela-1",
-      "temporal_block_band": "alta",
-      "temporal_block_flag": false,
-      "temporal_block_provider": "manual",
+      "temporal_block_band": "media",
+      "temporal_block_flag": true,
+      "temporal_block_provider": "topic",
       "temporal_block_window": [
         "bloco-25"
       ],
@@ -2304,13 +2303,12 @@
       "posting_date": "2026-04-15",
       "posting_date_created": "2026-04-15",
       "temporal_block_id": "e09117dc-5a43-42db-a0b6-e3c59ad9c444",
-      "temporal_block_method": "llm",
-      "temporal_block_band": "media",
+      "temporal_block_method": "janela-1",
+      "temporal_block_band": "alta",
       "temporal_block_flag": false,
-      "temporal_block_provider": "llm",
+      "temporal_block_provider": "ordinal",
       "temporal_block_window": [
-        "bloco-10",
-        "bloco-11"
+        "bloco-10"
       ],
       "coverage_units": [
         {
@@ -2463,12 +2461,11 @@
       "posting_date": "2026-04-17",
       "posting_date_created": "2026-04-17",
       "temporal_block_id": "b01d21d6-f4f5-4a53-be51-e7278017b6d5",
-      "temporal_block_method": "llm",
-      "temporal_block_band": "media",
+      "temporal_block_method": "janela-1",
+      "temporal_block_band": "alta",
       "temporal_block_flag": false,
-      "temporal_block_provider": "llm",
+      "temporal_block_provider": "ordinal",
       "temporal_block_window": [
-        "bloco-10",
         "bloco-11"
       ],
       "coverage_units": [
@@ -2829,9 +2826,9 @@
       ],
       "temporal_block_id": "3a7783ef-c47a-4d99-9038-dacc0c4593b9",
       "temporal_block_method": "janela-1",
-      "temporal_block_band": "alta",
-      "temporal_block_flag": false,
-      "temporal_block_provider": "manual",
+      "temporal_block_band": "media",
+      "temporal_block_flag": true,
+      "temporal_block_provider": "topic",
       "temporal_block_window": [
         "bloco-25"
       ],
@@ -2968,9 +2965,9 @@
       "review_status": "approved",
       "temporal_block_id": "3a7783ef-c47a-4d99-9038-dacc0c4593b9",
       "temporal_block_method": "janela-1",
-      "temporal_block_band": "alta",
-      "temporal_block_flag": false,
-      "temporal_block_provider": "manual",
+      "temporal_block_band": "media",
+      "temporal_block_flag": true,
+      "temporal_block_provider": "topic",
       "temporal_block_window": [
         "bloco-25"
       ],
@@ -3714,10 +3711,10 @@
       "approved_at": "2026-07-01T19:00:05",
       "review_status": "approved",
       "temporal_block_id": "62a75727-18b8-4351-bad1-e54030fb15ce",
-      "temporal_block_method": "janela-1",
-      "temporal_block_band": "alta",
+      "temporal_block_method": "prep-prova",
+      "temporal_block_band": "media",
       "temporal_block_flag": false,
-      "temporal_block_provider": "manual",
+      "temporal_block_provider": "prep-prova",
       "temporal_block_window": [
         "bloco-16"
       ],
@@ -4073,13 +4070,12 @@
       "approved_at": "2026-07-01T18:59:58",
       "review_status": "approved",
       "temporal_block_id": "e4678122-f30f-4385-bbed-3a682d728920",
-      "temporal_block_method": "disamb",
+      "temporal_block_method": "janela-1",
       "temporal_block_band": "alta",
       "temporal_block_flag": false,
-      "temporal_block_provider": "manual",
+      "temporal_block_provider": "ordinal",
       "temporal_block_window": [
-        "bloco-03",
-        "bloco-04"
+        "bloco-03"
       ],
       "coverage_units": [
         {
@@ -6652,7 +6648,7 @@
       "category": "material-de-aula"
     }
   ],
-  "updated_at": "2026-08-26T04:26:13",
+  "updated_at": "2026-08-26T09:07:21",
   "failed_entries": [],
   "turma": "031",
   "schedule_url": "https://sarc.pucrs.br/Default/Export.aspx?id=9b679f12-2101-4a43-a8d4-d516cb198d04&ano=2026&sem=1"

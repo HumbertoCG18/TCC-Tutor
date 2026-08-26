@@ -1,42 +1,9 @@
 {
-  "Semana 10 - Revisão para P1 e Prova P1": {
-    "block_ids": [
-      "bloco-16"
-    ],
-    "source": "manual"
-  },
-  "Semana 12 - NP-completude": {
-    "block_ids": [
-      "bloco-21",
-      "bloco-22"
-    ],
-    "source": "manual"
-  },
-  "Semana 13 - Trabalho T2": {
-    "block_ids": [
-      "bloco-23",
-      "bloco-25"
-    ],
-    "source": "manual"
-  },
-  "Semana 3 - Operações de Minimização e Trabalho T1": {
-    "block_ids": [
-      "bloco-03",
-      "bloco-04"
-    ],
-    "source": "manual"
-  },
-  "Semana 7- Halteproblem und Entscheidungsproblem": {
-    "block_ids": [
-      "bloco-10",
-      "bloco-11"
-    ],
-    "source": "manual"
-  },
-  "Semana 14 - Apresentações T2": {
-    "block_ids": [
-      "bloco-25"
-    ],
-    "source": "manual"
-  }
+ "Semana 12 - NP-completude": {
+  "block_ids": [
+   "bloco-21",
+   "bloco-22"
+  ],
+  "source": "manual"
+ }
 }
