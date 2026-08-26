@@ -33,6 +33,7 @@
       "tags": "",
       "manual_tags": [],
       "auto_tags": [
+        "ferramenta:lemas",
         "topico:classe-np",
         "topico:definicao",
         "topico:definicao-da-classe",
@@ -360,6 +361,7 @@
       "tags": "",
       "manual_tags": [],
       "auto_tags": [
+        "ferramenta:lemas",
         "ferramenta:propriedades",
         "topico:definicao",
         "tipo:material-base",
@@ -522,6 +524,7 @@
       "tags": "",
       "manual_tags": [],
       "auto_tags": [
+        "ferramenta:lemas",
         "bloco:bloco-19",
         "unit:unidade-04-hierarquia-de-classes-de-complexidade-de-problemas-computacionais",
         "subunit:provas-de-np-completude"
@@ -594,7 +597,7 @@
       "computed_block_confidence": 0.040405405405405596,
       "computed_block_band": "baixa",
       "unit_match_reasons": [
-        "winner_score=78.03",
+        "winner_score=78.04",
         "topic_score=22.82",
         "herdada_do_vizinho=bloco-22"
       ],
@@ -2332,6 +2335,7 @@
       "tags": "",
       "manual_tags": [],
       "auto_tags": [
+        "ferramenta:lemas",
         "tipo:material-base",
         "bloco:bloco-03",
         "unit:unidade-03-problemas-indecidiveis"
@@ -2496,6 +2500,7 @@
       "tags": "",
       "manual_tags": [],
       "auto_tags": [
+        "ferramenta:lemas",
         "ferramenta:propriedades",
         "topico:definicao",
         "topico:problemas-sobre-linguagens-de-mts",
@@ -2619,7 +2624,6 @@
       "temporal_block_window": [
         "bloco-12"
       ],
-      "computed_block_method": "concept-fused",
       "coverage_units": [
         {
           "unit_slug": "unidade-04-hierarquia-de-classes-de-complexidade-de-problemas-computacionais",
@@ -2627,7 +2631,8 @@
           "confidence": 0.5,
           "rule": "unidade-atribuida"
         }
-      ]
+      ],
+      "computed_block_method": "concept-fused"
     },
     {
       "id": "3d-matching",
@@ -2984,6 +2989,7 @@
       "tags": "",
       "manual_tags": [],
       "auto_tags": [
+        "ferramenta:lemas",
         "topico:classes-de-problemas-e-complexidade-computacional",
         "topico:da-computabilidade-a-complexidade",
         "tipo:material-base",
@@ -3718,7 +3724,6 @@
       "moodle_label": "Aula 16 - Exemplo de Prova para Revisão",
       "posting_date": "2026-05-05",
       "posting_date_created": "2026-05-05",
-      "computed_block_method": "concept-fused",
       "coverage_units": [
         {
           "unit_slug": "unidade-01-conjuntos-enumeraveis-e-funcoes-recursivas",
@@ -3726,7 +3731,8 @@
           "confidence": 0.5,
           "rule": "unidade-atribuida"
         }
-      ]
+      ],
+      "computed_block_method": "concept-fused"
     },
     {
       "id": "aula-03-funcoes-recursivas-primitivas-e-composicao-de-funcoes",
@@ -4101,12 +4107,13 @@
       "tags": "",
       "manual_tags": [],
       "auto_tags": [
+        "ferramenta:alfabeto",
+        "ferramenta:cadeia",
+        "ferramenta:chomsky",
         "ferramenta:hierarquia",
+        "ferramenta:lemas",
         "ferramenta:linguagem",
-        "ferramenta:propriedades",
-        "topico:definicao",
-        "tipo:material-base",
-        "bloco:bloco-05",
+        "bloco:bloco-06",
         "unit:unidade-01-conjuntos-enumeraveis-e-funcoes-recursivas"
       ],
       "manual_unit_slug": "",
@@ -4301,15 +4308,15 @@
         "markdown_path": "staging/markdown-auto/datalab/aula-06-revisao-alfabeto-cadeia-linguagem-hierarquia-de-chomsky-lemas-e-propriedades-de-automatos/aula-06-revisao-alfabeto-cadeia-linguagem-hierarquia-de-chomsky-lemas-e-propriedades-de-automatos.md"
       },
       "computed_unit_slug": "unidade-01-conjuntos-enumeraveis-e-funcoes-recursivas",
-      "computed_block_id": "ee594a67-ac2f-480c-ae87-9f4bdcdb5f52",
-      "computed_block_confidence": 0.43269230769230765,
-      "computed_block_band": "media",
+      "computed_block_id": "cbf887a2-7073-441b-b695-8b3d8d1d1b86",
+      "computed_block_confidence": 0.08411016949152543,
+      "computed_block_band": "baixa",
       "unit_match_reasons": [
-        "winner_score=59.33",
-        "topic_score=8.87",
+        "winner_score=59.01",
+        "topic_score=8.69",
         "reconciliada_do_bloco=bloco-05"
       ],
-      "unit_match_confidence": 0.5707867266755476,
+      "unit_match_confidence": 0.5684348950433911,
       "unit_block_conflict": {
         "unit": "unidade-04-hierarquia-de-classes-de-complexidade-de-problemas-computacionais",
         "block_unit": "unidade-01-conjuntos-enumeraveis-e-funcoes-recursivas",
@@ -6645,7 +6652,7 @@
       "category": "material-de-aula"
     }
   ],
-  "updated_at": "2026-08-26T01:41:33",
+  "updated_at": "2026-08-26T04:26:13",
   "failed_entries": [],
   "turma": "031",
   "schedule_url": "https://sarc.pucrs.br/Default/Export.aspx?id=9b679f12-2101-4a43-a8d4-d516cb198d04&ano=2026&sem=1"
