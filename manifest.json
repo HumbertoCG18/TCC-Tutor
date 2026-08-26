@@ -33,7 +33,6 @@
       "tags": "",
       "manual_tags": [],
       "auto_tags": [
-        "ferramenta:lemas",
         "topico:classe-np",
         "topico:definicao",
         "topico:definicao-da-classe",
@@ -361,7 +360,6 @@
       "tags": "",
       "manual_tags": [],
       "auto_tags": [
-        "ferramenta:lemas",
         "ferramenta:propriedades",
         "topico:definicao",
         "tipo:material-base",
@@ -524,7 +522,6 @@
       "tags": "",
       "manual_tags": [],
       "auto_tags": [
-        "ferramenta:lemas",
         "bloco:bloco-19",
         "unit:unidade-04-hierarquia-de-classes-de-complexidade-de-problemas-computacionais",
         "subunit:provas-de-np-completude"
@@ -597,7 +594,7 @@
       "computed_block_confidence": 0.040405405405405596,
       "computed_block_band": "baixa",
       "unit_match_reasons": [
-        "winner_score=82.29",
+        "winner_score=82.28",
         "topic_score=22.82",
         "herdada_do_vizinho=bloco-22"
       ],
@@ -820,8 +817,8 @@
       "approved_at": "2026-06-19T02:04:33",
       "review_status": "approved",
       "moodle_label": "3D Matching",
-      "posting_date": "2026-06-17",
-      "posting_date_created": "2026-06-17",
+      "posting_date": "2026-07-02",
+      "posting_date_created": "2026-07-02",
       "coverage_units": [
         {
           "unit_slug": "unidade-04-hierarquia-de-classes-de-complexidade-de-problemas-computacionais",
@@ -2341,7 +2338,6 @@
       "tags": "",
       "manual_tags": [],
       "auto_tags": [
-        "ferramenta:lemas",
         "tipo:material-base",
         "bloco:bloco-03",
         "unit:unidade-03-problemas-indecidiveis"
@@ -2497,7 +2493,6 @@
       "tags": "",
       "manual_tags": [],
       "auto_tags": [
-        "ferramenta:lemas",
         "ferramenta:propriedades",
         "topico:definicao",
         "topico:problemas-sobre-linguagens-de-mts",
@@ -2966,6 +2961,9 @@
       "temporal_block_window": [
         "bloco-25"
       ],
+      "moodle_label": "Integer Programming 0/1",
+      "posting_date": "2026-06-17",
+      "posting_date_created": "2026-06-17",
       "computed_block_method": "concept-fused"
     },
     {
@@ -2978,7 +2976,6 @@
       "tags": "",
       "manual_tags": [],
       "auto_tags": [
-        "ferramenta:lemas",
         "topico:classes-de-problemas-e-complexidade-computacional",
         "topico:da-computabilidade-a-complexidade",
         "tipo:material-base",
@@ -3175,6 +3172,9 @@
           "rule": "card"
         }
       ],
+      "moodle_label": "Aula 16 - Classes de Problemas e Complexidade",
+      "posting_date": "2026-05-15",
+      "posting_date_created": "2026-05-15",
       "computed_block_method": "concept-fused"
     },
     {
@@ -3390,6 +3390,9 @@
           "rule": "card"
         }
       ],
+      "moodle_label": "Aula 01 - Apresentação da Disciplina, Revisão de Teoria de Conjuntos e Enumerabilidade",
+      "posting_date": "2026-02-23",
+      "posting_date_created": "2026-02-23",
       "computed_block_method": "concept-fused"
     },
     {
@@ -3585,6 +3588,9 @@
           "rule": "card"
         }
       ],
+      "moodle_label": "Aula 02 - Conjuntos Enumeráveis e Não-Enumeráveis; Argumento da Diagonalização de Cantor",
+      "posting_date": "2026-02-23",
+      "posting_date_created": "2026-02-23",
       "computed_block_method": "concept-fused"
     },
     {
@@ -3695,6 +3701,9 @@
       "temporal_block_window": [
         "bloco-16"
       ],
+      "moodle_label": "Aula 16 - Exemplo de Prova para Revisão",
+      "posting_date": "2026-05-05",
+      "posting_date_created": "2026-05-05",
       "computed_block_method": "concept-fused"
     },
     {
@@ -3879,6 +3888,9 @@
           "rule": "card"
         }
       ],
+      "moodle_label": "Aula 03 - Funções Recursivas Primitivas e Composição de Funções",
+      "posting_date": "2026-02-25",
+      "posting_date_created": "2026-02-25",
       "computed_block_method": "concept-fused"
     },
     {
@@ -4052,6 +4064,9 @@
           "rule": "card"
         }
       ],
+      "moodle_label": "Aula 05 - Minimização de Funções Recursivas Parciais",
+      "posting_date": "2026-03-17",
+      "posting_date_created": "2026-03-17",
       "computed_block_method": "concept-fused"
     },
     {
@@ -4064,13 +4079,12 @@
       "tags": "",
       "manual_tags": [],
       "auto_tags": [
-        "ferramenta:alfabeto",
-        "ferramenta:cadeia",
-        "ferramenta:chomsky",
         "ferramenta:hierarquia",
-        "ferramenta:lemas",
         "ferramenta:linguagem",
-        "bloco:bloco-06",
+        "ferramenta:propriedades",
+        "topico:definicao",
+        "tipo:material-base",
+        "bloco:bloco-05",
         "unit:unidade-01-conjuntos-enumeraveis-e-funcoes-recursivas"
       ],
       "manual_unit_slug": "",
@@ -4265,15 +4279,15 @@
         "markdown_path": "staging/markdown-auto/datalab/aula-06-revisao-alfabeto-cadeia-linguagem-hierarquia-de-chomsky-lemas-e-propriedades-de-automatos/aula-06-revisao-alfabeto-cadeia-linguagem-hierarquia-de-chomsky-lemas-e-propriedades-de-automatos.md"
       },
       "computed_unit_slug": "unidade-01-conjuntos-enumeraveis-e-funcoes-recursivas",
-      "computed_block_id": "cbf887a2-7073-441b-b695-8b3d8d1d1b86",
-      "computed_block_confidence": 0.08411016949152543,
-      "computed_block_band": "baixa",
+      "computed_block_id": "ee594a67-ac2f-480c-ae87-9f4bdcdb5f52",
+      "computed_block_confidence": 0.43269230769230765,
+      "computed_block_band": "media",
       "unit_match_reasons": [
-        "winner_score=73.49",
+        "winner_score=73.52",
         "topic_score=8.06",
         "herdada_do_bloco=bloco-05"
       ],
-      "unit_match_confidence": 0.18866379022963883,
+      "unit_match_confidence": 0.1865139073460222,
       "unit_block_conflict": {},
       "computed_subunit_slug": "argumento-diagonal-de-cantor-e-conjuntos-incontaveis",
       "subunit_match_reasons": [
@@ -4304,6 +4318,9 @@
           "rule": "card"
         }
       ],
+      "moodle_label": "Aula 06 - Revisão: Alfabeto, Cadeia, Linguagem, Hierarquia de Chomsky, Lemas e Propriedades de Autômatos",
+      "posting_date": "2026-03-22",
+      "posting_date_created": "2026-03-22",
       "computed_block_method": "concept-fused"
     },
     {
@@ -4520,6 +4537,9 @@
           "rule": "card"
         }
       ],
+      "moodle_label": "Aula 09 - Variações de Máquinas de Turing",
+      "posting_date": "2026-04-08",
+      "posting_date_created": "2026-04-08",
       "computed_block_method": "concept-fused"
     },
     {
@@ -4667,6 +4687,9 @@
       "temporal_block_window": [
         "bloco-13"
       ],
+      "moodle_label": "Aula 14 - Problema da Correspondência de Post",
+      "posting_date": "2026-04-24",
+      "posting_date_created": "2026-04-24",
       "computed_block_method": "concept-fused"
     },
     {
@@ -4826,6 +4849,9 @@
           "rule": "card"
         }
       ],
+      "moodle_label": "Aula 15 - Teoremas de Incompletude de Gödel",
+      "posting_date": "2026-04-28",
+      "posting_date_created": "2026-04-28",
       "computed_block_method": "concept-fused"
     }
   ],
@@ -6573,7 +6599,7 @@
       "category": "material-de-aula"
     }
   ],
-  "updated_at": "2026-08-26T01:03:59",
+  "updated_at": "2026-08-26T01:06:50",
   "failed_entries": [],
   "turma": "031",
   "schedule_url": "https://sarc.pucrs.br/Default/Export.aspx?id=9b679f12-2101-4a43-a8d4-d516cb198d04&ano=2026&sem=1"

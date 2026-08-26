@@ -18,7 +18,6 @@
 - [ ] 2.3 Variações de Máquinas de Turing
 - [ ] 2.4 Conjectura de Church-Turing
 - [ ] 2.5 Máquinas de Turing Universais
-- 🧪 Tambem cobre esta unidade: `Aula 03 - Funções Recursivas Primitivas e Composição de Funções`, `Aula 11 - O Problema da Parada (Halting Problem, Halteproblem)` (+1)
 
 ### UNIDADE 03 — Problemas Indecidíveis
 - [ ] 3.1 Prova da Indecidibilidade do Problema da Parada
