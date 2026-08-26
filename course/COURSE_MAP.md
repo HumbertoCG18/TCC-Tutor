@@ -18,13 +18,14 @@
 - [ ] 2.3 Variações de Máquinas de Turing
 - [ ] 2.4 Conjectura de Church-Turing
 - [ ] 2.5 Máquinas de Turing Universais
+- 🧪 Tambem cobre esta unidade: `Aula 03 - Funções Recursivas Primitivas e Composição de Funções`, `Aula 11 - O Problema da Parada (Halting Problem, Halteproblem)` (+1)
 
 ### UNIDADE 03 — Problemas Indecidíveis
 - [ ] 3.1 Prova da Indecidibilidade do Problema da Parada
 - [ ] 3.2 Entscheidungsproblem e Introdução à Reducibilidade de Problemas
 - [ ] 3.3 Decidibilidade de Teorias Lógicas
 - [ ] 3.4 Teoremas de Gödel
-- 🧪 Tambem cobre esta unidade: `Aula 06 - Revisão Alfabeto, Cadeia, Linguagem, Hierarquia de Chomsky, Lemas e Propriedades de Autômatos`, `Aula 07 - Máquinas de Turing e Linguagens Recursivamente Enumeráveis`
+- 🧪 Tambem cobre esta unidade: `Aula 07 - Máquinas de Turing e Linguagens Recursivamente Enumeráveis`
 
 ### UNIDADE 04 — Hierarquia de Classes de Complexidade de Problemas Computacionais
 - [ ] 4.1 Tipos de Problemas Computacionais
@@ -42,7 +43,6 @@
   - [ ] 4.6.2 Exemplos de Problemas em PSPACE
   - [ ] 4.6.3 Provas de PSPACE-Completude
 - [ ] 4.7 Intratabilidade
-- 🧪 Tambem cobre esta unidade: `Aula 06 - Revisão Alfabeto, Cadeia, Linguagem, Hierarquia de Chomsky, Lemas e Propriedades de Autômatos`
 
 ## Timeline — Cronograma x Unidades
 

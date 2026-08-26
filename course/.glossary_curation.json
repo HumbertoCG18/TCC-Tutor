@@ -1,0 +1,35 @@
+{
+  "_nota": "Curadoria de sinonimos do GLOSSARY.md (alavanca iii da subunidade, 2026-08-26). Chave = termo do plano COM a numeracao (unica por unidade). Termos = vocabulario dos materiais que o plano nao nomeia. Proposto-claude a partir de subunit_gt_TCC; revisar a mao; sobrevive ao reprocess.",
+  "1.2 Argumento Diagonal de Cantor e Conjuntos Incontáveis": {
+    "synonyms": [
+      "diagonalização",
+      "diagonalização de Cantor",
+      "argumento da diagonalização",
+      "argumento diagonal",
+      "incontável",
+      "conjuntos incontáveis"
+    ]
+  },
+  "2.2 Linguagens Reconhecíveis e Decidíveis": {
+    "synonyms": [
+      "Turing-reconhecível",
+      "Turing-decidível",
+      "recursivamente enumerável",
+      "linguagem recursiva",
+      "linguagens decidíveis",
+      "linguagens reconhecíveis"
+    ]
+  },
+  "2.4 Conjectura de Church-Turing": {
+    "synonyms": [
+      "tese de Church-Turing"
+    ]
+  },
+  "2.5 Máquinas de Turing Universais": {
+    "synonyms": [
+      "máquina de Turing universal",
+      "MT universal",
+      "máquina universal"
+    ]
+  }
+}

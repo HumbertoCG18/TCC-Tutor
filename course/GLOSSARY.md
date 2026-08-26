@@ -29,7 +29,7 @@
 
 ## 1.2 Argumento Diagonal de Cantor e Conjuntos Incontáveis
 **Definição:** Conceito central de esta unidade que deve ser reconhecido e usado corretamente nas respostas e revisões.
-**Sinônimos aceitos:** —
+**Sinônimos aceitos:** diagonalização, diagonalização de Cantor, argumento da diagonalização, argumento diagonal, incontável, conjuntos incontáveis
 **Não confundir com:** —
 **Aparece em:** UNIDADE 01 — Conjuntos Enumeráveis e Funções Recursivas
 
@@ -47,7 +47,7 @@
 
 ## 2.2 Linguagens Reconhecíveis e Decidíveis
 **Definição:** Conceito central de esta unidade que deve ser reconhecido e usado corretamente nas respostas e revisões.
-**Sinônimos aceitos:** —
+**Sinônimos aceitos:** Turing-reconhecível, Turing-decidível, recursivamente enumerável, linguagem recursiva, linguagens decidíveis, linguagens reconhecíveis
 **Não confundir com:** —
 **Aparece em:** UNIDADE 02 — Turing-Computabilidade
 
@@ -59,13 +59,13 @@
 
 ## 2.4 Conjectura de Church-Turing
 **Definição:** Conceito central de esta unidade que deve ser reconhecido e usado corretamente nas respostas e revisões.
-**Sinônimos aceitos:** —
+**Sinônimos aceitos:** tese de Church-Turing
 **Não confundir com:** —
 **Aparece em:** UNIDADE 02 — Turing-Computabilidade
 
 ## 2.5 Máquinas de Turing Universais
 **Definição:** Linguagens Reconhecíveis e Linguagens Decidíveis; Máquinas de Turing Universais.
-**Sinônimos aceitos:** —
+**Sinônimos aceitos:** máquina de Turing universal, MT universal, máquina universal
 **Não confundir com:** —
 **Aparece em:** UNIDADE 02 — Turing-Computabilidade
 
