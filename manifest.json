@@ -333,7 +333,6 @@
         "bloco-13",
         "bloco-14",
         "bloco-16",
-        "bloco-17",
         "bloco-18",
         "bloco-19",
         "bloco-22",
@@ -345,10 +344,7 @@
         "bloco-28",
         "bloco-29",
         "bloco-30",
-        "bloco-31",
-        "bloco-32",
-        "bloco-33",
-        "bloco-35"
+        "bloco-33"
       ]
     },
     {
@@ -6648,7 +6644,7 @@
       "category": "material-de-aula"
     }
   ],
-  "updated_at": "2026-08-26T09:20:08",
+  "updated_at": "2026-08-27T01:34:32",
   "failed_entries": [],
   "turma": "031",
   "schedule_url": "https://sarc.pucrs.br/Default/Export.aspx?id=9b679f12-2101-4a43-a8d4-d516cb198d04&ano=2026&sem=1"
