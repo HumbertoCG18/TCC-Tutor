@@ -14,8 +14,8 @@
 | Faixa | Materiais |
 |---|---|
 | alta | 2 |
-| media | 16 |
-| baixa | 8 |
+| media | 17 |
+| baixa | 7 |
 
 ## Materiais de baixa confiança (revisar)
 
@@ -60,7 +60,7 @@
     - candidato `bloco-02` (score —)
 - **Aula 16 - Exemplo de Prova para Revisão** — bloco `bloco-16` (faixa media, conf 0.29, auto)
     - candidato `bloco-16` (score —)
-- **Aula 06 - Revisão Alfabeto, Cadeia, Linguagem, Hierarquia de Chomsky, Lemas e Propriedades de Autômatos** — bloco `bloco-05` (faixa baixa, conf 0.08, auto)
+- **Aula 06 - Revisão Alfabeto, Cadeia, Linguagem, Hierarquia de Chomsky, Lemas e Propriedades de Autômatos** — bloco `bloco-05` (faixa media, conf 0.43, auto)
     - candidato `bloco-05` (score —)
 - **Aula 09 - Variações de Máquinas de Turing** — bloco `bloco-08` (faixa baixa, conf 0.01, auto)
     - candidato `bloco-08` (score —)

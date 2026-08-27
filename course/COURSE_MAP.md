@@ -24,7 +24,6 @@
 - [ ] 3.2 Entscheidungsproblem e Introdução à Reducibilidade de Problemas
 - [ ] 3.3 Decidibilidade de Teorias Lógicas
 - [ ] 3.4 Teoremas de Gödel
-- 🧪 Tambem cobre esta unidade: `Aula 06 - Revisão Alfabeto, Cadeia, Linguagem, Hierarquia de Chomsky, Lemas e Propriedades de Autômatos`, `Aula 07 - Máquinas de Turing e Linguagens Recursivamente Enumeráveis`
 
 ### UNIDADE 04 — Hierarquia de Classes de Complexidade de Problemas Computacionais
 - [ ] 4.1 Tipos de Problemas Computacionais
@@ -42,7 +41,6 @@
   - [ ] 4.6.2 Exemplos de Problemas em PSPACE
   - [ ] 4.6.3 Provas de PSPACE-Completude
 - [ ] 4.7 Intratabilidade
-- 🧪 Tambem cobre esta unidade: `Aula 06 - Revisão Alfabeto, Cadeia, Linguagem, Hierarquia de Chomsky, Lemas e Propriedades de Autômatos`, `Aula 12 - Entscheidungsproblem`
 
 ## Timeline — Cronograma x Unidades
 

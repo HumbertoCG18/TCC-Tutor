@@ -33,7 +33,6 @@
       "tags": "",
       "manual_tags": [],
       "auto_tags": [
-        "ferramenta:lemas",
         "topico:classe-np",
         "topico:definicao",
         "topico:definicao-da-classe",
@@ -176,17 +175,9 @@
       "coverage_units": [
         {
           "unit_slug": "unidade-04-hierarquia-de-classes-de-complexidade-de-problemas-computacionais",
-          "topics": [
-            "4.2 complexidade de tempo e de espaco",
-            "4.3 hierarquia de classes de complexidade de problemas",
-            "classes de problemas e complexidade computacional",
-            "complexidade de tempo classes p e np",
-            "complexidade de tempo e de espaco",
-            "da computabilidade a complexidade",
-            "hierarquia de classes de complexidade de problemas"
-          ],
-          "confidence": 0.7,
-          "rule": "card"
+          "topics": [],
+          "confidence": 0.5,
+          "rule": "unidade-atribuida"
         }
       ],
       "computed_block_method": "concept-fused"
@@ -357,7 +348,6 @@
       "tags": "",
       "manual_tags": [],
       "auto_tags": [
-        "ferramenta:lemas",
         "ferramenta:propriedades",
         "topico:definicao",
         "tipo:material-base",
@@ -520,7 +510,6 @@
       "tags": "",
       "manual_tags": [],
       "auto_tags": [
-        "ferramenta:lemas",
         "bloco:bloco-19",
         "unit:unidade-04-hierarquia-de-classes-de-complexidade-de-problemas-computacionais",
         "subunit:provas-de-np-completude"
@@ -593,7 +582,7 @@
       "computed_block_confidence": 0.040405405405405596,
       "computed_block_band": "baixa",
       "unit_match_reasons": [
-        "winner_score=69.14",
+        "winner_score=69.13",
         "topic_score=22.82",
         "herdada_do_vizinho=bloco-22"
       ],
@@ -1675,19 +1664,12 @@
       ],
       "coverage_units": [
         {
-          "unit_slug": "unidade-03-problemas-indecidiveis",
+          "unit_slug": "unidade-02-turing-computabilidade",
           "topics": [
-            "3.2 entscheidungsproblem e introducao a reducibilidade de problemas",
-            "entscheidungsproblem e introducao a reducibilidade de problemas"
+            "maquinas de turing"
           ],
           "confidence": 0.7,
           "rule": "card"
-        },
-        {
-          "unit_slug": "unidade-02-turing-computabilidade",
-          "topics": [],
-          "confidence": 0.5,
-          "rule": "unidade-atribuida"
         }
       ],
       "computed_block_method": "concept-fused"
@@ -2326,7 +2308,6 @@
       "tags": "",
       "manual_tags": [],
       "auto_tags": [
-        "ferramenta:lemas",
         "tipo:material-base",
         "bloco:bloco-03",
         "unit:unidade-03-problemas-indecidiveis"
@@ -2470,12 +2451,6 @@
           ],
           "confidence": 0.7,
           "rule": "card"
-        },
-        {
-          "unit_slug": "unidade-04-hierarquia-de-classes-de-complexidade-de-problemas-computacionais",
-          "topics": [],
-          "confidence": 0.5,
-          "rule": "unidade-atribuida"
         }
       ],
       "computed_block_method": "concept-fused"
@@ -2490,7 +2465,6 @@
       "tags": "",
       "manual_tags": [],
       "auto_tags": [
-        "ferramenta:lemas",
         "ferramenta:propriedades",
         "topico:definicao",
         "topico:problemas-sobre-linguagens-de-mts",
@@ -2966,7 +2940,6 @@
       "tags": "",
       "manual_tags": [],
       "auto_tags": [
-        "ferramenta:lemas",
         "topico:classes-de-problemas-e-complexidade-computacional",
         "topico:da-computabilidade-a-complexidade",
         "tipo:material-base",
@@ -3149,17 +3122,9 @@
       "coverage_units": [
         {
           "unit_slug": "unidade-04-hierarquia-de-classes-de-complexidade-de-problemas-computacionais",
-          "topics": [
-            "4.2 complexidade de tempo e de espaco",
-            "4.3 hierarquia de classes de complexidade de problemas",
-            "classes de problemas e complexidade computacional",
-            "complexidade de tempo classes p e np",
-            "complexidade de tempo e de espaco",
-            "da computabilidade a complexidade",
-            "hierarquia de classes de complexidade de problemas"
-          ],
-          "confidence": 0.7,
-          "rule": "card"
+          "topics": [],
+          "confidence": 0.5,
+          "rule": "unidade-atribuida"
         }
       ],
       "moodle_label": "Aula 16 - Classes de Problemas e Complexidade",
@@ -4079,13 +4044,12 @@
       "tags": "",
       "manual_tags": [],
       "auto_tags": [
-        "ferramenta:alfabeto",
-        "ferramenta:cadeia",
-        "ferramenta:chomsky",
         "ferramenta:hierarquia",
-        "ferramenta:lemas",
         "ferramenta:linguagem",
-        "bloco:bloco-06",
+        "ferramenta:propriedades",
+        "topico:definicao",
+        "tipo:material-base",
+        "bloco:bloco-05",
         "unit:unidade-01-conjuntos-enumeraveis-e-funcoes-recursivas",
         "subunit:argumento-diagonal-de-cantor-e-conjuntos-incontaveis"
       ],
@@ -4281,15 +4245,15 @@
         "markdown_path": "staging/markdown-auto/datalab/aula-06-revisao-alfabeto-cadeia-linguagem-hierarquia-de-chomsky-lemas-e-propriedades-de-automatos/aula-06-revisao-alfabeto-cadeia-linguagem-hierarquia-de-chomsky-lemas-e-propriedades-de-automatos.md"
       },
       "computed_unit_slug": "unidade-01-conjuntos-enumeraveis-e-funcoes-recursivas",
-      "computed_block_id": "cbf887a2-7073-441b-b695-8b3d8d1d1b86",
-      "computed_block_confidence": 0.08411016949152543,
-      "computed_block_band": "baixa",
+      "computed_block_id": "ee594a67-ac2f-480c-ae87-9f4bdcdb5f52",
+      "computed_block_confidence": 0.43269230769230765,
+      "computed_block_band": "media",
       "unit_match_reasons": [
-        "winner_score=45.31",
-        "topic_score=8.11",
+        "winner_score=45.63",
+        "topic_score=8.29",
         "herdada_do_bloco=bloco-05"
       ],
-      "unit_match_confidence": 0.40765812992069506,
+      "unit_match_confidence": 0.4118555914777829,
       "unit_block_conflict": {},
       "computed_subunit_slug": "argumento-diagonal-de-cantor-e-conjuntos-incontaveis",
       "subunit_match_reasons": [
@@ -4311,10 +4275,9 @@
       ],
       "coverage_units": [
         {
-          "unit_slug": "unidade-03-problemas-indecidiveis",
+          "unit_slug": "unidade-02-turing-computabilidade",
           "topics": [
-            "3.2 entscheidungsproblem e introducao a reducibilidade de problemas",
-            "entscheidungsproblem e introducao a reducibilidade de problemas"
+            "maquinas de turing"
           ],
           "confidence": 0.7,
           "rule": "card"
@@ -6613,7 +6576,7 @@
       "category": "material-de-aula"
     }
   ],
-  "updated_at": "2026-08-27T02:20:19",
+  "updated_at": "2026-08-27T02:54:38",
   "failed_entries": [],
   "turma": "031",
   "schedule_url": "https://sarc.pucrs.br/Default/Export.aspx?id=9b679f12-2101-4a43-a8d4-d516cb198d04&ano=2026&sem=1"
