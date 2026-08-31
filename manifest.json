@@ -273,11 +273,11 @@
       ],
       "unit_match_confidence": 0.3967196277230552,
       "unit_block_conflict": {},
-      "computed_subunit_slug": "conjuntos-enumeraveis",
+      "computed_subunit_slug": "",
       "subunit_match_reasons": [
-        "winner_score=16.94"
+        "meta-material:meta"
       ],
-      "subunit_match_confidence": 0.4274498229043684,
+      "subunit_match_confidence": 0.0,
       "coverage_units": [
         {
           "unit_slug": "unidade-01-conjuntos-enumeraveis-e-funcoes-recursivas",
@@ -3664,11 +3664,11 @@
       ],
       "unit_match_confidence": 0.46666961731540446,
       "unit_block_conflict": {},
-      "computed_subunit_slug": "teoremas-de-godel",
+      "computed_subunit_slug": "",
       "subunit_match_reasons": [
-        "winner_score=3.04"
+        "revisao-sem-assunto-dominante (winner_score=3.04 < 7.0)"
       ],
-      "subunit_match_confidence": 0.5976331360946746,
+      "subunit_match_confidence": 0.0,
       "approved_markdown": "exercises/lists/aula-16-exemplo-de-prova-para-revisao.md",
       "curated_markdown": "exercises/lists/aula-16-exemplo-de-prova-para-revisao.md",
       "approved_source_markdown": "staging/markdown-auto/datalab/aula-16-exemplo-de-prova-para-revisao/aula-16-exemplo-de-prova-para-revisao.md",
@@ -4065,8 +4065,7 @@
         "topico:definicao",
         "tipo:material-base",
         "bloco:bloco-05",
-        "unit:unidade-01-conjuntos-enumeraveis-e-funcoes-recursivas",
-        "subunit:argumento-diagonal-de-cantor-e-conjuntos-incontaveis"
+        "unit:unidade-01-conjuntos-enumeraveis-e-funcoes-recursivas"
       ],
       "manual_unit_slug": "",
       "manual_timeline_block_id": "",
@@ -4270,11 +4269,11 @@
       ],
       "unit_match_confidence": 0.29172034210541686,
       "unit_block_conflict": {},
-      "computed_subunit_slug": "argumento-diagonal-de-cantor-e-conjuntos-incontaveis",
+      "computed_subunit_slug": "",
       "subunit_match_reasons": [
-        "winner_score=3.24"
+        "revisao-sem-assunto-dominante (winner_score=3.24 < 7.0)"
       ],
-      "subunit_match_confidence": 0.6004932182490752,
+      "subunit_match_confidence": 0.0,
       "approved_markdown": "content/curated/aula-06-revisao-alfabeto-cadeia-linguagem-hierarquia-de-chomsky-lemas-e-propriedades-de-automatos.md",
       "curated_markdown": "content/curated/aula-06-revisao-alfabeto-cadeia-linguagem-hierarquia-de-chomsky-lemas-e-propriedades-de-automatos.md",
       "approved_source_markdown": "staging/markdown-auto/datalab/aula-06-revisao-alfabeto-cadeia-linguagem-hierarquia-de-chomsky-lemas-e-propriedades-de-automatos/aula-06-revisao-alfabeto-cadeia-linguagem-hierarquia-de-chomsky-lemas-e-propriedades-de-automatos.md",
@@ -6593,7 +6592,7 @@
       "category": "material-de-aula"
     }
   ],
-  "updated_at": "2026-08-31T04:11:04",
+  "updated_at": "2026-08-31T14:57:05",
   "failed_entries": [],
   "turma": "031",
   "schedule_url": "https://sarc.pucrs.br/Default/Export.aspx?id=9b679f12-2101-4a43-a8d4-d516cb198d04&ano=2026&sem=1"
