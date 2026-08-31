@@ -2803,6 +2803,7 @@
       "temporal_block_window": [
         "bloco-25"
       ],
+      "duplicate_of": "3dm-caetano-gabriel-e-gustavo",
       "computed_block_method": "concept-fused"
     },
     {
@@ -2951,6 +2952,7 @@
           "rule": "unidade-atribuida"
         }
       ],
+      "duplicate_of": "programacao-inteira-01-20260617-154423-0000",
       "computed_block_method": "concept-fused"
     },
     {
@@ -6591,7 +6593,7 @@
       "category": "material-de-aula"
     }
   ],
-  "updated_at": "2026-08-31T03:08:28",
+  "updated_at": "2026-08-31T04:11:04",
   "failed_entries": [],
   "turma": "031",
   "schedule_url": "https://sarc.pucrs.br/Default/Export.aspx?id=9b679f12-2101-4a43-a8d4-d516cb198d04&ano=2026&sem=1"
