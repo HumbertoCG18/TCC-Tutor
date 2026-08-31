@@ -1147,7 +1147,6 @@
       "temporal_block_window": [
         "bloco-25"
       ],
-      "computed_block_method": "concept-fused",
       "coverage_units": [
         {
           "unit_slug": "unidade-04-hierarquia-de-classes-de-complexidade-de-problemas-computacionais",
@@ -1155,7 +1154,8 @@
           "confidence": 0.5,
           "rule": "unidade-atribuida"
         }
-      ]
+      ],
+      "computed_block_method": "concept-fused"
     },
     {
       "id": "aula-04-funcoes-computaveis-funcoes-recursivas-parciais-pdf",
@@ -2592,7 +2592,6 @@
       "temporal_block_window": [
         "bloco-12"
       ],
-      "computed_block_method": "concept-fused",
       "coverage_units": [
         {
           "unit_slug": "unidade-02-turing-computabilidade",
@@ -2600,7 +2599,8 @@
           "confidence": 0.5,
           "rule": "unidade-atribuida"
         }
-      ]
+      ],
+      "computed_block_method": "concept-fused"
     },
     {
       "id": "3d-matching",
@@ -2943,7 +2943,6 @@
       "moodle_label": "Integer Programming 0/1",
       "posting_date": "2026-06-17",
       "posting_date_created": "2026-06-17",
-      "computed_block_method": "concept-fused",
       "coverage_units": [
         {
           "unit_slug": "unidade-04-hierarquia-de-classes-de-complexidade-de-problemas-computacionais",
@@ -2951,7 +2950,8 @@
           "confidence": 0.5,
           "rule": "unidade-atribuida"
         }
-      ]
+      ],
+      "computed_block_method": "concept-fused"
     },
     {
       "id": "aula-16-classes-de-problemas-e-complexidade-pdf",
@@ -6591,7 +6591,7 @@
       "category": "material-de-aula"
     }
   ],
-  "updated_at": "2026-08-31T01:35:09",
+  "updated_at": "2026-08-31T03:08:28",
   "failed_entries": [],
   "turma": "031",
   "schedule_url": "https://sarc.pucrs.br/Default/Export.aspx?id=9b679f12-2101-4a43-a8d4-d516cb198d04&ano=2026&sem=1"
