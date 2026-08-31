@@ -2035,16 +2035,16 @@
       "computed_block_confidence": 0.23931623931623935,
       "computed_block_band": "media",
       "unit_match_reasons": [
-        "winner_score=87.64",
-        "topic_score=65.73"
+        "winner_score=102.70",
+        "topic_score=81.19"
       ],
-      "unit_match_confidence": 0.7517207173763548,
+      "unit_match_confidence": 0.799005806033644,
       "unit_block_conflict": {},
       "computed_subunit_slug": "linguagens-reconheciveis-e-decidiveis",
       "subunit_match_reasons": [
-        "winner_score=37.45"
+        "winner_score=45.16"
       ],
-      "subunit_match_confidence": 0.38046339757247594,
+      "subunit_match_confidence": 0.48620294142394677,
       "approved_markdown": "content/curated/aula-10-linguagens-reconhecıveis-e-linguagens-decidıveis-pdf.md",
       "curated_markdown": "content/curated/aula-10-linguagens-reconhecıveis-e-linguagens-decidıveis-pdf.md",
       "approved_source_markdown": "staging/markdown-auto/datalab/aula-10-linguagens-reconhecıveis-e-linguagens-decidıveis-pdf/aula-10-linguagens-reconhecıveis-e-linguagens-decidıveis-pdf.md",
@@ -6592,7 +6592,7 @@
       "category": "material-de-aula"
     }
   ],
-  "updated_at": "2026-08-31T14:57:05",
+  "updated_at": "2026-08-31T16:22:44",
   "failed_entries": [],
   "turma": "031",
   "schedule_url": "https://sarc.pucrs.br/Default/Export.aspx?id=9b679f12-2101-4a43-a8d4-d516cb198d04&ano=2026&sem=1"
