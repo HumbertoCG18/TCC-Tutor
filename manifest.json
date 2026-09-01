@@ -39,7 +39,8 @@
         "topico:definicao-formal-da-classe-p",
         "tipo:material-base",
         "bloco:bloco-19",
-        "unit:unidade-04-hierarquia-de-classes-de-complexidade-de-problemas-computacionais"
+        "unit:unidade-04-hierarquia-de-classes-de-complexidade-de-problemas-computacionais",
+        "subunit:definicao-da-classe"
       ],
       "manual_unit_slug": "",
       "manual_timeline_block_id": "",
@@ -353,7 +354,8 @@
         "topico:definicao",
         "tipo:material-base",
         "bloco:bloco-19",
-        "unit:unidade-04-hierarquia-de-classes-de-complexidade-de-problemas-computacionais"
+        "unit:unidade-04-hierarquia-de-classes-de-complexidade-de-problemas-computacionais",
+        "subunit:reducao-polinomial-de-problemas"
       ],
       "manual_unit_slug": "",
       "manual_timeline_block_id": "",
@@ -632,7 +634,8 @@
       "auto_tags": [
         "topico:definicao",
         "bloco:bloco-19",
-        "unit:unidade-04-hierarquia-de-classes-de-complexidade-de-problemas-computacionais"
+        "unit:unidade-04-hierarquia-de-classes-de-complexidade-de-problemas-computacionais",
+        "subunit:definicao-da-classe"
       ],
       "manual_unit_slug": "",
       "manual_timeline_block_id": "",
@@ -1021,7 +1024,8 @@
       "manual_tags": [],
       "auto_tags": [
         "bloco:bloco-19",
-        "unit:unidade-04-hierarquia-de-classes-de-complexidade-de-problemas-computacionais"
+        "unit:unidade-04-hierarquia-de-classes-de-complexidade-de-problemas-computacionais",
+        "subunit:reducao-polinomial-de-problemas"
       ],
       "manual_unit_slug": "",
       "manual_timeline_block_id": "",
@@ -1356,7 +1360,8 @@
       "auto_tags": [
         "topico:parte-1-teoria-de-conjuntos",
         "bloco:bloco-03",
-        "unit:unidade-01-conjuntos-enumeraveis-e-funcoes-recursivas"
+        "unit:unidade-01-conjuntos-enumeraveis-e-funcoes-recursivas",
+        "subunit:funcoes-recursivas-primitivas-e-funcoes-recursivas-parciais"
       ],
       "manual_unit_slug": "",
       "manual_timeline_block_id": "",
@@ -1481,7 +1486,8 @@
         "topico:maquinas-de-turing",
         "tipo:material-base",
         "bloco:bloco-05",
-        "unit:unidade-02-turing-computabilidade"
+        "unit:unidade-02-turing-computabilidade",
+        "subunit:maquinas-de-turing"
       ],
       "manual_unit_slug": "",
       "manual_timeline_block_id": "",
@@ -1886,7 +1892,8 @@
         "topico:recapitulacao-classes-de-linguagens",
         "tipo:material-base",
         "bloco:bloco-09",
-        "unit:unidade-02-turing-computabilidade"
+        "unit:unidade-02-turing-computabilidade",
+        "subunit:linguagens-reconheciveis-e-decidiveis"
       ],
       "manual_unit_slug": "",
       "manual_timeline_block_id": "",
@@ -2319,7 +2326,8 @@
       "auto_tags": [
         "tipo:material-base",
         "bloco:bloco-03",
-        "unit:unidade-03-problemas-indecidiveis"
+        "unit:unidade-03-problemas-indecidiveis",
+        "subunit:prova-da-indecidibilidade-do-problema-da-parada"
       ],
       "manual_unit_slug": "",
       "manual_timeline_block_id": "",
@@ -2616,7 +2624,8 @@
         "topico:definicao",
         "tipo:material-base",
         "bloco:bloco-19",
-        "unit:unidade-04-hierarquia-de-classes-de-complexidade-de-problemas-computacionais"
+        "unit:unidade-04-hierarquia-de-classes-de-complexidade-de-problemas-computacionais",
+        "subunit:definicao-da-classe"
       ],
       "manual_unit_slug": "",
       "notes": "",
@@ -2818,7 +2827,8 @@
       "manual_tags": [],
       "auto_tags": [
         "bloco:bloco-19",
-        "unit:unidade-04-hierarquia-de-classes-de-complexidade-de-problemas-computacionais"
+        "unit:unidade-04-hierarquia-de-classes-de-complexidade-de-problemas-computacionais",
+        "subunit:reducao-polinomial-de-problemas"
       ],
       "manual_unit_slug": "",
       "manual_timeline_block_id": "",
@@ -2970,7 +2980,8 @@
         "topico:da-computabilidade-a-complexidade",
         "tipo:material-base",
         "bloco:bloco-19",
-        "unit:unidade-04-hierarquia-de-classes-de-complexidade-de-problemas-computacionais"
+        "unit:unidade-04-hierarquia-de-classes-de-complexidade-de-problemas-computacionais",
+        "subunit:hierarquia-de-classes-de-complexidade-de-problemas"
       ],
       "manual_unit_slug": "",
       "manual_timeline_block_id": "",
@@ -3171,7 +3182,8 @@
         "topico:da-computabilidade-a-complexidade",
         "tipo:material-base",
         "bloco:bloco-02",
-        "unit:unidade-01-conjuntos-enumeraveis-e-funcoes-recursivas"
+        "unit:unidade-01-conjuntos-enumeraveis-e-funcoes-recursivas",
+        "subunit:conjuntos-enumeraveis"
       ],
       "manual_unit_slug": "",
       "manual_timeline_block_id": "",
@@ -6593,7 +6605,7 @@
       "category": "material-de-aula"
     }
   ],
-  "updated_at": "2026-09-01T00:01:58",
+  "updated_at": "2026-09-01T00:54:45",
   "failed_entries": [],
   "turma": "031",
   "schedule_url": "https://sarc.pucrs.br/Default/Export.aspx?id=9b679f12-2101-4a43-a8d4-d516cb198d04&ano=2026&sem=1"
