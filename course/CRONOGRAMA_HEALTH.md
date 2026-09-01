@@ -13,8 +13,8 @@
 
 | Faixa | Materiais |
 |---|---|
-| alta | 2 |
-| media | 16 |
+| alta | 3 |
+| media | 15 |
 | baixa | 8 |
 
 ## Materiais de baixa confiança (revisar)
@@ -31,7 +31,7 @@
     - candidato `bloco-25` (score —)
 - **Programação Inteira 01_20260617_154423_0000** — bloco `bloco-25` (faixa media, conf 0.37, auto)
     - candidato `bloco-25` (score —)
-- **Aula 04 - Funções Computáveis Funções Recursivas Parciais** — bloco `bloco-03` (faixa media, conf 0.44, auto)
+- **Aula 04 - Funções Computáveis Funções Recursivas Parciais** — bloco `bloco-03` (faixa baixa, conf 0.09, auto)
     - candidato `bloco-03` (score —)
 - **T1 - Enunciado** — bloco `bloco-04` (faixa media, conf 0.29, auto)
     - candidato `bloco-03` (score —)
@@ -42,7 +42,7 @@
     - candidato `bloco-06` (score —)
 - **Aula 10 - Linguagens Reconhecı́veis e Linguagens Decidı́veis** — bloco `bloco-09` (faixa baixa, conf 0.15, auto)
     - candidato `bloco-09` (score —)
-- **Aula 11 - O Problema da Parada (Halting Problem, Halteproblem)** — bloco `bloco-10` (faixa baixa, conf 0.11, auto)
+- **Aula 11 - O Problema da Parada (Halting Problem, Halteproblem)** — bloco `bloco-10` (faixa baixa, conf 0.10, auto)
     - candidato `bloco-10` (score —)
 - **Aula 12 - Entscheidungsproblem** — bloco `bloco-11` (faixa media, conf 0.38, auto)
     - candidato `bloco-11` (score —)
@@ -54,10 +54,8 @@
     - candidato `bloco-25` (score —)
 - **Aula 16 - Classes de Problemas e Complexidade** — bloco `bloco-19` (faixa media, conf 0.37, auto)
     - candidato `bloco-19` (score —)
-- **Aula 01 - Apresentação da Disciplina, Revisão de Teoria de Conjuntos e Enumerabilidade** — bloco `bloco-01` (faixa baixa, conf 0.17, auto)
+- **Aula 01 - Apresentação da Disciplina, Revisão de Teoria de Conjuntos e Enumerabilidade** — bloco `bloco-01` (faixa media, conf 0.49, auto)
     - candidato `bloco-01` (score —)
-- **Aula 02 - Conjuntos Enumeráveis e Não-Enumeráveis; Argumento da Diagonalização de Cantor** — bloco `bloco-02` (faixa media, conf 0.37, auto)
-    - candidato `bloco-02` (score —)
 - **Aula 16 - Exemplo de Prova para Revisão** — bloco `bloco-16` (faixa media, conf 0.29, auto)
     - candidato `bloco-16` (score —)
 - **Aula 06 - Revisão Alfabeto, Cadeia, Linguagem, Hierarquia de Chomsky, Lemas e Propriedades de Autômatos** — bloco `bloco-05` (faixa media, conf 0.45, auto)
@@ -66,7 +64,7 @@
     - candidato `bloco-08` (score —)
 - **Aula 14 - Problema da Correspondência de Post** — bloco `bloco-13` (faixa baixa, conf 0.06, auto)
     - candidato `bloco-13` (score —)
-- **Aula 15 - Teoremas de Incompletude de Gödel** — bloco `bloco-14` (faixa media, conf 0.31, auto)
+- **Aula 15 - Teoremas de Incompletude de Gödel** — bloco `bloco-14` (faixa media, conf 0.47, auto)
     - candidato `bloco-14` (score —)
 
 ## Blocos pobres (0 materiais)
