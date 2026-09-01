@@ -14,8 +14,8 @@
 | Faixa | Materiais |
 |---|---|
 | alta | 2 |
-| media | 17 |
-| baixa | 7 |
+| media | 16 |
+| baixa | 8 |
 
 ## Materiais de baixa confiança (revisar)
 
@@ -36,11 +36,11 @@
 - **T1 - Enunciado** — bloco `bloco-04` (faixa media, conf 0.29, auto)
     - candidato `bloco-03` (score —)
     - candidato `bloco-04` (score —)
-- **Aula 07 - Máquinas de Turing e Linguagens Recursivamente Enumeráveis** — bloco `bloco-06` (faixa media, conf 0.38, auto)
+- **Aula 07 - Máquinas de Turing e Linguagens Recursivamente Enumeráveis** — bloco `bloco-06` (faixa media, conf 0.27, auto)
     - candidato `bloco-06` (score —)
 - **Aula 08 - Máquinas de Turing como Processadoras de Funções** — bloco `bloco-06` (faixa baixa, conf 0.09, auto)
     - candidato `bloco-06` (score —)
-- **Aula 10 - Linguagens Reconhecı́veis e Linguagens Decidı́veis** — bloco `bloco-09` (faixa media, conf 0.24, auto)
+- **Aula 10 - Linguagens Reconhecı́veis e Linguagens Decidı́veis** — bloco `bloco-09` (faixa baixa, conf 0.15, auto)
     - candidato `bloco-09` (score —)
 - **Aula 11 - O Problema da Parada (Halting Problem, Halteproblem)** — bloco `bloco-10` (faixa baixa, conf 0.11, auto)
     - candidato `bloco-10` (score —)
@@ -60,7 +60,7 @@
     - candidato `bloco-02` (score —)
 - **Aula 16 - Exemplo de Prova para Revisão** — bloco `bloco-16` (faixa media, conf 0.29, auto)
     - candidato `bloco-16` (score —)
-- **Aula 06 - Revisão Alfabeto, Cadeia, Linguagem, Hierarquia de Chomsky, Lemas e Propriedades de Autômatos** — bloco `bloco-05` (faixa media, conf 0.43, auto)
+- **Aula 06 - Revisão Alfabeto, Cadeia, Linguagem, Hierarquia de Chomsky, Lemas e Propriedades de Autômatos** — bloco `bloco-05` (faixa media, conf 0.45, auto)
     - candidato `bloco-05` (score —)
 - **Aula 09 - Variações de Máquinas de Turing** — bloco `bloco-08` (faixa baixa, conf 0.01, auto)
     - candidato `bloco-08` (score —)
