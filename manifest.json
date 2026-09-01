@@ -351,6 +351,7 @@
       "manual_tags": [],
       "auto_tags": [
         "topico:definicao",
+        "topico:reducao-polinomial-de-problemas",
         "tipo:material-base",
         "bloco:bloco-19",
         "unit:unidade-04-hierarquia-de-classes-de-complexidade-de-problemas-computacionais",
@@ -462,16 +463,16 @@
       "computed_block_confidence": 0.4130434782608695,
       "computed_block_band": "media",
       "unit_match_reasons": [
-        "winner_score=64.15",
-        "topic_score=29.19"
+        "winner_score=58.08",
+        "topic_score=29.91"
       ],
       "unit_match_confidence": 0.95,
       "unit_block_conflict": {},
       "computed_subunit_slug": "reducao-polinomial-de-problemas",
       "subunit_match_reasons": [
-        "winner_score=8.69"
+        "winner_score=9.23"
       ],
-      "subunit_match_confidence": 0.16228413539028325,
+      "subunit_match_confidence": 0.2116063882809282,
       "approved_markdown": "content/curated/aula-17-np-completude-pdf.md",
       "curated_markdown": "content/curated/aula-17-np-completude-pdf.md",
       "approved_source_markdown": "staging/markdown-auto/datalab/aula-17-np-completude-pdf/aula-17-np-completude-pdf.md",
@@ -512,6 +513,7 @@
       "tags": "",
       "manual_tags": [],
       "auto_tags": [
+        "topico:reducao-polinomial-de-problemas",
         "bloco:bloco-19",
         "unit:unidade-04-hierarquia-de-classes-de-complexidade-de-problemas-computacionais",
         "subunit:provas-de-np-completude"
@@ -584,8 +586,8 @@
       "computed_block_confidence": 0.040405405405405596,
       "computed_block_band": "baixa",
       "unit_match_reasons": [
-        "winner_score=74.92",
-        "topic_score=29.63",
+        "winner_score=68.49",
+        "topic_score=29.91",
         "herdada_do_vizinho=bloco-22"
       ],
       "unit_match_confidence": 0.95,
@@ -594,7 +596,7 @@
       "subunit_match_reasons": [
         "winner_score=22.82"
       ],
-      "subunit_match_confidence": 0.6193856535646992,
+      "subunit_match_confidence": 0.5955742517856362,
       "approved_markdown": "content/curated/trabalho-t2-enunciado.md",
       "curated_markdown": "content/curated/trabalho-t2-enunciado.md",
       "approved_source_markdown": "staging/markdown-auto/datalab/trabalho-t2-enunciado/trabalho-t2-enunciado.md",
@@ -1171,6 +1173,7 @@
       "manual_tags": [],
       "auto_tags": [
         "topico:funcoes-computaveis-funcoes-recursivas-parciais",
+        "topico:funcoes-recursivas-primitivas-e-funcoes-recursivas-parciais",
         "tipo:material-base",
         "bloco:bloco-03",
         "unit:unidade-01-conjuntos-enumeraveis-e-funcoes-recursivas",
@@ -1303,16 +1306,16 @@
       "computed_block_confidence": 0.4380403458213256,
       "computed_block_band": "media",
       "unit_match_reasons": [
-        "winner_score=98.08",
-        "topic_score=38.38"
+        "winner_score=71.32",
+        "topic_score=38.92"
       ],
-      "unit_match_confidence": 0.5041608695878734,
+      "unit_match_confidence": 0.5110829085827031,
       "unit_block_conflict": {},
       "computed_subunit_slug": "funcoes-recursivas-primitivas-e-funcoes-recursivas-parciais",
       "subunit_match_reasons": [
-        "winner_score=13.78"
+        "winner_score=14.14"
       ],
-      "subunit_match_confidence": 0.6373109633972889,
+      "subunit_match_confidence": 0.6466196247012741,
       "approved_markdown": "content/curated/aula-04-funcoes-computaveis-funcoes-recursivas-parciais-pdf.md",
       "curated_markdown": "content/curated/aula-04-funcoes-computaveis-funcoes-recursivas-parciais-pdf.md",
       "approved_source_markdown": "staging/markdown-auto/datalab/aula-04-funcoes-computaveis-funcoes-recursivas-parciais-pdf/aula-04-funcoes-computaveis-funcoes-recursivas-parciais-pdf.md",
@@ -1356,6 +1359,7 @@
       "tags": "",
       "manual_tags": [],
       "auto_tags": [
+        "topico:funcoes-recursivas-primitivas-e-funcoes-recursivas-parciais",
         "topico:parte-1-teoria-de-conjuntos",
         "bloco:bloco-03",
         "unit:unidade-01-conjuntos-enumeraveis-e-funcoes-recursivas",
@@ -1429,17 +1433,17 @@
       "computed_block_confidence": 0.29090909090909084,
       "computed_block_band": "media",
       "unit_match_reasons": [
-        "winner_score=75.20",
-        "topic_score=46.10",
+        "winner_score=60.27",
+        "topic_score=46.82",
         "herdada_do_vizinho=bloco-03"
       ],
-      "unit_match_confidence": 0.7323129258485719,
+      "unit_match_confidence": 0.7197613026688995,
       "unit_block_conflict": {},
       "computed_subunit_slug": "funcoes-recursivas-primitivas-e-funcoes-recursivas-parciais",
       "subunit_match_reasons": [
-        "winner_score=15.59"
+        "winner_score=15.96"
       ],
-      "subunit_match_confidence": 0.28078501795792715,
+      "subunit_match_confidence": 0.297148229395174,
       "approved_markdown": "content/curated/t1-enunciado.md",
       "curated_markdown": "content/curated/t1-enunciado.md",
       "approved_source_markdown": "staging/markdown-auto/datalab/t1-enunciado/t1-enunciado.md",
@@ -6597,7 +6601,7 @@
       "category": "material-de-aula"
     }
   ],
-  "updated_at": "2026-09-01T01:18:45",
+  "updated_at": "2026-09-01T01:31:15",
   "failed_entries": [],
   "turma": "031",
   "schedule_url": "https://sarc.pucrs.br/Default/Export.aspx?id=9b679f12-2101-4a43-a8d4-d516cb198d04&ano=2026&sem=1"
