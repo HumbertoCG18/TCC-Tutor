@@ -310,38 +310,12 @@
         }
       ],
       "temporal_block_id": "667491f1-cffe-45f5-8b3f-29b0cec9d25a",
-      "temporal_block_method": "llm-funil",
+      "temporal_block_method": "meta-generica",
       "temporal_block_band": "media",
-      "temporal_block_flag": true,
-      "temporal_block_provider": "llm-funil",
+      "temporal_block_flag": false,
+      "temporal_block_provider": "meta-generica",
       "temporal_block_window": [
-        "bloco-01",
-        "bloco-02",
-        "bloco-03",
-        "bloco-04",
-        "bloco-05",
-        "bloco-06",
-        "bloco-08",
-        "bloco-09",
-        "bloco-10",
-        "bloco-11",
-        "bloco-12",
-        "bloco-13",
-        "bloco-14",
-        "bloco-16",
-        "bloco-18",
-        "bloco-19",
-        "bloco-22",
-        "bloco-23",
-        "bloco-24",
-        "bloco-25",
-        "bloco-26",
-        "bloco-27",
-        "bloco-28",
-        "bloco-29",
-        "bloco-30",
-        "bloco-32",
-        "bloco-33"
+        "bloco-01"
       ]
     },
     {
@@ -6611,7 +6585,7 @@
       "category": "material-de-aula"
     }
   ],
-  "updated_at": "2026-09-01T20:17:01",
+  "updated_at": "2026-09-01T23:43:16",
   "failed_entries": [],
   "turma": "031",
   "schedule_url": "https://sarc.pucrs.br/Default/Export.aspx?id=9b679f12-2101-4a43-a8d4-d516cb198d04&ano=2026&sem=1"
